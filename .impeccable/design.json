@@ -1,0 +1,63 @@
+{
+  "schemaVersion": 2,
+  "title": "Design System: Сборка",
+  "extensions": {
+    "shadows": [
+      {
+        "name": "artboard",
+        "value": "0 12px 32px #263c331c"
+      },
+      {
+        "name": "project-popover",
+        "value": "0 10px 30px #263c3326"
+      },
+      {
+        "name": "toast",
+        "value": "0 8px 20px #263c3326"
+      }
+    ],
+    "motion": [
+      {
+        "name": "state",
+        "value": "150ms ease; disabled under prefers-reduced-motion"
+      }
+    ],
+    "breakpoints": [
+      {
+        "name": "wide",
+        "value": "min-width:1600px"
+      },
+      {
+        "name": "compact-desktop",
+        "value": "max-width:1190px"
+      },
+      {
+        "name": "tablet",
+        "value": "max-width:960px"
+      },
+      {
+        "name": "phone",
+        "value": "max-width:680px"
+      },
+      {
+        "name": "narrow-phone",
+        "value": "max-width:370px"
+      }
+    ]
+  },
+  "narrative": {
+    "northStar": "Existing illustration-library visual world",
+    "overview": "Operate editor inheriting green chrome and source SVG assets.",
+    "rules": [
+      {
+        "name": "Palette boundary",
+        "body": "Editor tokens style controls; original palettes style artwork."
+      }
+    ]
+  },
+  "verification": {
+    "sourceReviewed": true,
+    "browserUiReviewed": false,
+    "compositionPreviewsReviewed": true
+  }
+}

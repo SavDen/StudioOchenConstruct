@@ -1,0 +1,39 @@
+{
+  "version": 1,
+  "width": 1080,
+  "height": 1080,
+  "format": "square",
+  "size": "L",
+  "palette": "peach",
+  "layout": "offset",
+  "background": "pattern",
+  "supporting": true,
+  "query": "Финансы и безопасность денег",
+  "scale": 0.501837427344768,
+  "items": [
+    {
+      "assetId": "phone",
+      "role": "background",
+      "uid": "imw0j45zwaz0zls",
+      "x": 129.6,
+      "y": 248.4,
+      "rotation": 0
+    },
+    {
+      "assetId": "coin",
+      "role": "main",
+      "uid": "imw0j45zwbuzw2p",
+      "x": 313.5470998108292,
+      "y": 689.2827854740168,
+      "rotation": 0
+    },
+    {
+      "assetId": "wallet",
+      "role": "main",
+      "uid": "imw0j45zwy6llps",
+      "x": 874.6013435822798,
+      "y": 464.4596180235608,
+      "rotation": 0
+    }
+  ]
+}

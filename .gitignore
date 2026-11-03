@@ -1,0 +1,5 @@
+node_modules/
+__pycache__/
+.DS_Store
+.openai/*.tar.gz
+.openai/*.zip

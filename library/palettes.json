@@ -1,0 +1,65 @@
+{
+  "schemaVersion": 1,
+  "palettes": [
+    {
+      "id": "lavender",
+      "name": "Сиреневая",
+      "slots": {
+        "background.base": "#D7CDF5",
+        "background.mid": "#AA9BF0",
+        "background.dark": "#7864D7",
+        "object.primary": "#F9ECB0",
+        "object.secondary": "#F9A3AA",
+        "object.tertiary": "#FFE3E1",
+        "ink": "#181817",
+        "paper": "#FFFFFF"
+      }
+    },
+    {
+      "id": "peach",
+      "name": "Персиковая",
+      "slots": {
+        "background.base": "#FDD7B9",
+        "background.mid": "#FAC896",
+        "background.dark": "#D27532",
+        "object.primary": "#F9ECB0",
+        "object.secondary": "#80DADA",
+        "object.tertiary": "#BEEBEB",
+        "ink": "#181817",
+        "paper": "#FFFFFF"
+      }
+    },
+    {
+      "id": "aqua",
+      "name": "Бирюзовая",
+      "slots": {
+        "background.base": "#BEEBEB",
+        "background.mid": "#80DADA",
+        "background.dark": "#5ABEBE",
+        "object.primary": "#FFD4F2",
+        "object.secondary": "#6D7BFC",
+        "object.tertiary": "#B6C6FE",
+        "ink": "#181817",
+        "paper": "#FFFFFF"
+      }
+    }
+  ],
+  "rules": {
+    "backgroundAllowedSlots": [
+      "background.base",
+      "background.mid",
+      "background.dark",
+      "ink"
+    ],
+    "mainAllowedSlots": [
+      "background.base",
+      "background.mid",
+      "background.dark",
+      "object.primary",
+      "object.secondary",
+      "object.tertiary",
+      "ink",
+      "paper"
+    ]
+  }
+}

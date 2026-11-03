@@ -1,0 +1,33 @@
+{
+  "status": "passed",
+  "engineTests": 13,
+  "layoutConfigurations": 24,
+  "colorAndVectorCases": 120,
+  "examples": [
+    {
+      "id": "education",
+      "objects": 3,
+      "width": 1200,
+      "height": 630,
+      "size": "S",
+      "palette": "aqua"
+    },
+    {
+      "id": "finance",
+      "objects": 3,
+      "width": 1080,
+      "height": 1080,
+      "size": "L",
+      "palette": "peach"
+    },
+    {
+      "id": "teamwork",
+      "objects": 1,
+      "width": 1080,
+      "height": 1350,
+      "size": "L",
+      "palette": "lavender"
+    }
+  ],
+  "browserReview": "Unavailable: local browser control disabled; native Mac is locked."
+}

@@ -1,0 +1,13 @@
+{
+  "name": "svg-composition-studio",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "build": "python3 scripts/build_data.py",
+    "test": "node --test tests/engine.test.cjs",
+    "start": "python3 -m http.server 8000 --directory dist"
+  },
+  "devDependencies": {
+    "sharp": "0.35.5"
+  }
+}

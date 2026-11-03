@@ -1,0 +1,753 @@
+{
+  "schemaVersion": 1,
+  "templates": [
+    {
+      "id": "offset-S",
+      "family": "offset",
+      "name": "Со смещением",
+      "size": "S",
+      "width": 1200,
+      "height": 630,
+      "palette": "aqua",
+      "referenceSvg": "templates/S/offset.svg",
+      "sourceFile": "sources/1-SVG-drop-Со-смещением-S-1200-630.svg",
+      "slots": [
+        {
+          "assetId": "lamp",
+          "role": "main",
+          "layer": 0,
+          "center": [
+            388.7557433585023,
+            287.458725829386
+          ],
+          "bounds": [
+            240.0075421699795,
+            109.92756494657145,
+            537.5039445470251,
+            464.98988671220064
+          ],
+          "normalizedBounds": [
+            0.2000062851416496,
+            0.1744881983278912,
+            0.24791366864753797,
+            0.5635909869295701
+          ],
+          "referenceArtworkWidth": 297.49640237704557,
+          "referenceArtworkHeight": 355.0623217656292,
+          "placementPolicy": "reference-only; preserve library relative scales when substituting objects"
+        },
+        {
+          "assetId": "headphones",
+          "role": "background",
+          "layer": 1,
+          "center": [
+            736.3927212194606,
+            415.4411092988062
+          ],
+          "bounds": [
+            513.72075989555,
+            242.062,
+            959.0646825433712,
+            588.8202185976124
+          ],
+          "normalizedBounds": [
+            0.4281006332462917,
+            0.38422539682539686,
+            0.37111993553985095,
+            0.550409870789861
+          ],
+          "referenceArtworkWidth": 445.34392264782116,
+          "referenceArtworkHeight": 346.7582185976124,
+          "placementPolicy": "reference-only; preserve library relative scales when substituting objects"
+        },
+        {
+          "assetId": "phone",
+          "role": "main",
+          "layer": 2,
+          "center": [
+            736.5292469186531,
+            143.8484750907795
+          ],
+          "bounds": [
+            558.9946503500393,
+            40.949950181558954,
+            914.063843487267,
+            246.747
+          ],
+          "normalizedBounds": [
+            0.46582887529169936,
+            0.06499992092310945,
+            0.29589099428102317,
+            0.3266619838387953
+          ],
+          "referenceArtworkWidth": 355.0691931372278,
+          "referenceArtworkHeight": 205.79704981844105,
+          "placementPolicy": "reference-only; preserve library relative scales when substituting objects"
+        }
+      ],
+      "reservedTextArea": null,
+      "status": "source reference with extracted placement bounds; not an automatic composition engine"
+    },
+    {
+      "id": "headline-S",
+      "family": "headline",
+      "name": "Под заголовок",
+      "size": "S",
+      "width": 1200,
+      "height": 630,
+      "palette": "aqua",
+      "referenceSvg": "templates/S/headline.svg",
+      "sourceFile": "sources/3-SVG-drop-Под-заголовок-S-1200-630.svg",
+      "slots": [
+        {
+          "assetId": "lamp",
+          "role": "main",
+          "layer": 0,
+          "center": [
+            1026.1805799840668,
+            290.4016141516049
+          ],
+          "bounds": [
+            893.3267888722582,
+            131.84037476073763,
+            1159.034371095875,
+            448.96285354247215
+          ],
+          "normalizedBounds": [
+            0.7444389907268819,
+            0.20927043612815496,
+            0.22142298518634732,
+            0.5033690139392611
+          ],
+          "referenceArtworkWidth": 265.7075822236168,
+          "referenceArtworkHeight": 317.1224787817345,
+          "placementPolicy": "reference-only; preserve library relative scales when substituting objects"
+        },
+        {
+          "assetId": "headphones",
+          "role": "background",
+          "layer": 1,
+          "center": [
+            714.878133154125,
+            404.7081214861374
+          ],
+          "bounds": [
+            516.0000004810357,
+            249.855,
+            913.7562658272142,
+            559.5612429722747
+          ],
+          "normalizedBounds": [
+            0.4300000004008631,
+            0.39659523809523806,
+            0.3314635544551487,
+            0.4915972110671027
+          ],
+          "referenceArtworkWidth": 397.75626534617845,
+          "referenceArtworkHeight": 309.7062429722747,
+          "placementPolicy": "reference-only; preserve library relative scales when substituting objects"
+        },
+        {
+          "assetId": "phone",
+          "role": "main",
+          "layer": 2,
+          "center": [
+            714.9997984036379,
+            162.13694415585155
+          ],
+          "bounds": [
+            556.4358702602239,
+            70.23388831170313,
+            873.563726547052,
+            254.04
+          ],
+          "normalizedBounds": [
+            0.46369655855018654,
+            0.11148236239952877,
+            0.26427321357235684,
+            0.2917557328385665
+          ],
+          "referenceArtworkWidth": 317.1278562868282,
+          "referenceArtworkHeight": 183.80611168829688,
+          "placementPolicy": "reference-only; preserve library relative scales when substituting objects"
+        }
+      ],
+      "reservedTextArea": [
+        0.04,
+        0.08,
+        0.43,
+        0.8
+      ],
+      "status": "source reference with extracted placement bounds; not an automatic composition engine"
+    },
+    {
+      "id": "compact-L",
+      "family": "compact",
+      "name": "Собранно",
+      "size": "L",
+      "width": 1200,
+      "height": 630,
+      "palette": "peach",
+      "referenceSvg": "templates/L/compact.svg",
+      "sourceFile": "sources/4-SVG-drop-Собранно-L-1200-630.svg",
+      "slots": [
+        {
+          "assetId": "lamp",
+          "role": "main",
+          "layer": 0,
+          "center": [
+            1008.2351175182357,
+            232.27756614099602
+          ],
+          "bounds": [
+            886.5358891516591,
+            87.0307299816351,
+            1129.9343458848123,
+            377.52440230035694
+          ],
+          "normalizedBounds": [
+            0.7387799076263826,
+            0.13814401584386524,
+            0.2028320472776276,
+            0.4611010671725744
+          ],
+          "referenceArtworkWidth": 243.39845673315313,
+          "referenceArtworkHeight": 290.49367231872185,
+          "placementPolicy": "reference-only; preserve library relative scales when substituting objects"
+        },
+        {
+          "assetId": "book",
+          "role": "main",
+          "layer": 1,
+          "center": [
+            305.5070544010413,
+            336.7967263643087
+          ],
+          "bounds": [
+            40.95019072600546,
+            158.095,
+            570.0639180760771,
+            515.4984527286174
+          ],
+          "normalizedBounds": [
+            0.03412515893833788,
+            0.25094444444444447,
+            0.4409281061250598,
+            0.5673070678232022
+          ],
+          "referenceArtworkWidth": 529.1137273500717,
+          "referenceArtworkHeight": 357.40345272861737,
+          "placementPolicy": "reference-only; preserve library relative scales when substituting objects"
+        },
+        {
+          "assetId": "phone",
+          "role": "main",
+          "layer": 2,
+          "center": [
+            300.1492054259064,
+            283.16853951113006
+          ],
+          "bounds": [
+            154.7177247946757,
+            198.87707902226012,
+            445.5806860571371,
+            367.46
+          ],
+          "normalizedBounds": [
+            0.12893143732889642,
+            0.3156779032099367,
+            0.24238580105205115,
+            0.26759193805990455
+          ],
+          "referenceArtworkWidth": 290.8629612624614,
+          "referenceArtworkHeight": 168.58292097773986,
+          "placementPolicy": "reference-only; preserve library relative scales when substituting objects"
+        },
+        {
+          "assetId": "puzzle",
+          "role": "main",
+          "layer": 3,
+          "center": [
+            297.1783043035657,
+            257.8420381037493
+          ],
+          "bounds": [
+            202.07712629654142,
+            203.04693076929263,
+            392.27948231059,
+            312.63714543820595
+          ],
+          "normalizedBounds": [
+            0.16839760524711786,
+            0.3222967155068137,
+            0.1585019633450405,
+            0.1739527216966878
+          ],
+          "referenceArtworkWidth": 190.2023560140486,
+          "referenceArtworkHeight": 109.59021466891332,
+          "placementPolicy": "reference-only; preserve library relative scales when substituting objects"
+        },
+        {
+          "assetId": "headphones",
+          "role": "main",
+          "layer": 4,
+          "center": [
+            723.2768247181397,
+            336.76425514315486
+          ],
+          "bounds": [
+            540.8936555018566,
+            194.755,
+            905.6599939344227,
+            478.7735102863098
+          ],
+          "normalizedBounds": [
+            0.4507447129182139,
+            0.30913492063492065,
+            0.30397194869380506,
+            0.4508230322004917
+          ],
+          "referenceArtworkWidth": 364.76633843256604,
+          "referenceArtworkHeight": 284.0185102863098,
+          "placementPolicy": "reference-only; preserve library relative scales when substituting objects"
+        },
+        {
+          "assetId": "pen",
+          "role": "main",
+          "layer": 5,
+          "center": [
+            1008.0732483709205,
+            458.05444295270377
+          ],
+          "bounds": [
+            857.4324836725367,
+            373.4950996026993,
+            1158.7140130693044,
+            542.6137863027083
+          ],
+          "normalizedBounds": [
+            0.7145270697271139,
+            0.592849364448729,
+            0.25106794116397313,
+            0.268442359841284
+          ],
+          "referenceArtworkWidth": 301.2815293967677,
+          "referenceArtworkHeight": 169.11868670000894,
+          "placementPolicy": "reference-only; preserve library relative scales when substituting objects"
+        }
+      ],
+      "reservedTextArea": null,
+      "status": "source reference with extracted placement bounds; not an automatic composition engine"
+    },
+    {
+      "id": "offset-L",
+      "family": "offset",
+      "name": "Со смещением",
+      "size": "L",
+      "width": 1200,
+      "height": 630,
+      "palette": "peach",
+      "referenceSvg": "templates/L/offset.svg",
+      "sourceFile": "sources/6-SVG-drop-Со-смещением-L-1200-630.svg",
+      "slots": [
+        {
+          "assetId": "lamp",
+          "role": "main",
+          "layer": 0,
+          "center": [
+            191.75103144245156,
+            232.27756614099602
+          ],
+          "bounds": [
+            70.05323208840827,
+            87.0307299816351,
+            313.44883079649486,
+            377.52440230035694
+          ],
+          "normalizedBounds": [
+            0.05837769340700689,
+            0.13814401584386524,
+            0.20282966559007215,
+            0.4611010671725744
+          ],
+          "referenceArtworkWidth": 243.3955987080866,
+          "referenceArtworkHeight": 290.49367231872185,
+          "placementPolicy": "reference-only; preserve library relative scales when substituting objects"
+        },
+        {
+          "assetId": "book",
+          "role": "main",
+          "layer": 1,
+          "center": [
+            894.4544229274682,
+            336.7967263643087
+          ],
+          "bounds": [
+            629.8967918483719,
+            158.095,
+            1159.0120540065643,
+            515.4984527286174
+          ],
+          "normalizedBounds": [
+            0.5249139932069766,
+            0.25094444444444447,
+            0.440929385131827,
+            0.5673070678232022
+          ],
+          "referenceArtworkWidth": 529.1152621581924,
+          "referenceArtworkHeight": 357.40345272861737,
+          "placementPolicy": "reference-only; preserve library relative scales when substituting objects"
+        },
+        {
+          "assetId": "phone",
+          "role": "main",
+          "layer": 2,
+          "center": [
+            931.4296828504569,
+            290.3193249581005
+          ],
+          "bounds": [
+            785.9970317099431,
+            206.027649916201,
+            1076.8623339909705,
+            374.611
+          ],
+          "normalizedBounds": [
+            0.6549975264249526,
+            0.32702801574000157,
+            0.2423877519008561,
+            0.2675926191806333
+          ],
+          "referenceArtworkWidth": 290.8653022810273,
+          "referenceArtworkHeight": 168.583350083799,
+          "placementPolicy": "reference-only; preserve library relative scales when substituting objects"
+        },
+        {
+          "assetId": "puzzle",
+          "role": "main",
+          "layer": 3,
+          "center": [
+            951.7404991707589,
+            268.3670381037493
+          ],
+          "bounds": [
+            856.6391262965415,
+            213.57193076929263,
+            1046.8418720449763,
+            323.1621454382059
+          ],
+          "normalizedBounds": [
+            0.7138659385804512,
+            0.33900306471316294,
+            0.15850228812369568,
+            0.17395272169668777
+          ],
+          "referenceArtworkWidth": 190.20274574843484,
+          "referenceArtworkHeight": 109.59021466891329,
+          "placementPolicy": "reference-only; preserve library relative scales when substituting objects"
+        },
+        {
+          "assetId": "headphones",
+          "role": "main",
+          "layer": 4,
+          "center": [
+            476.373829288675,
+            336.76425514315486
+          ],
+          "bounds": [
+            293.99066464292724,
+            194.755,
+            658.7569939344227,
+            478.7735102863098
+          ],
+          "normalizedBounds": [
+            0.24499222053577271,
+            0.30913492063492065,
+            0.3039719410762462,
+            0.4508230322004917
+          ],
+          "referenceArtworkWidth": 364.7663292914954,
+          "referenceArtworkHeight": 284.0185102863098,
+          "placementPolicy": "reference-only; preserve library relative scales when substituting objects"
+        },
+        {
+          "assetId": "pen",
+          "role": "main",
+          "layer": 5,
+          "center": [
+            191.58958933145402,
+            458.05444295270377
+          ],
+          "bounds": [
+            40.95019195530339,
+            373.4950996026993,
+            342.22898670760463,
+            542.6137863027083
+          ],
+          "normalizedBounds": [
+            0.034125159962752824,
+            0.592849364448729,
+            0.25106566229358435,
+            0.268442359841284
+          ],
+          "referenceArtworkWidth": 301.2787947523012,
+          "referenceArtworkHeight": 169.11868670000894,
+          "placementPolicy": "reference-only; preserve library relative scales when substituting objects"
+        }
+      ],
+      "reservedTextArea": null,
+      "status": "source reference with extracted placement bounds; not an automatic composition engine"
+    },
+    {
+      "id": "compact-S",
+      "family": "compact",
+      "name": "Собранно",
+      "size": "S",
+      "width": 1200,
+      "height": 630,
+      "palette": "aqua",
+      "referenceSvg": "templates/S/compact.svg",
+      "sourceFile": "sources/8-SVG-drop-Собранно-S-1200-630.svg",
+      "slots": [
+        {
+          "assetId": "lamp",
+          "role": "main",
+          "layer": 0,
+          "center": [
+            811.2263030271918,
+            287.458725829386
+          ],
+          "bounds": [
+            662.4780502110723,
+            109.92756494657145,
+            959.9745558433111,
+            464.98988671220064
+          ],
+          "normalizedBounds": [
+            0.5520650418425602,
+            0.1744881983278912,
+            0.24791375469353236,
+            0.5635909869295701
+          ],
+          "referenceArtworkWidth": 297.49650563223884,
+          "referenceArtworkHeight": 355.0623217656292,
+          "placementPolicy": "reference-only; preserve library relative scales when substituting objects"
+        },
+        {
+          "assetId": "headphones",
+          "role": "background",
+          "layer": 1,
+          "center": [
+            462.67966935148223,
+            415.4411092988062
+          ],
+          "bounds": [
+            240.00765615959338,
+            242.062,
+            685.3516825433711,
+            588.8202185976124
+          ],
+          "normalizedBounds": [
+            0.2000063801329945,
+            0.38422539682539686,
+            0.3711200219864815,
+            0.550409870789861
+          ],
+          "referenceArtworkWidth": 445.34402638377776,
+          "referenceArtworkHeight": 346.7582185976124,
+          "placementPolicy": "reference-only; preserve library relative scales when substituting objects"
+        },
+        {
+          "assetId": "phone",
+          "role": "main",
+          "layer": 2,
+          "center": [
+            462.81624691865306,
+            143.8484750907795
+          ],
+          "bounds": [
+            285.28165035003923,
+            40.949950181558954,
+            640.350843487267,
+            246.747
+          ],
+          "normalizedBounds": [
+            0.23773470862503268,
+            0.06499992092310945,
+            0.2958909942810231,
+            0.3266619838387953
+          ],
+          "referenceArtworkWidth": 355.0691931372277,
+          "referenceArtworkHeight": 205.79704981844105,
+          "placementPolicy": "reference-only; preserve library relative scales when substituting objects"
+        }
+      ],
+      "reservedTextArea": null,
+      "status": "source reference with extracted placement bounds; not an automatic composition engine"
+    },
+    {
+      "id": "headline-L",
+      "family": "headline",
+      "name": "Под заголовок",
+      "size": "L",
+      "width": 1200,
+      "height": 630,
+      "palette": "peach",
+      "referenceSvg": "templates/L/headline.svg",
+      "sourceFile": "sources/9-SVG-drop-Под-заголовок-L-1200-630.svg",
+      "slots": [
+        {
+          "assetId": "lamp",
+          "role": "main",
+          "layer": 0,
+          "center": [
+            1072.3123160502284,
+            267.4242073846321
+          ],
+          "bounds": [
+            1002.3216528925619,
+            183.88883687145145,
+            1142.3029792078949,
+            350.9595778978127
+          ],
+          "normalizedBounds": [
+            0.835268044077135,
+            0.2918870426530975,
+            0.11665110526277743,
+            0.2651916524227957
+          ],
+          "referenceArtworkWidth": 139.98132631533292,
+          "referenceArtworkHeight": 167.07074102636128,
+          "placementPolicy": "reference-only; preserve library relative scales when substituting objects"
+        },
+        {
+          "assetId": "book",
+          "role": "main",
+          "layer": 1,
+          "center": [
+            668.1539678336047,
+            327.5359264848221
+          ],
+          "bounds": [
+            515.9998986766061,
+            224.76,
+            820.3080369906033,
+            430.31185296964424
+          ],
+          "normalizedBounds": [
+            0.42999991556383843,
+            0.3567619047619047,
+            0.25359011526166436,
+            0.3262727824914988
+          ],
+          "referenceArtworkWidth": 304.30813831399723,
+          "referenceArtworkHeight": 205.55185296964424,
+          "placementPolicy": "reference-only; preserve library relative scales when substituting objects"
+        },
+        {
+          "assetId": "phone",
+          "role": "main",
+          "layer": 2,
+          "center": [
+            665.0722522257652,
+            296.6928421558316
+          ],
+          "bounds": [
+            581.4304472756249,
+            248.21468431166326,
+            748.7140571759053,
+            345.171
+          ],
+          "normalizedBounds": [
+            0.48452537272968743,
+            0.3939915623994655,
+            0.1394030082502336,
+            0.15389891379101067
+          ],
+          "referenceArtworkWidth": 167.28360990028034,
+          "referenceArtworkHeight": 96.95631568833673,
+          "placementPolicy": "reference-only; preserve library relative scales when substituting objects"
+        },
+        {
+          "assetId": "puzzle",
+          "role": "main",
+          "layer": 3,
+          "center": [
+            663.3641988582806,
+            282.1272294973261
+          ],
+          "bounds": [
+            608.6689161448958,
+            250.61296284272674,
+            718.0594815716654,
+            313.64149615192537
+          ],
+          "normalizedBounds": [
+            0.5072240967874131,
+            0.3977983537186139,
+            0.09115880452230803,
+            0.10004529096698193
+          ],
+          "referenceArtworkWidth": 109.39056542676963,
+          "referenceArtworkHeight": 63.02853330919862,
+          "placementPolicy": "reference-only; preserve library relative scales when substituting objects"
+        },
+        {
+          "assetId": "headphones",
+          "role": "main",
+          "layer": 4,
+          "center": [
+            908.4244417232105,
+            327.51727362653776
+          ],
+          "bounds": [
+            803.5311811111824,
+            245.844,
+            1013.3177023352386,
+            409.1905472530756
+          ],
+          "normalizedBounds": [
+            0.669609317592652,
+            0.3902285714285714,
+            0.1748221010200468,
+            0.2592802337350406
+          ],
+          "referenceArtworkWidth": 209.78652122405617,
+          "referenceArtworkHeight": 163.34654725307558,
+          "placementPolicy": "reference-only; preserve library relative scales when substituting objects"
+        },
+        {
+          "assetId": "pen",
+          "role": "main",
+          "layer": 5,
+          "center": [
+            1072.2173915026847,
+            397.27425744235757
+          ],
+          "bounds": [
+            985.5819709103615,
+            348.64199493264056,
+            1158.8528120950077,
+            445.9065199520746
+          ],
+          "normalizedBounds": [
+            0.8213183090919679,
+            0.5533999919565723,
+            0.14439236765387184,
+            0.15438813495148257
+          ],
+          "referenceArtworkWidth": 173.2708411846462,
+          "referenceArtworkHeight": 97.26452501943402,
+          "placementPolicy": "reference-only; preserve library relative scales when substituting objects"
+        }
+      ],
+      "reservedTextArea": [
+        0.04,
+        0.08,
+        0.43,
+        0.8
+      ],
+      "status": "source reference with extracted placement bounds; not an automatic composition engine"
+    }
+  ]
+}

@@ -1,0 +1,23 @@
+{
+  "version": 1,
+  "width": 1080,
+  "height": 1350,
+  "format": "portrait",
+  "size": "L",
+  "palette": "lavender",
+  "layout": "headline",
+  "background": "pattern",
+  "supporting": true,
+  "query": "Решаем сложные задачи вместе",
+  "scale": 0.9061627157824856,
+  "items": [
+    {
+      "assetId": "puzzle",
+      "role": "main",
+      "uid": "imw0j4602c9vb9y",
+      "x": 783,
+      "y": 702,
+      "rotation": 0
+    }
+  ]
+}

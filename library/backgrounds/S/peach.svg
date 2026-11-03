@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="500.000000" height="500.000000" viewBox="0 0 500.000000 500.000000" fill="none" role="img" aria-labelledby="backdrop-peach-S-backdrop-peach-S-title"><title id="backdrop-peach-S-backdrop-peach-S-title">Персиковая — фон</title><desc>Extracted from supplied Figma SVG. Original vector geometry preserved.</desc><defs><clipPath id="backdrop-peach-S-clip0_0_1">
+<rect width="500" height="500" fill="white" transform="translate(1096 216)" />
+</clipPath>
+</defs><g id="backdrop-peach-S-backdrop-peach-S-artwork" transform="translate(-1096.000000000 -216.000000000)" data-asset-id="backdrop-peach-S"><g clip-path="url(#backdrop-peach-S-clip0_0_1)">
+<rect width="500" height="500" transform="translate(1096 216)" fill="#FDD7B9" data-fill-slot="background.base" />
+<path d="M1596.21 738.452C1640.84 668.945 1608.2 597.733 1612.8 585.085L1331.33 755.96L1596.21 738.452Z" fill="#FAC896" data-fill-slot="background.mid" />
+<path d="M1224.84 171.704L1618.58 393.5" stroke="#D27532" data-stroke-slot="background.dark" />
+<path d="M1288.26 782.125L1600.9 591.516" stroke="#D27532" data-stroke-slot="background.dark" />
+</g>
+</g></svg>

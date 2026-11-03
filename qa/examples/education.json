@@ -1,0 +1,39 @@
+{
+  "version": 1,
+  "width": 1200,
+  "height": 630,
+  "format": "landscape",
+  "size": "S",
+  "palette": "aqua",
+  "layout": "compact",
+  "background": "pattern",
+  "supporting": true,
+  "query": "Свет знаний",
+  "scale": 0.6645477840814541,
+  "items": [
+    {
+      "assetId": "headphones",
+      "role": "background",
+      "uid": "imw0j45zq7ux9ni",
+      "x": 144,
+      "y": 144.9,
+      "rotation": 0
+    },
+    {
+      "assetId": "book",
+      "role": "main",
+      "uid": "imw0j45zppo4aii",
+      "x": 430.2166821697522,
+      "y": 402.08194048398786,
+      "rotation": 0
+    },
+    {
+      "assetId": "lamp",
+      "role": "main",
+      "uid": "imw0j45zqyzn8fu",
+      "x": 852.8428089351297,
+      "y": 253.2232368497422,
+      "rotation": 0
+    }
+  ]
+}
