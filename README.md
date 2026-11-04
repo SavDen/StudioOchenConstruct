@@ -25,7 +25,7 @@ npm run preview:pages
 
 Предпросмотр: http://localhost:8001/. Сборка `_site` содержит редактор и все три галереи (234 SVG). Подбор «По словам», слои, импорт JSON и экспорт работают в браузере. Gemini требует отдельного Node.js-gateway; на статической демоверсии новых AI-запросов нет. Сохранённые результаты Gemini доступны из меню «Проект».
 
-Workflow `.github/workflows/pages.yml` выполняет проверки и публикует `_site` при push в main. В GitHub нужно выбрать Settings → Pages → Source: GitHub Actions. [Порядок публикации и подключение своего домена](docs/pages-delivery.md). Remote и публичный адрес пока не назначены.
+Workflow `.github/workflows/pages.yml` выполняет проверки и публикует `_site` при push в main. В GitHub нужно выбрать Settings → Pages → Source: GitHub Actions. [Порядок публикации и подключение своего домена](docs/pages-delivery.md). [Репозиторий на GitHub](https://github.com/SavDen/StudioOchenConstruct). Адрес Pages добавим после подтверждённой публикации.
 
 ## Проверка перед отправкой
 
