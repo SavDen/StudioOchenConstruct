@@ -37,7 +37,7 @@ def build():
         scenes += sum(len(case["outputs"]) for case in manifest["cases"])
         links.append(f'<a href="reviews/{name}/">'+{"metaphors-2026-11-04":"Отчёт · 18 метафор", "metaphors-directional-2026-11-04":"Проверка расстановки", "metaphors-refined-2026-11-04":"Смысл и кадрирование"}[name]+"</a>")
     index = OUT / "index.html"
-    html = index.read_text().replace('<title>Конструктор — иллюстрации из SVG</title>', '<title>Sloy Studio — конструктор SVG-сцен</title>')
+    html = index.read_text()
     html = html.replace('<div class="project-popover">', '<div class="project-popover">'+"".join(links))
     index.write_text(html)
     (OUT / "build-info.json").write_text(json.dumps({"mode":"static", "galleries":GALLERIES, "svgCount":scenes}, indent=2))
