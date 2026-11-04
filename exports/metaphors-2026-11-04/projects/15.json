@@ -1,0 +1,4021 @@
+{
+  "type": "composition-project",
+  "version": 2,
+  "scene": {
+    "version": 1,
+    "sizing": "native",
+    "environmentPrompt": "",
+    "environmentExplanation": [
+      "Главная смысловая группа объединяет папку для документов и пишущую ручку, символизируя планирование и организацию дел.",
+      "Настольная лампа в роли фонового компаньона добавляет глубину и мягко освещает рабочую зону с правого края.",
+      "Композиция построена на естественном соседстве предметов с сохранением читаемых силуэтов."
+    ],
+    "groups": [
+      {
+        "kind": "collection",
+        "members": [
+          "imw199zp0egdarn",
+          "imw199zp04t7apn"
+        ],
+        "reason": "Папка с документами и ручка расположены по центру в тесном контакте, фоновая лампа дополняет композицию сверху справа."
+      }
+    ],
+    "formatPlans": [],
+    "stagingPlans": [
+      {
+        "format": "square",
+        "views": [
+          {
+            "principle": "Папка с документами и ручка расположены по центру в тесном контакте, фоновая лампа дополняет композицию сверху справа.",
+            "placements": [
+              {
+                "uid": "imw199zp0egdarn",
+                "relation": "canvas",
+                "x": 0.48,
+                "y": 0.52,
+                "gap": 0,
+                "rotation": 0
+              },
+              {
+                "uid": "imw199zp04t7apn",
+                "relation": "on",
+                "targetUid": "imw199zp0egdarn",
+                "x": 0.35,
+                "y": 0.45,
+                "gap": 0,
+                "rotation": -15
+              },
+              {
+                "uid": "imw199zp0p2slfk",
+                "relation": "canvas",
+                "x": 0.82,
+                "y": 0.28,
+                "gap": 0,
+                "rotation": 0
+              }
+            ]
+          },
+          {
+            "principle": "Смещение элементов со сменой сторон внутри группы при сохранении общей плотности и читаемости.",
+            "placements": [
+              {
+                "uid": "imw199zp0egdarn",
+                "relation": "canvas",
+                "x": 0.52,
+                "y": 0.54,
+                "gap": 0,
+                "rotation": 0
+              },
+              {
+                "uid": "imw199zp04t7apn",
+                "relation": "on",
+                "targetUid": "imw199zp0egdarn",
+                "x": 0.65,
+                "y": 0.4,
+                "gap": 0,
+                "rotation": 10
+              },
+              {
+                "uid": "imw199zp0p2slfk",
+                "relation": "canvas",
+                "x": 0.18,
+                "y": 0.28,
+                "gap": 0,
+                "rotation": 0
+              }
+            ]
+          },
+          {
+            "principle": "Диагональное расположение главных предметов для динамичного восприятия рабочей сцены.",
+            "placements": [
+              {
+                "uid": "imw199zp0egdarn",
+                "relation": "canvas",
+                "x": 0.5,
+                "y": 0.5,
+                "gap": 0,
+                "rotation": 0
+              },
+              {
+                "uid": "imw199zp04t7apn",
+                "relation": "on",
+                "targetUid": "imw199zp0egdarn",
+                "x": 0.5,
+                "y": 0.3,
+                "gap": 0,
+                "rotation": -45
+              },
+              {
+                "uid": "imw199zp0p2slfk",
+                "relation": "canvas",
+                "x": 0.85,
+                "y": 0.25,
+                "gap": 0,
+                "rotation": 0
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "format": "landscape",
+        "views": [
+          {
+            "principle": "Сбалансированное горизонтальное размещение папки и ручки с фоновой лампой в правом углу.",
+            "placements": [
+              {
+                "uid": "imw199zp0egdarn",
+                "relation": "canvas",
+                "x": 0.5,
+                "y": 0.53,
+                "gap": 0,
+                "rotation": 0
+              },
+              {
+                "uid": "imw199zp04t7apn",
+                "relation": "on",
+                "targetUid": "imw199zp0egdarn",
+                "x": 0.38,
+                "y": 0.45,
+                "gap": 0,
+                "rotation": -15
+              },
+              {
+                "uid": "imw199zp0p2slfk",
+                "relation": "canvas",
+                "x": 0.88,
+                "y": 0.3,
+                "gap": 0,
+                "rotation": 0
+              }
+            ]
+          },
+          {
+            "principle": "Смещение акцентов внутри горизонтального формата с сохранением компактности.",
+            "placements": [
+              {
+                "uid": "imw199zp0egdarn",
+                "relation": "canvas",
+                "x": 0.52,
+                "y": 0.55,
+                "gap": 0,
+                "rotation": 0
+              },
+              {
+                "uid": "imw199zp04t7apn",
+                "relation": "on",
+                "targetUid": "imw199zp0egdarn",
+                "x": 0.62,
+                "y": 0.42,
+                "gap": 0,
+                "rotation": 15
+              },
+              {
+                "uid": "imw199zp0p2slfk",
+                "relation": "canvas",
+                "x": 0.15,
+                "y": 0.3,
+                "gap": 0,
+                "rotation": 0
+              }
+            ]
+          },
+          {
+            "principle": "Диагональное развитие сцены в пейзажном холсте.",
+            "placements": [
+              {
+                "uid": "imw199zp0egdarn",
+                "relation": "canvas",
+                "x": 0.5,
+                "y": 0.52,
+                "gap": 0,
+                "rotation": 0
+              },
+              {
+                "uid": "imw199zp04t7apn",
+                "relation": "on",
+                "targetUid": "imw199zp0egdarn",
+                "x": 0.5,
+                "y": 0.32,
+                "gap": 0,
+                "rotation": -30
+              },
+              {
+                "uid": "imw199zp0p2slfk",
+                "relation": "canvas",
+                "x": 0.85,
+                "y": 0.28,
+                "gap": 0,
+                "rotation": 0
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "format": "portrait",
+        "views": [
+          {
+            "principle": "Вертикальная компоновка папки и ручки с лампой в верхней части портретного холста.",
+            "placements": [
+              {
+                "uid": "imw199zp0egdarn",
+                "relation": "canvas",
+                "x": 0.5,
+                "y": 0.55,
+                "gap": 0,
+                "rotation": 0
+              },
+              {
+                "uid": "imw199zp04t7apn",
+                "relation": "on",
+                "targetUid": "imw199zp0egdarn",
+                "x": 0.4,
+                "y": 0.48,
+                "gap": 0,
+                "rotation": -10
+              },
+              {
+                "uid": "imw199zp0p2slfk",
+                "relation": "canvas",
+                "x": 0.78,
+                "y": 0.22,
+                "gap": 0,
+                "rotation": 0
+              }
+            ]
+          },
+          {
+            "principle": "Смещение элементов по вертикали с зеркальным расположением компаньона.",
+            "placements": [
+              {
+                "uid": "imw199zp0egdarn",
+                "relation": "canvas",
+                "x": 0.5,
+                "y": 0.57,
+                "gap": 0,
+                "rotation": 0
+              },
+              {
+                "uid": "imw199zp04t7apn",
+                "relation": "on",
+                "targetUid": "imw199zp0egdarn",
+                "x": 0.6,
+                "y": 0.45,
+                "gap": 0,
+                "rotation": 15
+              },
+              {
+                "uid": "imw199zp0p2slfk",
+                "relation": "canvas",
+                "x": 0.22,
+                "y": 0.22,
+                "gap": 0,
+                "rotation": 0
+              }
+            ]
+          },
+          {
+            "principle": "Динамичное вертикальное построение с акцентом на центральную ось.",
+            "placements": [
+              {
+                "uid": "imw199zp0egdarn",
+                "relation": "canvas",
+                "x": 0.5,
+                "y": 0.55,
+                "gap": 0,
+                "rotation": 0
+              },
+              {
+                "uid": "imw199zp04t7apn",
+                "relation": "on",
+                "targetUid": "imw199zp0egdarn",
+                "x": 0.5,
+                "y": 0.35,
+                "gap": 0,
+                "rotation": -40
+              },
+              {
+                "uid": "imw199zp0p2slfk",
+                "relation": "canvas",
+                "x": 0.8,
+                "y": 0.2,
+                "gap": 0,
+                "rotation": 0
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "executionNotes": [
+      "Положение «Настольная лампа» уточнено по границам кадра и реестру пересечений."
+    ],
+    "width": 1000,
+    "height": 1000,
+    "format": "square",
+    "size": "S",
+    "palette": "aqua",
+    "layout": "compact",
+    "background": "pattern",
+    "backgroundDesign": "auto",
+    "supporting": true,
+    "showSupporting": true,
+    "camera": null,
+    "composition": {
+      "index": 0,
+      "options": [
+        {
+          "strategy": "balanced",
+          "title": "На опоре",
+          "principle": "Папка с документами и ручка расположены по центру в тесном контакте, фоновая лампа дополняет композицию сверху справа.",
+          "placement": "on-surface"
+        },
+        {
+          "strategy": "spacious",
+          "title": "Рядом",
+          "principle": "Смещение элементов со сменой сторон внутри группы при сохранении общей плотности и читаемости.",
+          "placement": "beside"
+        },
+        {
+          "strategy": "diagonal",
+          "title": "Другой ракурс группы",
+          "principle": "Диагональное расположение главных предметов для динамичного восприятия рабочей сцены.",
+          "placement": "across"
+        }
+      ]
+    },
+    "layerRelations": [
+      {
+        "back": "imw199zp0egdarn",
+        "front": "imw199zp04t7apn",
+        "reason": "Предмет лежит на допустимой опоре."
+      },
+      {
+        "back": "imw199zp0p2slfk",
+        "front": "imw199zp0egdarn",
+        "reason": "Фоновый компаньон находится позади главной группы."
+      }
+    ],
+    "recipe": "auto",
+    "framing": "overview",
+    "focus": "folder",
+    "query": "Навести порядок в делах",
+    "scale": 1,
+    "items": [
+      {
+        "uid": "imw199zp0p2slfk",
+        "assetId": "lamp",
+        "role": "background",
+        "x": 1000,
+        "y": 280,
+        "rotation": 0,
+        "flipX": false,
+        "flipY": false,
+        "zone": "top-right",
+        "crop": "fragment"
+      },
+      {
+        "uid": "imw199zp0egdarn",
+        "assetId": "folder",
+        "role": "main",
+        "x": 504.84,
+        "y": 533.2,
+        "rotation": 0,
+        "flipX": false,
+        "flipY": false,
+        "zone": "auto",
+        "crop": "whole"
+      },
+      {
+        "uid": "imw199zp04t7apn",
+        "assetId": "pen",
+        "role": "main",
+        "x": 411.68999999999994,
+        "y": 516.7,
+        "rotation": -15,
+        "flipX": false,
+        "flipY": false,
+        "supportUid": "imw199zp0egdarn",
+        "zone": "auto",
+        "crop": "whole"
+      }
+    ]
+  },
+  "memory": {
+    "version": 2,
+    "format": "square",
+    "index": 0,
+    "formats": {
+      "square": [
+        {
+          "version": 1,
+          "sizing": "native",
+          "environmentPrompt": "",
+          "environmentExplanation": [
+            "Главная смысловая группа объединяет папку для документов и пишущую ручку, символизируя планирование и организацию дел.",
+            "Настольная лампа в роли фонового компаньона добавляет глубину и мягко освещает рабочую зону с правого края.",
+            "Композиция построена на естественном соседстве предметов с сохранением читаемых силуэтов."
+          ],
+          "groups": [
+            {
+              "kind": "collection",
+              "members": [
+                "imw199zp0egdarn",
+                "imw199zp04t7apn"
+              ],
+              "reason": "Папка с документами и ручка расположены по центру в тесном контакте, фоновая лампа дополняет композицию сверху справа."
+            }
+          ],
+          "formatPlans": [],
+          "stagingPlans": [
+            {
+              "format": "square",
+              "views": [
+                {
+                  "principle": "Папка с документами и ручка расположены по центру в тесном контакте, фоновая лампа дополняет композицию сверху справа.",
+                  "placements": [
+                    {
+                      "uid": "imw199zp0egdarn",
+                      "relation": "canvas",
+                      "x": 0.48,
+                      "y": 0.52,
+                      "gap": 0,
+                      "rotation": 0
+                    },
+                    {
+                      "uid": "imw199zp04t7apn",
+                      "relation": "on",
+                      "targetUid": "imw199zp0egdarn",
+                      "x": 0.35,
+                      "y": 0.45,
+                      "gap": 0,
+                      "rotation": -15
+                    },
+                    {
+                      "uid": "imw199zp0p2slfk",
+                      "relation": "canvas",
+                      "x": 0.82,
+                      "y": 0.28,
+                      "gap": 0,
+                      "rotation": 0
+                    }
+                  ]
+                },
+                {
+                  "principle": "Смещение элементов со сменой сторон внутри группы при сохранении общей плотности и читаемости.",
+                  "placements": [
+                    {
+                      "uid": "imw199zp0egdarn",
+                      "relation": "canvas",
+                      "x": 0.52,
+                      "y": 0.54,
+                      "gap": 0,
+                      "rotation": 0
+                    },
+                    {
+                      "uid": "imw199zp04t7apn",
+                      "relation": "on",
+                      "targetUid": "imw199zp0egdarn",
+                      "x": 0.65,
+                      "y": 0.4,
+                      "gap": 0,
+                      "rotation": 10
+                    },
+                    {
+                      "uid": "imw199zp0p2slfk",
+                      "relation": "canvas",
+                      "x": 0.18,
+                      "y": 0.28,
+                      "gap": 0,
+                      "rotation": 0
+                    }
+                  ]
+                },
+                {
+                  "principle": "Диагональное расположение главных предметов для динамичного восприятия рабочей сцены.",
+                  "placements": [
+                    {
+                      "uid": "imw199zp0egdarn",
+                      "relation": "canvas",
+                      "x": 0.5,
+                      "y": 0.5,
+                      "gap": 0,
+                      "rotation": 0
+                    },
+                    {
+                      "uid": "imw199zp04t7apn",
+                      "relation": "on",
+                      "targetUid": "imw199zp0egdarn",
+                      "x": 0.5,
+                      "y": 0.3,
+                      "gap": 0,
+                      "rotation": -45
+                    },
+                    {
+                      "uid": "imw199zp0p2slfk",
+                      "relation": "canvas",
+                      "x": 0.85,
+                      "y": 0.25,
+                      "gap": 0,
+                      "rotation": 0
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "format": "landscape",
+              "views": [
+                {
+                  "principle": "Сбалансированное горизонтальное размещение папки и ручки с фоновой лампой в правом углу.",
+                  "placements": [
+                    {
+                      "uid": "imw199zp0egdarn",
+                      "relation": "canvas",
+                      "x": 0.5,
+                      "y": 0.53,
+                      "gap": 0,
+                      "rotation": 0
+                    },
+                    {
+                      "uid": "imw199zp04t7apn",
+                      "relation": "on",
+                      "targetUid": "imw199zp0egdarn",
+                      "x": 0.38,
+                      "y": 0.45,
+                      "gap": 0,
+                      "rotation": -15
+                    },
+                    {
+                      "uid": "imw199zp0p2slfk",
+                      "relation": "canvas",
+                      "x": 0.88,
+                      "y": 0.3,
+                      "gap": 0,
+                      "rotation": 0
+                    }
+                  ]
+                },
+                {
+                  "principle": "Смещение акцентов внутри горизонтального формата с сохранением компактности.",
+                  "placements": [
+                    {
+                      "uid": "imw199zp0egdarn",
+                      "relation": "canvas",
+                      "x": 0.52,
+                      "y": 0.55,
+                      "gap": 0,
+                      "rotation": 0
+                    },
+                    {
+                      "uid": "imw199zp04t7apn",
+                      "relation": "on",
+                      "targetUid": "imw199zp0egdarn",
+                      "x": 0.62,
+                      "y": 0.42,
+                      "gap": 0,
+                      "rotation": 15
+                    },
+                    {
+                      "uid": "imw199zp0p2slfk",
+                      "relation": "canvas",
+                      "x": 0.15,
+                      "y": 0.3,
+                      "gap": 0,
+                      "rotation": 0
+                    }
+                  ]
+                },
+                {
+                  "principle": "Диагональное развитие сцены в пейзажном холсте.",
+                  "placements": [
+                    {
+                      "uid": "imw199zp0egdarn",
+                      "relation": "canvas",
+                      "x": 0.5,
+                      "y": 0.52,
+                      "gap": 0,
+                      "rotation": 0
+                    },
+                    {
+                      "uid": "imw199zp04t7apn",
+                      "relation": "on",
+                      "targetUid": "imw199zp0egdarn",
+                      "x": 0.5,
+                      "y": 0.32,
+                      "gap": 0,
+                      "rotation": -30
+                    },
+                    {
+                      "uid": "imw199zp0p2slfk",
+                      "relation": "canvas",
+                      "x": 0.85,
+                      "y": 0.28,
+                      "gap": 0,
+                      "rotation": 0
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "format": "portrait",
+              "views": [
+                {
+                  "principle": "Вертикальная компоновка папки и ручки с лампой в верхней части портретного холста.",
+                  "placements": [
+                    {
+                      "uid": "imw199zp0egdarn",
+                      "relation": "canvas",
+                      "x": 0.5,
+                      "y": 0.55,
+                      "gap": 0,
+                      "rotation": 0
+                    },
+                    {
+                      "uid": "imw199zp04t7apn",
+                      "relation": "on",
+                      "targetUid": "imw199zp0egdarn",
+                      "x": 0.4,
+                      "y": 0.48,
+                      "gap": 0,
+                      "rotation": -10
+                    },
+                    {
+                      "uid": "imw199zp0p2slfk",
+                      "relation": "canvas",
+                      "x": 0.78,
+                      "y": 0.22,
+                      "gap": 0,
+                      "rotation": 0
+                    }
+                  ]
+                },
+                {
+                  "principle": "Смещение элементов по вертикали с зеркальным расположением компаньона.",
+                  "placements": [
+                    {
+                      "uid": "imw199zp0egdarn",
+                      "relation": "canvas",
+                      "x": 0.5,
+                      "y": 0.57,
+                      "gap": 0,
+                      "rotation": 0
+                    },
+                    {
+                      "uid": "imw199zp04t7apn",
+                      "relation": "on",
+                      "targetUid": "imw199zp0egdarn",
+                      "x": 0.6,
+                      "y": 0.45,
+                      "gap": 0,
+                      "rotation": 15
+                    },
+                    {
+                      "uid": "imw199zp0p2slfk",
+                      "relation": "canvas",
+                      "x": 0.22,
+                      "y": 0.22,
+                      "gap": 0,
+                      "rotation": 0
+                    }
+                  ]
+                },
+                {
+                  "principle": "Динамичное вертикальное построение с акцентом на центральную ось.",
+                  "placements": [
+                    {
+                      "uid": "imw199zp0egdarn",
+                      "relation": "canvas",
+                      "x": 0.5,
+                      "y": 0.55,
+                      "gap": 0,
+                      "rotation": 0
+                    },
+                    {
+                      "uid": "imw199zp04t7apn",
+                      "relation": "on",
+                      "targetUid": "imw199zp0egdarn",
+                      "x": 0.5,
+                      "y": 0.35,
+                      "gap": 0,
+                      "rotation": -40
+                    },
+                    {
+                      "uid": "imw199zp0p2slfk",
+                      "relation": "canvas",
+                      "x": 0.8,
+                      "y": 0.2,
+                      "gap": 0,
+                      "rotation": 0
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "executionNotes": [
+            "Положение «Настольная лампа» уточнено по границам кадра и реестру пересечений."
+          ],
+          "width": 1000,
+          "height": 1000,
+          "format": "square",
+          "size": "S",
+          "palette": "aqua",
+          "layout": "compact",
+          "background": "pattern",
+          "backgroundDesign": "auto",
+          "supporting": true,
+          "showSupporting": true,
+          "camera": null,
+          "composition": {
+            "index": 0,
+            "options": [
+              {
+                "strategy": "balanced",
+                "title": "На опоре",
+                "principle": "Папка с документами и ручка расположены по центру в тесном контакте, фоновая лампа дополняет композицию сверху справа.",
+                "placement": "on-surface"
+              },
+              {
+                "strategy": "spacious",
+                "title": "Рядом",
+                "principle": "Смещение элементов со сменой сторон внутри группы при сохранении общей плотности и читаемости.",
+                "placement": "beside"
+              },
+              {
+                "strategy": "diagonal",
+                "title": "Другой ракурс группы",
+                "principle": "Диагональное расположение главных предметов для динамичного восприятия рабочей сцены.",
+                "placement": "across"
+              }
+            ]
+          },
+          "layerRelations": [
+            {
+              "back": "imw199zp0egdarn",
+              "front": "imw199zp04t7apn",
+              "reason": "Предмет лежит на допустимой опоре."
+            },
+            {
+              "back": "imw199zp0p2slfk",
+              "front": "imw199zp0egdarn",
+              "reason": "Фоновый компаньон находится позади главной группы."
+            }
+          ],
+          "recipe": "auto",
+          "framing": "overview",
+          "focus": "folder",
+          "query": "Навести порядок в делах",
+          "scale": 1,
+          "items": [
+            {
+              "uid": "imw199zp0p2slfk",
+              "assetId": "lamp",
+              "role": "background",
+              "x": 1000,
+              "y": 280,
+              "rotation": 0,
+              "flipX": false,
+              "flipY": false,
+              "zone": "top-right",
+              "crop": "fragment"
+            },
+            {
+              "uid": "imw199zp0egdarn",
+              "assetId": "folder",
+              "role": "main",
+              "x": 504.84,
+              "y": 533.2,
+              "rotation": 0,
+              "flipX": false,
+              "flipY": false,
+              "zone": "auto",
+              "crop": "whole"
+            },
+            {
+              "uid": "imw199zp04t7apn",
+              "assetId": "pen",
+              "role": "main",
+              "x": 411.68999999999994,
+              "y": 516.7,
+              "rotation": -15,
+              "flipX": false,
+              "flipY": false,
+              "supportUid": "imw199zp0egdarn",
+              "zone": "auto",
+              "crop": "whole"
+            }
+          ]
+        },
+        {
+          "version": 1,
+          "sizing": "native",
+          "environmentPrompt": "",
+          "environmentExplanation": [
+            "Главная смысловая группа объединяет папку для документов и пишущую ручку, символизируя планирование и организацию дел.",
+            "Настольная лампа в роли фонового компаньона добавляет глубину и мягко освещает рабочую зону с правого края.",
+            "Композиция построена на естественном соседстве предметов с сохранением читаемых силуэтов."
+          ],
+          "groups": [
+            {
+              "kind": "collection",
+              "members": [
+                "imw199zp0egdarn",
+                "imw199zp04t7apn"
+              ],
+              "reason": "Смещение элементов со сменой сторон внутри группы при сохранении общей плотности и читаемости."
+            }
+          ],
+          "formatPlans": [],
+          "stagingPlans": [
+            {
+              "format": "square",
+              "views": [
+                {
+                  "principle": "Папка с документами и ручка расположены по центру в тесном контакте, фоновая лампа дополняет композицию сверху справа.",
+                  "placements": [
+                    {
+                      "uid": "imw199zp0egdarn",
+                      "relation": "canvas",
+                      "x": 0.48,
+                      "y": 0.52,
+                      "gap": 0,
+                      "rotation": 0
+                    },
+                    {
+                      "uid": "imw199zp04t7apn",
+                      "relation": "on",
+                      "targetUid": "imw199zp0egdarn",
+                      "x": 0.35,
+                      "y": 0.45,
+                      "gap": 0,
+                      "rotation": -15
+                    },
+                    {
+                      "uid": "imw199zp0p2slfk",
+                      "relation": "canvas",
+                      "x": 0.82,
+                      "y": 0.28,
+                      "gap": 0,
+                      "rotation": 0
+                    }
+                  ]
+                },
+                {
+                  "principle": "Смещение элементов со сменой сторон внутри группы при сохранении общей плотности и читаемости.",
+                  "placements": [
+                    {
+                      "uid": "imw199zp0egdarn",
+                      "relation": "canvas",
+                      "x": 0.52,
+                      "y": 0.54,
+                      "gap": 0,
+                      "rotation": 0
+                    },
+                    {
+                      "uid": "imw199zp04t7apn",
+                      "relation": "on",
+                      "targetUid": "imw199zp0egdarn",
+                      "x": 0.65,
+                      "y": 0.4,
+                      "gap": 0,
+                      "rotation": 10
+                    },
+                    {
+                      "uid": "imw199zp0p2slfk",
+                      "relation": "canvas",
+                      "x": 0.18,
+                      "y": 0.28,
+                      "gap": 0,
+                      "rotation": 0
+                    }
+                  ]
+                },
+                {
+                  "principle": "Диагональное расположение главных предметов для динамичного восприятия рабочей сцены.",
+                  "placements": [
+                    {
+                      "uid": "imw199zp0egdarn",
+                      "relation": "canvas",
+                      "x": 0.5,
+                      "y": 0.5,
+                      "gap": 0,
+                      "rotation": 0
+                    },
+                    {
+                      "uid": "imw199zp04t7apn",
+                      "relation": "on",
+                      "targetUid": "imw199zp0egdarn",
+                      "x": 0.5,
+                      "y": 0.3,
+                      "gap": 0,
+                      "rotation": -45
+                    },
+                    {
+                      "uid": "imw199zp0p2slfk",
+                      "relation": "canvas",
+                      "x": 0.85,
+                      "y": 0.25,
+                      "gap": 0,
+                      "rotation": 0
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "format": "landscape",
+              "views": [
+                {
+                  "principle": "Сбалансированное горизонтальное размещение папки и ручки с фоновой лампой в правом углу.",
+                  "placements": [
+                    {
+                      "uid": "imw199zp0egdarn",
+                      "relation": "canvas",
+                      "x": 0.5,
+                      "y": 0.53,
+                      "gap": 0,
+                      "rotation": 0
+                    },
+                    {
+                      "uid": "imw199zp04t7apn",
+                      "relation": "on",
+                      "targetUid": "imw199zp0egdarn",
+                      "x": 0.38,
+                      "y": 0.45,
+                      "gap": 0,
+                      "rotation": -15
+                    },
+                    {
+                      "uid": "imw199zp0p2slfk",
+                      "relation": "canvas",
+                      "x": 0.88,
+                      "y": 0.3,
+                      "gap": 0,
+                      "rotation": 0
+                    }
+                  ]
+                },
+                {
+                  "principle": "Смещение акцентов внутри горизонтального формата с сохранением компактности.",
+                  "placements": [
+                    {
+                      "uid": "imw199zp0egdarn",
+                      "relation": "canvas",
+                      "x": 0.52,
+                      "y": 0.55,
+                      "gap": 0,
+                      "rotation": 0
+                    },
+                    {
+                      "uid": "imw199zp04t7apn",
+                      "relation": "on",
+                      "targetUid": "imw199zp0egdarn",
+                      "x": 0.62,
+                      "y": 0.42,
+                      "gap": 0,
+                      "rotation": 15
+                    },
+                    {
+                      "uid": "imw199zp0p2slfk",
+                      "relation": "canvas",
+                      "x": 0.15,
+                      "y": 0.3,
+                      "gap": 0,
+                      "rotation": 0
+                    }
+                  ]
+                },
+                {
+                  "principle": "Диагональное развитие сцены в пейзажном холсте.",
+                  "placements": [
+                    {
+                      "uid": "imw199zp0egdarn",
+                      "relation": "canvas",
+                      "x": 0.5,
+                      "y": 0.52,
+                      "gap": 0,
+                      "rotation": 0
+                    },
+                    {
+                      "uid": "imw199zp04t7apn",
+                      "relation": "on",
+                      "targetUid": "imw199zp0egdarn",
+                      "x": 0.5,
+                      "y": 0.32,
+                      "gap": 0,
+                      "rotation": -30
+                    },
+                    {
+                      "uid": "imw199zp0p2slfk",
+                      "relation": "canvas",
+                      "x": 0.85,
+                      "y": 0.28,
+                      "gap": 0,
+                      "rotation": 0
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "format": "portrait",
+              "views": [
+                {
+                  "principle": "Вертикальная компоновка папки и ручки с лампой в верхней части портретного холста.",
+                  "placements": [
+                    {
+                      "uid": "imw199zp0egdarn",
+                      "relation": "canvas",
+                      "x": 0.5,
+                      "y": 0.55,
+                      "gap": 0,
+                      "rotation": 0
+                    },
+                    {
+                      "uid": "imw199zp04t7apn",
+                      "relation": "on",
+                      "targetUid": "imw199zp0egdarn",
+                      "x": 0.4,
+                      "y": 0.48,
+                      "gap": 0,
+                      "rotation": -10
+                    },
+                    {
+                      "uid": "imw199zp0p2slfk",
+                      "relation": "canvas",
+                      "x": 0.78,
+                      "y": 0.22,
+                      "gap": 0,
+                      "rotation": 0
+                    }
+                  ]
+                },
+                {
+                  "principle": "Смещение элементов по вертикали с зеркальным расположением компаньона.",
+                  "placements": [
+                    {
+                      "uid": "imw199zp0egdarn",
+                      "relation": "canvas",
+                      "x": 0.5,
+                      "y": 0.57,
+                      "gap": 0,
+                      "rotation": 0
+                    },
+                    {
+                      "uid": "imw199zp04t7apn",
+                      "relation": "on",
+                      "targetUid": "imw199zp0egdarn",
+                      "x": 0.6,
+                      "y": 0.45,
+                      "gap": 0,
+                      "rotation": 15
+                    },
+                    {
+                      "uid": "imw199zp0p2slfk",
+                      "relation": "canvas",
+                      "x": 0.22,
+                      "y": 0.22,
+                      "gap": 0,
+                      "rotation": 0
+                    }
+                  ]
+                },
+                {
+                  "principle": "Динамичное вертикальное построение с акцентом на центральную ось.",
+                  "placements": [
+                    {
+                      "uid": "imw199zp0egdarn",
+                      "relation": "canvas",
+                      "x": 0.5,
+                      "y": 0.55,
+                      "gap": 0,
+                      "rotation": 0
+                    },
+                    {
+                      "uid": "imw199zp04t7apn",
+                      "relation": "on",
+                      "targetUid": "imw199zp0egdarn",
+                      "x": 0.5,
+                      "y": 0.35,
+                      "gap": 0,
+                      "rotation": -40
+                    },
+                    {
+                      "uid": "imw199zp0p2slfk",
+                      "relation": "canvas",
+                      "x": 0.8,
+                      "y": 0.2,
+                      "gap": 0,
+                      "rotation": 0
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "executionNotes": [
+            "Положение «Настольная лампа» уточнено по границам кадра и реестру пересечений."
+          ],
+          "width": 1000,
+          "height": 1000,
+          "format": "square",
+          "size": "S",
+          "palette": "aqua",
+          "layout": "compact",
+          "background": "pattern",
+          "backgroundDesign": "auto",
+          "supporting": true,
+          "showSupporting": true,
+          "camera": null,
+          "composition": {
+            "index": 1,
+            "options": [
+              {
+                "strategy": "balanced",
+                "title": "На опоре",
+                "principle": "Папка с документами и ручка расположены по центру в тесном контакте, фоновая лампа дополняет композицию сверху справа.",
+                "placement": "on-surface"
+              },
+              {
+                "strategy": "spacious",
+                "title": "Рядом",
+                "principle": "Смещение элементов со сменой сторон внутри группы при сохранении общей плотности и читаемости.",
+                "placement": "beside"
+              },
+              {
+                "strategy": "diagonal",
+                "title": "Другой ракурс группы",
+                "principle": "Диагональное расположение главных предметов для динамичного восприятия рабочей сцены.",
+                "placement": "across"
+              }
+            ]
+          },
+          "layerRelations": [
+            {
+              "back": "imw199zp0egdarn",
+              "front": "imw199zp04t7apn",
+              "reason": "Предмет лежит на допустимой опоре."
+            },
+            {
+              "back": "imw199zp0p2slfk",
+              "front": "imw199zp0egdarn",
+              "reason": "Фоновый компаньон находится позади главной группы."
+            }
+          ],
+          "recipe": "auto",
+          "framing": "overview",
+          "focus": "folder",
+          "query": "Навести порядок в делах",
+          "scale": 1,
+          "items": [
+            {
+              "uid": "imw199zp0p2slfk",
+              "assetId": "lamp",
+              "role": "background",
+              "x": 0,
+              "y": 336.5,
+              "rotation": 0,
+              "flipX": false,
+              "flipY": false,
+              "zone": "top-right",
+              "crop": "fragment"
+            },
+            {
+              "uid": "imw199zp0egdarn",
+              "assetId": "folder",
+              "role": "main",
+              "x": 544.84,
+              "y": 553.2,
+              "rotation": 0,
+              "flipX": false,
+              "flipY": false,
+              "zone": "auto",
+              "crop": "whole"
+            },
+            {
+              "uid": "imw199zp04t7apn",
+              "assetId": "pen",
+              "role": "main",
+              "x": 637.99,
+              "y": 520.2,
+              "rotation": 10,
+              "flipX": false,
+              "flipY": false,
+              "supportUid": "imw199zp0egdarn",
+              "zone": "auto",
+              "crop": "whole"
+            }
+          ]
+        },
+        {
+          "version": 1,
+          "sizing": "native",
+          "environmentPrompt": "",
+          "environmentExplanation": [
+            "Главная смысловая группа объединяет папку для документов и пишущую ручку, символизируя планирование и организацию дел.",
+            "Настольная лампа в роли фонового компаньона добавляет глубину и мягко освещает рабочую зону с правого края.",
+            "Композиция построена на естественном соседстве предметов с сохранением читаемых силуэтов."
+          ],
+          "groups": [
+            {
+              "kind": "collection",
+              "members": [
+                "imw199zp0egdarn",
+                "imw199zp04t7apn"
+              ],
+              "reason": "Диагональное расположение главных предметов для динамичного восприятия рабочей сцены."
+            }
+          ],
+          "formatPlans": [],
+          "stagingPlans": [
+            {
+              "format": "square",
+              "views": [
+                {
+                  "principle": "Папка с документами и ручка расположены по центру в тесном контакте, фоновая лампа дополняет композицию сверху справа.",
+                  "placements": [
+                    {
+                      "uid": "imw199zp0egdarn",
+                      "relation": "canvas",
+                      "x": 0.48,
+                      "y": 0.52,
+                      "gap": 0,
+                      "rotation": 0
+                    },
+                    {
+                      "uid": "imw199zp04t7apn",
+                      "relation": "on",
+                      "targetUid": "imw199zp0egdarn",
+                      "x": 0.35,
+                      "y": 0.45,
+                      "gap": 0,
+                      "rotation": -15
+                    },
+                    {
+                      "uid": "imw199zp0p2slfk",
+                      "relation": "canvas",
+                      "x": 0.82,
+                      "y": 0.28,
+                      "gap": 0,
+                      "rotation": 0
+                    }
+                  ]
+                },
+                {
+                  "principle": "Смещение элементов со сменой сторон внутри группы при сохранении общей плотности и читаемости.",
+                  "placements": [
+                    {
+                      "uid": "imw199zp0egdarn",
+                      "relation": "canvas",
+                      "x": 0.52,
+                      "y": 0.54,
+                      "gap": 0,
+                      "rotation": 0
+                    },
+                    {
+                      "uid": "imw199zp04t7apn",
+                      "relation": "on",
+                      "targetUid": "imw199zp0egdarn",
+                      "x": 0.65,
+                      "y": 0.4,
+                      "gap": 0,
+                      "rotation": 10
+                    },
+                    {
+                      "uid": "imw199zp0p2slfk",
+                      "relation": "canvas",
+                      "x": 0.18,
+                      "y": 0.28,
+                      "gap": 0,
+                      "rotation": 0
+                    }
+                  ]
+                },
+                {
+                  "principle": "Диагональное расположение главных предметов для динамичного восприятия рабочей сцены.",
+                  "placements": [
+                    {
+                      "uid": "imw199zp0egdarn",
+                      "relation": "canvas",
+                      "x": 0.5,
+                      "y": 0.5,
+                      "gap": 0,
+                      "rotation": 0
+                    },
+                    {
+                      "uid": "imw199zp04t7apn",
+                      "relation": "on",
+                      "targetUid": "imw199zp0egdarn",
+                      "x": 0.5,
+                      "y": 0.3,
+                      "gap": 0,
+                      "rotation": -45
+                    },
+                    {
+                      "uid": "imw199zp0p2slfk",
+                      "relation": "canvas",
+                      "x": 0.85,
+                      "y": 0.25,
+                      "gap": 0,
+                      "rotation": 0
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "format": "landscape",
+              "views": [
+                {
+                  "principle": "Сбалансированное горизонтальное размещение папки и ручки с фоновой лампой в правом углу.",
+                  "placements": [
+                    {
+                      "uid": "imw199zp0egdarn",
+                      "relation": "canvas",
+                      "x": 0.5,
+                      "y": 0.53,
+                      "gap": 0,
+                      "rotation": 0
+                    },
+                    {
+                      "uid": "imw199zp04t7apn",
+                      "relation": "on",
+                      "targetUid": "imw199zp0egdarn",
+                      "x": 0.38,
+                      "y": 0.45,
+                      "gap": 0,
+                      "rotation": -15
+                    },
+                    {
+                      "uid": "imw199zp0p2slfk",
+                      "relation": "canvas",
+                      "x": 0.88,
+                      "y": 0.3,
+                      "gap": 0,
+                      "rotation": 0
+                    }
+                  ]
+                },
+                {
+                  "principle": "Смещение акцентов внутри горизонтального формата с сохранением компактности.",
+                  "placements": [
+                    {
+                      "uid": "imw199zp0egdarn",
+                      "relation": "canvas",
+                      "x": 0.52,
+                      "y": 0.55,
+                      "gap": 0,
+                      "rotation": 0
+                    },
+                    {
+                      "uid": "imw199zp04t7apn",
+                      "relation": "on",
+                      "targetUid": "imw199zp0egdarn",
+                      "x": 0.62,
+                      "y": 0.42,
+                      "gap": 0,
+                      "rotation": 15
+                    },
+                    {
+                      "uid": "imw199zp0p2slfk",
+                      "relation": "canvas",
+                      "x": 0.15,
+                      "y": 0.3,
+                      "gap": 0,
+                      "rotation": 0
+                    }
+                  ]
+                },
+                {
+                  "principle": "Диагональное развитие сцены в пейзажном холсте.",
+                  "placements": [
+                    {
+                      "uid": "imw199zp0egdarn",
+                      "relation": "canvas",
+                      "x": 0.5,
+                      "y": 0.52,
+                      "gap": 0,
+                      "rotation": 0
+                    },
+                    {
+                      "uid": "imw199zp04t7apn",
+                      "relation": "on",
+                      "targetUid": "imw199zp0egdarn",
+                      "x": 0.5,
+                      "y": 0.32,
+                      "gap": 0,
+                      "rotation": -30
+                    },
+                    {
+                      "uid": "imw199zp0p2slfk",
+                      "relation": "canvas",
+                      "x": 0.85,
+                      "y": 0.28,
+                      "gap": 0,
+                      "rotation": 0
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "format": "portrait",
+              "views": [
+                {
+                  "principle": "Вертикальная компоновка папки и ручки с лампой в верхней части портретного холста.",
+                  "placements": [
+                    {
+                      "uid": "imw199zp0egdarn",
+                      "relation": "canvas",
+                      "x": 0.5,
+                      "y": 0.55,
+                      "gap": 0,
+                      "rotation": 0
+                    },
+                    {
+                      "uid": "imw199zp04t7apn",
+                      "relation": "on",
+                      "targetUid": "imw199zp0egdarn",
+                      "x": 0.4,
+                      "y": 0.48,
+                      "gap": 0,
+                      "rotation": -10
+                    },
+                    {
+                      "uid": "imw199zp0p2slfk",
+                      "relation": "canvas",
+                      "x": 0.78,
+                      "y": 0.22,
+                      "gap": 0,
+                      "rotation": 0
+                    }
+                  ]
+                },
+                {
+                  "principle": "Смещение элементов по вертикали с зеркальным расположением компаньона.",
+                  "placements": [
+                    {
+                      "uid": "imw199zp0egdarn",
+                      "relation": "canvas",
+                      "x": 0.5,
+                      "y": 0.57,
+                      "gap": 0,
+                      "rotation": 0
+                    },
+                    {
+                      "uid": "imw199zp04t7apn",
+                      "relation": "on",
+                      "targetUid": "imw199zp0egdarn",
+                      "x": 0.6,
+                      "y": 0.45,
+                      "gap": 0,
+                      "rotation": 15
+                    },
+                    {
+                      "uid": "imw199zp0p2slfk",
+                      "relation": "canvas",
+                      "x": 0.22,
+                      "y": 0.22,
+                      "gap": 0,
+                      "rotation": 0
+                    }
+                  ]
+                },
+                {
+                  "principle": "Динамичное вертикальное построение с акцентом на центральную ось.",
+                  "placements": [
+                    {
+                      "uid": "imw199zp0egdarn",
+                      "relation": "canvas",
+                      "x": 0.5,
+                      "y": 0.55,
+                      "gap": 0,
+                      "rotation": 0
+                    },
+                    {
+                      "uid": "imw199zp04t7apn",
+                      "relation": "on",
+                      "targetUid": "imw199zp0egdarn",
+                      "x": 0.5,
+                      "y": 0.35,
+                      "gap": 0,
+                      "rotation": -40
+                    },
+                    {
+                      "uid": "imw199zp0p2slfk",
+                      "relation": "canvas",
+                      "x": 0.8,
+                      "y": 0.2,
+                      "gap": 0,
+                      "rotation": 0
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "executionNotes": [
+            "Положение «Настольная лампа» уточнено по границам кадра и реестру пересечений."
+          ],
+          "width": 1000,
+          "height": 1000,
+          "format": "square",
+          "size": "S",
+          "palette": "aqua",
+          "layout": "compact",
+          "background": "pattern",
+          "backgroundDesign": "auto",
+          "supporting": true,
+          "showSupporting": true,
+          "camera": null,
+          "composition": {
+            "index": 2,
+            "options": [
+              {
+                "strategy": "balanced",
+                "title": "На опоре",
+                "principle": "Папка с документами и ручка расположены по центру в тесном контакте, фоновая лампа дополняет композицию сверху справа.",
+                "placement": "on-surface"
+              },
+              {
+                "strategy": "spacious",
+                "title": "Рядом",
+                "principle": "Смещение элементов со сменой сторон внутри группы при сохранении общей плотности и читаемости.",
+                "placement": "beside"
+              },
+              {
+                "strategy": "diagonal",
+                "title": "Другой ракурс группы",
+                "principle": "Диагональное расположение главных предметов для динамичного восприятия рабочей сцены.",
+                "placement": "across"
+              }
+            ]
+          },
+          "layerRelations": [
+            {
+              "back": "imw199zp0egdarn",
+              "front": "imw199zp04t7apn",
+              "reason": "Предмет лежит на допустимой опоре."
+            },
+            {
+              "back": "imw199zp0p2slfk",
+              "front": "imw199zp0egdarn",
+              "reason": "Фоновый компаньон находится позади главной группы."
+            }
+          ],
+          "recipe": "auto",
+          "framing": "overview",
+          "focus": "folder",
+          "query": "Навести порядок в делах",
+          "scale": 1,
+          "items": [
+            {
+              "uid": "imw199zp0p2slfk",
+              "assetId": "lamp",
+              "role": "background",
+              "x": 1000,
+              "y": 120,
+              "rotation": 0,
+              "flipX": false,
+              "flipY": false,
+              "zone": "top-right",
+              "crop": "fragment"
+            },
+            {
+              "uid": "imw199zp0egdarn",
+              "assetId": "folder",
+              "role": "main",
+              "x": 524.84,
+              "y": 513.2,
+              "rotation": 0,
+              "flipX": false,
+              "flipY": false,
+              "zone": "auto",
+              "crop": "whole"
+            },
+            {
+              "uid": "imw199zp04t7apn",
+              "assetId": "pen",
+              "role": "main",
+              "x": 524.84,
+              "y": 447.20000000000005,
+              "rotation": -45,
+              "flipX": false,
+              "flipY": false,
+              "supportUid": "imw199zp0egdarn",
+              "zone": "auto",
+              "crop": "whole"
+            }
+          ]
+        }
+      ],
+      "landscape": [
+        {
+          "version": 1,
+          "sizing": "native",
+          "environmentPrompt": "",
+          "environmentExplanation": [
+            "Главная смысловая группа объединяет папку для документов и пишущую ручку, символизируя планирование и организацию дел.",
+            "Настольная лампа в роли фонового компаньона добавляет глубину и мягко освещает рабочую зону с правого края.",
+            "Композиция построена на естественном соседстве предметов с сохранением читаемых силуэтов."
+          ],
+          "groups": [
+            {
+              "kind": "collection",
+              "members": [
+                "imw199zp0egdarn",
+                "imw199zp04t7apn"
+              ],
+              "reason": "Сбалансированное горизонтальное размещение папки и ручки с фоновой лампой в правом углу."
+            }
+          ],
+          "formatPlans": [],
+          "stagingPlans": [
+            {
+              "format": "square",
+              "views": [
+                {
+                  "principle": "Папка с документами и ручка расположены по центру в тесном контакте, фоновая лампа дополняет композицию сверху справа.",
+                  "placements": [
+                    {
+                      "uid": "imw199zp0egdarn",
+                      "relation": "canvas",
+                      "x": 0.48,
+                      "y": 0.52,
+                      "gap": 0,
+                      "rotation": 0
+                    },
+                    {
+                      "uid": "imw199zp04t7apn",
+                      "relation": "on",
+                      "targetUid": "imw199zp0egdarn",
+                      "x": 0.35,
+                      "y": 0.45,
+                      "gap": 0,
+                      "rotation": -15
+                    },
+                    {
+                      "uid": "imw199zp0p2slfk",
+                      "relation": "canvas",
+                      "x": 0.82,
+                      "y": 0.28,
+                      "gap": 0,
+                      "rotation": 0
+                    }
+                  ]
+                },
+                {
+                  "principle": "Смещение элементов со сменой сторон внутри группы при сохранении общей плотности и читаемости.",
+                  "placements": [
+                    {
+                      "uid": "imw199zp0egdarn",
+                      "relation": "canvas",
+                      "x": 0.52,
+                      "y": 0.54,
+                      "gap": 0,
+                      "rotation": 0
+                    },
+                    {
+                      "uid": "imw199zp04t7apn",
+                      "relation": "on",
+                      "targetUid": "imw199zp0egdarn",
+                      "x": 0.65,
+                      "y": 0.4,
+                      "gap": 0,
+                      "rotation": 10
+                    },
+                    {
+                      "uid": "imw199zp0p2slfk",
+                      "relation": "canvas",
+                      "x": 0.18,
+                      "y": 0.28,
+                      "gap": 0,
+                      "rotation": 0
+                    }
+                  ]
+                },
+                {
+                  "principle": "Диагональное расположение главных предметов для динамичного восприятия рабочей сцены.",
+                  "placements": [
+                    {
+                      "uid": "imw199zp0egdarn",
+                      "relation": "canvas",
+                      "x": 0.5,
+                      "y": 0.5,
+                      "gap": 0,
+                      "rotation": 0
+                    },
+                    {
+                      "uid": "imw199zp04t7apn",
+                      "relation": "on",
+                      "targetUid": "imw199zp0egdarn",
+                      "x": 0.5,
+                      "y": 0.3,
+                      "gap": 0,
+                      "rotation": -45
+                    },
+                    {
+                      "uid": "imw199zp0p2slfk",
+                      "relation": "canvas",
+                      "x": 0.85,
+                      "y": 0.25,
+                      "gap": 0,
+                      "rotation": 0
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "format": "landscape",
+              "views": [
+                {
+                  "principle": "Сбалансированное горизонтальное размещение папки и ручки с фоновой лампой в правом углу.",
+                  "placements": [
+                    {
+                      "uid": "imw199zp0egdarn",
+                      "relation": "canvas",
+                      "x": 0.5,
+                      "y": 0.53,
+                      "gap": 0,
+                      "rotation": 0
+                    },
+                    {
+                      "uid": "imw199zp04t7apn",
+                      "relation": "on",
+                      "targetUid": "imw199zp0egdarn",
+                      "x": 0.38,
+                      "y": 0.45,
+                      "gap": 0,
+                      "rotation": -15
+                    },
+                    {
+                      "uid": "imw199zp0p2slfk",
+                      "relation": "canvas",
+                      "x": 0.88,
+                      "y": 0.3,
+                      "gap": 0,
+                      "rotation": 0
+                    }
+                  ]
+                },
+                {
+                  "principle": "Смещение акцентов внутри горизонтального формата с сохранением компактности.",
+                  "placements": [
+                    {
+                      "uid": "imw199zp0egdarn",
+                      "relation": "canvas",
+                      "x": 0.52,
+                      "y": 0.55,
+                      "gap": 0,
+                      "rotation": 0
+                    },
+                    {
+                      "uid": "imw199zp04t7apn",
+                      "relation": "on",
+                      "targetUid": "imw199zp0egdarn",
+                      "x": 0.62,
+                      "y": 0.42,
+                      "gap": 0,
+                      "rotation": 15
+                    },
+                    {
+                      "uid": "imw199zp0p2slfk",
+                      "relation": "canvas",
+                      "x": 0.15,
+                      "y": 0.3,
+                      "gap": 0,
+                      "rotation": 0
+                    }
+                  ]
+                },
+                {
+                  "principle": "Диагональное развитие сцены в пейзажном холсте.",
+                  "placements": [
+                    {
+                      "uid": "imw199zp0egdarn",
+                      "relation": "canvas",
+                      "x": 0.5,
+                      "y": 0.52,
+                      "gap": 0,
+                      "rotation": 0
+                    },
+                    {
+                      "uid": "imw199zp04t7apn",
+                      "relation": "on",
+                      "targetUid": "imw199zp0egdarn",
+                      "x": 0.5,
+                      "y": 0.32,
+                      "gap": 0,
+                      "rotation": -30
+                    },
+                    {
+                      "uid": "imw199zp0p2slfk",
+                      "relation": "canvas",
+                      "x": 0.85,
+                      "y": 0.28,
+                      "gap": 0,
+                      "rotation": 0
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "format": "portrait",
+              "views": [
+                {
+                  "principle": "Вертикальная компоновка папки и ручки с лампой в верхней части портретного холста.",
+                  "placements": [
+                    {
+                      "uid": "imw199zp0egdarn",
+                      "relation": "canvas",
+                      "x": 0.5,
+                      "y": 0.55,
+                      "gap": 0,
+                      "rotation": 0
+                    },
+                    {
+                      "uid": "imw199zp04t7apn",
+                      "relation": "on",
+                      "targetUid": "imw199zp0egdarn",
+                      "x": 0.4,
+                      "y": 0.48,
+                      "gap": 0,
+                      "rotation": -10
+                    },
+                    {
+                      "uid": "imw199zp0p2slfk",
+                      "relation": "canvas",
+                      "x": 0.78,
+                      "y": 0.22,
+                      "gap": 0,
+                      "rotation": 0
+                    }
+                  ]
+                },
+                {
+                  "principle": "Смещение элементов по вертикали с зеркальным расположением компаньона.",
+                  "placements": [
+                    {
+                      "uid": "imw199zp0egdarn",
+                      "relation": "canvas",
+                      "x": 0.5,
+                      "y": 0.57,
+                      "gap": 0,
+                      "rotation": 0
+                    },
+                    {
+                      "uid": "imw199zp04t7apn",
+                      "relation": "on",
+                      "targetUid": "imw199zp0egdarn",
+                      "x": 0.6,
+                      "y": 0.45,
+                      "gap": 0,
+                      "rotation": 15
+                    },
+                    {
+                      "uid": "imw199zp0p2slfk",
+                      "relation": "canvas",
+                      "x": 0.22,
+                      "y": 0.22,
+                      "gap": 0,
+                      "rotation": 0
+                    }
+                  ]
+                },
+                {
+                  "principle": "Динамичное вертикальное построение с акцентом на центральную ось.",
+                  "placements": [
+                    {
+                      "uid": "imw199zp0egdarn",
+                      "relation": "canvas",
+                      "x": 0.5,
+                      "y": 0.55,
+                      "gap": 0,
+                      "rotation": 0
+                    },
+                    {
+                      "uid": "imw199zp04t7apn",
+                      "relation": "on",
+                      "targetUid": "imw199zp0egdarn",
+                      "x": 0.5,
+                      "y": 0.35,
+                      "gap": 0,
+                      "rotation": -40
+                    },
+                    {
+                      "uid": "imw199zp0p2slfk",
+                      "relation": "canvas",
+                      "x": 0.8,
+                      "y": 0.2,
+                      "gap": 0,
+                      "rotation": 0
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "executionNotes": [
+            "Положение «Настольная лампа» уточнено по границам кадра и реестру пересечений."
+          ],
+          "width": 1200,
+          "height": 630,
+          "format": "landscape",
+          "size": "S",
+          "palette": "aqua",
+          "layout": "compact",
+          "background": "pattern",
+          "backgroundDesign": "auto",
+          "supporting": true,
+          "showSupporting": true,
+          "camera": null,
+          "composition": {
+            "index": 0,
+            "options": [
+              {
+                "strategy": "balanced",
+                "title": "На опоре",
+                "principle": "Папка с документами и ручка расположены по центру в тесном контакте, фоновая лампа дополняет композицию сверху справа.",
+                "placement": "on-surface"
+              },
+              {
+                "strategy": "spacious",
+                "title": "Рядом",
+                "principle": "Смещение элементов со сменой сторон внутри группы при сохранении общей плотности и читаемости.",
+                "placement": "beside"
+              },
+              {
+                "strategy": "diagonal",
+                "title": "Другой ракурс группы",
+                "principle": "Диагональное расположение главных предметов для динамичного восприятия рабочей сцены.",
+                "placement": "across"
+              }
+            ]
+          },
+          "layerRelations": [
+            {
+              "back": "imw199zp0egdarn",
+              "front": "imw199zp04t7apn",
+              "reason": "Предмет лежит на допустимой опоре."
+            },
+            {
+              "back": "imw199zp0p2slfk",
+              "front": "imw199zp0egdarn",
+              "reason": "Фоновый компаньон находится позади главной группы."
+            }
+          ],
+          "recipe": "auto",
+          "framing": "overview",
+          "focus": "folder",
+          "query": "Навести порядок в делах",
+          "scale": 1,
+          "items": [
+            {
+              "uid": "imw199zp0p2slfk",
+              "assetId": "lamp",
+              "role": "background",
+              "x": 1200,
+              "y": 245.5,
+              "rotation": 0,
+              "flipX": false,
+              "flipY": false,
+              "zone": "top-right",
+              "crop": "fragment"
+            },
+            {
+              "uid": "imw199zp0egdarn",
+              "assetId": "folder",
+              "role": "main",
+              "x": 624.84,
+              "y": 347.1,
+              "rotation": 0,
+              "flipX": false,
+              "flipY": false,
+              "zone": "auto",
+              "crop": "whole"
+            },
+            {
+              "uid": "imw199zp04t7apn",
+              "assetId": "pen",
+              "role": "main",
+              "x": 550.32,
+              "y": 330.6,
+              "rotation": -15,
+              "flipX": false,
+              "flipY": false,
+              "supportUid": "imw199zp0egdarn",
+              "zone": "auto",
+              "crop": "whole"
+            }
+          ]
+        },
+        {
+          "version": 1,
+          "sizing": "native",
+          "environmentPrompt": "",
+          "environmentExplanation": [
+            "Главная смысловая группа объединяет папку для документов и пишущую ручку, символизируя планирование и организацию дел.",
+            "Настольная лампа в роли фонового компаньона добавляет глубину и мягко освещает рабочую зону с правого края.",
+            "Композиция построена на естественном соседстве предметов с сохранением читаемых силуэтов."
+          ],
+          "groups": [
+            {
+              "kind": "collection",
+              "members": [
+                "imw199zp0egdarn",
+                "imw199zp04t7apn"
+              ],
+              "reason": "Смещение акцентов внутри горизонтального формата с сохранением компактности."
+            }
+          ],
+          "formatPlans": [],
+          "stagingPlans": [
+            {
+              "format": "square",
+              "views": [
+                {
+                  "principle": "Папка с документами и ручка расположены по центру в тесном контакте, фоновая лампа дополняет композицию сверху справа.",
+                  "placements": [
+                    {
+                      "uid": "imw199zp0egdarn",
+                      "relation": "canvas",
+                      "x": 0.48,
+                      "y": 0.52,
+                      "gap": 0,
+                      "rotation": 0
+                    },
+                    {
+                      "uid": "imw199zp04t7apn",
+                      "relation": "on",
+                      "targetUid": "imw199zp0egdarn",
+                      "x": 0.35,
+                      "y": 0.45,
+                      "gap": 0,
+                      "rotation": -15
+                    },
+                    {
+                      "uid": "imw199zp0p2slfk",
+                      "relation": "canvas",
+                      "x": 0.82,
+                      "y": 0.28,
+                      "gap": 0,
+                      "rotation": 0
+                    }
+                  ]
+                },
+                {
+                  "principle": "Смещение элементов со сменой сторон внутри группы при сохранении общей плотности и читаемости.",
+                  "placements": [
+                    {
+                      "uid": "imw199zp0egdarn",
+                      "relation": "canvas",
+                      "x": 0.52,
+                      "y": 0.54,
+                      "gap": 0,
+                      "rotation": 0
+                    },
+                    {
+                      "uid": "imw199zp04t7apn",
+                      "relation": "on",
+                      "targetUid": "imw199zp0egdarn",
+                      "x": 0.65,
+                      "y": 0.4,
+                      "gap": 0,
+                      "rotation": 10
+                    },
+                    {
+                      "uid": "imw199zp0p2slfk",
+                      "relation": "canvas",
+                      "x": 0.18,
+                      "y": 0.28,
+                      "gap": 0,
+                      "rotation": 0
+                    }
+                  ]
+                },
+                {
+                  "principle": "Диагональное расположение главных предметов для динамичного восприятия рабочей сцены.",
+                  "placements": [
+                    {
+                      "uid": "imw199zp0egdarn",
+                      "relation": "canvas",
+                      "x": 0.5,
+                      "y": 0.5,
+                      "gap": 0,
+                      "rotation": 0
+                    },
+                    {
+                      "uid": "imw199zp04t7apn",
+                      "relation": "on",
+                      "targetUid": "imw199zp0egdarn",
+                      "x": 0.5,
+                      "y": 0.3,
+                      "gap": 0,
+                      "rotation": -45
+                    },
+                    {
+                      "uid": "imw199zp0p2slfk",
+                      "relation": "canvas",
+                      "x": 0.85,
+                      "y": 0.25,
+                      "gap": 0,
+                      "rotation": 0
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "format": "landscape",
+              "views": [
+                {
+                  "principle": "Сбалансированное горизонтальное размещение папки и ручки с фоновой лампой в правом углу.",
+                  "placements": [
+                    {
+                      "uid": "imw199zp0egdarn",
+                      "relation": "canvas",
+                      "x": 0.5,
+                      "y": 0.53,
+                      "gap": 0,
+                      "rotation": 0
+                    },
+                    {
+                      "uid": "imw199zp04t7apn",
+                      "relation": "on",
+                      "targetUid": "imw199zp0egdarn",
+                      "x": 0.38,
+                      "y": 0.45,
+                      "gap": 0,
+                      "rotation": -15
+                    },
+                    {
+                      "uid": "imw199zp0p2slfk",
+                      "relation": "canvas",
+                      "x": 0.88,
+                      "y": 0.3,
+                      "gap": 0,
+                      "rotation": 0
+                    }
+                  ]
+                },
+                {
+                  "principle": "Смещение акцентов внутри горизонтального формата с сохранением компактности.",
+                  "placements": [
+                    {
+                      "uid": "imw199zp0egdarn",
+                      "relation": "canvas",
+                      "x": 0.52,
+                      "y": 0.55,
+                      "gap": 0,
+                      "rotation": 0
+                    },
+                    {
+                      "uid": "imw199zp04t7apn",
+                      "relation": "on",
+                      "targetUid": "imw199zp0egdarn",
+                      "x": 0.62,
+                      "y": 0.42,
+                      "gap": 0,
+                      "rotation": 15
+                    },
+                    {
+                      "uid": "imw199zp0p2slfk",
+                      "relation": "canvas",
+                      "x": 0.15,
+                      "y": 0.3,
+                      "gap": 0,
+                      "rotation": 0
+                    }
+                  ]
+                },
+                {
+                  "principle": "Диагональное развитие сцены в пейзажном холсте.",
+                  "placements": [
+                    {
+                      "uid": "imw199zp0egdarn",
+                      "relation": "canvas",
+                      "x": 0.5,
+                      "y": 0.52,
+                      "gap": 0,
+                      "rotation": 0
+                    },
+                    {
+                      "uid": "imw199zp04t7apn",
+                      "relation": "on",
+                      "targetUid": "imw199zp0egdarn",
+                      "x": 0.5,
+                      "y": 0.32,
+                      "gap": 0,
+                      "rotation": -30
+                    },
+                    {
+                      "uid": "imw199zp0p2slfk",
+                      "relation": "canvas",
+                      "x": 0.85,
+                      "y": 0.28,
+                      "gap": 0,
+                      "rotation": 0
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "format": "portrait",
+              "views": [
+                {
+                  "principle": "Вертикальная компоновка папки и ручки с лампой в верхней части портретного холста.",
+                  "placements": [
+                    {
+                      "uid": "imw199zp0egdarn",
+                      "relation": "canvas",
+                      "x": 0.5,
+                      "y": 0.55,
+                      "gap": 0,
+                      "rotation": 0
+                    },
+                    {
+                      "uid": "imw199zp04t7apn",
+                      "relation": "on",
+                      "targetUid": "imw199zp0egdarn",
+                      "x": 0.4,
+                      "y": 0.48,
+                      "gap": 0,
+                      "rotation": -10
+                    },
+                    {
+                      "uid": "imw199zp0p2slfk",
+                      "relation": "canvas",
+                      "x": 0.78,
+                      "y": 0.22,
+                      "gap": 0,
+                      "rotation": 0
+                    }
+                  ]
+                },
+                {
+                  "principle": "Смещение элементов по вертикали с зеркальным расположением компаньона.",
+                  "placements": [
+                    {
+                      "uid": "imw199zp0egdarn",
+                      "relation": "canvas",
+                      "x": 0.5,
+                      "y": 0.57,
+                      "gap": 0,
+                      "rotation": 0
+                    },
+                    {
+                      "uid": "imw199zp04t7apn",
+                      "relation": "on",
+                      "targetUid": "imw199zp0egdarn",
+                      "x": 0.6,
+                      "y": 0.45,
+                      "gap": 0,
+                      "rotation": 15
+                    },
+                    {
+                      "uid": "imw199zp0p2slfk",
+                      "relation": "canvas",
+                      "x": 0.22,
+                      "y": 0.22,
+                      "gap": 0,
+                      "rotation": 0
+                    }
+                  ]
+                },
+                {
+                  "principle": "Динамичное вертикальное построение с акцентом на центральную ось.",
+                  "placements": [
+                    {
+                      "uid": "imw199zp0egdarn",
+                      "relation": "canvas",
+                      "x": 0.5,
+                      "y": 0.55,
+                      "gap": 0,
+                      "rotation": 0
+                    },
+                    {
+                      "uid": "imw199zp04t7apn",
+                      "relation": "on",
+                      "targetUid": "imw199zp0egdarn",
+                      "x": 0.5,
+                      "y": 0.35,
+                      "gap": 0,
+                      "rotation": -40
+                    },
+                    {
+                      "uid": "imw199zp0p2slfk",
+                      "relation": "canvas",
+                      "x": 0.8,
+                      "y": 0.2,
+                      "gap": 0,
+                      "rotation": 0
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "width": 1200,
+          "height": 630,
+          "format": "landscape",
+          "size": "S",
+          "palette": "aqua",
+          "layout": "compact",
+          "background": "pattern",
+          "backgroundDesign": "auto",
+          "supporting": true,
+          "showSupporting": true,
+          "camera": null,
+          "composition": {
+            "index": 1,
+            "options": [
+              {
+                "strategy": "balanced",
+                "title": "На опоре",
+                "principle": "Папка с документами и ручка расположены по центру в тесном контакте, фоновая лампа дополняет композицию сверху справа.",
+                "placement": "on-surface"
+              },
+              {
+                "strategy": "spacious",
+                "title": "Рядом",
+                "principle": "Смещение элементов со сменой сторон внутри группы при сохранении общей плотности и читаемости.",
+                "placement": "beside"
+              },
+              {
+                "strategy": "diagonal",
+                "title": "Другой ракурс группы",
+                "principle": "Диагональное расположение главных предметов для динамичного восприятия рабочей сцены.",
+                "placement": "across"
+              }
+            ]
+          },
+          "layerRelations": [
+            {
+              "back": "imw199zp0egdarn",
+              "front": "imw199zp04t7apn",
+              "reason": "Предмет лежит на допустимой опоре."
+            },
+            {
+              "back": "imw199zp0p2slfk",
+              "front": "imw199zp0egdarn",
+              "reason": "Фоновый компаньон находится позади главной группы."
+            }
+          ],
+          "recipe": "auto",
+          "framing": "overview",
+          "focus": "folder",
+          "query": "Навести порядок в делах",
+          "scale": 1,
+          "items": [
+            {
+              "uid": "imw199zp0p2slfk",
+              "assetId": "lamp",
+              "role": "background",
+              "x": 194.19,
+              "y": 245.5,
+              "rotation": 0,
+              "flipX": false,
+              "flipY": false,
+              "zone": "top-right",
+              "crop": "fragment"
+            },
+            {
+              "uid": "imw199zp0egdarn",
+              "assetId": "folder",
+              "role": "main",
+              "x": 648.84,
+              "y": 359.7,
+              "rotation": 0,
+              "flipX": false,
+              "flipY": false,
+              "zone": "auto",
+              "crop": "whole"
+            },
+            {
+              "uid": "imw199zp04t7apn",
+              "assetId": "pen",
+              "role": "main",
+              "x": 723.36,
+              "y": 333.29999999999995,
+              "rotation": 15,
+              "flipX": false,
+              "flipY": false,
+              "supportUid": "imw199zp0egdarn",
+              "zone": "auto",
+              "crop": "whole"
+            }
+          ]
+        },
+        {
+          "version": 1,
+          "sizing": "native",
+          "environmentPrompt": "",
+          "environmentExplanation": [
+            "Главная смысловая группа объединяет папку для документов и пишущую ручку, символизируя планирование и организацию дел.",
+            "Настольная лампа в роли фонового компаньона добавляет глубину и мягко освещает рабочую зону с правого края.",
+            "Композиция построена на естественном соседстве предметов с сохранением читаемых силуэтов."
+          ],
+          "groups": [
+            {
+              "kind": "collection",
+              "members": [
+                "imw199zp0egdarn",
+                "imw199zp04t7apn"
+              ],
+              "reason": "Диагональное развитие сцены в пейзажном холсте."
+            }
+          ],
+          "formatPlans": [],
+          "stagingPlans": [
+            {
+              "format": "square",
+              "views": [
+                {
+                  "principle": "Папка с документами и ручка расположены по центру в тесном контакте, фоновая лампа дополняет композицию сверху справа.",
+                  "placements": [
+                    {
+                      "uid": "imw199zp0egdarn",
+                      "relation": "canvas",
+                      "x": 0.48,
+                      "y": 0.52,
+                      "gap": 0,
+                      "rotation": 0
+                    },
+                    {
+                      "uid": "imw199zp04t7apn",
+                      "relation": "on",
+                      "targetUid": "imw199zp0egdarn",
+                      "x": 0.35,
+                      "y": 0.45,
+                      "gap": 0,
+                      "rotation": -15
+                    },
+                    {
+                      "uid": "imw199zp0p2slfk",
+                      "relation": "canvas",
+                      "x": 0.82,
+                      "y": 0.28,
+                      "gap": 0,
+                      "rotation": 0
+                    }
+                  ]
+                },
+                {
+                  "principle": "Смещение элементов со сменой сторон внутри группы при сохранении общей плотности и читаемости.",
+                  "placements": [
+                    {
+                      "uid": "imw199zp0egdarn",
+                      "relation": "canvas",
+                      "x": 0.52,
+                      "y": 0.54,
+                      "gap": 0,
+                      "rotation": 0
+                    },
+                    {
+                      "uid": "imw199zp04t7apn",
+                      "relation": "on",
+                      "targetUid": "imw199zp0egdarn",
+                      "x": 0.65,
+                      "y": 0.4,
+                      "gap": 0,
+                      "rotation": 10
+                    },
+                    {
+                      "uid": "imw199zp0p2slfk",
+                      "relation": "canvas",
+                      "x": 0.18,
+                      "y": 0.28,
+                      "gap": 0,
+                      "rotation": 0
+                    }
+                  ]
+                },
+                {
+                  "principle": "Диагональное расположение главных предметов для динамичного восприятия рабочей сцены.",
+                  "placements": [
+                    {
+                      "uid": "imw199zp0egdarn",
+                      "relation": "canvas",
+                      "x": 0.5,
+                      "y": 0.5,
+                      "gap": 0,
+                      "rotation": 0
+                    },
+                    {
+                      "uid": "imw199zp04t7apn",
+                      "relation": "on",
+                      "targetUid": "imw199zp0egdarn",
+                      "x": 0.5,
+                      "y": 0.3,
+                      "gap": 0,
+                      "rotation": -45
+                    },
+                    {
+                      "uid": "imw199zp0p2slfk",
+                      "relation": "canvas",
+                      "x": 0.85,
+                      "y": 0.25,
+                      "gap": 0,
+                      "rotation": 0
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "format": "landscape",
+              "views": [
+                {
+                  "principle": "Сбалансированное горизонтальное размещение папки и ручки с фоновой лампой в правом углу.",
+                  "placements": [
+                    {
+                      "uid": "imw199zp0egdarn",
+                      "relation": "canvas",
+                      "x": 0.5,
+                      "y": 0.53,
+                      "gap": 0,
+                      "rotation": 0
+                    },
+                    {
+                      "uid": "imw199zp04t7apn",
+                      "relation": "on",
+                      "targetUid": "imw199zp0egdarn",
+                      "x": 0.38,
+                      "y": 0.45,
+                      "gap": 0,
+                      "rotation": -15
+                    },
+                    {
+                      "uid": "imw199zp0p2slfk",
+                      "relation": "canvas",
+                      "x": 0.88,
+                      "y": 0.3,
+                      "gap": 0,
+                      "rotation": 0
+                    }
+                  ]
+                },
+                {
+                  "principle": "Смещение акцентов внутри горизонтального формата с сохранением компактности.",
+                  "placements": [
+                    {
+                      "uid": "imw199zp0egdarn",
+                      "relation": "canvas",
+                      "x": 0.52,
+                      "y": 0.55,
+                      "gap": 0,
+                      "rotation": 0
+                    },
+                    {
+                      "uid": "imw199zp04t7apn",
+                      "relation": "on",
+                      "targetUid": "imw199zp0egdarn",
+                      "x": 0.62,
+                      "y": 0.42,
+                      "gap": 0,
+                      "rotation": 15
+                    },
+                    {
+                      "uid": "imw199zp0p2slfk",
+                      "relation": "canvas",
+                      "x": 0.15,
+                      "y": 0.3,
+                      "gap": 0,
+                      "rotation": 0
+                    }
+                  ]
+                },
+                {
+                  "principle": "Диагональное развитие сцены в пейзажном холсте.",
+                  "placements": [
+                    {
+                      "uid": "imw199zp0egdarn",
+                      "relation": "canvas",
+                      "x": 0.5,
+                      "y": 0.52,
+                      "gap": 0,
+                      "rotation": 0
+                    },
+                    {
+                      "uid": "imw199zp04t7apn",
+                      "relation": "on",
+                      "targetUid": "imw199zp0egdarn",
+                      "x": 0.5,
+                      "y": 0.32,
+                      "gap": 0,
+                      "rotation": -30
+                    },
+                    {
+                      "uid": "imw199zp0p2slfk",
+                      "relation": "canvas",
+                      "x": 0.85,
+                      "y": 0.28,
+                      "gap": 0,
+                      "rotation": 0
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "format": "portrait",
+              "views": [
+                {
+                  "principle": "Вертикальная компоновка папки и ручки с лампой в верхней части портретного холста.",
+                  "placements": [
+                    {
+                      "uid": "imw199zp0egdarn",
+                      "relation": "canvas",
+                      "x": 0.5,
+                      "y": 0.55,
+                      "gap": 0,
+                      "rotation": 0
+                    },
+                    {
+                      "uid": "imw199zp04t7apn",
+                      "relation": "on",
+                      "targetUid": "imw199zp0egdarn",
+                      "x": 0.4,
+                      "y": 0.48,
+                      "gap": 0,
+                      "rotation": -10
+                    },
+                    {
+                      "uid": "imw199zp0p2slfk",
+                      "relation": "canvas",
+                      "x": 0.78,
+                      "y": 0.22,
+                      "gap": 0,
+                      "rotation": 0
+                    }
+                  ]
+                },
+                {
+                  "principle": "Смещение элементов по вертикали с зеркальным расположением компаньона.",
+                  "placements": [
+                    {
+                      "uid": "imw199zp0egdarn",
+                      "relation": "canvas",
+                      "x": 0.5,
+                      "y": 0.57,
+                      "gap": 0,
+                      "rotation": 0
+                    },
+                    {
+                      "uid": "imw199zp04t7apn",
+                      "relation": "on",
+                      "targetUid": "imw199zp0egdarn",
+                      "x": 0.6,
+                      "y": 0.45,
+                      "gap": 0,
+                      "rotation": 15
+                    },
+                    {
+                      "uid": "imw199zp0p2slfk",
+                      "relation": "canvas",
+                      "x": 0.22,
+                      "y": 0.22,
+                      "gap": 0,
+                      "rotation": 0
+                    }
+                  ]
+                },
+                {
+                  "principle": "Динамичное вертикальное построение с акцентом на центральную ось.",
+                  "placements": [
+                    {
+                      "uid": "imw199zp0egdarn",
+                      "relation": "canvas",
+                      "x": 0.5,
+                      "y": 0.55,
+                      "gap": 0,
+                      "rotation": 0
+                    },
+                    {
+                      "uid": "imw199zp04t7apn",
+                      "relation": "on",
+                      "targetUid": "imw199zp0egdarn",
+                      "x": 0.5,
+                      "y": 0.35,
+                      "gap": 0,
+                      "rotation": -40
+                    },
+                    {
+                      "uid": "imw199zp0p2slfk",
+                      "relation": "canvas",
+                      "x": 0.8,
+                      "y": 0.2,
+                      "gap": 0,
+                      "rotation": 0
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "executionNotes": [
+            "Положение «Настольная лампа» уточнено по границам кадра и реестру пересечений."
+          ],
+          "width": 1200,
+          "height": 630,
+          "format": "landscape",
+          "size": "S",
+          "palette": "aqua",
+          "layout": "compact",
+          "background": "pattern",
+          "backgroundDesign": "auto",
+          "supporting": true,
+          "showSupporting": true,
+          "camera": null,
+          "composition": {
+            "index": 2,
+            "options": [
+              {
+                "strategy": "balanced",
+                "title": "На опоре",
+                "principle": "Папка с документами и ручка расположены по центру в тесном контакте, фоновая лампа дополняет композицию сверху справа.",
+                "placement": "on-surface"
+              },
+              {
+                "strategy": "spacious",
+                "title": "Рядом",
+                "principle": "Смещение элементов со сменой сторон внутри группы при сохранении общей плотности и читаемости.",
+                "placement": "beside"
+              },
+              {
+                "strategy": "diagonal",
+                "title": "Другой ракурс группы",
+                "principle": "Диагональное расположение главных предметов для динамичного восприятия рабочей сцены.",
+                "placement": "across"
+              }
+            ]
+          },
+          "layerRelations": [
+            {
+              "back": "imw199zp0egdarn",
+              "front": "imw199zp04t7apn",
+              "reason": "Предмет лежит на допустимой опоре."
+            },
+            {
+              "back": "imw199zp0p2slfk",
+              "front": "imw199zp0egdarn",
+              "reason": "Фоновый компаньон находится позади главной группы."
+            }
+          ],
+          "recipe": "auto",
+          "framing": "overview",
+          "focus": "folder",
+          "query": "Навести порядок в делах",
+          "scale": 1,
+          "items": [
+            {
+              "uid": "imw199zp0p2slfk",
+              "assetId": "lamp",
+              "role": "background",
+              "x": 1200,
+              "y": 232.89999999999998,
+              "rotation": 0,
+              "flipX": false,
+              "flipY": false,
+              "zone": "top-right",
+              "crop": "fragment"
+            },
+            {
+              "uid": "imw199zp0egdarn",
+              "assetId": "folder",
+              "role": "main",
+              "x": 624.84,
+              "y": 340.8,
+              "rotation": 0,
+              "flipX": false,
+              "flipY": false,
+              "zone": "auto",
+              "crop": "whole"
+            },
+            {
+              "uid": "imw199zp04t7apn",
+              "assetId": "pen",
+              "role": "main",
+              "x": 624.84,
+              "y": 281.40000000000003,
+              "rotation": -30,
+              "flipX": false,
+              "flipY": false,
+              "supportUid": "imw199zp0egdarn",
+              "zone": "auto",
+              "crop": "whole"
+            }
+          ]
+        }
+      ],
+      "portrait": [
+        {
+          "version": 1,
+          "sizing": "native",
+          "environmentPrompt": "",
+          "environmentExplanation": [
+            "Главная смысловая группа объединяет папку для документов и пишущую ручку, символизируя планирование и организацию дел.",
+            "Настольная лампа в роли фонового компаньона добавляет глубину и мягко освещает рабочую зону с правого края.",
+            "Композиция построена на естественном соседстве предметов с сохранением читаемых силуэтов."
+          ],
+          "groups": [
+            {
+              "kind": "collection",
+              "members": [
+                "imw199zp0egdarn",
+                "imw199zp04t7apn"
+              ],
+              "reason": "Вертикальная компоновка папки и ручки с лампой в верхней части портретного холста."
+            }
+          ],
+          "formatPlans": [],
+          "stagingPlans": [
+            {
+              "format": "square",
+              "views": [
+                {
+                  "principle": "Папка с документами и ручка расположены по центру в тесном контакте, фоновая лампа дополняет композицию сверху справа.",
+                  "placements": [
+                    {
+                      "uid": "imw199zp0egdarn",
+                      "relation": "canvas",
+                      "x": 0.48,
+                      "y": 0.52,
+                      "gap": 0,
+                      "rotation": 0
+                    },
+                    {
+                      "uid": "imw199zp04t7apn",
+                      "relation": "on",
+                      "targetUid": "imw199zp0egdarn",
+                      "x": 0.35,
+                      "y": 0.45,
+                      "gap": 0,
+                      "rotation": -15
+                    },
+                    {
+                      "uid": "imw199zp0p2slfk",
+                      "relation": "canvas",
+                      "x": 0.82,
+                      "y": 0.28,
+                      "gap": 0,
+                      "rotation": 0
+                    }
+                  ]
+                },
+                {
+                  "principle": "Смещение элементов со сменой сторон внутри группы при сохранении общей плотности и читаемости.",
+                  "placements": [
+                    {
+                      "uid": "imw199zp0egdarn",
+                      "relation": "canvas",
+                      "x": 0.52,
+                      "y": 0.54,
+                      "gap": 0,
+                      "rotation": 0
+                    },
+                    {
+                      "uid": "imw199zp04t7apn",
+                      "relation": "on",
+                      "targetUid": "imw199zp0egdarn",
+                      "x": 0.65,
+                      "y": 0.4,
+                      "gap": 0,
+                      "rotation": 10
+                    },
+                    {
+                      "uid": "imw199zp0p2slfk",
+                      "relation": "canvas",
+                      "x": 0.18,
+                      "y": 0.28,
+                      "gap": 0,
+                      "rotation": 0
+                    }
+                  ]
+                },
+                {
+                  "principle": "Диагональное расположение главных предметов для динамичного восприятия рабочей сцены.",
+                  "placements": [
+                    {
+                      "uid": "imw199zp0egdarn",
+                      "relation": "canvas",
+                      "x": 0.5,
+                      "y": 0.5,
+                      "gap": 0,
+                      "rotation": 0
+                    },
+                    {
+                      "uid": "imw199zp04t7apn",
+                      "relation": "on",
+                      "targetUid": "imw199zp0egdarn",
+                      "x": 0.5,
+                      "y": 0.3,
+                      "gap": 0,
+                      "rotation": -45
+                    },
+                    {
+                      "uid": "imw199zp0p2slfk",
+                      "relation": "canvas",
+                      "x": 0.85,
+                      "y": 0.25,
+                      "gap": 0,
+                      "rotation": 0
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "format": "landscape",
+              "views": [
+                {
+                  "principle": "Сбалансированное горизонтальное размещение папки и ручки с фоновой лампой в правом углу.",
+                  "placements": [
+                    {
+                      "uid": "imw199zp0egdarn",
+                      "relation": "canvas",
+                      "x": 0.5,
+                      "y": 0.53,
+                      "gap": 0,
+                      "rotation": 0
+                    },
+                    {
+                      "uid": "imw199zp04t7apn",
+                      "relation": "on",
+                      "targetUid": "imw199zp0egdarn",
+                      "x": 0.38,
+                      "y": 0.45,
+                      "gap": 0,
+                      "rotation": -15
+                    },
+                    {
+                      "uid": "imw199zp0p2slfk",
+                      "relation": "canvas",
+                      "x": 0.88,
+                      "y": 0.3,
+                      "gap": 0,
+                      "rotation": 0
+                    }
+                  ]
+                },
+                {
+                  "principle": "Смещение акцентов внутри горизонтального формата с сохранением компактности.",
+                  "placements": [
+                    {
+                      "uid": "imw199zp0egdarn",
+                      "relation": "canvas",
+                      "x": 0.52,
+                      "y": 0.55,
+                      "gap": 0,
+                      "rotation": 0
+                    },
+                    {
+                      "uid": "imw199zp04t7apn",
+                      "relation": "on",
+                      "targetUid": "imw199zp0egdarn",
+                      "x": 0.62,
+                      "y": 0.42,
+                      "gap": 0,
+                      "rotation": 15
+                    },
+                    {
+                      "uid": "imw199zp0p2slfk",
+                      "relation": "canvas",
+                      "x": 0.15,
+                      "y": 0.3,
+                      "gap": 0,
+                      "rotation": 0
+                    }
+                  ]
+                },
+                {
+                  "principle": "Диагональное развитие сцены в пейзажном холсте.",
+                  "placements": [
+                    {
+                      "uid": "imw199zp0egdarn",
+                      "relation": "canvas",
+                      "x": 0.5,
+                      "y": 0.52,
+                      "gap": 0,
+                      "rotation": 0
+                    },
+                    {
+                      "uid": "imw199zp04t7apn",
+                      "relation": "on",
+                      "targetUid": "imw199zp0egdarn",
+                      "x": 0.5,
+                      "y": 0.32,
+                      "gap": 0,
+                      "rotation": -30
+                    },
+                    {
+                      "uid": "imw199zp0p2slfk",
+                      "relation": "canvas",
+                      "x": 0.85,
+                      "y": 0.28,
+                      "gap": 0,
+                      "rotation": 0
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "format": "portrait",
+              "views": [
+                {
+                  "principle": "Вертикальная компоновка папки и ручки с лампой в верхней части портретного холста.",
+                  "placements": [
+                    {
+                      "uid": "imw199zp0egdarn",
+                      "relation": "canvas",
+                      "x": 0.5,
+                      "y": 0.55,
+                      "gap": 0,
+                      "rotation": 0
+                    },
+                    {
+                      "uid": "imw199zp04t7apn",
+                      "relation": "on",
+                      "targetUid": "imw199zp0egdarn",
+                      "x": 0.4,
+                      "y": 0.48,
+                      "gap": 0,
+                      "rotation": -10
+                    },
+                    {
+                      "uid": "imw199zp0p2slfk",
+                      "relation": "canvas",
+                      "x": 0.78,
+                      "y": 0.22,
+                      "gap": 0,
+                      "rotation": 0
+                    }
+                  ]
+                },
+                {
+                  "principle": "Смещение элементов по вертикали с зеркальным расположением компаньона.",
+                  "placements": [
+                    {
+                      "uid": "imw199zp0egdarn",
+                      "relation": "canvas",
+                      "x": 0.5,
+                      "y": 0.57,
+                      "gap": 0,
+                      "rotation": 0
+                    },
+                    {
+                      "uid": "imw199zp04t7apn",
+                      "relation": "on",
+                      "targetUid": "imw199zp0egdarn",
+                      "x": 0.6,
+                      "y": 0.45,
+                      "gap": 0,
+                      "rotation": 15
+                    },
+                    {
+                      "uid": "imw199zp0p2slfk",
+                      "relation": "canvas",
+                      "x": 0.22,
+                      "y": 0.22,
+                      "gap": 0,
+                      "rotation": 0
+                    }
+                  ]
+                },
+                {
+                  "principle": "Динамичное вертикальное построение с акцентом на центральную ось.",
+                  "placements": [
+                    {
+                      "uid": "imw199zp0egdarn",
+                      "relation": "canvas",
+                      "x": 0.5,
+                      "y": 0.55,
+                      "gap": 0,
+                      "rotation": 0
+                    },
+                    {
+                      "uid": "imw199zp04t7apn",
+                      "relation": "on",
+                      "targetUid": "imw199zp0egdarn",
+                      "x": 0.5,
+                      "y": 0.35,
+                      "gap": 0,
+                      "rotation": -40
+                    },
+                    {
+                      "uid": "imw199zp0p2slfk",
+                      "relation": "canvas",
+                      "x": 0.8,
+                      "y": 0.2,
+                      "gap": 0,
+                      "rotation": 0
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "executionNotes": [
+            "Положение «Настольная лампа» уточнено по границам кадра и реестру пересечений."
+          ],
+          "width": 800,
+          "height": 1200,
+          "format": "portrait",
+          "size": "S",
+          "palette": "aqua",
+          "layout": "compact",
+          "background": "pattern",
+          "backgroundDesign": "auto",
+          "supporting": true,
+          "showSupporting": true,
+          "camera": null,
+          "composition": {
+            "index": 0,
+            "options": [
+              {
+                "strategy": "balanced",
+                "title": "На опоре",
+                "principle": "Папка с документами и ручка расположены по центру в тесном контакте, фоновая лампа дополняет композицию сверху справа.",
+                "placement": "on-surface"
+              },
+              {
+                "strategy": "spacious",
+                "title": "Рядом",
+                "principle": "Смещение элементов со сменой сторон внутри группы при сохранении общей плотности и читаемости.",
+                "placement": "beside"
+              },
+              {
+                "strategy": "diagonal",
+                "title": "Другой ракурс группы",
+                "principle": "Диагональное расположение главных предметов для динамичного восприятия рабочей сцены.",
+                "placement": "across"
+              }
+            ]
+          },
+          "layerRelations": [
+            {
+              "back": "imw199zp0egdarn",
+              "front": "imw199zp04t7apn",
+              "reason": "Предмет лежит на допустимой опоре."
+            },
+            {
+              "back": "imw199zp0p2slfk",
+              "front": "imw199zp0egdarn",
+              "reason": "Фоновый компаньон находится позади главной группы."
+            }
+          ],
+          "recipe": "auto",
+          "framing": "overview",
+          "focus": "folder",
+          "query": "Навести порядок в делах",
+          "scale": 1,
+          "items": [
+            {
+              "uid": "imw199zp0p2slfk",
+              "assetId": "lamp",
+              "role": "background",
+              "x": 704,
+              "y": 144,
+              "rotation": 0,
+              "flipX": false,
+              "flipY": false,
+              "zone": "top-right",
+              "crop": "fragment"
+            },
+            {
+              "uid": "imw199zp0egdarn",
+              "assetId": "folder",
+              "role": "main",
+              "x": 424.84,
+              "y": 673.2,
+              "rotation": 0,
+              "flipX": false,
+              "flipY": false,
+              "zone": "auto",
+              "crop": "whole"
+            },
+            {
+              "uid": "imw199zp04t7apn",
+              "assetId": "pen",
+              "role": "main",
+              "x": 362.74,
+              "y": 666.6,
+              "rotation": -10,
+              "flipX": false,
+              "flipY": false,
+              "supportUid": "imw199zp0egdarn",
+              "zone": "auto",
+              "crop": "whole"
+            }
+          ]
+        },
+        {
+          "version": 1,
+          "sizing": "native",
+          "environmentPrompt": "",
+          "environmentExplanation": [
+            "Главная смысловая группа объединяет папку для документов и пишущую ручку, символизируя планирование и организацию дел.",
+            "Настольная лампа в роли фонового компаньона добавляет глубину и мягко освещает рабочую зону с правого края.",
+            "Композиция построена на естественном соседстве предметов с сохранением читаемых силуэтов."
+          ],
+          "groups": [
+            {
+              "kind": "collection",
+              "members": [
+                "imw199zp0egdarn",
+                "imw199zp04t7apn"
+              ],
+              "reason": "Смещение элементов по вертикали с зеркальным расположением компаньона."
+            }
+          ],
+          "formatPlans": [],
+          "stagingPlans": [
+            {
+              "format": "square",
+              "views": [
+                {
+                  "principle": "Папка с документами и ручка расположены по центру в тесном контакте, фоновая лампа дополняет композицию сверху справа.",
+                  "placements": [
+                    {
+                      "uid": "imw199zp0egdarn",
+                      "relation": "canvas",
+                      "x": 0.48,
+                      "y": 0.52,
+                      "gap": 0,
+                      "rotation": 0
+                    },
+                    {
+                      "uid": "imw199zp04t7apn",
+                      "relation": "on",
+                      "targetUid": "imw199zp0egdarn",
+                      "x": 0.35,
+                      "y": 0.45,
+                      "gap": 0,
+                      "rotation": -15
+                    },
+                    {
+                      "uid": "imw199zp0p2slfk",
+                      "relation": "canvas",
+                      "x": 0.82,
+                      "y": 0.28,
+                      "gap": 0,
+                      "rotation": 0
+                    }
+                  ]
+                },
+                {
+                  "principle": "Смещение элементов со сменой сторон внутри группы при сохранении общей плотности и читаемости.",
+                  "placements": [
+                    {
+                      "uid": "imw199zp0egdarn",
+                      "relation": "canvas",
+                      "x": 0.52,
+                      "y": 0.54,
+                      "gap": 0,
+                      "rotation": 0
+                    },
+                    {
+                      "uid": "imw199zp04t7apn",
+                      "relation": "on",
+                      "targetUid": "imw199zp0egdarn",
+                      "x": 0.65,
+                      "y": 0.4,
+                      "gap": 0,
+                      "rotation": 10
+                    },
+                    {
+                      "uid": "imw199zp0p2slfk",
+                      "relation": "canvas",
+                      "x": 0.18,
+                      "y": 0.28,
+                      "gap": 0,
+                      "rotation": 0
+                    }
+                  ]
+                },
+                {
+                  "principle": "Диагональное расположение главных предметов для динамичного восприятия рабочей сцены.",
+                  "placements": [
+                    {
+                      "uid": "imw199zp0egdarn",
+                      "relation": "canvas",
+                      "x": 0.5,
+                      "y": 0.5,
+                      "gap": 0,
+                      "rotation": 0
+                    },
+                    {
+                      "uid": "imw199zp04t7apn",
+                      "relation": "on",
+                      "targetUid": "imw199zp0egdarn",
+                      "x": 0.5,
+                      "y": 0.3,
+                      "gap": 0,
+                      "rotation": -45
+                    },
+                    {
+                      "uid": "imw199zp0p2slfk",
+                      "relation": "canvas",
+                      "x": 0.85,
+                      "y": 0.25,
+                      "gap": 0,
+                      "rotation": 0
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "format": "landscape",
+              "views": [
+                {
+                  "principle": "Сбалансированное горизонтальное размещение папки и ручки с фоновой лампой в правом углу.",
+                  "placements": [
+                    {
+                      "uid": "imw199zp0egdarn",
+                      "relation": "canvas",
+                      "x": 0.5,
+                      "y": 0.53,
+                      "gap": 0,
+                      "rotation": 0
+                    },
+                    {
+                      "uid": "imw199zp04t7apn",
+                      "relation": "on",
+                      "targetUid": "imw199zp0egdarn",
+                      "x": 0.38,
+                      "y": 0.45,
+                      "gap": 0,
+                      "rotation": -15
+                    },
+                    {
+                      "uid": "imw199zp0p2slfk",
+                      "relation": "canvas",
+                      "x": 0.88,
+                      "y": 0.3,
+                      "gap": 0,
+                      "rotation": 0
+                    }
+                  ]
+                },
+                {
+                  "principle": "Смещение акцентов внутри горизонтального формата с сохранением компактности.",
+                  "placements": [
+                    {
+                      "uid": "imw199zp0egdarn",
+                      "relation": "canvas",
+                      "x": 0.52,
+                      "y": 0.55,
+                      "gap": 0,
+                      "rotation": 0
+                    },
+                    {
+                      "uid": "imw199zp04t7apn",
+                      "relation": "on",
+                      "targetUid": "imw199zp0egdarn",
+                      "x": 0.62,
+                      "y": 0.42,
+                      "gap": 0,
+                      "rotation": 15
+                    },
+                    {
+                      "uid": "imw199zp0p2slfk",
+                      "relation": "canvas",
+                      "x": 0.15,
+                      "y": 0.3,
+                      "gap": 0,
+                      "rotation": 0
+                    }
+                  ]
+                },
+                {
+                  "principle": "Диагональное развитие сцены в пейзажном холсте.",
+                  "placements": [
+                    {
+                      "uid": "imw199zp0egdarn",
+                      "relation": "canvas",
+                      "x": 0.5,
+                      "y": 0.52,
+                      "gap": 0,
+                      "rotation": 0
+                    },
+                    {
+                      "uid": "imw199zp04t7apn",
+                      "relation": "on",
+                      "targetUid": "imw199zp0egdarn",
+                      "x": 0.5,
+                      "y": 0.32,
+                      "gap": 0,
+                      "rotation": -30
+                    },
+                    {
+                      "uid": "imw199zp0p2slfk",
+                      "relation": "canvas",
+                      "x": 0.85,
+                      "y": 0.28,
+                      "gap": 0,
+                      "rotation": 0
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "format": "portrait",
+              "views": [
+                {
+                  "principle": "Вертикальная компоновка папки и ручки с лампой в верхней части портретного холста.",
+                  "placements": [
+                    {
+                      "uid": "imw199zp0egdarn",
+                      "relation": "canvas",
+                      "x": 0.5,
+                      "y": 0.55,
+                      "gap": 0,
+                      "rotation": 0
+                    },
+                    {
+                      "uid": "imw199zp04t7apn",
+                      "relation": "on",
+                      "targetUid": "imw199zp0egdarn",
+                      "x": 0.4,
+                      "y": 0.48,
+                      "gap": 0,
+                      "rotation": -10
+                    },
+                    {
+                      "uid": "imw199zp0p2slfk",
+                      "relation": "canvas",
+                      "x": 0.78,
+                      "y": 0.22,
+                      "gap": 0,
+                      "rotation": 0
+                    }
+                  ]
+                },
+                {
+                  "principle": "Смещение элементов по вертикали с зеркальным расположением компаньона.",
+                  "placements": [
+                    {
+                      "uid": "imw199zp0egdarn",
+                      "relation": "canvas",
+                      "x": 0.5,
+                      "y": 0.57,
+                      "gap": 0,
+                      "rotation": 0
+                    },
+                    {
+                      "uid": "imw199zp04t7apn",
+                      "relation": "on",
+                      "targetUid": "imw199zp0egdarn",
+                      "x": 0.6,
+                      "y": 0.45,
+                      "gap": 0,
+                      "rotation": 15
+                    },
+                    {
+                      "uid": "imw199zp0p2slfk",
+                      "relation": "canvas",
+                      "x": 0.22,
+                      "y": 0.22,
+                      "gap": 0,
+                      "rotation": 0
+                    }
+                  ]
+                },
+                {
+                  "principle": "Динамичное вертикальное построение с акцентом на центральную ось.",
+                  "placements": [
+                    {
+                      "uid": "imw199zp0egdarn",
+                      "relation": "canvas",
+                      "x": 0.5,
+                      "y": 0.55,
+                      "gap": 0,
+                      "rotation": 0
+                    },
+                    {
+                      "uid": "imw199zp04t7apn",
+                      "relation": "on",
+                      "targetUid": "imw199zp0egdarn",
+                      "x": 0.5,
+                      "y": 0.35,
+                      "gap": 0,
+                      "rotation": -40
+                    },
+                    {
+                      "uid": "imw199zp0p2slfk",
+                      "relation": "canvas",
+                      "x": 0.8,
+                      "y": 0.2,
+                      "gap": 0,
+                      "rotation": 0
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "width": 800,
+          "height": 1200,
+          "format": "portrait",
+          "size": "S",
+          "palette": "aqua",
+          "layout": "compact",
+          "background": "pattern",
+          "backgroundDesign": "auto",
+          "supporting": true,
+          "showSupporting": true,
+          "camera": null,
+          "composition": {
+            "index": 1,
+            "options": [
+              {
+                "strategy": "balanced",
+                "title": "На опоре",
+                "principle": "Папка с документами и ручка расположены по центру в тесном контакте, фоновая лампа дополняет композицию сверху справа.",
+                "placement": "on-surface"
+              },
+              {
+                "strategy": "spacious",
+                "title": "Рядом",
+                "principle": "Смещение элементов со сменой сторон внутри группы при сохранении общей плотности и читаемости.",
+                "placement": "beside"
+              },
+              {
+                "strategy": "diagonal",
+                "title": "Другой ракурс группы",
+                "principle": "Диагональное расположение главных предметов для динамичного восприятия рабочей сцены.",
+                "placement": "across"
+              }
+            ]
+          },
+          "layerRelations": [
+            {
+              "back": "imw199zp0egdarn",
+              "front": "imw199zp04t7apn",
+              "reason": "Предмет лежит на допустимой опоре."
+            },
+            {
+              "back": "imw199zp0p2slfk",
+              "front": "imw199zp0egdarn",
+              "reason": "Фоновый компаньон находится позади главной группы."
+            }
+          ],
+          "recipe": "auto",
+          "framing": "overview",
+          "focus": "folder",
+          "query": "Навести порядок в делах",
+          "scale": 1,
+          "items": [
+            {
+              "uid": "imw199zp0p2slfk",
+              "assetId": "lamp",
+              "role": "background",
+              "x": 190.19,
+              "y": 320.5,
+              "rotation": 0,
+              "flipX": false,
+              "flipY": false,
+              "zone": "top-right",
+              "crop": "fragment"
+            },
+            {
+              "uid": "imw199zp0egdarn",
+              "assetId": "folder",
+              "role": "main",
+              "x": 424.84,
+              "y": 697.1999999999999,
+              "rotation": 0,
+              "flipX": false,
+              "flipY": false,
+              "zone": "auto",
+              "crop": "whole"
+            },
+            {
+              "uid": "imw199zp04t7apn",
+              "assetId": "pen",
+              "role": "main",
+              "x": 486.93999999999994,
+              "y": 680.6999999999999,
+              "rotation": 15,
+              "flipX": false,
+              "flipY": false,
+              "supportUid": "imw199zp0egdarn",
+              "zone": "auto",
+              "crop": "whole"
+            }
+          ]
+        },
+        {
+          "version": 1,
+          "sizing": "native",
+          "environmentPrompt": "",
+          "environmentExplanation": [
+            "Главная смысловая группа объединяет папку для документов и пишущую ручку, символизируя планирование и организацию дел.",
+            "Настольная лампа в роли фонового компаньона добавляет глубину и мягко освещает рабочую зону с правого края.",
+            "Композиция построена на естественном соседстве предметов с сохранением читаемых силуэтов."
+          ],
+          "groups": [
+            {
+              "kind": "collection",
+              "members": [
+                "imw199zp0egdarn",
+                "imw199zp04t7apn"
+              ],
+              "reason": "Динамичное вертикальное построение с акцентом на центральную ось."
+            }
+          ],
+          "formatPlans": [],
+          "stagingPlans": [
+            {
+              "format": "square",
+              "views": [
+                {
+                  "principle": "Папка с документами и ручка расположены по центру в тесном контакте, фоновая лампа дополняет композицию сверху справа.",
+                  "placements": [
+                    {
+                      "uid": "imw199zp0egdarn",
+                      "relation": "canvas",
+                      "x": 0.48,
+                      "y": 0.52,
+                      "gap": 0,
+                      "rotation": 0
+                    },
+                    {
+                      "uid": "imw199zp04t7apn",
+                      "relation": "on",
+                      "targetUid": "imw199zp0egdarn",
+                      "x": 0.35,
+                      "y": 0.45,
+                      "gap": 0,
+                      "rotation": -15
+                    },
+                    {
+                      "uid": "imw199zp0p2slfk",
+                      "relation": "canvas",
+                      "x": 0.82,
+                      "y": 0.28,
+                      "gap": 0,
+                      "rotation": 0
+                    }
+                  ]
+                },
+                {
+                  "principle": "Смещение элементов со сменой сторон внутри группы при сохранении общей плотности и читаемости.",
+                  "placements": [
+                    {
+                      "uid": "imw199zp0egdarn",
+                      "relation": "canvas",
+                      "x": 0.52,
+                      "y": 0.54,
+                      "gap": 0,
+                      "rotation": 0
+                    },
+                    {
+                      "uid": "imw199zp04t7apn",
+                      "relation": "on",
+                      "targetUid": "imw199zp0egdarn",
+                      "x": 0.65,
+                      "y": 0.4,
+                      "gap": 0,
+                      "rotation": 10
+                    },
+                    {
+                      "uid": "imw199zp0p2slfk",
+                      "relation": "canvas",
+                      "x": 0.18,
+                      "y": 0.28,
+                      "gap": 0,
+                      "rotation": 0
+                    }
+                  ]
+                },
+                {
+                  "principle": "Диагональное расположение главных предметов для динамичного восприятия рабочей сцены.",
+                  "placements": [
+                    {
+                      "uid": "imw199zp0egdarn",
+                      "relation": "canvas",
+                      "x": 0.5,
+                      "y": 0.5,
+                      "gap": 0,
+                      "rotation": 0
+                    },
+                    {
+                      "uid": "imw199zp04t7apn",
+                      "relation": "on",
+                      "targetUid": "imw199zp0egdarn",
+                      "x": 0.5,
+                      "y": 0.3,
+                      "gap": 0,
+                      "rotation": -45
+                    },
+                    {
+                      "uid": "imw199zp0p2slfk",
+                      "relation": "canvas",
+                      "x": 0.85,
+                      "y": 0.25,
+                      "gap": 0,
+                      "rotation": 0
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "format": "landscape",
+              "views": [
+                {
+                  "principle": "Сбалансированное горизонтальное размещение папки и ручки с фоновой лампой в правом углу.",
+                  "placements": [
+                    {
+                      "uid": "imw199zp0egdarn",
+                      "relation": "canvas",
+                      "x": 0.5,
+                      "y": 0.53,
+                      "gap": 0,
+                      "rotation": 0
+                    },
+                    {
+                      "uid": "imw199zp04t7apn",
+                      "relation": "on",
+                      "targetUid": "imw199zp0egdarn",
+                      "x": 0.38,
+                      "y": 0.45,
+                      "gap": 0,
+                      "rotation": -15
+                    },
+                    {
+                      "uid": "imw199zp0p2slfk",
+                      "relation": "canvas",
+                      "x": 0.88,
+                      "y": 0.3,
+                      "gap": 0,
+                      "rotation": 0
+                    }
+                  ]
+                },
+                {
+                  "principle": "Смещение акцентов внутри горизонтального формата с сохранением компактности.",
+                  "placements": [
+                    {
+                      "uid": "imw199zp0egdarn",
+                      "relation": "canvas",
+                      "x": 0.52,
+                      "y": 0.55,
+                      "gap": 0,
+                      "rotation": 0
+                    },
+                    {
+                      "uid": "imw199zp04t7apn",
+                      "relation": "on",
+                      "targetUid": "imw199zp0egdarn",
+                      "x": 0.62,
+                      "y": 0.42,
+                      "gap": 0,
+                      "rotation": 15
+                    },
+                    {
+                      "uid": "imw199zp0p2slfk",
+                      "relation": "canvas",
+                      "x": 0.15,
+                      "y": 0.3,
+                      "gap": 0,
+                      "rotation": 0
+                    }
+                  ]
+                },
+                {
+                  "principle": "Диагональное развитие сцены в пейзажном холсте.",
+                  "placements": [
+                    {
+                      "uid": "imw199zp0egdarn",
+                      "relation": "canvas",
+                      "x": 0.5,
+                      "y": 0.52,
+                      "gap": 0,
+                      "rotation": 0
+                    },
+                    {
+                      "uid": "imw199zp04t7apn",
+                      "relation": "on",
+                      "targetUid": "imw199zp0egdarn",
+                      "x": 0.5,
+                      "y": 0.32,
+                      "gap": 0,
+                      "rotation": -30
+                    },
+                    {
+                      "uid": "imw199zp0p2slfk",
+                      "relation": "canvas",
+                      "x": 0.85,
+                      "y": 0.28,
+                      "gap": 0,
+                      "rotation": 0
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "format": "portrait",
+              "views": [
+                {
+                  "principle": "Вертикальная компоновка папки и ручки с лампой в верхней части портретного холста.",
+                  "placements": [
+                    {
+                      "uid": "imw199zp0egdarn",
+                      "relation": "canvas",
+                      "x": 0.5,
+                      "y": 0.55,
+                      "gap": 0,
+                      "rotation": 0
+                    },
+                    {
+                      "uid": "imw199zp04t7apn",
+                      "relation": "on",
+                      "targetUid": "imw199zp0egdarn",
+                      "x": 0.4,
+                      "y": 0.48,
+                      "gap": 0,
+                      "rotation": -10
+                    },
+                    {
+                      "uid": "imw199zp0p2slfk",
+                      "relation": "canvas",
+                      "x": 0.78,
+                      "y": 0.22,
+                      "gap": 0,
+                      "rotation": 0
+                    }
+                  ]
+                },
+                {
+                  "principle": "Смещение элементов по вертикали с зеркальным расположением компаньона.",
+                  "placements": [
+                    {
+                      "uid": "imw199zp0egdarn",
+                      "relation": "canvas",
+                      "x": 0.5,
+                      "y": 0.57,
+                      "gap": 0,
+                      "rotation": 0
+                    },
+                    {
+                      "uid": "imw199zp04t7apn",
+                      "relation": "on",
+                      "targetUid": "imw199zp0egdarn",
+                      "x": 0.6,
+                      "y": 0.45,
+                      "gap": 0,
+                      "rotation": 15
+                    },
+                    {
+                      "uid": "imw199zp0p2slfk",
+                      "relation": "canvas",
+                      "x": 0.22,
+                      "y": 0.22,
+                      "gap": 0,
+                      "rotation": 0
+                    }
+                  ]
+                },
+                {
+                  "principle": "Динамичное вертикальное построение с акцентом на центральную ось.",
+                  "placements": [
+                    {
+                      "uid": "imw199zp0egdarn",
+                      "relation": "canvas",
+                      "x": 0.5,
+                      "y": 0.55,
+                      "gap": 0,
+                      "rotation": 0
+                    },
+                    {
+                      "uid": "imw199zp04t7apn",
+                      "relation": "on",
+                      "targetUid": "imw199zp0egdarn",
+                      "x": 0.5,
+                      "y": 0.35,
+                      "gap": 0,
+                      "rotation": -40
+                    },
+                    {
+                      "uid": "imw199zp0p2slfk",
+                      "relation": "canvas",
+                      "x": 0.8,
+                      "y": 0.2,
+                      "gap": 0,
+                      "rotation": 0
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "executionNotes": [
+            "Положение «Настольная лампа» уточнено по границам кадра и реестру пересечений."
+          ],
+          "width": 800,
+          "height": 1200,
+          "format": "portrait",
+          "size": "S",
+          "palette": "aqua",
+          "layout": "compact",
+          "background": "pattern",
+          "backgroundDesign": "auto",
+          "supporting": true,
+          "showSupporting": true,
+          "camera": null,
+          "composition": {
+            "index": 2,
+            "options": [
+              {
+                "strategy": "balanced",
+                "title": "На опоре",
+                "principle": "Папка с документами и ручка расположены по центру в тесном контакте, фоновая лампа дополняет композицию сверху справа.",
+                "placement": "on-surface"
+              },
+              {
+                "strategy": "spacious",
+                "title": "Рядом",
+                "principle": "Смещение элементов со сменой сторон внутри группы при сохранении общей плотности и читаемости.",
+                "placement": "beside"
+              },
+              {
+                "strategy": "diagonal",
+                "title": "Другой ракурс группы",
+                "principle": "Диагональное расположение главных предметов для динамичного восприятия рабочей сцены.",
+                "placement": "across"
+              }
+            ]
+          },
+          "layerRelations": [
+            {
+              "back": "imw199zp0egdarn",
+              "front": "imw199zp04t7apn",
+              "reason": "Предмет лежит на допустимой опоре."
+            },
+            {
+              "back": "imw199zp0p2slfk",
+              "front": "imw199zp0egdarn",
+              "reason": "Фоновый компаньон находится позади главной группы."
+            }
+          ],
+          "recipe": "auto",
+          "framing": "overview",
+          "focus": "folder",
+          "query": "Навести порядок в делах",
+          "scale": 1,
+          "items": [
+            {
+              "uid": "imw199zp0p2slfk",
+              "assetId": "lamp",
+              "role": "background",
+              "x": 800,
+              "y": 144,
+              "rotation": 0,
+              "flipX": false,
+              "flipY": false,
+              "zone": "top-right",
+              "crop": "fragment"
+            },
+            {
+              "uid": "imw199zp0egdarn",
+              "assetId": "folder",
+              "role": "main",
+              "x": 424.84,
+              "y": 673.2,
+              "rotation": 0,
+              "flipX": false,
+              "flipY": false,
+              "zone": "auto",
+              "crop": "whole"
+            },
+            {
+              "uid": "imw199zp04t7apn",
+              "assetId": "pen",
+              "role": "main",
+              "x": 424.84,
+              "y": 623.7,
+              "rotation": -40,
+              "flipX": false,
+              "flipY": false,
+              "supportUid": "imw199zp0egdarn",
+              "zone": "auto",
+              "crop": "whole"
+            }
+          ]
+        }
+      ]
+    }
+  }
+}

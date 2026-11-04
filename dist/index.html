@@ -1,60 +1,96 @@
 <!doctype html>
 <html lang="ru"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
 <meta name="theme-color" content="#f5f6f2"><meta name="description" content="Собирайте иллюстрации из готовых векторных предметов: ключевые слова, раскладки, исходные палитры и экспорт SVG.">
-<title>Сборка — конструктор иллюстраций</title><link rel="icon" href="icon.svg" type="image/svg+xml"><link rel="stylesheet" href="styles.css">
+<title>Конструктор — иллюстрации из SVG</title><link rel="icon" href="icon.svg" type="image/svg+xml"><link rel="stylesheet" href="styles.css?v=21">
 </head><body>
 <header class="app-header">
- <a class="brand" href="./" aria-label="Сборка — конструктор иллюстраций"><span class="brand-mark" aria-hidden="true"><i></i><i></i><i></i><i></i></span><span>Сборка<span class="brand-subtitle">Конструктор иллюстраций</span></span></a>
+ <a class="brand" href="./" aria-label="Конструктор — иллюстрации из SVG"><span class="brand-mark" aria-hidden="true"><i></i><i></i><i></i><i></i></span><span>Конструктор<span class="brand-subtitle">Иллюстрации из готовых SVG</span></span></a>
  <div class="header-actions"><div class="history-actions"><button id="undo" class="icon-button" aria-label="Отменить" title="Отменить · Ctrl/⌘ Z"><svg class="icon " viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="m8 4-5 5 5 5"/><path d="M3 9h10a7 7 0 0 1 0 14"/></svg></button><button id="redo" class="icon-button" aria-label="Повторить" title="Повторить · Ctrl/⌘ Shift Z"><svg class="icon " viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="m16 4 5 5-5 5"/><path d="M21 9H11a7 7 0 0 0 0 14"/></svg></button></div>
  <details class="project-menu"><summary class="button quiet" aria-label="Меню проекта">Проект <svg class="icon " viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="m6 10 6 6 6-6"/></svg></summary><div class="project-popover"><button id="save-project"><svg class="icon " viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M14 2H5v20h14V7l-5-5Zm0 0v6h5M8 12h8M8 16h6"/></svg>Скачать проект</button><button id="load-project"><svg class="icon " viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 17V3m-4 4 4-4 4 4M4 16v5h16v-5"/></svg>Открыть проект</button><button id="reset-project"><svg class="icon " viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="3" y="3" width="7" height="7" rx="1.5"/><rect x="14" y="3" width="7" height="7" rx="1.5"/><rect x="3" y="14" width="7" height="7" rx="1.5"/><rect x="14" y="14" width="7" height="7" rx="1.5"/></svg>Новая композиция</button></div></details>
- <button id="export" class="button primary"><svg class="icon " viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 3v12m-4-4 4 4 4-4"/><path d="M4 16v4h16v-4"/></svg><span>Скачать SVG</span></button></div>
+ <button id="export" class="button primary" aria-label="Скачать SVG"><svg class="icon " viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 3v12m-4-4 4 4 4-4"/><path d="M4 16v4h16v-4"/></svg><span>Скачать SVG</span></button></div>
 </header>
 <div class="workspace">
 <aside class="sidebar">
- <section class="prompt-panel"><div class="panel-heading"><h1>Соберите свою сцену</h1><span class="small-tag">По ключевым словам</span></div>
+ <section class="prompt-panel"><div class="panel-heading"><h1>Соберите свою сцену</h1><span class="small-tag" id="ai-connection">Проверяем Gemini</span></div>
+ <div class="segmented compose-mode" id="compose-mode" role="group" aria-label="Способ подбора"><button type="button" data-mode="gemini" aria-pressed="true">Gemini</button><button type="button" data-mode="keywords" aria-pressed="false">По словам</button></div>
  <form id="compose-form"><label for="query">Что проиллюстрируем?</label><textarea id="query" rows="3" maxlength="600" placeholder="Например: свет знаний или книга, лампа, наушники">Свет знаний</textarea>
- <div class="examples" aria-label="Примеры запросов"><button type="button" data-example="Свет знаний">Свет знаний</button><button type="button" data-example="Финансы под контролем">Финансы</button><button type="button" data-example="книга, телефон, наушники">Онлайн-обучение</button></div>
- <label class="checkbox-row"><input id="supporting" type="checkbox" checked><span>Добавлять фоновые предметы</span></label>
- <button type="submit" class="button primary compose-button">Собрать композицию <svg class="icon " viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M4 12h16m-6-6 6 6-6 6"/></svg></button>
+ <div class="examples" aria-label="Примеры запросов"><button type="button" data-example="Свет знаний">Учёба</button><button type="button" data-example="Обучение онлайн">Онлайн</button><button type="button" data-example="Финансы под контролем">Финансы</button><button type="button" data-example="Порядок в документах">Планы</button><button type="button" data-example="Музыка и подкасты">Музыка</button><button type="button" data-example="Решаем задачи вместе">Команда</button></div>
+ <button type="submit" id="compose-submit" class="button primary compose-button"><span id="compose-label">Собрать с Gemini</span> <svg class="icon " viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M4 12h16m-6-6 6 6-6 6"/></svg></button>
+ <button type="button" id="ai-cancel" class="text-button ai-cancel" hidden>Остановить запрос</button>
  </form><p class="match-status" id="match-status" role="status" aria-live="polite"></p>
+ <label class="checkbox-row ai-debug-toggle"><input id="show-ai-debug" type="checkbox" checked><span>Показывать объяснение Gemini</span></label>
+ <section id="ai-debug" class="ai-debug" aria-label="План и объяснение Gemini">
+  <div class="ai-debug-heading"><h2>Последний план Gemini</h2><span>Временно</span></div>
+  <p id="ai-stage" class="ai-stage" role="status" aria-live="polite">Введите тему — Gemini выберет предметы и объяснит решение.</p>
+  <div id="ai-result" hidden><h3 id="ai-title"></h3><ul id="ai-explanation"></ul><p id="ai-limitations" hidden></p><p id="ai-meta" class="ai-meta"></p></div>
+  <details id="ai-json-details" hidden><summary>Полученный JSON</summary><pre id="ai-json"></pre></details>
+  <details id="ai-prompt-details"><summary>Промпт и формат ответа</summary><pre id="ai-prompt">Загрузка промпта…</pre></details>
  </section>
- <section class="library-panel"><div class="section-heading"><h2>Предметы</h2><span>10 в библиотеке</span></div>
+ </section>
+ <section class="library-panel"><div class="section-heading"><h2>Предметы</h2><span>10 предметов · S/L</span></div>
  <label class="search-field"><svg class="icon " viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="10.5" cy="10.5" r="6.5"/><path d="m16 16 5 5"/></svg><input id="library-search" type="search" placeholder="Название или смысл" aria-label="Поиск предметов"></label>
  <div class="library-grid" id="library-grid" aria-label="Библиотека предметов"></div>
  <p class="library-hint">Нажмите на предмет, чтобы добавить его на холст.</p></section>
 </aside>
 <main class="main-panel">
- <section class="canvas-toolbar" aria-label="Настройки композиции">
-  <label class="select-control"><span>Формат</span><select id="format" aria-label="Формат холста"></select></label>
-  <div class="detail-control"><span>Детализация</span><div class="segmented" id="size-control"><button data-value="S" aria-pressed="true">S</button><button data-value="L" aria-pressed="false">L</button></div></div>
-  <label class="select-control layout-control"><span>Раскладка</span><select id="layout" aria-label="Раскладка композиции"></select></label>
-  <button id="arrange" class="button quiet rearrange"><svg class="icon " viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="3" y="3" width="7" height="7" rx="1.5"/><rect x="14" y="3" width="7" height="7" rx="1.5"/><rect x="3" y="14" width="7" height="7" rx="1.5"/><rect x="14" y="14" width="7" height="7" rx="1.5"/></svg>Пересобрать</button>
- </section>
  <section class="canvas-area" id="canvas-area" aria-label="Редактор иллюстрации">
   <div class="canvas-caption"><span id="canvas-dimensions">1200 × 630</span><span id="canvas-note">Исходные SVG · S</span></div>
   <div class="artboard-wrap" id="artboard-wrap"><svg id="artboard" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 630" fill="none" tabindex="0" role="group" aria-label="Холст композиции. Выберите предмет, чтобы переместить его."></svg><div class="empty-canvas" id="empty-canvas" hidden><h2>Начните с одного предмета</h2><p>Выберите его в библиотеке или введите ключевые слова.</p></div></div>
-  <div class="canvas-footer"><span class="canvas-tip" id="canvas-tip">Перетаскивайте предметы прямо на холсте</span><button id="toggle-guide" class="text-button" aria-pressed="true">Показать границы</button></div>
+  <div class="canvas-footer"><span class="canvas-tip" id="canvas-tip">Перетаскивайте свободно · Ctrl/⌘ Z — отменить</span><button id="toggle-guide" class="text-button" aria-pressed="true">Показать границы</button></div>
  </section>
- <section class="scene-controls"><div class="global-scale"><label for="scale">Масштаб сцены</label><input id="scale" type="range" min="60" max="150" value="100"><output id="scale-value">100%</output></div><div class="scene-summary" id="scene-summary" aria-live="polite"></div></section>
- <p class="prototype-note">Подбор по словам и смысловым тегам. Все предметы — из исходной библиотеки.</p>
 </main>
-<aside class="inspector">
+<aside class="inspector" aria-label="Панель настроек">
+ <div class="settings-heading"><h2>Настройки</h2></div>
+ <div class="settings-tabs" role="tablist" aria-label="Раздел настроек">
+  <button id="tab-scene" role="tab" aria-selected="true" aria-controls="panel-scene" tabindex="0">Композиция</button>
+  <button id="tab-object" role="tab" aria-selected="false" aria-controls="panel-object" tabindex="-1">Объект</button>
+ </div>
+ <div class="settings-body">
+ <div id="panel-scene" class="settings-page" role="tabpanel" aria-labelledby="tab-scene" tabindex="0">
  <section class="palette-panel"><h2>Цветовая схема</h2><div class="palette-options" id="palette-options"></div><p class="palette-note">Три исходные схемы из макетов</p>
- <label class="select-control background-control"><span>Фон холста</span><select id="background"><option value="pattern">С оформлением</option><option value="solid">Однотонный</option><option value="transparent">Прозрачный</option></select></label>
+
  </section>
+
+ <section class="canvas-background" aria-labelledby="backdrop-heading"><h2 id="backdrop-heading">Фон</h2>
+ <div id="backdrop-options" class="backdrop-options" role="group" aria-label="Рисунок фона"></div>
+ <label class="select-control background-control"><span>Оформление</span><select id="background"><option value="pattern">С рисунком</option><option value="solid">Однотонный</option><option value="transparent">Прозрачный</option></select></label>
+ </section>
+
+ <section class="format-section"><h2>Формат иллюстрации</h2>
+ <div id="format-options" class="format-options" role="group" aria-label="Готовые форматы">
+ <button data-format="square" aria-pressed="true"><svg viewBox="0 0 32 26" aria-hidden="true"><rect x="6" y="3" width="20" height="20" rx="1"/></svg><span>Квадрат<small>1000 × 1000</small></span></button>
+ <button data-format="landscape" aria-pressed="false"><svg viewBox="0 0 32 26" aria-hidden="true"><rect x="2" y="6" width="28" height="15" rx="1"/></svg><span>Горизонт<small>1200 × 630</small></span></button>
+ <button data-format="portrait" aria-pressed="false"><svg viewBox="0 0 32 26" aria-hidden="true"><rect x="9" y="1" width="15" height="24" rx="1"/></svg><span>Вертикаль<small>800 × 1200</small></span></button>
+ </div><p class="control-hint">3 формата × 3 варианта. Переключение без запросов к ИИ.</p><p id="format-principle" class="control-hint"></p>
+ <div class="artwork-controls"><div class="detail-control"><span>Размер элементов в кадре</span><div class="segmented" id="size-control" aria-label="Размер элементов"><button data-value="S" aria-pressed="false">S · меньше</button><button data-value="L" aria-pressed="true">L · крупнее</button></div></div><p class="control-hint">S/L заменяет все предметы и окружение исходными SVG. Связи сохраняются, холст остаётся прежним.</p></div>
+ <details class="canvas-options"><summary>Размеры холста</summary><label class="select-control"><span>Пресет</span><select id="format" aria-label="Формат холста"></select></label><form id="canvas-size-form" class="canvas-size-form"><label>Ширина<input id="canvas-width" type="number" min="256" max="4096" step="1" required aria-label="Ширина холста"></label><span aria-hidden="true">×</span><label>Высота<input id="canvas-height" type="number" min="256" max="4096" step="1" required aria-label="Высота холста"></label><button class="button quiet" type="submit">Применить размер</button></form><button id="native-canvas" class="text-button" type="button">Холст под набор</button></details></section>
+  <section class="layers-panel"><div class="section-heading"><h2>Слои</h2><span id="layer-count"></span></div><ol id="layer-list" class="layer-list" aria-label="Слои: верхние впереди"></ol><p class="layer-note">Верхние в списке — ближе к зрителю. Можно менять вручную.</p><details id="semantic-layers" hidden><summary>Почему такой порядок</summary><ul id="semantic-layer-reasons"></ul></details></section>
+ <section class="variant-panel" aria-label="Варианты расположения"><div class="section-heading"><h2>Расположение</h2><span id="variant-counter">1 / 3</span></div><button id="arrange" class="button quiet rearrange"><svg class="icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="3" y="3" width="7" height="7" rx="1.5"/><rect x="14" y="3" width="7" height="7" rx="1.5"/><rect x="3" y="14" width="7" height="7" rx="1.5"/><rect x="14" y="14" width="7" height="7" rx="1.5"/></svg><span id="arrange-label">Пересобрать · 1 / 3</span></button><h3 id="variant-title">На опоре</h3><p id="variant-principle"></p><p id="execution-notes" class="control-hint" hidden></p><p class="control-note">Ручная расстановка сохраняется во всех форматах текущего варианта. У вариантов 1, 2 и 3 — независимые правки.</p><label class="select-control layout-control"><span>Общий характер</span><select id="layout" aria-label="Раскладка композиции"></select></label></section>
+ <section class="environment-panel" aria-label="Окружение композиции"><div class="section-heading"><h2>Окружение</h2><span class="small-tag">Gemini</span></div><label for="environment-query">Пожелания к окружению</label><textarea id="environment-query" rows="2" maxlength="600" placeholder="Например: вечернее рабочее место, фрагмент лампы слева"></textarea><button id="compose-environment" class="button quiet" type="button">Обновить окружение</button><p class="control-note">Меняется только окружение этого варианта. Главная группа остаётся на месте.</p><label class="checkbox-row"><input id="supporting" type="checkbox" checked><span>Показывать фоновые предметы</span></label><ul id="environment-explanation" class="environment-explanation"></ul></section>
+
+ <section class="framing-controls" aria-label="Акцент и кадрирование"><label class="select-control"><span>На чём акцент</span><select id="focus" aria-label="Смысловой акцент"></select></label><label class="select-control"><span>Кадр</span><select id="framing" aria-label="Кадрирование"><option value="focus">По акценту</option><option value="overview">По главной группе</option></select></label><p>Перемещают кадр без увеличения. Положение и размеры предметов сохраняются.</p></section>
+ <section class="scene-controls"><div class="scene-summary" id="scene-summary" aria-live="polite"></div></section>
+  <section class="layout-memory" aria-label="Смысловая раскладка"><div class="layout-explanation"><h2 id="scene-context"></h2><p id="scene-reason"></p><span id="saved-layout-status" hidden>Есть ваша сохранённая раскладка</span></div><div class="memory-actions"><button id="remember-layout" class="button quiet">Запомнить раскладку</button><button id="forget-layout" class="text-button" hidden>Сбросить свою</button></div></section>
+ <p class="registry-shortcut"><a class="button quiet" href="rules.html" target="_blank" rel="noopener">Реестр сочетаний и правил</a></p><p class="prototype-note">Gemini выбирает смысловые группы и окружение. Предметы сохраняют размеры S/L; плотность создают расположение и кадрирование.</p>
+ </div>
+ <div id="panel-object" class="settings-page" role="tabpanel" aria-labelledby="tab-object" tabindex="0" hidden>
  <section class="selection-panel"><div class="section-heading"><h2>Выбранный предмет</h2></div>
  <div class="selection-empty" id="selection-empty">Нажмите на предмет на холсте или в списке слоёв.</div>
- <div id="selection-controls" hidden><h3 id="selection-name"></h3><div class="segmented role-control" id="role-control"><button data-value="main" aria-pressed="true">Главный</button><button data-value="background" aria-pressed="false">Фоновый</button></div>
- <div class="rotation-control"><label for="rotation">Поворот</label><input id="rotation" type="number" min="-180" max="180" step="5" value="0"><span>°</span></div>
+ <div id="selection-controls" hidden><h3 id="selection-name"></h3><fieldset class="position-controls"><legend>Положение на холсте</legend><label for="position-x">X<input id="position-x" type="number" step="1" inputmode="decimal"></label><label for="position-y">Y<input id="position-y" type="number" step="1" inputmode="decimal"></label></fieldset><div class="segmented role-control" id="role-control"><button data-value="main" aria-pressed="true">Главный</button><button data-value="background" aria-pressed="false">Фоновый</button></div>
+ <div class="rotation-control"><label for="rotation">Поворот</label><input id="rotation" type="number" min="-180" max="180" step="1" value="0"><span>°</span></div>
+ <input id="rotation-range" class="rotation-range" type="range" min="-180" max="180" step="1" value="0" aria-label="Угол поворота предмета">
+ <div class="rotation-shortcuts" aria-label="Быстрый поворот"><button class="button quiet" data-angle="-15" aria-label="Повернуть на 15 градусов влево">−15°</button><button class="button quiet" data-angle="reset">Сбросить</button><button class="button quiet" data-angle="15" aria-label="Повернуть на 15 градусов вправо">+15°</button></div>
+ <div class="mirror-controls"><span>Отражение</span><button id="flip-x" class="button quiet" aria-pressed="false" title="Зеркально отразить слева направо"><svg class="icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 3v18" stroke-dasharray="2 3"/><path d="M3 18V6l6 12H3Zm18 0V6l-6 12h6Z"/></svg>По горизонтали</button><button id="flip-y" class="button quiet" aria-pressed="false" title="Зеркально отразить сверху вниз"><svg class="icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M3 12h18" stroke-dasharray="2 3"/><path d="M6 3h12L6 9V3Zm0 18h12l-12-6v6Z"/></svg>По вертикали</button></div>
  <div class="object-actions"><button id="duplicate" class="button quiet"><svg class="icon " viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="8" y="8" width="12" height="13" rx="2"/><path d="M16 8V3H3v13h5"/></svg>Дубликат</button><button id="remove" class="icon-button danger" aria-label="Удалить предмет" title="Удалить"><svg class="icon " viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M3 6h18M9 6V3h6v3M6 6l1 15h10l1-15M10 10v7M14 10v7"/></svg></button></div>
  <div class="layer-actions"><button id="layer-up" class="button quiet"><svg class="icon " viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="m6 14 6-6 6 6"/></svg>Выше</button><button id="layer-down" class="button quiet"><svg class="icon " viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="m6 10 6 6 6-6"/></svg>Ниже</button></div>
  </div></section>
- <section class="layers-panel"><div class="section-heading"><h2>Слои</h2><span id="layer-count"></span></div><ol id="layer-list" class="layer-list" aria-label="Слои: верхние впереди"></ol><p class="layer-note">Верхние в списке — ближе к зрителю.</p></section>
- <section class="variant-note" id="variant-note"><span>Об исходных вариантах</span><p>У телефона главный S — без пазла; остальные версии — с пазлом.</p></section>
+ </div>
+ </div>
+
 </aside>
 </div>
 <div class="toast" id="toast" role="status" aria-live="polite" hidden></div>
 <input type="file" id="project-file" accept=".json,application/json" hidden>
 <noscript><p class="noscript">Для работы конструктора включите JavaScript в браузере.</p></noscript>
-<script src="data.js"></script><script src="engine.js"></script><script src="app.js"></script>
+<script src="data.js"></script><script src="interaction-registry.js?v=10"></script><script src="geometry.js?v=10"></script><script src="composition-rules.js?v=10"></script><script src="physical-layout.js?v=26"></script><script src="staging-plan.js?v=27"></script><script src="reference-layout.js?v=23"></script><script src="engine.js?v=23"></script><script src="composition-view.js?v=25"></script><script src="ai-plan.js?v=26"></script><script src="deployment.js"></script><script src="app.js?v=26"></script>
 </body></html>

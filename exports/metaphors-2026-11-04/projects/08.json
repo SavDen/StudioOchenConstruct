@@ -1,0 +1,4028 @@
+{
+  "type": "composition-project",
+  "version": 2,
+  "scene": {
+    "version": 1,
+    "sizing": "native",
+    "environmentPrompt": "",
+    "environmentExplanation": [
+      "Главная пара книги и смартфона раскрывает переход от традиционного чтения к цифровым технологиям.",
+      "Настольная лампа в роли фонового компаньона добавляет глубину и мягко освещает сцену.",
+      "Компактное расположение сохраняет читаемость силуэтов и цельность композиции."
+    ],
+    "groups": [
+      {
+        "kind": "collection",
+        "members": [
+          "imw199wp3itjn3s",
+          "imw199wp3j2ovy2"
+        ],
+        "reason": "Книга и смартфон образуют сбалансированный центр."
+      }
+    ],
+    "formatPlans": [],
+    "stagingPlans": [
+      {
+        "format": "square",
+        "views": [
+          {
+            "principle": "Книга и смартфон образуют сбалансированный центр.",
+            "placements": [
+              {
+                "uid": "imw199wp3itjn3s",
+                "relation": "canvas",
+                "x": 0.5,
+                "y": 0.52,
+                "gap": 0,
+                "rotation": 0
+              },
+              {
+                "uid": "imw199wp3j2ovy2",
+                "relation": "on",
+                "targetUid": "imw199wp3itjn3s",
+                "x": 0.48,
+                "y": 0.45,
+                "gap": 0,
+                "rotation": 0
+              },
+              {
+                "uid": "imw199wp3nkgwd0",
+                "relation": "canvas",
+                "x": 0.22,
+                "y": 0.28,
+                "gap": 0.04,
+                "rotation": 0
+              }
+            ]
+          },
+          {
+            "principle": "Элементы расположены рядом для создания смыслового диалога.",
+            "placements": [
+              {
+                "uid": "imw199wp3itjn3s",
+                "relation": "canvas",
+                "x": 0.46,
+                "y": 0.54,
+                "gap": 0,
+                "rotation": 0
+              },
+              {
+                "uid": "imw199wp3j2ovy2",
+                "relation": "right",
+                "targetUid": "imw199wp3itjn3s",
+                "x": 0.68,
+                "y": 0.48,
+                "gap": 0.03,
+                "rotation": 0
+              },
+              {
+                "uid": "imw199wp3nkgwd0",
+                "relation": "canvas",
+                "x": 0.2,
+                "y": 0.26,
+                "gap": 0.04,
+                "rotation": 0
+              }
+            ]
+          },
+          {
+            "principle": "Диагональное расположение телефона усиливает динамику.",
+            "placements": [
+              {
+                "uid": "imw199wp3itjn3s",
+                "relation": "canvas",
+                "x": 0.5,
+                "y": 0.52,
+                "gap": 0,
+                "rotation": 0
+              },
+              {
+                "uid": "imw199wp3j2ovy2",
+                "relation": "on",
+                "targetUid": "imw199wp3itjn3s",
+                "x": 0.5,
+                "y": 0.5,
+                "gap": 0,
+                "rotation": -15
+              },
+              {
+                "uid": "imw199wp3nkgwd0",
+                "relation": "canvas",
+                "x": 0.24,
+                "y": 0.3,
+                "gap": 0.04,
+                "rotation": 0
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "format": "landscape",
+        "views": [
+          {
+            "principle": "Горизонтальная компоновка с акцентом на центральную пару.",
+            "placements": [
+              {
+                "uid": "imw199wp3itjn3s",
+                "relation": "canvas",
+                "x": 0.52,
+                "y": 0.53,
+                "gap": 0,
+                "rotation": 0
+              },
+              {
+                "uid": "imw199wp3j2ovy2",
+                "relation": "on",
+                "targetUid": "imw199wp3itjn3s",
+                "x": 0.49,
+                "y": 0.44,
+                "gap": 0,
+                "rotation": 0
+              },
+              {
+                "uid": "imw199wp3nkgwd0",
+                "relation": "canvas",
+                "x": 0.25,
+                "y": 0.3,
+                "gap": 0.04,
+                "rotation": 0
+              }
+            ]
+          },
+          {
+            "principle": "Свободное распределение элементов по горизонтали холста.",
+            "placements": [
+              {
+                "uid": "imw199wp3itjn3s",
+                "relation": "canvas",
+                "x": 0.48,
+                "y": 0.55,
+                "gap": 0,
+                "rotation": 0
+              },
+              {
+                "uid": "imw199wp3j2ovy2",
+                "relation": "right",
+                "targetUid": "imw199wp3itjn3s",
+                "x": 0.7,
+                "y": 0.48,
+                "gap": 0.04,
+                "rotation": 0
+              },
+              {
+                "uid": "imw199wp3nkgwd0",
+                "relation": "canvas",
+                "x": 0.22,
+                "y": 0.28,
+                "gap": 0.04,
+                "rotation": 0
+              }
+            ]
+          },
+          {
+            "principle": "Диагональное взаимодействие объектов в ландшафтном формате.",
+            "placements": [
+              {
+                "uid": "imw199wp3itjn3s",
+                "relation": "canvas",
+                "x": 0.52,
+                "y": 0.53,
+                "gap": 0,
+                "rotation": 0
+              },
+              {
+                "uid": "imw199wp3j2ovy2",
+                "relation": "on",
+                "targetUid": "imw199wp3itjn3s",
+                "x": 0.5,
+                "y": 0.48,
+                "gap": 0,
+                "rotation": -12
+              },
+              {
+                "uid": "imw199wp3nkgwd0",
+                "relation": "canvas",
+                "x": 0.26,
+                "y": 0.32,
+                "gap": 0.04,
+                "rotation": 0
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "format": "portrait",
+        "views": [
+          {
+            "principle": "Вертикальная композиция концентрирует внимание на книге и телефоне.",
+            "placements": [
+              {
+                "uid": "imw199wp3itjn3s",
+                "relation": "canvas",
+                "x": 0.5,
+                "y": 0.55,
+                "gap": 0,
+                "rotation": 0
+              },
+              {
+                "uid": "imw199wp3j2ovy2",
+                "relation": "on",
+                "targetUid": "imw199wp3itjn3s",
+                "x": 0.48,
+                "y": 0.43,
+                "gap": 0,
+                "rotation": 0
+              },
+              {
+                "uid": "imw199wp3nkgwd0",
+                "relation": "canvas",
+                "x": 0.28,
+                "y": 0.25,
+                "gap": 0.04,
+                "rotation": 0
+              }
+            ]
+          },
+          {
+            "principle": "Высокий кадр подчеркивает вертикальную связь предметов.",
+            "placements": [
+              {
+                "uid": "imw199wp3itjn3s",
+                "relation": "canvas",
+                "x": 0.5,
+                "y": 0.58,
+                "gap": 0,
+                "rotation": 0
+              },
+              {
+                "uid": "imw199wp3j2ovy2",
+                "relation": "above",
+                "targetUid": "imw199wp3itjn3s",
+                "x": 0.5,
+                "y": 0.38,
+                "gap": 0.04,
+                "rotation": 0
+              },
+              {
+                "uid": "imw199wp3nkgwd0",
+                "relation": "canvas",
+                "x": 0.25,
+                "y": 0.24,
+                "gap": 0.04,
+                "rotation": 0
+              }
+            ]
+          },
+          {
+            "principle": "Диагональное решение в вертикальном формате для выразительности.",
+            "placements": [
+              {
+                "uid": "imw199wp3itjn3s",
+                "relation": "canvas",
+                "x": 0.5,
+                "y": 0.55,
+                "gap": 0,
+                "rotation": 0
+              },
+              {
+                "uid": "imw199wp3j2ovy2",
+                "relation": "on",
+                "targetUid": "imw199wp3itjn3s",
+                "x": 0.5,
+                "y": 0.48,
+                "gap": 0,
+                "rotation": -15
+              },
+              {
+                "uid": "imw199wp3nkgwd0",
+                "relation": "canvas",
+                "x": 0.28,
+                "y": 0.26,
+                "gap": 0.04,
+                "rotation": 0
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "executionNotes": [
+      "Положение «Настольная лампа» уточнено по границам кадра и реестру пересечений."
+    ],
+    "width": 1000,
+    "height": 1000,
+    "format": "square",
+    "size": "S",
+    "palette": "aqua",
+    "layout": "compact",
+    "background": "pattern",
+    "backgroundDesign": "auto",
+    "supporting": true,
+    "showSupporting": true,
+    "camera": null,
+    "composition": {
+      "index": 0,
+      "options": [
+        {
+          "strategy": "balanced",
+          "title": "Сбалансированная пара",
+          "principle": "Книга и телефон расположены в центре с естественным контактом поверхности.",
+          "placement": "on-surface"
+        },
+        {
+          "strategy": "spacious",
+          "title": "Свободное размещение",
+          "principle": "Смартфон находится рядом с открытой книгой, образуя единую группу.",
+          "placement": "beside"
+        },
+        {
+          "strategy": "diagonal",
+          "title": "Диагональный акцент",
+          "principle": "Телефон пересечает разворот книги под углом для динамики.",
+          "placement": "across"
+        }
+      ]
+    },
+    "layerRelations": [
+      {
+        "back": "imw199wp3itjn3s",
+        "front": "imw199wp3j2ovy2",
+        "reason": "Смартфон размещен поверх страницы книги"
+      },
+      {
+        "back": "imw199wp3nkgwd0",
+        "front": "imw199wp3itjn3s",
+        "reason": "Лампа находится на заднем плане за книгой"
+      }
+    ],
+    "recipe": "online",
+    "framing": "overview",
+    "focus": "phone",
+    "query": "От бумажного к цифровому",
+    "scale": 1,
+    "items": [
+      {
+        "uid": "imw199wp3nkgwd0",
+        "assetId": "lamp",
+        "role": "background",
+        "x": 120,
+        "y": 120,
+        "rotation": 0,
+        "flipX": false,
+        "flipY": false,
+        "zone": "top-left",
+        "crop": "fragment"
+      },
+      {
+        "uid": "imw199wp3itjn3s",
+        "assetId": "book",
+        "role": "main",
+        "x": 521.69,
+        "y": 544.45,
+        "rotation": 0,
+        "flipX": false,
+        "flipY": false,
+        "zone": "auto",
+        "crop": "whole"
+      },
+      {
+        "uid": "imw199wp3j2ovy2",
+        "assetId": "phone",
+        "role": "main",
+        "x": 507.23,
+        "y": 520,
+        "rotation": 0,
+        "flipX": false,
+        "flipY": false,
+        "supportUid": "imw199wp3itjn3s",
+        "zone": "auto",
+        "crop": "whole"
+      }
+    ]
+  },
+  "memory": {
+    "version": 2,
+    "format": "square",
+    "index": 0,
+    "formats": {
+      "square": [
+        {
+          "version": 1,
+          "sizing": "native",
+          "environmentPrompt": "",
+          "environmentExplanation": [
+            "Главная пара книги и смартфона раскрывает переход от традиционного чтения к цифровым технологиям.",
+            "Настольная лампа в роли фонового компаньона добавляет глубину и мягко освещает сцену.",
+            "Компактное расположение сохраняет читаемость силуэтов и цельность композиции."
+          ],
+          "groups": [
+            {
+              "kind": "collection",
+              "members": [
+                "imw199wp3itjn3s",
+                "imw199wp3j2ovy2"
+              ],
+              "reason": "Книга и смартфон образуют сбалансированный центр."
+            }
+          ],
+          "formatPlans": [],
+          "stagingPlans": [
+            {
+              "format": "square",
+              "views": [
+                {
+                  "principle": "Книга и смартфон образуют сбалансированный центр.",
+                  "placements": [
+                    {
+                      "uid": "imw199wp3itjn3s",
+                      "relation": "canvas",
+                      "x": 0.5,
+                      "y": 0.52,
+                      "gap": 0,
+                      "rotation": 0
+                    },
+                    {
+                      "uid": "imw199wp3j2ovy2",
+                      "relation": "on",
+                      "targetUid": "imw199wp3itjn3s",
+                      "x": 0.48,
+                      "y": 0.45,
+                      "gap": 0,
+                      "rotation": 0
+                    },
+                    {
+                      "uid": "imw199wp3nkgwd0",
+                      "relation": "canvas",
+                      "x": 0.22,
+                      "y": 0.28,
+                      "gap": 0.04,
+                      "rotation": 0
+                    }
+                  ]
+                },
+                {
+                  "principle": "Элементы расположены рядом для создания смыслового диалога.",
+                  "placements": [
+                    {
+                      "uid": "imw199wp3itjn3s",
+                      "relation": "canvas",
+                      "x": 0.46,
+                      "y": 0.54,
+                      "gap": 0,
+                      "rotation": 0
+                    },
+                    {
+                      "uid": "imw199wp3j2ovy2",
+                      "relation": "right",
+                      "targetUid": "imw199wp3itjn3s",
+                      "x": 0.68,
+                      "y": 0.48,
+                      "gap": 0.03,
+                      "rotation": 0
+                    },
+                    {
+                      "uid": "imw199wp3nkgwd0",
+                      "relation": "canvas",
+                      "x": 0.2,
+                      "y": 0.26,
+                      "gap": 0.04,
+                      "rotation": 0
+                    }
+                  ]
+                },
+                {
+                  "principle": "Диагональное расположение телефона усиливает динамику.",
+                  "placements": [
+                    {
+                      "uid": "imw199wp3itjn3s",
+                      "relation": "canvas",
+                      "x": 0.5,
+                      "y": 0.52,
+                      "gap": 0,
+                      "rotation": 0
+                    },
+                    {
+                      "uid": "imw199wp3j2ovy2",
+                      "relation": "on",
+                      "targetUid": "imw199wp3itjn3s",
+                      "x": 0.5,
+                      "y": 0.5,
+                      "gap": 0,
+                      "rotation": -15
+                    },
+                    {
+                      "uid": "imw199wp3nkgwd0",
+                      "relation": "canvas",
+                      "x": 0.24,
+                      "y": 0.3,
+                      "gap": 0.04,
+                      "rotation": 0
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "format": "landscape",
+              "views": [
+                {
+                  "principle": "Горизонтальная компоновка с акцентом на центральную пару.",
+                  "placements": [
+                    {
+                      "uid": "imw199wp3itjn3s",
+                      "relation": "canvas",
+                      "x": 0.52,
+                      "y": 0.53,
+                      "gap": 0,
+                      "rotation": 0
+                    },
+                    {
+                      "uid": "imw199wp3j2ovy2",
+                      "relation": "on",
+                      "targetUid": "imw199wp3itjn3s",
+                      "x": 0.49,
+                      "y": 0.44,
+                      "gap": 0,
+                      "rotation": 0
+                    },
+                    {
+                      "uid": "imw199wp3nkgwd0",
+                      "relation": "canvas",
+                      "x": 0.25,
+                      "y": 0.3,
+                      "gap": 0.04,
+                      "rotation": 0
+                    }
+                  ]
+                },
+                {
+                  "principle": "Свободное распределение элементов по горизонтали холста.",
+                  "placements": [
+                    {
+                      "uid": "imw199wp3itjn3s",
+                      "relation": "canvas",
+                      "x": 0.48,
+                      "y": 0.55,
+                      "gap": 0,
+                      "rotation": 0
+                    },
+                    {
+                      "uid": "imw199wp3j2ovy2",
+                      "relation": "right",
+                      "targetUid": "imw199wp3itjn3s",
+                      "x": 0.7,
+                      "y": 0.48,
+                      "gap": 0.04,
+                      "rotation": 0
+                    },
+                    {
+                      "uid": "imw199wp3nkgwd0",
+                      "relation": "canvas",
+                      "x": 0.22,
+                      "y": 0.28,
+                      "gap": 0.04,
+                      "rotation": 0
+                    }
+                  ]
+                },
+                {
+                  "principle": "Диагональное взаимодействие объектов в ландшафтном формате.",
+                  "placements": [
+                    {
+                      "uid": "imw199wp3itjn3s",
+                      "relation": "canvas",
+                      "x": 0.52,
+                      "y": 0.53,
+                      "gap": 0,
+                      "rotation": 0
+                    },
+                    {
+                      "uid": "imw199wp3j2ovy2",
+                      "relation": "on",
+                      "targetUid": "imw199wp3itjn3s",
+                      "x": 0.5,
+                      "y": 0.48,
+                      "gap": 0,
+                      "rotation": -12
+                    },
+                    {
+                      "uid": "imw199wp3nkgwd0",
+                      "relation": "canvas",
+                      "x": 0.26,
+                      "y": 0.32,
+                      "gap": 0.04,
+                      "rotation": 0
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "format": "portrait",
+              "views": [
+                {
+                  "principle": "Вертикальная композиция концентрирует внимание на книге и телефоне.",
+                  "placements": [
+                    {
+                      "uid": "imw199wp3itjn3s",
+                      "relation": "canvas",
+                      "x": 0.5,
+                      "y": 0.55,
+                      "gap": 0,
+                      "rotation": 0
+                    },
+                    {
+                      "uid": "imw199wp3j2ovy2",
+                      "relation": "on",
+                      "targetUid": "imw199wp3itjn3s",
+                      "x": 0.48,
+                      "y": 0.43,
+                      "gap": 0,
+                      "rotation": 0
+                    },
+                    {
+                      "uid": "imw199wp3nkgwd0",
+                      "relation": "canvas",
+                      "x": 0.28,
+                      "y": 0.25,
+                      "gap": 0.04,
+                      "rotation": 0
+                    }
+                  ]
+                },
+                {
+                  "principle": "Высокий кадр подчеркивает вертикальную связь предметов.",
+                  "placements": [
+                    {
+                      "uid": "imw199wp3itjn3s",
+                      "relation": "canvas",
+                      "x": 0.5,
+                      "y": 0.58,
+                      "gap": 0,
+                      "rotation": 0
+                    },
+                    {
+                      "uid": "imw199wp3j2ovy2",
+                      "relation": "above",
+                      "targetUid": "imw199wp3itjn3s",
+                      "x": 0.5,
+                      "y": 0.38,
+                      "gap": 0.04,
+                      "rotation": 0
+                    },
+                    {
+                      "uid": "imw199wp3nkgwd0",
+                      "relation": "canvas",
+                      "x": 0.25,
+                      "y": 0.24,
+                      "gap": 0.04,
+                      "rotation": 0
+                    }
+                  ]
+                },
+                {
+                  "principle": "Диагональное решение в вертикальном формате для выразительности.",
+                  "placements": [
+                    {
+                      "uid": "imw199wp3itjn3s",
+                      "relation": "canvas",
+                      "x": 0.5,
+                      "y": 0.55,
+                      "gap": 0,
+                      "rotation": 0
+                    },
+                    {
+                      "uid": "imw199wp3j2ovy2",
+                      "relation": "on",
+                      "targetUid": "imw199wp3itjn3s",
+                      "x": 0.5,
+                      "y": 0.48,
+                      "gap": 0,
+                      "rotation": -15
+                    },
+                    {
+                      "uid": "imw199wp3nkgwd0",
+                      "relation": "canvas",
+                      "x": 0.28,
+                      "y": 0.26,
+                      "gap": 0.04,
+                      "rotation": 0
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "executionNotes": [
+            "Положение «Настольная лампа» уточнено по границам кадра и реестру пересечений."
+          ],
+          "width": 1000,
+          "height": 1000,
+          "format": "square",
+          "size": "S",
+          "palette": "aqua",
+          "layout": "compact",
+          "background": "pattern",
+          "backgroundDesign": "auto",
+          "supporting": true,
+          "showSupporting": true,
+          "camera": null,
+          "composition": {
+            "index": 0,
+            "options": [
+              {
+                "strategy": "balanced",
+                "title": "Сбалансированная пара",
+                "principle": "Книга и телефон расположены в центре с естественным контактом поверхности.",
+                "placement": "on-surface"
+              },
+              {
+                "strategy": "spacious",
+                "title": "Свободное размещение",
+                "principle": "Смартфон находится рядом с открытой книгой, образуя единую группу.",
+                "placement": "beside"
+              },
+              {
+                "strategy": "diagonal",
+                "title": "Диагональный акцент",
+                "principle": "Телефон пересечает разворот книги под углом для динамики.",
+                "placement": "across"
+              }
+            ]
+          },
+          "layerRelations": [
+            {
+              "back": "imw199wp3itjn3s",
+              "front": "imw199wp3j2ovy2",
+              "reason": "Смартфон размещен поверх страницы книги"
+            },
+            {
+              "back": "imw199wp3nkgwd0",
+              "front": "imw199wp3itjn3s",
+              "reason": "Лампа находится на заднем плане за книгой"
+            }
+          ],
+          "recipe": "online",
+          "framing": "overview",
+          "focus": "phone",
+          "query": "От бумажного к цифровому",
+          "scale": 1,
+          "items": [
+            {
+              "uid": "imw199wp3nkgwd0",
+              "assetId": "lamp",
+              "role": "background",
+              "x": 120,
+              "y": 120,
+              "rotation": 0,
+              "flipX": false,
+              "flipY": false,
+              "zone": "top-left",
+              "crop": "fragment"
+            },
+            {
+              "uid": "imw199wp3itjn3s",
+              "assetId": "book",
+              "role": "main",
+              "x": 521.69,
+              "y": 544.45,
+              "rotation": 0,
+              "flipX": false,
+              "flipY": false,
+              "zone": "auto",
+              "crop": "whole"
+            },
+            {
+              "uid": "imw199wp3j2ovy2",
+              "assetId": "phone",
+              "role": "main",
+              "x": 507.23,
+              "y": 520,
+              "rotation": 0,
+              "flipX": false,
+              "flipY": false,
+              "supportUid": "imw199wp3itjn3s",
+              "zone": "auto",
+              "crop": "whole"
+            }
+          ]
+        },
+        {
+          "version": 1,
+          "sizing": "native",
+          "environmentPrompt": "",
+          "environmentExplanation": [
+            "Главная пара книги и смартфона раскрывает переход от традиционного чтения к цифровым технологиям.",
+            "Настольная лампа в роли фонового компаньона добавляет глубину и мягко освещает сцену.",
+            "Компактное расположение сохраняет читаемость силуэтов и цельность композиции."
+          ],
+          "groups": [
+            {
+              "kind": "collection",
+              "members": [
+                "imw199wp3itjn3s",
+                "imw199wp3j2ovy2"
+              ],
+              "reason": "Элементы расположены рядом для создания смыслового диалога."
+            }
+          ],
+          "formatPlans": [],
+          "stagingPlans": [
+            {
+              "format": "square",
+              "views": [
+                {
+                  "principle": "Книга и смартфон образуют сбалансированный центр.",
+                  "placements": [
+                    {
+                      "uid": "imw199wp3itjn3s",
+                      "relation": "canvas",
+                      "x": 0.5,
+                      "y": 0.52,
+                      "gap": 0,
+                      "rotation": 0
+                    },
+                    {
+                      "uid": "imw199wp3j2ovy2",
+                      "relation": "on",
+                      "targetUid": "imw199wp3itjn3s",
+                      "x": 0.48,
+                      "y": 0.45,
+                      "gap": 0,
+                      "rotation": 0
+                    },
+                    {
+                      "uid": "imw199wp3nkgwd0",
+                      "relation": "canvas",
+                      "x": 0.22,
+                      "y": 0.28,
+                      "gap": 0.04,
+                      "rotation": 0
+                    }
+                  ]
+                },
+                {
+                  "principle": "Элементы расположены рядом для создания смыслового диалога.",
+                  "placements": [
+                    {
+                      "uid": "imw199wp3itjn3s",
+                      "relation": "canvas",
+                      "x": 0.46,
+                      "y": 0.54,
+                      "gap": 0,
+                      "rotation": 0
+                    },
+                    {
+                      "uid": "imw199wp3j2ovy2",
+                      "relation": "right",
+                      "targetUid": "imw199wp3itjn3s",
+                      "x": 0.68,
+                      "y": 0.48,
+                      "gap": 0.03,
+                      "rotation": 0
+                    },
+                    {
+                      "uid": "imw199wp3nkgwd0",
+                      "relation": "canvas",
+                      "x": 0.2,
+                      "y": 0.26,
+                      "gap": 0.04,
+                      "rotation": 0
+                    }
+                  ]
+                },
+                {
+                  "principle": "Диагональное расположение телефона усиливает динамику.",
+                  "placements": [
+                    {
+                      "uid": "imw199wp3itjn3s",
+                      "relation": "canvas",
+                      "x": 0.5,
+                      "y": 0.52,
+                      "gap": 0,
+                      "rotation": 0
+                    },
+                    {
+                      "uid": "imw199wp3j2ovy2",
+                      "relation": "on",
+                      "targetUid": "imw199wp3itjn3s",
+                      "x": 0.5,
+                      "y": 0.5,
+                      "gap": 0,
+                      "rotation": -15
+                    },
+                    {
+                      "uid": "imw199wp3nkgwd0",
+                      "relation": "canvas",
+                      "x": 0.24,
+                      "y": 0.3,
+                      "gap": 0.04,
+                      "rotation": 0
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "format": "landscape",
+              "views": [
+                {
+                  "principle": "Горизонтальная компоновка с акцентом на центральную пару.",
+                  "placements": [
+                    {
+                      "uid": "imw199wp3itjn3s",
+                      "relation": "canvas",
+                      "x": 0.52,
+                      "y": 0.53,
+                      "gap": 0,
+                      "rotation": 0
+                    },
+                    {
+                      "uid": "imw199wp3j2ovy2",
+                      "relation": "on",
+                      "targetUid": "imw199wp3itjn3s",
+                      "x": 0.49,
+                      "y": 0.44,
+                      "gap": 0,
+                      "rotation": 0
+                    },
+                    {
+                      "uid": "imw199wp3nkgwd0",
+                      "relation": "canvas",
+                      "x": 0.25,
+                      "y": 0.3,
+                      "gap": 0.04,
+                      "rotation": 0
+                    }
+                  ]
+                },
+                {
+                  "principle": "Свободное распределение элементов по горизонтали холста.",
+                  "placements": [
+                    {
+                      "uid": "imw199wp3itjn3s",
+                      "relation": "canvas",
+                      "x": 0.48,
+                      "y": 0.55,
+                      "gap": 0,
+                      "rotation": 0
+                    },
+                    {
+                      "uid": "imw199wp3j2ovy2",
+                      "relation": "right",
+                      "targetUid": "imw199wp3itjn3s",
+                      "x": 0.7,
+                      "y": 0.48,
+                      "gap": 0.04,
+                      "rotation": 0
+                    },
+                    {
+                      "uid": "imw199wp3nkgwd0",
+                      "relation": "canvas",
+                      "x": 0.22,
+                      "y": 0.28,
+                      "gap": 0.04,
+                      "rotation": 0
+                    }
+                  ]
+                },
+                {
+                  "principle": "Диагональное взаимодействие объектов в ландшафтном формате.",
+                  "placements": [
+                    {
+                      "uid": "imw199wp3itjn3s",
+                      "relation": "canvas",
+                      "x": 0.52,
+                      "y": 0.53,
+                      "gap": 0,
+                      "rotation": 0
+                    },
+                    {
+                      "uid": "imw199wp3j2ovy2",
+                      "relation": "on",
+                      "targetUid": "imw199wp3itjn3s",
+                      "x": 0.5,
+                      "y": 0.48,
+                      "gap": 0,
+                      "rotation": -12
+                    },
+                    {
+                      "uid": "imw199wp3nkgwd0",
+                      "relation": "canvas",
+                      "x": 0.26,
+                      "y": 0.32,
+                      "gap": 0.04,
+                      "rotation": 0
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "format": "portrait",
+              "views": [
+                {
+                  "principle": "Вертикальная композиция концентрирует внимание на книге и телефоне.",
+                  "placements": [
+                    {
+                      "uid": "imw199wp3itjn3s",
+                      "relation": "canvas",
+                      "x": 0.5,
+                      "y": 0.55,
+                      "gap": 0,
+                      "rotation": 0
+                    },
+                    {
+                      "uid": "imw199wp3j2ovy2",
+                      "relation": "on",
+                      "targetUid": "imw199wp3itjn3s",
+                      "x": 0.48,
+                      "y": 0.43,
+                      "gap": 0,
+                      "rotation": 0
+                    },
+                    {
+                      "uid": "imw199wp3nkgwd0",
+                      "relation": "canvas",
+                      "x": 0.28,
+                      "y": 0.25,
+                      "gap": 0.04,
+                      "rotation": 0
+                    }
+                  ]
+                },
+                {
+                  "principle": "Высокий кадр подчеркивает вертикальную связь предметов.",
+                  "placements": [
+                    {
+                      "uid": "imw199wp3itjn3s",
+                      "relation": "canvas",
+                      "x": 0.5,
+                      "y": 0.58,
+                      "gap": 0,
+                      "rotation": 0
+                    },
+                    {
+                      "uid": "imw199wp3j2ovy2",
+                      "relation": "above",
+                      "targetUid": "imw199wp3itjn3s",
+                      "x": 0.5,
+                      "y": 0.38,
+                      "gap": 0.04,
+                      "rotation": 0
+                    },
+                    {
+                      "uid": "imw199wp3nkgwd0",
+                      "relation": "canvas",
+                      "x": 0.25,
+                      "y": 0.24,
+                      "gap": 0.04,
+                      "rotation": 0
+                    }
+                  ]
+                },
+                {
+                  "principle": "Диагональное решение в вертикальном формате для выразительности.",
+                  "placements": [
+                    {
+                      "uid": "imw199wp3itjn3s",
+                      "relation": "canvas",
+                      "x": 0.5,
+                      "y": 0.55,
+                      "gap": 0,
+                      "rotation": 0
+                    },
+                    {
+                      "uid": "imw199wp3j2ovy2",
+                      "relation": "on",
+                      "targetUid": "imw199wp3itjn3s",
+                      "x": 0.5,
+                      "y": 0.48,
+                      "gap": 0,
+                      "rotation": -15
+                    },
+                    {
+                      "uid": "imw199wp3nkgwd0",
+                      "relation": "canvas",
+                      "x": 0.28,
+                      "y": 0.26,
+                      "gap": 0.04,
+                      "rotation": 0
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "executionNotes": [
+            "Положение «Настольная лампа» уточнено по границам кадра и реестру пересечений.",
+            "Положение «Открытая книга» уточнено по границам кадра и реестру пересечений.",
+            "Положение «Смартфон» уточнено по границам кадра и реестру пересечений."
+          ],
+          "width": 1000,
+          "height": 1000,
+          "format": "square",
+          "size": "S",
+          "palette": "aqua",
+          "layout": "compact",
+          "background": "pattern",
+          "backgroundDesign": "auto",
+          "supporting": true,
+          "showSupporting": true,
+          "camera": null,
+          "composition": {
+            "index": 1,
+            "options": [
+              {
+                "strategy": "balanced",
+                "title": "Сбалансированная пара",
+                "principle": "Книга и телефон расположены в центре с естественным контактом поверхности.",
+                "placement": "on-surface"
+              },
+              {
+                "strategy": "spacious",
+                "title": "Свободное размещение",
+                "principle": "Смартфон находится рядом с открытой книгой, образуя единую группу.",
+                "placement": "beside"
+              },
+              {
+                "strategy": "diagonal",
+                "title": "Диагональный акцент",
+                "principle": "Телефон пересечает разворот книги под углом для динамики.",
+                "placement": "across"
+              }
+            ]
+          },
+          "layerRelations": [
+            {
+              "back": "imw199wp3itjn3s",
+              "front": "imw199wp3j2ovy2",
+              "reason": "Смартфон размещен поверх страницы книги"
+            },
+            {
+              "back": "imw199wp3nkgwd0",
+              "front": "imw199wp3itjn3s",
+              "reason": "Лампа находится на заднем плане за книгой"
+            }
+          ],
+          "recipe": "online",
+          "framing": "overview",
+          "focus": "phone",
+          "query": "От бумажного к цифровому",
+          "scale": 1,
+          "items": [
+            {
+              "uid": "imw199wp3nkgwd0",
+              "assetId": "lamp",
+              "role": "background",
+              "x": 120,
+              "y": 120,
+              "rotation": 0,
+              "flipX": false,
+              "flipY": false,
+              "zone": "top-left",
+              "crop": "fragment"
+            },
+            {
+              "uid": "imw199wp3itjn3s",
+              "assetId": "book",
+              "role": "main",
+              "x": 400,
+              "y": 640,
+              "rotation": 0,
+              "flipX": false,
+              "flipY": false,
+              "zone": "auto",
+              "crop": "whole"
+            },
+            {
+              "uid": "imw199wp3j2ovy2",
+              "assetId": "phone",
+              "role": "main",
+              "x": 822.58203125,
+              "y": 496.17,
+              "rotation": 0,
+              "flipX": false,
+              "flipY": false,
+              "zone": "auto",
+              "crop": "whole"
+            }
+          ]
+        },
+        {
+          "version": 1,
+          "sizing": "native",
+          "environmentPrompt": "",
+          "environmentExplanation": [
+            "Главная пара книги и смартфона раскрывает переход от традиционного чтения к цифровым технологиям.",
+            "Настольная лампа в роли фонового компаньона добавляет глубину и мягко освещает сцену.",
+            "Компактное расположение сохраняет читаемость силуэтов и цельность композиции."
+          ],
+          "groups": [
+            {
+              "kind": "collection",
+              "members": [
+                "imw199wp3itjn3s",
+                "imw199wp3j2ovy2"
+              ],
+              "reason": "Диагональное расположение телефона усиливает динамику."
+            }
+          ],
+          "formatPlans": [],
+          "stagingPlans": [
+            {
+              "format": "square",
+              "views": [
+                {
+                  "principle": "Книга и смартфон образуют сбалансированный центр.",
+                  "placements": [
+                    {
+                      "uid": "imw199wp3itjn3s",
+                      "relation": "canvas",
+                      "x": 0.5,
+                      "y": 0.52,
+                      "gap": 0,
+                      "rotation": 0
+                    },
+                    {
+                      "uid": "imw199wp3j2ovy2",
+                      "relation": "on",
+                      "targetUid": "imw199wp3itjn3s",
+                      "x": 0.48,
+                      "y": 0.45,
+                      "gap": 0,
+                      "rotation": 0
+                    },
+                    {
+                      "uid": "imw199wp3nkgwd0",
+                      "relation": "canvas",
+                      "x": 0.22,
+                      "y": 0.28,
+                      "gap": 0.04,
+                      "rotation": 0
+                    }
+                  ]
+                },
+                {
+                  "principle": "Элементы расположены рядом для создания смыслового диалога.",
+                  "placements": [
+                    {
+                      "uid": "imw199wp3itjn3s",
+                      "relation": "canvas",
+                      "x": 0.46,
+                      "y": 0.54,
+                      "gap": 0,
+                      "rotation": 0
+                    },
+                    {
+                      "uid": "imw199wp3j2ovy2",
+                      "relation": "right",
+                      "targetUid": "imw199wp3itjn3s",
+                      "x": 0.68,
+                      "y": 0.48,
+                      "gap": 0.03,
+                      "rotation": 0
+                    },
+                    {
+                      "uid": "imw199wp3nkgwd0",
+                      "relation": "canvas",
+                      "x": 0.2,
+                      "y": 0.26,
+                      "gap": 0.04,
+                      "rotation": 0
+                    }
+                  ]
+                },
+                {
+                  "principle": "Диагональное расположение телефона усиливает динамику.",
+                  "placements": [
+                    {
+                      "uid": "imw199wp3itjn3s",
+                      "relation": "canvas",
+                      "x": 0.5,
+                      "y": 0.52,
+                      "gap": 0,
+                      "rotation": 0
+                    },
+                    {
+                      "uid": "imw199wp3j2ovy2",
+                      "relation": "on",
+                      "targetUid": "imw199wp3itjn3s",
+                      "x": 0.5,
+                      "y": 0.5,
+                      "gap": 0,
+                      "rotation": -15
+                    },
+                    {
+                      "uid": "imw199wp3nkgwd0",
+                      "relation": "canvas",
+                      "x": 0.24,
+                      "y": 0.3,
+                      "gap": 0.04,
+                      "rotation": 0
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "format": "landscape",
+              "views": [
+                {
+                  "principle": "Горизонтальная компоновка с акцентом на центральную пару.",
+                  "placements": [
+                    {
+                      "uid": "imw199wp3itjn3s",
+                      "relation": "canvas",
+                      "x": 0.52,
+                      "y": 0.53,
+                      "gap": 0,
+                      "rotation": 0
+                    },
+                    {
+                      "uid": "imw199wp3j2ovy2",
+                      "relation": "on",
+                      "targetUid": "imw199wp3itjn3s",
+                      "x": 0.49,
+                      "y": 0.44,
+                      "gap": 0,
+                      "rotation": 0
+                    },
+                    {
+                      "uid": "imw199wp3nkgwd0",
+                      "relation": "canvas",
+                      "x": 0.25,
+                      "y": 0.3,
+                      "gap": 0.04,
+                      "rotation": 0
+                    }
+                  ]
+                },
+                {
+                  "principle": "Свободное распределение элементов по горизонтали холста.",
+                  "placements": [
+                    {
+                      "uid": "imw199wp3itjn3s",
+                      "relation": "canvas",
+                      "x": 0.48,
+                      "y": 0.55,
+                      "gap": 0,
+                      "rotation": 0
+                    },
+                    {
+                      "uid": "imw199wp3j2ovy2",
+                      "relation": "right",
+                      "targetUid": "imw199wp3itjn3s",
+                      "x": 0.7,
+                      "y": 0.48,
+                      "gap": 0.04,
+                      "rotation": 0
+                    },
+                    {
+                      "uid": "imw199wp3nkgwd0",
+                      "relation": "canvas",
+                      "x": 0.22,
+                      "y": 0.28,
+                      "gap": 0.04,
+                      "rotation": 0
+                    }
+                  ]
+                },
+                {
+                  "principle": "Диагональное взаимодействие объектов в ландшафтном формате.",
+                  "placements": [
+                    {
+                      "uid": "imw199wp3itjn3s",
+                      "relation": "canvas",
+                      "x": 0.52,
+                      "y": 0.53,
+                      "gap": 0,
+                      "rotation": 0
+                    },
+                    {
+                      "uid": "imw199wp3j2ovy2",
+                      "relation": "on",
+                      "targetUid": "imw199wp3itjn3s",
+                      "x": 0.5,
+                      "y": 0.48,
+                      "gap": 0,
+                      "rotation": -12
+                    },
+                    {
+                      "uid": "imw199wp3nkgwd0",
+                      "relation": "canvas",
+                      "x": 0.26,
+                      "y": 0.32,
+                      "gap": 0.04,
+                      "rotation": 0
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "format": "portrait",
+              "views": [
+                {
+                  "principle": "Вертикальная композиция концентрирует внимание на книге и телефоне.",
+                  "placements": [
+                    {
+                      "uid": "imw199wp3itjn3s",
+                      "relation": "canvas",
+                      "x": 0.5,
+                      "y": 0.55,
+                      "gap": 0,
+                      "rotation": 0
+                    },
+                    {
+                      "uid": "imw199wp3j2ovy2",
+                      "relation": "on",
+                      "targetUid": "imw199wp3itjn3s",
+                      "x": 0.48,
+                      "y": 0.43,
+                      "gap": 0,
+                      "rotation": 0
+                    },
+                    {
+                      "uid": "imw199wp3nkgwd0",
+                      "relation": "canvas",
+                      "x": 0.28,
+                      "y": 0.25,
+                      "gap": 0.04,
+                      "rotation": 0
+                    }
+                  ]
+                },
+                {
+                  "principle": "Высокий кадр подчеркивает вертикальную связь предметов.",
+                  "placements": [
+                    {
+                      "uid": "imw199wp3itjn3s",
+                      "relation": "canvas",
+                      "x": 0.5,
+                      "y": 0.58,
+                      "gap": 0,
+                      "rotation": 0
+                    },
+                    {
+                      "uid": "imw199wp3j2ovy2",
+                      "relation": "above",
+                      "targetUid": "imw199wp3itjn3s",
+                      "x": 0.5,
+                      "y": 0.38,
+                      "gap": 0.04,
+                      "rotation": 0
+                    },
+                    {
+                      "uid": "imw199wp3nkgwd0",
+                      "relation": "canvas",
+                      "x": 0.25,
+                      "y": 0.24,
+                      "gap": 0.04,
+                      "rotation": 0
+                    }
+                  ]
+                },
+                {
+                  "principle": "Диагональное решение в вертикальном формате для выразительности.",
+                  "placements": [
+                    {
+                      "uid": "imw199wp3itjn3s",
+                      "relation": "canvas",
+                      "x": 0.5,
+                      "y": 0.55,
+                      "gap": 0,
+                      "rotation": 0
+                    },
+                    {
+                      "uid": "imw199wp3j2ovy2",
+                      "relation": "on",
+                      "targetUid": "imw199wp3itjn3s",
+                      "x": 0.5,
+                      "y": 0.48,
+                      "gap": 0,
+                      "rotation": -15
+                    },
+                    {
+                      "uid": "imw199wp3nkgwd0",
+                      "relation": "canvas",
+                      "x": 0.28,
+                      "y": 0.26,
+                      "gap": 0.04,
+                      "rotation": 0
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "executionNotes": [
+            "Положение «Настольная лампа» уточнено по границам кадра и реестру пересечений."
+          ],
+          "width": 1000,
+          "height": 1000,
+          "format": "square",
+          "size": "S",
+          "palette": "aqua",
+          "layout": "compact",
+          "background": "pattern",
+          "backgroundDesign": "auto",
+          "supporting": true,
+          "showSupporting": true,
+          "camera": null,
+          "composition": {
+            "index": 2,
+            "options": [
+              {
+                "strategy": "balanced",
+                "title": "Сбалансированная пара",
+                "principle": "Книга и телефон расположены в центре с естественным контактом поверхности.",
+                "placement": "on-surface"
+              },
+              {
+                "strategy": "spacious",
+                "title": "Свободное размещение",
+                "principle": "Смартфон находится рядом с открытой книгой, образуя единую группу.",
+                "placement": "beside"
+              },
+              {
+                "strategy": "diagonal",
+                "title": "Диагональный акцент",
+                "principle": "Телефон пересечает разворот книги под углом для динамики.",
+                "placement": "across"
+              }
+            ]
+          },
+          "layerRelations": [
+            {
+              "back": "imw199wp3itjn3s",
+              "front": "imw199wp3j2ovy2",
+              "reason": "Смартфон размещен поверх страницы книги"
+            },
+            {
+              "back": "imw199wp3nkgwd0",
+              "front": "imw199wp3itjn3s",
+              "reason": "Лампа находится на заднем плане за книгой"
+            }
+          ],
+          "recipe": "online",
+          "framing": "overview",
+          "focus": "phone",
+          "query": "От бумажного к цифровому",
+          "scale": 1,
+          "items": [
+            {
+              "uid": "imw199wp3nkgwd0",
+              "assetId": "lamp",
+              "role": "background",
+              "x": 120,
+              "y": 120,
+              "rotation": 0,
+              "flipX": false,
+              "flipY": false,
+              "zone": "top-left",
+              "crop": "fragment"
+            },
+            {
+              "uid": "imw199wp3itjn3s",
+              "assetId": "book",
+              "role": "main",
+              "x": 521.69,
+              "y": 544.45,
+              "rotation": 0,
+              "flipX": false,
+              "flipY": false,
+              "zone": "auto",
+              "crop": "whole"
+            },
+            {
+              "uid": "imw199wp3j2ovy2",
+              "assetId": "phone",
+              "role": "main",
+              "x": 521.69,
+              "y": 544.45,
+              "rotation": -15,
+              "flipX": false,
+              "flipY": false,
+              "supportUid": "imw199wp3itjn3s",
+              "zone": "auto",
+              "crop": "whole"
+            }
+          ]
+        }
+      ],
+      "landscape": [
+        {
+          "version": 1,
+          "sizing": "native",
+          "environmentPrompt": "",
+          "environmentExplanation": [
+            "Главная пара книги и смартфона раскрывает переход от традиционного чтения к цифровым технологиям.",
+            "Настольная лампа в роли фонового компаньона добавляет глубину и мягко освещает сцену.",
+            "Компактное расположение сохраняет читаемость силуэтов и цельность композиции."
+          ],
+          "groups": [
+            {
+              "kind": "collection",
+              "members": [
+                "imw199wp3itjn3s",
+                "imw199wp3j2ovy2"
+              ],
+              "reason": "Горизонтальная компоновка с акцентом на центральную пару."
+            }
+          ],
+          "formatPlans": [],
+          "stagingPlans": [
+            {
+              "format": "square",
+              "views": [
+                {
+                  "principle": "Книга и смартфон образуют сбалансированный центр.",
+                  "placements": [
+                    {
+                      "uid": "imw199wp3itjn3s",
+                      "relation": "canvas",
+                      "x": 0.5,
+                      "y": 0.52,
+                      "gap": 0,
+                      "rotation": 0
+                    },
+                    {
+                      "uid": "imw199wp3j2ovy2",
+                      "relation": "on",
+                      "targetUid": "imw199wp3itjn3s",
+                      "x": 0.48,
+                      "y": 0.45,
+                      "gap": 0,
+                      "rotation": 0
+                    },
+                    {
+                      "uid": "imw199wp3nkgwd0",
+                      "relation": "canvas",
+                      "x": 0.22,
+                      "y": 0.28,
+                      "gap": 0.04,
+                      "rotation": 0
+                    }
+                  ]
+                },
+                {
+                  "principle": "Элементы расположены рядом для создания смыслового диалога.",
+                  "placements": [
+                    {
+                      "uid": "imw199wp3itjn3s",
+                      "relation": "canvas",
+                      "x": 0.46,
+                      "y": 0.54,
+                      "gap": 0,
+                      "rotation": 0
+                    },
+                    {
+                      "uid": "imw199wp3j2ovy2",
+                      "relation": "right",
+                      "targetUid": "imw199wp3itjn3s",
+                      "x": 0.68,
+                      "y": 0.48,
+                      "gap": 0.03,
+                      "rotation": 0
+                    },
+                    {
+                      "uid": "imw199wp3nkgwd0",
+                      "relation": "canvas",
+                      "x": 0.2,
+                      "y": 0.26,
+                      "gap": 0.04,
+                      "rotation": 0
+                    }
+                  ]
+                },
+                {
+                  "principle": "Диагональное расположение телефона усиливает динамику.",
+                  "placements": [
+                    {
+                      "uid": "imw199wp3itjn3s",
+                      "relation": "canvas",
+                      "x": 0.5,
+                      "y": 0.52,
+                      "gap": 0,
+                      "rotation": 0
+                    },
+                    {
+                      "uid": "imw199wp3j2ovy2",
+                      "relation": "on",
+                      "targetUid": "imw199wp3itjn3s",
+                      "x": 0.5,
+                      "y": 0.5,
+                      "gap": 0,
+                      "rotation": -15
+                    },
+                    {
+                      "uid": "imw199wp3nkgwd0",
+                      "relation": "canvas",
+                      "x": 0.24,
+                      "y": 0.3,
+                      "gap": 0.04,
+                      "rotation": 0
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "format": "landscape",
+              "views": [
+                {
+                  "principle": "Горизонтальная компоновка с акцентом на центральную пару.",
+                  "placements": [
+                    {
+                      "uid": "imw199wp3itjn3s",
+                      "relation": "canvas",
+                      "x": 0.52,
+                      "y": 0.53,
+                      "gap": 0,
+                      "rotation": 0
+                    },
+                    {
+                      "uid": "imw199wp3j2ovy2",
+                      "relation": "on",
+                      "targetUid": "imw199wp3itjn3s",
+                      "x": 0.49,
+                      "y": 0.44,
+                      "gap": 0,
+                      "rotation": 0
+                    },
+                    {
+                      "uid": "imw199wp3nkgwd0",
+                      "relation": "canvas",
+                      "x": 0.25,
+                      "y": 0.3,
+                      "gap": 0.04,
+                      "rotation": 0
+                    }
+                  ]
+                },
+                {
+                  "principle": "Свободное распределение элементов по горизонтали холста.",
+                  "placements": [
+                    {
+                      "uid": "imw199wp3itjn3s",
+                      "relation": "canvas",
+                      "x": 0.48,
+                      "y": 0.55,
+                      "gap": 0,
+                      "rotation": 0
+                    },
+                    {
+                      "uid": "imw199wp3j2ovy2",
+                      "relation": "right",
+                      "targetUid": "imw199wp3itjn3s",
+                      "x": 0.7,
+                      "y": 0.48,
+                      "gap": 0.04,
+                      "rotation": 0
+                    },
+                    {
+                      "uid": "imw199wp3nkgwd0",
+                      "relation": "canvas",
+                      "x": 0.22,
+                      "y": 0.28,
+                      "gap": 0.04,
+                      "rotation": 0
+                    }
+                  ]
+                },
+                {
+                  "principle": "Диагональное взаимодействие объектов в ландшафтном формате.",
+                  "placements": [
+                    {
+                      "uid": "imw199wp3itjn3s",
+                      "relation": "canvas",
+                      "x": 0.52,
+                      "y": 0.53,
+                      "gap": 0,
+                      "rotation": 0
+                    },
+                    {
+                      "uid": "imw199wp3j2ovy2",
+                      "relation": "on",
+                      "targetUid": "imw199wp3itjn3s",
+                      "x": 0.5,
+                      "y": 0.48,
+                      "gap": 0,
+                      "rotation": -12
+                    },
+                    {
+                      "uid": "imw199wp3nkgwd0",
+                      "relation": "canvas",
+                      "x": 0.26,
+                      "y": 0.32,
+                      "gap": 0.04,
+                      "rotation": 0
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "format": "portrait",
+              "views": [
+                {
+                  "principle": "Вертикальная композиция концентрирует внимание на книге и телефоне.",
+                  "placements": [
+                    {
+                      "uid": "imw199wp3itjn3s",
+                      "relation": "canvas",
+                      "x": 0.5,
+                      "y": 0.55,
+                      "gap": 0,
+                      "rotation": 0
+                    },
+                    {
+                      "uid": "imw199wp3j2ovy2",
+                      "relation": "on",
+                      "targetUid": "imw199wp3itjn3s",
+                      "x": 0.48,
+                      "y": 0.43,
+                      "gap": 0,
+                      "rotation": 0
+                    },
+                    {
+                      "uid": "imw199wp3nkgwd0",
+                      "relation": "canvas",
+                      "x": 0.28,
+                      "y": 0.25,
+                      "gap": 0.04,
+                      "rotation": 0
+                    }
+                  ]
+                },
+                {
+                  "principle": "Высокий кадр подчеркивает вертикальную связь предметов.",
+                  "placements": [
+                    {
+                      "uid": "imw199wp3itjn3s",
+                      "relation": "canvas",
+                      "x": 0.5,
+                      "y": 0.58,
+                      "gap": 0,
+                      "rotation": 0
+                    },
+                    {
+                      "uid": "imw199wp3j2ovy2",
+                      "relation": "above",
+                      "targetUid": "imw199wp3itjn3s",
+                      "x": 0.5,
+                      "y": 0.38,
+                      "gap": 0.04,
+                      "rotation": 0
+                    },
+                    {
+                      "uid": "imw199wp3nkgwd0",
+                      "relation": "canvas",
+                      "x": 0.25,
+                      "y": 0.24,
+                      "gap": 0.04,
+                      "rotation": 0
+                    }
+                  ]
+                },
+                {
+                  "principle": "Диагональное решение в вертикальном формате для выразительности.",
+                  "placements": [
+                    {
+                      "uid": "imw199wp3itjn3s",
+                      "relation": "canvas",
+                      "x": 0.5,
+                      "y": 0.55,
+                      "gap": 0,
+                      "rotation": 0
+                    },
+                    {
+                      "uid": "imw199wp3j2ovy2",
+                      "relation": "on",
+                      "targetUid": "imw199wp3itjn3s",
+                      "x": 0.5,
+                      "y": 0.48,
+                      "gap": 0,
+                      "rotation": -15
+                    },
+                    {
+                      "uid": "imw199wp3nkgwd0",
+                      "relation": "canvas",
+                      "x": 0.28,
+                      "y": 0.26,
+                      "gap": 0.04,
+                      "rotation": 0
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "executionNotes": [
+            "Положение «Настольная лампа» уточнено по границам кадра и реестру пересечений."
+          ],
+          "width": 1200,
+          "height": 630,
+          "format": "landscape",
+          "size": "S",
+          "palette": "aqua",
+          "layout": "compact",
+          "background": "pattern",
+          "backgroundDesign": "auto",
+          "supporting": true,
+          "showSupporting": true,
+          "camera": null,
+          "composition": {
+            "index": 0,
+            "options": [
+              {
+                "strategy": "balanced",
+                "title": "Сбалансированная пара",
+                "principle": "Книга и телефон расположены в центре с естественным контактом поверхности.",
+                "placement": "on-surface"
+              },
+              {
+                "strategy": "spacious",
+                "title": "Свободное размещение",
+                "principle": "Смартфон находится рядом с открытой книгой, образуя единую группу.",
+                "placement": "beside"
+              },
+              {
+                "strategy": "diagonal",
+                "title": "Диагональный акцент",
+                "principle": "Телефон пересечает разворот книги под углом для динамики.",
+                "placement": "across"
+              }
+            ]
+          },
+          "layerRelations": [
+            {
+              "back": "imw199wp3itjn3s",
+              "front": "imw199wp3j2ovy2",
+              "reason": "Смартфон размещен поверх страницы книги"
+            },
+            {
+              "back": "imw199wp3nkgwd0",
+              "front": "imw199wp3itjn3s",
+              "reason": "Лампа находится на заднем плане за книгой"
+            }
+          ],
+          "recipe": "online",
+          "framing": "overview",
+          "focus": "phone",
+          "query": "От бумажного к цифровому",
+          "scale": 1,
+          "items": [
+            {
+              "uid": "imw199wp3nkgwd0",
+              "assetId": "lamp",
+              "role": "background",
+              "x": 0,
+              "y": 176.4,
+              "rotation": 0,
+              "flipX": false,
+              "flipY": false,
+              "zone": "top-left",
+              "crop": "fragment"
+            },
+            {
+              "uid": "imw199wp3itjn3s",
+              "assetId": "book",
+              "role": "main",
+              "x": 645.69,
+              "y": 358.35,
+              "rotation": 0,
+              "flipX": false,
+              "flipY": false,
+              "zone": "auto",
+              "crop": "whole"
+            },
+            {
+              "uid": "imw199wp3j2ovy2",
+              "assetId": "phone",
+              "role": "main",
+              "x": 638.46,
+              "y": 329.01000000000005,
+              "rotation": 0,
+              "flipX": false,
+              "flipY": false,
+              "supportUid": "imw199wp3itjn3s",
+              "zone": "auto",
+              "crop": "whole"
+            }
+          ]
+        },
+        {
+          "version": 1,
+          "sizing": "native",
+          "environmentPrompt": "",
+          "environmentExplanation": [
+            "Главная пара книги и смартфона раскрывает переход от традиционного чтения к цифровым технологиям.",
+            "Настольная лампа в роли фонового компаньона добавляет глубину и мягко освещает сцену.",
+            "Компактное расположение сохраняет читаемость силуэтов и цельность композиции."
+          ],
+          "groups": [
+            {
+              "kind": "collection",
+              "members": [
+                "imw199wp3itjn3s",
+                "imw199wp3j2ovy2"
+              ],
+              "reason": "Свободное распределение элементов по горизонтали холста."
+            }
+          ],
+          "formatPlans": [],
+          "stagingPlans": [
+            {
+              "format": "square",
+              "views": [
+                {
+                  "principle": "Книга и смартфон образуют сбалансированный центр.",
+                  "placements": [
+                    {
+                      "uid": "imw199wp3itjn3s",
+                      "relation": "canvas",
+                      "x": 0.5,
+                      "y": 0.52,
+                      "gap": 0,
+                      "rotation": 0
+                    },
+                    {
+                      "uid": "imw199wp3j2ovy2",
+                      "relation": "on",
+                      "targetUid": "imw199wp3itjn3s",
+                      "x": 0.48,
+                      "y": 0.45,
+                      "gap": 0,
+                      "rotation": 0
+                    },
+                    {
+                      "uid": "imw199wp3nkgwd0",
+                      "relation": "canvas",
+                      "x": 0.22,
+                      "y": 0.28,
+                      "gap": 0.04,
+                      "rotation": 0
+                    }
+                  ]
+                },
+                {
+                  "principle": "Элементы расположены рядом для создания смыслового диалога.",
+                  "placements": [
+                    {
+                      "uid": "imw199wp3itjn3s",
+                      "relation": "canvas",
+                      "x": 0.46,
+                      "y": 0.54,
+                      "gap": 0,
+                      "rotation": 0
+                    },
+                    {
+                      "uid": "imw199wp3j2ovy2",
+                      "relation": "right",
+                      "targetUid": "imw199wp3itjn3s",
+                      "x": 0.68,
+                      "y": 0.48,
+                      "gap": 0.03,
+                      "rotation": 0
+                    },
+                    {
+                      "uid": "imw199wp3nkgwd0",
+                      "relation": "canvas",
+                      "x": 0.2,
+                      "y": 0.26,
+                      "gap": 0.04,
+                      "rotation": 0
+                    }
+                  ]
+                },
+                {
+                  "principle": "Диагональное расположение телефона усиливает динамику.",
+                  "placements": [
+                    {
+                      "uid": "imw199wp3itjn3s",
+                      "relation": "canvas",
+                      "x": 0.5,
+                      "y": 0.52,
+                      "gap": 0,
+                      "rotation": 0
+                    },
+                    {
+                      "uid": "imw199wp3j2ovy2",
+                      "relation": "on",
+                      "targetUid": "imw199wp3itjn3s",
+                      "x": 0.5,
+                      "y": 0.5,
+                      "gap": 0,
+                      "rotation": -15
+                    },
+                    {
+                      "uid": "imw199wp3nkgwd0",
+                      "relation": "canvas",
+                      "x": 0.24,
+                      "y": 0.3,
+                      "gap": 0.04,
+                      "rotation": 0
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "format": "landscape",
+              "views": [
+                {
+                  "principle": "Горизонтальная компоновка с акцентом на центральную пару.",
+                  "placements": [
+                    {
+                      "uid": "imw199wp3itjn3s",
+                      "relation": "canvas",
+                      "x": 0.52,
+                      "y": 0.53,
+                      "gap": 0,
+                      "rotation": 0
+                    },
+                    {
+                      "uid": "imw199wp3j2ovy2",
+                      "relation": "on",
+                      "targetUid": "imw199wp3itjn3s",
+                      "x": 0.49,
+                      "y": 0.44,
+                      "gap": 0,
+                      "rotation": 0
+                    },
+                    {
+                      "uid": "imw199wp3nkgwd0",
+                      "relation": "canvas",
+                      "x": 0.25,
+                      "y": 0.3,
+                      "gap": 0.04,
+                      "rotation": 0
+                    }
+                  ]
+                },
+                {
+                  "principle": "Свободное распределение элементов по горизонтали холста.",
+                  "placements": [
+                    {
+                      "uid": "imw199wp3itjn3s",
+                      "relation": "canvas",
+                      "x": 0.48,
+                      "y": 0.55,
+                      "gap": 0,
+                      "rotation": 0
+                    },
+                    {
+                      "uid": "imw199wp3j2ovy2",
+                      "relation": "right",
+                      "targetUid": "imw199wp3itjn3s",
+                      "x": 0.7,
+                      "y": 0.48,
+                      "gap": 0.04,
+                      "rotation": 0
+                    },
+                    {
+                      "uid": "imw199wp3nkgwd0",
+                      "relation": "canvas",
+                      "x": 0.22,
+                      "y": 0.28,
+                      "gap": 0.04,
+                      "rotation": 0
+                    }
+                  ]
+                },
+                {
+                  "principle": "Диагональное взаимодействие объектов в ландшафтном формате.",
+                  "placements": [
+                    {
+                      "uid": "imw199wp3itjn3s",
+                      "relation": "canvas",
+                      "x": 0.52,
+                      "y": 0.53,
+                      "gap": 0,
+                      "rotation": 0
+                    },
+                    {
+                      "uid": "imw199wp3j2ovy2",
+                      "relation": "on",
+                      "targetUid": "imw199wp3itjn3s",
+                      "x": 0.5,
+                      "y": 0.48,
+                      "gap": 0,
+                      "rotation": -12
+                    },
+                    {
+                      "uid": "imw199wp3nkgwd0",
+                      "relation": "canvas",
+                      "x": 0.26,
+                      "y": 0.32,
+                      "gap": 0.04,
+                      "rotation": 0
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "format": "portrait",
+              "views": [
+                {
+                  "principle": "Вертикальная композиция концентрирует внимание на книге и телефоне.",
+                  "placements": [
+                    {
+                      "uid": "imw199wp3itjn3s",
+                      "relation": "canvas",
+                      "x": 0.5,
+                      "y": 0.55,
+                      "gap": 0,
+                      "rotation": 0
+                    },
+                    {
+                      "uid": "imw199wp3j2ovy2",
+                      "relation": "on",
+                      "targetUid": "imw199wp3itjn3s",
+                      "x": 0.48,
+                      "y": 0.43,
+                      "gap": 0,
+                      "rotation": 0
+                    },
+                    {
+                      "uid": "imw199wp3nkgwd0",
+                      "relation": "canvas",
+                      "x": 0.28,
+                      "y": 0.25,
+                      "gap": 0.04,
+                      "rotation": 0
+                    }
+                  ]
+                },
+                {
+                  "principle": "Высокий кадр подчеркивает вертикальную связь предметов.",
+                  "placements": [
+                    {
+                      "uid": "imw199wp3itjn3s",
+                      "relation": "canvas",
+                      "x": 0.5,
+                      "y": 0.58,
+                      "gap": 0,
+                      "rotation": 0
+                    },
+                    {
+                      "uid": "imw199wp3j2ovy2",
+                      "relation": "above",
+                      "targetUid": "imw199wp3itjn3s",
+                      "x": 0.5,
+                      "y": 0.38,
+                      "gap": 0.04,
+                      "rotation": 0
+                    },
+                    {
+                      "uid": "imw199wp3nkgwd0",
+                      "relation": "canvas",
+                      "x": 0.25,
+                      "y": 0.24,
+                      "gap": 0.04,
+                      "rotation": 0
+                    }
+                  ]
+                },
+                {
+                  "principle": "Диагональное решение в вертикальном формате для выразительности.",
+                  "placements": [
+                    {
+                      "uid": "imw199wp3itjn3s",
+                      "relation": "canvas",
+                      "x": 0.5,
+                      "y": 0.55,
+                      "gap": 0,
+                      "rotation": 0
+                    },
+                    {
+                      "uid": "imw199wp3j2ovy2",
+                      "relation": "on",
+                      "targetUid": "imw199wp3itjn3s",
+                      "x": 0.5,
+                      "y": 0.48,
+                      "gap": 0,
+                      "rotation": -15
+                    },
+                    {
+                      "uid": "imw199wp3nkgwd0",
+                      "relation": "canvas",
+                      "x": 0.28,
+                      "y": 0.26,
+                      "gap": 0.04,
+                      "rotation": 0
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "executionNotes": [
+            "Положение «Настольная лампа» уточнено по границам кадра и реестру пересечений.",
+            "Положение «Открытая книга» уточнено по границам кадра и реестру пересечений.",
+            "Положение «Смартфон» уточнено по границам кадра и реестру пересечений."
+          ],
+          "width": 1200,
+          "height": 630,
+          "format": "landscape",
+          "size": "S",
+          "palette": "aqua",
+          "layout": "compact",
+          "background": "pattern",
+          "backgroundDesign": "auto",
+          "supporting": true,
+          "showSupporting": true,
+          "camera": null,
+          "composition": {
+            "index": 1,
+            "options": [
+              {
+                "strategy": "balanced",
+                "title": "Сбалансированная пара",
+                "principle": "Книга и телефон расположены в центре с естественным контактом поверхности.",
+                "placement": "on-surface"
+              },
+              {
+                "strategy": "spacious",
+                "title": "Свободное размещение",
+                "principle": "Смартфон находится рядом с открытой книгой, образуя единую группу.",
+                "placement": "beside"
+              },
+              {
+                "strategy": "diagonal",
+                "title": "Диагональный акцент",
+                "principle": "Телефон пересечает разворот книги под углом для динамики.",
+                "placement": "across"
+              }
+            ]
+          },
+          "layerRelations": [
+            {
+              "back": "imw199wp3itjn3s",
+              "front": "imw199wp3j2ovy2",
+              "reason": "Смартфон размещен поверх страницы книги"
+            },
+            {
+              "back": "imw199wp3nkgwd0",
+              "front": "imw199wp3itjn3s",
+              "reason": "Лампа находится на заднем плане за книгой"
+            }
+          ],
+          "recipe": "online",
+          "framing": "overview",
+          "focus": "phone",
+          "query": "От бумажного к цифровому",
+          "scale": 1,
+          "items": [
+            {
+              "uid": "imw199wp3nkgwd0",
+              "assetId": "lamp",
+              "role": "background",
+              "x": 0,
+              "y": 176.4,
+              "rotation": 0,
+              "flipX": false,
+              "flipY": false,
+              "zone": "top-left",
+              "crop": "fragment"
+            },
+            {
+              "uid": "imw199wp3itjn3s",
+              "assetId": "book",
+              "role": "main",
+              "x": 597.69,
+              "y": 478.8,
+              "rotation": 0,
+              "flipX": false,
+              "flipY": false,
+              "zone": "auto",
+              "crop": "whole"
+            },
+            {
+              "uid": "imw199wp3j2ovy2",
+              "assetId": "phone",
+              "role": "main",
+              "x": 1029.98203125,
+              "y": 318.57,
+              "rotation": 0,
+              "flipX": false,
+              "flipY": false,
+              "zone": "auto",
+              "crop": "whole"
+            }
+          ]
+        },
+        {
+          "version": 1,
+          "sizing": "native",
+          "environmentPrompt": "",
+          "environmentExplanation": [
+            "Главная пара книги и смартфона раскрывает переход от традиционного чтения к цифровым технологиям.",
+            "Настольная лампа в роли фонового компаньона добавляет глубину и мягко освещает сцену.",
+            "Компактное расположение сохраняет читаемость силуэтов и цельность композиции."
+          ],
+          "groups": [
+            {
+              "kind": "collection",
+              "members": [
+                "imw199wp3itjn3s",
+                "imw199wp3j2ovy2"
+              ],
+              "reason": "Диагональное взаимодействие объектов в ландшафтном формате."
+            }
+          ],
+          "formatPlans": [],
+          "stagingPlans": [
+            {
+              "format": "square",
+              "views": [
+                {
+                  "principle": "Книга и смартфон образуют сбалансированный центр.",
+                  "placements": [
+                    {
+                      "uid": "imw199wp3itjn3s",
+                      "relation": "canvas",
+                      "x": 0.5,
+                      "y": 0.52,
+                      "gap": 0,
+                      "rotation": 0
+                    },
+                    {
+                      "uid": "imw199wp3j2ovy2",
+                      "relation": "on",
+                      "targetUid": "imw199wp3itjn3s",
+                      "x": 0.48,
+                      "y": 0.45,
+                      "gap": 0,
+                      "rotation": 0
+                    },
+                    {
+                      "uid": "imw199wp3nkgwd0",
+                      "relation": "canvas",
+                      "x": 0.22,
+                      "y": 0.28,
+                      "gap": 0.04,
+                      "rotation": 0
+                    }
+                  ]
+                },
+                {
+                  "principle": "Элементы расположены рядом для создания смыслового диалога.",
+                  "placements": [
+                    {
+                      "uid": "imw199wp3itjn3s",
+                      "relation": "canvas",
+                      "x": 0.46,
+                      "y": 0.54,
+                      "gap": 0,
+                      "rotation": 0
+                    },
+                    {
+                      "uid": "imw199wp3j2ovy2",
+                      "relation": "right",
+                      "targetUid": "imw199wp3itjn3s",
+                      "x": 0.68,
+                      "y": 0.48,
+                      "gap": 0.03,
+                      "rotation": 0
+                    },
+                    {
+                      "uid": "imw199wp3nkgwd0",
+                      "relation": "canvas",
+                      "x": 0.2,
+                      "y": 0.26,
+                      "gap": 0.04,
+                      "rotation": 0
+                    }
+                  ]
+                },
+                {
+                  "principle": "Диагональное расположение телефона усиливает динамику.",
+                  "placements": [
+                    {
+                      "uid": "imw199wp3itjn3s",
+                      "relation": "canvas",
+                      "x": 0.5,
+                      "y": 0.52,
+                      "gap": 0,
+                      "rotation": 0
+                    },
+                    {
+                      "uid": "imw199wp3j2ovy2",
+                      "relation": "on",
+                      "targetUid": "imw199wp3itjn3s",
+                      "x": 0.5,
+                      "y": 0.5,
+                      "gap": 0,
+                      "rotation": -15
+                    },
+                    {
+                      "uid": "imw199wp3nkgwd0",
+                      "relation": "canvas",
+                      "x": 0.24,
+                      "y": 0.3,
+                      "gap": 0.04,
+                      "rotation": 0
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "format": "landscape",
+              "views": [
+                {
+                  "principle": "Горизонтальная компоновка с акцентом на центральную пару.",
+                  "placements": [
+                    {
+                      "uid": "imw199wp3itjn3s",
+                      "relation": "canvas",
+                      "x": 0.52,
+                      "y": 0.53,
+                      "gap": 0,
+                      "rotation": 0
+                    },
+                    {
+                      "uid": "imw199wp3j2ovy2",
+                      "relation": "on",
+                      "targetUid": "imw199wp3itjn3s",
+                      "x": 0.49,
+                      "y": 0.44,
+                      "gap": 0,
+                      "rotation": 0
+                    },
+                    {
+                      "uid": "imw199wp3nkgwd0",
+                      "relation": "canvas",
+                      "x": 0.25,
+                      "y": 0.3,
+                      "gap": 0.04,
+                      "rotation": 0
+                    }
+                  ]
+                },
+                {
+                  "principle": "Свободное распределение элементов по горизонтали холста.",
+                  "placements": [
+                    {
+                      "uid": "imw199wp3itjn3s",
+                      "relation": "canvas",
+                      "x": 0.48,
+                      "y": 0.55,
+                      "gap": 0,
+                      "rotation": 0
+                    },
+                    {
+                      "uid": "imw199wp3j2ovy2",
+                      "relation": "right",
+                      "targetUid": "imw199wp3itjn3s",
+                      "x": 0.7,
+                      "y": 0.48,
+                      "gap": 0.04,
+                      "rotation": 0
+                    },
+                    {
+                      "uid": "imw199wp3nkgwd0",
+                      "relation": "canvas",
+                      "x": 0.22,
+                      "y": 0.28,
+                      "gap": 0.04,
+                      "rotation": 0
+                    }
+                  ]
+                },
+                {
+                  "principle": "Диагональное взаимодействие объектов в ландшафтном формате.",
+                  "placements": [
+                    {
+                      "uid": "imw199wp3itjn3s",
+                      "relation": "canvas",
+                      "x": 0.52,
+                      "y": 0.53,
+                      "gap": 0,
+                      "rotation": 0
+                    },
+                    {
+                      "uid": "imw199wp3j2ovy2",
+                      "relation": "on",
+                      "targetUid": "imw199wp3itjn3s",
+                      "x": 0.5,
+                      "y": 0.48,
+                      "gap": 0,
+                      "rotation": -12
+                    },
+                    {
+                      "uid": "imw199wp3nkgwd0",
+                      "relation": "canvas",
+                      "x": 0.26,
+                      "y": 0.32,
+                      "gap": 0.04,
+                      "rotation": 0
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "format": "portrait",
+              "views": [
+                {
+                  "principle": "Вертикальная композиция концентрирует внимание на книге и телефоне.",
+                  "placements": [
+                    {
+                      "uid": "imw199wp3itjn3s",
+                      "relation": "canvas",
+                      "x": 0.5,
+                      "y": 0.55,
+                      "gap": 0,
+                      "rotation": 0
+                    },
+                    {
+                      "uid": "imw199wp3j2ovy2",
+                      "relation": "on",
+                      "targetUid": "imw199wp3itjn3s",
+                      "x": 0.48,
+                      "y": 0.43,
+                      "gap": 0,
+                      "rotation": 0
+                    },
+                    {
+                      "uid": "imw199wp3nkgwd0",
+                      "relation": "canvas",
+                      "x": 0.28,
+                      "y": 0.25,
+                      "gap": 0.04,
+                      "rotation": 0
+                    }
+                  ]
+                },
+                {
+                  "principle": "Высокий кадр подчеркивает вертикальную связь предметов.",
+                  "placements": [
+                    {
+                      "uid": "imw199wp3itjn3s",
+                      "relation": "canvas",
+                      "x": 0.5,
+                      "y": 0.58,
+                      "gap": 0,
+                      "rotation": 0
+                    },
+                    {
+                      "uid": "imw199wp3j2ovy2",
+                      "relation": "above",
+                      "targetUid": "imw199wp3itjn3s",
+                      "x": 0.5,
+                      "y": 0.38,
+                      "gap": 0.04,
+                      "rotation": 0
+                    },
+                    {
+                      "uid": "imw199wp3nkgwd0",
+                      "relation": "canvas",
+                      "x": 0.25,
+                      "y": 0.24,
+                      "gap": 0.04,
+                      "rotation": 0
+                    }
+                  ]
+                },
+                {
+                  "principle": "Диагональное решение в вертикальном формате для выразительности.",
+                  "placements": [
+                    {
+                      "uid": "imw199wp3itjn3s",
+                      "relation": "canvas",
+                      "x": 0.5,
+                      "y": 0.55,
+                      "gap": 0,
+                      "rotation": 0
+                    },
+                    {
+                      "uid": "imw199wp3j2ovy2",
+                      "relation": "on",
+                      "targetUid": "imw199wp3itjn3s",
+                      "x": 0.5,
+                      "y": 0.48,
+                      "gap": 0,
+                      "rotation": -15
+                    },
+                    {
+                      "uid": "imw199wp3nkgwd0",
+                      "relation": "canvas",
+                      "x": 0.28,
+                      "y": 0.26,
+                      "gap": 0.04,
+                      "rotation": 0
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "executionNotes": [
+            "Положение «Настольная лампа» уточнено по границам кадра и реестру пересечений."
+          ],
+          "width": 1200,
+          "height": 630,
+          "format": "landscape",
+          "size": "S",
+          "palette": "aqua",
+          "layout": "compact",
+          "background": "pattern",
+          "backgroundDesign": "auto",
+          "supporting": true,
+          "showSupporting": true,
+          "camera": null,
+          "composition": {
+            "index": 2,
+            "options": [
+              {
+                "strategy": "balanced",
+                "title": "Сбалансированная пара",
+                "principle": "Книга и телефон расположены в центре с естественным контактом поверхности.",
+                "placement": "on-surface"
+              },
+              {
+                "strategy": "spacious",
+                "title": "Свободное размещение",
+                "principle": "Смартфон находится рядом с открытой книгой, образуя единую группу.",
+                "placement": "beside"
+              },
+              {
+                "strategy": "diagonal",
+                "title": "Диагональный акцент",
+                "principle": "Телефон пересечает разворот книги под углом для динамики.",
+                "placement": "across"
+              }
+            ]
+          },
+          "layerRelations": [
+            {
+              "back": "imw199wp3itjn3s",
+              "front": "imw199wp3j2ovy2",
+              "reason": "Смартфон размещен поверх страницы книги"
+            },
+            {
+              "back": "imw199wp3nkgwd0",
+              "front": "imw199wp3itjn3s",
+              "reason": "Лампа находится на заднем плане за книгой"
+            }
+          ],
+          "recipe": "online",
+          "framing": "overview",
+          "focus": "phone",
+          "query": "От бумажного к цифровому",
+          "scale": 1,
+          "items": [
+            {
+              "uid": "imw199wp3nkgwd0",
+              "assetId": "lamp",
+              "role": "background",
+              "x": 0,
+              "y": 176.4,
+              "rotation": 0,
+              "flipX": false,
+              "flipY": false,
+              "zone": "top-left",
+              "crop": "fragment"
+            },
+            {
+              "uid": "imw199wp3itjn3s",
+              "assetId": "book",
+              "role": "main",
+              "x": 645.69,
+              "y": 358.35,
+              "rotation": 0,
+              "flipX": false,
+              "flipY": false,
+              "zone": "auto",
+              "crop": "whole"
+            },
+            {
+              "uid": "imw199wp3j2ovy2",
+              "assetId": "phone",
+              "role": "main",
+              "x": 645.69,
+              "y": 348.57,
+              "rotation": -12,
+              "flipX": false,
+              "flipY": false,
+              "supportUid": "imw199wp3itjn3s",
+              "zone": "auto",
+              "crop": "whole"
+            }
+          ]
+        }
+      ],
+      "portrait": [
+        {
+          "version": 1,
+          "sizing": "native",
+          "environmentPrompt": "",
+          "environmentExplanation": [
+            "Главная пара книги и смартфона раскрывает переход от традиционного чтения к цифровым технологиям.",
+            "Настольная лампа в роли фонового компаньона добавляет глубину и мягко освещает сцену.",
+            "Компактное расположение сохраняет читаемость силуэтов и цельность композиции."
+          ],
+          "groups": [
+            {
+              "kind": "collection",
+              "members": [
+                "imw199wp3itjn3s",
+                "imw199wp3j2ovy2"
+              ],
+              "reason": "Вертикальная композиция концентрирует внимание на книге и телефоне."
+            }
+          ],
+          "formatPlans": [],
+          "stagingPlans": [
+            {
+              "format": "square",
+              "views": [
+                {
+                  "principle": "Книга и смартфон образуют сбалансированный центр.",
+                  "placements": [
+                    {
+                      "uid": "imw199wp3itjn3s",
+                      "relation": "canvas",
+                      "x": 0.5,
+                      "y": 0.52,
+                      "gap": 0,
+                      "rotation": 0
+                    },
+                    {
+                      "uid": "imw199wp3j2ovy2",
+                      "relation": "on",
+                      "targetUid": "imw199wp3itjn3s",
+                      "x": 0.48,
+                      "y": 0.45,
+                      "gap": 0,
+                      "rotation": 0
+                    },
+                    {
+                      "uid": "imw199wp3nkgwd0",
+                      "relation": "canvas",
+                      "x": 0.22,
+                      "y": 0.28,
+                      "gap": 0.04,
+                      "rotation": 0
+                    }
+                  ]
+                },
+                {
+                  "principle": "Элементы расположены рядом для создания смыслового диалога.",
+                  "placements": [
+                    {
+                      "uid": "imw199wp3itjn3s",
+                      "relation": "canvas",
+                      "x": 0.46,
+                      "y": 0.54,
+                      "gap": 0,
+                      "rotation": 0
+                    },
+                    {
+                      "uid": "imw199wp3j2ovy2",
+                      "relation": "right",
+                      "targetUid": "imw199wp3itjn3s",
+                      "x": 0.68,
+                      "y": 0.48,
+                      "gap": 0.03,
+                      "rotation": 0
+                    },
+                    {
+                      "uid": "imw199wp3nkgwd0",
+                      "relation": "canvas",
+                      "x": 0.2,
+                      "y": 0.26,
+                      "gap": 0.04,
+                      "rotation": 0
+                    }
+                  ]
+                },
+                {
+                  "principle": "Диагональное расположение телефона усиливает динамику.",
+                  "placements": [
+                    {
+                      "uid": "imw199wp3itjn3s",
+                      "relation": "canvas",
+                      "x": 0.5,
+                      "y": 0.52,
+                      "gap": 0,
+                      "rotation": 0
+                    },
+                    {
+                      "uid": "imw199wp3j2ovy2",
+                      "relation": "on",
+                      "targetUid": "imw199wp3itjn3s",
+                      "x": 0.5,
+                      "y": 0.5,
+                      "gap": 0,
+                      "rotation": -15
+                    },
+                    {
+                      "uid": "imw199wp3nkgwd0",
+                      "relation": "canvas",
+                      "x": 0.24,
+                      "y": 0.3,
+                      "gap": 0.04,
+                      "rotation": 0
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "format": "landscape",
+              "views": [
+                {
+                  "principle": "Горизонтальная компоновка с акцентом на центральную пару.",
+                  "placements": [
+                    {
+                      "uid": "imw199wp3itjn3s",
+                      "relation": "canvas",
+                      "x": 0.52,
+                      "y": 0.53,
+                      "gap": 0,
+                      "rotation": 0
+                    },
+                    {
+                      "uid": "imw199wp3j2ovy2",
+                      "relation": "on",
+                      "targetUid": "imw199wp3itjn3s",
+                      "x": 0.49,
+                      "y": 0.44,
+                      "gap": 0,
+                      "rotation": 0
+                    },
+                    {
+                      "uid": "imw199wp3nkgwd0",
+                      "relation": "canvas",
+                      "x": 0.25,
+                      "y": 0.3,
+                      "gap": 0.04,
+                      "rotation": 0
+                    }
+                  ]
+                },
+                {
+                  "principle": "Свободное распределение элементов по горизонтали холста.",
+                  "placements": [
+                    {
+                      "uid": "imw199wp3itjn3s",
+                      "relation": "canvas",
+                      "x": 0.48,
+                      "y": 0.55,
+                      "gap": 0,
+                      "rotation": 0
+                    },
+                    {
+                      "uid": "imw199wp3j2ovy2",
+                      "relation": "right",
+                      "targetUid": "imw199wp3itjn3s",
+                      "x": 0.7,
+                      "y": 0.48,
+                      "gap": 0.04,
+                      "rotation": 0
+                    },
+                    {
+                      "uid": "imw199wp3nkgwd0",
+                      "relation": "canvas",
+                      "x": 0.22,
+                      "y": 0.28,
+                      "gap": 0.04,
+                      "rotation": 0
+                    }
+                  ]
+                },
+                {
+                  "principle": "Диагональное взаимодействие объектов в ландшафтном формате.",
+                  "placements": [
+                    {
+                      "uid": "imw199wp3itjn3s",
+                      "relation": "canvas",
+                      "x": 0.52,
+                      "y": 0.53,
+                      "gap": 0,
+                      "rotation": 0
+                    },
+                    {
+                      "uid": "imw199wp3j2ovy2",
+                      "relation": "on",
+                      "targetUid": "imw199wp3itjn3s",
+                      "x": 0.5,
+                      "y": 0.48,
+                      "gap": 0,
+                      "rotation": -12
+                    },
+                    {
+                      "uid": "imw199wp3nkgwd0",
+                      "relation": "canvas",
+                      "x": 0.26,
+                      "y": 0.32,
+                      "gap": 0.04,
+                      "rotation": 0
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "format": "portrait",
+              "views": [
+                {
+                  "principle": "Вертикальная композиция концентрирует внимание на книге и телефоне.",
+                  "placements": [
+                    {
+                      "uid": "imw199wp3itjn3s",
+                      "relation": "canvas",
+                      "x": 0.5,
+                      "y": 0.55,
+                      "gap": 0,
+                      "rotation": 0
+                    },
+                    {
+                      "uid": "imw199wp3j2ovy2",
+                      "relation": "on",
+                      "targetUid": "imw199wp3itjn3s",
+                      "x": 0.48,
+                      "y": 0.43,
+                      "gap": 0,
+                      "rotation": 0
+                    },
+                    {
+                      "uid": "imw199wp3nkgwd0",
+                      "relation": "canvas",
+                      "x": 0.28,
+                      "y": 0.25,
+                      "gap": 0.04,
+                      "rotation": 0
+                    }
+                  ]
+                },
+                {
+                  "principle": "Высокий кадр подчеркивает вертикальную связь предметов.",
+                  "placements": [
+                    {
+                      "uid": "imw199wp3itjn3s",
+                      "relation": "canvas",
+                      "x": 0.5,
+                      "y": 0.58,
+                      "gap": 0,
+                      "rotation": 0
+                    },
+                    {
+                      "uid": "imw199wp3j2ovy2",
+                      "relation": "above",
+                      "targetUid": "imw199wp3itjn3s",
+                      "x": 0.5,
+                      "y": 0.38,
+                      "gap": 0.04,
+                      "rotation": 0
+                    },
+                    {
+                      "uid": "imw199wp3nkgwd0",
+                      "relation": "canvas",
+                      "x": 0.25,
+                      "y": 0.24,
+                      "gap": 0.04,
+                      "rotation": 0
+                    }
+                  ]
+                },
+                {
+                  "principle": "Диагональное решение в вертикальном формате для выразительности.",
+                  "placements": [
+                    {
+                      "uid": "imw199wp3itjn3s",
+                      "relation": "canvas",
+                      "x": 0.5,
+                      "y": 0.55,
+                      "gap": 0,
+                      "rotation": 0
+                    },
+                    {
+                      "uid": "imw199wp3j2ovy2",
+                      "relation": "on",
+                      "targetUid": "imw199wp3itjn3s",
+                      "x": 0.5,
+                      "y": 0.48,
+                      "gap": 0,
+                      "rotation": -15
+                    },
+                    {
+                      "uid": "imw199wp3nkgwd0",
+                      "relation": "canvas",
+                      "x": 0.28,
+                      "y": 0.26,
+                      "gap": 0.04,
+                      "rotation": 0
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "executionNotes": [
+            "Положение «Настольная лампа» уточнено по границам кадра и реестру пересечений."
+          ],
+          "width": 800,
+          "height": 1200,
+          "format": "portrait",
+          "size": "S",
+          "palette": "aqua",
+          "layout": "compact",
+          "background": "pattern",
+          "backgroundDesign": "auto",
+          "supporting": true,
+          "showSupporting": true,
+          "camera": null,
+          "composition": {
+            "index": 0,
+            "options": [
+              {
+                "strategy": "balanced",
+                "title": "Сбалансированная пара",
+                "principle": "Книга и телефон расположены в центре с естественным контактом поверхности.",
+                "placement": "on-surface"
+              },
+              {
+                "strategy": "spacious",
+                "title": "Свободное размещение",
+                "principle": "Смартфон находится рядом с открытой книгой, образуя единую группу.",
+                "placement": "beside"
+              },
+              {
+                "strategy": "diagonal",
+                "title": "Диагональный акцент",
+                "principle": "Телефон пересечает разворот книги под углом для динамики.",
+                "placement": "across"
+              }
+            ]
+          },
+          "layerRelations": [
+            {
+              "back": "imw199wp3itjn3s",
+              "front": "imw199wp3j2ovy2",
+              "reason": "Смартфон размещен поверх страницы книги"
+            },
+            {
+              "back": "imw199wp3nkgwd0",
+              "front": "imw199wp3itjn3s",
+              "reason": "Лампа находится на заднем плане за книгой"
+            }
+          ],
+          "recipe": "online",
+          "framing": "overview",
+          "focus": "phone",
+          "query": "От бумажного к цифровому",
+          "scale": 1,
+          "items": [
+            {
+              "uid": "imw199wp3nkgwd0",
+              "assetId": "lamp",
+              "role": "background",
+              "x": 96,
+              "y": 144,
+              "rotation": 0,
+              "flipX": false,
+              "flipY": false,
+              "zone": "top-left",
+              "crop": "fragment"
+            },
+            {
+              "uid": "imw199wp3itjn3s",
+              "assetId": "book",
+              "role": "main",
+              "x": 421.69,
+              "y": 684.45,
+              "rotation": 0,
+              "flipX": false,
+              "flipY": false,
+              "zone": "auto",
+              "crop": "whole"
+            },
+            {
+              "uid": "imw199wp3j2ovy2",
+              "assetId": "phone",
+              "role": "main",
+              "x": 407.22999999999996,
+              "y": 650.22,
+              "rotation": 0,
+              "flipX": false,
+              "flipY": false,
+              "supportUid": "imw199wp3itjn3s",
+              "zone": "auto",
+              "crop": "whole"
+            }
+          ]
+        },
+        {
+          "version": 1,
+          "sizing": "native",
+          "environmentPrompt": "",
+          "environmentExplanation": [
+            "Главная пара книги и смартфона раскрывает переход от традиционного чтения к цифровым технологиям.",
+            "Настольная лампа в роли фонового компаньона добавляет глубину и мягко освещает сцену.",
+            "Компактное расположение сохраняет читаемость силуэтов и цельность композиции."
+          ],
+          "groups": [
+            {
+              "kind": "collection",
+              "members": [
+                "imw199wp3itjn3s",
+                "imw199wp3j2ovy2"
+              ],
+              "reason": "Высокий кадр подчеркивает вертикальную связь предметов."
+            }
+          ],
+          "formatPlans": [],
+          "stagingPlans": [
+            {
+              "format": "square",
+              "views": [
+                {
+                  "principle": "Книга и смартфон образуют сбалансированный центр.",
+                  "placements": [
+                    {
+                      "uid": "imw199wp3itjn3s",
+                      "relation": "canvas",
+                      "x": 0.5,
+                      "y": 0.52,
+                      "gap": 0,
+                      "rotation": 0
+                    },
+                    {
+                      "uid": "imw199wp3j2ovy2",
+                      "relation": "on",
+                      "targetUid": "imw199wp3itjn3s",
+                      "x": 0.48,
+                      "y": 0.45,
+                      "gap": 0,
+                      "rotation": 0
+                    },
+                    {
+                      "uid": "imw199wp3nkgwd0",
+                      "relation": "canvas",
+                      "x": 0.22,
+                      "y": 0.28,
+                      "gap": 0.04,
+                      "rotation": 0
+                    }
+                  ]
+                },
+                {
+                  "principle": "Элементы расположены рядом для создания смыслового диалога.",
+                  "placements": [
+                    {
+                      "uid": "imw199wp3itjn3s",
+                      "relation": "canvas",
+                      "x": 0.46,
+                      "y": 0.54,
+                      "gap": 0,
+                      "rotation": 0
+                    },
+                    {
+                      "uid": "imw199wp3j2ovy2",
+                      "relation": "right",
+                      "targetUid": "imw199wp3itjn3s",
+                      "x": 0.68,
+                      "y": 0.48,
+                      "gap": 0.03,
+                      "rotation": 0
+                    },
+                    {
+                      "uid": "imw199wp3nkgwd0",
+                      "relation": "canvas",
+                      "x": 0.2,
+                      "y": 0.26,
+                      "gap": 0.04,
+                      "rotation": 0
+                    }
+                  ]
+                },
+                {
+                  "principle": "Диагональное расположение телефона усиливает динамику.",
+                  "placements": [
+                    {
+                      "uid": "imw199wp3itjn3s",
+                      "relation": "canvas",
+                      "x": 0.5,
+                      "y": 0.52,
+                      "gap": 0,
+                      "rotation": 0
+                    },
+                    {
+                      "uid": "imw199wp3j2ovy2",
+                      "relation": "on",
+                      "targetUid": "imw199wp3itjn3s",
+                      "x": 0.5,
+                      "y": 0.5,
+                      "gap": 0,
+                      "rotation": -15
+                    },
+                    {
+                      "uid": "imw199wp3nkgwd0",
+                      "relation": "canvas",
+                      "x": 0.24,
+                      "y": 0.3,
+                      "gap": 0.04,
+                      "rotation": 0
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "format": "landscape",
+              "views": [
+                {
+                  "principle": "Горизонтальная компоновка с акцентом на центральную пару.",
+                  "placements": [
+                    {
+                      "uid": "imw199wp3itjn3s",
+                      "relation": "canvas",
+                      "x": 0.52,
+                      "y": 0.53,
+                      "gap": 0,
+                      "rotation": 0
+                    },
+                    {
+                      "uid": "imw199wp3j2ovy2",
+                      "relation": "on",
+                      "targetUid": "imw199wp3itjn3s",
+                      "x": 0.49,
+                      "y": 0.44,
+                      "gap": 0,
+                      "rotation": 0
+                    },
+                    {
+                      "uid": "imw199wp3nkgwd0",
+                      "relation": "canvas",
+                      "x": 0.25,
+                      "y": 0.3,
+                      "gap": 0.04,
+                      "rotation": 0
+                    }
+                  ]
+                },
+                {
+                  "principle": "Свободное распределение элементов по горизонтали холста.",
+                  "placements": [
+                    {
+                      "uid": "imw199wp3itjn3s",
+                      "relation": "canvas",
+                      "x": 0.48,
+                      "y": 0.55,
+                      "gap": 0,
+                      "rotation": 0
+                    },
+                    {
+                      "uid": "imw199wp3j2ovy2",
+                      "relation": "right",
+                      "targetUid": "imw199wp3itjn3s",
+                      "x": 0.7,
+                      "y": 0.48,
+                      "gap": 0.04,
+                      "rotation": 0
+                    },
+                    {
+                      "uid": "imw199wp3nkgwd0",
+                      "relation": "canvas",
+                      "x": 0.22,
+                      "y": 0.28,
+                      "gap": 0.04,
+                      "rotation": 0
+                    }
+                  ]
+                },
+                {
+                  "principle": "Диагональное взаимодействие объектов в ландшафтном формате.",
+                  "placements": [
+                    {
+                      "uid": "imw199wp3itjn3s",
+                      "relation": "canvas",
+                      "x": 0.52,
+                      "y": 0.53,
+                      "gap": 0,
+                      "rotation": 0
+                    },
+                    {
+                      "uid": "imw199wp3j2ovy2",
+                      "relation": "on",
+                      "targetUid": "imw199wp3itjn3s",
+                      "x": 0.5,
+                      "y": 0.48,
+                      "gap": 0,
+                      "rotation": -12
+                    },
+                    {
+                      "uid": "imw199wp3nkgwd0",
+                      "relation": "canvas",
+                      "x": 0.26,
+                      "y": 0.32,
+                      "gap": 0.04,
+                      "rotation": 0
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "format": "portrait",
+              "views": [
+                {
+                  "principle": "Вертикальная композиция концентрирует внимание на книге и телефоне.",
+                  "placements": [
+                    {
+                      "uid": "imw199wp3itjn3s",
+                      "relation": "canvas",
+                      "x": 0.5,
+                      "y": 0.55,
+                      "gap": 0,
+                      "rotation": 0
+                    },
+                    {
+                      "uid": "imw199wp3j2ovy2",
+                      "relation": "on",
+                      "targetUid": "imw199wp3itjn3s",
+                      "x": 0.48,
+                      "y": 0.43,
+                      "gap": 0,
+                      "rotation": 0
+                    },
+                    {
+                      "uid": "imw199wp3nkgwd0",
+                      "relation": "canvas",
+                      "x": 0.28,
+                      "y": 0.25,
+                      "gap": 0.04,
+                      "rotation": 0
+                    }
+                  ]
+                },
+                {
+                  "principle": "Высокий кадр подчеркивает вертикальную связь предметов.",
+                  "placements": [
+                    {
+                      "uid": "imw199wp3itjn3s",
+                      "relation": "canvas",
+                      "x": 0.5,
+                      "y": 0.58,
+                      "gap": 0,
+                      "rotation": 0
+                    },
+                    {
+                      "uid": "imw199wp3j2ovy2",
+                      "relation": "above",
+                      "targetUid": "imw199wp3itjn3s",
+                      "x": 0.5,
+                      "y": 0.38,
+                      "gap": 0.04,
+                      "rotation": 0
+                    },
+                    {
+                      "uid": "imw199wp3nkgwd0",
+                      "relation": "canvas",
+                      "x": 0.25,
+                      "y": 0.24,
+                      "gap": 0.04,
+                      "rotation": 0
+                    }
+                  ]
+                },
+                {
+                  "principle": "Диагональное решение в вертикальном формате для выразительности.",
+                  "placements": [
+                    {
+                      "uid": "imw199wp3itjn3s",
+                      "relation": "canvas",
+                      "x": 0.5,
+                      "y": 0.55,
+                      "gap": 0,
+                      "rotation": 0
+                    },
+                    {
+                      "uid": "imw199wp3j2ovy2",
+                      "relation": "on",
+                      "targetUid": "imw199wp3itjn3s",
+                      "x": 0.5,
+                      "y": 0.48,
+                      "gap": 0,
+                      "rotation": -15
+                    },
+                    {
+                      "uid": "imw199wp3nkgwd0",
+                      "relation": "canvas",
+                      "x": 0.28,
+                      "y": 0.26,
+                      "gap": 0.04,
+                      "rotation": 0
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "executionNotes": [
+            "Положение «Настольная лампа» уточнено по границам кадра и реестру пересечений."
+          ],
+          "width": 800,
+          "height": 1200,
+          "format": "portrait",
+          "size": "S",
+          "palette": "aqua",
+          "layout": "compact",
+          "background": "pattern",
+          "backgroundDesign": "auto",
+          "supporting": true,
+          "showSupporting": true,
+          "camera": null,
+          "composition": {
+            "index": 1,
+            "options": [
+              {
+                "strategy": "balanced",
+                "title": "Сбалансированная пара",
+                "principle": "Книга и телефон расположены в центре с естественным контактом поверхности.",
+                "placement": "on-surface"
+              },
+              {
+                "strategy": "spacious",
+                "title": "Свободное размещение",
+                "principle": "Смартфон находится рядом с открытой книгой, образуя единую группу.",
+                "placement": "beside"
+              },
+              {
+                "strategy": "diagonal",
+                "title": "Диагональный акцент",
+                "principle": "Телефон пересечает разворот книги под углом для динамики.",
+                "placement": "across"
+              }
+            ]
+          },
+          "layerRelations": [
+            {
+              "back": "imw199wp3itjn3s",
+              "front": "imw199wp3j2ovy2",
+              "reason": "Смартфон размещен поверх страницы книги"
+            },
+            {
+              "back": "imw199wp3nkgwd0",
+              "front": "imw199wp3itjn3s",
+              "reason": "Лампа находится на заднем плане за книгой"
+            }
+          ],
+          "recipe": "online",
+          "framing": "overview",
+          "focus": "phone",
+          "query": "От бумажного к цифровому",
+          "scale": 1,
+          "items": [
+            {
+              "uid": "imw199wp3nkgwd0",
+              "assetId": "lamp",
+              "role": "background",
+              "x": 96,
+              "y": 144,
+              "rotation": 0,
+              "flipX": false,
+              "flipY": false,
+              "zone": "top-left",
+              "crop": "fragment"
+            },
+            {
+              "uid": "imw199wp3itjn3s",
+              "assetId": "book",
+              "role": "main",
+              "x": 421.69,
+              "y": 720.45,
+              "rotation": 0,
+              "flipX": false,
+              "flipY": false,
+              "zone": "auto",
+              "crop": "whole"
+            },
+            {
+              "uid": "imw199wp3j2ovy2",
+              "assetId": "phone",
+              "role": "main",
+              "x": 419.95,
+              "y": 342.1860205032619,
+              "rotation": 0,
+              "flipX": false,
+              "flipY": false,
+              "zone": "auto",
+              "crop": "whole"
+            }
+          ]
+        },
+        {
+          "version": 1,
+          "sizing": "native",
+          "environmentPrompt": "",
+          "environmentExplanation": [
+            "Главная пара книги и смартфона раскрывает переход от традиционного чтения к цифровым технологиям.",
+            "Настольная лампа в роли фонового компаньона добавляет глубину и мягко освещает сцену.",
+            "Компактное расположение сохраняет читаемость силуэтов и цельность композиции."
+          ],
+          "groups": [
+            {
+              "kind": "collection",
+              "members": [
+                "imw199wp3itjn3s",
+                "imw199wp3j2ovy2"
+              ],
+              "reason": "Диагональное решение в вертикальном формате для выразительности."
+            }
+          ],
+          "formatPlans": [],
+          "stagingPlans": [
+            {
+              "format": "square",
+              "views": [
+                {
+                  "principle": "Книга и смартфон образуют сбалансированный центр.",
+                  "placements": [
+                    {
+                      "uid": "imw199wp3itjn3s",
+                      "relation": "canvas",
+                      "x": 0.5,
+                      "y": 0.52,
+                      "gap": 0,
+                      "rotation": 0
+                    },
+                    {
+                      "uid": "imw199wp3j2ovy2",
+                      "relation": "on",
+                      "targetUid": "imw199wp3itjn3s",
+                      "x": 0.48,
+                      "y": 0.45,
+                      "gap": 0,
+                      "rotation": 0
+                    },
+                    {
+                      "uid": "imw199wp3nkgwd0",
+                      "relation": "canvas",
+                      "x": 0.22,
+                      "y": 0.28,
+                      "gap": 0.04,
+                      "rotation": 0
+                    }
+                  ]
+                },
+                {
+                  "principle": "Элементы расположены рядом для создания смыслового диалога.",
+                  "placements": [
+                    {
+                      "uid": "imw199wp3itjn3s",
+                      "relation": "canvas",
+                      "x": 0.46,
+                      "y": 0.54,
+                      "gap": 0,
+                      "rotation": 0
+                    },
+                    {
+                      "uid": "imw199wp3j2ovy2",
+                      "relation": "right",
+                      "targetUid": "imw199wp3itjn3s",
+                      "x": 0.68,
+                      "y": 0.48,
+                      "gap": 0.03,
+                      "rotation": 0
+                    },
+                    {
+                      "uid": "imw199wp3nkgwd0",
+                      "relation": "canvas",
+                      "x": 0.2,
+                      "y": 0.26,
+                      "gap": 0.04,
+                      "rotation": 0
+                    }
+                  ]
+                },
+                {
+                  "principle": "Диагональное расположение телефона усиливает динамику.",
+                  "placements": [
+                    {
+                      "uid": "imw199wp3itjn3s",
+                      "relation": "canvas",
+                      "x": 0.5,
+                      "y": 0.52,
+                      "gap": 0,
+                      "rotation": 0
+                    },
+                    {
+                      "uid": "imw199wp3j2ovy2",
+                      "relation": "on",
+                      "targetUid": "imw199wp3itjn3s",
+                      "x": 0.5,
+                      "y": 0.5,
+                      "gap": 0,
+                      "rotation": -15
+                    },
+                    {
+                      "uid": "imw199wp3nkgwd0",
+                      "relation": "canvas",
+                      "x": 0.24,
+                      "y": 0.3,
+                      "gap": 0.04,
+                      "rotation": 0
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "format": "landscape",
+              "views": [
+                {
+                  "principle": "Горизонтальная компоновка с акцентом на центральную пару.",
+                  "placements": [
+                    {
+                      "uid": "imw199wp3itjn3s",
+                      "relation": "canvas",
+                      "x": 0.52,
+                      "y": 0.53,
+                      "gap": 0,
+                      "rotation": 0
+                    },
+                    {
+                      "uid": "imw199wp3j2ovy2",
+                      "relation": "on",
+                      "targetUid": "imw199wp3itjn3s",
+                      "x": 0.49,
+                      "y": 0.44,
+                      "gap": 0,
+                      "rotation": 0
+                    },
+                    {
+                      "uid": "imw199wp3nkgwd0",
+                      "relation": "canvas",
+                      "x": 0.25,
+                      "y": 0.3,
+                      "gap": 0.04,
+                      "rotation": 0
+                    }
+                  ]
+                },
+                {
+                  "principle": "Свободное распределение элементов по горизонтали холста.",
+                  "placements": [
+                    {
+                      "uid": "imw199wp3itjn3s",
+                      "relation": "canvas",
+                      "x": 0.48,
+                      "y": 0.55,
+                      "gap": 0,
+                      "rotation": 0
+                    },
+                    {
+                      "uid": "imw199wp3j2ovy2",
+                      "relation": "right",
+                      "targetUid": "imw199wp3itjn3s",
+                      "x": 0.7,
+                      "y": 0.48,
+                      "gap": 0.04,
+                      "rotation": 0
+                    },
+                    {
+                      "uid": "imw199wp3nkgwd0",
+                      "relation": "canvas",
+                      "x": 0.22,
+                      "y": 0.28,
+                      "gap": 0.04,
+                      "rotation": 0
+                    }
+                  ]
+                },
+                {
+                  "principle": "Диагональное взаимодействие объектов в ландшафтном формате.",
+                  "placements": [
+                    {
+                      "uid": "imw199wp3itjn3s",
+                      "relation": "canvas",
+                      "x": 0.52,
+                      "y": 0.53,
+                      "gap": 0,
+                      "rotation": 0
+                    },
+                    {
+                      "uid": "imw199wp3j2ovy2",
+                      "relation": "on",
+                      "targetUid": "imw199wp3itjn3s",
+                      "x": 0.5,
+                      "y": 0.48,
+                      "gap": 0,
+                      "rotation": -12
+                    },
+                    {
+                      "uid": "imw199wp3nkgwd0",
+                      "relation": "canvas",
+                      "x": 0.26,
+                      "y": 0.32,
+                      "gap": 0.04,
+                      "rotation": 0
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "format": "portrait",
+              "views": [
+                {
+                  "principle": "Вертикальная композиция концентрирует внимание на книге и телефоне.",
+                  "placements": [
+                    {
+                      "uid": "imw199wp3itjn3s",
+                      "relation": "canvas",
+                      "x": 0.5,
+                      "y": 0.55,
+                      "gap": 0,
+                      "rotation": 0
+                    },
+                    {
+                      "uid": "imw199wp3j2ovy2",
+                      "relation": "on",
+                      "targetUid": "imw199wp3itjn3s",
+                      "x": 0.48,
+                      "y": 0.43,
+                      "gap": 0,
+                      "rotation": 0
+                    },
+                    {
+                      "uid": "imw199wp3nkgwd0",
+                      "relation": "canvas",
+                      "x": 0.28,
+                      "y": 0.25,
+                      "gap": 0.04,
+                      "rotation": 0
+                    }
+                  ]
+                },
+                {
+                  "principle": "Высокий кадр подчеркивает вертикальную связь предметов.",
+                  "placements": [
+                    {
+                      "uid": "imw199wp3itjn3s",
+                      "relation": "canvas",
+                      "x": 0.5,
+                      "y": 0.58,
+                      "gap": 0,
+                      "rotation": 0
+                    },
+                    {
+                      "uid": "imw199wp3j2ovy2",
+                      "relation": "above",
+                      "targetUid": "imw199wp3itjn3s",
+                      "x": 0.5,
+                      "y": 0.38,
+                      "gap": 0.04,
+                      "rotation": 0
+                    },
+                    {
+                      "uid": "imw199wp3nkgwd0",
+                      "relation": "canvas",
+                      "x": 0.25,
+                      "y": 0.24,
+                      "gap": 0.04,
+                      "rotation": 0
+                    }
+                  ]
+                },
+                {
+                  "principle": "Диагональное решение в вертикальном формате для выразительности.",
+                  "placements": [
+                    {
+                      "uid": "imw199wp3itjn3s",
+                      "relation": "canvas",
+                      "x": 0.5,
+                      "y": 0.55,
+                      "gap": 0,
+                      "rotation": 0
+                    },
+                    {
+                      "uid": "imw199wp3j2ovy2",
+                      "relation": "on",
+                      "targetUid": "imw199wp3itjn3s",
+                      "x": 0.5,
+                      "y": 0.48,
+                      "gap": 0,
+                      "rotation": -15
+                    },
+                    {
+                      "uid": "imw199wp3nkgwd0",
+                      "relation": "canvas",
+                      "x": 0.28,
+                      "y": 0.26,
+                      "gap": 0.04,
+                      "rotation": 0
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "executionNotes": [
+            "Положение «Настольная лампа» уточнено по границам кадра и реестру пересечений."
+          ],
+          "width": 800,
+          "height": 1200,
+          "format": "portrait",
+          "size": "S",
+          "palette": "aqua",
+          "layout": "compact",
+          "background": "pattern",
+          "backgroundDesign": "auto",
+          "supporting": true,
+          "showSupporting": true,
+          "camera": null,
+          "composition": {
+            "index": 2,
+            "options": [
+              {
+                "strategy": "balanced",
+                "title": "Сбалансированная пара",
+                "principle": "Книга и телефон расположены в центре с естественным контактом поверхности.",
+                "placement": "on-surface"
+              },
+              {
+                "strategy": "spacious",
+                "title": "Свободное размещение",
+                "principle": "Смартфон находится рядом с открытой книгой, образуя единую группу.",
+                "placement": "beside"
+              },
+              {
+                "strategy": "diagonal",
+                "title": "Диагональный акцент",
+                "principle": "Телефон пересечает разворот книги под углом для динамики.",
+                "placement": "across"
+              }
+            ]
+          },
+          "layerRelations": [
+            {
+              "back": "imw199wp3itjn3s",
+              "front": "imw199wp3j2ovy2",
+              "reason": "Смартфон размещен поверх страницы книги"
+            },
+            {
+              "back": "imw199wp3nkgwd0",
+              "front": "imw199wp3itjn3s",
+              "reason": "Лампа находится на заднем плане за книгой"
+            }
+          ],
+          "recipe": "online",
+          "framing": "overview",
+          "focus": "phone",
+          "query": "От бумажного к цифровому",
+          "scale": 1,
+          "items": [
+            {
+              "uid": "imw199wp3nkgwd0",
+              "assetId": "lamp",
+              "role": "background",
+              "x": 96,
+              "y": 144,
+              "rotation": 0,
+              "flipX": false,
+              "flipY": false,
+              "zone": "top-left",
+              "crop": "fragment"
+            },
+            {
+              "uid": "imw199wp3itjn3s",
+              "assetId": "book",
+              "role": "main",
+              "x": 421.69,
+              "y": 684.45,
+              "rotation": 0,
+              "flipX": false,
+              "flipY": false,
+              "zone": "auto",
+              "crop": "whole"
+            },
+            {
+              "uid": "imw199wp3j2ovy2",
+              "assetId": "phone",
+              "role": "main",
+              "x": 421.69,
+              "y": 674.6700000000001,
+              "rotation": -15,
+              "flipX": false,
+              "flipY": false,
+              "supportUid": "imw199wp3itjn3s",
+              "zone": "auto",
+              "crop": "whole"
+            }
+          ]
+        }
+      ]
+    }
+  }
+}

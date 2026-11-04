@@ -1,0 +1,3880 @@
+{
+  "type": "composition-project",
+  "version": 2,
+  "scene": {
+    "version": 1,
+    "sizing": "native",
+    "environmentPrompt": "",
+    "environmentExplanation": [
+      "Главная группа объединяет открытую книгу и цветущие тюльпаны в вазе, раскрывая тему роста и вдохновения.",
+      "Фоновый элемент — настольная лампа в верхнем углу, создающая атмосферу тепла и сосредоточенности.",
+      "Композиция выстроена с плотной связкой основных предметов в центре холста."
+    ],
+    "groups": [
+      {
+        "kind": "collection",
+        "members": [
+          "imw199zzk0xvsg1",
+          "imw199zzkrzuzb4"
+        ],
+        "reason": "Книга и ваза с цветами образуют сбалансированную центральную группу с фоновой лампой."
+      }
+    ],
+    "formatPlans": [],
+    "stagingPlans": [
+      {
+        "format": "square",
+        "views": [
+          {
+            "principle": "Книга и ваза с цветами образуют сбалансированную центральную группу с фоновой лампой.",
+            "placements": [
+              {
+                "uid": "imw199zzk0xvsg1",
+                "relation": "canvas",
+                "x": 0.48,
+                "y": 0.52,
+                "gap": 0,
+                "rotation": 0
+              },
+              {
+                "uid": "imw199zzkrzuzb4",
+                "relation": "canvas",
+                "x": 0.52,
+                "y": 0.38,
+                "gap": 0,
+                "rotation": 0
+              },
+              {
+                "uid": "imw199zzkrx5qob",
+                "relation": "canvas",
+                "x": 0.18,
+                "y": 0.22,
+                "gap": 0,
+                "rotation": 0
+              }
+            ]
+          },
+          {
+            "principle": "Просторное размещение книги и цветов с мягким отступом и фоновым акцентом слева.",
+            "placements": [
+              {
+                "uid": "imw199zzk0xvsg1",
+                "relation": "canvas",
+                "x": 0.5,
+                "y": 0.55,
+                "gap": 0,
+                "rotation": 0
+              },
+              {
+                "uid": "imw199zzkrzuzb4",
+                "relation": "canvas",
+                "x": 0.55,
+                "y": 0.35,
+                "gap": 0,
+                "rotation": 0
+              },
+              {
+                "uid": "imw199zzkrx5qob",
+                "relation": "canvas",
+                "x": 0.15,
+                "y": 0.2,
+                "gap": 0,
+                "rotation": 0
+              }
+            ]
+          },
+          {
+            "principle": "Диагональная компоновка элементов для динамичного восприятия темы роста.",
+            "placements": [
+              {
+                "uid": "imw199zzk0xvsg1",
+                "relation": "canvas",
+                "x": 0.45,
+                "y": 0.58,
+                "gap": 0,
+                "rotation": 0
+              },
+              {
+                "uid": "imw199zzkrzuzb4",
+                "relation": "canvas",
+                "x": 0.6,
+                "y": 0.4,
+                "gap": 0,
+                "rotation": 0
+              },
+              {
+                "uid": "imw199zzkrx5qob",
+                "relation": "canvas",
+                "x": 0.2,
+                "y": 0.25,
+                "gap": 0,
+                "rotation": 0
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "format": "landscape",
+        "views": [
+          {
+            "principle": "Сбалансированная горизонтальная композиция с центральным расположением главных объектов.",
+            "placements": [
+              {
+                "uid": "imw199zzk0xvsg1",
+                "relation": "canvas",
+                "x": 0.5,
+                "y": 0.55,
+                "gap": 0,
+                "rotation": 0
+              },
+              {
+                "uid": "imw199zzkrzuzb4",
+                "relation": "canvas",
+                "x": 0.53,
+                "y": 0.4,
+                "gap": 0,
+                "rotation": 0
+              },
+              {
+                "uid": "imw199zzkrx5qob",
+                "relation": "canvas",
+                "x": 0.2,
+                "y": 0.22,
+                "gap": 0,
+                "rotation": 0
+              }
+            ]
+          },
+          {
+            "principle": "Просторное распределение книги и вазы с цветами в ландшафтном формате.",
+            "placements": [
+              {
+                "uid": "imw199zzk0xvsg1",
+                "relation": "canvas",
+                "x": 0.52,
+                "y": 0.58,
+                "gap": 0,
+                "rotation": 0
+              },
+              {
+                "uid": "imw199zzkrzuzb4",
+                "relation": "canvas",
+                "x": 0.56,
+                "y": 0.38,
+                "gap": 0,
+                "rotation": 0
+              },
+              {
+                "uid": "imw199zzkrx5qob",
+                "relation": "canvas",
+                "x": 0.18,
+                "y": 0.2,
+                "gap": 0,
+                "rotation": 0
+              }
+            ]
+          },
+          {
+            "principle": "Диагональный ритм основных предметов для создания визуальной глубины.",
+            "placements": [
+              {
+                "uid": "imw199zzk0xvsg1",
+                "relation": "canvas",
+                "x": 0.48,
+                "y": 0.56,
+                "gap": 0,
+                "rotation": 0
+              },
+              {
+                "uid": "imw199zzkrzuzb4",
+                "relation": "canvas",
+                "x": 0.58,
+                "y": 0.42,
+                "gap": 0,
+                "rotation": 0
+              },
+              {
+                "uid": "imw199zzkrx5qob",
+                "relation": "canvas",
+                "x": 0.22,
+                "y": 0.25,
+                "gap": 0,
+                "rotation": 0
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "format": "portrait",
+        "views": [
+          {
+            "principle": "Вертикальная сбалансированная компоновка для компактного отображения.",
+            "placements": [
+              {
+                "uid": "imw199zzk0xvsg1",
+                "relation": "canvas",
+                "x": 0.5,
+                "y": 0.58,
+                "gap": 0,
+                "rotation": 0
+              },
+              {
+                "uid": "imw199zzkrzuzb4",
+                "relation": "canvas",
+                "x": 0.5,
+                "y": 0.42,
+                "gap": 0,
+                "rotation": 0
+              },
+              {
+                "uid": "imw199zzkrx5qob",
+                "relation": "canvas",
+                "x": 0.22,
+                "y": 0.2,
+                "gap": 0,
+                "rotation": 0
+              }
+            ]
+          },
+          {
+            "principle": "Просторное вертикальное расположение с акцентом на центральную пару.",
+            "placements": [
+              {
+                "uid": "imw199zzk0xvsg1",
+                "relation": "canvas",
+                "x": 0.5,
+                "y": 0.6,
+                "gap": 0,
+                "rotation": 0
+              },
+              {
+                "uid": "imw199zzkrzuzb4",
+                "relation": "canvas",
+                "x": 0.52,
+                "y": 0.4,
+                "gap": 0,
+                "rotation": 0
+              },
+              {
+                "uid": "imw199zzkrx5qob",
+                "relation": "canvas",
+                "x": 0.2,
+                "y": 0.18,
+                "gap": 0,
+                "rotation": 0
+              }
+            ]
+          },
+          {
+            "principle": "Диагональное построение в портретном формате для усиления динамики.",
+            "placements": [
+              {
+                "uid": "imw199zzk0xvsg1",
+                "relation": "canvas",
+                "x": 0.46,
+                "y": 0.62,
+                "gap": 0,
+                "rotation": 0
+              },
+              {
+                "uid": "imw199zzkrzuzb4",
+                "relation": "canvas",
+                "x": 0.55,
+                "y": 0.44,
+                "gap": 0,
+                "rotation": 0
+              },
+              {
+                "uid": "imw199zzkrx5qob",
+                "relation": "canvas",
+                "x": 0.25,
+                "y": 0.22,
+                "gap": 0,
+                "rotation": 0
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "executionNotes": [
+      "Положение «Открытая книга» уточнено по границам кадра и реестру пересечений."
+    ],
+    "width": 1000,
+    "height": 1000,
+    "format": "square",
+    "size": "S",
+    "palette": "aqua",
+    "layout": "compact",
+    "background": "pattern",
+    "backgroundDesign": "auto",
+    "supporting": true,
+    "showSupporting": true,
+    "camera": null,
+    "composition": {
+      "index": 0,
+      "options": [
+        {
+          "strategy": "balanced",
+          "title": "На опоре",
+          "principle": "Книга и ваза с цветами образуют сбалансированную центральную группу с фоновой лампой.",
+          "placement": "on-surface"
+        },
+        {
+          "strategy": "spacious",
+          "title": "Рядом",
+          "principle": "Просторное размещение книги и цветов с мягким отступом и фоновым акцентом слева.",
+          "placement": "beside"
+        },
+        {
+          "strategy": "diagonal",
+          "title": "Другой ракурс группы",
+          "principle": "Диагональная компоновка элементов для динамичного восприятия темы роста.",
+          "placement": "across"
+        }
+      ]
+    },
+    "layerRelations": [
+      {
+        "back": "imw199zzkrx5qob",
+        "front": "imw199zzk0xvsg1",
+        "reason": "Фоновый компаньон находится позади главной группы."
+      }
+    ],
+    "recipe": "auto",
+    "framing": "overview",
+    "focus": "book",
+    "query": "Дать идеям расцвести",
+    "scale": 1,
+    "items": [
+      {
+        "uid": "imw199zzkrx5qob",
+        "assetId": "lamp",
+        "role": "background",
+        "x": 194.19,
+        "y": 276.5,
+        "rotation": 0,
+        "flipX": false,
+        "flipY": false,
+        "zone": "top-left",
+        "crop": "fragment"
+      },
+      {
+        "uid": "imw199zzkrzuzb4",
+        "assetId": "flowers",
+        "role": "main",
+        "x": 539.44,
+        "y": 408.63,
+        "rotation": 0,
+        "flipX": false,
+        "flipY": false,
+        "zone": "auto",
+        "crop": "whole"
+      },
+      {
+        "uid": "imw199zzk0xvsg1",
+        "assetId": "book",
+        "role": "main",
+        "x": 280,
+        "y": 760,
+        "rotation": 0,
+        "flipX": false,
+        "flipY": false,
+        "zone": "auto",
+        "crop": "whole"
+      }
+    ]
+  },
+  "memory": {
+    "version": 2,
+    "format": "square",
+    "index": 0,
+    "formats": {
+      "square": [
+        {
+          "version": 1,
+          "sizing": "native",
+          "environmentPrompt": "",
+          "environmentExplanation": [
+            "Главная группа объединяет открытую книгу и цветущие тюльпаны в вазе, раскрывая тему роста и вдохновения.",
+            "Фоновый элемент — настольная лампа в верхнем углу, создающая атмосферу тепла и сосредоточенности.",
+            "Композиция выстроена с плотной связкой основных предметов в центре холста."
+          ],
+          "groups": [
+            {
+              "kind": "collection",
+              "members": [
+                "imw199zzk0xvsg1",
+                "imw199zzkrzuzb4"
+              ],
+              "reason": "Книга и ваза с цветами образуют сбалансированную центральную группу с фоновой лампой."
+            }
+          ],
+          "formatPlans": [],
+          "stagingPlans": [
+            {
+              "format": "square",
+              "views": [
+                {
+                  "principle": "Книга и ваза с цветами образуют сбалансированную центральную группу с фоновой лампой.",
+                  "placements": [
+                    {
+                      "uid": "imw199zzk0xvsg1",
+                      "relation": "canvas",
+                      "x": 0.48,
+                      "y": 0.52,
+                      "gap": 0,
+                      "rotation": 0
+                    },
+                    {
+                      "uid": "imw199zzkrzuzb4",
+                      "relation": "canvas",
+                      "x": 0.52,
+                      "y": 0.38,
+                      "gap": 0,
+                      "rotation": 0
+                    },
+                    {
+                      "uid": "imw199zzkrx5qob",
+                      "relation": "canvas",
+                      "x": 0.18,
+                      "y": 0.22,
+                      "gap": 0,
+                      "rotation": 0
+                    }
+                  ]
+                },
+                {
+                  "principle": "Просторное размещение книги и цветов с мягким отступом и фоновым акцентом слева.",
+                  "placements": [
+                    {
+                      "uid": "imw199zzk0xvsg1",
+                      "relation": "canvas",
+                      "x": 0.5,
+                      "y": 0.55,
+                      "gap": 0,
+                      "rotation": 0
+                    },
+                    {
+                      "uid": "imw199zzkrzuzb4",
+                      "relation": "canvas",
+                      "x": 0.55,
+                      "y": 0.35,
+                      "gap": 0,
+                      "rotation": 0
+                    },
+                    {
+                      "uid": "imw199zzkrx5qob",
+                      "relation": "canvas",
+                      "x": 0.15,
+                      "y": 0.2,
+                      "gap": 0,
+                      "rotation": 0
+                    }
+                  ]
+                },
+                {
+                  "principle": "Диагональная компоновка элементов для динамичного восприятия темы роста.",
+                  "placements": [
+                    {
+                      "uid": "imw199zzk0xvsg1",
+                      "relation": "canvas",
+                      "x": 0.45,
+                      "y": 0.58,
+                      "gap": 0,
+                      "rotation": 0
+                    },
+                    {
+                      "uid": "imw199zzkrzuzb4",
+                      "relation": "canvas",
+                      "x": 0.6,
+                      "y": 0.4,
+                      "gap": 0,
+                      "rotation": 0
+                    },
+                    {
+                      "uid": "imw199zzkrx5qob",
+                      "relation": "canvas",
+                      "x": 0.2,
+                      "y": 0.25,
+                      "gap": 0,
+                      "rotation": 0
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "format": "landscape",
+              "views": [
+                {
+                  "principle": "Сбалансированная горизонтальная композиция с центральным расположением главных объектов.",
+                  "placements": [
+                    {
+                      "uid": "imw199zzk0xvsg1",
+                      "relation": "canvas",
+                      "x": 0.5,
+                      "y": 0.55,
+                      "gap": 0,
+                      "rotation": 0
+                    },
+                    {
+                      "uid": "imw199zzkrzuzb4",
+                      "relation": "canvas",
+                      "x": 0.53,
+                      "y": 0.4,
+                      "gap": 0,
+                      "rotation": 0
+                    },
+                    {
+                      "uid": "imw199zzkrx5qob",
+                      "relation": "canvas",
+                      "x": 0.2,
+                      "y": 0.22,
+                      "gap": 0,
+                      "rotation": 0
+                    }
+                  ]
+                },
+                {
+                  "principle": "Просторное распределение книги и вазы с цветами в ландшафтном формате.",
+                  "placements": [
+                    {
+                      "uid": "imw199zzk0xvsg1",
+                      "relation": "canvas",
+                      "x": 0.52,
+                      "y": 0.58,
+                      "gap": 0,
+                      "rotation": 0
+                    },
+                    {
+                      "uid": "imw199zzkrzuzb4",
+                      "relation": "canvas",
+                      "x": 0.56,
+                      "y": 0.38,
+                      "gap": 0,
+                      "rotation": 0
+                    },
+                    {
+                      "uid": "imw199zzkrx5qob",
+                      "relation": "canvas",
+                      "x": 0.18,
+                      "y": 0.2,
+                      "gap": 0,
+                      "rotation": 0
+                    }
+                  ]
+                },
+                {
+                  "principle": "Диагональный ритм основных предметов для создания визуальной глубины.",
+                  "placements": [
+                    {
+                      "uid": "imw199zzk0xvsg1",
+                      "relation": "canvas",
+                      "x": 0.48,
+                      "y": 0.56,
+                      "gap": 0,
+                      "rotation": 0
+                    },
+                    {
+                      "uid": "imw199zzkrzuzb4",
+                      "relation": "canvas",
+                      "x": 0.58,
+                      "y": 0.42,
+                      "gap": 0,
+                      "rotation": 0
+                    },
+                    {
+                      "uid": "imw199zzkrx5qob",
+                      "relation": "canvas",
+                      "x": 0.22,
+                      "y": 0.25,
+                      "gap": 0,
+                      "rotation": 0
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "format": "portrait",
+              "views": [
+                {
+                  "principle": "Вертикальная сбалансированная компоновка для компактного отображения.",
+                  "placements": [
+                    {
+                      "uid": "imw199zzk0xvsg1",
+                      "relation": "canvas",
+                      "x": 0.5,
+                      "y": 0.58,
+                      "gap": 0,
+                      "rotation": 0
+                    },
+                    {
+                      "uid": "imw199zzkrzuzb4",
+                      "relation": "canvas",
+                      "x": 0.5,
+                      "y": 0.42,
+                      "gap": 0,
+                      "rotation": 0
+                    },
+                    {
+                      "uid": "imw199zzkrx5qob",
+                      "relation": "canvas",
+                      "x": 0.22,
+                      "y": 0.2,
+                      "gap": 0,
+                      "rotation": 0
+                    }
+                  ]
+                },
+                {
+                  "principle": "Просторное вертикальное расположение с акцентом на центральную пару.",
+                  "placements": [
+                    {
+                      "uid": "imw199zzk0xvsg1",
+                      "relation": "canvas",
+                      "x": 0.5,
+                      "y": 0.6,
+                      "gap": 0,
+                      "rotation": 0
+                    },
+                    {
+                      "uid": "imw199zzkrzuzb4",
+                      "relation": "canvas",
+                      "x": 0.52,
+                      "y": 0.4,
+                      "gap": 0,
+                      "rotation": 0
+                    },
+                    {
+                      "uid": "imw199zzkrx5qob",
+                      "relation": "canvas",
+                      "x": 0.2,
+                      "y": 0.18,
+                      "gap": 0,
+                      "rotation": 0
+                    }
+                  ]
+                },
+                {
+                  "principle": "Диагональное построение в портретном формате для усиления динамики.",
+                  "placements": [
+                    {
+                      "uid": "imw199zzk0xvsg1",
+                      "relation": "canvas",
+                      "x": 0.46,
+                      "y": 0.62,
+                      "gap": 0,
+                      "rotation": 0
+                    },
+                    {
+                      "uid": "imw199zzkrzuzb4",
+                      "relation": "canvas",
+                      "x": 0.55,
+                      "y": 0.44,
+                      "gap": 0,
+                      "rotation": 0
+                    },
+                    {
+                      "uid": "imw199zzkrx5qob",
+                      "relation": "canvas",
+                      "x": 0.25,
+                      "y": 0.22,
+                      "gap": 0,
+                      "rotation": 0
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "executionNotes": [
+            "Положение «Открытая книга» уточнено по границам кадра и реестру пересечений."
+          ],
+          "width": 1000,
+          "height": 1000,
+          "format": "square",
+          "size": "S",
+          "palette": "aqua",
+          "layout": "compact",
+          "background": "pattern",
+          "backgroundDesign": "auto",
+          "supporting": true,
+          "showSupporting": true,
+          "camera": null,
+          "composition": {
+            "index": 0,
+            "options": [
+              {
+                "strategy": "balanced",
+                "title": "На опоре",
+                "principle": "Книга и ваза с цветами образуют сбалансированную центральную группу с фоновой лампой.",
+                "placement": "on-surface"
+              },
+              {
+                "strategy": "spacious",
+                "title": "Рядом",
+                "principle": "Просторное размещение книги и цветов с мягким отступом и фоновым акцентом слева.",
+                "placement": "beside"
+              },
+              {
+                "strategy": "diagonal",
+                "title": "Другой ракурс группы",
+                "principle": "Диагональная компоновка элементов для динамичного восприятия темы роста.",
+                "placement": "across"
+              }
+            ]
+          },
+          "layerRelations": [
+            {
+              "back": "imw199zzkrx5qob",
+              "front": "imw199zzk0xvsg1",
+              "reason": "Фоновый компаньон находится позади главной группы."
+            }
+          ],
+          "recipe": "auto",
+          "framing": "overview",
+          "focus": "book",
+          "query": "Дать идеям расцвести",
+          "scale": 1,
+          "items": [
+            {
+              "uid": "imw199zzkrx5qob",
+              "assetId": "lamp",
+              "role": "background",
+              "x": 194.19,
+              "y": 276.5,
+              "rotation": 0,
+              "flipX": false,
+              "flipY": false,
+              "zone": "top-left",
+              "crop": "fragment"
+            },
+            {
+              "uid": "imw199zzkrzuzb4",
+              "assetId": "flowers",
+              "role": "main",
+              "x": 539.44,
+              "y": 408.63,
+              "rotation": 0,
+              "flipX": false,
+              "flipY": false,
+              "zone": "auto",
+              "crop": "whole"
+            },
+            {
+              "uid": "imw199zzk0xvsg1",
+              "assetId": "book",
+              "role": "main",
+              "x": 280,
+              "y": 760,
+              "rotation": 0,
+              "flipX": false,
+              "flipY": false,
+              "zone": "auto",
+              "crop": "whole"
+            }
+          ]
+        },
+        {
+          "version": 1,
+          "sizing": "native",
+          "environmentPrompt": "",
+          "environmentExplanation": [
+            "Главная группа объединяет открытую книгу и цветущие тюльпаны в вазе, раскрывая тему роста и вдохновения.",
+            "Фоновый элемент — настольная лампа в верхнем углу, создающая атмосферу тепла и сосредоточенности.",
+            "Композиция выстроена с плотной связкой основных предметов в центре холста."
+          ],
+          "groups": [
+            {
+              "kind": "collection",
+              "members": [
+                "imw199zzkrzuzb4",
+                "imw199zzk0xvsg1"
+              ],
+              "reason": "Просторное размещение книги и цветов с мягким отступом и фоновым акцентом слева."
+            }
+          ],
+          "formatPlans": [],
+          "stagingPlans": [
+            {
+              "format": "square",
+              "views": [
+                {
+                  "principle": "Книга и ваза с цветами образуют сбалансированную центральную группу с фоновой лампой.",
+                  "placements": [
+                    {
+                      "uid": "imw199zzk0xvsg1",
+                      "relation": "canvas",
+                      "x": 0.48,
+                      "y": 0.52,
+                      "gap": 0,
+                      "rotation": 0
+                    },
+                    {
+                      "uid": "imw199zzkrzuzb4",
+                      "relation": "canvas",
+                      "x": 0.52,
+                      "y": 0.38,
+                      "gap": 0,
+                      "rotation": 0
+                    },
+                    {
+                      "uid": "imw199zzkrx5qob",
+                      "relation": "canvas",
+                      "x": 0.18,
+                      "y": 0.22,
+                      "gap": 0,
+                      "rotation": 0
+                    }
+                  ]
+                },
+                {
+                  "principle": "Просторное размещение книги и цветов с мягким отступом и фоновым акцентом слева.",
+                  "placements": [
+                    {
+                      "uid": "imw199zzk0xvsg1",
+                      "relation": "canvas",
+                      "x": 0.5,
+                      "y": 0.55,
+                      "gap": 0,
+                      "rotation": 0
+                    },
+                    {
+                      "uid": "imw199zzkrzuzb4",
+                      "relation": "canvas",
+                      "x": 0.55,
+                      "y": 0.35,
+                      "gap": 0,
+                      "rotation": 0
+                    },
+                    {
+                      "uid": "imw199zzkrx5qob",
+                      "relation": "canvas",
+                      "x": 0.15,
+                      "y": 0.2,
+                      "gap": 0,
+                      "rotation": 0
+                    }
+                  ]
+                },
+                {
+                  "principle": "Диагональная компоновка элементов для динамичного восприятия темы роста.",
+                  "placements": [
+                    {
+                      "uid": "imw199zzk0xvsg1",
+                      "relation": "canvas",
+                      "x": 0.45,
+                      "y": 0.58,
+                      "gap": 0,
+                      "rotation": 0
+                    },
+                    {
+                      "uid": "imw199zzkrzuzb4",
+                      "relation": "canvas",
+                      "x": 0.6,
+                      "y": 0.4,
+                      "gap": 0,
+                      "rotation": 0
+                    },
+                    {
+                      "uid": "imw199zzkrx5qob",
+                      "relation": "canvas",
+                      "x": 0.2,
+                      "y": 0.25,
+                      "gap": 0,
+                      "rotation": 0
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "format": "landscape",
+              "views": [
+                {
+                  "principle": "Сбалансированная горизонтальная композиция с центральным расположением главных объектов.",
+                  "placements": [
+                    {
+                      "uid": "imw199zzk0xvsg1",
+                      "relation": "canvas",
+                      "x": 0.5,
+                      "y": 0.55,
+                      "gap": 0,
+                      "rotation": 0
+                    },
+                    {
+                      "uid": "imw199zzkrzuzb4",
+                      "relation": "canvas",
+                      "x": 0.53,
+                      "y": 0.4,
+                      "gap": 0,
+                      "rotation": 0
+                    },
+                    {
+                      "uid": "imw199zzkrx5qob",
+                      "relation": "canvas",
+                      "x": 0.2,
+                      "y": 0.22,
+                      "gap": 0,
+                      "rotation": 0
+                    }
+                  ]
+                },
+                {
+                  "principle": "Просторное распределение книги и вазы с цветами в ландшафтном формате.",
+                  "placements": [
+                    {
+                      "uid": "imw199zzk0xvsg1",
+                      "relation": "canvas",
+                      "x": 0.52,
+                      "y": 0.58,
+                      "gap": 0,
+                      "rotation": 0
+                    },
+                    {
+                      "uid": "imw199zzkrzuzb4",
+                      "relation": "canvas",
+                      "x": 0.56,
+                      "y": 0.38,
+                      "gap": 0,
+                      "rotation": 0
+                    },
+                    {
+                      "uid": "imw199zzkrx5qob",
+                      "relation": "canvas",
+                      "x": 0.18,
+                      "y": 0.2,
+                      "gap": 0,
+                      "rotation": 0
+                    }
+                  ]
+                },
+                {
+                  "principle": "Диагональный ритм основных предметов для создания визуальной глубины.",
+                  "placements": [
+                    {
+                      "uid": "imw199zzk0xvsg1",
+                      "relation": "canvas",
+                      "x": 0.48,
+                      "y": 0.56,
+                      "gap": 0,
+                      "rotation": 0
+                    },
+                    {
+                      "uid": "imw199zzkrzuzb4",
+                      "relation": "canvas",
+                      "x": 0.58,
+                      "y": 0.42,
+                      "gap": 0,
+                      "rotation": 0
+                    },
+                    {
+                      "uid": "imw199zzkrx5qob",
+                      "relation": "canvas",
+                      "x": 0.22,
+                      "y": 0.25,
+                      "gap": 0,
+                      "rotation": 0
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "format": "portrait",
+              "views": [
+                {
+                  "principle": "Вертикальная сбалансированная компоновка для компактного отображения.",
+                  "placements": [
+                    {
+                      "uid": "imw199zzk0xvsg1",
+                      "relation": "canvas",
+                      "x": 0.5,
+                      "y": 0.58,
+                      "gap": 0,
+                      "rotation": 0
+                    },
+                    {
+                      "uid": "imw199zzkrzuzb4",
+                      "relation": "canvas",
+                      "x": 0.5,
+                      "y": 0.42,
+                      "gap": 0,
+                      "rotation": 0
+                    },
+                    {
+                      "uid": "imw199zzkrx5qob",
+                      "relation": "canvas",
+                      "x": 0.22,
+                      "y": 0.2,
+                      "gap": 0,
+                      "rotation": 0
+                    }
+                  ]
+                },
+                {
+                  "principle": "Просторное вертикальное расположение с акцентом на центральную пару.",
+                  "placements": [
+                    {
+                      "uid": "imw199zzk0xvsg1",
+                      "relation": "canvas",
+                      "x": 0.5,
+                      "y": 0.6,
+                      "gap": 0,
+                      "rotation": 0
+                    },
+                    {
+                      "uid": "imw199zzkrzuzb4",
+                      "relation": "canvas",
+                      "x": 0.52,
+                      "y": 0.4,
+                      "gap": 0,
+                      "rotation": 0
+                    },
+                    {
+                      "uid": "imw199zzkrx5qob",
+                      "relation": "canvas",
+                      "x": 0.2,
+                      "y": 0.18,
+                      "gap": 0,
+                      "rotation": 0
+                    }
+                  ]
+                },
+                {
+                  "principle": "Диагональное построение в портретном формате для усиления динамики.",
+                  "placements": [
+                    {
+                      "uid": "imw199zzk0xvsg1",
+                      "relation": "canvas",
+                      "x": 0.46,
+                      "y": 0.62,
+                      "gap": 0,
+                      "rotation": 0
+                    },
+                    {
+                      "uid": "imw199zzkrzuzb4",
+                      "relation": "canvas",
+                      "x": 0.55,
+                      "y": 0.44,
+                      "gap": 0,
+                      "rotation": 0
+                    },
+                    {
+                      "uid": "imw199zzkrx5qob",
+                      "relation": "canvas",
+                      "x": 0.25,
+                      "y": 0.22,
+                      "gap": 0,
+                      "rotation": 0
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "executionNotes": [
+            "Положение «Открытая книга» уточнено по границам кадра и реестру пересечений."
+          ],
+          "width": 1000,
+          "height": 1000,
+          "format": "square",
+          "size": "S",
+          "palette": "aqua",
+          "layout": "compact",
+          "background": "pattern",
+          "backgroundDesign": "auto",
+          "supporting": true,
+          "showSupporting": true,
+          "camera": null,
+          "composition": {
+            "index": 1,
+            "options": [
+              {
+                "strategy": "balanced",
+                "title": "На опоре",
+                "principle": "Книга и ваза с цветами образуют сбалансированную центральную группу с фоновой лампой.",
+                "placement": "on-surface"
+              },
+              {
+                "strategy": "spacious",
+                "title": "Рядом",
+                "principle": "Просторное размещение книги и цветов с мягким отступом и фоновым акцентом слева.",
+                "placement": "beside"
+              },
+              {
+                "strategy": "diagonal",
+                "title": "Другой ракурс группы",
+                "principle": "Диагональная компоновка элементов для динамичного восприятия темы роста.",
+                "placement": "across"
+              }
+            ]
+          },
+          "layerRelations": [
+            {
+              "back": "imw199zzkrx5qob",
+              "front": "imw199zzk0xvsg1",
+              "reason": "Фоновый компаньон находится позади главной группы."
+            }
+          ],
+          "recipe": "auto",
+          "framing": "overview",
+          "focus": "book",
+          "query": "Дать идеям расцвести",
+          "scale": 1,
+          "items": [
+            {
+              "uid": "imw199zzkrx5qob",
+              "assetId": "lamp",
+              "role": "background",
+              "x": 164.19,
+              "y": 256.5,
+              "rotation": 0,
+              "flipX": false,
+              "flipY": false,
+              "zone": "top-left",
+              "crop": "fragment"
+            },
+            {
+              "uid": "imw199zzkrzuzb4",
+              "assetId": "flowers",
+              "role": "main",
+              "x": 569.44,
+              "y": 378.63,
+              "rotation": 0,
+              "flipX": false,
+              "flipY": false,
+              "zone": "auto",
+              "crop": "whole"
+            },
+            {
+              "uid": "imw199zzk0xvsg1",
+              "assetId": "book",
+              "role": "main",
+              "x": 521.69,
+              "y": 830.0266864224137,
+              "rotation": 0,
+              "flipX": false,
+              "flipY": false,
+              "zone": "auto",
+              "crop": "whole"
+            }
+          ]
+        },
+        {
+          "version": 1,
+          "sizing": "native",
+          "environmentPrompt": "",
+          "environmentExplanation": [
+            "Главная группа объединяет открытую книгу и цветущие тюльпаны в вазе, раскрывая тему роста и вдохновения.",
+            "Фоновый элемент — настольная лампа в верхнем углу, создающая атмосферу тепла и сосредоточенности.",
+            "Композиция выстроена с плотной связкой основных предметов в центре холста."
+          ],
+          "groups": [
+            {
+              "kind": "collection",
+              "members": [
+                "imw199zzkrzuzb4",
+                "imw199zzk0xvsg1"
+              ],
+              "reason": "Диагональная компоновка элементов для динамичного восприятия темы роста."
+            }
+          ],
+          "formatPlans": [],
+          "stagingPlans": [
+            {
+              "format": "square",
+              "views": [
+                {
+                  "principle": "Книга и ваза с цветами образуют сбалансированную центральную группу с фоновой лампой.",
+                  "placements": [
+                    {
+                      "uid": "imw199zzk0xvsg1",
+                      "relation": "canvas",
+                      "x": 0.48,
+                      "y": 0.52,
+                      "gap": 0,
+                      "rotation": 0
+                    },
+                    {
+                      "uid": "imw199zzkrzuzb4",
+                      "relation": "canvas",
+                      "x": 0.52,
+                      "y": 0.38,
+                      "gap": 0,
+                      "rotation": 0
+                    },
+                    {
+                      "uid": "imw199zzkrx5qob",
+                      "relation": "canvas",
+                      "x": 0.18,
+                      "y": 0.22,
+                      "gap": 0,
+                      "rotation": 0
+                    }
+                  ]
+                },
+                {
+                  "principle": "Просторное размещение книги и цветов с мягким отступом и фоновым акцентом слева.",
+                  "placements": [
+                    {
+                      "uid": "imw199zzk0xvsg1",
+                      "relation": "canvas",
+                      "x": 0.5,
+                      "y": 0.55,
+                      "gap": 0,
+                      "rotation": 0
+                    },
+                    {
+                      "uid": "imw199zzkrzuzb4",
+                      "relation": "canvas",
+                      "x": 0.55,
+                      "y": 0.35,
+                      "gap": 0,
+                      "rotation": 0
+                    },
+                    {
+                      "uid": "imw199zzkrx5qob",
+                      "relation": "canvas",
+                      "x": 0.15,
+                      "y": 0.2,
+                      "gap": 0,
+                      "rotation": 0
+                    }
+                  ]
+                },
+                {
+                  "principle": "Диагональная компоновка элементов для динамичного восприятия темы роста.",
+                  "placements": [
+                    {
+                      "uid": "imw199zzk0xvsg1",
+                      "relation": "canvas",
+                      "x": 0.45,
+                      "y": 0.58,
+                      "gap": 0,
+                      "rotation": 0
+                    },
+                    {
+                      "uid": "imw199zzkrzuzb4",
+                      "relation": "canvas",
+                      "x": 0.6,
+                      "y": 0.4,
+                      "gap": 0,
+                      "rotation": 0
+                    },
+                    {
+                      "uid": "imw199zzkrx5qob",
+                      "relation": "canvas",
+                      "x": 0.2,
+                      "y": 0.25,
+                      "gap": 0,
+                      "rotation": 0
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "format": "landscape",
+              "views": [
+                {
+                  "principle": "Сбалансированная горизонтальная композиция с центральным расположением главных объектов.",
+                  "placements": [
+                    {
+                      "uid": "imw199zzk0xvsg1",
+                      "relation": "canvas",
+                      "x": 0.5,
+                      "y": 0.55,
+                      "gap": 0,
+                      "rotation": 0
+                    },
+                    {
+                      "uid": "imw199zzkrzuzb4",
+                      "relation": "canvas",
+                      "x": 0.53,
+                      "y": 0.4,
+                      "gap": 0,
+                      "rotation": 0
+                    },
+                    {
+                      "uid": "imw199zzkrx5qob",
+                      "relation": "canvas",
+                      "x": 0.2,
+                      "y": 0.22,
+                      "gap": 0,
+                      "rotation": 0
+                    }
+                  ]
+                },
+                {
+                  "principle": "Просторное распределение книги и вазы с цветами в ландшафтном формате.",
+                  "placements": [
+                    {
+                      "uid": "imw199zzk0xvsg1",
+                      "relation": "canvas",
+                      "x": 0.52,
+                      "y": 0.58,
+                      "gap": 0,
+                      "rotation": 0
+                    },
+                    {
+                      "uid": "imw199zzkrzuzb4",
+                      "relation": "canvas",
+                      "x": 0.56,
+                      "y": 0.38,
+                      "gap": 0,
+                      "rotation": 0
+                    },
+                    {
+                      "uid": "imw199zzkrx5qob",
+                      "relation": "canvas",
+                      "x": 0.18,
+                      "y": 0.2,
+                      "gap": 0,
+                      "rotation": 0
+                    }
+                  ]
+                },
+                {
+                  "principle": "Диагональный ритм основных предметов для создания визуальной глубины.",
+                  "placements": [
+                    {
+                      "uid": "imw199zzk0xvsg1",
+                      "relation": "canvas",
+                      "x": 0.48,
+                      "y": 0.56,
+                      "gap": 0,
+                      "rotation": 0
+                    },
+                    {
+                      "uid": "imw199zzkrzuzb4",
+                      "relation": "canvas",
+                      "x": 0.58,
+                      "y": 0.42,
+                      "gap": 0,
+                      "rotation": 0
+                    },
+                    {
+                      "uid": "imw199zzkrx5qob",
+                      "relation": "canvas",
+                      "x": 0.22,
+                      "y": 0.25,
+                      "gap": 0,
+                      "rotation": 0
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "format": "portrait",
+              "views": [
+                {
+                  "principle": "Вертикальная сбалансированная компоновка для компактного отображения.",
+                  "placements": [
+                    {
+                      "uid": "imw199zzk0xvsg1",
+                      "relation": "canvas",
+                      "x": 0.5,
+                      "y": 0.58,
+                      "gap": 0,
+                      "rotation": 0
+                    },
+                    {
+                      "uid": "imw199zzkrzuzb4",
+                      "relation": "canvas",
+                      "x": 0.5,
+                      "y": 0.42,
+                      "gap": 0,
+                      "rotation": 0
+                    },
+                    {
+                      "uid": "imw199zzkrx5qob",
+                      "relation": "canvas",
+                      "x": 0.22,
+                      "y": 0.2,
+                      "gap": 0,
+                      "rotation": 0
+                    }
+                  ]
+                },
+                {
+                  "principle": "Просторное вертикальное расположение с акцентом на центральную пару.",
+                  "placements": [
+                    {
+                      "uid": "imw199zzk0xvsg1",
+                      "relation": "canvas",
+                      "x": 0.5,
+                      "y": 0.6,
+                      "gap": 0,
+                      "rotation": 0
+                    },
+                    {
+                      "uid": "imw199zzkrzuzb4",
+                      "relation": "canvas",
+                      "x": 0.52,
+                      "y": 0.4,
+                      "gap": 0,
+                      "rotation": 0
+                    },
+                    {
+                      "uid": "imw199zzkrx5qob",
+                      "relation": "canvas",
+                      "x": 0.2,
+                      "y": 0.18,
+                      "gap": 0,
+                      "rotation": 0
+                    }
+                  ]
+                },
+                {
+                  "principle": "Диагональное построение в портретном формате для усиления динамики.",
+                  "placements": [
+                    {
+                      "uid": "imw199zzk0xvsg1",
+                      "relation": "canvas",
+                      "x": 0.46,
+                      "y": 0.62,
+                      "gap": 0,
+                      "rotation": 0
+                    },
+                    {
+                      "uid": "imw199zzkrzuzb4",
+                      "relation": "canvas",
+                      "x": 0.55,
+                      "y": 0.44,
+                      "gap": 0,
+                      "rotation": 0
+                    },
+                    {
+                      "uid": "imw199zzkrx5qob",
+                      "relation": "canvas",
+                      "x": 0.25,
+                      "y": 0.22,
+                      "gap": 0,
+                      "rotation": 0
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "executionNotes": [
+            "Положение «Открытая книга» уточнено по границам кадра и реестру пересечений."
+          ],
+          "width": 1000,
+          "height": 1000,
+          "format": "square",
+          "size": "S",
+          "palette": "aqua",
+          "layout": "compact",
+          "background": "pattern",
+          "backgroundDesign": "auto",
+          "supporting": true,
+          "showSupporting": true,
+          "camera": null,
+          "composition": {
+            "index": 2,
+            "options": [
+              {
+                "strategy": "balanced",
+                "title": "На опоре",
+                "principle": "Книга и ваза с цветами образуют сбалансированную центральную группу с фоновой лампой.",
+                "placement": "on-surface"
+              },
+              {
+                "strategy": "spacious",
+                "title": "Рядом",
+                "principle": "Просторное размещение книги и цветов с мягким отступом и фоновым акцентом слева.",
+                "placement": "beside"
+              },
+              {
+                "strategy": "diagonal",
+                "title": "Другой ракурс группы",
+                "principle": "Диагональная компоновка элементов для динамичного восприятия темы роста.",
+                "placement": "across"
+              }
+            ]
+          },
+          "layerRelations": [
+            {
+              "back": "imw199zzkrx5qob",
+              "front": "imw199zzk0xvsg1",
+              "reason": "Фоновый компаньон находится позади главной группы."
+            }
+          ],
+          "recipe": "auto",
+          "framing": "overview",
+          "focus": "book",
+          "query": "Дать идеям расцвести",
+          "scale": 1,
+          "items": [
+            {
+              "uid": "imw199zzkrx5qob",
+              "assetId": "lamp",
+              "role": "background",
+              "x": 214.19,
+              "y": 306.5,
+              "rotation": 0,
+              "flipX": false,
+              "flipY": false,
+              "zone": "top-left",
+              "crop": "fragment"
+            },
+            {
+              "uid": "imw199zzkrzuzb4",
+              "assetId": "flowers",
+              "role": "main",
+              "x": 619.44,
+              "y": 428.63,
+              "rotation": 0,
+              "flipX": false,
+              "flipY": false,
+              "zone": "auto",
+              "crop": "whole"
+            },
+            {
+              "uid": "imw199zzk0xvsg1",
+              "assetId": "book",
+              "role": "main",
+              "x": 280,
+              "y": 760,
+              "rotation": 0,
+              "flipX": false,
+              "flipY": false,
+              "zone": "auto",
+              "crop": "whole"
+            }
+          ]
+        }
+      ],
+      "landscape": [
+        {
+          "version": 1,
+          "sizing": "native",
+          "environmentPrompt": "",
+          "environmentExplanation": [
+            "Главная группа объединяет открытую книгу и цветущие тюльпаны в вазе, раскрывая тему роста и вдохновения.",
+            "Фоновый элемент — настольная лампа в верхнем углу, создающая атмосферу тепла и сосредоточенности.",
+            "Композиция выстроена с плотной связкой основных предметов в центре холста."
+          ],
+          "groups": [
+            {
+              "kind": "collection",
+              "members": [
+                "imw199zzkrzuzb4",
+                "imw199zzk0xvsg1"
+              ],
+              "reason": "Сбалансированная горизонтальная композиция с центральным расположением главных объектов."
+            }
+          ],
+          "formatPlans": [],
+          "stagingPlans": [
+            {
+              "format": "square",
+              "views": [
+                {
+                  "principle": "Книга и ваза с цветами образуют сбалансированную центральную группу с фоновой лампой.",
+                  "placements": [
+                    {
+                      "uid": "imw199zzk0xvsg1",
+                      "relation": "canvas",
+                      "x": 0.48,
+                      "y": 0.52,
+                      "gap": 0,
+                      "rotation": 0
+                    },
+                    {
+                      "uid": "imw199zzkrzuzb4",
+                      "relation": "canvas",
+                      "x": 0.52,
+                      "y": 0.38,
+                      "gap": 0,
+                      "rotation": 0
+                    },
+                    {
+                      "uid": "imw199zzkrx5qob",
+                      "relation": "canvas",
+                      "x": 0.18,
+                      "y": 0.22,
+                      "gap": 0,
+                      "rotation": 0
+                    }
+                  ]
+                },
+                {
+                  "principle": "Просторное размещение книги и цветов с мягким отступом и фоновым акцентом слева.",
+                  "placements": [
+                    {
+                      "uid": "imw199zzk0xvsg1",
+                      "relation": "canvas",
+                      "x": 0.5,
+                      "y": 0.55,
+                      "gap": 0,
+                      "rotation": 0
+                    },
+                    {
+                      "uid": "imw199zzkrzuzb4",
+                      "relation": "canvas",
+                      "x": 0.55,
+                      "y": 0.35,
+                      "gap": 0,
+                      "rotation": 0
+                    },
+                    {
+                      "uid": "imw199zzkrx5qob",
+                      "relation": "canvas",
+                      "x": 0.15,
+                      "y": 0.2,
+                      "gap": 0,
+                      "rotation": 0
+                    }
+                  ]
+                },
+                {
+                  "principle": "Диагональная компоновка элементов для динамичного восприятия темы роста.",
+                  "placements": [
+                    {
+                      "uid": "imw199zzk0xvsg1",
+                      "relation": "canvas",
+                      "x": 0.45,
+                      "y": 0.58,
+                      "gap": 0,
+                      "rotation": 0
+                    },
+                    {
+                      "uid": "imw199zzkrzuzb4",
+                      "relation": "canvas",
+                      "x": 0.6,
+                      "y": 0.4,
+                      "gap": 0,
+                      "rotation": 0
+                    },
+                    {
+                      "uid": "imw199zzkrx5qob",
+                      "relation": "canvas",
+                      "x": 0.2,
+                      "y": 0.25,
+                      "gap": 0,
+                      "rotation": 0
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "format": "landscape",
+              "views": [
+                {
+                  "principle": "Сбалансированная горизонтальная композиция с центральным расположением главных объектов.",
+                  "placements": [
+                    {
+                      "uid": "imw199zzk0xvsg1",
+                      "relation": "canvas",
+                      "x": 0.5,
+                      "y": 0.55,
+                      "gap": 0,
+                      "rotation": 0
+                    },
+                    {
+                      "uid": "imw199zzkrzuzb4",
+                      "relation": "canvas",
+                      "x": 0.53,
+                      "y": 0.4,
+                      "gap": 0,
+                      "rotation": 0
+                    },
+                    {
+                      "uid": "imw199zzkrx5qob",
+                      "relation": "canvas",
+                      "x": 0.2,
+                      "y": 0.22,
+                      "gap": 0,
+                      "rotation": 0
+                    }
+                  ]
+                },
+                {
+                  "principle": "Просторное распределение книги и вазы с цветами в ландшафтном формате.",
+                  "placements": [
+                    {
+                      "uid": "imw199zzk0xvsg1",
+                      "relation": "canvas",
+                      "x": 0.52,
+                      "y": 0.58,
+                      "gap": 0,
+                      "rotation": 0
+                    },
+                    {
+                      "uid": "imw199zzkrzuzb4",
+                      "relation": "canvas",
+                      "x": 0.56,
+                      "y": 0.38,
+                      "gap": 0,
+                      "rotation": 0
+                    },
+                    {
+                      "uid": "imw199zzkrx5qob",
+                      "relation": "canvas",
+                      "x": 0.18,
+                      "y": 0.2,
+                      "gap": 0,
+                      "rotation": 0
+                    }
+                  ]
+                },
+                {
+                  "principle": "Диагональный ритм основных предметов для создания визуальной глубины.",
+                  "placements": [
+                    {
+                      "uid": "imw199zzk0xvsg1",
+                      "relation": "canvas",
+                      "x": 0.48,
+                      "y": 0.56,
+                      "gap": 0,
+                      "rotation": 0
+                    },
+                    {
+                      "uid": "imw199zzkrzuzb4",
+                      "relation": "canvas",
+                      "x": 0.58,
+                      "y": 0.42,
+                      "gap": 0,
+                      "rotation": 0
+                    },
+                    {
+                      "uid": "imw199zzkrx5qob",
+                      "relation": "canvas",
+                      "x": 0.22,
+                      "y": 0.25,
+                      "gap": 0,
+                      "rotation": 0
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "format": "portrait",
+              "views": [
+                {
+                  "principle": "Вертикальная сбалансированная компоновка для компактного отображения.",
+                  "placements": [
+                    {
+                      "uid": "imw199zzk0xvsg1",
+                      "relation": "canvas",
+                      "x": 0.5,
+                      "y": 0.58,
+                      "gap": 0,
+                      "rotation": 0
+                    },
+                    {
+                      "uid": "imw199zzkrzuzb4",
+                      "relation": "canvas",
+                      "x": 0.5,
+                      "y": 0.42,
+                      "gap": 0,
+                      "rotation": 0
+                    },
+                    {
+                      "uid": "imw199zzkrx5qob",
+                      "relation": "canvas",
+                      "x": 0.22,
+                      "y": 0.2,
+                      "gap": 0,
+                      "rotation": 0
+                    }
+                  ]
+                },
+                {
+                  "principle": "Просторное вертикальное расположение с акцентом на центральную пару.",
+                  "placements": [
+                    {
+                      "uid": "imw199zzk0xvsg1",
+                      "relation": "canvas",
+                      "x": 0.5,
+                      "y": 0.6,
+                      "gap": 0,
+                      "rotation": 0
+                    },
+                    {
+                      "uid": "imw199zzkrzuzb4",
+                      "relation": "canvas",
+                      "x": 0.52,
+                      "y": 0.4,
+                      "gap": 0,
+                      "rotation": 0
+                    },
+                    {
+                      "uid": "imw199zzkrx5qob",
+                      "relation": "canvas",
+                      "x": 0.2,
+                      "y": 0.18,
+                      "gap": 0,
+                      "rotation": 0
+                    }
+                  ]
+                },
+                {
+                  "principle": "Диагональное построение в портретном формате для усиления динамики.",
+                  "placements": [
+                    {
+                      "uid": "imw199zzk0xvsg1",
+                      "relation": "canvas",
+                      "x": 0.46,
+                      "y": 0.62,
+                      "gap": 0,
+                      "rotation": 0
+                    },
+                    {
+                      "uid": "imw199zzkrzuzb4",
+                      "relation": "canvas",
+                      "x": 0.55,
+                      "y": 0.44,
+                      "gap": 0,
+                      "rotation": 0
+                    },
+                    {
+                      "uid": "imw199zzkrx5qob",
+                      "relation": "canvas",
+                      "x": 0.25,
+                      "y": 0.22,
+                      "gap": 0,
+                      "rotation": 0
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "executionNotes": [
+            "Положение «Настольная лампа» уточнено по границам кадра и реестру пересечений.",
+            "Положение «Открытая книга» уточнено по границам кадра и реестру пересечений."
+          ],
+          "width": 1200,
+          "height": 630,
+          "format": "landscape",
+          "size": "S",
+          "palette": "aqua",
+          "layout": "compact",
+          "background": "pattern",
+          "backgroundDesign": "auto",
+          "supporting": true,
+          "showSupporting": true,
+          "camera": null,
+          "composition": {
+            "index": 0,
+            "options": [
+              {
+                "strategy": "balanced",
+                "title": "На опоре",
+                "principle": "Книга и ваза с цветами образуют сбалансированную центральную группу с фоновой лампой.",
+                "placement": "on-surface"
+              },
+              {
+                "strategy": "spacious",
+                "title": "Рядом",
+                "principle": "Просторное размещение книги и цветов с мягким отступом и фоновым акцентом слева.",
+                "placement": "beside"
+              },
+              {
+                "strategy": "diagonal",
+                "title": "Другой ракурс группы",
+                "principle": "Диагональная компоновка элементов для динамичного восприятия темы роста.",
+                "placement": "across"
+              }
+            ]
+          },
+          "layerRelations": [
+            {
+              "back": "imw199zzkrx5qob",
+              "front": "imw199zzk0xvsg1",
+              "reason": "Фоновый компаньон находится позади главной группы."
+            }
+          ],
+          "recipe": "auto",
+          "framing": "overview",
+          "focus": "book",
+          "query": "Дать идеям расцвести",
+          "scale": 1,
+          "items": [
+            {
+              "uid": "imw199zzkrx5qob",
+              "assetId": "lamp",
+              "role": "background",
+              "x": 0,
+              "y": 0,
+              "rotation": 0,
+              "flipX": false,
+              "flipY": false,
+              "zone": "top-left",
+              "crop": "fragment"
+            },
+            {
+              "uid": "imw199zzkrzuzb4",
+              "assetId": "flowers",
+              "role": "main",
+              "x": 655.44,
+              "y": 280.63,
+              "rotation": 0,
+              "flipX": false,
+              "flipY": false,
+              "zone": "auto",
+              "crop": "whole"
+            },
+            {
+              "uid": "imw199zzk0xvsg1",
+              "assetId": "book",
+              "role": "main",
+              "x": 192,
+              "y": 403.2,
+              "rotation": 0,
+              "flipX": false,
+              "flipY": false,
+              "zone": "auto",
+              "crop": "whole"
+            }
+          ]
+        },
+        {
+          "version": 1,
+          "sizing": "native",
+          "environmentPrompt": "",
+          "environmentExplanation": [
+            "Главная группа объединяет открытую книгу и цветущие тюльпаны в вазе, раскрывая тему роста и вдохновения.",
+            "Фоновый элемент — настольная лампа в верхнем углу, создающая атмосферу тепла и сосредоточенности.",
+            "Композиция выстроена с плотной связкой основных предметов в центре холста."
+          ],
+          "groups": [
+            {
+              "kind": "collection",
+              "members": [
+                "imw199zzkrzuzb4",
+                "imw199zzk0xvsg1"
+              ],
+              "reason": "Просторное распределение книги и вазы с цветами в ландшафтном формате."
+            }
+          ],
+          "formatPlans": [],
+          "stagingPlans": [
+            {
+              "format": "square",
+              "views": [
+                {
+                  "principle": "Книга и ваза с цветами образуют сбалансированную центральную группу с фоновой лампой.",
+                  "placements": [
+                    {
+                      "uid": "imw199zzk0xvsg1",
+                      "relation": "canvas",
+                      "x": 0.48,
+                      "y": 0.52,
+                      "gap": 0,
+                      "rotation": 0
+                    },
+                    {
+                      "uid": "imw199zzkrzuzb4",
+                      "relation": "canvas",
+                      "x": 0.52,
+                      "y": 0.38,
+                      "gap": 0,
+                      "rotation": 0
+                    },
+                    {
+                      "uid": "imw199zzkrx5qob",
+                      "relation": "canvas",
+                      "x": 0.18,
+                      "y": 0.22,
+                      "gap": 0,
+                      "rotation": 0
+                    }
+                  ]
+                },
+                {
+                  "principle": "Просторное размещение книги и цветов с мягким отступом и фоновым акцентом слева.",
+                  "placements": [
+                    {
+                      "uid": "imw199zzk0xvsg1",
+                      "relation": "canvas",
+                      "x": 0.5,
+                      "y": 0.55,
+                      "gap": 0,
+                      "rotation": 0
+                    },
+                    {
+                      "uid": "imw199zzkrzuzb4",
+                      "relation": "canvas",
+                      "x": 0.55,
+                      "y": 0.35,
+                      "gap": 0,
+                      "rotation": 0
+                    },
+                    {
+                      "uid": "imw199zzkrx5qob",
+                      "relation": "canvas",
+                      "x": 0.15,
+                      "y": 0.2,
+                      "gap": 0,
+                      "rotation": 0
+                    }
+                  ]
+                },
+                {
+                  "principle": "Диагональная компоновка элементов для динамичного восприятия темы роста.",
+                  "placements": [
+                    {
+                      "uid": "imw199zzk0xvsg1",
+                      "relation": "canvas",
+                      "x": 0.45,
+                      "y": 0.58,
+                      "gap": 0,
+                      "rotation": 0
+                    },
+                    {
+                      "uid": "imw199zzkrzuzb4",
+                      "relation": "canvas",
+                      "x": 0.6,
+                      "y": 0.4,
+                      "gap": 0,
+                      "rotation": 0
+                    },
+                    {
+                      "uid": "imw199zzkrx5qob",
+                      "relation": "canvas",
+                      "x": 0.2,
+                      "y": 0.25,
+                      "gap": 0,
+                      "rotation": 0
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "format": "landscape",
+              "views": [
+                {
+                  "principle": "Сбалансированная горизонтальная композиция с центральным расположением главных объектов.",
+                  "placements": [
+                    {
+                      "uid": "imw199zzk0xvsg1",
+                      "relation": "canvas",
+                      "x": 0.5,
+                      "y": 0.55,
+                      "gap": 0,
+                      "rotation": 0
+                    },
+                    {
+                      "uid": "imw199zzkrzuzb4",
+                      "relation": "canvas",
+                      "x": 0.53,
+                      "y": 0.4,
+                      "gap": 0,
+                      "rotation": 0
+                    },
+                    {
+                      "uid": "imw199zzkrx5qob",
+                      "relation": "canvas",
+                      "x": 0.2,
+                      "y": 0.22,
+                      "gap": 0,
+                      "rotation": 0
+                    }
+                  ]
+                },
+                {
+                  "principle": "Просторное распределение книги и вазы с цветами в ландшафтном формате.",
+                  "placements": [
+                    {
+                      "uid": "imw199zzk0xvsg1",
+                      "relation": "canvas",
+                      "x": 0.52,
+                      "y": 0.58,
+                      "gap": 0,
+                      "rotation": 0
+                    },
+                    {
+                      "uid": "imw199zzkrzuzb4",
+                      "relation": "canvas",
+                      "x": 0.56,
+                      "y": 0.38,
+                      "gap": 0,
+                      "rotation": 0
+                    },
+                    {
+                      "uid": "imw199zzkrx5qob",
+                      "relation": "canvas",
+                      "x": 0.18,
+                      "y": 0.2,
+                      "gap": 0,
+                      "rotation": 0
+                    }
+                  ]
+                },
+                {
+                  "principle": "Диагональный ритм основных предметов для создания визуальной глубины.",
+                  "placements": [
+                    {
+                      "uid": "imw199zzk0xvsg1",
+                      "relation": "canvas",
+                      "x": 0.48,
+                      "y": 0.56,
+                      "gap": 0,
+                      "rotation": 0
+                    },
+                    {
+                      "uid": "imw199zzkrzuzb4",
+                      "relation": "canvas",
+                      "x": 0.58,
+                      "y": 0.42,
+                      "gap": 0,
+                      "rotation": 0
+                    },
+                    {
+                      "uid": "imw199zzkrx5qob",
+                      "relation": "canvas",
+                      "x": 0.22,
+                      "y": 0.25,
+                      "gap": 0,
+                      "rotation": 0
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "format": "portrait",
+              "views": [
+                {
+                  "principle": "Вертикальная сбалансированная компоновка для компактного отображения.",
+                  "placements": [
+                    {
+                      "uid": "imw199zzk0xvsg1",
+                      "relation": "canvas",
+                      "x": 0.5,
+                      "y": 0.58,
+                      "gap": 0,
+                      "rotation": 0
+                    },
+                    {
+                      "uid": "imw199zzkrzuzb4",
+                      "relation": "canvas",
+                      "x": 0.5,
+                      "y": 0.42,
+                      "gap": 0,
+                      "rotation": 0
+                    },
+                    {
+                      "uid": "imw199zzkrx5qob",
+                      "relation": "canvas",
+                      "x": 0.22,
+                      "y": 0.2,
+                      "gap": 0,
+                      "rotation": 0
+                    }
+                  ]
+                },
+                {
+                  "principle": "Просторное вертикальное расположение с акцентом на центральную пару.",
+                  "placements": [
+                    {
+                      "uid": "imw199zzk0xvsg1",
+                      "relation": "canvas",
+                      "x": 0.5,
+                      "y": 0.6,
+                      "gap": 0,
+                      "rotation": 0
+                    },
+                    {
+                      "uid": "imw199zzkrzuzb4",
+                      "relation": "canvas",
+                      "x": 0.52,
+                      "y": 0.4,
+                      "gap": 0,
+                      "rotation": 0
+                    },
+                    {
+                      "uid": "imw199zzkrx5qob",
+                      "relation": "canvas",
+                      "x": 0.2,
+                      "y": 0.18,
+                      "gap": 0,
+                      "rotation": 0
+                    }
+                  ]
+                },
+                {
+                  "principle": "Диагональное построение в портретном формате для усиления динамики.",
+                  "placements": [
+                    {
+                      "uid": "imw199zzk0xvsg1",
+                      "relation": "canvas",
+                      "x": 0.46,
+                      "y": 0.62,
+                      "gap": 0,
+                      "rotation": 0
+                    },
+                    {
+                      "uid": "imw199zzkrzuzb4",
+                      "relation": "canvas",
+                      "x": 0.55,
+                      "y": 0.44,
+                      "gap": 0,
+                      "rotation": 0
+                    },
+                    {
+                      "uid": "imw199zzkrx5qob",
+                      "relation": "canvas",
+                      "x": 0.25,
+                      "y": 0.22,
+                      "gap": 0,
+                      "rotation": 0
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "executionNotes": [
+            "Положение «Настольная лампа» уточнено по границам кадра и реестру пересечений.",
+            "Положение «Открытая книга» уточнено по границам кадра и реестру пересечений."
+          ],
+          "width": 1200,
+          "height": 630,
+          "format": "landscape",
+          "size": "S",
+          "palette": "aqua",
+          "layout": "compact",
+          "background": "pattern",
+          "backgroundDesign": "auto",
+          "supporting": true,
+          "showSupporting": true,
+          "camera": null,
+          "composition": {
+            "index": 1,
+            "options": [
+              {
+                "strategy": "balanced",
+                "title": "На опоре",
+                "principle": "Книга и ваза с цветами образуют сбалансированную центральную группу с фоновой лампой.",
+                "placement": "on-surface"
+              },
+              {
+                "strategy": "spacious",
+                "title": "Рядом",
+                "principle": "Просторное размещение книги и цветов с мягким отступом и фоновым акцентом слева.",
+                "placement": "beside"
+              },
+              {
+                "strategy": "diagonal",
+                "title": "Другой ракурс группы",
+                "principle": "Диагональная компоновка элементов для динамичного восприятия темы роста.",
+                "placement": "across"
+              }
+            ]
+          },
+          "layerRelations": [
+            {
+              "back": "imw199zzkrx5qob",
+              "front": "imw199zzk0xvsg1",
+              "reason": "Фоновый компаньон находится позади главной группы."
+            }
+          ],
+          "recipe": "auto",
+          "framing": "overview",
+          "focus": "book",
+          "query": "Дать идеям расцвести",
+          "scale": 1,
+          "items": [
+            {
+              "uid": "imw199zzkrx5qob",
+              "assetId": "lamp",
+              "role": "background",
+              "x": 0,
+              "y": 0,
+              "rotation": 0,
+              "flipX": false,
+              "flipY": false,
+              "zone": "top-left",
+              "crop": "fragment"
+            },
+            {
+              "uid": "imw199zzkrzuzb4",
+              "assetId": "flowers",
+              "role": "main",
+              "x": 691.44,
+              "y": 268.03000000000003,
+              "rotation": 0,
+              "flipX": false,
+              "flipY": false,
+              "zone": "auto",
+              "crop": "whole"
+            },
+            {
+              "uid": "imw199zzk0xvsg1",
+              "assetId": "book",
+              "role": "main",
+              "x": 192,
+              "y": 389.84999999999997,
+              "rotation": 0,
+              "flipX": false,
+              "flipY": false,
+              "zone": "auto",
+              "crop": "whole"
+            }
+          ]
+        },
+        {
+          "version": 1,
+          "sizing": "native",
+          "environmentPrompt": "",
+          "environmentExplanation": [
+            "Главная группа объединяет открытую книгу и цветущие тюльпаны в вазе, раскрывая тему роста и вдохновения.",
+            "Фоновый элемент — настольная лампа в верхнем углу, создающая атмосферу тепла и сосредоточенности.",
+            "Композиция выстроена с плотной связкой основных предметов в центре холста."
+          ],
+          "groups": [
+            {
+              "kind": "collection",
+              "members": [
+                "imw199zzkrzuzb4",
+                "imw199zzk0xvsg1"
+              ],
+              "reason": "Диагональный ритм основных предметов для создания визуальной глубины."
+            }
+          ],
+          "formatPlans": [],
+          "stagingPlans": [
+            {
+              "format": "square",
+              "views": [
+                {
+                  "principle": "Книга и ваза с цветами образуют сбалансированную центральную группу с фоновой лампой.",
+                  "placements": [
+                    {
+                      "uid": "imw199zzk0xvsg1",
+                      "relation": "canvas",
+                      "x": 0.48,
+                      "y": 0.52,
+                      "gap": 0,
+                      "rotation": 0
+                    },
+                    {
+                      "uid": "imw199zzkrzuzb4",
+                      "relation": "canvas",
+                      "x": 0.52,
+                      "y": 0.38,
+                      "gap": 0,
+                      "rotation": 0
+                    },
+                    {
+                      "uid": "imw199zzkrx5qob",
+                      "relation": "canvas",
+                      "x": 0.18,
+                      "y": 0.22,
+                      "gap": 0,
+                      "rotation": 0
+                    }
+                  ]
+                },
+                {
+                  "principle": "Просторное размещение книги и цветов с мягким отступом и фоновым акцентом слева.",
+                  "placements": [
+                    {
+                      "uid": "imw199zzk0xvsg1",
+                      "relation": "canvas",
+                      "x": 0.5,
+                      "y": 0.55,
+                      "gap": 0,
+                      "rotation": 0
+                    },
+                    {
+                      "uid": "imw199zzkrzuzb4",
+                      "relation": "canvas",
+                      "x": 0.55,
+                      "y": 0.35,
+                      "gap": 0,
+                      "rotation": 0
+                    },
+                    {
+                      "uid": "imw199zzkrx5qob",
+                      "relation": "canvas",
+                      "x": 0.15,
+                      "y": 0.2,
+                      "gap": 0,
+                      "rotation": 0
+                    }
+                  ]
+                },
+                {
+                  "principle": "Диагональная компоновка элементов для динамичного восприятия темы роста.",
+                  "placements": [
+                    {
+                      "uid": "imw199zzk0xvsg1",
+                      "relation": "canvas",
+                      "x": 0.45,
+                      "y": 0.58,
+                      "gap": 0,
+                      "rotation": 0
+                    },
+                    {
+                      "uid": "imw199zzkrzuzb4",
+                      "relation": "canvas",
+                      "x": 0.6,
+                      "y": 0.4,
+                      "gap": 0,
+                      "rotation": 0
+                    },
+                    {
+                      "uid": "imw199zzkrx5qob",
+                      "relation": "canvas",
+                      "x": 0.2,
+                      "y": 0.25,
+                      "gap": 0,
+                      "rotation": 0
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "format": "landscape",
+              "views": [
+                {
+                  "principle": "Сбалансированная горизонтальная композиция с центральным расположением главных объектов.",
+                  "placements": [
+                    {
+                      "uid": "imw199zzk0xvsg1",
+                      "relation": "canvas",
+                      "x": 0.5,
+                      "y": 0.55,
+                      "gap": 0,
+                      "rotation": 0
+                    },
+                    {
+                      "uid": "imw199zzkrzuzb4",
+                      "relation": "canvas",
+                      "x": 0.53,
+                      "y": 0.4,
+                      "gap": 0,
+                      "rotation": 0
+                    },
+                    {
+                      "uid": "imw199zzkrx5qob",
+                      "relation": "canvas",
+                      "x": 0.2,
+                      "y": 0.22,
+                      "gap": 0,
+                      "rotation": 0
+                    }
+                  ]
+                },
+                {
+                  "principle": "Просторное распределение книги и вазы с цветами в ландшафтном формате.",
+                  "placements": [
+                    {
+                      "uid": "imw199zzk0xvsg1",
+                      "relation": "canvas",
+                      "x": 0.52,
+                      "y": 0.58,
+                      "gap": 0,
+                      "rotation": 0
+                    },
+                    {
+                      "uid": "imw199zzkrzuzb4",
+                      "relation": "canvas",
+                      "x": 0.56,
+                      "y": 0.38,
+                      "gap": 0,
+                      "rotation": 0
+                    },
+                    {
+                      "uid": "imw199zzkrx5qob",
+                      "relation": "canvas",
+                      "x": 0.18,
+                      "y": 0.2,
+                      "gap": 0,
+                      "rotation": 0
+                    }
+                  ]
+                },
+                {
+                  "principle": "Диагональный ритм основных предметов для создания визуальной глубины.",
+                  "placements": [
+                    {
+                      "uid": "imw199zzk0xvsg1",
+                      "relation": "canvas",
+                      "x": 0.48,
+                      "y": 0.56,
+                      "gap": 0,
+                      "rotation": 0
+                    },
+                    {
+                      "uid": "imw199zzkrzuzb4",
+                      "relation": "canvas",
+                      "x": 0.58,
+                      "y": 0.42,
+                      "gap": 0,
+                      "rotation": 0
+                    },
+                    {
+                      "uid": "imw199zzkrx5qob",
+                      "relation": "canvas",
+                      "x": 0.22,
+                      "y": 0.25,
+                      "gap": 0,
+                      "rotation": 0
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "format": "portrait",
+              "views": [
+                {
+                  "principle": "Вертикальная сбалансированная компоновка для компактного отображения.",
+                  "placements": [
+                    {
+                      "uid": "imw199zzk0xvsg1",
+                      "relation": "canvas",
+                      "x": 0.5,
+                      "y": 0.58,
+                      "gap": 0,
+                      "rotation": 0
+                    },
+                    {
+                      "uid": "imw199zzkrzuzb4",
+                      "relation": "canvas",
+                      "x": 0.5,
+                      "y": 0.42,
+                      "gap": 0,
+                      "rotation": 0
+                    },
+                    {
+                      "uid": "imw199zzkrx5qob",
+                      "relation": "canvas",
+                      "x": 0.22,
+                      "y": 0.2,
+                      "gap": 0,
+                      "rotation": 0
+                    }
+                  ]
+                },
+                {
+                  "principle": "Просторное вертикальное расположение с акцентом на центральную пару.",
+                  "placements": [
+                    {
+                      "uid": "imw199zzk0xvsg1",
+                      "relation": "canvas",
+                      "x": 0.5,
+                      "y": 0.6,
+                      "gap": 0,
+                      "rotation": 0
+                    },
+                    {
+                      "uid": "imw199zzkrzuzb4",
+                      "relation": "canvas",
+                      "x": 0.52,
+                      "y": 0.4,
+                      "gap": 0,
+                      "rotation": 0
+                    },
+                    {
+                      "uid": "imw199zzkrx5qob",
+                      "relation": "canvas",
+                      "x": 0.2,
+                      "y": 0.18,
+                      "gap": 0,
+                      "rotation": 0
+                    }
+                  ]
+                },
+                {
+                  "principle": "Диагональное построение в портретном формате для усиления динамики.",
+                  "placements": [
+                    {
+                      "uid": "imw199zzk0xvsg1",
+                      "relation": "canvas",
+                      "x": 0.46,
+                      "y": 0.62,
+                      "gap": 0,
+                      "rotation": 0
+                    },
+                    {
+                      "uid": "imw199zzkrzuzb4",
+                      "relation": "canvas",
+                      "x": 0.55,
+                      "y": 0.44,
+                      "gap": 0,
+                      "rotation": 0
+                    },
+                    {
+                      "uid": "imw199zzkrx5qob",
+                      "relation": "canvas",
+                      "x": 0.25,
+                      "y": 0.22,
+                      "gap": 0,
+                      "rotation": 0
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "executionNotes": [
+            "Положение «Настольная лампа» уточнено по границам кадра и реестру пересечений.",
+            "Положение «Открытая книга» уточнено по границам кадра и реестру пересечений."
+          ],
+          "width": 1200,
+          "height": 630,
+          "format": "landscape",
+          "size": "S",
+          "palette": "aqua",
+          "layout": "compact",
+          "background": "pattern",
+          "backgroundDesign": "auto",
+          "supporting": true,
+          "showSupporting": true,
+          "camera": null,
+          "composition": {
+            "index": 2,
+            "options": [
+              {
+                "strategy": "balanced",
+                "title": "На опоре",
+                "principle": "Книга и ваза с цветами образуют сбалансированную центральную группу с фоновой лампой.",
+                "placement": "on-surface"
+              },
+              {
+                "strategy": "spacious",
+                "title": "Рядом",
+                "principle": "Просторное размещение книги и цветов с мягким отступом и фоновым акцентом слева.",
+                "placement": "beside"
+              },
+              {
+                "strategy": "diagonal",
+                "title": "Другой ракурс группы",
+                "principle": "Диагональная компоновка элементов для динамичного восприятия темы роста.",
+                "placement": "across"
+              }
+            ]
+          },
+          "layerRelations": [
+            {
+              "back": "imw199zzkrx5qob",
+              "front": "imw199zzk0xvsg1",
+              "reason": "Фоновый компаньон находится позади главной группы."
+            }
+          ],
+          "recipe": "auto",
+          "framing": "overview",
+          "focus": "book",
+          "query": "Дать идеям расцвести",
+          "scale": 1,
+          "items": [
+            {
+              "uid": "imw199zzkrx5qob",
+              "assetId": "lamp",
+              "role": "background",
+              "x": 278.19,
+              "y": 554.4,
+              "rotation": 0,
+              "flipX": false,
+              "flipY": false,
+              "zone": "top-left",
+              "crop": "fragment"
+            },
+            {
+              "uid": "imw199zzkrzuzb4",
+              "assetId": "flowers",
+              "role": "main",
+              "x": 715.44,
+              "y": 293.22999999999996,
+              "rotation": 0,
+              "flipX": false,
+              "flipY": false,
+              "zone": "auto",
+              "crop": "whole"
+            },
+            {
+              "uid": "imw199zzk0xvsg1",
+              "assetId": "book",
+              "role": "main",
+              "x": 336.00000000000006,
+              "y": 100.80000000000001,
+              "rotation": 0,
+              "flipX": false,
+              "flipY": false,
+              "zone": "auto",
+              "crop": "whole"
+            }
+          ]
+        }
+      ],
+      "portrait": [
+        {
+          "version": 1,
+          "sizing": "native",
+          "environmentPrompt": "",
+          "environmentExplanation": [
+            "Главная группа объединяет открытую книгу и цветущие тюльпаны в вазе, раскрывая тему роста и вдохновения.",
+            "Фоновый элемент — настольная лампа в верхнем углу, создающая атмосферу тепла и сосредоточенности.",
+            "Композиция выстроена с плотной связкой основных предметов в центре холста."
+          ],
+          "groups": [
+            {
+              "kind": "collection",
+              "members": [
+                "imw199zzkrzuzb4",
+                "imw199zzk0xvsg1"
+              ],
+              "reason": "Вертикальная сбалансированная компоновка для компактного отображения."
+            }
+          ],
+          "formatPlans": [],
+          "stagingPlans": [
+            {
+              "format": "square",
+              "views": [
+                {
+                  "principle": "Книга и ваза с цветами образуют сбалансированную центральную группу с фоновой лампой.",
+                  "placements": [
+                    {
+                      "uid": "imw199zzk0xvsg1",
+                      "relation": "canvas",
+                      "x": 0.48,
+                      "y": 0.52,
+                      "gap": 0,
+                      "rotation": 0
+                    },
+                    {
+                      "uid": "imw199zzkrzuzb4",
+                      "relation": "canvas",
+                      "x": 0.52,
+                      "y": 0.38,
+                      "gap": 0,
+                      "rotation": 0
+                    },
+                    {
+                      "uid": "imw199zzkrx5qob",
+                      "relation": "canvas",
+                      "x": 0.18,
+                      "y": 0.22,
+                      "gap": 0,
+                      "rotation": 0
+                    }
+                  ]
+                },
+                {
+                  "principle": "Просторное размещение книги и цветов с мягким отступом и фоновым акцентом слева.",
+                  "placements": [
+                    {
+                      "uid": "imw199zzk0xvsg1",
+                      "relation": "canvas",
+                      "x": 0.5,
+                      "y": 0.55,
+                      "gap": 0,
+                      "rotation": 0
+                    },
+                    {
+                      "uid": "imw199zzkrzuzb4",
+                      "relation": "canvas",
+                      "x": 0.55,
+                      "y": 0.35,
+                      "gap": 0,
+                      "rotation": 0
+                    },
+                    {
+                      "uid": "imw199zzkrx5qob",
+                      "relation": "canvas",
+                      "x": 0.15,
+                      "y": 0.2,
+                      "gap": 0,
+                      "rotation": 0
+                    }
+                  ]
+                },
+                {
+                  "principle": "Диагональная компоновка элементов для динамичного восприятия темы роста.",
+                  "placements": [
+                    {
+                      "uid": "imw199zzk0xvsg1",
+                      "relation": "canvas",
+                      "x": 0.45,
+                      "y": 0.58,
+                      "gap": 0,
+                      "rotation": 0
+                    },
+                    {
+                      "uid": "imw199zzkrzuzb4",
+                      "relation": "canvas",
+                      "x": 0.6,
+                      "y": 0.4,
+                      "gap": 0,
+                      "rotation": 0
+                    },
+                    {
+                      "uid": "imw199zzkrx5qob",
+                      "relation": "canvas",
+                      "x": 0.2,
+                      "y": 0.25,
+                      "gap": 0,
+                      "rotation": 0
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "format": "landscape",
+              "views": [
+                {
+                  "principle": "Сбалансированная горизонтальная композиция с центральным расположением главных объектов.",
+                  "placements": [
+                    {
+                      "uid": "imw199zzk0xvsg1",
+                      "relation": "canvas",
+                      "x": 0.5,
+                      "y": 0.55,
+                      "gap": 0,
+                      "rotation": 0
+                    },
+                    {
+                      "uid": "imw199zzkrzuzb4",
+                      "relation": "canvas",
+                      "x": 0.53,
+                      "y": 0.4,
+                      "gap": 0,
+                      "rotation": 0
+                    },
+                    {
+                      "uid": "imw199zzkrx5qob",
+                      "relation": "canvas",
+                      "x": 0.2,
+                      "y": 0.22,
+                      "gap": 0,
+                      "rotation": 0
+                    }
+                  ]
+                },
+                {
+                  "principle": "Просторное распределение книги и вазы с цветами в ландшафтном формате.",
+                  "placements": [
+                    {
+                      "uid": "imw199zzk0xvsg1",
+                      "relation": "canvas",
+                      "x": 0.52,
+                      "y": 0.58,
+                      "gap": 0,
+                      "rotation": 0
+                    },
+                    {
+                      "uid": "imw199zzkrzuzb4",
+                      "relation": "canvas",
+                      "x": 0.56,
+                      "y": 0.38,
+                      "gap": 0,
+                      "rotation": 0
+                    },
+                    {
+                      "uid": "imw199zzkrx5qob",
+                      "relation": "canvas",
+                      "x": 0.18,
+                      "y": 0.2,
+                      "gap": 0,
+                      "rotation": 0
+                    }
+                  ]
+                },
+                {
+                  "principle": "Диагональный ритм основных предметов для создания визуальной глубины.",
+                  "placements": [
+                    {
+                      "uid": "imw199zzk0xvsg1",
+                      "relation": "canvas",
+                      "x": 0.48,
+                      "y": 0.56,
+                      "gap": 0,
+                      "rotation": 0
+                    },
+                    {
+                      "uid": "imw199zzkrzuzb4",
+                      "relation": "canvas",
+                      "x": 0.58,
+                      "y": 0.42,
+                      "gap": 0,
+                      "rotation": 0
+                    },
+                    {
+                      "uid": "imw199zzkrx5qob",
+                      "relation": "canvas",
+                      "x": 0.22,
+                      "y": 0.25,
+                      "gap": 0,
+                      "rotation": 0
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "format": "portrait",
+              "views": [
+                {
+                  "principle": "Вертикальная сбалансированная компоновка для компактного отображения.",
+                  "placements": [
+                    {
+                      "uid": "imw199zzk0xvsg1",
+                      "relation": "canvas",
+                      "x": 0.5,
+                      "y": 0.58,
+                      "gap": 0,
+                      "rotation": 0
+                    },
+                    {
+                      "uid": "imw199zzkrzuzb4",
+                      "relation": "canvas",
+                      "x": 0.5,
+                      "y": 0.42,
+                      "gap": 0,
+                      "rotation": 0
+                    },
+                    {
+                      "uid": "imw199zzkrx5qob",
+                      "relation": "canvas",
+                      "x": 0.22,
+                      "y": 0.2,
+                      "gap": 0,
+                      "rotation": 0
+                    }
+                  ]
+                },
+                {
+                  "principle": "Просторное вертикальное расположение с акцентом на центральную пару.",
+                  "placements": [
+                    {
+                      "uid": "imw199zzk0xvsg1",
+                      "relation": "canvas",
+                      "x": 0.5,
+                      "y": 0.6,
+                      "gap": 0,
+                      "rotation": 0
+                    },
+                    {
+                      "uid": "imw199zzkrzuzb4",
+                      "relation": "canvas",
+                      "x": 0.52,
+                      "y": 0.4,
+                      "gap": 0,
+                      "rotation": 0
+                    },
+                    {
+                      "uid": "imw199zzkrx5qob",
+                      "relation": "canvas",
+                      "x": 0.2,
+                      "y": 0.18,
+                      "gap": 0,
+                      "rotation": 0
+                    }
+                  ]
+                },
+                {
+                  "principle": "Диагональное построение в портретном формате для усиления динамики.",
+                  "placements": [
+                    {
+                      "uid": "imw199zzk0xvsg1",
+                      "relation": "canvas",
+                      "x": 0.46,
+                      "y": 0.62,
+                      "gap": 0,
+                      "rotation": 0
+                    },
+                    {
+                      "uid": "imw199zzkrzuzb4",
+                      "relation": "canvas",
+                      "x": 0.55,
+                      "y": 0.44,
+                      "gap": 0,
+                      "rotation": 0
+                    },
+                    {
+                      "uid": "imw199zzkrx5qob",
+                      "relation": "canvas",
+                      "x": 0.25,
+                      "y": 0.22,
+                      "gap": 0,
+                      "rotation": 0
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "executionNotes": [
+            "Положение «Открытая книга» уточнено по границам кадра и реестру пересечений."
+          ],
+          "width": 800,
+          "height": 1200,
+          "format": "portrait",
+          "size": "S",
+          "palette": "aqua",
+          "layout": "compact",
+          "background": "pattern",
+          "backgroundDesign": "auto",
+          "supporting": true,
+          "showSupporting": true,
+          "camera": null,
+          "composition": {
+            "index": 0,
+            "options": [
+              {
+                "strategy": "balanced",
+                "title": "На опоре",
+                "principle": "Книга и ваза с цветами образуют сбалансированную центральную группу с фоновой лампой.",
+                "placement": "on-surface"
+              },
+              {
+                "strategy": "spacious",
+                "title": "Рядом",
+                "principle": "Просторное размещение книги и цветов с мягким отступом и фоновым акцентом слева.",
+                "placement": "beside"
+              },
+              {
+                "strategy": "diagonal",
+                "title": "Другой ракурс группы",
+                "principle": "Диагональная компоновка элементов для динамичного восприятия темы роста.",
+                "placement": "across"
+              }
+            ]
+          },
+          "layerRelations": [
+            {
+              "back": "imw199zzkrx5qob",
+              "front": "imw199zzk0xvsg1",
+              "reason": "Фоновый компаньон находится позади главной группы."
+            }
+          ],
+          "recipe": "auto",
+          "framing": "overview",
+          "focus": "book",
+          "query": "Дать идеям расцвести",
+          "scale": 1,
+          "items": [
+            {
+              "uid": "imw199zzkrx5qob",
+              "assetId": "lamp",
+              "role": "background",
+              "x": 190.19,
+              "y": 296.5,
+              "rotation": 0,
+              "flipX": false,
+              "flipY": false,
+              "zone": "top-left",
+              "crop": "fragment"
+            },
+            {
+              "uid": "imw199zzkrzuzb4",
+              "assetId": "flowers",
+              "role": "main",
+              "x": 419.44,
+              "y": 532.63,
+              "rotation": 0,
+              "flipX": false,
+              "flipY": false,
+              "zone": "auto",
+              "crop": "whole"
+            },
+            {
+              "uid": "imw199zzk0xvsg1",
+              "assetId": "book",
+              "role": "main",
+              "x": 421.69,
+              "y": 984.0266864224137,
+              "rotation": 0,
+              "flipX": false,
+              "flipY": false,
+              "zone": "auto",
+              "crop": "whole"
+            }
+          ]
+        },
+        {
+          "version": 1,
+          "sizing": "native",
+          "environmentPrompt": "",
+          "environmentExplanation": [
+            "Главная группа объединяет открытую книгу и цветущие тюльпаны в вазе, раскрывая тему роста и вдохновения.",
+            "Фоновый элемент — настольная лампа в верхнем углу, создающая атмосферу тепла и сосредоточенности.",
+            "Композиция выстроена с плотной связкой основных предметов в центре холста."
+          ],
+          "groups": [
+            {
+              "kind": "collection",
+              "members": [
+                "imw199zzkrzuzb4",
+                "imw199zzk0xvsg1"
+              ],
+              "reason": "Просторное вертикальное расположение с акцентом на центральную пару."
+            }
+          ],
+          "formatPlans": [],
+          "stagingPlans": [
+            {
+              "format": "square",
+              "views": [
+                {
+                  "principle": "Книга и ваза с цветами образуют сбалансированную центральную группу с фоновой лампой.",
+                  "placements": [
+                    {
+                      "uid": "imw199zzk0xvsg1",
+                      "relation": "canvas",
+                      "x": 0.48,
+                      "y": 0.52,
+                      "gap": 0,
+                      "rotation": 0
+                    },
+                    {
+                      "uid": "imw199zzkrzuzb4",
+                      "relation": "canvas",
+                      "x": 0.52,
+                      "y": 0.38,
+                      "gap": 0,
+                      "rotation": 0
+                    },
+                    {
+                      "uid": "imw199zzkrx5qob",
+                      "relation": "canvas",
+                      "x": 0.18,
+                      "y": 0.22,
+                      "gap": 0,
+                      "rotation": 0
+                    }
+                  ]
+                },
+                {
+                  "principle": "Просторное размещение книги и цветов с мягким отступом и фоновым акцентом слева.",
+                  "placements": [
+                    {
+                      "uid": "imw199zzk0xvsg1",
+                      "relation": "canvas",
+                      "x": 0.5,
+                      "y": 0.55,
+                      "gap": 0,
+                      "rotation": 0
+                    },
+                    {
+                      "uid": "imw199zzkrzuzb4",
+                      "relation": "canvas",
+                      "x": 0.55,
+                      "y": 0.35,
+                      "gap": 0,
+                      "rotation": 0
+                    },
+                    {
+                      "uid": "imw199zzkrx5qob",
+                      "relation": "canvas",
+                      "x": 0.15,
+                      "y": 0.2,
+                      "gap": 0,
+                      "rotation": 0
+                    }
+                  ]
+                },
+                {
+                  "principle": "Диагональная компоновка элементов для динамичного восприятия темы роста.",
+                  "placements": [
+                    {
+                      "uid": "imw199zzk0xvsg1",
+                      "relation": "canvas",
+                      "x": 0.45,
+                      "y": 0.58,
+                      "gap": 0,
+                      "rotation": 0
+                    },
+                    {
+                      "uid": "imw199zzkrzuzb4",
+                      "relation": "canvas",
+                      "x": 0.6,
+                      "y": 0.4,
+                      "gap": 0,
+                      "rotation": 0
+                    },
+                    {
+                      "uid": "imw199zzkrx5qob",
+                      "relation": "canvas",
+                      "x": 0.2,
+                      "y": 0.25,
+                      "gap": 0,
+                      "rotation": 0
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "format": "landscape",
+              "views": [
+                {
+                  "principle": "Сбалансированная горизонтальная композиция с центральным расположением главных объектов.",
+                  "placements": [
+                    {
+                      "uid": "imw199zzk0xvsg1",
+                      "relation": "canvas",
+                      "x": 0.5,
+                      "y": 0.55,
+                      "gap": 0,
+                      "rotation": 0
+                    },
+                    {
+                      "uid": "imw199zzkrzuzb4",
+                      "relation": "canvas",
+                      "x": 0.53,
+                      "y": 0.4,
+                      "gap": 0,
+                      "rotation": 0
+                    },
+                    {
+                      "uid": "imw199zzkrx5qob",
+                      "relation": "canvas",
+                      "x": 0.2,
+                      "y": 0.22,
+                      "gap": 0,
+                      "rotation": 0
+                    }
+                  ]
+                },
+                {
+                  "principle": "Просторное распределение книги и вазы с цветами в ландшафтном формате.",
+                  "placements": [
+                    {
+                      "uid": "imw199zzk0xvsg1",
+                      "relation": "canvas",
+                      "x": 0.52,
+                      "y": 0.58,
+                      "gap": 0,
+                      "rotation": 0
+                    },
+                    {
+                      "uid": "imw199zzkrzuzb4",
+                      "relation": "canvas",
+                      "x": 0.56,
+                      "y": 0.38,
+                      "gap": 0,
+                      "rotation": 0
+                    },
+                    {
+                      "uid": "imw199zzkrx5qob",
+                      "relation": "canvas",
+                      "x": 0.18,
+                      "y": 0.2,
+                      "gap": 0,
+                      "rotation": 0
+                    }
+                  ]
+                },
+                {
+                  "principle": "Диагональный ритм основных предметов для создания визуальной глубины.",
+                  "placements": [
+                    {
+                      "uid": "imw199zzk0xvsg1",
+                      "relation": "canvas",
+                      "x": 0.48,
+                      "y": 0.56,
+                      "gap": 0,
+                      "rotation": 0
+                    },
+                    {
+                      "uid": "imw199zzkrzuzb4",
+                      "relation": "canvas",
+                      "x": 0.58,
+                      "y": 0.42,
+                      "gap": 0,
+                      "rotation": 0
+                    },
+                    {
+                      "uid": "imw199zzkrx5qob",
+                      "relation": "canvas",
+                      "x": 0.22,
+                      "y": 0.25,
+                      "gap": 0,
+                      "rotation": 0
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "format": "portrait",
+              "views": [
+                {
+                  "principle": "Вертикальная сбалансированная компоновка для компактного отображения.",
+                  "placements": [
+                    {
+                      "uid": "imw199zzk0xvsg1",
+                      "relation": "canvas",
+                      "x": 0.5,
+                      "y": 0.58,
+                      "gap": 0,
+                      "rotation": 0
+                    },
+                    {
+                      "uid": "imw199zzkrzuzb4",
+                      "relation": "canvas",
+                      "x": 0.5,
+                      "y": 0.42,
+                      "gap": 0,
+                      "rotation": 0
+                    },
+                    {
+                      "uid": "imw199zzkrx5qob",
+                      "relation": "canvas",
+                      "x": 0.22,
+                      "y": 0.2,
+                      "gap": 0,
+                      "rotation": 0
+                    }
+                  ]
+                },
+                {
+                  "principle": "Просторное вертикальное расположение с акцентом на центральную пару.",
+                  "placements": [
+                    {
+                      "uid": "imw199zzk0xvsg1",
+                      "relation": "canvas",
+                      "x": 0.5,
+                      "y": 0.6,
+                      "gap": 0,
+                      "rotation": 0
+                    },
+                    {
+                      "uid": "imw199zzkrzuzb4",
+                      "relation": "canvas",
+                      "x": 0.52,
+                      "y": 0.4,
+                      "gap": 0,
+                      "rotation": 0
+                    },
+                    {
+                      "uid": "imw199zzkrx5qob",
+                      "relation": "canvas",
+                      "x": 0.2,
+                      "y": 0.18,
+                      "gap": 0,
+                      "rotation": 0
+                    }
+                  ]
+                },
+                {
+                  "principle": "Диагональное построение в портретном формате для усиления динамики.",
+                  "placements": [
+                    {
+                      "uid": "imw199zzk0xvsg1",
+                      "relation": "canvas",
+                      "x": 0.46,
+                      "y": 0.62,
+                      "gap": 0,
+                      "rotation": 0
+                    },
+                    {
+                      "uid": "imw199zzkrzuzb4",
+                      "relation": "canvas",
+                      "x": 0.55,
+                      "y": 0.44,
+                      "gap": 0,
+                      "rotation": 0
+                    },
+                    {
+                      "uid": "imw199zzkrx5qob",
+                      "relation": "canvas",
+                      "x": 0.25,
+                      "y": 0.22,
+                      "gap": 0,
+                      "rotation": 0
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "executionNotes": [
+            "Положение «Открытая книга» уточнено по границам кадра и реестру пересечений."
+          ],
+          "width": 800,
+          "height": 1200,
+          "format": "portrait",
+          "size": "S",
+          "palette": "aqua",
+          "layout": "compact",
+          "background": "pattern",
+          "backgroundDesign": "auto",
+          "supporting": true,
+          "showSupporting": true,
+          "camera": null,
+          "composition": {
+            "index": 1,
+            "options": [
+              {
+                "strategy": "balanced",
+                "title": "На опоре",
+                "principle": "Книга и ваза с цветами образуют сбалансированную центральную группу с фоновой лампой.",
+                "placement": "on-surface"
+              },
+              {
+                "strategy": "spacious",
+                "title": "Рядом",
+                "principle": "Просторное размещение книги и цветов с мягким отступом и фоновым акцентом слева.",
+                "placement": "beside"
+              },
+              {
+                "strategy": "diagonal",
+                "title": "Другой ракурс группы",
+                "principle": "Диагональная компоновка элементов для динамичного восприятия темы роста.",
+                "placement": "across"
+              }
+            ]
+          },
+          "layerRelations": [
+            {
+              "back": "imw199zzkrx5qob",
+              "front": "imw199zzk0xvsg1",
+              "reason": "Фоновый компаньон находится позади главной группы."
+            }
+          ],
+          "recipe": "auto",
+          "framing": "overview",
+          "focus": "book",
+          "query": "Дать идеям расцвести",
+          "scale": 1,
+          "items": [
+            {
+              "uid": "imw199zzkrx5qob",
+              "assetId": "lamp",
+              "role": "background",
+              "x": 174.19,
+              "y": 272.5,
+              "rotation": 0,
+              "flipX": false,
+              "flipY": false,
+              "zone": "top-left",
+              "crop": "fragment"
+            },
+            {
+              "uid": "imw199zzkrzuzb4",
+              "assetId": "flowers",
+              "role": "main",
+              "x": 435.44,
+              "y": 508.63,
+              "rotation": 0,
+              "flipX": false,
+              "flipY": false,
+              "zone": "auto",
+              "crop": "whole"
+            },
+            {
+              "uid": "imw199zzk0xvsg1",
+              "assetId": "book",
+              "role": "main",
+              "x": 421.69,
+              "y": 960.0266864224137,
+              "rotation": 0,
+              "flipX": false,
+              "flipY": false,
+              "zone": "auto",
+              "crop": "whole"
+            }
+          ]
+        },
+        {
+          "version": 1,
+          "sizing": "native",
+          "environmentPrompt": "",
+          "environmentExplanation": [
+            "Главная группа объединяет открытую книгу и цветущие тюльпаны в вазе, раскрывая тему роста и вдохновения.",
+            "Фоновый элемент — настольная лампа в верхнем углу, создающая атмосферу тепла и сосредоточенности.",
+            "Композиция выстроена с плотной связкой основных предметов в центре холста."
+          ],
+          "groups": [
+            {
+              "kind": "collection",
+              "members": [
+                "imw199zzkrzuzb4",
+                "imw199zzk0xvsg1"
+              ],
+              "reason": "Диагональное построение в портретном формате для усиления динамики."
+            }
+          ],
+          "formatPlans": [],
+          "stagingPlans": [
+            {
+              "format": "square",
+              "views": [
+                {
+                  "principle": "Книга и ваза с цветами образуют сбалансированную центральную группу с фоновой лампой.",
+                  "placements": [
+                    {
+                      "uid": "imw199zzk0xvsg1",
+                      "relation": "canvas",
+                      "x": 0.48,
+                      "y": 0.52,
+                      "gap": 0,
+                      "rotation": 0
+                    },
+                    {
+                      "uid": "imw199zzkrzuzb4",
+                      "relation": "canvas",
+                      "x": 0.52,
+                      "y": 0.38,
+                      "gap": 0,
+                      "rotation": 0
+                    },
+                    {
+                      "uid": "imw199zzkrx5qob",
+                      "relation": "canvas",
+                      "x": 0.18,
+                      "y": 0.22,
+                      "gap": 0,
+                      "rotation": 0
+                    }
+                  ]
+                },
+                {
+                  "principle": "Просторное размещение книги и цветов с мягким отступом и фоновым акцентом слева.",
+                  "placements": [
+                    {
+                      "uid": "imw199zzk0xvsg1",
+                      "relation": "canvas",
+                      "x": 0.5,
+                      "y": 0.55,
+                      "gap": 0,
+                      "rotation": 0
+                    },
+                    {
+                      "uid": "imw199zzkrzuzb4",
+                      "relation": "canvas",
+                      "x": 0.55,
+                      "y": 0.35,
+                      "gap": 0,
+                      "rotation": 0
+                    },
+                    {
+                      "uid": "imw199zzkrx5qob",
+                      "relation": "canvas",
+                      "x": 0.15,
+                      "y": 0.2,
+                      "gap": 0,
+                      "rotation": 0
+                    }
+                  ]
+                },
+                {
+                  "principle": "Диагональная компоновка элементов для динамичного восприятия темы роста.",
+                  "placements": [
+                    {
+                      "uid": "imw199zzk0xvsg1",
+                      "relation": "canvas",
+                      "x": 0.45,
+                      "y": 0.58,
+                      "gap": 0,
+                      "rotation": 0
+                    },
+                    {
+                      "uid": "imw199zzkrzuzb4",
+                      "relation": "canvas",
+                      "x": 0.6,
+                      "y": 0.4,
+                      "gap": 0,
+                      "rotation": 0
+                    },
+                    {
+                      "uid": "imw199zzkrx5qob",
+                      "relation": "canvas",
+                      "x": 0.2,
+                      "y": 0.25,
+                      "gap": 0,
+                      "rotation": 0
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "format": "landscape",
+              "views": [
+                {
+                  "principle": "Сбалансированная горизонтальная композиция с центральным расположением главных объектов.",
+                  "placements": [
+                    {
+                      "uid": "imw199zzk0xvsg1",
+                      "relation": "canvas",
+                      "x": 0.5,
+                      "y": 0.55,
+                      "gap": 0,
+                      "rotation": 0
+                    },
+                    {
+                      "uid": "imw199zzkrzuzb4",
+                      "relation": "canvas",
+                      "x": 0.53,
+                      "y": 0.4,
+                      "gap": 0,
+                      "rotation": 0
+                    },
+                    {
+                      "uid": "imw199zzkrx5qob",
+                      "relation": "canvas",
+                      "x": 0.2,
+                      "y": 0.22,
+                      "gap": 0,
+                      "rotation": 0
+                    }
+                  ]
+                },
+                {
+                  "principle": "Просторное распределение книги и вазы с цветами в ландшафтном формате.",
+                  "placements": [
+                    {
+                      "uid": "imw199zzk0xvsg1",
+                      "relation": "canvas",
+                      "x": 0.52,
+                      "y": 0.58,
+                      "gap": 0,
+                      "rotation": 0
+                    },
+                    {
+                      "uid": "imw199zzkrzuzb4",
+                      "relation": "canvas",
+                      "x": 0.56,
+                      "y": 0.38,
+                      "gap": 0,
+                      "rotation": 0
+                    },
+                    {
+                      "uid": "imw199zzkrx5qob",
+                      "relation": "canvas",
+                      "x": 0.18,
+                      "y": 0.2,
+                      "gap": 0,
+                      "rotation": 0
+                    }
+                  ]
+                },
+                {
+                  "principle": "Диагональный ритм основных предметов для создания визуальной глубины.",
+                  "placements": [
+                    {
+                      "uid": "imw199zzk0xvsg1",
+                      "relation": "canvas",
+                      "x": 0.48,
+                      "y": 0.56,
+                      "gap": 0,
+                      "rotation": 0
+                    },
+                    {
+                      "uid": "imw199zzkrzuzb4",
+                      "relation": "canvas",
+                      "x": 0.58,
+                      "y": 0.42,
+                      "gap": 0,
+                      "rotation": 0
+                    },
+                    {
+                      "uid": "imw199zzkrx5qob",
+                      "relation": "canvas",
+                      "x": 0.22,
+                      "y": 0.25,
+                      "gap": 0,
+                      "rotation": 0
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "format": "portrait",
+              "views": [
+                {
+                  "principle": "Вертикальная сбалансированная компоновка для компактного отображения.",
+                  "placements": [
+                    {
+                      "uid": "imw199zzk0xvsg1",
+                      "relation": "canvas",
+                      "x": 0.5,
+                      "y": 0.58,
+                      "gap": 0,
+                      "rotation": 0
+                    },
+                    {
+                      "uid": "imw199zzkrzuzb4",
+                      "relation": "canvas",
+                      "x": 0.5,
+                      "y": 0.42,
+                      "gap": 0,
+                      "rotation": 0
+                    },
+                    {
+                      "uid": "imw199zzkrx5qob",
+                      "relation": "canvas",
+                      "x": 0.22,
+                      "y": 0.2,
+                      "gap": 0,
+                      "rotation": 0
+                    }
+                  ]
+                },
+                {
+                  "principle": "Просторное вертикальное расположение с акцентом на центральную пару.",
+                  "placements": [
+                    {
+                      "uid": "imw199zzk0xvsg1",
+                      "relation": "canvas",
+                      "x": 0.5,
+                      "y": 0.6,
+                      "gap": 0,
+                      "rotation": 0
+                    },
+                    {
+                      "uid": "imw199zzkrzuzb4",
+                      "relation": "canvas",
+                      "x": 0.52,
+                      "y": 0.4,
+                      "gap": 0,
+                      "rotation": 0
+                    },
+                    {
+                      "uid": "imw199zzkrx5qob",
+                      "relation": "canvas",
+                      "x": 0.2,
+                      "y": 0.18,
+                      "gap": 0,
+                      "rotation": 0
+                    }
+                  ]
+                },
+                {
+                  "principle": "Диагональное построение в портретном формате для усиления динамики.",
+                  "placements": [
+                    {
+                      "uid": "imw199zzk0xvsg1",
+                      "relation": "canvas",
+                      "x": 0.46,
+                      "y": 0.62,
+                      "gap": 0,
+                      "rotation": 0
+                    },
+                    {
+                      "uid": "imw199zzkrzuzb4",
+                      "relation": "canvas",
+                      "x": 0.55,
+                      "y": 0.44,
+                      "gap": 0,
+                      "rotation": 0
+                    },
+                    {
+                      "uid": "imw199zzkrx5qob",
+                      "relation": "canvas",
+                      "x": 0.25,
+                      "y": 0.22,
+                      "gap": 0,
+                      "rotation": 0
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "executionNotes": [
+            "Положение «Открытая книга» уточнено по границам кадра и реестру пересечений."
+          ],
+          "width": 800,
+          "height": 1200,
+          "format": "portrait",
+          "size": "S",
+          "palette": "aqua",
+          "layout": "compact",
+          "background": "pattern",
+          "backgroundDesign": "auto",
+          "supporting": true,
+          "showSupporting": true,
+          "camera": null,
+          "composition": {
+            "index": 2,
+            "options": [
+              {
+                "strategy": "balanced",
+                "title": "На опоре",
+                "principle": "Книга и ваза с цветами образуют сбалансированную центральную группу с фоновой лампой.",
+                "placement": "on-surface"
+              },
+              {
+                "strategy": "spacious",
+                "title": "Рядом",
+                "principle": "Просторное размещение книги и цветов с мягким отступом и фоновым акцентом слева.",
+                "placement": "beside"
+              },
+              {
+                "strategy": "diagonal",
+                "title": "Другой ракурс группы",
+                "principle": "Диагональная компоновка элементов для динамичного восприятия темы роста.",
+                "placement": "across"
+              }
+            ]
+          },
+          "layerRelations": [
+            {
+              "back": "imw199zzkrx5qob",
+              "front": "imw199zzk0xvsg1",
+              "reason": "Фоновый компаньон находится позади главной группы."
+            }
+          ],
+          "recipe": "auto",
+          "framing": "overview",
+          "focus": "book",
+          "query": "Дать идеям расцвести",
+          "scale": 1,
+          "items": [
+            {
+              "uid": "imw199zzkrx5qob",
+              "assetId": "lamp",
+              "role": "background",
+              "x": 214.19,
+              "y": 320.5,
+              "rotation": 0,
+              "flipX": false,
+              "flipY": false,
+              "zone": "top-left",
+              "crop": "fragment"
+            },
+            {
+              "uid": "imw199zzkrzuzb4",
+              "assetId": "flowers",
+              "role": "main",
+              "x": 459.44000000000005,
+              "y": 556.63,
+              "rotation": 0,
+              "flipX": false,
+              "flipY": false,
+              "zone": "auto",
+              "crop": "whole"
+            },
+            {
+              "uid": "imw199zzk0xvsg1",
+              "assetId": "book",
+              "role": "main",
+              "x": 389.69,
+              "y": 1008.0266864224137,
+              "rotation": 0,
+              "flipX": false,
+              "flipY": false,
+              "zone": "auto",
+              "crop": "whole"
+            }
+          ]
+        }
+      ]
+    }
+  }
+}

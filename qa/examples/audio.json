@@ -1,0 +1,34 @@
+{
+  "version": 1,
+  "width": 1920,
+  "height": 1080,
+  "format": "wide",
+  "size": "L",
+  "palette": "aqua",
+  "layout": "compact",
+  "background": "pattern",
+  "supporting": true,
+  "recipe": "auto",
+  "framing": "focus",
+  "focus": "auto",
+  "query": "Музыка и подкасты",
+  "scale": 1.0101224514651195,
+  "items": [
+    {
+      "assetId": "flowers",
+      "role": "background",
+      "uid": "imw0sznt1ow988y",
+      "x": 309.8265084199867,
+      "y": 113.98021938762315,
+      "rotation": 0
+    },
+    {
+      "assetId": "headphones",
+      "role": "main",
+      "uid": "imw0sznt10259y8",
+      "x": 996.5321600366451,
+      "y": 688.8810239999998,
+      "rotation": 0
+    }
+  ]
+}

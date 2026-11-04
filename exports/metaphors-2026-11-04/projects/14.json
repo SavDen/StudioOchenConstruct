@@ -1,0 +1,5031 @@
+{
+  "type": "composition-project",
+  "version": 2,
+  "scene": {
+    "version": 1,
+    "sizing": "native",
+    "environmentPrompt": "",
+    "environmentExplanation": [
+      "Главная смысловая группа объединяет кошелек и монету на папке для выражения темы ценностей.",
+      "Фоновый предмет-компаньон дополняет композицию сдержанным силуэтом у края.",
+      "Компактная раскладка сохраняет плотную и читаемую группу предметов на холсте."
+    ],
+    "groups": [
+      {
+        "kind": "collection",
+        "members": [
+          "imw199z1xqov43t",
+          "imw199z1xsxezdq",
+          "imw199z1x5qbf1r"
+        ],
+        "reason": "Папка в центре, кошелек и монета на ней, лампа слева"
+      }
+    ],
+    "formatPlans": [],
+    "stagingPlans": [
+      {
+        "format": "square",
+        "views": [
+          {
+            "principle": "Папка в центре, кошелек и монета на ней, лампа слева",
+            "placements": [
+              {
+                "uid": "imw199z1xqov43t",
+                "relation": "canvas",
+                "x": 0.5,
+                "y": 0.5,
+                "gap": 0,
+                "rotation": 0
+              },
+              {
+                "uid": "imw199z1xsxezdq",
+                "relation": "on",
+                "targetUid": "imw199z1xqov43t",
+                "x": 0.45,
+                "y": 0.45,
+                "gap": 0,
+                "rotation": 0
+              },
+              {
+                "uid": "imw199z1x5qbf1r",
+                "relation": "on",
+                "targetUid": "imw199z1xqov43t",
+                "x": 0.6,
+                "y": 0.55,
+                "gap": 0,
+                "rotation": 0
+              },
+              {
+                "uid": "imw199z1xx4yslr",
+                "relation": "canvas",
+                "x": 0.15,
+                "y": 0.25,
+                "gap": 0,
+                "rotation": 0
+              }
+            ]
+          },
+          {
+            "principle": "Связанная группа со смещением кошелька и монеты",
+            "placements": [
+              {
+                "uid": "imw199z1xqov43t",
+                "relation": "canvas",
+                "x": 0.52,
+                "y": 0.52,
+                "gap": 0,
+                "rotation": 0
+              },
+              {
+                "uid": "imw199z1xsxezdq",
+                "relation": "on",
+                "targetUid": "imw199z1xqov43t",
+                "x": 0.4,
+                "y": 0.5,
+                "gap": 0,
+                "rotation": 0
+              },
+              {
+                "uid": "imw199z1x5qbf1r",
+                "relation": "on",
+                "targetUid": "imw199z1xqov43t",
+                "x": 0.62,
+                "y": 0.48,
+                "gap": 0,
+                "rotation": 0
+              },
+              {
+                "uid": "imw199z1xx4yslr",
+                "relation": "canvas",
+                "x": 0.85,
+                "y": 0.3,
+                "gap": 0,
+                "rotation": 0
+              }
+            ]
+          },
+          {
+            "principle": "Диагональное построение ценностей на папке",
+            "placements": [
+              {
+                "uid": "imw199z1xqov43t",
+                "relation": "canvas",
+                "x": 0.48,
+                "y": 0.5,
+                "gap": 0,
+                "rotation": 0
+              },
+              {
+                "uid": "imw199z1xsxezdq",
+                "relation": "on",
+                "targetUid": "imw199z1xqov43t",
+                "x": 0.48,
+                "y": 0.42,
+                "gap": 0,
+                "rotation": 0
+              },
+              {
+                "uid": "imw199z1x5qbf1r",
+                "relation": "on",
+                "targetUid": "imw199z1xqov43t",
+                "x": 0.55,
+                "y": 0.58,
+                "gap": 0,
+                "rotation": 0
+              },
+              {
+                "uid": "imw199z1xx4yslr",
+                "relation": "canvas",
+                "x": 0.2,
+                "y": 0.8,
+                "gap": 0,
+                "rotation": 0
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "format": "landscape",
+        "views": [
+          {
+            "principle": "Горизонтальное размещение группы ценностей на папке",
+            "placements": [
+              {
+                "uid": "imw199z1xqov43t",
+                "relation": "canvas",
+                "x": 0.5,
+                "y": 0.52,
+                "gap": 0,
+                "rotation": 0
+              },
+              {
+                "uid": "imw199z1xsxezdq",
+                "relation": "on",
+                "targetUid": "imw199z1xqov43t",
+                "x": 0.42,
+                "y": 0.48,
+                "gap": 0,
+                "rotation": 0
+              },
+              {
+                "uid": "imw199z1x5qbf1r",
+                "relation": "on",
+                "targetUid": "imw199z1xqov43t",
+                "x": 0.58,
+                "y": 0.5,
+                "gap": 0,
+                "rotation": 0
+              },
+              {
+                "uid": "imw199z1xx4yslr",
+                "relation": "canvas",
+                "x": 0.15,
+                "y": 0.3,
+                "gap": 0,
+                "rotation": 0
+              }
+            ]
+          },
+          {
+            "principle": "Смещенный баланс ценных предметов",
+            "placements": [
+              {
+                "uid": "imw199z1xqov43t",
+                "relation": "canvas",
+                "x": 0.55,
+                "y": 0.5,
+                "gap": 0,
+                "rotation": 0
+              },
+              {
+                "uid": "imw199z1xsxezdq",
+                "relation": "on",
+                "targetUid": "imw199z1xqov43t",
+                "x": 0.45,
+                "y": 0.45,
+                "gap": 0,
+                "rotation": 0
+              },
+              {
+                "uid": "imw199z1x5qbf1r",
+                "relation": "on",
+                "targetUid": "imw199z1xqov43t",
+                "x": 0.55,
+                "y": 0.55,
+                "gap": 0,
+                "rotation": 0
+              },
+              {
+                "uid": "imw199z1xx4yslr",
+                "relation": "canvas",
+                "x": 0.85,
+                "y": 0.7,
+                "gap": 0,
+                "rotation": 0
+              }
+            ]
+          },
+          {
+            "principle": "Диагональная композиция с фоном слева",
+            "placements": [
+              {
+                "uid": "imw199z1xqov43t",
+                "relation": "canvas",
+                "x": 0.5,
+                "y": 0.5,
+                "gap": 0,
+                "rotation": 0
+              },
+              {
+                "uid": "imw199z1xsxezdq",
+                "relation": "on",
+                "targetUid": "imw199z1xqov43t",
+                "x": 0.38,
+                "y": 0.42,
+                "gap": 0,
+                "rotation": 0
+              },
+              {
+                "uid": "imw199z1x5qbf1r",
+                "relation": "on",
+                "targetUid": "imw199z1xqov43t",
+                "x": 0.62,
+                "y": 0.58,
+                "gap": 0,
+                "rotation": 0
+              },
+              {
+                "uid": "imw199z1xx4yslr",
+                "relation": "canvas",
+                "x": 0.18,
+                "y": 0.75,
+                "gap": 0,
+                "rotation": 0
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "format": "portrait",
+        "views": [
+          {
+            "principle": "Вертикальная компоновка элементов с кошельком и монетой",
+            "placements": [
+              {
+                "uid": "imw199z1xqov43t",
+                "relation": "canvas",
+                "x": 0.5,
+                "y": 0.55,
+                "gap": 0,
+                "rotation": 0
+              },
+              {
+                "uid": "imw199z1xsxezdq",
+                "relation": "on",
+                "targetUid": "imw199z1xqov43t",
+                "x": 0.45,
+                "y": 0.48,
+                "gap": 0,
+                "rotation": 0
+              },
+              {
+                "uid": "imw199z1x5qbf1r",
+                "relation": "on",
+                "targetUid": "imw199z1xqov43t",
+                "x": 0.58,
+                "y": 0.52,
+                "gap": 0,
+                "rotation": 0
+              },
+              {
+                "uid": "imw199z1xx4yslr",
+                "relation": "canvas",
+                "x": 0.2,
+                "y": 0.2,
+                "gap": 0,
+                "rotation": 0
+              }
+            ]
+          },
+          {
+            "principle": "Смещенный вертикальный баланс",
+            "placements": [
+              {
+                "uid": "imw199z1xqov43t",
+                "relation": "canvas",
+                "x": 0.48,
+                "y": 0.52,
+                "gap": 0,
+                "rotation": 0
+              },
+              {
+                "uid": "imw199z1xsxezdq",
+                "relation": "on",
+                "targetUid": "imw199z1xqov43t",
+                "x": 0.4,
+                "y": 0.45,
+                "gap": 0,
+                "rotation": 0
+              },
+              {
+                "uid": "imw199z1x5qbf1r",
+                "relation": "on",
+                "targetUid": "imw199z1xqov43t",
+                "x": 0.55,
+                "y": 0.5,
+                "gap": 0,
+                "rotation": 0
+              },
+              {
+                "uid": "imw199z1xx4yslr",
+                "relation": "canvas",
+                "x": 0.8,
+                "y": 0.85,
+                "gap": 0,
+                "rotation": 0
+              }
+            ]
+          },
+          {
+            "principle": "Высокая диагональ для вертикального кадра",
+            "placements": [
+              {
+                "uid": "imw199z1xqov43t",
+                "relation": "canvas",
+                "x": 0.5,
+                "y": 0.5,
+                "gap": 0,
+                "rotation": 0
+              },
+              {
+                "uid": "imw199z1xsxezdq",
+                "relation": "on",
+                "targetUid": "imw199z1xqov43t",
+                "x": 0.5,
+                "y": 0.4,
+                "gap": 0,
+                "rotation": 0
+              },
+              {
+                "uid": "imw199z1x5qbf1r",
+                "relation": "on",
+                "targetUid": "imw199z1xqov43t",
+                "x": 0.5,
+                "y": 0.6,
+                "gap": 0,
+                "rotation": 0
+              },
+              {
+                "uid": "imw199z1xx4yslr",
+                "relation": "canvas",
+                "x": 0.25,
+                "y": 0.82,
+                "gap": 0,
+                "rotation": 0
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "executionNotes": [
+      "Положение «Настольная лампа» уточнено по границам кадра и реестру пересечений.",
+      "Положение «Монета» уточнено по границам кадра и реестру пересечений."
+    ],
+    "width": 1000,
+    "height": 1000,
+    "format": "square",
+    "size": "S",
+    "palette": "aqua",
+    "layout": "compact",
+    "background": "pattern",
+    "backgroundDesign": "auto",
+    "supporting": true,
+    "showSupporting": true,
+    "camera": null,
+    "composition": {
+      "index": 0,
+      "options": [
+        {
+          "strategy": "balanced",
+          "title": "На опоре",
+          "principle": "Папка в центре, кошелек и монета на ней, лампа слева",
+          "placement": "on-surface"
+        },
+        {
+          "strategy": "spacious",
+          "title": "Рядом",
+          "principle": "Связанная группа со смещением кошелька и монеты",
+          "placement": "beside"
+        },
+        {
+          "strategy": "diagonal",
+          "title": "Другой ракурс группы",
+          "principle": "Диагональное построение ценностей на папке",
+          "placement": "across"
+        }
+      ]
+    },
+    "layerRelations": [
+      {
+        "back": "imw199z1xqov43t",
+        "front": "imw199z1xsxezdq",
+        "reason": "Предмет лежит на допустимой опоре."
+      },
+      {
+        "back": "imw199z1xqov43t",
+        "front": "imw199z1x5qbf1r",
+        "reason": "Предмет лежит на допустимой опоре."
+      },
+      {
+        "back": "imw199z1xx4yslr",
+        "front": "imw199z1xqov43t",
+        "reason": "Фоновый компаньон находится позади главной группы."
+      }
+    ],
+    "recipe": "auto",
+    "framing": "overview",
+    "focus": "wallet",
+    "query": "Сохранить самое ценное",
+    "scale": 1,
+    "items": [
+      {
+        "uid": "imw199z1xx4yslr",
+        "assetId": "lamp",
+        "role": "background",
+        "x": 0,
+        "y": 120,
+        "rotation": 0,
+        "flipX": false,
+        "flipY": false,
+        "zone": "top-left",
+        "crop": "fragment"
+      },
+      {
+        "uid": "imw199z1xqov43t",
+        "assetId": "folder",
+        "role": "main",
+        "x": 524.84,
+        "y": 513.2,
+        "rotation": 0,
+        "flipX": false,
+        "flipY": false,
+        "zone": "auto",
+        "crop": "whole"
+      },
+      {
+        "uid": "imw199z1xsxezdq",
+        "assetId": "wallet",
+        "role": "main",
+        "x": 493.79,
+        "y": 496.70000000000005,
+        "rotation": 0,
+        "flipX": false,
+        "flipY": false,
+        "supportUid": "imw199z1xqov43t",
+        "zone": "auto",
+        "crop": "whole"
+      },
+      {
+        "uid": "imw199z1x5qbf1r",
+        "assetId": "coin",
+        "role": "main",
+        "x": 686.3000000000001,
+        "y": 447.20000000000005,
+        "rotation": 0,
+        "flipX": false,
+        "flipY": false,
+        "supportUid": "imw199z1xqov43t",
+        "zone": "auto",
+        "crop": "whole"
+      }
+    ]
+  },
+  "memory": {
+    "version": 2,
+    "format": "square",
+    "index": 0,
+    "formats": {
+      "square": [
+        {
+          "version": 1,
+          "sizing": "native",
+          "environmentPrompt": "",
+          "environmentExplanation": [
+            "Главная смысловая группа объединяет кошелек и монету на папке для выражения темы ценностей.",
+            "Фоновый предмет-компаньон дополняет композицию сдержанным силуэтом у края.",
+            "Компактная раскладка сохраняет плотную и читаемую группу предметов на холсте."
+          ],
+          "groups": [
+            {
+              "kind": "collection",
+              "members": [
+                "imw199z1xqov43t",
+                "imw199z1xsxezdq",
+                "imw199z1x5qbf1r"
+              ],
+              "reason": "Папка в центре, кошелек и монета на ней, лампа слева"
+            }
+          ],
+          "formatPlans": [],
+          "stagingPlans": [
+            {
+              "format": "square",
+              "views": [
+                {
+                  "principle": "Папка в центре, кошелек и монета на ней, лампа слева",
+                  "placements": [
+                    {
+                      "uid": "imw199z1xqov43t",
+                      "relation": "canvas",
+                      "x": 0.5,
+                      "y": 0.5,
+                      "gap": 0,
+                      "rotation": 0
+                    },
+                    {
+                      "uid": "imw199z1xsxezdq",
+                      "relation": "on",
+                      "targetUid": "imw199z1xqov43t",
+                      "x": 0.45,
+                      "y": 0.45,
+                      "gap": 0,
+                      "rotation": 0
+                    },
+                    {
+                      "uid": "imw199z1x5qbf1r",
+                      "relation": "on",
+                      "targetUid": "imw199z1xqov43t",
+                      "x": 0.6,
+                      "y": 0.55,
+                      "gap": 0,
+                      "rotation": 0
+                    },
+                    {
+                      "uid": "imw199z1xx4yslr",
+                      "relation": "canvas",
+                      "x": 0.15,
+                      "y": 0.25,
+                      "gap": 0,
+                      "rotation": 0
+                    }
+                  ]
+                },
+                {
+                  "principle": "Связанная группа со смещением кошелька и монеты",
+                  "placements": [
+                    {
+                      "uid": "imw199z1xqov43t",
+                      "relation": "canvas",
+                      "x": 0.52,
+                      "y": 0.52,
+                      "gap": 0,
+                      "rotation": 0
+                    },
+                    {
+                      "uid": "imw199z1xsxezdq",
+                      "relation": "on",
+                      "targetUid": "imw199z1xqov43t",
+                      "x": 0.4,
+                      "y": 0.5,
+                      "gap": 0,
+                      "rotation": 0
+                    },
+                    {
+                      "uid": "imw199z1x5qbf1r",
+                      "relation": "on",
+                      "targetUid": "imw199z1xqov43t",
+                      "x": 0.62,
+                      "y": 0.48,
+                      "gap": 0,
+                      "rotation": 0
+                    },
+                    {
+                      "uid": "imw199z1xx4yslr",
+                      "relation": "canvas",
+                      "x": 0.85,
+                      "y": 0.3,
+                      "gap": 0,
+                      "rotation": 0
+                    }
+                  ]
+                },
+                {
+                  "principle": "Диагональное построение ценностей на папке",
+                  "placements": [
+                    {
+                      "uid": "imw199z1xqov43t",
+                      "relation": "canvas",
+                      "x": 0.48,
+                      "y": 0.5,
+                      "gap": 0,
+                      "rotation": 0
+                    },
+                    {
+                      "uid": "imw199z1xsxezdq",
+                      "relation": "on",
+                      "targetUid": "imw199z1xqov43t",
+                      "x": 0.48,
+                      "y": 0.42,
+                      "gap": 0,
+                      "rotation": 0
+                    },
+                    {
+                      "uid": "imw199z1x5qbf1r",
+                      "relation": "on",
+                      "targetUid": "imw199z1xqov43t",
+                      "x": 0.55,
+                      "y": 0.58,
+                      "gap": 0,
+                      "rotation": 0
+                    },
+                    {
+                      "uid": "imw199z1xx4yslr",
+                      "relation": "canvas",
+                      "x": 0.2,
+                      "y": 0.8,
+                      "gap": 0,
+                      "rotation": 0
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "format": "landscape",
+              "views": [
+                {
+                  "principle": "Горизонтальное размещение группы ценностей на папке",
+                  "placements": [
+                    {
+                      "uid": "imw199z1xqov43t",
+                      "relation": "canvas",
+                      "x": 0.5,
+                      "y": 0.52,
+                      "gap": 0,
+                      "rotation": 0
+                    },
+                    {
+                      "uid": "imw199z1xsxezdq",
+                      "relation": "on",
+                      "targetUid": "imw199z1xqov43t",
+                      "x": 0.42,
+                      "y": 0.48,
+                      "gap": 0,
+                      "rotation": 0
+                    },
+                    {
+                      "uid": "imw199z1x5qbf1r",
+                      "relation": "on",
+                      "targetUid": "imw199z1xqov43t",
+                      "x": 0.58,
+                      "y": 0.5,
+                      "gap": 0,
+                      "rotation": 0
+                    },
+                    {
+                      "uid": "imw199z1xx4yslr",
+                      "relation": "canvas",
+                      "x": 0.15,
+                      "y": 0.3,
+                      "gap": 0,
+                      "rotation": 0
+                    }
+                  ]
+                },
+                {
+                  "principle": "Смещенный баланс ценных предметов",
+                  "placements": [
+                    {
+                      "uid": "imw199z1xqov43t",
+                      "relation": "canvas",
+                      "x": 0.55,
+                      "y": 0.5,
+                      "gap": 0,
+                      "rotation": 0
+                    },
+                    {
+                      "uid": "imw199z1xsxezdq",
+                      "relation": "on",
+                      "targetUid": "imw199z1xqov43t",
+                      "x": 0.45,
+                      "y": 0.45,
+                      "gap": 0,
+                      "rotation": 0
+                    },
+                    {
+                      "uid": "imw199z1x5qbf1r",
+                      "relation": "on",
+                      "targetUid": "imw199z1xqov43t",
+                      "x": 0.55,
+                      "y": 0.55,
+                      "gap": 0,
+                      "rotation": 0
+                    },
+                    {
+                      "uid": "imw199z1xx4yslr",
+                      "relation": "canvas",
+                      "x": 0.85,
+                      "y": 0.7,
+                      "gap": 0,
+                      "rotation": 0
+                    }
+                  ]
+                },
+                {
+                  "principle": "Диагональная композиция с фоном слева",
+                  "placements": [
+                    {
+                      "uid": "imw199z1xqov43t",
+                      "relation": "canvas",
+                      "x": 0.5,
+                      "y": 0.5,
+                      "gap": 0,
+                      "rotation": 0
+                    },
+                    {
+                      "uid": "imw199z1xsxezdq",
+                      "relation": "on",
+                      "targetUid": "imw199z1xqov43t",
+                      "x": 0.38,
+                      "y": 0.42,
+                      "gap": 0,
+                      "rotation": 0
+                    },
+                    {
+                      "uid": "imw199z1x5qbf1r",
+                      "relation": "on",
+                      "targetUid": "imw199z1xqov43t",
+                      "x": 0.62,
+                      "y": 0.58,
+                      "gap": 0,
+                      "rotation": 0
+                    },
+                    {
+                      "uid": "imw199z1xx4yslr",
+                      "relation": "canvas",
+                      "x": 0.18,
+                      "y": 0.75,
+                      "gap": 0,
+                      "rotation": 0
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "format": "portrait",
+              "views": [
+                {
+                  "principle": "Вертикальная компоновка элементов с кошельком и монетой",
+                  "placements": [
+                    {
+                      "uid": "imw199z1xqov43t",
+                      "relation": "canvas",
+                      "x": 0.5,
+                      "y": 0.55,
+                      "gap": 0,
+                      "rotation": 0
+                    },
+                    {
+                      "uid": "imw199z1xsxezdq",
+                      "relation": "on",
+                      "targetUid": "imw199z1xqov43t",
+                      "x": 0.45,
+                      "y": 0.48,
+                      "gap": 0,
+                      "rotation": 0
+                    },
+                    {
+                      "uid": "imw199z1x5qbf1r",
+                      "relation": "on",
+                      "targetUid": "imw199z1xqov43t",
+                      "x": 0.58,
+                      "y": 0.52,
+                      "gap": 0,
+                      "rotation": 0
+                    },
+                    {
+                      "uid": "imw199z1xx4yslr",
+                      "relation": "canvas",
+                      "x": 0.2,
+                      "y": 0.2,
+                      "gap": 0,
+                      "rotation": 0
+                    }
+                  ]
+                },
+                {
+                  "principle": "Смещенный вертикальный баланс",
+                  "placements": [
+                    {
+                      "uid": "imw199z1xqov43t",
+                      "relation": "canvas",
+                      "x": 0.48,
+                      "y": 0.52,
+                      "gap": 0,
+                      "rotation": 0
+                    },
+                    {
+                      "uid": "imw199z1xsxezdq",
+                      "relation": "on",
+                      "targetUid": "imw199z1xqov43t",
+                      "x": 0.4,
+                      "y": 0.45,
+                      "gap": 0,
+                      "rotation": 0
+                    },
+                    {
+                      "uid": "imw199z1x5qbf1r",
+                      "relation": "on",
+                      "targetUid": "imw199z1xqov43t",
+                      "x": 0.55,
+                      "y": 0.5,
+                      "gap": 0,
+                      "rotation": 0
+                    },
+                    {
+                      "uid": "imw199z1xx4yslr",
+                      "relation": "canvas",
+                      "x": 0.8,
+                      "y": 0.85,
+                      "gap": 0,
+                      "rotation": 0
+                    }
+                  ]
+                },
+                {
+                  "principle": "Высокая диагональ для вертикального кадра",
+                  "placements": [
+                    {
+                      "uid": "imw199z1xqov43t",
+                      "relation": "canvas",
+                      "x": 0.5,
+                      "y": 0.5,
+                      "gap": 0,
+                      "rotation": 0
+                    },
+                    {
+                      "uid": "imw199z1xsxezdq",
+                      "relation": "on",
+                      "targetUid": "imw199z1xqov43t",
+                      "x": 0.5,
+                      "y": 0.4,
+                      "gap": 0,
+                      "rotation": 0
+                    },
+                    {
+                      "uid": "imw199z1x5qbf1r",
+                      "relation": "on",
+                      "targetUid": "imw199z1xqov43t",
+                      "x": 0.5,
+                      "y": 0.6,
+                      "gap": 0,
+                      "rotation": 0
+                    },
+                    {
+                      "uid": "imw199z1xx4yslr",
+                      "relation": "canvas",
+                      "x": 0.25,
+                      "y": 0.82,
+                      "gap": 0,
+                      "rotation": 0
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "executionNotes": [
+            "Положение «Настольная лампа» уточнено по границам кадра и реестру пересечений.",
+            "Положение «Монета» уточнено по границам кадра и реестру пересечений."
+          ],
+          "width": 1000,
+          "height": 1000,
+          "format": "square",
+          "size": "S",
+          "palette": "aqua",
+          "layout": "compact",
+          "background": "pattern",
+          "backgroundDesign": "auto",
+          "supporting": true,
+          "showSupporting": true,
+          "camera": null,
+          "composition": {
+            "index": 0,
+            "options": [
+              {
+                "strategy": "balanced",
+                "title": "На опоре",
+                "principle": "Папка в центре, кошелек и монета на ней, лампа слева",
+                "placement": "on-surface"
+              },
+              {
+                "strategy": "spacious",
+                "title": "Рядом",
+                "principle": "Связанная группа со смещением кошелька и монеты",
+                "placement": "beside"
+              },
+              {
+                "strategy": "diagonal",
+                "title": "Другой ракурс группы",
+                "principle": "Диагональное построение ценностей на папке",
+                "placement": "across"
+              }
+            ]
+          },
+          "layerRelations": [
+            {
+              "back": "imw199z1xqov43t",
+              "front": "imw199z1xsxezdq",
+              "reason": "Предмет лежит на допустимой опоре."
+            },
+            {
+              "back": "imw199z1xqov43t",
+              "front": "imw199z1x5qbf1r",
+              "reason": "Предмет лежит на допустимой опоре."
+            },
+            {
+              "back": "imw199z1xx4yslr",
+              "front": "imw199z1xqov43t",
+              "reason": "Фоновый компаньон находится позади главной группы."
+            }
+          ],
+          "recipe": "auto",
+          "framing": "overview",
+          "focus": "wallet",
+          "query": "Сохранить самое ценное",
+          "scale": 1,
+          "items": [
+            {
+              "uid": "imw199z1xx4yslr",
+              "assetId": "lamp",
+              "role": "background",
+              "x": 0,
+              "y": 120,
+              "rotation": 0,
+              "flipX": false,
+              "flipY": false,
+              "zone": "top-left",
+              "crop": "fragment"
+            },
+            {
+              "uid": "imw199z1xqov43t",
+              "assetId": "folder",
+              "role": "main",
+              "x": 524.84,
+              "y": 513.2,
+              "rotation": 0,
+              "flipX": false,
+              "flipY": false,
+              "zone": "auto",
+              "crop": "whole"
+            },
+            {
+              "uid": "imw199z1xsxezdq",
+              "assetId": "wallet",
+              "role": "main",
+              "x": 493.79,
+              "y": 496.70000000000005,
+              "rotation": 0,
+              "flipX": false,
+              "flipY": false,
+              "supportUid": "imw199z1xqov43t",
+              "zone": "auto",
+              "crop": "whole"
+            },
+            {
+              "uid": "imw199z1x5qbf1r",
+              "assetId": "coin",
+              "role": "main",
+              "x": 686.3000000000001,
+              "y": 447.20000000000005,
+              "rotation": 0,
+              "flipX": false,
+              "flipY": false,
+              "supportUid": "imw199z1xqov43t",
+              "zone": "auto",
+              "crop": "whole"
+            }
+          ]
+        },
+        {
+          "version": 1,
+          "sizing": "native",
+          "environmentPrompt": "",
+          "environmentExplanation": [
+            "Главная смысловая группа объединяет кошелек и монету на папке для выражения темы ценностей.",
+            "Фоновый предмет-компаньон дополняет композицию сдержанным силуэтом у края.",
+            "Компактная раскладка сохраняет плотную и читаемую группу предметов на холсте."
+          ],
+          "groups": [
+            {
+              "kind": "collection",
+              "members": [
+                "imw199z1xqov43t",
+                "imw199z1xsxezdq",
+                "imw199z1x5qbf1r"
+              ],
+              "reason": "Связанная группа со смещением кошелька и монеты"
+            }
+          ],
+          "formatPlans": [],
+          "stagingPlans": [
+            {
+              "format": "square",
+              "views": [
+                {
+                  "principle": "Папка в центре, кошелек и монета на ней, лампа слева",
+                  "placements": [
+                    {
+                      "uid": "imw199z1xqov43t",
+                      "relation": "canvas",
+                      "x": 0.5,
+                      "y": 0.5,
+                      "gap": 0,
+                      "rotation": 0
+                    },
+                    {
+                      "uid": "imw199z1xsxezdq",
+                      "relation": "on",
+                      "targetUid": "imw199z1xqov43t",
+                      "x": 0.45,
+                      "y": 0.45,
+                      "gap": 0,
+                      "rotation": 0
+                    },
+                    {
+                      "uid": "imw199z1x5qbf1r",
+                      "relation": "on",
+                      "targetUid": "imw199z1xqov43t",
+                      "x": 0.6,
+                      "y": 0.55,
+                      "gap": 0,
+                      "rotation": 0
+                    },
+                    {
+                      "uid": "imw199z1xx4yslr",
+                      "relation": "canvas",
+                      "x": 0.15,
+                      "y": 0.25,
+                      "gap": 0,
+                      "rotation": 0
+                    }
+                  ]
+                },
+                {
+                  "principle": "Связанная группа со смещением кошелька и монеты",
+                  "placements": [
+                    {
+                      "uid": "imw199z1xqov43t",
+                      "relation": "canvas",
+                      "x": 0.52,
+                      "y": 0.52,
+                      "gap": 0,
+                      "rotation": 0
+                    },
+                    {
+                      "uid": "imw199z1xsxezdq",
+                      "relation": "on",
+                      "targetUid": "imw199z1xqov43t",
+                      "x": 0.4,
+                      "y": 0.5,
+                      "gap": 0,
+                      "rotation": 0
+                    },
+                    {
+                      "uid": "imw199z1x5qbf1r",
+                      "relation": "on",
+                      "targetUid": "imw199z1xqov43t",
+                      "x": 0.62,
+                      "y": 0.48,
+                      "gap": 0,
+                      "rotation": 0
+                    },
+                    {
+                      "uid": "imw199z1xx4yslr",
+                      "relation": "canvas",
+                      "x": 0.85,
+                      "y": 0.3,
+                      "gap": 0,
+                      "rotation": 0
+                    }
+                  ]
+                },
+                {
+                  "principle": "Диагональное построение ценностей на папке",
+                  "placements": [
+                    {
+                      "uid": "imw199z1xqov43t",
+                      "relation": "canvas",
+                      "x": 0.48,
+                      "y": 0.5,
+                      "gap": 0,
+                      "rotation": 0
+                    },
+                    {
+                      "uid": "imw199z1xsxezdq",
+                      "relation": "on",
+                      "targetUid": "imw199z1xqov43t",
+                      "x": 0.48,
+                      "y": 0.42,
+                      "gap": 0,
+                      "rotation": 0
+                    },
+                    {
+                      "uid": "imw199z1x5qbf1r",
+                      "relation": "on",
+                      "targetUid": "imw199z1xqov43t",
+                      "x": 0.55,
+                      "y": 0.58,
+                      "gap": 0,
+                      "rotation": 0
+                    },
+                    {
+                      "uid": "imw199z1xx4yslr",
+                      "relation": "canvas",
+                      "x": 0.2,
+                      "y": 0.8,
+                      "gap": 0,
+                      "rotation": 0
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "format": "landscape",
+              "views": [
+                {
+                  "principle": "Горизонтальное размещение группы ценностей на папке",
+                  "placements": [
+                    {
+                      "uid": "imw199z1xqov43t",
+                      "relation": "canvas",
+                      "x": 0.5,
+                      "y": 0.52,
+                      "gap": 0,
+                      "rotation": 0
+                    },
+                    {
+                      "uid": "imw199z1xsxezdq",
+                      "relation": "on",
+                      "targetUid": "imw199z1xqov43t",
+                      "x": 0.42,
+                      "y": 0.48,
+                      "gap": 0,
+                      "rotation": 0
+                    },
+                    {
+                      "uid": "imw199z1x5qbf1r",
+                      "relation": "on",
+                      "targetUid": "imw199z1xqov43t",
+                      "x": 0.58,
+                      "y": 0.5,
+                      "gap": 0,
+                      "rotation": 0
+                    },
+                    {
+                      "uid": "imw199z1xx4yslr",
+                      "relation": "canvas",
+                      "x": 0.15,
+                      "y": 0.3,
+                      "gap": 0,
+                      "rotation": 0
+                    }
+                  ]
+                },
+                {
+                  "principle": "Смещенный баланс ценных предметов",
+                  "placements": [
+                    {
+                      "uid": "imw199z1xqov43t",
+                      "relation": "canvas",
+                      "x": 0.55,
+                      "y": 0.5,
+                      "gap": 0,
+                      "rotation": 0
+                    },
+                    {
+                      "uid": "imw199z1xsxezdq",
+                      "relation": "on",
+                      "targetUid": "imw199z1xqov43t",
+                      "x": 0.45,
+                      "y": 0.45,
+                      "gap": 0,
+                      "rotation": 0
+                    },
+                    {
+                      "uid": "imw199z1x5qbf1r",
+                      "relation": "on",
+                      "targetUid": "imw199z1xqov43t",
+                      "x": 0.55,
+                      "y": 0.55,
+                      "gap": 0,
+                      "rotation": 0
+                    },
+                    {
+                      "uid": "imw199z1xx4yslr",
+                      "relation": "canvas",
+                      "x": 0.85,
+                      "y": 0.7,
+                      "gap": 0,
+                      "rotation": 0
+                    }
+                  ]
+                },
+                {
+                  "principle": "Диагональная композиция с фоном слева",
+                  "placements": [
+                    {
+                      "uid": "imw199z1xqov43t",
+                      "relation": "canvas",
+                      "x": 0.5,
+                      "y": 0.5,
+                      "gap": 0,
+                      "rotation": 0
+                    },
+                    {
+                      "uid": "imw199z1xsxezdq",
+                      "relation": "on",
+                      "targetUid": "imw199z1xqov43t",
+                      "x": 0.38,
+                      "y": 0.42,
+                      "gap": 0,
+                      "rotation": 0
+                    },
+                    {
+                      "uid": "imw199z1x5qbf1r",
+                      "relation": "on",
+                      "targetUid": "imw199z1xqov43t",
+                      "x": 0.62,
+                      "y": 0.58,
+                      "gap": 0,
+                      "rotation": 0
+                    },
+                    {
+                      "uid": "imw199z1xx4yslr",
+                      "relation": "canvas",
+                      "x": 0.18,
+                      "y": 0.75,
+                      "gap": 0,
+                      "rotation": 0
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "format": "portrait",
+              "views": [
+                {
+                  "principle": "Вертикальная компоновка элементов с кошельком и монетой",
+                  "placements": [
+                    {
+                      "uid": "imw199z1xqov43t",
+                      "relation": "canvas",
+                      "x": 0.5,
+                      "y": 0.55,
+                      "gap": 0,
+                      "rotation": 0
+                    },
+                    {
+                      "uid": "imw199z1xsxezdq",
+                      "relation": "on",
+                      "targetUid": "imw199z1xqov43t",
+                      "x": 0.45,
+                      "y": 0.48,
+                      "gap": 0,
+                      "rotation": 0
+                    },
+                    {
+                      "uid": "imw199z1x5qbf1r",
+                      "relation": "on",
+                      "targetUid": "imw199z1xqov43t",
+                      "x": 0.58,
+                      "y": 0.52,
+                      "gap": 0,
+                      "rotation": 0
+                    },
+                    {
+                      "uid": "imw199z1xx4yslr",
+                      "relation": "canvas",
+                      "x": 0.2,
+                      "y": 0.2,
+                      "gap": 0,
+                      "rotation": 0
+                    }
+                  ]
+                },
+                {
+                  "principle": "Смещенный вертикальный баланс",
+                  "placements": [
+                    {
+                      "uid": "imw199z1xqov43t",
+                      "relation": "canvas",
+                      "x": 0.48,
+                      "y": 0.52,
+                      "gap": 0,
+                      "rotation": 0
+                    },
+                    {
+                      "uid": "imw199z1xsxezdq",
+                      "relation": "on",
+                      "targetUid": "imw199z1xqov43t",
+                      "x": 0.4,
+                      "y": 0.45,
+                      "gap": 0,
+                      "rotation": 0
+                    },
+                    {
+                      "uid": "imw199z1x5qbf1r",
+                      "relation": "on",
+                      "targetUid": "imw199z1xqov43t",
+                      "x": 0.55,
+                      "y": 0.5,
+                      "gap": 0,
+                      "rotation": 0
+                    },
+                    {
+                      "uid": "imw199z1xx4yslr",
+                      "relation": "canvas",
+                      "x": 0.8,
+                      "y": 0.85,
+                      "gap": 0,
+                      "rotation": 0
+                    }
+                  ]
+                },
+                {
+                  "principle": "Высокая диагональ для вертикального кадра",
+                  "placements": [
+                    {
+                      "uid": "imw199z1xqov43t",
+                      "relation": "canvas",
+                      "x": 0.5,
+                      "y": 0.5,
+                      "gap": 0,
+                      "rotation": 0
+                    },
+                    {
+                      "uid": "imw199z1xsxezdq",
+                      "relation": "on",
+                      "targetUid": "imw199z1xqov43t",
+                      "x": 0.5,
+                      "y": 0.4,
+                      "gap": 0,
+                      "rotation": 0
+                    },
+                    {
+                      "uid": "imw199z1x5qbf1r",
+                      "relation": "on",
+                      "targetUid": "imw199z1xqov43t",
+                      "x": 0.5,
+                      "y": 0.6,
+                      "gap": 0,
+                      "rotation": 0
+                    },
+                    {
+                      "uid": "imw199z1xx4yslr",
+                      "relation": "canvas",
+                      "x": 0.25,
+                      "y": 0.82,
+                      "gap": 0,
+                      "rotation": 0
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "executionNotes": [
+            "Положение «Настольная лампа» уточнено по границам кадра и реестру пересечений.",
+            "Положение «Монета» уточнено по границам кадра и реестру пересечений."
+          ],
+          "width": 1000,
+          "height": 1000,
+          "format": "square",
+          "size": "S",
+          "palette": "aqua",
+          "layout": "compact",
+          "background": "pattern",
+          "backgroundDesign": "auto",
+          "supporting": true,
+          "showSupporting": true,
+          "camera": null,
+          "composition": {
+            "index": 1,
+            "options": [
+              {
+                "strategy": "balanced",
+                "title": "На опоре",
+                "principle": "Папка в центре, кошелек и монета на ней, лампа слева",
+                "placement": "on-surface"
+              },
+              {
+                "strategy": "spacious",
+                "title": "Рядом",
+                "principle": "Связанная группа со смещением кошелька и монеты",
+                "placement": "beside"
+              },
+              {
+                "strategy": "diagonal",
+                "title": "Другой ракурс группы",
+                "principle": "Диагональное построение ценностей на папке",
+                "placement": "across"
+              }
+            ]
+          },
+          "layerRelations": [
+            {
+              "back": "imw199z1xqov43t",
+              "front": "imw199z1xsxezdq",
+              "reason": "Предмет лежит на допустимой опоре."
+            },
+            {
+              "back": "imw199z1xqov43t",
+              "front": "imw199z1x5qbf1r",
+              "reason": "Предмет лежит на допустимой опоре."
+            },
+            {
+              "back": "imw199z1xx4yslr",
+              "front": "imw199z1xqov43t",
+              "reason": "Фоновый компаньон находится позади главной группы."
+            }
+          ],
+          "recipe": "auto",
+          "framing": "overview",
+          "focus": "wallet",
+          "query": "Сохранить самое ценное",
+          "scale": 1,
+          "items": [
+            {
+              "uid": "imw199z1xx4yslr",
+              "assetId": "lamp",
+              "role": "background",
+              "x": 1000,
+              "y": 280,
+              "rotation": 0,
+              "flipX": false,
+              "flipY": false,
+              "zone": "top-left",
+              "crop": "fragment"
+            },
+            {
+              "uid": "imw199z1xqov43t",
+              "assetId": "folder",
+              "role": "main",
+              "x": 544.84,
+              "y": 533.2,
+              "rotation": 0,
+              "flipX": false,
+              "flipY": false,
+              "zone": "auto",
+              "crop": "whole"
+            },
+            {
+              "uid": "imw199z1xsxezdq",
+              "assetId": "wallet",
+              "role": "main",
+              "x": 482.74000000000007,
+              "y": 533.2,
+              "rotation": 0,
+              "flipX": false,
+              "flipY": false,
+              "supportUid": "imw199z1xqov43t",
+              "zone": "auto",
+              "crop": "whole"
+            },
+            {
+              "uid": "imw199z1x5qbf1r",
+              "assetId": "coin",
+              "role": "main",
+              "x": 706.3000000000001,
+              "y": 506.80000000000007,
+              "rotation": 0,
+              "flipX": false,
+              "flipY": false,
+              "supportUid": "imw199z1xqov43t",
+              "zone": "auto",
+              "crop": "whole"
+            }
+          ]
+        },
+        {
+          "version": 1,
+          "sizing": "native",
+          "environmentPrompt": "",
+          "environmentExplanation": [
+            "Главная смысловая группа объединяет кошелек и монету на папке для выражения темы ценностей.",
+            "Фоновый предмет-компаньон дополняет композицию сдержанным силуэтом у края.",
+            "Компактная раскладка сохраняет плотную и читаемую группу предметов на холсте."
+          ],
+          "groups": [
+            {
+              "kind": "collection",
+              "members": [
+                "imw199z1xqov43t",
+                "imw199z1xsxezdq",
+                "imw199z1x5qbf1r"
+              ],
+              "reason": "Диагональное построение ценностей на папке"
+            }
+          ],
+          "formatPlans": [],
+          "stagingPlans": [
+            {
+              "format": "square",
+              "views": [
+                {
+                  "principle": "Папка в центре, кошелек и монета на ней, лампа слева",
+                  "placements": [
+                    {
+                      "uid": "imw199z1xqov43t",
+                      "relation": "canvas",
+                      "x": 0.5,
+                      "y": 0.5,
+                      "gap": 0,
+                      "rotation": 0
+                    },
+                    {
+                      "uid": "imw199z1xsxezdq",
+                      "relation": "on",
+                      "targetUid": "imw199z1xqov43t",
+                      "x": 0.45,
+                      "y": 0.45,
+                      "gap": 0,
+                      "rotation": 0
+                    },
+                    {
+                      "uid": "imw199z1x5qbf1r",
+                      "relation": "on",
+                      "targetUid": "imw199z1xqov43t",
+                      "x": 0.6,
+                      "y": 0.55,
+                      "gap": 0,
+                      "rotation": 0
+                    },
+                    {
+                      "uid": "imw199z1xx4yslr",
+                      "relation": "canvas",
+                      "x": 0.15,
+                      "y": 0.25,
+                      "gap": 0,
+                      "rotation": 0
+                    }
+                  ]
+                },
+                {
+                  "principle": "Связанная группа со смещением кошелька и монеты",
+                  "placements": [
+                    {
+                      "uid": "imw199z1xqov43t",
+                      "relation": "canvas",
+                      "x": 0.52,
+                      "y": 0.52,
+                      "gap": 0,
+                      "rotation": 0
+                    },
+                    {
+                      "uid": "imw199z1xsxezdq",
+                      "relation": "on",
+                      "targetUid": "imw199z1xqov43t",
+                      "x": 0.4,
+                      "y": 0.5,
+                      "gap": 0,
+                      "rotation": 0
+                    },
+                    {
+                      "uid": "imw199z1x5qbf1r",
+                      "relation": "on",
+                      "targetUid": "imw199z1xqov43t",
+                      "x": 0.62,
+                      "y": 0.48,
+                      "gap": 0,
+                      "rotation": 0
+                    },
+                    {
+                      "uid": "imw199z1xx4yslr",
+                      "relation": "canvas",
+                      "x": 0.85,
+                      "y": 0.3,
+                      "gap": 0,
+                      "rotation": 0
+                    }
+                  ]
+                },
+                {
+                  "principle": "Диагональное построение ценностей на папке",
+                  "placements": [
+                    {
+                      "uid": "imw199z1xqov43t",
+                      "relation": "canvas",
+                      "x": 0.48,
+                      "y": 0.5,
+                      "gap": 0,
+                      "rotation": 0
+                    },
+                    {
+                      "uid": "imw199z1xsxezdq",
+                      "relation": "on",
+                      "targetUid": "imw199z1xqov43t",
+                      "x": 0.48,
+                      "y": 0.42,
+                      "gap": 0,
+                      "rotation": 0
+                    },
+                    {
+                      "uid": "imw199z1x5qbf1r",
+                      "relation": "on",
+                      "targetUid": "imw199z1xqov43t",
+                      "x": 0.55,
+                      "y": 0.58,
+                      "gap": 0,
+                      "rotation": 0
+                    },
+                    {
+                      "uid": "imw199z1xx4yslr",
+                      "relation": "canvas",
+                      "x": 0.2,
+                      "y": 0.8,
+                      "gap": 0,
+                      "rotation": 0
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "format": "landscape",
+              "views": [
+                {
+                  "principle": "Горизонтальное размещение группы ценностей на папке",
+                  "placements": [
+                    {
+                      "uid": "imw199z1xqov43t",
+                      "relation": "canvas",
+                      "x": 0.5,
+                      "y": 0.52,
+                      "gap": 0,
+                      "rotation": 0
+                    },
+                    {
+                      "uid": "imw199z1xsxezdq",
+                      "relation": "on",
+                      "targetUid": "imw199z1xqov43t",
+                      "x": 0.42,
+                      "y": 0.48,
+                      "gap": 0,
+                      "rotation": 0
+                    },
+                    {
+                      "uid": "imw199z1x5qbf1r",
+                      "relation": "on",
+                      "targetUid": "imw199z1xqov43t",
+                      "x": 0.58,
+                      "y": 0.5,
+                      "gap": 0,
+                      "rotation": 0
+                    },
+                    {
+                      "uid": "imw199z1xx4yslr",
+                      "relation": "canvas",
+                      "x": 0.15,
+                      "y": 0.3,
+                      "gap": 0,
+                      "rotation": 0
+                    }
+                  ]
+                },
+                {
+                  "principle": "Смещенный баланс ценных предметов",
+                  "placements": [
+                    {
+                      "uid": "imw199z1xqov43t",
+                      "relation": "canvas",
+                      "x": 0.55,
+                      "y": 0.5,
+                      "gap": 0,
+                      "rotation": 0
+                    },
+                    {
+                      "uid": "imw199z1xsxezdq",
+                      "relation": "on",
+                      "targetUid": "imw199z1xqov43t",
+                      "x": 0.45,
+                      "y": 0.45,
+                      "gap": 0,
+                      "rotation": 0
+                    },
+                    {
+                      "uid": "imw199z1x5qbf1r",
+                      "relation": "on",
+                      "targetUid": "imw199z1xqov43t",
+                      "x": 0.55,
+                      "y": 0.55,
+                      "gap": 0,
+                      "rotation": 0
+                    },
+                    {
+                      "uid": "imw199z1xx4yslr",
+                      "relation": "canvas",
+                      "x": 0.85,
+                      "y": 0.7,
+                      "gap": 0,
+                      "rotation": 0
+                    }
+                  ]
+                },
+                {
+                  "principle": "Диагональная композиция с фоном слева",
+                  "placements": [
+                    {
+                      "uid": "imw199z1xqov43t",
+                      "relation": "canvas",
+                      "x": 0.5,
+                      "y": 0.5,
+                      "gap": 0,
+                      "rotation": 0
+                    },
+                    {
+                      "uid": "imw199z1xsxezdq",
+                      "relation": "on",
+                      "targetUid": "imw199z1xqov43t",
+                      "x": 0.38,
+                      "y": 0.42,
+                      "gap": 0,
+                      "rotation": 0
+                    },
+                    {
+                      "uid": "imw199z1x5qbf1r",
+                      "relation": "on",
+                      "targetUid": "imw199z1xqov43t",
+                      "x": 0.62,
+                      "y": 0.58,
+                      "gap": 0,
+                      "rotation": 0
+                    },
+                    {
+                      "uid": "imw199z1xx4yslr",
+                      "relation": "canvas",
+                      "x": 0.18,
+                      "y": 0.75,
+                      "gap": 0,
+                      "rotation": 0
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "format": "portrait",
+              "views": [
+                {
+                  "principle": "Вертикальная компоновка элементов с кошельком и монетой",
+                  "placements": [
+                    {
+                      "uid": "imw199z1xqov43t",
+                      "relation": "canvas",
+                      "x": 0.5,
+                      "y": 0.55,
+                      "gap": 0,
+                      "rotation": 0
+                    },
+                    {
+                      "uid": "imw199z1xsxezdq",
+                      "relation": "on",
+                      "targetUid": "imw199z1xqov43t",
+                      "x": 0.45,
+                      "y": 0.48,
+                      "gap": 0,
+                      "rotation": 0
+                    },
+                    {
+                      "uid": "imw199z1x5qbf1r",
+                      "relation": "on",
+                      "targetUid": "imw199z1xqov43t",
+                      "x": 0.58,
+                      "y": 0.52,
+                      "gap": 0,
+                      "rotation": 0
+                    },
+                    {
+                      "uid": "imw199z1xx4yslr",
+                      "relation": "canvas",
+                      "x": 0.2,
+                      "y": 0.2,
+                      "gap": 0,
+                      "rotation": 0
+                    }
+                  ]
+                },
+                {
+                  "principle": "Смещенный вертикальный баланс",
+                  "placements": [
+                    {
+                      "uid": "imw199z1xqov43t",
+                      "relation": "canvas",
+                      "x": 0.48,
+                      "y": 0.52,
+                      "gap": 0,
+                      "rotation": 0
+                    },
+                    {
+                      "uid": "imw199z1xsxezdq",
+                      "relation": "on",
+                      "targetUid": "imw199z1xqov43t",
+                      "x": 0.4,
+                      "y": 0.45,
+                      "gap": 0,
+                      "rotation": 0
+                    },
+                    {
+                      "uid": "imw199z1x5qbf1r",
+                      "relation": "on",
+                      "targetUid": "imw199z1xqov43t",
+                      "x": 0.55,
+                      "y": 0.5,
+                      "gap": 0,
+                      "rotation": 0
+                    },
+                    {
+                      "uid": "imw199z1xx4yslr",
+                      "relation": "canvas",
+                      "x": 0.8,
+                      "y": 0.85,
+                      "gap": 0,
+                      "rotation": 0
+                    }
+                  ]
+                },
+                {
+                  "principle": "Высокая диагональ для вертикального кадра",
+                  "placements": [
+                    {
+                      "uid": "imw199z1xqov43t",
+                      "relation": "canvas",
+                      "x": 0.5,
+                      "y": 0.5,
+                      "gap": 0,
+                      "rotation": 0
+                    },
+                    {
+                      "uid": "imw199z1xsxezdq",
+                      "relation": "on",
+                      "targetUid": "imw199z1xqov43t",
+                      "x": 0.5,
+                      "y": 0.4,
+                      "gap": 0,
+                      "rotation": 0
+                    },
+                    {
+                      "uid": "imw199z1x5qbf1r",
+                      "relation": "on",
+                      "targetUid": "imw199z1xqov43t",
+                      "x": 0.5,
+                      "y": 0.6,
+                      "gap": 0,
+                      "rotation": 0
+                    },
+                    {
+                      "uid": "imw199z1xx4yslr",
+                      "relation": "canvas",
+                      "x": 0.25,
+                      "y": 0.82,
+                      "gap": 0,
+                      "rotation": 0
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "executionNotes": [
+            "Положение «Монета» уточнено по границам кадра и реестру пересечений."
+          ],
+          "width": 1000,
+          "height": 1000,
+          "format": "square",
+          "size": "S",
+          "palette": "aqua",
+          "layout": "compact",
+          "background": "pattern",
+          "backgroundDesign": "auto",
+          "supporting": true,
+          "showSupporting": true,
+          "camera": null,
+          "composition": {
+            "index": 2,
+            "options": [
+              {
+                "strategy": "balanced",
+                "title": "На опоре",
+                "principle": "Папка в центре, кошелек и монета на ней, лампа слева",
+                "placement": "on-surface"
+              },
+              {
+                "strategy": "spacious",
+                "title": "Рядом",
+                "principle": "Связанная группа со смещением кошелька и монеты",
+                "placement": "beside"
+              },
+              {
+                "strategy": "diagonal",
+                "title": "Другой ракурс группы",
+                "principle": "Диагональное построение ценностей на папке",
+                "placement": "across"
+              }
+            ]
+          },
+          "layerRelations": [
+            {
+              "back": "imw199z1xqov43t",
+              "front": "imw199z1xsxezdq",
+              "reason": "Предмет лежит на допустимой опоре."
+            },
+            {
+              "back": "imw199z1xqov43t",
+              "front": "imw199z1x5qbf1r",
+              "reason": "Предмет лежит на допустимой опоре."
+            },
+            {
+              "back": "imw199z1xx4yslr",
+              "front": "imw199z1xqov43t",
+              "reason": "Фоновый компаньон находится позади главной группы."
+            }
+          ],
+          "recipe": "auto",
+          "framing": "overview",
+          "focus": "wallet",
+          "query": "Сохранить самое ценное",
+          "scale": 1,
+          "items": [
+            {
+              "uid": "imw199z1xx4yslr",
+              "assetId": "lamp",
+              "role": "background",
+              "x": 214.19,
+              "y": 856.5,
+              "rotation": 0,
+              "flipX": false,
+              "flipY": false,
+              "zone": "top-left",
+              "crop": "fragment"
+            },
+            {
+              "uid": "imw199z1xqov43t",
+              "assetId": "folder",
+              "role": "main",
+              "x": 504.84,
+              "y": 513.2,
+              "rotation": 0,
+              "flipX": false,
+              "flipY": false,
+              "zone": "auto",
+              "crop": "whole"
+            },
+            {
+              "uid": "imw199z1xsxezdq",
+              "assetId": "wallet",
+              "role": "main",
+              "x": 492.41999999999996,
+              "y": 486.80000000000007,
+              "rotation": 0,
+              "flipX": false,
+              "flipY": false,
+              "supportUid": "imw199z1xqov43t",
+              "zone": "auto",
+              "crop": "whole"
+            },
+            {
+              "uid": "imw199z1x5qbf1r",
+              "assetId": "coin",
+              "role": "main",
+              "x": 535.89,
+              "y": 730.8193977591038,
+              "rotation": 0,
+              "flipX": false,
+              "flipY": false,
+              "zone": "auto",
+              "crop": "whole"
+            }
+          ]
+        }
+      ],
+      "landscape": [
+        {
+          "version": 1,
+          "sizing": "native",
+          "environmentPrompt": "",
+          "environmentExplanation": [
+            "Главная смысловая группа объединяет кошелек и монету на папке для выражения темы ценностей.",
+            "Фоновый предмет-компаньон дополняет композицию сдержанным силуэтом у края.",
+            "Компактная раскладка сохраняет плотную и читаемую группу предметов на холсте."
+          ],
+          "groups": [
+            {
+              "kind": "collection",
+              "members": [
+                "imw199z1xqov43t",
+                "imw199z1xsxezdq",
+                "imw199z1x5qbf1r"
+              ],
+              "reason": "Горизонтальное размещение группы ценностей на папке"
+            }
+          ],
+          "formatPlans": [],
+          "stagingPlans": [
+            {
+              "format": "square",
+              "views": [
+                {
+                  "principle": "Папка в центре, кошелек и монета на ней, лампа слева",
+                  "placements": [
+                    {
+                      "uid": "imw199z1xqov43t",
+                      "relation": "canvas",
+                      "x": 0.5,
+                      "y": 0.5,
+                      "gap": 0,
+                      "rotation": 0
+                    },
+                    {
+                      "uid": "imw199z1xsxezdq",
+                      "relation": "on",
+                      "targetUid": "imw199z1xqov43t",
+                      "x": 0.45,
+                      "y": 0.45,
+                      "gap": 0,
+                      "rotation": 0
+                    },
+                    {
+                      "uid": "imw199z1x5qbf1r",
+                      "relation": "on",
+                      "targetUid": "imw199z1xqov43t",
+                      "x": 0.6,
+                      "y": 0.55,
+                      "gap": 0,
+                      "rotation": 0
+                    },
+                    {
+                      "uid": "imw199z1xx4yslr",
+                      "relation": "canvas",
+                      "x": 0.15,
+                      "y": 0.25,
+                      "gap": 0,
+                      "rotation": 0
+                    }
+                  ]
+                },
+                {
+                  "principle": "Связанная группа со смещением кошелька и монеты",
+                  "placements": [
+                    {
+                      "uid": "imw199z1xqov43t",
+                      "relation": "canvas",
+                      "x": 0.52,
+                      "y": 0.52,
+                      "gap": 0,
+                      "rotation": 0
+                    },
+                    {
+                      "uid": "imw199z1xsxezdq",
+                      "relation": "on",
+                      "targetUid": "imw199z1xqov43t",
+                      "x": 0.4,
+                      "y": 0.5,
+                      "gap": 0,
+                      "rotation": 0
+                    },
+                    {
+                      "uid": "imw199z1x5qbf1r",
+                      "relation": "on",
+                      "targetUid": "imw199z1xqov43t",
+                      "x": 0.62,
+                      "y": 0.48,
+                      "gap": 0,
+                      "rotation": 0
+                    },
+                    {
+                      "uid": "imw199z1xx4yslr",
+                      "relation": "canvas",
+                      "x": 0.85,
+                      "y": 0.3,
+                      "gap": 0,
+                      "rotation": 0
+                    }
+                  ]
+                },
+                {
+                  "principle": "Диагональное построение ценностей на папке",
+                  "placements": [
+                    {
+                      "uid": "imw199z1xqov43t",
+                      "relation": "canvas",
+                      "x": 0.48,
+                      "y": 0.5,
+                      "gap": 0,
+                      "rotation": 0
+                    },
+                    {
+                      "uid": "imw199z1xsxezdq",
+                      "relation": "on",
+                      "targetUid": "imw199z1xqov43t",
+                      "x": 0.48,
+                      "y": 0.42,
+                      "gap": 0,
+                      "rotation": 0
+                    },
+                    {
+                      "uid": "imw199z1x5qbf1r",
+                      "relation": "on",
+                      "targetUid": "imw199z1xqov43t",
+                      "x": 0.55,
+                      "y": 0.58,
+                      "gap": 0,
+                      "rotation": 0
+                    },
+                    {
+                      "uid": "imw199z1xx4yslr",
+                      "relation": "canvas",
+                      "x": 0.2,
+                      "y": 0.8,
+                      "gap": 0,
+                      "rotation": 0
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "format": "landscape",
+              "views": [
+                {
+                  "principle": "Горизонтальное размещение группы ценностей на папке",
+                  "placements": [
+                    {
+                      "uid": "imw199z1xqov43t",
+                      "relation": "canvas",
+                      "x": 0.5,
+                      "y": 0.52,
+                      "gap": 0,
+                      "rotation": 0
+                    },
+                    {
+                      "uid": "imw199z1xsxezdq",
+                      "relation": "on",
+                      "targetUid": "imw199z1xqov43t",
+                      "x": 0.42,
+                      "y": 0.48,
+                      "gap": 0,
+                      "rotation": 0
+                    },
+                    {
+                      "uid": "imw199z1x5qbf1r",
+                      "relation": "on",
+                      "targetUid": "imw199z1xqov43t",
+                      "x": 0.58,
+                      "y": 0.5,
+                      "gap": 0,
+                      "rotation": 0
+                    },
+                    {
+                      "uid": "imw199z1xx4yslr",
+                      "relation": "canvas",
+                      "x": 0.15,
+                      "y": 0.3,
+                      "gap": 0,
+                      "rotation": 0
+                    }
+                  ]
+                },
+                {
+                  "principle": "Смещенный баланс ценных предметов",
+                  "placements": [
+                    {
+                      "uid": "imw199z1xqov43t",
+                      "relation": "canvas",
+                      "x": 0.55,
+                      "y": 0.5,
+                      "gap": 0,
+                      "rotation": 0
+                    },
+                    {
+                      "uid": "imw199z1xsxezdq",
+                      "relation": "on",
+                      "targetUid": "imw199z1xqov43t",
+                      "x": 0.45,
+                      "y": 0.45,
+                      "gap": 0,
+                      "rotation": 0
+                    },
+                    {
+                      "uid": "imw199z1x5qbf1r",
+                      "relation": "on",
+                      "targetUid": "imw199z1xqov43t",
+                      "x": 0.55,
+                      "y": 0.55,
+                      "gap": 0,
+                      "rotation": 0
+                    },
+                    {
+                      "uid": "imw199z1xx4yslr",
+                      "relation": "canvas",
+                      "x": 0.85,
+                      "y": 0.7,
+                      "gap": 0,
+                      "rotation": 0
+                    }
+                  ]
+                },
+                {
+                  "principle": "Диагональная композиция с фоном слева",
+                  "placements": [
+                    {
+                      "uid": "imw199z1xqov43t",
+                      "relation": "canvas",
+                      "x": 0.5,
+                      "y": 0.5,
+                      "gap": 0,
+                      "rotation": 0
+                    },
+                    {
+                      "uid": "imw199z1xsxezdq",
+                      "relation": "on",
+                      "targetUid": "imw199z1xqov43t",
+                      "x": 0.38,
+                      "y": 0.42,
+                      "gap": 0,
+                      "rotation": 0
+                    },
+                    {
+                      "uid": "imw199z1x5qbf1r",
+                      "relation": "on",
+                      "targetUid": "imw199z1xqov43t",
+                      "x": 0.62,
+                      "y": 0.58,
+                      "gap": 0,
+                      "rotation": 0
+                    },
+                    {
+                      "uid": "imw199z1xx4yslr",
+                      "relation": "canvas",
+                      "x": 0.18,
+                      "y": 0.75,
+                      "gap": 0,
+                      "rotation": 0
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "format": "portrait",
+              "views": [
+                {
+                  "principle": "Вертикальная компоновка элементов с кошельком и монетой",
+                  "placements": [
+                    {
+                      "uid": "imw199z1xqov43t",
+                      "relation": "canvas",
+                      "x": 0.5,
+                      "y": 0.55,
+                      "gap": 0,
+                      "rotation": 0
+                    },
+                    {
+                      "uid": "imw199z1xsxezdq",
+                      "relation": "on",
+                      "targetUid": "imw199z1xqov43t",
+                      "x": 0.45,
+                      "y": 0.48,
+                      "gap": 0,
+                      "rotation": 0
+                    },
+                    {
+                      "uid": "imw199z1x5qbf1r",
+                      "relation": "on",
+                      "targetUid": "imw199z1xqov43t",
+                      "x": 0.58,
+                      "y": 0.52,
+                      "gap": 0,
+                      "rotation": 0
+                    },
+                    {
+                      "uid": "imw199z1xx4yslr",
+                      "relation": "canvas",
+                      "x": 0.2,
+                      "y": 0.2,
+                      "gap": 0,
+                      "rotation": 0
+                    }
+                  ]
+                },
+                {
+                  "principle": "Смещенный вертикальный баланс",
+                  "placements": [
+                    {
+                      "uid": "imw199z1xqov43t",
+                      "relation": "canvas",
+                      "x": 0.48,
+                      "y": 0.52,
+                      "gap": 0,
+                      "rotation": 0
+                    },
+                    {
+                      "uid": "imw199z1xsxezdq",
+                      "relation": "on",
+                      "targetUid": "imw199z1xqov43t",
+                      "x": 0.4,
+                      "y": 0.45,
+                      "gap": 0,
+                      "rotation": 0
+                    },
+                    {
+                      "uid": "imw199z1x5qbf1r",
+                      "relation": "on",
+                      "targetUid": "imw199z1xqov43t",
+                      "x": 0.55,
+                      "y": 0.5,
+                      "gap": 0,
+                      "rotation": 0
+                    },
+                    {
+                      "uid": "imw199z1xx4yslr",
+                      "relation": "canvas",
+                      "x": 0.8,
+                      "y": 0.85,
+                      "gap": 0,
+                      "rotation": 0
+                    }
+                  ]
+                },
+                {
+                  "principle": "Высокая диагональ для вертикального кадра",
+                  "placements": [
+                    {
+                      "uid": "imw199z1xqov43t",
+                      "relation": "canvas",
+                      "x": 0.5,
+                      "y": 0.5,
+                      "gap": 0,
+                      "rotation": 0
+                    },
+                    {
+                      "uid": "imw199z1xsxezdq",
+                      "relation": "on",
+                      "targetUid": "imw199z1xqov43t",
+                      "x": 0.5,
+                      "y": 0.4,
+                      "gap": 0,
+                      "rotation": 0
+                    },
+                    {
+                      "uid": "imw199z1x5qbf1r",
+                      "relation": "on",
+                      "targetUid": "imw199z1xqov43t",
+                      "x": 0.5,
+                      "y": 0.6,
+                      "gap": 0,
+                      "rotation": 0
+                    },
+                    {
+                      "uid": "imw199z1xx4yslr",
+                      "relation": "canvas",
+                      "x": 0.25,
+                      "y": 0.82,
+                      "gap": 0,
+                      "rotation": 0
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "executionNotes": [
+            "Положение «Монета» уточнено по границам кадра и реестру пересечений."
+          ],
+          "width": 1200,
+          "height": 630,
+          "format": "landscape",
+          "size": "S",
+          "palette": "aqua",
+          "layout": "compact",
+          "background": "pattern",
+          "backgroundDesign": "auto",
+          "supporting": true,
+          "showSupporting": true,
+          "camera": null,
+          "composition": {
+            "index": 0,
+            "options": [
+              {
+                "strategy": "balanced",
+                "title": "На опоре",
+                "principle": "Папка в центре, кошелек и монета на ней, лампа слева",
+                "placement": "on-surface"
+              },
+              {
+                "strategy": "spacious",
+                "title": "Рядом",
+                "principle": "Связанная группа со смещением кошелька и монеты",
+                "placement": "beside"
+              },
+              {
+                "strategy": "diagonal",
+                "title": "Другой ракурс группы",
+                "principle": "Диагональное построение ценностей на папке",
+                "placement": "across"
+              }
+            ]
+          },
+          "layerRelations": [
+            {
+              "back": "imw199z1xqov43t",
+              "front": "imw199z1xsxezdq",
+              "reason": "Предмет лежит на допустимой опоре."
+            },
+            {
+              "back": "imw199z1xqov43t",
+              "front": "imw199z1x5qbf1r",
+              "reason": "Предмет лежит на допустимой опоре."
+            },
+            {
+              "back": "imw199z1xx4yslr",
+              "front": "imw199z1xqov43t",
+              "reason": "Фоновый компаньон находится позади главной группы."
+            }
+          ],
+          "recipe": "auto",
+          "framing": "overview",
+          "focus": "wallet",
+          "query": "Сохранить самое ценное",
+          "scale": 1,
+          "items": [
+            {
+              "uid": "imw199z1xx4yslr",
+              "assetId": "lamp",
+              "role": "background",
+              "x": 194.19,
+              "y": 245.5,
+              "rotation": 0,
+              "flipX": false,
+              "flipY": false,
+              "zone": "top-left",
+              "crop": "fragment"
+            },
+            {
+              "uid": "imw199z1xqov43t",
+              "assetId": "folder",
+              "role": "main",
+              "x": 624.84,
+              "y": 340.8,
+              "rotation": 0,
+              "flipX": false,
+              "flipY": false,
+              "zone": "auto",
+              "crop": "whole"
+            },
+            {
+              "uid": "imw199z1xsxezdq",
+              "assetId": "wallet",
+              "role": "main",
+              "x": 575.1600000000001,
+              "y": 334.2,
+              "rotation": 0,
+              "flipX": false,
+              "flipY": false,
+              "supportUid": "imw199z1xqov43t",
+              "zone": "auto",
+              "crop": "whole"
+            },
+            {
+              "uid": "imw199z1x5qbf1r",
+              "assetId": "coin",
+              "role": "main",
+              "x": 786.3000000000001,
+              "y": 314.4,
+              "rotation": 0,
+              "flipX": false,
+              "flipY": false,
+              "supportUid": "imw199z1xqov43t",
+              "zone": "auto",
+              "crop": "whole"
+            }
+          ]
+        },
+        {
+          "version": 1,
+          "sizing": "native",
+          "environmentPrompt": "",
+          "environmentExplanation": [
+            "Главная смысловая группа объединяет кошелек и монету на папке для выражения темы ценностей.",
+            "Фоновый предмет-компаньон дополняет композицию сдержанным силуэтом у края.",
+            "Компактная раскладка сохраняет плотную и читаемую группу предметов на холсте."
+          ],
+          "groups": [
+            {
+              "kind": "collection",
+              "members": [
+                "imw199z1xqov43t",
+                "imw199z1xsxezdq",
+                "imw199z1x5qbf1r"
+              ],
+              "reason": "Смещенный баланс ценных предметов"
+            }
+          ],
+          "formatPlans": [],
+          "stagingPlans": [
+            {
+              "format": "square",
+              "views": [
+                {
+                  "principle": "Папка в центре, кошелек и монета на ней, лампа слева",
+                  "placements": [
+                    {
+                      "uid": "imw199z1xqov43t",
+                      "relation": "canvas",
+                      "x": 0.5,
+                      "y": 0.5,
+                      "gap": 0,
+                      "rotation": 0
+                    },
+                    {
+                      "uid": "imw199z1xsxezdq",
+                      "relation": "on",
+                      "targetUid": "imw199z1xqov43t",
+                      "x": 0.45,
+                      "y": 0.45,
+                      "gap": 0,
+                      "rotation": 0
+                    },
+                    {
+                      "uid": "imw199z1x5qbf1r",
+                      "relation": "on",
+                      "targetUid": "imw199z1xqov43t",
+                      "x": 0.6,
+                      "y": 0.55,
+                      "gap": 0,
+                      "rotation": 0
+                    },
+                    {
+                      "uid": "imw199z1xx4yslr",
+                      "relation": "canvas",
+                      "x": 0.15,
+                      "y": 0.25,
+                      "gap": 0,
+                      "rotation": 0
+                    }
+                  ]
+                },
+                {
+                  "principle": "Связанная группа со смещением кошелька и монеты",
+                  "placements": [
+                    {
+                      "uid": "imw199z1xqov43t",
+                      "relation": "canvas",
+                      "x": 0.52,
+                      "y": 0.52,
+                      "gap": 0,
+                      "rotation": 0
+                    },
+                    {
+                      "uid": "imw199z1xsxezdq",
+                      "relation": "on",
+                      "targetUid": "imw199z1xqov43t",
+                      "x": 0.4,
+                      "y": 0.5,
+                      "gap": 0,
+                      "rotation": 0
+                    },
+                    {
+                      "uid": "imw199z1x5qbf1r",
+                      "relation": "on",
+                      "targetUid": "imw199z1xqov43t",
+                      "x": 0.62,
+                      "y": 0.48,
+                      "gap": 0,
+                      "rotation": 0
+                    },
+                    {
+                      "uid": "imw199z1xx4yslr",
+                      "relation": "canvas",
+                      "x": 0.85,
+                      "y": 0.3,
+                      "gap": 0,
+                      "rotation": 0
+                    }
+                  ]
+                },
+                {
+                  "principle": "Диагональное построение ценностей на папке",
+                  "placements": [
+                    {
+                      "uid": "imw199z1xqov43t",
+                      "relation": "canvas",
+                      "x": 0.48,
+                      "y": 0.5,
+                      "gap": 0,
+                      "rotation": 0
+                    },
+                    {
+                      "uid": "imw199z1xsxezdq",
+                      "relation": "on",
+                      "targetUid": "imw199z1xqov43t",
+                      "x": 0.48,
+                      "y": 0.42,
+                      "gap": 0,
+                      "rotation": 0
+                    },
+                    {
+                      "uid": "imw199z1x5qbf1r",
+                      "relation": "on",
+                      "targetUid": "imw199z1xqov43t",
+                      "x": 0.55,
+                      "y": 0.58,
+                      "gap": 0,
+                      "rotation": 0
+                    },
+                    {
+                      "uid": "imw199z1xx4yslr",
+                      "relation": "canvas",
+                      "x": 0.2,
+                      "y": 0.8,
+                      "gap": 0,
+                      "rotation": 0
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "format": "landscape",
+              "views": [
+                {
+                  "principle": "Горизонтальное размещение группы ценностей на папке",
+                  "placements": [
+                    {
+                      "uid": "imw199z1xqov43t",
+                      "relation": "canvas",
+                      "x": 0.5,
+                      "y": 0.52,
+                      "gap": 0,
+                      "rotation": 0
+                    },
+                    {
+                      "uid": "imw199z1xsxezdq",
+                      "relation": "on",
+                      "targetUid": "imw199z1xqov43t",
+                      "x": 0.42,
+                      "y": 0.48,
+                      "gap": 0,
+                      "rotation": 0
+                    },
+                    {
+                      "uid": "imw199z1x5qbf1r",
+                      "relation": "on",
+                      "targetUid": "imw199z1xqov43t",
+                      "x": 0.58,
+                      "y": 0.5,
+                      "gap": 0,
+                      "rotation": 0
+                    },
+                    {
+                      "uid": "imw199z1xx4yslr",
+                      "relation": "canvas",
+                      "x": 0.15,
+                      "y": 0.3,
+                      "gap": 0,
+                      "rotation": 0
+                    }
+                  ]
+                },
+                {
+                  "principle": "Смещенный баланс ценных предметов",
+                  "placements": [
+                    {
+                      "uid": "imw199z1xqov43t",
+                      "relation": "canvas",
+                      "x": 0.55,
+                      "y": 0.5,
+                      "gap": 0,
+                      "rotation": 0
+                    },
+                    {
+                      "uid": "imw199z1xsxezdq",
+                      "relation": "on",
+                      "targetUid": "imw199z1xqov43t",
+                      "x": 0.45,
+                      "y": 0.45,
+                      "gap": 0,
+                      "rotation": 0
+                    },
+                    {
+                      "uid": "imw199z1x5qbf1r",
+                      "relation": "on",
+                      "targetUid": "imw199z1xqov43t",
+                      "x": 0.55,
+                      "y": 0.55,
+                      "gap": 0,
+                      "rotation": 0
+                    },
+                    {
+                      "uid": "imw199z1xx4yslr",
+                      "relation": "canvas",
+                      "x": 0.85,
+                      "y": 0.7,
+                      "gap": 0,
+                      "rotation": 0
+                    }
+                  ]
+                },
+                {
+                  "principle": "Диагональная композиция с фоном слева",
+                  "placements": [
+                    {
+                      "uid": "imw199z1xqov43t",
+                      "relation": "canvas",
+                      "x": 0.5,
+                      "y": 0.5,
+                      "gap": 0,
+                      "rotation": 0
+                    },
+                    {
+                      "uid": "imw199z1xsxezdq",
+                      "relation": "on",
+                      "targetUid": "imw199z1xqov43t",
+                      "x": 0.38,
+                      "y": 0.42,
+                      "gap": 0,
+                      "rotation": 0
+                    },
+                    {
+                      "uid": "imw199z1x5qbf1r",
+                      "relation": "on",
+                      "targetUid": "imw199z1xqov43t",
+                      "x": 0.62,
+                      "y": 0.58,
+                      "gap": 0,
+                      "rotation": 0
+                    },
+                    {
+                      "uid": "imw199z1xx4yslr",
+                      "relation": "canvas",
+                      "x": 0.18,
+                      "y": 0.75,
+                      "gap": 0,
+                      "rotation": 0
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "format": "portrait",
+              "views": [
+                {
+                  "principle": "Вертикальная компоновка элементов с кошельком и монетой",
+                  "placements": [
+                    {
+                      "uid": "imw199z1xqov43t",
+                      "relation": "canvas",
+                      "x": 0.5,
+                      "y": 0.55,
+                      "gap": 0,
+                      "rotation": 0
+                    },
+                    {
+                      "uid": "imw199z1xsxezdq",
+                      "relation": "on",
+                      "targetUid": "imw199z1xqov43t",
+                      "x": 0.45,
+                      "y": 0.48,
+                      "gap": 0,
+                      "rotation": 0
+                    },
+                    {
+                      "uid": "imw199z1x5qbf1r",
+                      "relation": "on",
+                      "targetUid": "imw199z1xqov43t",
+                      "x": 0.58,
+                      "y": 0.52,
+                      "gap": 0,
+                      "rotation": 0
+                    },
+                    {
+                      "uid": "imw199z1xx4yslr",
+                      "relation": "canvas",
+                      "x": 0.2,
+                      "y": 0.2,
+                      "gap": 0,
+                      "rotation": 0
+                    }
+                  ]
+                },
+                {
+                  "principle": "Смещенный вертикальный баланс",
+                  "placements": [
+                    {
+                      "uid": "imw199z1xqov43t",
+                      "relation": "canvas",
+                      "x": 0.48,
+                      "y": 0.52,
+                      "gap": 0,
+                      "rotation": 0
+                    },
+                    {
+                      "uid": "imw199z1xsxezdq",
+                      "relation": "on",
+                      "targetUid": "imw199z1xqov43t",
+                      "x": 0.4,
+                      "y": 0.45,
+                      "gap": 0,
+                      "rotation": 0
+                    },
+                    {
+                      "uid": "imw199z1x5qbf1r",
+                      "relation": "on",
+                      "targetUid": "imw199z1xqov43t",
+                      "x": 0.55,
+                      "y": 0.5,
+                      "gap": 0,
+                      "rotation": 0
+                    },
+                    {
+                      "uid": "imw199z1xx4yslr",
+                      "relation": "canvas",
+                      "x": 0.8,
+                      "y": 0.85,
+                      "gap": 0,
+                      "rotation": 0
+                    }
+                  ]
+                },
+                {
+                  "principle": "Высокая диагональ для вертикального кадра",
+                  "placements": [
+                    {
+                      "uid": "imw199z1xqov43t",
+                      "relation": "canvas",
+                      "x": 0.5,
+                      "y": 0.5,
+                      "gap": 0,
+                      "rotation": 0
+                    },
+                    {
+                      "uid": "imw199z1xsxezdq",
+                      "relation": "on",
+                      "targetUid": "imw199z1xqov43t",
+                      "x": 0.5,
+                      "y": 0.4,
+                      "gap": 0,
+                      "rotation": 0
+                    },
+                    {
+                      "uid": "imw199z1x5qbf1r",
+                      "relation": "on",
+                      "targetUid": "imw199z1xqov43t",
+                      "x": 0.5,
+                      "y": 0.6,
+                      "gap": 0,
+                      "rotation": 0
+                    },
+                    {
+                      "uid": "imw199z1xx4yslr",
+                      "relation": "canvas",
+                      "x": 0.25,
+                      "y": 0.82,
+                      "gap": 0,
+                      "rotation": 0
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "executionNotes": [
+            "Положение «Настольная лампа» уточнено по границам кадра и реестру пересечений.",
+            "Положение «Монета» уточнено по границам кадра и реестру пересечений."
+          ],
+          "width": 1200,
+          "height": 630,
+          "format": "landscape",
+          "size": "S",
+          "palette": "aqua",
+          "layout": "compact",
+          "background": "pattern",
+          "backgroundDesign": "auto",
+          "supporting": true,
+          "showSupporting": true,
+          "camera": null,
+          "composition": {
+            "index": 1,
+            "options": [
+              {
+                "strategy": "balanced",
+                "title": "На опоре",
+                "principle": "Папка в центре, кошелек и монета на ней, лампа слева",
+                "placement": "on-surface"
+              },
+              {
+                "strategy": "spacious",
+                "title": "Рядом",
+                "principle": "Связанная группа со смещением кошелька и монеты",
+                "placement": "beside"
+              },
+              {
+                "strategy": "diagonal",
+                "title": "Другой ракурс группы",
+                "principle": "Диагональное построение ценностей на папке",
+                "placement": "across"
+              }
+            ]
+          },
+          "layerRelations": [
+            {
+              "back": "imw199z1xqov43t",
+              "front": "imw199z1xsxezdq",
+              "reason": "Предмет лежит на допустимой опоре."
+            },
+            {
+              "back": "imw199z1xqov43t",
+              "front": "imw199z1x5qbf1r",
+              "reason": "Предмет лежит на допустимой опоре."
+            },
+            {
+              "back": "imw199z1xx4yslr",
+              "front": "imw199z1xqov43t",
+              "reason": "Фоновый компаньон находится позади главной группы."
+            }
+          ],
+          "recipe": "auto",
+          "framing": "overview",
+          "focus": "wallet",
+          "query": "Сохранить самое ценное",
+          "scale": 1,
+          "items": [
+            {
+              "uid": "imw199z1xx4yslr",
+              "assetId": "lamp",
+              "role": "background",
+              "x": 1200,
+              "y": 497.5,
+              "rotation": 0,
+              "flipX": false,
+              "flipY": false,
+              "zone": "top-left",
+              "crop": "fragment"
+            },
+            {
+              "uid": "imw199z1xqov43t",
+              "assetId": "folder",
+              "role": "main",
+              "x": 684.84,
+              "y": 328.2,
+              "rotation": 0,
+              "flipX": false,
+              "flipY": false,
+              "zone": "auto",
+              "crop": "whole"
+            },
+            {
+              "uid": "imw199z1xsxezdq",
+              "assetId": "wallet",
+              "role": "main",
+              "x": 653.7900000000001,
+              "y": 311.7,
+              "rotation": 0,
+              "flipX": false,
+              "flipY": false,
+              "supportUid": "imw199z1xqov43t",
+              "zone": "auto",
+              "crop": "whole"
+            },
+            {
+              "uid": "imw199z1x5qbf1r",
+              "assetId": "coin",
+              "role": "main",
+              "x": 846.3000000000001,
+              "y": 262.2,
+              "rotation": 0,
+              "flipX": false,
+              "flipY": false,
+              "supportUid": "imw199z1xqov43t",
+              "zone": "auto",
+              "crop": "whole"
+            }
+          ]
+        },
+        {
+          "version": 1,
+          "sizing": "native",
+          "environmentPrompt": "",
+          "environmentExplanation": [
+            "Главная смысловая группа объединяет кошелек и монету на папке для выражения темы ценностей.",
+            "Фоновый предмет-компаньон дополняет композицию сдержанным силуэтом у края.",
+            "Компактная раскладка сохраняет плотную и читаемую группу предметов на холсте."
+          ],
+          "groups": [
+            {
+              "kind": "collection",
+              "members": [
+                "imw199z1xqov43t",
+                "imw199z1xsxezdq",
+                "imw199z1x5qbf1r"
+              ],
+              "reason": "Диагональная композиция с фоном слева"
+            }
+          ],
+          "formatPlans": [],
+          "stagingPlans": [
+            {
+              "format": "square",
+              "views": [
+                {
+                  "principle": "Папка в центре, кошелек и монета на ней, лампа слева",
+                  "placements": [
+                    {
+                      "uid": "imw199z1xqov43t",
+                      "relation": "canvas",
+                      "x": 0.5,
+                      "y": 0.5,
+                      "gap": 0,
+                      "rotation": 0
+                    },
+                    {
+                      "uid": "imw199z1xsxezdq",
+                      "relation": "on",
+                      "targetUid": "imw199z1xqov43t",
+                      "x": 0.45,
+                      "y": 0.45,
+                      "gap": 0,
+                      "rotation": 0
+                    },
+                    {
+                      "uid": "imw199z1x5qbf1r",
+                      "relation": "on",
+                      "targetUid": "imw199z1xqov43t",
+                      "x": 0.6,
+                      "y": 0.55,
+                      "gap": 0,
+                      "rotation": 0
+                    },
+                    {
+                      "uid": "imw199z1xx4yslr",
+                      "relation": "canvas",
+                      "x": 0.15,
+                      "y": 0.25,
+                      "gap": 0,
+                      "rotation": 0
+                    }
+                  ]
+                },
+                {
+                  "principle": "Связанная группа со смещением кошелька и монеты",
+                  "placements": [
+                    {
+                      "uid": "imw199z1xqov43t",
+                      "relation": "canvas",
+                      "x": 0.52,
+                      "y": 0.52,
+                      "gap": 0,
+                      "rotation": 0
+                    },
+                    {
+                      "uid": "imw199z1xsxezdq",
+                      "relation": "on",
+                      "targetUid": "imw199z1xqov43t",
+                      "x": 0.4,
+                      "y": 0.5,
+                      "gap": 0,
+                      "rotation": 0
+                    },
+                    {
+                      "uid": "imw199z1x5qbf1r",
+                      "relation": "on",
+                      "targetUid": "imw199z1xqov43t",
+                      "x": 0.62,
+                      "y": 0.48,
+                      "gap": 0,
+                      "rotation": 0
+                    },
+                    {
+                      "uid": "imw199z1xx4yslr",
+                      "relation": "canvas",
+                      "x": 0.85,
+                      "y": 0.3,
+                      "gap": 0,
+                      "rotation": 0
+                    }
+                  ]
+                },
+                {
+                  "principle": "Диагональное построение ценностей на папке",
+                  "placements": [
+                    {
+                      "uid": "imw199z1xqov43t",
+                      "relation": "canvas",
+                      "x": 0.48,
+                      "y": 0.5,
+                      "gap": 0,
+                      "rotation": 0
+                    },
+                    {
+                      "uid": "imw199z1xsxezdq",
+                      "relation": "on",
+                      "targetUid": "imw199z1xqov43t",
+                      "x": 0.48,
+                      "y": 0.42,
+                      "gap": 0,
+                      "rotation": 0
+                    },
+                    {
+                      "uid": "imw199z1x5qbf1r",
+                      "relation": "on",
+                      "targetUid": "imw199z1xqov43t",
+                      "x": 0.55,
+                      "y": 0.58,
+                      "gap": 0,
+                      "rotation": 0
+                    },
+                    {
+                      "uid": "imw199z1xx4yslr",
+                      "relation": "canvas",
+                      "x": 0.2,
+                      "y": 0.8,
+                      "gap": 0,
+                      "rotation": 0
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "format": "landscape",
+              "views": [
+                {
+                  "principle": "Горизонтальное размещение группы ценностей на папке",
+                  "placements": [
+                    {
+                      "uid": "imw199z1xqov43t",
+                      "relation": "canvas",
+                      "x": 0.5,
+                      "y": 0.52,
+                      "gap": 0,
+                      "rotation": 0
+                    },
+                    {
+                      "uid": "imw199z1xsxezdq",
+                      "relation": "on",
+                      "targetUid": "imw199z1xqov43t",
+                      "x": 0.42,
+                      "y": 0.48,
+                      "gap": 0,
+                      "rotation": 0
+                    },
+                    {
+                      "uid": "imw199z1x5qbf1r",
+                      "relation": "on",
+                      "targetUid": "imw199z1xqov43t",
+                      "x": 0.58,
+                      "y": 0.5,
+                      "gap": 0,
+                      "rotation": 0
+                    },
+                    {
+                      "uid": "imw199z1xx4yslr",
+                      "relation": "canvas",
+                      "x": 0.15,
+                      "y": 0.3,
+                      "gap": 0,
+                      "rotation": 0
+                    }
+                  ]
+                },
+                {
+                  "principle": "Смещенный баланс ценных предметов",
+                  "placements": [
+                    {
+                      "uid": "imw199z1xqov43t",
+                      "relation": "canvas",
+                      "x": 0.55,
+                      "y": 0.5,
+                      "gap": 0,
+                      "rotation": 0
+                    },
+                    {
+                      "uid": "imw199z1xsxezdq",
+                      "relation": "on",
+                      "targetUid": "imw199z1xqov43t",
+                      "x": 0.45,
+                      "y": 0.45,
+                      "gap": 0,
+                      "rotation": 0
+                    },
+                    {
+                      "uid": "imw199z1x5qbf1r",
+                      "relation": "on",
+                      "targetUid": "imw199z1xqov43t",
+                      "x": 0.55,
+                      "y": 0.55,
+                      "gap": 0,
+                      "rotation": 0
+                    },
+                    {
+                      "uid": "imw199z1xx4yslr",
+                      "relation": "canvas",
+                      "x": 0.85,
+                      "y": 0.7,
+                      "gap": 0,
+                      "rotation": 0
+                    }
+                  ]
+                },
+                {
+                  "principle": "Диагональная композиция с фоном слева",
+                  "placements": [
+                    {
+                      "uid": "imw199z1xqov43t",
+                      "relation": "canvas",
+                      "x": 0.5,
+                      "y": 0.5,
+                      "gap": 0,
+                      "rotation": 0
+                    },
+                    {
+                      "uid": "imw199z1xsxezdq",
+                      "relation": "on",
+                      "targetUid": "imw199z1xqov43t",
+                      "x": 0.38,
+                      "y": 0.42,
+                      "gap": 0,
+                      "rotation": 0
+                    },
+                    {
+                      "uid": "imw199z1x5qbf1r",
+                      "relation": "on",
+                      "targetUid": "imw199z1xqov43t",
+                      "x": 0.62,
+                      "y": 0.58,
+                      "gap": 0,
+                      "rotation": 0
+                    },
+                    {
+                      "uid": "imw199z1xx4yslr",
+                      "relation": "canvas",
+                      "x": 0.18,
+                      "y": 0.75,
+                      "gap": 0,
+                      "rotation": 0
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "format": "portrait",
+              "views": [
+                {
+                  "principle": "Вертикальная компоновка элементов с кошельком и монетой",
+                  "placements": [
+                    {
+                      "uid": "imw199z1xqov43t",
+                      "relation": "canvas",
+                      "x": 0.5,
+                      "y": 0.55,
+                      "gap": 0,
+                      "rotation": 0
+                    },
+                    {
+                      "uid": "imw199z1xsxezdq",
+                      "relation": "on",
+                      "targetUid": "imw199z1xqov43t",
+                      "x": 0.45,
+                      "y": 0.48,
+                      "gap": 0,
+                      "rotation": 0
+                    },
+                    {
+                      "uid": "imw199z1x5qbf1r",
+                      "relation": "on",
+                      "targetUid": "imw199z1xqov43t",
+                      "x": 0.58,
+                      "y": 0.52,
+                      "gap": 0,
+                      "rotation": 0
+                    },
+                    {
+                      "uid": "imw199z1xx4yslr",
+                      "relation": "canvas",
+                      "x": 0.2,
+                      "y": 0.2,
+                      "gap": 0,
+                      "rotation": 0
+                    }
+                  ]
+                },
+                {
+                  "principle": "Смещенный вертикальный баланс",
+                  "placements": [
+                    {
+                      "uid": "imw199z1xqov43t",
+                      "relation": "canvas",
+                      "x": 0.48,
+                      "y": 0.52,
+                      "gap": 0,
+                      "rotation": 0
+                    },
+                    {
+                      "uid": "imw199z1xsxezdq",
+                      "relation": "on",
+                      "targetUid": "imw199z1xqov43t",
+                      "x": 0.4,
+                      "y": 0.45,
+                      "gap": 0,
+                      "rotation": 0
+                    },
+                    {
+                      "uid": "imw199z1x5qbf1r",
+                      "relation": "on",
+                      "targetUid": "imw199z1xqov43t",
+                      "x": 0.55,
+                      "y": 0.5,
+                      "gap": 0,
+                      "rotation": 0
+                    },
+                    {
+                      "uid": "imw199z1xx4yslr",
+                      "relation": "canvas",
+                      "x": 0.8,
+                      "y": 0.85,
+                      "gap": 0,
+                      "rotation": 0
+                    }
+                  ]
+                },
+                {
+                  "principle": "Высокая диагональ для вертикального кадра",
+                  "placements": [
+                    {
+                      "uid": "imw199z1xqov43t",
+                      "relation": "canvas",
+                      "x": 0.5,
+                      "y": 0.5,
+                      "gap": 0,
+                      "rotation": 0
+                    },
+                    {
+                      "uid": "imw199z1xsxezdq",
+                      "relation": "on",
+                      "targetUid": "imw199z1xqov43t",
+                      "x": 0.5,
+                      "y": 0.4,
+                      "gap": 0,
+                      "rotation": 0
+                    },
+                    {
+                      "uid": "imw199z1x5qbf1r",
+                      "relation": "on",
+                      "targetUid": "imw199z1xqov43t",
+                      "x": 0.5,
+                      "y": 0.6,
+                      "gap": 0,
+                      "rotation": 0
+                    },
+                    {
+                      "uid": "imw199z1xx4yslr",
+                      "relation": "canvas",
+                      "x": 0.25,
+                      "y": 0.82,
+                      "gap": 0,
+                      "rotation": 0
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "executionNotes": [
+            "Положение «Настольная лампа» уточнено по границам кадра и реестру пересечений.",
+            "Положение «Монета» уточнено по границам кадра и реестру пересечений."
+          ],
+          "width": 1200,
+          "height": 630,
+          "format": "landscape",
+          "size": "S",
+          "palette": "aqua",
+          "layout": "compact",
+          "background": "pattern",
+          "backgroundDesign": "auto",
+          "supporting": true,
+          "showSupporting": true,
+          "camera": null,
+          "composition": {
+            "index": 2,
+            "options": [
+              {
+                "strategy": "balanced",
+                "title": "На опоре",
+                "principle": "Папка в центре, кошелек и монета на ней, лампа слева",
+                "placement": "on-surface"
+              },
+              {
+                "strategy": "spacious",
+                "title": "Рядом",
+                "principle": "Связанная группа со смещением кошелька и монеты",
+                "placement": "beside"
+              },
+              {
+                "strategy": "diagonal",
+                "title": "Другой ракурс группы",
+                "principle": "Диагональное построение ценностей на папке",
+                "placement": "across"
+              }
+            ]
+          },
+          "layerRelations": [
+            {
+              "back": "imw199z1xqov43t",
+              "front": "imw199z1xsxezdq",
+              "reason": "Предмет лежит на допустимой опоре."
+            },
+            {
+              "back": "imw199z1xqov43t",
+              "front": "imw199z1x5qbf1r",
+              "reason": "Предмет лежит на допустимой опоре."
+            },
+            {
+              "back": "imw199z1xx4yslr",
+              "front": "imw199z1xqov43t",
+              "reason": "Фоновый компаньон находится позади главной группы."
+            }
+          ],
+          "recipe": "auto",
+          "framing": "overview",
+          "focus": "wallet",
+          "query": "Сохранить самое ценное",
+          "scale": 1,
+          "items": [
+            {
+              "uid": "imw199z1xx4yslr",
+              "assetId": "lamp",
+              "role": "background",
+              "x": 0,
+              "y": 529,
+              "rotation": 0,
+              "flipX": false,
+              "flipY": false,
+              "zone": "top-left",
+              "crop": "fragment"
+            },
+            {
+              "uid": "imw199z1xqov43t",
+              "assetId": "folder",
+              "role": "main",
+              "x": 624.84,
+              "y": 328.2,
+              "rotation": 0,
+              "flipX": false,
+              "flipY": false,
+              "zone": "auto",
+              "crop": "whole"
+            },
+            {
+              "uid": "imw199z1xsxezdq",
+              "assetId": "wallet",
+              "role": "main",
+              "x": 550.32,
+              "y": 301.79999999999995,
+              "rotation": 0,
+              "flipX": false,
+              "flipY": false,
+              "supportUid": "imw199z1xqov43t",
+              "zone": "auto",
+              "crop": "whole"
+            },
+            {
+              "uid": "imw199z1x5qbf1r",
+              "assetId": "coin",
+              "role": "main",
+              "x": 786.3000000000001,
+              "y": 341.4,
+              "rotation": 0,
+              "flipX": false,
+              "flipY": false,
+              "supportUid": "imw199z1xqov43t",
+              "zone": "auto",
+              "crop": "whole"
+            }
+          ]
+        }
+      ],
+      "portrait": [
+        {
+          "version": 1,
+          "sizing": "native",
+          "environmentPrompt": "",
+          "environmentExplanation": [
+            "Главная смысловая группа объединяет кошелек и монету на папке для выражения темы ценностей.",
+            "Фоновый предмет-компаньон дополняет композицию сдержанным силуэтом у края.",
+            "Компактная раскладка сохраняет плотную и читаемую группу предметов на холсте."
+          ],
+          "groups": [
+            {
+              "kind": "collection",
+              "members": [
+                "imw199z1xqov43t",
+                "imw199z1xsxezdq",
+                "imw199z1x5qbf1r"
+              ],
+              "reason": "Вертикальная компоновка элементов с кошельком и монетой"
+            }
+          ],
+          "formatPlans": [],
+          "stagingPlans": [
+            {
+              "format": "square",
+              "views": [
+                {
+                  "principle": "Папка в центре, кошелек и монета на ней, лампа слева",
+                  "placements": [
+                    {
+                      "uid": "imw199z1xqov43t",
+                      "relation": "canvas",
+                      "x": 0.5,
+                      "y": 0.5,
+                      "gap": 0,
+                      "rotation": 0
+                    },
+                    {
+                      "uid": "imw199z1xsxezdq",
+                      "relation": "on",
+                      "targetUid": "imw199z1xqov43t",
+                      "x": 0.45,
+                      "y": 0.45,
+                      "gap": 0,
+                      "rotation": 0
+                    },
+                    {
+                      "uid": "imw199z1x5qbf1r",
+                      "relation": "on",
+                      "targetUid": "imw199z1xqov43t",
+                      "x": 0.6,
+                      "y": 0.55,
+                      "gap": 0,
+                      "rotation": 0
+                    },
+                    {
+                      "uid": "imw199z1xx4yslr",
+                      "relation": "canvas",
+                      "x": 0.15,
+                      "y": 0.25,
+                      "gap": 0,
+                      "rotation": 0
+                    }
+                  ]
+                },
+                {
+                  "principle": "Связанная группа со смещением кошелька и монеты",
+                  "placements": [
+                    {
+                      "uid": "imw199z1xqov43t",
+                      "relation": "canvas",
+                      "x": 0.52,
+                      "y": 0.52,
+                      "gap": 0,
+                      "rotation": 0
+                    },
+                    {
+                      "uid": "imw199z1xsxezdq",
+                      "relation": "on",
+                      "targetUid": "imw199z1xqov43t",
+                      "x": 0.4,
+                      "y": 0.5,
+                      "gap": 0,
+                      "rotation": 0
+                    },
+                    {
+                      "uid": "imw199z1x5qbf1r",
+                      "relation": "on",
+                      "targetUid": "imw199z1xqov43t",
+                      "x": 0.62,
+                      "y": 0.48,
+                      "gap": 0,
+                      "rotation": 0
+                    },
+                    {
+                      "uid": "imw199z1xx4yslr",
+                      "relation": "canvas",
+                      "x": 0.85,
+                      "y": 0.3,
+                      "gap": 0,
+                      "rotation": 0
+                    }
+                  ]
+                },
+                {
+                  "principle": "Диагональное построение ценностей на папке",
+                  "placements": [
+                    {
+                      "uid": "imw199z1xqov43t",
+                      "relation": "canvas",
+                      "x": 0.48,
+                      "y": 0.5,
+                      "gap": 0,
+                      "rotation": 0
+                    },
+                    {
+                      "uid": "imw199z1xsxezdq",
+                      "relation": "on",
+                      "targetUid": "imw199z1xqov43t",
+                      "x": 0.48,
+                      "y": 0.42,
+                      "gap": 0,
+                      "rotation": 0
+                    },
+                    {
+                      "uid": "imw199z1x5qbf1r",
+                      "relation": "on",
+                      "targetUid": "imw199z1xqov43t",
+                      "x": 0.55,
+                      "y": 0.58,
+                      "gap": 0,
+                      "rotation": 0
+                    },
+                    {
+                      "uid": "imw199z1xx4yslr",
+                      "relation": "canvas",
+                      "x": 0.2,
+                      "y": 0.8,
+                      "gap": 0,
+                      "rotation": 0
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "format": "landscape",
+              "views": [
+                {
+                  "principle": "Горизонтальное размещение группы ценностей на папке",
+                  "placements": [
+                    {
+                      "uid": "imw199z1xqov43t",
+                      "relation": "canvas",
+                      "x": 0.5,
+                      "y": 0.52,
+                      "gap": 0,
+                      "rotation": 0
+                    },
+                    {
+                      "uid": "imw199z1xsxezdq",
+                      "relation": "on",
+                      "targetUid": "imw199z1xqov43t",
+                      "x": 0.42,
+                      "y": 0.48,
+                      "gap": 0,
+                      "rotation": 0
+                    },
+                    {
+                      "uid": "imw199z1x5qbf1r",
+                      "relation": "on",
+                      "targetUid": "imw199z1xqov43t",
+                      "x": 0.58,
+                      "y": 0.5,
+                      "gap": 0,
+                      "rotation": 0
+                    },
+                    {
+                      "uid": "imw199z1xx4yslr",
+                      "relation": "canvas",
+                      "x": 0.15,
+                      "y": 0.3,
+                      "gap": 0,
+                      "rotation": 0
+                    }
+                  ]
+                },
+                {
+                  "principle": "Смещенный баланс ценных предметов",
+                  "placements": [
+                    {
+                      "uid": "imw199z1xqov43t",
+                      "relation": "canvas",
+                      "x": 0.55,
+                      "y": 0.5,
+                      "gap": 0,
+                      "rotation": 0
+                    },
+                    {
+                      "uid": "imw199z1xsxezdq",
+                      "relation": "on",
+                      "targetUid": "imw199z1xqov43t",
+                      "x": 0.45,
+                      "y": 0.45,
+                      "gap": 0,
+                      "rotation": 0
+                    },
+                    {
+                      "uid": "imw199z1x5qbf1r",
+                      "relation": "on",
+                      "targetUid": "imw199z1xqov43t",
+                      "x": 0.55,
+                      "y": 0.55,
+                      "gap": 0,
+                      "rotation": 0
+                    },
+                    {
+                      "uid": "imw199z1xx4yslr",
+                      "relation": "canvas",
+                      "x": 0.85,
+                      "y": 0.7,
+                      "gap": 0,
+                      "rotation": 0
+                    }
+                  ]
+                },
+                {
+                  "principle": "Диагональная композиция с фоном слева",
+                  "placements": [
+                    {
+                      "uid": "imw199z1xqov43t",
+                      "relation": "canvas",
+                      "x": 0.5,
+                      "y": 0.5,
+                      "gap": 0,
+                      "rotation": 0
+                    },
+                    {
+                      "uid": "imw199z1xsxezdq",
+                      "relation": "on",
+                      "targetUid": "imw199z1xqov43t",
+                      "x": 0.38,
+                      "y": 0.42,
+                      "gap": 0,
+                      "rotation": 0
+                    },
+                    {
+                      "uid": "imw199z1x5qbf1r",
+                      "relation": "on",
+                      "targetUid": "imw199z1xqov43t",
+                      "x": 0.62,
+                      "y": 0.58,
+                      "gap": 0,
+                      "rotation": 0
+                    },
+                    {
+                      "uid": "imw199z1xx4yslr",
+                      "relation": "canvas",
+                      "x": 0.18,
+                      "y": 0.75,
+                      "gap": 0,
+                      "rotation": 0
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "format": "portrait",
+              "views": [
+                {
+                  "principle": "Вертикальная компоновка элементов с кошельком и монетой",
+                  "placements": [
+                    {
+                      "uid": "imw199z1xqov43t",
+                      "relation": "canvas",
+                      "x": 0.5,
+                      "y": 0.55,
+                      "gap": 0,
+                      "rotation": 0
+                    },
+                    {
+                      "uid": "imw199z1xsxezdq",
+                      "relation": "on",
+                      "targetUid": "imw199z1xqov43t",
+                      "x": 0.45,
+                      "y": 0.48,
+                      "gap": 0,
+                      "rotation": 0
+                    },
+                    {
+                      "uid": "imw199z1x5qbf1r",
+                      "relation": "on",
+                      "targetUid": "imw199z1xqov43t",
+                      "x": 0.58,
+                      "y": 0.52,
+                      "gap": 0,
+                      "rotation": 0
+                    },
+                    {
+                      "uid": "imw199z1xx4yslr",
+                      "relation": "canvas",
+                      "x": 0.2,
+                      "y": 0.2,
+                      "gap": 0,
+                      "rotation": 0
+                    }
+                  ]
+                },
+                {
+                  "principle": "Смещенный вертикальный баланс",
+                  "placements": [
+                    {
+                      "uid": "imw199z1xqov43t",
+                      "relation": "canvas",
+                      "x": 0.48,
+                      "y": 0.52,
+                      "gap": 0,
+                      "rotation": 0
+                    },
+                    {
+                      "uid": "imw199z1xsxezdq",
+                      "relation": "on",
+                      "targetUid": "imw199z1xqov43t",
+                      "x": 0.4,
+                      "y": 0.45,
+                      "gap": 0,
+                      "rotation": 0
+                    },
+                    {
+                      "uid": "imw199z1x5qbf1r",
+                      "relation": "on",
+                      "targetUid": "imw199z1xqov43t",
+                      "x": 0.55,
+                      "y": 0.5,
+                      "gap": 0,
+                      "rotation": 0
+                    },
+                    {
+                      "uid": "imw199z1xx4yslr",
+                      "relation": "canvas",
+                      "x": 0.8,
+                      "y": 0.85,
+                      "gap": 0,
+                      "rotation": 0
+                    }
+                  ]
+                },
+                {
+                  "principle": "Высокая диагональ для вертикального кадра",
+                  "placements": [
+                    {
+                      "uid": "imw199z1xqov43t",
+                      "relation": "canvas",
+                      "x": 0.5,
+                      "y": 0.5,
+                      "gap": 0,
+                      "rotation": 0
+                    },
+                    {
+                      "uid": "imw199z1xsxezdq",
+                      "relation": "on",
+                      "targetUid": "imw199z1xqov43t",
+                      "x": 0.5,
+                      "y": 0.4,
+                      "gap": 0,
+                      "rotation": 0
+                    },
+                    {
+                      "uid": "imw199z1x5qbf1r",
+                      "relation": "on",
+                      "targetUid": "imw199z1xqov43t",
+                      "x": 0.5,
+                      "y": 0.6,
+                      "gap": 0,
+                      "rotation": 0
+                    },
+                    {
+                      "uid": "imw199z1xx4yslr",
+                      "relation": "canvas",
+                      "x": 0.25,
+                      "y": 0.82,
+                      "gap": 0,
+                      "rotation": 0
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "executionNotes": [
+            "Положение «Монета» уточнено по границам кадра и реестру пересечений."
+          ],
+          "width": 800,
+          "height": 1200,
+          "format": "portrait",
+          "size": "S",
+          "palette": "aqua",
+          "layout": "compact",
+          "background": "pattern",
+          "backgroundDesign": "auto",
+          "supporting": true,
+          "showSupporting": true,
+          "camera": null,
+          "composition": {
+            "index": 0,
+            "options": [
+              {
+                "strategy": "balanced",
+                "title": "На опоре",
+                "principle": "Папка в центре, кошелек и монета на ней, лампа слева",
+                "placement": "on-surface"
+              },
+              {
+                "strategy": "spacious",
+                "title": "Рядом",
+                "principle": "Связанная группа со смещением кошелька и монеты",
+                "placement": "beside"
+              },
+              {
+                "strategy": "diagonal",
+                "title": "Другой ракурс группы",
+                "principle": "Диагональное построение ценностей на папке",
+                "placement": "across"
+              }
+            ]
+          },
+          "layerRelations": [
+            {
+              "back": "imw199z1xqov43t",
+              "front": "imw199z1xsxezdq",
+              "reason": "Предмет лежит на допустимой опоре."
+            },
+            {
+              "back": "imw199z1xqov43t",
+              "front": "imw199z1x5qbf1r",
+              "reason": "Предмет лежит на допустимой опоре."
+            },
+            {
+              "back": "imw199z1xx4yslr",
+              "front": "imw199z1xqov43t",
+              "reason": "Фоновый компаньон находится позади главной группы."
+            }
+          ],
+          "recipe": "auto",
+          "framing": "overview",
+          "focus": "wallet",
+          "query": "Сохранить самое ценное",
+          "scale": 1,
+          "items": [
+            {
+              "uid": "imw199z1xx4yslr",
+              "assetId": "lamp",
+              "role": "background",
+              "x": 174.19,
+              "y": 296.5,
+              "rotation": 0,
+              "flipX": false,
+              "flipY": false,
+              "zone": "top-left",
+              "crop": "fragment"
+            },
+            {
+              "uid": "imw199z1xqov43t",
+              "assetId": "folder",
+              "role": "main",
+              "x": 424.84,
+              "y": 673.2,
+              "rotation": 0,
+              "flipX": false,
+              "flipY": false,
+              "zone": "auto",
+              "crop": "whole"
+            },
+            {
+              "uid": "imw199z1xsxezdq",
+              "assetId": "wallet",
+              "role": "main",
+              "x": 393.78999999999996,
+              "y": 666.6,
+              "rotation": 0,
+              "flipX": false,
+              "flipY": false,
+              "supportUid": "imw199z1xqov43t",
+              "zone": "auto",
+              "crop": "whole"
+            },
+            {
+              "uid": "imw199z1x5qbf1r",
+              "assetId": "coin",
+              "role": "main",
+              "x": 586.3,
+              "y": 607.2,
+              "rotation": 0,
+              "flipX": false,
+              "flipY": false,
+              "supportUid": "imw199z1xqov43t",
+              "zone": "auto",
+              "crop": "whole"
+            }
+          ]
+        },
+        {
+          "version": 1,
+          "sizing": "native",
+          "environmentPrompt": "",
+          "environmentExplanation": [
+            "Главная смысловая группа объединяет кошелек и монету на папке для выражения темы ценностей.",
+            "Фоновый предмет-компаньон дополняет композицию сдержанным силуэтом у края.",
+            "Компактная раскладка сохраняет плотную и читаемую группу предметов на холсте."
+          ],
+          "groups": [
+            {
+              "kind": "collection",
+              "members": [
+                "imw199z1xqov43t",
+                "imw199z1xsxezdq",
+                "imw199z1x5qbf1r"
+              ],
+              "reason": "Смещенный вертикальный баланс"
+            }
+          ],
+          "formatPlans": [],
+          "stagingPlans": [
+            {
+              "format": "square",
+              "views": [
+                {
+                  "principle": "Папка в центре, кошелек и монета на ней, лампа слева",
+                  "placements": [
+                    {
+                      "uid": "imw199z1xqov43t",
+                      "relation": "canvas",
+                      "x": 0.5,
+                      "y": 0.5,
+                      "gap": 0,
+                      "rotation": 0
+                    },
+                    {
+                      "uid": "imw199z1xsxezdq",
+                      "relation": "on",
+                      "targetUid": "imw199z1xqov43t",
+                      "x": 0.45,
+                      "y": 0.45,
+                      "gap": 0,
+                      "rotation": 0
+                    },
+                    {
+                      "uid": "imw199z1x5qbf1r",
+                      "relation": "on",
+                      "targetUid": "imw199z1xqov43t",
+                      "x": 0.6,
+                      "y": 0.55,
+                      "gap": 0,
+                      "rotation": 0
+                    },
+                    {
+                      "uid": "imw199z1xx4yslr",
+                      "relation": "canvas",
+                      "x": 0.15,
+                      "y": 0.25,
+                      "gap": 0,
+                      "rotation": 0
+                    }
+                  ]
+                },
+                {
+                  "principle": "Связанная группа со смещением кошелька и монеты",
+                  "placements": [
+                    {
+                      "uid": "imw199z1xqov43t",
+                      "relation": "canvas",
+                      "x": 0.52,
+                      "y": 0.52,
+                      "gap": 0,
+                      "rotation": 0
+                    },
+                    {
+                      "uid": "imw199z1xsxezdq",
+                      "relation": "on",
+                      "targetUid": "imw199z1xqov43t",
+                      "x": 0.4,
+                      "y": 0.5,
+                      "gap": 0,
+                      "rotation": 0
+                    },
+                    {
+                      "uid": "imw199z1x5qbf1r",
+                      "relation": "on",
+                      "targetUid": "imw199z1xqov43t",
+                      "x": 0.62,
+                      "y": 0.48,
+                      "gap": 0,
+                      "rotation": 0
+                    },
+                    {
+                      "uid": "imw199z1xx4yslr",
+                      "relation": "canvas",
+                      "x": 0.85,
+                      "y": 0.3,
+                      "gap": 0,
+                      "rotation": 0
+                    }
+                  ]
+                },
+                {
+                  "principle": "Диагональное построение ценностей на папке",
+                  "placements": [
+                    {
+                      "uid": "imw199z1xqov43t",
+                      "relation": "canvas",
+                      "x": 0.48,
+                      "y": 0.5,
+                      "gap": 0,
+                      "rotation": 0
+                    },
+                    {
+                      "uid": "imw199z1xsxezdq",
+                      "relation": "on",
+                      "targetUid": "imw199z1xqov43t",
+                      "x": 0.48,
+                      "y": 0.42,
+                      "gap": 0,
+                      "rotation": 0
+                    },
+                    {
+                      "uid": "imw199z1x5qbf1r",
+                      "relation": "on",
+                      "targetUid": "imw199z1xqov43t",
+                      "x": 0.55,
+                      "y": 0.58,
+                      "gap": 0,
+                      "rotation": 0
+                    },
+                    {
+                      "uid": "imw199z1xx4yslr",
+                      "relation": "canvas",
+                      "x": 0.2,
+                      "y": 0.8,
+                      "gap": 0,
+                      "rotation": 0
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "format": "landscape",
+              "views": [
+                {
+                  "principle": "Горизонтальное размещение группы ценностей на папке",
+                  "placements": [
+                    {
+                      "uid": "imw199z1xqov43t",
+                      "relation": "canvas",
+                      "x": 0.5,
+                      "y": 0.52,
+                      "gap": 0,
+                      "rotation": 0
+                    },
+                    {
+                      "uid": "imw199z1xsxezdq",
+                      "relation": "on",
+                      "targetUid": "imw199z1xqov43t",
+                      "x": 0.42,
+                      "y": 0.48,
+                      "gap": 0,
+                      "rotation": 0
+                    },
+                    {
+                      "uid": "imw199z1x5qbf1r",
+                      "relation": "on",
+                      "targetUid": "imw199z1xqov43t",
+                      "x": 0.58,
+                      "y": 0.5,
+                      "gap": 0,
+                      "rotation": 0
+                    },
+                    {
+                      "uid": "imw199z1xx4yslr",
+                      "relation": "canvas",
+                      "x": 0.15,
+                      "y": 0.3,
+                      "gap": 0,
+                      "rotation": 0
+                    }
+                  ]
+                },
+                {
+                  "principle": "Смещенный баланс ценных предметов",
+                  "placements": [
+                    {
+                      "uid": "imw199z1xqov43t",
+                      "relation": "canvas",
+                      "x": 0.55,
+                      "y": 0.5,
+                      "gap": 0,
+                      "rotation": 0
+                    },
+                    {
+                      "uid": "imw199z1xsxezdq",
+                      "relation": "on",
+                      "targetUid": "imw199z1xqov43t",
+                      "x": 0.45,
+                      "y": 0.45,
+                      "gap": 0,
+                      "rotation": 0
+                    },
+                    {
+                      "uid": "imw199z1x5qbf1r",
+                      "relation": "on",
+                      "targetUid": "imw199z1xqov43t",
+                      "x": 0.55,
+                      "y": 0.55,
+                      "gap": 0,
+                      "rotation": 0
+                    },
+                    {
+                      "uid": "imw199z1xx4yslr",
+                      "relation": "canvas",
+                      "x": 0.85,
+                      "y": 0.7,
+                      "gap": 0,
+                      "rotation": 0
+                    }
+                  ]
+                },
+                {
+                  "principle": "Диагональная композиция с фоном слева",
+                  "placements": [
+                    {
+                      "uid": "imw199z1xqov43t",
+                      "relation": "canvas",
+                      "x": 0.5,
+                      "y": 0.5,
+                      "gap": 0,
+                      "rotation": 0
+                    },
+                    {
+                      "uid": "imw199z1xsxezdq",
+                      "relation": "on",
+                      "targetUid": "imw199z1xqov43t",
+                      "x": 0.38,
+                      "y": 0.42,
+                      "gap": 0,
+                      "rotation": 0
+                    },
+                    {
+                      "uid": "imw199z1x5qbf1r",
+                      "relation": "on",
+                      "targetUid": "imw199z1xqov43t",
+                      "x": 0.62,
+                      "y": 0.58,
+                      "gap": 0,
+                      "rotation": 0
+                    },
+                    {
+                      "uid": "imw199z1xx4yslr",
+                      "relation": "canvas",
+                      "x": 0.18,
+                      "y": 0.75,
+                      "gap": 0,
+                      "rotation": 0
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "format": "portrait",
+              "views": [
+                {
+                  "principle": "Вертикальная компоновка элементов с кошельком и монетой",
+                  "placements": [
+                    {
+                      "uid": "imw199z1xqov43t",
+                      "relation": "canvas",
+                      "x": 0.5,
+                      "y": 0.55,
+                      "gap": 0,
+                      "rotation": 0
+                    },
+                    {
+                      "uid": "imw199z1xsxezdq",
+                      "relation": "on",
+                      "targetUid": "imw199z1xqov43t",
+                      "x": 0.45,
+                      "y": 0.48,
+                      "gap": 0,
+                      "rotation": 0
+                    },
+                    {
+                      "uid": "imw199z1x5qbf1r",
+                      "relation": "on",
+                      "targetUid": "imw199z1xqov43t",
+                      "x": 0.58,
+                      "y": 0.52,
+                      "gap": 0,
+                      "rotation": 0
+                    },
+                    {
+                      "uid": "imw199z1xx4yslr",
+                      "relation": "canvas",
+                      "x": 0.2,
+                      "y": 0.2,
+                      "gap": 0,
+                      "rotation": 0
+                    }
+                  ]
+                },
+                {
+                  "principle": "Смещенный вертикальный баланс",
+                  "placements": [
+                    {
+                      "uid": "imw199z1xqov43t",
+                      "relation": "canvas",
+                      "x": 0.48,
+                      "y": 0.52,
+                      "gap": 0,
+                      "rotation": 0
+                    },
+                    {
+                      "uid": "imw199z1xsxezdq",
+                      "relation": "on",
+                      "targetUid": "imw199z1xqov43t",
+                      "x": 0.4,
+                      "y": 0.45,
+                      "gap": 0,
+                      "rotation": 0
+                    },
+                    {
+                      "uid": "imw199z1x5qbf1r",
+                      "relation": "on",
+                      "targetUid": "imw199z1xqov43t",
+                      "x": 0.55,
+                      "y": 0.5,
+                      "gap": 0,
+                      "rotation": 0
+                    },
+                    {
+                      "uid": "imw199z1xx4yslr",
+                      "relation": "canvas",
+                      "x": 0.8,
+                      "y": 0.85,
+                      "gap": 0,
+                      "rotation": 0
+                    }
+                  ]
+                },
+                {
+                  "principle": "Высокая диагональ для вертикального кадра",
+                  "placements": [
+                    {
+                      "uid": "imw199z1xqov43t",
+                      "relation": "canvas",
+                      "x": 0.5,
+                      "y": 0.5,
+                      "gap": 0,
+                      "rotation": 0
+                    },
+                    {
+                      "uid": "imw199z1xsxezdq",
+                      "relation": "on",
+                      "targetUid": "imw199z1xqov43t",
+                      "x": 0.5,
+                      "y": 0.4,
+                      "gap": 0,
+                      "rotation": 0
+                    },
+                    {
+                      "uid": "imw199z1x5qbf1r",
+                      "relation": "on",
+                      "targetUid": "imw199z1xqov43t",
+                      "x": 0.5,
+                      "y": 0.6,
+                      "gap": 0,
+                      "rotation": 0
+                    },
+                    {
+                      "uid": "imw199z1xx4yslr",
+                      "relation": "canvas",
+                      "x": 0.25,
+                      "y": 0.82,
+                      "gap": 0,
+                      "rotation": 0
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "executionNotes": [
+            "Положение «Монета» уточнено по границам кадра и реестру пересечений."
+          ],
+          "width": 800,
+          "height": 1200,
+          "format": "portrait",
+          "size": "S",
+          "palette": "aqua",
+          "layout": "compact",
+          "background": "pattern",
+          "backgroundDesign": "auto",
+          "supporting": true,
+          "showSupporting": true,
+          "camera": null,
+          "composition": {
+            "index": 1,
+            "options": [
+              {
+                "strategy": "balanced",
+                "title": "На опоре",
+                "principle": "Папка в центре, кошелек и монета на ней, лампа слева",
+                "placement": "on-surface"
+              },
+              {
+                "strategy": "spacious",
+                "title": "Рядом",
+                "principle": "Связанная группа со смещением кошелька и монеты",
+                "placement": "beside"
+              },
+              {
+                "strategy": "diagonal",
+                "title": "Другой ракурс группы",
+                "principle": "Диагональное построение ценностей на папке",
+                "placement": "across"
+              }
+            ]
+          },
+          "layerRelations": [
+            {
+              "back": "imw199z1xqov43t",
+              "front": "imw199z1xsxezdq",
+              "reason": "Предмет лежит на допустимой опоре."
+            },
+            {
+              "back": "imw199z1xqov43t",
+              "front": "imw199z1x5qbf1r",
+              "reason": "Предмет лежит на допустимой опоре."
+            },
+            {
+              "back": "imw199z1xx4yslr",
+              "front": "imw199z1xqov43t",
+              "reason": "Фоновый компаньон находится позади главной группы."
+            }
+          ],
+          "recipe": "auto",
+          "framing": "overview",
+          "focus": "wallet",
+          "query": "Сохранить самое ценное",
+          "scale": 1,
+          "items": [
+            {
+              "uid": "imw199z1xx4yslr",
+              "assetId": "lamp",
+              "role": "background",
+              "x": 654.19,
+              "y": 1076.5,
+              "rotation": 0,
+              "flipX": false,
+              "flipY": false,
+              "zone": "top-left",
+              "crop": "fragment"
+            },
+            {
+              "uid": "imw199z1xqov43t",
+              "assetId": "folder",
+              "role": "main",
+              "x": 408.84,
+              "y": 637.2,
+              "rotation": 0,
+              "flipX": false,
+              "flipY": false,
+              "zone": "auto",
+              "crop": "whole"
+            },
+            {
+              "uid": "imw199z1xsxezdq",
+              "assetId": "wallet",
+              "role": "main",
+              "x": 346.74,
+              "y": 620.7,
+              "rotation": 0,
+              "flipX": false,
+              "flipY": false,
+              "supportUid": "imw199z1xqov43t",
+              "zone": "auto",
+              "crop": "whole"
+            },
+            {
+              "uid": "imw199z1x5qbf1r",
+              "assetId": "coin",
+              "role": "main",
+              "x": 570.3,
+              "y": 610.8000000000001,
+              "rotation": 0,
+              "flipX": false,
+              "flipY": false,
+              "supportUid": "imw199z1xqov43t",
+              "zone": "auto",
+              "crop": "whole"
+            }
+          ]
+        },
+        {
+          "version": 1,
+          "sizing": "native",
+          "environmentPrompt": "",
+          "environmentExplanation": [
+            "Главная смысловая группа объединяет кошелек и монету на папке для выражения темы ценностей.",
+            "Фоновый предмет-компаньон дополняет композицию сдержанным силуэтом у края.",
+            "Компактная раскладка сохраняет плотную и читаемую группу предметов на холсте."
+          ],
+          "groups": [
+            {
+              "kind": "collection",
+              "members": [
+                "imw199z1xqov43t",
+                "imw199z1xsxezdq",
+                "imw199z1x5qbf1r"
+              ],
+              "reason": "Высокая диагональ для вертикального кадра"
+            }
+          ],
+          "formatPlans": [],
+          "stagingPlans": [
+            {
+              "format": "square",
+              "views": [
+                {
+                  "principle": "Папка в центре, кошелек и монета на ней, лампа слева",
+                  "placements": [
+                    {
+                      "uid": "imw199z1xqov43t",
+                      "relation": "canvas",
+                      "x": 0.5,
+                      "y": 0.5,
+                      "gap": 0,
+                      "rotation": 0
+                    },
+                    {
+                      "uid": "imw199z1xsxezdq",
+                      "relation": "on",
+                      "targetUid": "imw199z1xqov43t",
+                      "x": 0.45,
+                      "y": 0.45,
+                      "gap": 0,
+                      "rotation": 0
+                    },
+                    {
+                      "uid": "imw199z1x5qbf1r",
+                      "relation": "on",
+                      "targetUid": "imw199z1xqov43t",
+                      "x": 0.6,
+                      "y": 0.55,
+                      "gap": 0,
+                      "rotation": 0
+                    },
+                    {
+                      "uid": "imw199z1xx4yslr",
+                      "relation": "canvas",
+                      "x": 0.15,
+                      "y": 0.25,
+                      "gap": 0,
+                      "rotation": 0
+                    }
+                  ]
+                },
+                {
+                  "principle": "Связанная группа со смещением кошелька и монеты",
+                  "placements": [
+                    {
+                      "uid": "imw199z1xqov43t",
+                      "relation": "canvas",
+                      "x": 0.52,
+                      "y": 0.52,
+                      "gap": 0,
+                      "rotation": 0
+                    },
+                    {
+                      "uid": "imw199z1xsxezdq",
+                      "relation": "on",
+                      "targetUid": "imw199z1xqov43t",
+                      "x": 0.4,
+                      "y": 0.5,
+                      "gap": 0,
+                      "rotation": 0
+                    },
+                    {
+                      "uid": "imw199z1x5qbf1r",
+                      "relation": "on",
+                      "targetUid": "imw199z1xqov43t",
+                      "x": 0.62,
+                      "y": 0.48,
+                      "gap": 0,
+                      "rotation": 0
+                    },
+                    {
+                      "uid": "imw199z1xx4yslr",
+                      "relation": "canvas",
+                      "x": 0.85,
+                      "y": 0.3,
+                      "gap": 0,
+                      "rotation": 0
+                    }
+                  ]
+                },
+                {
+                  "principle": "Диагональное построение ценностей на папке",
+                  "placements": [
+                    {
+                      "uid": "imw199z1xqov43t",
+                      "relation": "canvas",
+                      "x": 0.48,
+                      "y": 0.5,
+                      "gap": 0,
+                      "rotation": 0
+                    },
+                    {
+                      "uid": "imw199z1xsxezdq",
+                      "relation": "on",
+                      "targetUid": "imw199z1xqov43t",
+                      "x": 0.48,
+                      "y": 0.42,
+                      "gap": 0,
+                      "rotation": 0
+                    },
+                    {
+                      "uid": "imw199z1x5qbf1r",
+                      "relation": "on",
+                      "targetUid": "imw199z1xqov43t",
+                      "x": 0.55,
+                      "y": 0.58,
+                      "gap": 0,
+                      "rotation": 0
+                    },
+                    {
+                      "uid": "imw199z1xx4yslr",
+                      "relation": "canvas",
+                      "x": 0.2,
+                      "y": 0.8,
+                      "gap": 0,
+                      "rotation": 0
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "format": "landscape",
+              "views": [
+                {
+                  "principle": "Горизонтальное размещение группы ценностей на папке",
+                  "placements": [
+                    {
+                      "uid": "imw199z1xqov43t",
+                      "relation": "canvas",
+                      "x": 0.5,
+                      "y": 0.52,
+                      "gap": 0,
+                      "rotation": 0
+                    },
+                    {
+                      "uid": "imw199z1xsxezdq",
+                      "relation": "on",
+                      "targetUid": "imw199z1xqov43t",
+                      "x": 0.42,
+                      "y": 0.48,
+                      "gap": 0,
+                      "rotation": 0
+                    },
+                    {
+                      "uid": "imw199z1x5qbf1r",
+                      "relation": "on",
+                      "targetUid": "imw199z1xqov43t",
+                      "x": 0.58,
+                      "y": 0.5,
+                      "gap": 0,
+                      "rotation": 0
+                    },
+                    {
+                      "uid": "imw199z1xx4yslr",
+                      "relation": "canvas",
+                      "x": 0.15,
+                      "y": 0.3,
+                      "gap": 0,
+                      "rotation": 0
+                    }
+                  ]
+                },
+                {
+                  "principle": "Смещенный баланс ценных предметов",
+                  "placements": [
+                    {
+                      "uid": "imw199z1xqov43t",
+                      "relation": "canvas",
+                      "x": 0.55,
+                      "y": 0.5,
+                      "gap": 0,
+                      "rotation": 0
+                    },
+                    {
+                      "uid": "imw199z1xsxezdq",
+                      "relation": "on",
+                      "targetUid": "imw199z1xqov43t",
+                      "x": 0.45,
+                      "y": 0.45,
+                      "gap": 0,
+                      "rotation": 0
+                    },
+                    {
+                      "uid": "imw199z1x5qbf1r",
+                      "relation": "on",
+                      "targetUid": "imw199z1xqov43t",
+                      "x": 0.55,
+                      "y": 0.55,
+                      "gap": 0,
+                      "rotation": 0
+                    },
+                    {
+                      "uid": "imw199z1xx4yslr",
+                      "relation": "canvas",
+                      "x": 0.85,
+                      "y": 0.7,
+                      "gap": 0,
+                      "rotation": 0
+                    }
+                  ]
+                },
+                {
+                  "principle": "Диагональная композиция с фоном слева",
+                  "placements": [
+                    {
+                      "uid": "imw199z1xqov43t",
+                      "relation": "canvas",
+                      "x": 0.5,
+                      "y": 0.5,
+                      "gap": 0,
+                      "rotation": 0
+                    },
+                    {
+                      "uid": "imw199z1xsxezdq",
+                      "relation": "on",
+                      "targetUid": "imw199z1xqov43t",
+                      "x": 0.38,
+                      "y": 0.42,
+                      "gap": 0,
+                      "rotation": 0
+                    },
+                    {
+                      "uid": "imw199z1x5qbf1r",
+                      "relation": "on",
+                      "targetUid": "imw199z1xqov43t",
+                      "x": 0.62,
+                      "y": 0.58,
+                      "gap": 0,
+                      "rotation": 0
+                    },
+                    {
+                      "uid": "imw199z1xx4yslr",
+                      "relation": "canvas",
+                      "x": 0.18,
+                      "y": 0.75,
+                      "gap": 0,
+                      "rotation": 0
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "format": "portrait",
+              "views": [
+                {
+                  "principle": "Вертикальная компоновка элементов с кошельком и монетой",
+                  "placements": [
+                    {
+                      "uid": "imw199z1xqov43t",
+                      "relation": "canvas",
+                      "x": 0.5,
+                      "y": 0.55,
+                      "gap": 0,
+                      "rotation": 0
+                    },
+                    {
+                      "uid": "imw199z1xsxezdq",
+                      "relation": "on",
+                      "targetUid": "imw199z1xqov43t",
+                      "x": 0.45,
+                      "y": 0.48,
+                      "gap": 0,
+                      "rotation": 0
+                    },
+                    {
+                      "uid": "imw199z1x5qbf1r",
+                      "relation": "on",
+                      "targetUid": "imw199z1xqov43t",
+                      "x": 0.58,
+                      "y": 0.52,
+                      "gap": 0,
+                      "rotation": 0
+                    },
+                    {
+                      "uid": "imw199z1xx4yslr",
+                      "relation": "canvas",
+                      "x": 0.2,
+                      "y": 0.2,
+                      "gap": 0,
+                      "rotation": 0
+                    }
+                  ]
+                },
+                {
+                  "principle": "Смещенный вертикальный баланс",
+                  "placements": [
+                    {
+                      "uid": "imw199z1xqov43t",
+                      "relation": "canvas",
+                      "x": 0.48,
+                      "y": 0.52,
+                      "gap": 0,
+                      "rotation": 0
+                    },
+                    {
+                      "uid": "imw199z1xsxezdq",
+                      "relation": "on",
+                      "targetUid": "imw199z1xqov43t",
+                      "x": 0.4,
+                      "y": 0.45,
+                      "gap": 0,
+                      "rotation": 0
+                    },
+                    {
+                      "uid": "imw199z1x5qbf1r",
+                      "relation": "on",
+                      "targetUid": "imw199z1xqov43t",
+                      "x": 0.55,
+                      "y": 0.5,
+                      "gap": 0,
+                      "rotation": 0
+                    },
+                    {
+                      "uid": "imw199z1xx4yslr",
+                      "relation": "canvas",
+                      "x": 0.8,
+                      "y": 0.85,
+                      "gap": 0,
+                      "rotation": 0
+                    }
+                  ]
+                },
+                {
+                  "principle": "Высокая диагональ для вертикального кадра",
+                  "placements": [
+                    {
+                      "uid": "imw199z1xqov43t",
+                      "relation": "canvas",
+                      "x": 0.5,
+                      "y": 0.5,
+                      "gap": 0,
+                      "rotation": 0
+                    },
+                    {
+                      "uid": "imw199z1xsxezdq",
+                      "relation": "on",
+                      "targetUid": "imw199z1xqov43t",
+                      "x": 0.5,
+                      "y": 0.4,
+                      "gap": 0,
+                      "rotation": 0
+                    },
+                    {
+                      "uid": "imw199z1x5qbf1r",
+                      "relation": "on",
+                      "targetUid": "imw199z1xqov43t",
+                      "x": 0.5,
+                      "y": 0.6,
+                      "gap": 0,
+                      "rotation": 0
+                    },
+                    {
+                      "uid": "imw199z1xx4yslr",
+                      "relation": "canvas",
+                      "x": 0.25,
+                      "y": 0.82,
+                      "gap": 0,
+                      "rotation": 0
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "executionNotes": [
+            "Положение «Настольная лампа» уточнено по границам кадра и реестру пересечений.",
+            "Положение «Монета» уточнено по границам кадра и реестру пересечений."
+          ],
+          "width": 800,
+          "height": 1200,
+          "format": "portrait",
+          "size": "S",
+          "palette": "aqua",
+          "layout": "compact",
+          "background": "pattern",
+          "backgroundDesign": "auto",
+          "supporting": true,
+          "showSupporting": true,
+          "camera": null,
+          "composition": {
+            "index": 2,
+            "options": [
+              {
+                "strategy": "balanced",
+                "title": "На опоре",
+                "principle": "Папка в центре, кошелек и монета на ней, лампа слева",
+                "placement": "on-surface"
+              },
+              {
+                "strategy": "spacious",
+                "title": "Рядом",
+                "principle": "Связанная группа со смещением кошелька и монеты",
+                "placement": "beside"
+              },
+              {
+                "strategy": "diagonal",
+                "title": "Другой ракурс группы",
+                "principle": "Диагональное построение ценностей на папке",
+                "placement": "across"
+              }
+            ]
+          },
+          "layerRelations": [
+            {
+              "back": "imw199z1xqov43t",
+              "front": "imw199z1xsxezdq",
+              "reason": "Предмет лежит на допустимой опоре."
+            },
+            {
+              "back": "imw199z1xqov43t",
+              "front": "imw199z1x5qbf1r",
+              "reason": "Предмет лежит на допустимой опоре."
+            },
+            {
+              "back": "imw199z1xx4yslr",
+              "front": "imw199z1xqov43t",
+              "reason": "Фоновый компаньон находится позади главной группы."
+            }
+          ],
+          "recipe": "auto",
+          "framing": "overview",
+          "focus": "wallet",
+          "query": "Сохранить самое ценное",
+          "scale": 1,
+          "items": [
+            {
+              "uid": "imw199z1xx4yslr",
+              "assetId": "lamp",
+              "role": "background",
+              "x": 96,
+              "y": 1056,
+              "rotation": 0,
+              "flipX": false,
+              "flipY": false,
+              "zone": "top-left",
+              "crop": "fragment"
+            },
+            {
+              "uid": "imw199z1xqov43t",
+              "assetId": "folder",
+              "role": "main",
+              "x": 424.84,
+              "y": 613.2,
+              "rotation": 0,
+              "flipX": false,
+              "flipY": false,
+              "zone": "auto",
+              "crop": "whole"
+            },
+            {
+              "uid": "imw199z1xsxezdq",
+              "assetId": "wallet",
+              "role": "main",
+              "x": 424.84,
+              "y": 580.2,
+              "rotation": 0,
+              "flipX": false,
+              "flipY": false,
+              "supportUid": "imw199z1xqov43t",
+              "zone": "auto",
+              "crop": "whole"
+            },
+            {
+              "uid": "imw199z1x5qbf1r",
+              "assetId": "coin",
+              "role": "main",
+              "x": 424.84,
+              "y": 830.8193977591037,
+              "rotation": 0,
+              "flipX": false,
+              "flipY": false,
+              "zone": "auto",
+              "crop": "whole"
+            }
+          ]
+        }
+      ]
+    }
+  }
+}

@@ -1,0 +1,31 @@
+{
+  "version": 1,
+  "sourceHash": "b28215fe9e441c350db0ff02f198c52e243fa8c88b34ac592aa49d495775a5f1",
+  "preview": "Each cell is fitted for recognition; the labels and catalog nativeSize give true dimensions. Two connected puzzle pieces are ONE puzzle asset.",
+  "sheets": [
+    {
+      "size": "S",
+      "role": "main",
+      "file": "S-main.png",
+      "sha256": "b3b7e5af83a07c467eabaea122d78414187cb210bf942d773c0f51135b769661"
+    },
+    {
+      "size": "S",
+      "role": "background",
+      "file": "S-background.png",
+      "sha256": "5255a53a4bc86852167a60320a253f67f612b957d2cd7cb03a7ebd825497118c"
+    },
+    {
+      "size": "L",
+      "role": "main",
+      "file": "L-main.png",
+      "sha256": "765ab5b99dd7442125b7ca8551cac59ebb3ff4b0d0b3ebc69a4f358660c21a77"
+    },
+    {
+      "size": "L",
+      "role": "background",
+      "file": "L-background.png",
+      "sha256": "c621f1521213a33d7d8761b3c83455739a298901b52fea323de863fd9b12386a"
+    }
+  ]
+}

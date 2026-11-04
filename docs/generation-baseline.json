@@ -1,0 +1,1896 @@
+{
+  "id": "native-vision-2026-11-04",
+  "date": "2026-11-04",
+  "purpose": "Known working native SVG generation and saved evaluation, before semantic diversity experiments.",
+  "validation": {
+    "testsPassed": 119,
+    "testsFailed": 0,
+    "metaphors": 18,
+    "svg": 162,
+    "registeredGeometryIssues": 0,
+    "testLogSha256": "f0936b0d339dd33ed94d23ab4c77429a7243d5334d8fded762665d90b7cd29cf"
+  },
+  "observedModels": [
+    "gemini-3.5-flash-lite"
+  ],
+  "environmentLiveCheck": {
+    "vision": true,
+    "background": "flowers",
+    "mainPreserved": true,
+    "evidence": "qa/vision-staging/environment-live.json"
+  },
+  "archive": "exports/baselines/native-vision-2026-11-04.zip",
+  "notes": [
+    "Preserves source files, prompts, vector catalogs, tests, saved plans and SVGs.",
+    "Credentials and env configuration are not included. Runtime needs the original authorized server configuration.",
+    "New model responses may differ; stored plans and source hashes form the reproducible comparison.",
+    "Documentation and publication materials can evolve independently of these generation hashes."
+  ],
+  "files": [
+    {
+      "path": ".env.example",
+      "sha256": "0746fe374f192d70b821d43872bd98794e7b0217d7148735b5fa2b36a513e190",
+      "bytes": 235
+    },
+    {
+      "path": "dist/ai-plan.js",
+      "sha256": "b8f794bec94fbcc8a1dce20ddeea3be26d10fe3c11441a2c4974fe81275fd357",
+      "bytes": 21302
+    },
+    {
+      "path": "dist/app.js",
+      "sha256": "da48c767012114f8db7b205cb1f4dfa8d175f7ccfe273659b747aa6510b9be34",
+      "bytes": 48181
+    },
+    {
+      "path": "dist/composition-rules.js",
+      "sha256": "10a5a072bb46f965993b8219146a1bac50d6a7a489b93c49e68832cbf1ba3cb2",
+      "bytes": 7499
+    },
+    {
+      "path": "dist/composition-view.js",
+      "sha256": "13d905f97b8da18d4a229fed414fa3c60680c4e5df1d42666d0efc65ff768e99",
+      "bytes": 11761
+    },
+    {
+      "path": "dist/data.js",
+      "sha256": "e0d60403d9001382434ca3cf60c783908d6b5b93203b0561804982f4d4b3358a",
+      "bytes": 1641462
+    },
+    {
+      "path": "dist/engine.js",
+      "sha256": "0bbc959c02fb4f7801319a98620a338e15950c043f745af026c10dd300182d2b",
+      "bytes": 54983
+    },
+    {
+      "path": "dist/geometry.js",
+      "sha256": "c45e9424d6634900b7b84f9cb91959543052b7cc4543da9c6c3261f7026929cc",
+      "bytes": 81195
+    },
+    {
+      "path": "dist/icon.svg",
+      "sha256": "e518aca7e16698e19d94cd1dd3713a32e783f9562b81ad8b38e66c67a4b46bdf",
+      "bytes": 382
+    },
+    {
+      "path": "dist/index.html",
+      "sha256": "34a444bf4a968ca2f37355ca23fd59a340b1897ef2a78424ffb83136c989da75",
+      "bytes": 20901
+    },
+    {
+      "path": "dist/interaction-registry.js",
+      "sha256": "ed4aa82dfbea2a46d6fb7e49a42df9ec456f0327c591f54d1f12db896e0b2c44",
+      "bytes": 8258
+    },
+    {
+      "path": "dist/physical-layout.js",
+      "sha256": "b43116e7212df3de0608cafbcb866ec64de4603ef0d983c601808189e3505b90",
+      "bytes": 10012
+    },
+    {
+      "path": "dist/reference-layout.js",
+      "sha256": "e33cb41b84e95a670aedfeeb99a53721293e01bee988bc8fcdea5f68cc35f2bf",
+      "bytes": 11731
+    },
+    {
+      "path": "dist/rules.css",
+      "sha256": "389f23fa038b5c46a71ce934e53404d8931cec5d8a4b07fb0f45066161a213e8",
+      "bytes": 2641
+    },
+    {
+      "path": "dist/rules.html",
+      "sha256": "dc108e077b4ee6c58c501fb6166bb1835f0fb554f8c9e22576189ab0b6db669c",
+      "bytes": 5591
+    },
+    {
+      "path": "dist/rules.js",
+      "sha256": "b966487fc1b4a99988e59c7ebe0eb445965909a315a11382ed8a205fedd8c3c4",
+      "bytes": 6006
+    },
+    {
+      "path": "dist/staging-plan.js",
+      "sha256": "edaeeab6dee34735d05cd16599fb8efb008bcde64f1277a3e1ed62f74c3c558f",
+      "bytes": 12075
+    },
+    {
+      "path": "dist/styles.css",
+      "sha256": "af4b11bf0b81b039df20c1aaf8f0d68a67a040819fd950250a8295059384da74",
+      "bytes": 37826
+    },
+    {
+      "path": "exports/metaphors-2026-11-04/manifest.json",
+      "sha256": "706529556e5bba217f27c027d70af9f543aef8e57d265470bf95d9a09fee83f6",
+      "bytes": 189839
+    },
+    {
+      "path": "exports/metaphors-2026-11-04/projects/01.json",
+      "sha256": "c396fce4e63c88b035a1141ef2a4b411e73c29adc0becbf4f3e218e311828f12",
+      "bytes": 139150
+    },
+    {
+      "path": "exports/metaphors-2026-11-04/projects/02.json",
+      "sha256": "258e7408583ba64d84e1ee731e40397aaff78df928a97f203c9e551995f0b650",
+      "bytes": 142557
+    },
+    {
+      "path": "exports/metaphors-2026-11-04/projects/03.json",
+      "sha256": "7755821d07b95e648dfa883e00b329e6df99303228895f762f90249522440d27",
+      "bytes": 143800
+    },
+    {
+      "path": "exports/metaphors-2026-11-04/projects/04.json",
+      "sha256": "6bdeadb6a3e99e75d3383356a9ab8db521d639eb679fad2415936e48bf0b09a1",
+      "bytes": 139478
+    },
+    {
+      "path": "exports/metaphors-2026-11-04/projects/05.json",
+      "sha256": "92eaeec1080fc5fe44db047ed24e1ab4c32682afb9b837cc452d674bad5820bc",
+      "bytes": 140147
+    },
+    {
+      "path": "exports/metaphors-2026-11-04/projects/06.json",
+      "sha256": "33f776a2a7f1f4d512132c7c16225663938d20996aa7b42637e2c84d880ae2ad",
+      "bytes": 146058
+    },
+    {
+      "path": "exports/metaphors-2026-11-04/projects/07.json",
+      "sha256": "3cc43daa7ecaa1aed08f8c919f12344bc80edbcff05cabd2316640e34c6f0dab",
+      "bytes": 144654
+    },
+    {
+      "path": "exports/metaphors-2026-11-04/projects/08.json",
+      "sha256": "5e3837656a29808764b870918ab05bd33e141b6c81256d8392d7a2ea7a3a3ccc",
+      "bytes": 145517
+    },
+    {
+      "path": "exports/metaphors-2026-11-04/projects/09.json",
+      "sha256": "adb5308ae3e7a45f522ab06466b639ea1ecc1eaee72f8b00656e1eb7e6d20dc9",
+      "bytes": 147777
+    },
+    {
+      "path": "exports/metaphors-2026-11-04/projects/10.json",
+      "sha256": "033543df26e10df4ad214279c40f414448dfe2d5752d47249472b5d6a354b3ba",
+      "bytes": 137749
+    },
+    {
+      "path": "exports/metaphors-2026-11-04/projects/11.json",
+      "sha256": "11e23f81f0cd60a96b0f424ee294e47eea4e7d50eb5315ee253d01c28ddccc7b",
+      "bytes": 140203
+    },
+    {
+      "path": "exports/metaphors-2026-11-04/projects/12.json",
+      "sha256": "563a11b93083295d356be303c9b08712178a2ccbc9b7527b1bd88b97dd305306",
+      "bytes": 151836
+    },
+    {
+      "path": "exports/metaphors-2026-11-04/projects/13.json",
+      "sha256": "870ef106762a26d2e30a7d7bbdf498caea2a50a914dc9e47c7ce5f69b60a0398",
+      "bytes": 141725
+    },
+    {
+      "path": "exports/metaphors-2026-11-04/projects/14.json",
+      "sha256": "86d7a42f6c10a72d3bde62b721ba80c9aa118d312d826e432283f4ae6b2846db",
+      "bytes": 175107
+    },
+    {
+      "path": "exports/metaphors-2026-11-04/projects/15.json",
+      "sha256": "2d6aa60629b6e63fc49ca019023314b284dc734ef0f45ac669dba6e9315d6881",
+      "bytes": 150959
+    },
+    {
+      "path": "exports/metaphors-2026-11-04/projects/16.json",
+      "sha256": "c77713f5663511d31e709fec95b7bd9fe75a79c758d4cf0641231d862e949375",
+      "bytes": 141689
+    },
+    {
+      "path": "exports/metaphors-2026-11-04/projects/17.json",
+      "sha256": "3b6c45a8f99ca6bf27888d214eb2dc10fe4c2581d6482f87c8e2f538e33f9162",
+      "bytes": 146860
+    },
+    {
+      "path": "exports/metaphors-2026-11-04/projects/18.json",
+      "sha256": "6ca00436d95355a5df0cc67e57802d260e7d584d9e2f89dcc31fa741b2eb4e1a",
+      "bytes": 137791
+    },
+    {
+      "path": "exports/metaphors-2026-11-04/responses/01-attempt-1.json",
+      "sha256": "b1e4c04da8b340d85f8394e2d226b3b375f97dd1182422179ab7531bac6024f9",
+      "bytes": 196667
+    },
+    {
+      "path": "exports/metaphors-2026-11-04/responses/02-attempt-1.json",
+      "sha256": "c16184729dfe8ed05103f487af0585045cf91c2e43ad76528d55d91f25bb68ae",
+      "bytes": 101
+    },
+    {
+      "path": "exports/metaphors-2026-11-04/responses/02-attempt-2.json",
+      "sha256": "e90fbafc9003bed02c5c995d7e7efb1881957733461dd5e2b2a0d1142442b37a",
+      "bytes": 201429
+    },
+    {
+      "path": "exports/metaphors-2026-11-04/responses/03-attempt-1.json",
+      "sha256": "c6a9d275cef3e930631a288caf396dcde7eba7183c2ffa39ffa938d7aba5505b",
+      "bytes": 104
+    },
+    {
+      "path": "exports/metaphors-2026-11-04/responses/03-attempt-2.json",
+      "sha256": "c6a9d275cef3e930631a288caf396dcde7eba7183c2ffa39ffa938d7aba5505b",
+      "bytes": 104
+    },
+    {
+      "path": "exports/metaphors-2026-11-04/responses/03-attempt-3.json",
+      "sha256": "3bd1c257df384b98b2f6157da22009acd2074557c0ddd70d4fccac105d9cfc41",
+      "bytes": 202126
+    },
+    {
+      "path": "exports/metaphors-2026-11-04/responses/04-attempt-1.json",
+      "sha256": "75002032f272a8dd6b15613117a92ef31485e8ae815997ec98b5da85c07ee9fe",
+      "bytes": 201027
+    },
+    {
+      "path": "exports/metaphors-2026-11-04/responses/05-attempt-1.json",
+      "sha256": "26612e5c365c63e6b2f113e516b6e95974517ee3231cb5c2f57586847d0dfa00",
+      "bytes": 195258
+    },
+    {
+      "path": "exports/metaphors-2026-11-04/responses/05-attempt-2.json",
+      "sha256": "c6a9d275cef3e930631a288caf396dcde7eba7183c2ffa39ffa938d7aba5505b",
+      "bytes": 104
+    },
+    {
+      "path": "exports/metaphors-2026-11-04/responses/05-attempt-3.json",
+      "sha256": "c16184729dfe8ed05103f487af0585045cf91c2e43ad76528d55d91f25bb68ae",
+      "bytes": 101
+    },
+    {
+      "path": "exports/metaphors-2026-11-04/responses/06-attempt-1.json",
+      "sha256": "c16184729dfe8ed05103f487af0585045cf91c2e43ad76528d55d91f25bb68ae",
+      "bytes": 101
+    },
+    {
+      "path": "exports/metaphors-2026-11-04/responses/06-attempt-2.json",
+      "sha256": "a56ac78824997438ea96b95e144dca54949965dfdcfed0d27f990386b98e7e97",
+      "bytes": 209970
+    },
+    {
+      "path": "exports/metaphors-2026-11-04/responses/07-attempt-1.json",
+      "sha256": "22bee827189939342ed147e5d29c55e5c60d129a843599f031965efb37288f78",
+      "bytes": 192723
+    },
+    {
+      "path": "exports/metaphors-2026-11-04/responses/07-attempt-2.json",
+      "sha256": "96575479656c4b0d7585ff62c2efb12d0b30379e21f1343a905ccebb7a4fc85b",
+      "bytes": 90
+    },
+    {
+      "path": "exports/metaphors-2026-11-04/responses/07-attempt-3.json",
+      "sha256": "96575479656c4b0d7585ff62c2efb12d0b30379e21f1343a905ccebb7a4fc85b",
+      "bytes": 90
+    },
+    {
+      "path": "exports/metaphors-2026-11-04/responses/08-attempt-1.json",
+      "sha256": "199dc5ec7925efcac179ac67f5ad843a94d0c4e6acf2d878b3bd517a2780202c",
+      "bytes": 197273
+    },
+    {
+      "path": "exports/metaphors-2026-11-04/responses/09-attempt-1.json",
+      "sha256": "e932828d7f9c1954b8e088c58aa4a315249bdee1231480dd400cd396f5df705e",
+      "bytes": 198051
+    },
+    {
+      "path": "exports/metaphors-2026-11-04/responses/10-attempt-1.json",
+      "sha256": "0529de30766304bfe8d370c9220a8320b84bd9a7be5d5f90452c868a92bfe7e2",
+      "bytes": 192199
+    },
+    {
+      "path": "exports/metaphors-2026-11-04/responses/11-attempt-1.json",
+      "sha256": "26e02df78e8c27979fd9ed1d1747118fc676ca63566dfa53504aac1222acf8a8",
+      "bytes": 190397
+    },
+    {
+      "path": "exports/metaphors-2026-11-04/responses/11-attempt-2.json",
+      "sha256": "4b1d1569fc1e1143f2926ef2788e1a9ff2696895b5aabb1fe484cb6335426ad9",
+      "bytes": 122
+    },
+    {
+      "path": "exports/metaphors-2026-11-04/responses/11-attempt-3.json",
+      "sha256": "96575479656c4b0d7585ff62c2efb12d0b30379e21f1343a905ccebb7a4fc85b",
+      "bytes": 90
+    },
+    {
+      "path": "exports/metaphors-2026-11-04/responses/12-attempt-1.json",
+      "sha256": "5f929f70995c226dbb1c65e07d93c0f8c228bec8e712070d71e5f71e2c5182e8",
+      "bytes": 127
+    },
+    {
+      "path": "exports/metaphors-2026-11-04/responses/12-attempt-2.json",
+      "sha256": "aed0bc9dd06942fe24d397092d068b9fec36c65c23742d33d977469932753562",
+      "bytes": 202571
+    },
+    {
+      "path": "exports/metaphors-2026-11-04/responses/13-attempt-1.json",
+      "sha256": "1182e865b2ab3b32256a8d2451001f215a1899cbb986add4383da26419c4761f",
+      "bytes": 192365
+    },
+    {
+      "path": "exports/metaphors-2026-11-04/responses/13-attempt-2.json",
+      "sha256": "4b1d1569fc1e1143f2926ef2788e1a9ff2696895b5aabb1fe484cb6335426ad9",
+      "bytes": 122
+    },
+    {
+      "path": "exports/metaphors-2026-11-04/responses/13-attempt-3.json",
+      "sha256": "4b1d1569fc1e1143f2926ef2788e1a9ff2696895b5aabb1fe484cb6335426ad9",
+      "bytes": 122
+    },
+    {
+      "path": "exports/metaphors-2026-11-04/responses/14-attempt-1.json",
+      "sha256": "2452ce88a37f6132dfc664d5486bc91a5506da7a5b53e2db3a3ef0da4767fc0a",
+      "bytes": 237262
+    },
+    {
+      "path": "exports/metaphors-2026-11-04/responses/15-attempt-1.json",
+      "sha256": "57a2484b68a2d3fa0b59d6bec0c7bb6ed2fed4ad7108b359c39862592404448a",
+      "bytes": 103
+    },
+    {
+      "path": "exports/metaphors-2026-11-04/responses/15-attempt-2.json",
+      "sha256": "6edd5e9cc8dfbebd8e25ea7cfdf0b45b097f3925ffb421efcb6fff9db2438b3f",
+      "bytes": 204650
+    },
+    {
+      "path": "exports/metaphors-2026-11-04/responses/16-attempt-1.json",
+      "sha256": "5f929f70995c226dbb1c65e07d93c0f8c228bec8e712070d71e5f71e2c5182e8",
+      "bytes": 127
+    },
+    {
+      "path": "exports/metaphors-2026-11-04/responses/16-attempt-2.json",
+      "sha256": "e09a6421645cbd6cb76269c1374c07acb823cd8d10836cf43cfc4c628c73dcbe",
+      "bytes": 192143
+    },
+    {
+      "path": "exports/metaphors-2026-11-04/responses/17-attempt-1.json",
+      "sha256": "09579b6bd3042ba4aec39763a3fda00982852dd95839588e229dd40f5328ccb6",
+      "bytes": 198900
+    },
+    {
+      "path": "exports/metaphors-2026-11-04/responses/18-attempt-1.json",
+      "sha256": "1b7824f5ce72ef7ea9e13e222ce19d9da07ca94c1c95b1a5eea918d7134cf590",
+      "bytes": 187051
+    },
+    {
+      "path": "exports/metaphors-2026-11-04/reviews.json",
+      "sha256": "db1b6af80fb0e41a25ea808bd00ff4d059c3b133ec94032e27098b88e93fb27a",
+      "bytes": 6509
+    },
+    {
+      "path": "exports/metaphors-2026-11-04/svg/01-landscape-v1.svg",
+      "sha256": "194b6f902062b4111c42dcf17adef5614b46d5f415ad9d4e890eb3dfc6a2b527",
+      "bytes": 100118
+    },
+    {
+      "path": "exports/metaphors-2026-11-04/svg/01-landscape-v2.svg",
+      "sha256": "0a8fce7800b39689e7a3c61198a529af886bee799949ba099030c92bad5b68c3",
+      "bytes": 100121
+    },
+    {
+      "path": "exports/metaphors-2026-11-04/svg/01-landscape-v3.svg",
+      "sha256": "60063ce18b0b2393e476255406a302b20c6c94659c6e895261ae19e446f1b215",
+      "bytes": 100121
+    },
+    {
+      "path": "exports/metaphors-2026-11-04/svg/01-portrait-v1.svg",
+      "sha256": "a83594383d941e9046847be77e4e266c508e901be179ba74cd839db07ca2ca89",
+      "bytes": 100124
+    },
+    {
+      "path": "exports/metaphors-2026-11-04/svg/01-portrait-v2.svg",
+      "sha256": "d02d3d9cb2d62e1e196f533a4288eca6e8551cab984bb99d2f3b661b7bc8f370",
+      "bytes": 100121
+    },
+    {
+      "path": "exports/metaphors-2026-11-04/svg/01-portrait-v3.svg",
+      "sha256": "1277736caa63550c6a344917301bf13f11df77dec8e9af72c696e208fae18ee6",
+      "bytes": 100117
+    },
+    {
+      "path": "exports/metaphors-2026-11-04/svg/01-square-v1.svg",
+      "sha256": "ba66e4b64a08c2c9a05e1725a529aa36026ef42852bda62f107e58e0ce7997a8",
+      "bytes": 100125
+    },
+    {
+      "path": "exports/metaphors-2026-11-04/svg/01-square-v2.svg",
+      "sha256": "bf82dd96ca4e888c036237b37392752f5d41358b329a53304ab3d2b8a51fd3d9",
+      "bytes": 100129
+    },
+    {
+      "path": "exports/metaphors-2026-11-04/svg/01-square-v3.svg",
+      "sha256": "3585546ba45c4ffd05acfaca1b6d6b34161ab3b7d12cd04c3d9b5d4f06c17e6e",
+      "bytes": 100126
+    },
+    {
+      "path": "exports/metaphors-2026-11-04/svg/02-landscape-v1.svg",
+      "sha256": "75bf8a670b04a910fdd5809e0fe44bd354d1ae4a10547ac9b9808d0e17da03fb",
+      "bytes": 63765
+    },
+    {
+      "path": "exports/metaphors-2026-11-04/svg/02-landscape-v2.svg",
+      "sha256": "f0eefdfaed2a88327158eb7f017a84386e7a13e97393c7d006aa6ef8b662e229",
+      "bytes": 63768
+    },
+    {
+      "path": "exports/metaphors-2026-11-04/svg/02-landscape-v3.svg",
+      "sha256": "218d7a30aef638145c34bdffb53d06adbad8b99371859581af247d20555d7659",
+      "bytes": 63766
+    },
+    {
+      "path": "exports/metaphors-2026-11-04/svg/02-portrait-v1.svg",
+      "sha256": "66cb28be5fb7bb60faad176488b73a383896dfcc070d40e62b7402a07bc6d1fb",
+      "bytes": 63765
+    },
+    {
+      "path": "exports/metaphors-2026-11-04/svg/02-portrait-v2.svg",
+      "sha256": "d060143ebe1c09f760c8ea720e261004069cfa531f70e49af91397c37184a12e",
+      "bytes": 63765
+    },
+    {
+      "path": "exports/metaphors-2026-11-04/svg/02-portrait-v3.svg",
+      "sha256": "fffd5b2e8763089854f57e91e2ae10da8e35c48dc479de62632962e9977171da",
+      "bytes": 63765
+    },
+    {
+      "path": "exports/metaphors-2026-11-04/svg/02-square-v1.svg",
+      "sha256": "32b641b136495022164bf734dc26a15457386c8bddb530552b2f5447b06d6b8b",
+      "bytes": 63768
+    },
+    {
+      "path": "exports/metaphors-2026-11-04/svg/02-square-v2.svg",
+      "sha256": "35e306bd5b5d8356d32c0fd1b1caec6293b742aebe7f90795e328c10faf3a36b",
+      "bytes": 63769
+    },
+    {
+      "path": "exports/metaphors-2026-11-04/svg/02-square-v3.svg",
+      "sha256": "2557a6777085705124bfebaf63769613bdc54bff3425ea2c7737ad71b2db8975",
+      "bytes": 63771
+    },
+    {
+      "path": "exports/metaphors-2026-11-04/svg/03-landscape-v1.svg",
+      "sha256": "5e10e02582453457599403d8dfe618b0d12479f5a2f09868854f21b0b7edb6c9",
+      "bytes": 63789
+    },
+    {
+      "path": "exports/metaphors-2026-11-04/svg/03-landscape-v2.svg",
+      "sha256": "d981c6d2a517d20ff086175d6b99d39dd6991c2381977ee5f3bad5010b3945b2",
+      "bytes": 63795
+    },
+    {
+      "path": "exports/metaphors-2026-11-04/svg/03-landscape-v3.svg",
+      "sha256": "a7badaeae59e9db37c0215a0fa23aefd724f928aa364ff7ef2e52681b58714fe",
+      "bytes": 63789
+    },
+    {
+      "path": "exports/metaphors-2026-11-04/svg/03-portrait-v1.svg",
+      "sha256": "33fc0f71d0209b5a937b1649ccb7cbe0ae571ed83c629650418197e3618d5e7d",
+      "bytes": 63783
+    },
+    {
+      "path": "exports/metaphors-2026-11-04/svg/03-portrait-v2.svg",
+      "sha256": "5aeb5d81fc3ded47a807161a660c1538f2d9b999c9cc59099de07189bbee73c6",
+      "bytes": 63792
+    },
+    {
+      "path": "exports/metaphors-2026-11-04/svg/03-portrait-v3.svg",
+      "sha256": "9727ee93f967edf274a72a7f1febefc8e04f8de1e7566535affdbb45cb22ece1",
+      "bytes": 63783
+    },
+    {
+      "path": "exports/metaphors-2026-11-04/svg/03-square-v1.svg",
+      "sha256": "460754f6833798aaeae010031372b93f1991b03762c046c63177b1673a72728a",
+      "bytes": 63789
+    },
+    {
+      "path": "exports/metaphors-2026-11-04/svg/03-square-v2.svg",
+      "sha256": "0a1e01814aa87e2cbb5ddc8cca0c269afa0c0f73d270890e4dc12920ae4fe657",
+      "bytes": 63795
+    },
+    {
+      "path": "exports/metaphors-2026-11-04/svg/03-square-v3.svg",
+      "sha256": "ba92550d0f995449cfdb06e7995baff0d46916b5a2250fa20b70ab840a6524bc",
+      "bytes": 63789
+    },
+    {
+      "path": "exports/metaphors-2026-11-04/svg/04-landscape-v1.svg",
+      "sha256": "842707466cea9a3e6b7dc72075f71d9ed54450dbdfc936eb4027af150740c634",
+      "bytes": 70655
+    },
+    {
+      "path": "exports/metaphors-2026-11-04/svg/04-landscape-v2.svg",
+      "sha256": "7101f743aa75cb85bdf9e4daa4378aab860675abd37706e570f632c2921bd4ed",
+      "bytes": 70657
+    },
+    {
+      "path": "exports/metaphors-2026-11-04/svg/04-landscape-v3.svg",
+      "sha256": "b55935b5eef912bf3b5d01837238c4b84e9b408ac3c2956ba9c7bb9fdba23b94",
+      "bytes": 70655
+    },
+    {
+      "path": "exports/metaphors-2026-11-04/svg/04-portrait-v1.svg",
+      "sha256": "63b7fcf6b2a76666f187a1300b565d92b1c3ae5479dd8082c88fadd3fe7c39a8",
+      "bytes": 70651
+    },
+    {
+      "path": "exports/metaphors-2026-11-04/svg/04-portrait-v2.svg",
+      "sha256": "6034350ae05b0d8e90345bf6eb512dee6d8ec7f2907630116e58d1edea6df55c",
+      "bytes": 70651
+    },
+    {
+      "path": "exports/metaphors-2026-11-04/svg/04-portrait-v3.svg",
+      "sha256": "68502bee40181eab0445d254cda13a9e8fb236ed80e8702d46a8f711591f6753",
+      "bytes": 70651
+    },
+    {
+      "path": "exports/metaphors-2026-11-04/svg/04-square-v1.svg",
+      "sha256": "3157413a609c1a4a332c16f24c690ee5fe1f57aaebdbd1667fccbbf15d7aa4d7",
+      "bytes": 70657
+    },
+    {
+      "path": "exports/metaphors-2026-11-04/svg/04-square-v2.svg",
+      "sha256": "0c3ac36069d878cff2e6cfc91913ad9eb2f38b78cae697b871c2d4beb6507291",
+      "bytes": 70662
+    },
+    {
+      "path": "exports/metaphors-2026-11-04/svg/04-square-v3.svg",
+      "sha256": "33260c272c06fec10981adcf794e86cc48aad85033652d570302633d64eae1d8",
+      "bytes": 70657
+    },
+    {
+      "path": "exports/metaphors-2026-11-04/svg/05-landscape-v1.svg",
+      "sha256": "1f628cec6a712bffd503ed96785d76e598c770b829a76cef18823b075d2fad1b",
+      "bytes": 97428
+    },
+    {
+      "path": "exports/metaphors-2026-11-04/svg/05-landscape-v2.svg",
+      "sha256": "6e2cb00391bea2ca22e67b187f2758646ecdaa12702529a4023a9b77a4528dcb",
+      "bytes": 97428
+    },
+    {
+      "path": "exports/metaphors-2026-11-04/svg/05-landscape-v3.svg",
+      "sha256": "28b0d0eb68297a37fd4925a257b8f3e8cf2761f868c80ee26cbeeb2b09e58af2",
+      "bytes": 97428
+    },
+    {
+      "path": "exports/metaphors-2026-11-04/svg/05-portrait-v1.svg",
+      "sha256": "e8fd048c537e376d8041eb1415ed468abdb4bd9ff095876b1e78b524acec2e35",
+      "bytes": 97422
+    },
+    {
+      "path": "exports/metaphors-2026-11-04/svg/05-portrait-v2.svg",
+      "sha256": "c92fffb0ce3cfe5087adce83e54f57b4cef5d588fb8280fd980fff8ede5be0af",
+      "bytes": 97422
+    },
+    {
+      "path": "exports/metaphors-2026-11-04/svg/05-portrait-v3.svg",
+      "sha256": "7e6500d1c1cc785dfcc3f8d5788795fe878272c392a7f4b361f8752357bf1354",
+      "bytes": 97422
+    },
+    {
+      "path": "exports/metaphors-2026-11-04/svg/05-square-v1.svg",
+      "sha256": "b24c6dea1d273a87704149be33936f3390f460c315b19c3547b8f60eef6d541b",
+      "bytes": 97428
+    },
+    {
+      "path": "exports/metaphors-2026-11-04/svg/05-square-v2.svg",
+      "sha256": "df4a1def473430c61daa5733d3d4f092fdb2fb1be6ca4d4a00ca1caa80bef74d",
+      "bytes": 97428
+    },
+    {
+      "path": "exports/metaphors-2026-11-04/svg/05-square-v3.svg",
+      "sha256": "e87350d2d7e700be4871697c310f1011f916ca215c9d7987a71743d86160f641",
+      "bytes": 97428
+    },
+    {
+      "path": "exports/metaphors-2026-11-04/svg/06-landscape-v1.svg",
+      "sha256": "60dc86c3696d391fae4674a9e1d4953f91cf0222691827b7890f2c8cd79ef7c7",
+      "bytes": 85400
+    },
+    {
+      "path": "exports/metaphors-2026-11-04/svg/06-landscape-v2.svg",
+      "sha256": "7e473a391a3479c533c4a103b4d1ccd2b03ddf8d7246e83fc9afbcc67b335125",
+      "bytes": 85400
+    },
+    {
+      "path": "exports/metaphors-2026-11-04/svg/06-landscape-v3.svg",
+      "sha256": "f538fd9c984033d3a93515a40b9d37074e49778a478de56493499ade7c95c7e3",
+      "bytes": 85400
+    },
+    {
+      "path": "exports/metaphors-2026-11-04/svg/06-portrait-v1.svg",
+      "sha256": "505516b364da43c73fda42683ef916f038bbd15bc76dcfc06c9f93fe9ced5b19",
+      "bytes": 85399
+    },
+    {
+      "path": "exports/metaphors-2026-11-04/svg/06-portrait-v2.svg",
+      "sha256": "abc4fb32a9c707564ce5a04445c7c7ae2c51f069272fc0146ebfa8757a859343",
+      "bytes": 85396
+    },
+    {
+      "path": "exports/metaphors-2026-11-04/svg/06-portrait-v3.svg",
+      "sha256": "25af0ceb322c58b5f80f37ccbc999487e9d334507000d1759905a3c5817515ef",
+      "bytes": 85399
+    },
+    {
+      "path": "exports/metaphors-2026-11-04/svg/06-square-v1.svg",
+      "sha256": "d32c73e022c001652532a2bcf5efe769ea17c0fa006a09b61367adbc62e04191",
+      "bytes": 85405
+    },
+    {
+      "path": "exports/metaphors-2026-11-04/svg/06-square-v2.svg",
+      "sha256": "13542d2a3660a89dbccede1f8c6cb89bde3ffc2175af13a552dda3cb83b25232",
+      "bytes": 85405
+    },
+    {
+      "path": "exports/metaphors-2026-11-04/svg/06-square-v3.svg",
+      "sha256": "57e40183bdabbea95e719fb34825fec0791171a4687e5de08391b1493b986532",
+      "bytes": 85405
+    },
+    {
+      "path": "exports/metaphors-2026-11-04/svg/07-landscape-v1.svg",
+      "sha256": "a258488de183719c57ca5be374b64d8989f6311b4ac5b99f84e0afcf2ec4b230",
+      "bytes": 100149
+    },
+    {
+      "path": "exports/metaphors-2026-11-04/svg/07-landscape-v2.svg",
+      "sha256": "e90dc0de2dd5f096c7c26ab6b6ecf66a1d6c8d57a57b8fdeb1621b32ab7eab03",
+      "bytes": 100153
+    },
+    {
+      "path": "exports/metaphors-2026-11-04/svg/07-landscape-v3.svg",
+      "sha256": "a6a2ef285c48c2b9cf4036e2769c29d49c6b059252473747575db9511b9aaded",
+      "bytes": 100153
+    },
+    {
+      "path": "exports/metaphors-2026-11-04/svg/07-portrait-v1.svg",
+      "sha256": "2499f02236ad3e38279de380a949065eed332e3b4e6004fbb4f1600e258fcbf1",
+      "bytes": 100139
+    },
+    {
+      "path": "exports/metaphors-2026-11-04/svg/07-portrait-v2.svg",
+      "sha256": "88b60ce195af5dc4a68f5b28569766e445a4a103ab706126802ada7789ff532f",
+      "bytes": 100149
+    },
+    {
+      "path": "exports/metaphors-2026-11-04/svg/07-portrait-v3.svg",
+      "sha256": "2bebecebbf0e7a188980050fdf7e56d6fb1ea8de82e077a7d8ee954e06aa8a18",
+      "bytes": 100149
+    },
+    {
+      "path": "exports/metaphors-2026-11-04/svg/07-square-v1.svg",
+      "sha256": "330cac1ae424741313618fadcc2702b87f08887f251de590faab75a01fccd89b",
+      "bytes": 100150
+    },
+    {
+      "path": "exports/metaphors-2026-11-04/svg/07-square-v2.svg",
+      "sha256": "f83ff8d2da1761e1a0991b13ea72b34d26f458e9cf0c174de8cc6935fa136e97",
+      "bytes": 100150
+    },
+    {
+      "path": "exports/metaphors-2026-11-04/svg/07-square-v3.svg",
+      "sha256": "4151e113ccd6f054de14594ee3af02d1fb026be9035ff9894812766ad9366180",
+      "bytes": 100147
+    },
+    {
+      "path": "exports/metaphors-2026-11-04/svg/08-landscape-v1.svg",
+      "sha256": "270fa3c7cf79b9738862f1b46e087917aa3722cfbef4e60254c099cbb5ba7ed3",
+      "bytes": 90590
+    },
+    {
+      "path": "exports/metaphors-2026-11-04/svg/08-landscape-v2.svg",
+      "sha256": "415ecdf16339aa07136d505b4aa12e438d1a28931315544b09ba8275a9daa871",
+      "bytes": 90593
+    },
+    {
+      "path": "exports/metaphors-2026-11-04/svg/08-landscape-v3.svg",
+      "sha256": "65c0412d64f72a1d514df7378ecbb12a7a10576a6c2126b07c86672b9b6ffc39",
+      "bytes": 90592
+    },
+    {
+      "path": "exports/metaphors-2026-11-04/svg/08-portrait-v1.svg",
+      "sha256": "cb916fe18709ceeb50d7328646cd8bd4597427812f31fde668857e2414e8c1a9",
+      "bytes": 90589
+    },
+    {
+      "path": "exports/metaphors-2026-11-04/svg/08-portrait-v2.svg",
+      "sha256": "f5f31495c91e78d1b39a5d3c24fcc11f433fae4269446897ad5bff0f7254b0dc",
+      "bytes": 90592
+    },
+    {
+      "path": "exports/metaphors-2026-11-04/svg/08-portrait-v3.svg",
+      "sha256": "ac97fb61e37d8cdfea576deb8b207dae2389f2fdb44c3b42cb35df7df8b3e6d6",
+      "bytes": 90591
+    },
+    {
+      "path": "exports/metaphors-2026-11-04/svg/08-square-v1.svg",
+      "sha256": "992bf0283bc261c83b1f639e5414fc32bf6da934d6e61f8927d2b41d5a88d34d",
+      "bytes": 90592
+    },
+    {
+      "path": "exports/metaphors-2026-11-04/svg/08-square-v2.svg",
+      "sha256": "d829603a029a6e9dff8d32147c4667bd5d259bd0c6a90989de4e264976c0f239",
+      "bytes": 90592
+    },
+    {
+      "path": "exports/metaphors-2026-11-04/svg/08-square-v3.svg",
+      "sha256": "59a02ba4afa3329ffa29ae529c45f74013d232df01fcfabe04f9ad982459ad1e",
+      "bytes": 90597
+    },
+    {
+      "path": "exports/metaphors-2026-11-04/svg/09-landscape-v1.svg",
+      "sha256": "ef740203aa8e9130d23e53a435eee48d425bcd4d24ed8df170ab09a23fef7144",
+      "bytes": 100147
+    },
+    {
+      "path": "exports/metaphors-2026-11-04/svg/09-landscape-v2.svg",
+      "sha256": "46daf78d74a6037f0b4489182a9a5c3b32ab4e5e7eb5a674e13a54e74d2398c5",
+      "bytes": 100145
+    },
+    {
+      "path": "exports/metaphors-2026-11-04/svg/09-landscape-v3.svg",
+      "sha256": "caa5cc413f430750b82ea89320df5095aa921203e4c37b49e692b1e4a1577e28",
+      "bytes": 100153
+    },
+    {
+      "path": "exports/metaphors-2026-11-04/svg/09-portrait-v1.svg",
+      "sha256": "bab352288e91df42352f261ff3aa03568cd3434e23aa8a3e6065b09335564ffd",
+      "bytes": 100142
+    },
+    {
+      "path": "exports/metaphors-2026-11-04/svg/09-portrait-v2.svg",
+      "sha256": "f241e35f4f339b7e2ac1e7e7668eb90e68a8bd4886bbb41cc128ff30bacaf820",
+      "bytes": 100135
+    },
+    {
+      "path": "exports/metaphors-2026-11-04/svg/09-portrait-v3.svg",
+      "sha256": "b1ab579f9e496228ab1266a0d489b6515e1093583d4dac73fe6dd169364226cc",
+      "bytes": 100142
+    },
+    {
+      "path": "exports/metaphors-2026-11-04/svg/09-square-v1.svg",
+      "sha256": "9447678c2e01f7c7fd728cb62ad9941579e1bfb437be86e4992587fa150fe569",
+      "bytes": 100150
+    },
+    {
+      "path": "exports/metaphors-2026-11-04/svg/09-square-v2.svg",
+      "sha256": "bb737cece9b9f709fe379a048659f8c82fa7eebad698cbc341936441e326b950",
+      "bytes": 100149
+    },
+    {
+      "path": "exports/metaphors-2026-11-04/svg/09-square-v3.svg",
+      "sha256": "0c60ea25b3b5012b02e44b6ee8419fb1b849766578ad256be7d2d809988068b1",
+      "bytes": 100150
+    },
+    {
+      "path": "exports/metaphors-2026-11-04/svg/10-landscape-v1.svg",
+      "sha256": "832c4a09c64efe9309a7ae2f07ad907af66ab7b85f0ee5db52ded999ca9a4107",
+      "bytes": 96221
+    },
+    {
+      "path": "exports/metaphors-2026-11-04/svg/10-landscape-v2.svg",
+      "sha256": "7a3a6f5631100e9055037839b770228ad1abd7e111d42ddb4b16556a5280ec51",
+      "bytes": 96221
+    },
+    {
+      "path": "exports/metaphors-2026-11-04/svg/10-landscape-v3.svg",
+      "sha256": "29171ad73a9d43e3988ea9fcbdff6e23bded2914c49ba1c0b44ca76681012838",
+      "bytes": 96219
+    },
+    {
+      "path": "exports/metaphors-2026-11-04/svg/10-portrait-v1.svg",
+      "sha256": "8e4b877174eddca4962a562f02604aa2f35113c2e0e995ca3514c32d331e6a44",
+      "bytes": 96221
+    },
+    {
+      "path": "exports/metaphors-2026-11-04/svg/10-portrait-v2.svg",
+      "sha256": "f7a95e28834f5c4f90d29391efcbbd6cdb0047cbc3af46e2ce9ef2e74ce1042f",
+      "bytes": 96227
+    },
+    {
+      "path": "exports/metaphors-2026-11-04/svg/10-portrait-v3.svg",
+      "sha256": "b91c34cf3d83361f320723ce862d11b6c79d089fb07651cffcb77b577e51c643",
+      "bytes": 96227
+    },
+    {
+      "path": "exports/metaphors-2026-11-04/svg/10-square-v1.svg",
+      "sha256": "c1e128199440330e4d757d48a4c4cbf8f6e39e17a93baf587a73aacbcc8ec7ae",
+      "bytes": 96231
+    },
+    {
+      "path": "exports/metaphors-2026-11-04/svg/10-square-v2.svg",
+      "sha256": "3e8ac0a46f52f038e734419e919f6e49331c641bb1040eda3256938d89a1bd46",
+      "bytes": 96233
+    },
+    {
+      "path": "exports/metaphors-2026-11-04/svg/10-square-v3.svg",
+      "sha256": "237682bd0147b2e59323013d7cca462ae5b5ee7dce27d968f03c4cfd4fbab307",
+      "bytes": 96233
+    },
+    {
+      "path": "exports/metaphors-2026-11-04/svg/11-landscape-v1.svg",
+      "sha256": "c26d8dcdf138ce392da86de5ea94aba91f703a7ba10316e3bf67e6e5732244cd",
+      "bytes": 108230
+    },
+    {
+      "path": "exports/metaphors-2026-11-04/svg/11-landscape-v2.svg",
+      "sha256": "174a317197c78c5db34c11295c04ea0f343d784fa9048cd93b420205e2d58ff5",
+      "bytes": 108226
+    },
+    {
+      "path": "exports/metaphors-2026-11-04/svg/11-landscape-v3.svg",
+      "sha256": "f1e67aa170113a88b1f7a830c45102ee219d5938566bfe4d957ae0cafd1d4236",
+      "bytes": 108228
+    },
+    {
+      "path": "exports/metaphors-2026-11-04/svg/11-portrait-v1.svg",
+      "sha256": "b6428e52e81d395c66baab6ee22f08dd3720ac7f693b5cfda75fc59dedc53e9a",
+      "bytes": 108220
+    },
+    {
+      "path": "exports/metaphors-2026-11-04/svg/11-portrait-v2.svg",
+      "sha256": "c7524e91de0e89b49557b71c6d8af57f4c01aafbf4e8f587fec5e39663cd76c2",
+      "bytes": 108221
+    },
+    {
+      "path": "exports/metaphors-2026-11-04/svg/11-portrait-v3.svg",
+      "sha256": "0837e6006fa8930b3afc61c31b82e910ae83af0842c281790c62e5a36e209177",
+      "bytes": 108220
+    },
+    {
+      "path": "exports/metaphors-2026-11-04/svg/11-square-v1.svg",
+      "sha256": "78e46c2afe9fb15833db31bebf107d7bf25dbdfb441b1a7ed92cce0a7908dfc4",
+      "bytes": 108234
+    },
+    {
+      "path": "exports/metaphors-2026-11-04/svg/11-square-v2.svg",
+      "sha256": "81313b3926c9ea986a3764b6c4fb22dc4f4785f85228321d358a0773839b30e3",
+      "bytes": 108232
+    },
+    {
+      "path": "exports/metaphors-2026-11-04/svg/11-square-v3.svg",
+      "sha256": "6b5b79230aedd19a533a51388157f9c0c4e29b07f0a5a1b07cee5fd2fd806b6c",
+      "bytes": 108224
+    },
+    {
+      "path": "exports/metaphors-2026-11-04/svg/12-landscape-v1.svg",
+      "sha256": "2a43f30b3dcff3800391cb683c23fbde268768c786880bb0a0c638a308fe86bc",
+      "bytes": 100158
+    },
+    {
+      "path": "exports/metaphors-2026-11-04/svg/12-landscape-v2.svg",
+      "sha256": "37c04f3ed1688c3292cb30fb3afdc9b777767e2216ef9570ee77cf481e95010a",
+      "bytes": 100154
+    },
+    {
+      "path": "exports/metaphors-2026-11-04/svg/12-landscape-v3.svg",
+      "sha256": "31bec5fadb5ba396f2946ff3bc6b2d0ab5108383f92af4f3c04f31329f1565db",
+      "bytes": 100158
+    },
+    {
+      "path": "exports/metaphors-2026-11-04/svg/12-portrait-v1.svg",
+      "sha256": "22cbcf64112d6f2d0e9bf8ab81a8d384ecb1920d855facd472819ba600089913",
+      "bytes": 100150
+    },
+    {
+      "path": "exports/metaphors-2026-11-04/svg/12-portrait-v2.svg",
+      "sha256": "22cbcf64112d6f2d0e9bf8ab81a8d384ecb1920d855facd472819ba600089913",
+      "bytes": 100150
+    },
+    {
+      "path": "exports/metaphors-2026-11-04/svg/12-portrait-v3.svg",
+      "sha256": "6f7b63d0cbf7ef497dd21aed3dee79c63b34086571e44fdfb803bbf433d14d69",
+      "bytes": 100153
+    },
+    {
+      "path": "exports/metaphors-2026-11-04/svg/12-square-v1.svg",
+      "sha256": "f90e296d531584d119cd42ccdd4c48048988b1c5117bfa941fabdc00c3e9b7a0",
+      "bytes": 100152
+    },
+    {
+      "path": "exports/metaphors-2026-11-04/svg/12-square-v2.svg",
+      "sha256": "77bae15876f7c5cbe08ed17ff7a8ecce3c1a02b35c0b894a802371526e943b95",
+      "bytes": 100152
+    },
+    {
+      "path": "exports/metaphors-2026-11-04/svg/12-square-v3.svg",
+      "sha256": "c14cdf60d58736f7f3d657e744cd6f7d770eb4d6cdc216be78c433d16992b2eb",
+      "bytes": 100155
+    },
+    {
+      "path": "exports/metaphors-2026-11-04/svg/13-landscape-v1.svg",
+      "sha256": "eef72191d91f10b0b3409ec5b529ac0528a0bcd17ef3dafac6d813bd369838c7",
+      "bytes": 116621
+    },
+    {
+      "path": "exports/metaphors-2026-11-04/svg/13-landscape-v2.svg",
+      "sha256": "9f6e7e5e190e8552d5770c2cab9a5bad57dc1f0ffb15a90c36ecb93e1d39c6f2",
+      "bytes": 116621
+    },
+    {
+      "path": "exports/metaphors-2026-11-04/svg/13-landscape-v3.svg",
+      "sha256": "1eff6979f431ac8db7e141b5744e4317a5040102fd017ef8385e1e0e7c8f54a2",
+      "bytes": 116621
+    },
+    {
+      "path": "exports/metaphors-2026-11-04/svg/13-portrait-v1.svg",
+      "sha256": "fd3450b7c08fe3a7c2dd2854974a9e700434c72853fc2a494ddd99494f9c1412",
+      "bytes": 116626
+    },
+    {
+      "path": "exports/metaphors-2026-11-04/svg/13-portrait-v2.svg",
+      "sha256": "db30bb57e24bddb6ce9be9b779ba6c41d7e4a83486bd69bdf6a9bf6a285cbbed",
+      "bytes": 116626
+    },
+    {
+      "path": "exports/metaphors-2026-11-04/svg/13-portrait-v3.svg",
+      "sha256": "2e3f2b93106ca37ed638b3a1c86e6c5dced85056cde0008fa791431d34adb3bf",
+      "bytes": 116626
+    },
+    {
+      "path": "exports/metaphors-2026-11-04/svg/13-square-v1.svg",
+      "sha256": "838adcc2dd70c7789df526a9c09f57f4c451316f71c4d2cab267e8ed18c257cd",
+      "bytes": 116626
+    },
+    {
+      "path": "exports/metaphors-2026-11-04/svg/13-square-v2.svg",
+      "sha256": "555e31b168c0ec8445af9452d94836263bcc88762465532e4c160ca4e10eecd5",
+      "bytes": 116628
+    },
+    {
+      "path": "exports/metaphors-2026-11-04/svg/13-square-v3.svg",
+      "sha256": "777451346e58b75096d7ddf68a05d470edaacc54c8182a98a45a335b2852d482",
+      "bytes": 116631
+    },
+    {
+      "path": "exports/metaphors-2026-11-04/svg/14-landscape-v1.svg",
+      "sha256": "bdf192f86bdf2dc99245b14c062bf6a06bc78a3eaba119a5c67d508d0b863397",
+      "bytes": 132936
+    },
+    {
+      "path": "exports/metaphors-2026-11-04/svg/14-landscape-v2.svg",
+      "sha256": "3f947ab012a544bcdd0a402e2fa0a1199d0c18bde7fa294984d947fcc566f447",
+      "bytes": 132934
+    },
+    {
+      "path": "exports/metaphors-2026-11-04/svg/14-landscape-v3.svg",
+      "sha256": "3f845ca0e7ba5eba129cede564935c8760af3524df6af74186bd42d8b5a738a4",
+      "bytes": 132929
+    },
+    {
+      "path": "exports/metaphors-2026-11-04/svg/14-portrait-v1.svg",
+      "sha256": "2cfbdd5c1cd196189d7d2989b78d4be2851e2823e376486d394279e4a81b8e04",
+      "bytes": 132936
+    },
+    {
+      "path": "exports/metaphors-2026-11-04/svg/14-portrait-v2.svg",
+      "sha256": "15c82e0fa9dea06ef06c0532cd059d03279e05081c4b893b81321178e04eca87",
+      "bytes": 132937
+    },
+    {
+      "path": "exports/metaphors-2026-11-04/svg/14-portrait-v3.svg",
+      "sha256": "4e4c1b4923e2ec214c0950bad62016aebbb773a2e943c66944a165820015ec3f",
+      "bytes": 132935
+    },
+    {
+      "path": "exports/metaphors-2026-11-04/svg/14-square-v1.svg",
+      "sha256": "301e0e829c6b864e158f72d2e650a2478eefa2cf634d2ce1f34e9b6ff6af503e",
+      "bytes": 132934
+    },
+    {
+      "path": "exports/metaphors-2026-11-04/svg/14-square-v2.svg",
+      "sha256": "50acf9838f07aecdce93e19b18f68e31e6becb72fa130499fc836ae0ddb80611",
+      "bytes": 132937
+    },
+    {
+      "path": "exports/metaphors-2026-11-04/svg/14-square-v3.svg",
+      "sha256": "5f07d0daa3cf881eb84d5b84a5f1fb9f1ecce5cbfa1cbcded9259a593e25acfc",
+      "bytes": 132945
+    },
+    {
+      "path": "exports/metaphors-2026-11-04/svg/15-landscape-v1.svg",
+      "sha256": "a094eb39b5cb9467957680b599f3a1ce4adb6860ea880a63fec02ac29568d12d",
+      "bytes": 49031
+    },
+    {
+      "path": "exports/metaphors-2026-11-04/svg/15-landscape-v2.svg",
+      "sha256": "a35f8439da7e2769c3213f4eb01c8203d86ba2b23957ae1f1a9c182290584e84",
+      "bytes": 49032
+    },
+    {
+      "path": "exports/metaphors-2026-11-04/svg/15-landscape-v3.svg",
+      "sha256": "8c21e67c89af7fa15e58f17c60e6252bff669c8758087ccfb65b8788afe04ebf",
+      "bytes": 49031
+    },
+    {
+      "path": "exports/metaphors-2026-11-04/svg/15-portrait-v1.svg",
+      "sha256": "8a386861bb728b0a4165f56bd30f7c19f459b4f36824bd013dee62b7ff377638",
+      "bytes": 49028
+    },
+    {
+      "path": "exports/metaphors-2026-11-04/svg/15-portrait-v2.svg",
+      "sha256": "f8daf2b67b594dfcd605ab9b52650bf1a8dd436e139eb2621fde60eec43ce691",
+      "bytes": 49032
+    },
+    {
+      "path": "exports/metaphors-2026-11-04/svg/15-portrait-v3.svg",
+      "sha256": "2d2e01685206c689ea89f153a1a07efb321c8309c07001d69b5314cff4f91807",
+      "bytes": 49028
+    },
+    {
+      "path": "exports/metaphors-2026-11-04/svg/15-square-v1.svg",
+      "sha256": "8e504ebf75d16b9c76ff6111ed2346257496ab94fc1cac112a19b1880be4be19",
+      "bytes": 49034
+    },
+    {
+      "path": "exports/metaphors-2026-11-04/svg/15-square-v2.svg",
+      "sha256": "c65e838fef571e5ebcd1dab925236b829c3308ae1152034ea70e4bfb37874175",
+      "bytes": 49032
+    },
+    {
+      "path": "exports/metaphors-2026-11-04/svg/15-square-v3.svg",
+      "sha256": "c6cb848f771bcc376cff2d72b7e2ed5b2ab0e97c579cec9dd9065a42ddc1041a",
+      "bytes": 49034
+    },
+    {
+      "path": "exports/metaphors-2026-11-04/svg/16-landscape-v1.svg",
+      "sha256": "a405cc47ac463ed2683c56ec3d876576d619670af250308220d9433c3f662f55",
+      "bytes": 115568
+    },
+    {
+      "path": "exports/metaphors-2026-11-04/svg/16-landscape-v2.svg",
+      "sha256": "23fda9f7a8d9d6b0e1eacf1e1303534cc3366cfacb3c647d1eb51e0963cb0e50",
+      "bytes": 115569
+    },
+    {
+      "path": "exports/metaphors-2026-11-04/svg/16-landscape-v3.svg",
+      "sha256": "e8ea41de81dd13b73e9f35bbfc61233f15437c7c57608a538a5a94f7de09d3ea",
+      "bytes": 115577
+    },
+    {
+      "path": "exports/metaphors-2026-11-04/svg/16-portrait-v1.svg",
+      "sha256": "a79f0aa8cdaa1dc867d47f0d1f6271379e15fbbb21ae528bff6ce3fadf1f0357",
+      "bytes": 115584
+    },
+    {
+      "path": "exports/metaphors-2026-11-04/svg/16-portrait-v2.svg",
+      "sha256": "19bd3c89f7471cbd797dc14fca547153047798c7aeef972419289936dee59735",
+      "bytes": 115584
+    },
+    {
+      "path": "exports/metaphors-2026-11-04/svg/16-portrait-v3.svg",
+      "sha256": "870f264d14f727683ca137e5716b59666cd1b54496a7c6e694f3183e5121c9af",
+      "bytes": 115585
+    },
+    {
+      "path": "exports/metaphors-2026-11-04/svg/16-square-v1.svg",
+      "sha256": "d1cfa2a7488ef61655571dc623560d7234a4e088bcb0d4cb959713086716afec",
+      "bytes": 115580
+    },
+    {
+      "path": "exports/metaphors-2026-11-04/svg/16-square-v2.svg",
+      "sha256": "9e2dfd3a19f3951825ebdad69c7650fbcdf412a9daae30f6d8b724fc918213fb",
+      "bytes": 115589
+    },
+    {
+      "path": "exports/metaphors-2026-11-04/svg/16-square-v3.svg",
+      "sha256": "781b4de3e8d7b9f34ee729328a0b447e7b056b1bc588fd639c4aa3d28226fceb",
+      "bytes": 115580
+    },
+    {
+      "path": "exports/metaphors-2026-11-04/svg/17-landscape-v1.svg",
+      "sha256": "7154a4517b260df0275c3068911ed2327dfaa33724a85ea3c46097ad748099f6",
+      "bytes": 97417
+    },
+    {
+      "path": "exports/metaphors-2026-11-04/svg/17-landscape-v2.svg",
+      "sha256": "8bd8c016d0e522a8a71c9330275e15baf5200a4f68be05e5fa506ba9b766f9ed",
+      "bytes": 97417
+    },
+    {
+      "path": "exports/metaphors-2026-11-04/svg/17-landscape-v3.svg",
+      "sha256": "2c9371774d3e67ada2aacd0655bf7c62f97370d7c0ffd051241aa931b1acb924",
+      "bytes": 97412
+    },
+    {
+      "path": "exports/metaphors-2026-11-04/svg/17-portrait-v1.svg",
+      "sha256": "9b9441bfd23e51e0d4d331f856dc2748c5b5ce5211c7d4d78ded414722abe6d6",
+      "bytes": 97408
+    },
+    {
+      "path": "exports/metaphors-2026-11-04/svg/17-portrait-v2.svg",
+      "sha256": "b73baa06ff17d94470f823b11747d2ce70f6f01088447e9f911bdc6ac4746918",
+      "bytes": 97408
+    },
+    {
+      "path": "exports/metaphors-2026-11-04/svg/17-portrait-v3.svg",
+      "sha256": "4465ac1aff3aed6f53f6bfe35aaa4dc91b7aa2d9d09f7edb6b6319452d569c2e",
+      "bytes": 97408
+    },
+    {
+      "path": "exports/metaphors-2026-11-04/svg/17-square-v1.svg",
+      "sha256": "ac62be1c123758bd886068be7f8d59e54ca02db59e47b2818176d30bcc1bfcce",
+      "bytes": 97422
+    },
+    {
+      "path": "exports/metaphors-2026-11-04/svg/17-square-v2.svg",
+      "sha256": "7f4c79044583bb643edaee32544ac20992ccf3b853544df5a621fbed0cbb203e",
+      "bytes": 97417
+    },
+    {
+      "path": "exports/metaphors-2026-11-04/svg/17-square-v3.svg",
+      "sha256": "ea6eedf25959f6203a28abf7d711d0059610602f21427d69dc43e0005e8591bc",
+      "bytes": 97417
+    },
+    {
+      "path": "exports/metaphors-2026-11-04/svg/18-landscape-v1.svg",
+      "sha256": "4d401c4d22556b2eb6bf4254ef92c2dcd33da6c998f72bed8439dfc652092088",
+      "bytes": 116159
+    },
+    {
+      "path": "exports/metaphors-2026-11-04/svg/18-landscape-v2.svg",
+      "sha256": "a096edb68b3c31d74b02931bfc4754e970180a913c849388895eaa583c81c616",
+      "bytes": 116157
+    },
+    {
+      "path": "exports/metaphors-2026-11-04/svg/18-landscape-v3.svg",
+      "sha256": "df6365ea7a82c3ffae37860de1aaaa3c6c29f9f3cd1bc713fb1a03d5f5d70c6b",
+      "bytes": 116153
+    },
+    {
+      "path": "exports/metaphors-2026-11-04/svg/18-portrait-v1.svg",
+      "sha256": "9c6be85883854930d70cb81aad8d0ce28887090b60f729fb4dd2e4a74dc5b18c",
+      "bytes": 116157
+    },
+    {
+      "path": "exports/metaphors-2026-11-04/svg/18-portrait-v2.svg",
+      "sha256": "b82496f30fa0ed99f2e8679d9db1a00201dce5f0f99b8741f3d6f54ce8c6bbe7",
+      "bytes": 116157
+    },
+    {
+      "path": "exports/metaphors-2026-11-04/svg/18-portrait-v3.svg",
+      "sha256": "749a3cdfaea02302a7839ad27c528ff012f837dfc43d7278acdc22731e174ec3",
+      "bytes": 116160
+    },
+    {
+      "path": "exports/metaphors-2026-11-04/svg/18-square-v1.svg",
+      "sha256": "f1e5405aa409c9f3c68dea9bb8cbc96ba09d6f5bf077a50e6fa448c305a2c991",
+      "bytes": 116160
+    },
+    {
+      "path": "exports/metaphors-2026-11-04/svg/18-square-v2.svg",
+      "sha256": "800dba203b53a4e29baf55fed59999623d34e0f1dbd240e6daa8b9ea6b1b59b0",
+      "bytes": 116160
+    },
+    {
+      "path": "exports/metaphors-2026-11-04/svg/18-square-v3.svg",
+      "sha256": "d689e4e5c66b9c3d1de4956f556f9f94874298765b62659360982b016b1a4fe4",
+      "bytes": 116160
+    },
+    {
+      "path": "library/assets/L/background/book.svg",
+      "sha256": "9a3431b9fc7d6f28e084de8d83820fe1c449474ec89c3d30d954f817511e6e46",
+      "bytes": 30153
+    },
+    {
+      "path": "library/assets/L/background/coin.svg",
+      "sha256": "45bd724617b0750b4317f3c5c674bbac5d3fb6b0a796e1103ed1419befc28afe",
+      "bytes": 68286
+    },
+    {
+      "path": "library/assets/L/background/flowers.svg",
+      "sha256": "460456b491bdcc814ad0d0a8bc4394d73d740e14fb37087af7f4cb6da19b8df1",
+      "bytes": 66390
+    },
+    {
+      "path": "library/assets/L/background/folder.svg",
+      "sha256": "22a3d06260ec31fbeaaa8092970fe5cb8a4f61fe2837bed68099906c0b7bb4a3",
+      "bytes": 14632
+    },
+    {
+      "path": "library/assets/L/background/headphones.svg",
+      "sha256": "3c9256282f4f486a64975f89fec5f602e4fe3881f7e08f764198c4db02f2f363",
+      "bytes": 50431
+    },
+    {
+      "path": "library/assets/L/background/lamp.svg",
+      "sha256": "89a0b4a75c8d908f8809259a3957587aeccfd3d0485326ec7a1e9fcd5eb811de",
+      "bytes": 16774
+    },
+    {
+      "path": "library/assets/L/background/pen.svg",
+      "sha256": "8fc9646c6347c7bb5a52e9045da725790eef384f707c909221154c9679303a2e",
+      "bytes": 14168
+    },
+    {
+      "path": "library/assets/L/background/phone.svg",
+      "sha256": "387fff2f91e77b6292a71df6d42f11a7318777328e91cd8ed36862b35c4745ee",
+      "bytes": 69304
+    },
+    {
+      "path": "library/assets/L/background/puzzle.svg",
+      "sha256": "ccd03f3d7082e4faef322e65ba534b8ca242f62e727e403d88f8eb7f06790071",
+      "bytes": 36023
+    },
+    {
+      "path": "library/assets/L/background/wallet.svg",
+      "sha256": "f8b5739797c840fd6b56d2593bac77bb6827212b39e102afb7c9816468697363",
+      "bytes": 35184
+    },
+    {
+      "path": "library/assets/L/main/book.svg",
+      "sha256": "a2494b2aa642218f012cfc045b8ecb829358d1bab8989c9d8ade3516226418d2",
+      "bytes": 29847
+    },
+    {
+      "path": "library/assets/L/main/coin.svg",
+      "sha256": "3e01b711dc81f6312bd96a828f3b0cbecfa1126a8badd0b73420bf7ffa11f819",
+      "bytes": 66909
+    },
+    {
+      "path": "library/assets/L/main/flowers.svg",
+      "sha256": "63271d04a1f9a60becfa2e33b2c42d709b8cc0607ac1d0256eaf0958b089f137",
+      "bytes": 65647
+    },
+    {
+      "path": "library/assets/L/main/folder.svg",
+      "sha256": "c389165ddaa8bfcb5471de71aee2b3b93462d6244bc189c3e3ab1426a9481d2a",
+      "bytes": 14501
+    },
+    {
+      "path": "library/assets/L/main/headphones.svg",
+      "sha256": "1c38edfdc809c614f137a87f0423beab62934b71badce91ff260a73bd9a3dc8b",
+      "bytes": 50015
+    },
+    {
+      "path": "library/assets/L/main/lamp.svg",
+      "sha256": "14954117f1bc7b984ca2875371ff788a7071753013b3952dc4d4c26718145190",
+      "bytes": 16592
+    },
+    {
+      "path": "library/assets/L/main/pen.svg",
+      "sha256": "925ad1d48e481a3401c38bc8dba2d8aeb231ca36cd2ceb5f04f4d375b1b26430",
+      "bytes": 13907
+    },
+    {
+      "path": "library/assets/L/main/phone.svg",
+      "sha256": "0e5b96cecae979b210e8b82f6f7352d2cd07f17ddfb54d2ef16982486a29f6f7",
+      "bytes": 68528
+    },
+    {
+      "path": "library/assets/L/main/puzzle.svg",
+      "sha256": "8962ac60828e4696c34ab7a0e8c722a1acb136826e2ebd9287aca8809089978b",
+      "bytes": 35415
+    },
+    {
+      "path": "library/assets/L/main/wallet.svg",
+      "sha256": "c2344e1d8410e0e5c50740212a4e1088a440497591d49453683e5eece126a994",
+      "bytes": 34413
+    },
+    {
+      "path": "library/assets/S/background/book.svg",
+      "sha256": "1ac6a5596bb721531841991b623d97cd49077a3c704c1926c880fd7310338985",
+      "bytes": 30490
+    },
+    {
+      "path": "library/assets/S/background/coin.svg",
+      "sha256": "7da9fdf01ac644891d5e34262e9ee70dc0bb9edbaf4fcaa6c725f9f1a08b9f27",
+      "bytes": 68389
+    },
+    {
+      "path": "library/assets/S/background/flowers.svg",
+      "sha256": "cded157db18f1523af6f2de841d47d17e2f70fe0ad1d02aea93493edf9bb998f",
+      "bytes": 66430
+    },
+    {
+      "path": "library/assets/S/background/folder.svg",
+      "sha256": "827a1ed68b108fd04c1436a8ad733461453c5acfd45c86859db1157ecb487b0e",
+      "bytes": 14629
+    },
+    {
+      "path": "library/assets/S/background/headphones.svg",
+      "sha256": "0f0b480f811e9e18d7cc47993a2b2918801989ebf01f7d5f233edb9135146002",
+      "bytes": 50440
+    },
+    {
+      "path": "library/assets/S/background/lamp.svg",
+      "sha256": "835a9db560a5bfc0484ee8c94853c0d13c8c4e6f24d9c217fa9b6083dc65315b",
+      "bytes": 16777
+    },
+    {
+      "path": "library/assets/S/background/pen.svg",
+      "sha256": "2b25c060f63f2981582376132df6552a1f901198ae2080adfaa3810d4e05bb5d",
+      "bytes": 14173
+    },
+    {
+      "path": "library/assets/S/background/phone.svg",
+      "sha256": "0dd9bed2cb06aa16009e2e91556da3a6fd2cc52d9b55c4ad5577c10d1496a88d",
+      "bytes": 69337
+    },
+    {
+      "path": "library/assets/S/background/puzzle.svg",
+      "sha256": "1bd2849bc2960151c66d13b0303db7ebb91d22917f052e9cff58f4d027ba211c",
+      "bytes": 36072
+    },
+    {
+      "path": "library/assets/S/background/wallet.svg",
+      "sha256": "74c4ac2246edc65b969a457a1ee68dfb7bd29b34ebd7914f22da1a18531e8d7d",
+      "bytes": 35183
+    },
+    {
+      "path": "library/assets/S/main/book.svg",
+      "sha256": "9a7019cd14ffb85aca79fe62f87cbdf931e9175fd998ed6d6c61bff89f7fbb30",
+      "bytes": 28686
+    },
+    {
+      "path": "library/assets/S/main/coin.svg",
+      "sha256": "cc085ecebe443f3aaad665bd8aa3355086d5fa1f8e9b33454840e48e67dccb7e",
+      "bytes": 64104
+    },
+    {
+      "path": "library/assets/S/main/flowers.svg",
+      "sha256": "440c244c1dcc18c1b574a638208d4370b2e4b12d563dbd62d24cd3266b5d58df",
+      "bytes": 65651
+    },
+    {
+      "path": "library/assets/S/main/folder.svg",
+      "sha256": "cbd71267cfe23d8d9e8413f2341da44252d5739a270a474208b86ebe338837df",
+      "bytes": 13946
+    },
+    {
+      "path": "library/assets/S/main/headphones.svg",
+      "sha256": "c8463a16455d332eac35f5936429628d83a6f14dc9ec014e50e2de040e0941a3",
+      "bytes": 46328
+    },
+    {
+      "path": "library/assets/S/main/lamp.svg",
+      "sha256": "2305e2d8ce0d50222e6fe9659b01f20b7d6ec35e20594eb910de4e5500681451",
+      "bytes": 16597
+    },
+    {
+      "path": "library/assets/S/main/pen.svg",
+      "sha256": "46ee0dc967d936e069fab204fe9b6c6a09b4db952b4cd72d877d6af30c9c0c7c",
+      "bytes": 13891
+    },
+    {
+      "path": "library/assets/S/main/phone.svg",
+      "sha256": "87b7019000bf74ba1cfac3303d71afbf23bde77c045d35f9b53bd3a0a4a56c03",
+      "bytes": 40718
+    },
+    {
+      "path": "library/assets/S/main/puzzle.svg",
+      "sha256": "dce41ee5131080b6a5fc8dc9596afc4e7b50e178567b2682a732522e31521be2",
+      "bytes": 35486
+    },
+    {
+      "path": "library/assets/S/main/wallet.svg",
+      "sha256": "d5f7a9a36aeb75bdd4903526a97660ac29bb68f376878676e1182b95c28b3cd7",
+      "bytes": 33469
+    },
+    {
+      "path": "library/backgrounds/L/aqua.svg",
+      "sha256": "73c2589e35eceda64dcaa55285a102f5046a7efd81a703f78baa0bcd50753eb4",
+      "bytes": 3533
+    },
+    {
+      "path": "library/backgrounds/L/lavender.svg",
+      "sha256": "e2c509dc9f0cd1c9c6f4cbe8ea5c7c81bd16add044ef098183d025bf9d2c1bc1",
+      "bytes": 3576
+    },
+    {
+      "path": "library/backgrounds/L/peach.svg",
+      "sha256": "2756d23581600da0437383a1d078490b9856ceb2eb36c9fbdb2d015a859109af",
+      "bytes": 1230
+    },
+    {
+      "path": "library/backgrounds/S/aqua.svg",
+      "sha256": "1eaf76db3d5bee53eb237886686588104ad7296cea933900d15141160c433161",
+      "bytes": 3394
+    },
+    {
+      "path": "library/backgrounds/S/lavender.svg",
+      "sha256": "5813e835a5fea01a6097f9e4bfc79c5c2d6e8fd42b4eca23727a3d687ea2bb8d",
+      "bytes": 3456
+    },
+    {
+      "path": "library/backgrounds/S/peach.svg",
+      "sha256": "8084aacf851128a7321512e3bb2a732fd36f68a0837d7b9a06465c8d36d907f4",
+      "bytes": 1181
+    },
+    {
+      "path": "library/manifest.json",
+      "sha256": "b87b073b6fedb6f70ecd518ac0d26aec36d5b6f960f844ba38c0825dc5ebd26c",
+      "bytes": 40086
+    },
+    {
+      "path": "library/palettes.json",
+      "sha256": "a4e645c507d2320f2f8384b52159d7a2ac8f2064e9fe0db1b81f52317bf47675",
+      "bytes": 1525
+    },
+    {
+      "path": "library/sources/1-SVG-drop-Со-смещением-S-1200-630.svg",
+      "sha256": "ea91534a0108bd8ad81462ff36646ccc533900d74e468fe1b4eb3bb1a7d76c0e",
+      "bytes": 101668
+    },
+    {
+      "path": "library/sources/2-Размер-S.svg",
+      "sha256": "0a706af017e53807e236689d3e9fdd229f9d20a12436014d14826c9c22723a55",
+      "bytes": 742262
+    },
+    {
+      "path": "library/sources/3-SVG-drop-Под-заголовок-S-1200-630.svg",
+      "sha256": "f6b1ac8921f2d884395f2bd8e8bd4ce694f3e014edad4fc79c26bfc3f67f9fd0",
+      "bytes": 101686
+    },
+    {
+      "path": "library/sources/4-SVG-drop-Собранно-L-1200-630.svg",
+      "sha256": "ca79604bfa2a6be40a6ac5fed9e58548cc82f6a2e2fbd248b818805c5d0e7e1d",
+      "bytes": 203180
+    },
+    {
+      "path": "library/sources/5-Section-1.svg",
+      "sha256": "00e700b5ca27a4a4e687f9d801fb2ed984efc06f8887cea37a5958b99eee8f82",
+      "bytes": 1880780
+    },
+    {
+      "path": "library/sources/6-SVG-drop-Со-смещением-L-1200-630.svg",
+      "sha256": "bf26e5a517cdb0ee60ac9fd95326be04cf69caef5f1b84bdcf0c51133ced608f",
+      "bytes": 203281
+    },
+    {
+      "path": "library/sources/7-Размер-L.svg",
+      "sha256": "d137e19bd1957a12b33e98d742ba361462c84ec2d92ac0475783ff3fa785ead7",
+      "bytes": 838605
+    },
+    {
+      "path": "library/sources/8-SVG-drop-Собранно-S-1200-630.svg",
+      "sha256": "54788701c5692c99de9ebafcd076cea2c525ccbbdd2096a09a0fa30be36fff36",
+      "bytes": 101714
+    },
+    {
+      "path": "library/sources/9-SVG-drop-Под-заголовок-L-1200-630.svg",
+      "sha256": "0b4b726986cb49ae303e19043040ab151f18797fa1b091562d15b8bf80aa53f8",
+      "bytes": 203215
+    },
+    {
+      "path": "library/sources/canonical/Group 2136136335.svg",
+      "sha256": "861fe0817abff8552212eb3817d2e03363c279787937493af6a861cd4ce544da",
+      "bytes": 27133
+    },
+    {
+      "path": "library/sources/canonical/Group 2136136336.svg",
+      "sha256": "6ec363fbc5e722765ddd51d52a1f35f2963bc2a8effe29e6e28d653ef5b8bbe2",
+      "bytes": 13256
+    },
+    {
+      "path": "library/sources/canonical/Group 2136136337.svg",
+      "sha256": "2cc2d67c7cb5949b98b35f87f02f9267b10666752d4e338b1225382cf1b678c4",
+      "bytes": 13308
+    },
+    {
+      "path": "library/sources/canonical/Group 2136136341.svg",
+      "sha256": "e67afd9b7967394b81ebb63ff6a363b1015e57f3e204dee3c141e59ccbdf19e6",
+      "bytes": 28568
+    },
+    {
+      "path": "library/sources/canonical/Group 2136136342.svg",
+      "sha256": "ecd331e4023676b93e67069586fff55e2e0a90ec046ad27489c05caabac5befd",
+      "bytes": 13810
+    },
+    {
+      "path": "library/sources/canonical/Group 2136136343.svg",
+      "sha256": "45495afdce7f82c926b3b8ab6688244202549cc969391ff992c328288b1bf0e1",
+      "bytes": 13289
+    },
+    {
+      "path": "library/sources/canonical/Group 2136136344.svg",
+      "sha256": "61b53b61ed3100249ba2c89f314eadaa8be6f31549ed871905779258a1a3e739",
+      "bytes": 61792
+    },
+    {
+      "path": "library/sources/canonical/Group 2136136345.svg",
+      "sha256": "8dc8a0050327c8102ebbf0e46c0b869329ba4fd5815a695cf6474e5f1d389f71",
+      "bytes": 61796
+    },
+    {
+      "path": "library/sources/canonical/Group 2136136346.svg",
+      "sha256": "a94baa3a6026397fd6867dcabcf3a229c670d71a2f4be718c8d688778d7ffbf6",
+      "bytes": 61892
+    },
+    {
+      "path": "library/sources/canonical/Group 2136136347.svg",
+      "sha256": "13628cfeb28e73334c68ded69e348b89ebc81ea4b59cacb8a5f3408279d783a4",
+      "bytes": 61852
+    },
+    {
+      "path": "library/sources/canonical/checksums.json",
+      "sha256": "379ae55673a0eaeb692d32f00e5243e1da2885521081453c84f5347f3b0530a2",
+      "bytes": 3689
+    },
+    {
+      "path": "library/sources/canonical/Книга-1.svg",
+      "sha256": "40dbb5f7ba177336a61c6ad30830ff1213001f5bcc88db97a964d7ef19691ca8",
+      "bytes": 28265
+    },
+    {
+      "path": "library/sources/canonical/Книга.svg",
+      "sha256": "68829d512f20f3f8f4007cd0222a67c4caf2e520c798f0d25b341b0bac329e34",
+      "bytes": 28238
+    },
+    {
+      "path": "library/sources/canonical/Кошелек-1.svg",
+      "sha256": "fc9c1e0615a5fff73e9033b19e71238d0a6b92f3c80aacbcde2eab022e6535a3",
+      "bytes": 32185
+    },
+    {
+      "path": "library/sources/canonical/Кошелек-2.svg",
+      "sha256": "7d4286ccbc485f017848a83fc4ee6bf6fb0393080912eddd7bb41734fa4b1e46",
+      "bytes": 31284
+    },
+    {
+      "path": "library/sources/canonical/Кошелек-3.svg",
+      "sha256": "67e7b2d7ed6908fac70d9b6fb9b7e066fd93eb421e0cde1a9811676d103e62c6",
+      "bytes": 32184
+    },
+    {
+      "path": "library/sources/canonical/Кошелек.svg",
+      "sha256": "2ce2224df5563d73ef064d1b9e71438ecf464aac57b23b1424e7ed1e08e99bcd",
+      "bytes": 32140
+    },
+    {
+      "path": "library/sources/canonical/Лампа-1.svg",
+      "sha256": "de5957aca823b48a4d5648323b5ecd2ef7a4bdec99994d47f62e113d9837c7be",
+      "bytes": 15766
+    },
+    {
+      "path": "library/sources/canonical/Лампа-2.svg",
+      "sha256": "917f86b7df1e2ac24c8546bd8c444d94f9281a368d8d6bf8f01cfea0794eafd2",
+      "bytes": 15746
+    },
+    {
+      "path": "library/sources/canonical/Лампа-3.svg",
+      "sha256": "17c10fcb447aba0c4bb8994073752f84b3c4e763a5a29598808b3d57b885dfe8",
+      "bytes": 15769
+    },
+    {
+      "path": "library/sources/canonical/Лампа.svg",
+      "sha256": "046415a0303750389e6bdc35c42111d1c86d14ff1f27b1997c78aa1716d677f5",
+      "bytes": 15741
+    },
+    {
+      "path": "library/sources/canonical/Монета-1.svg",
+      "sha256": "81a2baf3f608bda1cfe57d73d71382e3cfb2d541f5b7710e91f30e7d2c54c4ef",
+      "bytes": 63591
+    },
+    {
+      "path": "library/sources/canonical/Монета-2.svg",
+      "sha256": "30304fba87a87548cbd09061c19764c45caf051094cea17194e9ae25de532c13",
+      "bytes": 60889
+    },
+    {
+      "path": "library/sources/canonical/Монета-3.svg",
+      "sha256": "9bb11014607170341c110b3739d941ca07341991adb45d17c8aa643f4579c003",
+      "bytes": 63694
+    },
+    {
+      "path": "library/sources/canonical/Монета.svg",
+      "sha256": "586739a9eda53b8c8244f04a636cf7ef07e27b7242fde5650d1894505113f248",
+      "bytes": 63560
+    },
+    {
+      "path": "library/sources/canonical/Наушники-1.svg",
+      "sha256": "b7d7b514669180eb6bdd09450b6763328b24bbfe400a2a42f84c7b2e9503be94",
+      "bytes": 47494
+    },
+    {
+      "path": "library/sources/canonical/Наушники-2.svg",
+      "sha256": "2ea8818acf331d794f702e57bcd61d9202cc06a507bf45b466af260fe5b479b5",
+      "bytes": 43925
+    },
+    {
+      "path": "library/sources/canonical/Наушники-3.svg",
+      "sha256": "24c42387a6c5a50e2e1f930ba0d9d5be0881c0bc4f66eed0d7e9cd50827892dc",
+      "bytes": 47503
+    },
+    {
+      "path": "library/sources/canonical/Наушники.svg",
+      "sha256": "92331c4dd96e99ad1464e62e8ef5d3e00dc3017d66d0f92012da993d2d1cb35a",
+      "bytes": 47469
+    },
+    {
+      "path": "library/sources/canonical/Пазлы-1.svg",
+      "sha256": "822607ace9afa60fb3ba0c5f30fb3ac141d5ad2858ffbdd92629f6fc7982cf78",
+      "bytes": 34016
+    },
+    {
+      "path": "library/sources/canonical/Пазлы-2.svg",
+      "sha256": "b12beb5951f6dfde0e864cb61769a3904cb9f47fb8e3cf81a10d9d76c2ef0706",
+      "bytes": 34007
+    },
+    {
+      "path": "library/sources/canonical/Пазлы-3.svg",
+      "sha256": "4933d8f7c5240d5bc438c93710ee0273f15fb38b3d015162f0da7823222a92ec",
+      "bytes": 34065
+    },
+    {
+      "path": "library/sources/canonical/Пазлы.svg",
+      "sha256": "aa421956a60050153ae59b326b6bf7292047ac9b31f36382108092f436d453c5",
+      "bytes": 33966
+    },
+    {
+      "path": "library/sources/canonical/Папка-1.svg",
+      "sha256": "96056b71114aeb435e1221722afe0e0adcbd2a1a76d9aee776a4e42d30a4fb0c",
+      "bytes": 13813
+    },
+    {
+      "path": "library/sources/canonical/Папка.svg",
+      "sha256": "e1037dd7a46055af35529ee6dfebf3cd19f1e8e20af62fee562d35acc5f01251",
+      "bytes": 13806
+    },
+    {
+      "path": "library/sources/canonical/Ручка-1.svg",
+      "sha256": "34cae2dc78723dc436e67a541aed23e28fa49135a1ec5b695dda2a7e9d95e84a",
+      "bytes": 13284
+    },
+    {
+      "path": "library/sources/canonical/Ручка.svg",
+      "sha256": "984f57e42399caa21c5e7b5e55cb9a6c52bc3b50260bc93fc15c418ce244685d",
+      "bytes": 13253
+    },
+    {
+      "path": "library/sources/canonical/Телефон-1.svg",
+      "sha256": "9434f37dce2d217f0fecb8ad54cab323ba4c193f3b2ca3251167f9f5db49b728",
+      "bytes": 63958
+    },
+    {
+      "path": "library/sources/canonical/Телефон-2.svg",
+      "sha256": "a52c5ab92dd2387468257950e91770de7749d5cc43d393d2a783015d93df62e2",
+      "bytes": 38097
+    },
+    {
+      "path": "library/sources/canonical/Телефон-3.svg",
+      "sha256": "8b643c80de22b9342ec51b87ff1b7453f8e1825f5890c27f02b32d46b7d3e86e",
+      "bytes": 63991
+    },
+    {
+      "path": "library/sources/canonical/Телефон.svg",
+      "sha256": "212505ebd177da83d300e79aeba18f3e51d8f37b63bc0ed097ca62fe44323114",
+      "bytes": 63953
+    },
+    {
+      "path": "library/sources/checksums.json",
+      "sha256": "2a65022728729a31694b8e2d1296280dfbdef4e6930fc220d647234ab9407da6",
+      "bytes": 1008
+    },
+    {
+      "path": "library/templates/L/compact.svg",
+      "sha256": "ca79604bfa2a6be40a6ac5fed9e58548cc82f6a2e2fbd248b818805c5d0e7e1d",
+      "bytes": 203180
+    },
+    {
+      "path": "library/templates/L/headline.svg",
+      "sha256": "0b4b726986cb49ae303e19043040ab151f18797fa1b091562d15b8bf80aa53f8",
+      "bytes": 203215
+    },
+    {
+      "path": "library/templates/L/offset.svg",
+      "sha256": "bf26e5a517cdb0ee60ac9fd95326be04cf69caef5f1b84bdcf0c51133ced608f",
+      "bytes": 203281
+    },
+    {
+      "path": "library/templates/S/compact.svg",
+      "sha256": "54788701c5692c99de9ebafcd076cea2c525ccbbdd2096a09a0fa30be36fff36",
+      "bytes": 101714
+    },
+    {
+      "path": "library/templates/S/headline.svg",
+      "sha256": "f6b1ac8921f2d884395f2bd8e8bd4ce694f3e014edad4fc79c26bfc3f67f9fd0",
+      "bytes": 101686
+    },
+    {
+      "path": "library/templates/S/offset.svg",
+      "sha256": "ea91534a0108bd8ad81462ff36646ccc533900d74e468fe1b4eb3bb1a7d76c0e",
+      "bytes": 101668
+    },
+    {
+      "path": "library/templates.json",
+      "sha256": "1210dd7a54d22880015178eaaec7ee681453435c26c8c0e9b4c4dc6eff848ccc",
+      "bytes": 23014
+    },
+    {
+      "path": "library/vision/L-background.png",
+      "sha256": "c621f1521213a33d7d8761b3c83455739a298901b52fea323de863fd9b12386a",
+      "bytes": 156967
+    },
+    {
+      "path": "library/vision/L-main.png",
+      "sha256": "765ab5b99dd7442125b7ca8551cac59ebb3ff4b0d0b3ebc69a4f358660c21a77",
+      "bytes": 204989
+    },
+    {
+      "path": "library/vision/S-background.png",
+      "sha256": "5255a53a4bc86852167a60320a253f67f612b957d2cd7cb03a7ebd825497118c",
+      "bytes": 157495
+    },
+    {
+      "path": "library/vision/S-main.png",
+      "sha256": "b3b7e5af83a07c467eabaea122d78414187cb210bf942d773c0f51135b769661",
+      "bytes": 195589
+    },
+    {
+      "path": "library/vision/manifest.json",
+      "sha256": "f98e97e604e3e45e3ef352bfebdb34ecc779c8a8098671a522631acf83f8974e",
+      "bytes": 963
+    },
+    {
+      "path": "package.json",
+      "sha256": "ba97abc6c6fe07087faba2f54fb5c86f2483d4fc457ae1300bfacdece787e210",
+      "bytes": 718
+    },
+    {
+      "path": "prompts/composition-system.txt",
+      "sha256": "8ee8e44a78e42b3552c749d14f8480067c2a0f3874e2fedd95d3a326a449d425",
+      "bytes": 25670
+    },
+    {
+      "path": "scripts/build_data.py",
+      "sha256": "9baf8123f584351ec408636be7d3caa5789ebe1af2fb1d95fe9bbd97ce418192",
+      "bytes": 1322
+    },
+    {
+      "path": "scripts/build_geometry.mjs",
+      "sha256": "e3ba7e1bf8456f6372e6f2c4de4902839e269d1ff585a950c1bfbeb4fa4202eb",
+      "bytes": 4527
+    },
+    {
+      "path": "scripts/build_metaphor_gallery.mjs",
+      "sha256": "151f4dff152be3c46edd052be9df6950126476c4817f0951945109e926d8e0da",
+      "bytes": 10032
+    },
+    {
+      "path": "scripts/build_submission_report.mjs",
+      "sha256": "de0cc245acdf979e00695015428ae65454f7bb125faa94d9a9207b2ab19c286d",
+      "bytes": 15872
+    },
+    {
+      "path": "scripts/build_visual_catalog.mjs",
+      "sha256": "b95ead2a020c1af4ee85a8c88a19b1a223fafe115b1dc6eaddc5891ba617ef28",
+      "bytes": 2056
+    },
+    {
+      "path": "scripts/check_generation_baseline.mjs",
+      "sha256": "626d7fbd58fed135b9c9413aaebb06ccc484e683abdcadde9ed3fd1acdccbe0c",
+      "bytes": 781
+    },
+    {
+      "path": "scripts/export_examples.mjs",
+      "sha256": "d29e9491f9bf1735d93a0e128ad6ef1a882307f21d6667fe66f809ca6dcd07a5",
+      "bytes": 2343
+    },
+    {
+      "path": "scripts/import_vector_library.py",
+      "sha256": "f4fe2bfd09f892a1c318deddfc57d80d2700c516b0da435000af4a1de327b8e3",
+      "bytes": 4444
+    },
+    {
+      "path": "scripts/manage_project.py",
+      "sha256": "b50a25e802835546c86325f6c29ccf0db3737564ca2491e0a96c8d837875804b",
+      "bytes": 610
+    },
+    {
+      "path": "scripts/package_project.py",
+      "sha256": "1ce12467bbf53745b91a7e9878ab61c8e1079dcfe46bd338d598a72fcc3208dd",
+      "bytes": 695
+    },
+    {
+      "path": "scripts/rebuild_metaphor_exports.mjs",
+      "sha256": "8cdabe79b5e2a76ba0a8c419b6724824a74cc8a623ea1c1900fe8cd04921be73",
+      "bytes": 2554
+    },
+    {
+      "path": "scripts/render_examples.mjs",
+      "sha256": "5afb7b729fa533ad465986f8f110d28a9743c310ff791119f73c1ebfc48e276f",
+      "bytes": 1524
+    },
+    {
+      "path": "scripts/render_native_examples.mjs",
+      "sha256": "2185c45ff5ca4781229db47540c2d3b058b821149b12e58bec396c524361ca60",
+      "bytes": 2095
+    },
+    {
+      "path": "scripts/render_registry.mjs",
+      "sha256": "d4f44abf96b60b86f9c0267040c40bccd4d0250a066df8dd8eea5b3ab5aba74f",
+      "bytes": 1929
+    },
+    {
+      "path": "scripts/serve.mjs",
+      "sha256": "c1586015888a00546f72a57feb2266e5b0d32f6cc98a2b352342e0ddc02a5bc3",
+      "bytes": 12266
+    },
+    {
+      "path": "scripts/test_metaphors.mjs",
+      "sha256": "063f34a210b7be66774b780cf414f206fd6540497104333c220356987790fa97",
+      "bytes": 5760
+    },
+    {
+      "path": "scripts/validate.mjs",
+      "sha256": "ff9e3261ad4e6c3cfa009858914b0b319e9ac2c66605585307a7003cfe1bf105",
+      "bytes": 1680
+    },
+    {
+      "path": "scripts/visual_catalog.mjs",
+      "sha256": "6eb937d977bf65f124aba9181b0eb2dbb0bcc06545bd46c52ed7b4607eb03b5f",
+      "bytes": 803
+    },
+    {
+      "path": "tests/ai.test.mjs",
+      "sha256": "eaa44dc86a52129121b2defcd27f06ed7e4b1a544e9d19f8a52f9c49d604da12",
+      "bytes": 13506
+    },
+    {
+      "path": "tests/backdrop.test.cjs",
+      "sha256": "d5562a46b601e54e4688b4ccdd6a85b40cf4ea7c975e476ca6b1903645f72fcf",
+      "bytes": 4469
+    },
+    {
+      "path": "tests/companions.test.cjs",
+      "sha256": "e03f14cfb5f1c715b88ba2c03ab1aeab326535c964fc803143954de13971a682",
+      "bytes": 4056
+    },
+    {
+      "path": "tests/engine.test.cjs",
+      "sha256": "b506a901be2b4b14492f7b62fd2b84511e89cac5ea244f3341e75d62d6fd359a",
+      "bytes": 36304
+    },
+    {
+      "path": "tests/formats.test.cjs",
+      "sha256": "af0b8842c6877571efbe92d0b431888d5c1ba8e85be60850390746b07ff78c3b",
+      "bytes": 6448
+    },
+    {
+      "path": "tests/native.test.cjs",
+      "sha256": "8ee5c1194014af065705cd9ce344eb37204c5ebf8a9cc8143fecf0135d2252d5",
+      "bytes": 11679
+    },
+    {
+      "path": "tests/physical.test.cjs",
+      "sha256": "9fd25613f78d9b6aeb5584750fff95abd354daa66a136939909182e183ab3899",
+      "bytes": 5881
+    },
+    {
+      "path": "tests/staging.test.cjs",
+      "sha256": "795de4ec4b78468f933b63b410be725d5ecc7a1d17db740288f668b9b42f5c84",
+      "bytes": 7830
+    },
+    {
+      "path": "tests/view.test.cjs",
+      "sha256": "e4e47eb0b5cd187518c1ec9d5e9560a631cb558db1b7024656f7227ef8bc0f40",
+      "bytes": 7180
+    }
+  ]
+}

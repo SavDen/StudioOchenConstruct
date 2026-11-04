@@ -1,0 +1,4008 @@
+{
+  "type": "composition-project",
+  "version": 2,
+  "scene": {
+    "version": 1,
+    "sizing": "native",
+    "environmentPrompt": "",
+    "environmentExplanation": [
+      "Главная пара объединяет смартфон и пазл для демонстрации цифровой задачи и её решения.",
+      "Настольная лампа добавлена как фоновый компаньон для создания атмосферы рабочего места.",
+      "Компактная компоновка удерживает элементы в единой связной группе."
+    ],
+    "groups": [
+      {
+        "kind": "collection",
+        "members": [
+          "imw199vgxirderm",
+          "imw199vgxfdjh8a"
+        ],
+        "reason": "Центральная сбалансированная композиция"
+      }
+    ],
+    "formatPlans": [],
+    "stagingPlans": [
+      {
+        "format": "square",
+        "views": [
+          {
+            "principle": "Центральная сбалансированная композиция",
+            "placements": [
+              {
+                "uid": "imw199vgxirderm",
+                "relation": "canvas",
+                "x": 0.42,
+                "y": 0.52,
+                "gap": 0,
+                "rotation": 0
+              },
+              {
+                "uid": "imw199vgxfdjh8a",
+                "relation": "right",
+                "targetUid": "imw199vgxirderm",
+                "x": 0.65,
+                "y": 0.55,
+                "gap": 0.04,
+                "rotation": 0
+              },
+              {
+                "uid": "imw199vgxz9de3a",
+                "relation": "canvas",
+                "x": 0.2,
+                "y": 0.3,
+                "gap": 0,
+                "rotation": 0
+              }
+            ]
+          },
+          {
+            "principle": "Просторное размещение элементов",
+            "placements": [
+              {
+                "uid": "imw199vgxirderm",
+                "relation": "canvas",
+                "x": 0.4,
+                "y": 0.5,
+                "gap": 0,
+                "rotation": 0
+              },
+              {
+                "uid": "imw199vgxfdjh8a",
+                "relation": "right",
+                "targetUid": "imw199vgxirderm",
+                "x": 0.68,
+                "y": 0.52,
+                "gap": 0.06,
+                "rotation": 0
+              },
+              {
+                "uid": "imw199vgxz9de3a",
+                "relation": "canvas",
+                "x": 0.22,
+                "y": 0.28,
+                "gap": 0,
+                "rotation": 0
+              }
+            ]
+          },
+          {
+            "principle": "Диагональное построение группы",
+            "placements": [
+              {
+                "uid": "imw199vgxirderm",
+                "relation": "canvas",
+                "x": 0.44,
+                "y": 0.56,
+                "gap": 0,
+                "rotation": 0
+              },
+              {
+                "uid": "imw199vgxfdjh8a",
+                "relation": "right",
+                "targetUid": "imw199vgxirderm",
+                "x": 0.64,
+                "y": 0.48,
+                "gap": 0.04,
+                "rotation": 0
+              },
+              {
+                "uid": "imw199vgxz9de3a",
+                "relation": "canvas",
+                "x": 0.22,
+                "y": 0.32,
+                "gap": 0,
+                "rotation": 0
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "format": "landscape",
+        "views": [
+          {
+            "principle": "Горизонтальный баланс элементов",
+            "placements": [
+              {
+                "uid": "imw199vgxirderm",
+                "relation": "canvas",
+                "x": 0.46,
+                "y": 0.52,
+                "gap": 0,
+                "rotation": 0
+              },
+              {
+                "uid": "imw199vgxfdjh8a",
+                "relation": "right",
+                "targetUid": "imw199vgxirderm",
+                "x": 0.66,
+                "y": 0.54,
+                "gap": 0.04,
+                "rotation": 0
+              },
+              {
+                "uid": "imw199vgxz9de3a",
+                "relation": "canvas",
+                "x": 0.25,
+                "y": 0.32,
+                "gap": 0,
+                "rotation": 0
+              }
+            ]
+          },
+          {
+            "principle": "Широкий разворот в кадре",
+            "placements": [
+              {
+                "uid": "imw199vgxirderm",
+                "relation": "canvas",
+                "x": 0.44,
+                "y": 0.5,
+                "gap": 0,
+                "rotation": 0
+              },
+              {
+                "uid": "imw199vgxfdjh8a",
+                "relation": "right",
+                "targetUid": "imw199vgxirderm",
+                "x": 0.68,
+                "y": 0.52,
+                "gap": 0.06,
+                "rotation": 0
+              },
+              {
+                "uid": "imw199vgxz9de3a",
+                "relation": "canvas",
+                "x": 0.24,
+                "y": 0.3,
+                "gap": 0,
+                "rotation": 0
+              }
+            ]
+          },
+          {
+            "principle": "Диагональная раскладка под альбомный формат",
+            "placements": [
+              {
+                "uid": "imw199vgxirderm",
+                "relation": "canvas",
+                "x": 0.48,
+                "y": 0.55,
+                "gap": 0,
+                "rotation": 0
+              },
+              {
+                "uid": "imw199vgxfdjh8a",
+                "relation": "right",
+                "targetUid": "imw199vgxirderm",
+                "x": 0.65,
+                "y": 0.48,
+                "gap": 0.04,
+                "rotation": 0
+              },
+              {
+                "uid": "imw199vgxz9de3a",
+                "relation": "canvas",
+                "x": 0.26,
+                "y": 0.34,
+                "gap": 0,
+                "rotation": 0
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "format": "portrait",
+        "views": [
+          {
+            "principle": "Вертикальная центрированная композиция",
+            "placements": [
+              {
+                "uid": "imw199vgxirderm",
+                "relation": "canvas",
+                "x": 0.5,
+                "y": 0.48,
+                "gap": 0,
+                "rotation": 0
+              },
+              {
+                "uid": "imw199vgxfdjh8a",
+                "relation": "below",
+                "targetUid": "imw199vgxirderm",
+                "x": 0.5,
+                "y": 0.62,
+                "gap": 0.04,
+                "rotation": 0
+              },
+              {
+                "uid": "imw199vgxz9de3a",
+                "relation": "canvas",
+                "x": 0.28,
+                "y": 0.25,
+                "gap": 0,
+                "rotation": 0
+              }
+            ]
+          },
+          {
+            "principle": "Вытянутое вертикальное распределение",
+            "placements": [
+              {
+                "uid": "imw199vgxirderm",
+                "relation": "canvas",
+                "x": 0.5,
+                "y": 0.46,
+                "gap": 0,
+                "rotation": 0
+              },
+              {
+                "uid": "imw199vgxfdjh8a",
+                "relation": "below",
+                "targetUid": "imw199vgxirderm",
+                "x": 0.5,
+                "y": 0.64,
+                "gap": 0.06,
+                "rotation": 0
+              },
+              {
+                "uid": "imw199vgxz9de3a",
+                "relation": "canvas",
+                "x": 0.3,
+                "y": 0.24,
+                "gap": 0,
+                "rotation": 0
+              }
+            ]
+          },
+          {
+            "principle": "Диагональный акцент в портретном формате",
+            "placements": [
+              {
+                "uid": "imw199vgxirderm",
+                "relation": "canvas",
+                "x": 0.52,
+                "y": 0.5,
+                "gap": 0,
+                "rotation": 0
+              },
+              {
+                "uid": "imw199vgxfdjh8a",
+                "relation": "below",
+                "targetUid": "imw199vgxirderm",
+                "x": 0.46,
+                "y": 0.64,
+                "gap": 0.04,
+                "rotation": 0
+              },
+              {
+                "uid": "imw199vgxz9de3a",
+                "relation": "canvas",
+                "x": 0.28,
+                "y": 0.26,
+                "gap": 0,
+                "rotation": 0
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "executionNotes": [
+      "Положение «Настольная лампа» уточнено по границам кадра и реестру пересечений."
+    ],
+    "width": 1000,
+    "height": 1000,
+    "format": "square",
+    "size": "S",
+    "palette": "aqua",
+    "layout": "compact",
+    "background": "pattern",
+    "backgroundDesign": "auto",
+    "supporting": true,
+    "showSupporting": true,
+    "camera": null,
+    "composition": {
+      "index": 0,
+      "options": [
+        {
+          "strategy": "balanced",
+          "title": "Сбалансированная пара",
+          "principle": "Смартфон и пазл образуют устойчивую смысловую группу в центре холста.",
+          "placement": "beside"
+        },
+        {
+          "strategy": "spacious",
+          "title": "Свободное расположение",
+          "principle": "Элементы разделены небольшим аккуратным просветом для лучшей читаемости силуэтов.",
+          "placement": "beside"
+        },
+        {
+          "strategy": "diagonal",
+          "title": "Диагональный ритм",
+          "principle": "Главные предметы выстроены по диагонали, задавая естественное движение взгляда.",
+          "placement": "beside"
+        }
+      ]
+    },
+    "layerRelations": [
+      {
+        "back": "imw199vgxfdjh8a",
+        "front": "imw199vgxirderm",
+        "reason": "Пазл расположен рядом со смартфоном"
+      },
+      {
+        "back": "imw199vgxz9de3a",
+        "front": "imw199vgxirderm",
+        "reason": "Фоновая лампа находится позади главной группы"
+      }
+    ],
+    "recipe": "team",
+    "framing": "overview",
+    "focus": "phone",
+    "query": "Найти недостающий элемент",
+    "scale": 1,
+    "items": [
+      {
+        "uid": "imw199vgxz9de3a",
+        "assetId": "lamp",
+        "role": "background",
+        "x": 0,
+        "y": 356.5,
+        "rotation": 0,
+        "flipX": false,
+        "flipY": false,
+        "zone": "top-left",
+        "crop": "fragment"
+      },
+      {
+        "uid": "imw199vgxfdjh8a",
+        "assetId": "puzzle",
+        "role": "main",
+        "x": 772.8015625,
+        "y": 560.99,
+        "rotation": 0,
+        "flipX": false,
+        "flipY": false,
+        "zone": "auto",
+        "crop": "whole"
+      },
+      {
+        "uid": "imw199vgxirderm",
+        "assetId": "phone",
+        "role": "main",
+        "x": 439.95,
+        "y": 536.17,
+        "rotation": 0,
+        "flipX": false,
+        "flipY": false,
+        "zone": "auto",
+        "crop": "whole"
+      }
+    ]
+  },
+  "memory": {
+    "version": 2,
+    "format": "square",
+    "index": 0,
+    "formats": {
+      "square": [
+        {
+          "version": 1,
+          "sizing": "native",
+          "environmentPrompt": "",
+          "environmentExplanation": [
+            "Главная пара объединяет смартфон и пазл для демонстрации цифровой задачи и её решения.",
+            "Настольная лампа добавлена как фоновый компаньон для создания атмосферы рабочего места.",
+            "Компактная компоновка удерживает элементы в единой связной группе."
+          ],
+          "groups": [
+            {
+              "kind": "collection",
+              "members": [
+                "imw199vgxirderm",
+                "imw199vgxfdjh8a"
+              ],
+              "reason": "Центральная сбалансированная композиция"
+            }
+          ],
+          "formatPlans": [],
+          "stagingPlans": [
+            {
+              "format": "square",
+              "views": [
+                {
+                  "principle": "Центральная сбалансированная композиция",
+                  "placements": [
+                    {
+                      "uid": "imw199vgxirderm",
+                      "relation": "canvas",
+                      "x": 0.42,
+                      "y": 0.52,
+                      "gap": 0,
+                      "rotation": 0
+                    },
+                    {
+                      "uid": "imw199vgxfdjh8a",
+                      "relation": "right",
+                      "targetUid": "imw199vgxirderm",
+                      "x": 0.65,
+                      "y": 0.55,
+                      "gap": 0.04,
+                      "rotation": 0
+                    },
+                    {
+                      "uid": "imw199vgxz9de3a",
+                      "relation": "canvas",
+                      "x": 0.2,
+                      "y": 0.3,
+                      "gap": 0,
+                      "rotation": 0
+                    }
+                  ]
+                },
+                {
+                  "principle": "Просторное размещение элементов",
+                  "placements": [
+                    {
+                      "uid": "imw199vgxirderm",
+                      "relation": "canvas",
+                      "x": 0.4,
+                      "y": 0.5,
+                      "gap": 0,
+                      "rotation": 0
+                    },
+                    {
+                      "uid": "imw199vgxfdjh8a",
+                      "relation": "right",
+                      "targetUid": "imw199vgxirderm",
+                      "x": 0.68,
+                      "y": 0.52,
+                      "gap": 0.06,
+                      "rotation": 0
+                    },
+                    {
+                      "uid": "imw199vgxz9de3a",
+                      "relation": "canvas",
+                      "x": 0.22,
+                      "y": 0.28,
+                      "gap": 0,
+                      "rotation": 0
+                    }
+                  ]
+                },
+                {
+                  "principle": "Диагональное построение группы",
+                  "placements": [
+                    {
+                      "uid": "imw199vgxirderm",
+                      "relation": "canvas",
+                      "x": 0.44,
+                      "y": 0.56,
+                      "gap": 0,
+                      "rotation": 0
+                    },
+                    {
+                      "uid": "imw199vgxfdjh8a",
+                      "relation": "right",
+                      "targetUid": "imw199vgxirderm",
+                      "x": 0.64,
+                      "y": 0.48,
+                      "gap": 0.04,
+                      "rotation": 0
+                    },
+                    {
+                      "uid": "imw199vgxz9de3a",
+                      "relation": "canvas",
+                      "x": 0.22,
+                      "y": 0.32,
+                      "gap": 0,
+                      "rotation": 0
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "format": "landscape",
+              "views": [
+                {
+                  "principle": "Горизонтальный баланс элементов",
+                  "placements": [
+                    {
+                      "uid": "imw199vgxirderm",
+                      "relation": "canvas",
+                      "x": 0.46,
+                      "y": 0.52,
+                      "gap": 0,
+                      "rotation": 0
+                    },
+                    {
+                      "uid": "imw199vgxfdjh8a",
+                      "relation": "right",
+                      "targetUid": "imw199vgxirderm",
+                      "x": 0.66,
+                      "y": 0.54,
+                      "gap": 0.04,
+                      "rotation": 0
+                    },
+                    {
+                      "uid": "imw199vgxz9de3a",
+                      "relation": "canvas",
+                      "x": 0.25,
+                      "y": 0.32,
+                      "gap": 0,
+                      "rotation": 0
+                    }
+                  ]
+                },
+                {
+                  "principle": "Широкий разворот в кадре",
+                  "placements": [
+                    {
+                      "uid": "imw199vgxirderm",
+                      "relation": "canvas",
+                      "x": 0.44,
+                      "y": 0.5,
+                      "gap": 0,
+                      "rotation": 0
+                    },
+                    {
+                      "uid": "imw199vgxfdjh8a",
+                      "relation": "right",
+                      "targetUid": "imw199vgxirderm",
+                      "x": 0.68,
+                      "y": 0.52,
+                      "gap": 0.06,
+                      "rotation": 0
+                    },
+                    {
+                      "uid": "imw199vgxz9de3a",
+                      "relation": "canvas",
+                      "x": 0.24,
+                      "y": 0.3,
+                      "gap": 0,
+                      "rotation": 0
+                    }
+                  ]
+                },
+                {
+                  "principle": "Диагональная раскладка под альбомный формат",
+                  "placements": [
+                    {
+                      "uid": "imw199vgxirderm",
+                      "relation": "canvas",
+                      "x": 0.48,
+                      "y": 0.55,
+                      "gap": 0,
+                      "rotation": 0
+                    },
+                    {
+                      "uid": "imw199vgxfdjh8a",
+                      "relation": "right",
+                      "targetUid": "imw199vgxirderm",
+                      "x": 0.65,
+                      "y": 0.48,
+                      "gap": 0.04,
+                      "rotation": 0
+                    },
+                    {
+                      "uid": "imw199vgxz9de3a",
+                      "relation": "canvas",
+                      "x": 0.26,
+                      "y": 0.34,
+                      "gap": 0,
+                      "rotation": 0
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "format": "portrait",
+              "views": [
+                {
+                  "principle": "Вертикальная центрированная композиция",
+                  "placements": [
+                    {
+                      "uid": "imw199vgxirderm",
+                      "relation": "canvas",
+                      "x": 0.5,
+                      "y": 0.48,
+                      "gap": 0,
+                      "rotation": 0
+                    },
+                    {
+                      "uid": "imw199vgxfdjh8a",
+                      "relation": "below",
+                      "targetUid": "imw199vgxirderm",
+                      "x": 0.5,
+                      "y": 0.62,
+                      "gap": 0.04,
+                      "rotation": 0
+                    },
+                    {
+                      "uid": "imw199vgxz9de3a",
+                      "relation": "canvas",
+                      "x": 0.28,
+                      "y": 0.25,
+                      "gap": 0,
+                      "rotation": 0
+                    }
+                  ]
+                },
+                {
+                  "principle": "Вытянутое вертикальное распределение",
+                  "placements": [
+                    {
+                      "uid": "imw199vgxirderm",
+                      "relation": "canvas",
+                      "x": 0.5,
+                      "y": 0.46,
+                      "gap": 0,
+                      "rotation": 0
+                    },
+                    {
+                      "uid": "imw199vgxfdjh8a",
+                      "relation": "below",
+                      "targetUid": "imw199vgxirderm",
+                      "x": 0.5,
+                      "y": 0.64,
+                      "gap": 0.06,
+                      "rotation": 0
+                    },
+                    {
+                      "uid": "imw199vgxz9de3a",
+                      "relation": "canvas",
+                      "x": 0.3,
+                      "y": 0.24,
+                      "gap": 0,
+                      "rotation": 0
+                    }
+                  ]
+                },
+                {
+                  "principle": "Диагональный акцент в портретном формате",
+                  "placements": [
+                    {
+                      "uid": "imw199vgxirderm",
+                      "relation": "canvas",
+                      "x": 0.52,
+                      "y": 0.5,
+                      "gap": 0,
+                      "rotation": 0
+                    },
+                    {
+                      "uid": "imw199vgxfdjh8a",
+                      "relation": "below",
+                      "targetUid": "imw199vgxirderm",
+                      "x": 0.46,
+                      "y": 0.64,
+                      "gap": 0.04,
+                      "rotation": 0
+                    },
+                    {
+                      "uid": "imw199vgxz9de3a",
+                      "relation": "canvas",
+                      "x": 0.28,
+                      "y": 0.26,
+                      "gap": 0,
+                      "rotation": 0
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "executionNotes": [
+            "Положение «Настольная лампа» уточнено по границам кадра и реестру пересечений."
+          ],
+          "width": 1000,
+          "height": 1000,
+          "format": "square",
+          "size": "S",
+          "palette": "aqua",
+          "layout": "compact",
+          "background": "pattern",
+          "backgroundDesign": "auto",
+          "supporting": true,
+          "showSupporting": true,
+          "camera": null,
+          "composition": {
+            "index": 0,
+            "options": [
+              {
+                "strategy": "balanced",
+                "title": "Сбалансированная пара",
+                "principle": "Смартфон и пазл образуют устойчивую смысловую группу в центре холста.",
+                "placement": "beside"
+              },
+              {
+                "strategy": "spacious",
+                "title": "Свободное расположение",
+                "principle": "Элементы разделены небольшим аккуратным просветом для лучшей читаемости силуэтов.",
+                "placement": "beside"
+              },
+              {
+                "strategy": "diagonal",
+                "title": "Диагональный ритм",
+                "principle": "Главные предметы выстроены по диагонали, задавая естественное движение взгляда.",
+                "placement": "beside"
+              }
+            ]
+          },
+          "layerRelations": [
+            {
+              "back": "imw199vgxfdjh8a",
+              "front": "imw199vgxirderm",
+              "reason": "Пазл расположен рядом со смартфоном"
+            },
+            {
+              "back": "imw199vgxz9de3a",
+              "front": "imw199vgxirderm",
+              "reason": "Фоновая лампа находится позади главной группы"
+            }
+          ],
+          "recipe": "team",
+          "framing": "overview",
+          "focus": "phone",
+          "query": "Найти недостающий элемент",
+          "scale": 1,
+          "items": [
+            {
+              "uid": "imw199vgxz9de3a",
+              "assetId": "lamp",
+              "role": "background",
+              "x": 0,
+              "y": 356.5,
+              "rotation": 0,
+              "flipX": false,
+              "flipY": false,
+              "zone": "top-left",
+              "crop": "fragment"
+            },
+            {
+              "uid": "imw199vgxfdjh8a",
+              "assetId": "puzzle",
+              "role": "main",
+              "x": 772.8015625,
+              "y": 560.99,
+              "rotation": 0,
+              "flipX": false,
+              "flipY": false,
+              "zone": "auto",
+              "crop": "whole"
+            },
+            {
+              "uid": "imw199vgxirderm",
+              "assetId": "phone",
+              "role": "main",
+              "x": 439.95,
+              "y": 536.17,
+              "rotation": 0,
+              "flipX": false,
+              "flipY": false,
+              "zone": "auto",
+              "crop": "whole"
+            }
+          ]
+        },
+        {
+          "version": 1,
+          "sizing": "native",
+          "environmentPrompt": "",
+          "environmentExplanation": [
+            "Главная пара объединяет смартфон и пазл для демонстрации цифровой задачи и её решения.",
+            "Настольная лампа добавлена как фоновый компаньон для создания атмосферы рабочего места.",
+            "Компактная компоновка удерживает элементы в единой связной группе."
+          ],
+          "groups": [
+            {
+              "kind": "collection",
+              "members": [
+                "imw199vgxfdjh8a",
+                "imw199vgxirderm"
+              ],
+              "reason": "Просторное размещение элементов"
+            }
+          ],
+          "formatPlans": [],
+          "stagingPlans": [
+            {
+              "format": "square",
+              "views": [
+                {
+                  "principle": "Центральная сбалансированная композиция",
+                  "placements": [
+                    {
+                      "uid": "imw199vgxirderm",
+                      "relation": "canvas",
+                      "x": 0.42,
+                      "y": 0.52,
+                      "gap": 0,
+                      "rotation": 0
+                    },
+                    {
+                      "uid": "imw199vgxfdjh8a",
+                      "relation": "right",
+                      "targetUid": "imw199vgxirderm",
+                      "x": 0.65,
+                      "y": 0.55,
+                      "gap": 0.04,
+                      "rotation": 0
+                    },
+                    {
+                      "uid": "imw199vgxz9de3a",
+                      "relation": "canvas",
+                      "x": 0.2,
+                      "y": 0.3,
+                      "gap": 0,
+                      "rotation": 0
+                    }
+                  ]
+                },
+                {
+                  "principle": "Просторное размещение элементов",
+                  "placements": [
+                    {
+                      "uid": "imw199vgxirderm",
+                      "relation": "canvas",
+                      "x": 0.4,
+                      "y": 0.5,
+                      "gap": 0,
+                      "rotation": 0
+                    },
+                    {
+                      "uid": "imw199vgxfdjh8a",
+                      "relation": "right",
+                      "targetUid": "imw199vgxirderm",
+                      "x": 0.68,
+                      "y": 0.52,
+                      "gap": 0.06,
+                      "rotation": 0
+                    },
+                    {
+                      "uid": "imw199vgxz9de3a",
+                      "relation": "canvas",
+                      "x": 0.22,
+                      "y": 0.28,
+                      "gap": 0,
+                      "rotation": 0
+                    }
+                  ]
+                },
+                {
+                  "principle": "Диагональное построение группы",
+                  "placements": [
+                    {
+                      "uid": "imw199vgxirderm",
+                      "relation": "canvas",
+                      "x": 0.44,
+                      "y": 0.56,
+                      "gap": 0,
+                      "rotation": 0
+                    },
+                    {
+                      "uid": "imw199vgxfdjh8a",
+                      "relation": "right",
+                      "targetUid": "imw199vgxirderm",
+                      "x": 0.64,
+                      "y": 0.48,
+                      "gap": 0.04,
+                      "rotation": 0
+                    },
+                    {
+                      "uid": "imw199vgxz9de3a",
+                      "relation": "canvas",
+                      "x": 0.22,
+                      "y": 0.32,
+                      "gap": 0,
+                      "rotation": 0
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "format": "landscape",
+              "views": [
+                {
+                  "principle": "Горизонтальный баланс элементов",
+                  "placements": [
+                    {
+                      "uid": "imw199vgxirderm",
+                      "relation": "canvas",
+                      "x": 0.46,
+                      "y": 0.52,
+                      "gap": 0,
+                      "rotation": 0
+                    },
+                    {
+                      "uid": "imw199vgxfdjh8a",
+                      "relation": "right",
+                      "targetUid": "imw199vgxirderm",
+                      "x": 0.66,
+                      "y": 0.54,
+                      "gap": 0.04,
+                      "rotation": 0
+                    },
+                    {
+                      "uid": "imw199vgxz9de3a",
+                      "relation": "canvas",
+                      "x": 0.25,
+                      "y": 0.32,
+                      "gap": 0,
+                      "rotation": 0
+                    }
+                  ]
+                },
+                {
+                  "principle": "Широкий разворот в кадре",
+                  "placements": [
+                    {
+                      "uid": "imw199vgxirderm",
+                      "relation": "canvas",
+                      "x": 0.44,
+                      "y": 0.5,
+                      "gap": 0,
+                      "rotation": 0
+                    },
+                    {
+                      "uid": "imw199vgxfdjh8a",
+                      "relation": "right",
+                      "targetUid": "imw199vgxirderm",
+                      "x": 0.68,
+                      "y": 0.52,
+                      "gap": 0.06,
+                      "rotation": 0
+                    },
+                    {
+                      "uid": "imw199vgxz9de3a",
+                      "relation": "canvas",
+                      "x": 0.24,
+                      "y": 0.3,
+                      "gap": 0,
+                      "rotation": 0
+                    }
+                  ]
+                },
+                {
+                  "principle": "Диагональная раскладка под альбомный формат",
+                  "placements": [
+                    {
+                      "uid": "imw199vgxirderm",
+                      "relation": "canvas",
+                      "x": 0.48,
+                      "y": 0.55,
+                      "gap": 0,
+                      "rotation": 0
+                    },
+                    {
+                      "uid": "imw199vgxfdjh8a",
+                      "relation": "right",
+                      "targetUid": "imw199vgxirderm",
+                      "x": 0.65,
+                      "y": 0.48,
+                      "gap": 0.04,
+                      "rotation": 0
+                    },
+                    {
+                      "uid": "imw199vgxz9de3a",
+                      "relation": "canvas",
+                      "x": 0.26,
+                      "y": 0.34,
+                      "gap": 0,
+                      "rotation": 0
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "format": "portrait",
+              "views": [
+                {
+                  "principle": "Вертикальная центрированная композиция",
+                  "placements": [
+                    {
+                      "uid": "imw199vgxirderm",
+                      "relation": "canvas",
+                      "x": 0.5,
+                      "y": 0.48,
+                      "gap": 0,
+                      "rotation": 0
+                    },
+                    {
+                      "uid": "imw199vgxfdjh8a",
+                      "relation": "below",
+                      "targetUid": "imw199vgxirderm",
+                      "x": 0.5,
+                      "y": 0.62,
+                      "gap": 0.04,
+                      "rotation": 0
+                    },
+                    {
+                      "uid": "imw199vgxz9de3a",
+                      "relation": "canvas",
+                      "x": 0.28,
+                      "y": 0.25,
+                      "gap": 0,
+                      "rotation": 0
+                    }
+                  ]
+                },
+                {
+                  "principle": "Вытянутое вертикальное распределение",
+                  "placements": [
+                    {
+                      "uid": "imw199vgxirderm",
+                      "relation": "canvas",
+                      "x": 0.5,
+                      "y": 0.46,
+                      "gap": 0,
+                      "rotation": 0
+                    },
+                    {
+                      "uid": "imw199vgxfdjh8a",
+                      "relation": "below",
+                      "targetUid": "imw199vgxirderm",
+                      "x": 0.5,
+                      "y": 0.64,
+                      "gap": 0.06,
+                      "rotation": 0
+                    },
+                    {
+                      "uid": "imw199vgxz9de3a",
+                      "relation": "canvas",
+                      "x": 0.3,
+                      "y": 0.24,
+                      "gap": 0,
+                      "rotation": 0
+                    }
+                  ]
+                },
+                {
+                  "principle": "Диагональный акцент в портретном формате",
+                  "placements": [
+                    {
+                      "uid": "imw199vgxirderm",
+                      "relation": "canvas",
+                      "x": 0.52,
+                      "y": 0.5,
+                      "gap": 0,
+                      "rotation": 0
+                    },
+                    {
+                      "uid": "imw199vgxfdjh8a",
+                      "relation": "below",
+                      "targetUid": "imw199vgxirderm",
+                      "x": 0.46,
+                      "y": 0.64,
+                      "gap": 0.04,
+                      "rotation": 0
+                    },
+                    {
+                      "uid": "imw199vgxz9de3a",
+                      "relation": "canvas",
+                      "x": 0.28,
+                      "y": 0.26,
+                      "gap": 0,
+                      "rotation": 0
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "executionNotes": [
+            "Положение «Настольная лампа» уточнено по границам кадра и реестру пересечений."
+          ],
+          "width": 1000,
+          "height": 1000,
+          "format": "square",
+          "size": "S",
+          "palette": "aqua",
+          "layout": "compact",
+          "background": "pattern",
+          "backgroundDesign": "auto",
+          "supporting": true,
+          "showSupporting": true,
+          "camera": null,
+          "composition": {
+            "index": 1,
+            "options": [
+              {
+                "strategy": "balanced",
+                "title": "Сбалансированная пара",
+                "principle": "Смартфон и пазл образуют устойчивую смысловую группу в центре холста.",
+                "placement": "beside"
+              },
+              {
+                "strategy": "spacious",
+                "title": "Свободное расположение",
+                "principle": "Элементы разделены небольшим аккуратным просветом для лучшей читаемости силуэтов.",
+                "placement": "beside"
+              },
+              {
+                "strategy": "diagonal",
+                "title": "Диагональный ритм",
+                "principle": "Главные предметы выстроены по диагонали, задавая естественное движение взгляда.",
+                "placement": "beside"
+              }
+            ]
+          },
+          "layerRelations": [
+            {
+              "back": "imw199vgxfdjh8a",
+              "front": "imw199vgxirderm",
+              "reason": "Пазл расположен рядом со смартфоном"
+            },
+            {
+              "back": "imw199vgxz9de3a",
+              "front": "imw199vgxirderm",
+              "reason": "Фоновая лампа находится позади главной группы"
+            }
+          ],
+          "recipe": "team",
+          "framing": "overview",
+          "focus": "phone",
+          "query": "Найти недостающий элемент",
+          "scale": 1,
+          "items": [
+            {
+              "uid": "imw199vgxz9de3a",
+              "assetId": "lamp",
+              "role": "background",
+              "x": 120,
+              "y": 120,
+              "rotation": 0,
+              "flipX": false,
+              "flipY": false,
+              "zone": "top-left",
+              "crop": "fragment"
+            },
+            {
+              "uid": "imw199vgxfdjh8a",
+              "assetId": "puzzle",
+              "role": "main",
+              "x": 772.8015625,
+              "y": 530.99,
+              "rotation": 0,
+              "flipX": false,
+              "flipY": false,
+              "zone": "auto",
+              "crop": "whole"
+            },
+            {
+              "uid": "imw199vgxirderm",
+              "assetId": "phone",
+              "role": "main",
+              "x": 419.95,
+              "y": 516.17,
+              "rotation": 0,
+              "flipX": false,
+              "flipY": false,
+              "zone": "auto",
+              "crop": "whole"
+            }
+          ]
+        },
+        {
+          "version": 1,
+          "sizing": "native",
+          "environmentPrompt": "",
+          "environmentExplanation": [
+            "Главная пара объединяет смартфон и пазл для демонстрации цифровой задачи и её решения.",
+            "Настольная лампа добавлена как фоновый компаньон для создания атмосферы рабочего места.",
+            "Компактная компоновка удерживает элементы в единой связной группе."
+          ],
+          "groups": [
+            {
+              "kind": "collection",
+              "members": [
+                "imw199vgxfdjh8a",
+                "imw199vgxirderm"
+              ],
+              "reason": "Диагональное построение группы"
+            }
+          ],
+          "formatPlans": [],
+          "stagingPlans": [
+            {
+              "format": "square",
+              "views": [
+                {
+                  "principle": "Центральная сбалансированная композиция",
+                  "placements": [
+                    {
+                      "uid": "imw199vgxirderm",
+                      "relation": "canvas",
+                      "x": 0.42,
+                      "y": 0.52,
+                      "gap": 0,
+                      "rotation": 0
+                    },
+                    {
+                      "uid": "imw199vgxfdjh8a",
+                      "relation": "right",
+                      "targetUid": "imw199vgxirderm",
+                      "x": 0.65,
+                      "y": 0.55,
+                      "gap": 0.04,
+                      "rotation": 0
+                    },
+                    {
+                      "uid": "imw199vgxz9de3a",
+                      "relation": "canvas",
+                      "x": 0.2,
+                      "y": 0.3,
+                      "gap": 0,
+                      "rotation": 0
+                    }
+                  ]
+                },
+                {
+                  "principle": "Просторное размещение элементов",
+                  "placements": [
+                    {
+                      "uid": "imw199vgxirderm",
+                      "relation": "canvas",
+                      "x": 0.4,
+                      "y": 0.5,
+                      "gap": 0,
+                      "rotation": 0
+                    },
+                    {
+                      "uid": "imw199vgxfdjh8a",
+                      "relation": "right",
+                      "targetUid": "imw199vgxirderm",
+                      "x": 0.68,
+                      "y": 0.52,
+                      "gap": 0.06,
+                      "rotation": 0
+                    },
+                    {
+                      "uid": "imw199vgxz9de3a",
+                      "relation": "canvas",
+                      "x": 0.22,
+                      "y": 0.28,
+                      "gap": 0,
+                      "rotation": 0
+                    }
+                  ]
+                },
+                {
+                  "principle": "Диагональное построение группы",
+                  "placements": [
+                    {
+                      "uid": "imw199vgxirderm",
+                      "relation": "canvas",
+                      "x": 0.44,
+                      "y": 0.56,
+                      "gap": 0,
+                      "rotation": 0
+                    },
+                    {
+                      "uid": "imw199vgxfdjh8a",
+                      "relation": "right",
+                      "targetUid": "imw199vgxirderm",
+                      "x": 0.64,
+                      "y": 0.48,
+                      "gap": 0.04,
+                      "rotation": 0
+                    },
+                    {
+                      "uid": "imw199vgxz9de3a",
+                      "relation": "canvas",
+                      "x": 0.22,
+                      "y": 0.32,
+                      "gap": 0,
+                      "rotation": 0
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "format": "landscape",
+              "views": [
+                {
+                  "principle": "Горизонтальный баланс элементов",
+                  "placements": [
+                    {
+                      "uid": "imw199vgxirderm",
+                      "relation": "canvas",
+                      "x": 0.46,
+                      "y": 0.52,
+                      "gap": 0,
+                      "rotation": 0
+                    },
+                    {
+                      "uid": "imw199vgxfdjh8a",
+                      "relation": "right",
+                      "targetUid": "imw199vgxirderm",
+                      "x": 0.66,
+                      "y": 0.54,
+                      "gap": 0.04,
+                      "rotation": 0
+                    },
+                    {
+                      "uid": "imw199vgxz9de3a",
+                      "relation": "canvas",
+                      "x": 0.25,
+                      "y": 0.32,
+                      "gap": 0,
+                      "rotation": 0
+                    }
+                  ]
+                },
+                {
+                  "principle": "Широкий разворот в кадре",
+                  "placements": [
+                    {
+                      "uid": "imw199vgxirderm",
+                      "relation": "canvas",
+                      "x": 0.44,
+                      "y": 0.5,
+                      "gap": 0,
+                      "rotation": 0
+                    },
+                    {
+                      "uid": "imw199vgxfdjh8a",
+                      "relation": "right",
+                      "targetUid": "imw199vgxirderm",
+                      "x": 0.68,
+                      "y": 0.52,
+                      "gap": 0.06,
+                      "rotation": 0
+                    },
+                    {
+                      "uid": "imw199vgxz9de3a",
+                      "relation": "canvas",
+                      "x": 0.24,
+                      "y": 0.3,
+                      "gap": 0,
+                      "rotation": 0
+                    }
+                  ]
+                },
+                {
+                  "principle": "Диагональная раскладка под альбомный формат",
+                  "placements": [
+                    {
+                      "uid": "imw199vgxirderm",
+                      "relation": "canvas",
+                      "x": 0.48,
+                      "y": 0.55,
+                      "gap": 0,
+                      "rotation": 0
+                    },
+                    {
+                      "uid": "imw199vgxfdjh8a",
+                      "relation": "right",
+                      "targetUid": "imw199vgxirderm",
+                      "x": 0.65,
+                      "y": 0.48,
+                      "gap": 0.04,
+                      "rotation": 0
+                    },
+                    {
+                      "uid": "imw199vgxz9de3a",
+                      "relation": "canvas",
+                      "x": 0.26,
+                      "y": 0.34,
+                      "gap": 0,
+                      "rotation": 0
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "format": "portrait",
+              "views": [
+                {
+                  "principle": "Вертикальная центрированная композиция",
+                  "placements": [
+                    {
+                      "uid": "imw199vgxirderm",
+                      "relation": "canvas",
+                      "x": 0.5,
+                      "y": 0.48,
+                      "gap": 0,
+                      "rotation": 0
+                    },
+                    {
+                      "uid": "imw199vgxfdjh8a",
+                      "relation": "below",
+                      "targetUid": "imw199vgxirderm",
+                      "x": 0.5,
+                      "y": 0.62,
+                      "gap": 0.04,
+                      "rotation": 0
+                    },
+                    {
+                      "uid": "imw199vgxz9de3a",
+                      "relation": "canvas",
+                      "x": 0.28,
+                      "y": 0.25,
+                      "gap": 0,
+                      "rotation": 0
+                    }
+                  ]
+                },
+                {
+                  "principle": "Вытянутое вертикальное распределение",
+                  "placements": [
+                    {
+                      "uid": "imw199vgxirderm",
+                      "relation": "canvas",
+                      "x": 0.5,
+                      "y": 0.46,
+                      "gap": 0,
+                      "rotation": 0
+                    },
+                    {
+                      "uid": "imw199vgxfdjh8a",
+                      "relation": "below",
+                      "targetUid": "imw199vgxirderm",
+                      "x": 0.5,
+                      "y": 0.64,
+                      "gap": 0.06,
+                      "rotation": 0
+                    },
+                    {
+                      "uid": "imw199vgxz9de3a",
+                      "relation": "canvas",
+                      "x": 0.3,
+                      "y": 0.24,
+                      "gap": 0,
+                      "rotation": 0
+                    }
+                  ]
+                },
+                {
+                  "principle": "Диагональный акцент в портретном формате",
+                  "placements": [
+                    {
+                      "uid": "imw199vgxirderm",
+                      "relation": "canvas",
+                      "x": 0.52,
+                      "y": 0.5,
+                      "gap": 0,
+                      "rotation": 0
+                    },
+                    {
+                      "uid": "imw199vgxfdjh8a",
+                      "relation": "below",
+                      "targetUid": "imw199vgxirderm",
+                      "x": 0.46,
+                      "y": 0.64,
+                      "gap": 0.04,
+                      "rotation": 0
+                    },
+                    {
+                      "uid": "imw199vgxz9de3a",
+                      "relation": "canvas",
+                      "x": 0.28,
+                      "y": 0.26,
+                      "gap": 0,
+                      "rotation": 0
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "executionNotes": [
+            "Положение «Настольная лампа» уточнено по границам кадра и реестру пересечений."
+          ],
+          "width": 1000,
+          "height": 1000,
+          "format": "square",
+          "size": "S",
+          "palette": "aqua",
+          "layout": "compact",
+          "background": "pattern",
+          "backgroundDesign": "auto",
+          "supporting": true,
+          "showSupporting": true,
+          "camera": null,
+          "composition": {
+            "index": 2,
+            "options": [
+              {
+                "strategy": "balanced",
+                "title": "Сбалансированная пара",
+                "principle": "Смартфон и пазл образуют устойчивую смысловую группу в центре холста.",
+                "placement": "beside"
+              },
+              {
+                "strategy": "spacious",
+                "title": "Свободное расположение",
+                "principle": "Элементы разделены небольшим аккуратным просветом для лучшей читаемости силуэтов.",
+                "placement": "beside"
+              },
+              {
+                "strategy": "diagonal",
+                "title": "Диагональный ритм",
+                "principle": "Главные предметы выстроены по диагонали, задавая естественное движение взгляда.",
+                "placement": "beside"
+              }
+            ]
+          },
+          "layerRelations": [
+            {
+              "back": "imw199vgxfdjh8a",
+              "front": "imw199vgxirderm",
+              "reason": "Пазл расположен рядом со смартфоном"
+            },
+            {
+              "back": "imw199vgxz9de3a",
+              "front": "imw199vgxirderm",
+              "reason": "Фоновая лампа находится позади главной группы"
+            }
+          ],
+          "recipe": "team",
+          "framing": "overview",
+          "focus": "phone",
+          "query": "Найти недостающий элемент",
+          "scale": 1,
+          "items": [
+            {
+              "uid": "imw199vgxz9de3a",
+              "assetId": "lamp",
+              "role": "background",
+              "x": 0,
+              "y": 376.5,
+              "rotation": 0,
+              "flipX": false,
+              "flipY": false,
+              "zone": "top-left",
+              "crop": "fragment"
+            },
+            {
+              "uid": "imw199vgxfdjh8a",
+              "assetId": "puzzle",
+              "role": "main",
+              "x": 792.8015625,
+              "y": 490.99,
+              "rotation": 0,
+              "flipX": false,
+              "flipY": false,
+              "zone": "auto",
+              "crop": "whole"
+            },
+            {
+              "uid": "imw199vgxirderm",
+              "assetId": "phone",
+              "role": "main",
+              "x": 459.95,
+              "y": 576.17,
+              "rotation": 0,
+              "flipX": false,
+              "flipY": false,
+              "zone": "auto",
+              "crop": "whole"
+            }
+          ]
+        }
+      ],
+      "landscape": [
+        {
+          "version": 1,
+          "sizing": "native",
+          "environmentPrompt": "",
+          "environmentExplanation": [
+            "Главная пара объединяет смартфон и пазл для демонстрации цифровой задачи и её решения.",
+            "Настольная лампа добавлена как фоновый компаньон для создания атмосферы рабочего места.",
+            "Компактная компоновка удерживает элементы в единой связной группе."
+          ],
+          "groups": [
+            {
+              "kind": "collection",
+              "members": [
+                "imw199vgxfdjh8a",
+                "imw199vgxirderm"
+              ],
+              "reason": "Горизонтальный баланс элементов"
+            }
+          ],
+          "formatPlans": [],
+          "stagingPlans": [
+            {
+              "format": "square",
+              "views": [
+                {
+                  "principle": "Центральная сбалансированная композиция",
+                  "placements": [
+                    {
+                      "uid": "imw199vgxirderm",
+                      "relation": "canvas",
+                      "x": 0.42,
+                      "y": 0.52,
+                      "gap": 0,
+                      "rotation": 0
+                    },
+                    {
+                      "uid": "imw199vgxfdjh8a",
+                      "relation": "right",
+                      "targetUid": "imw199vgxirderm",
+                      "x": 0.65,
+                      "y": 0.55,
+                      "gap": 0.04,
+                      "rotation": 0
+                    },
+                    {
+                      "uid": "imw199vgxz9de3a",
+                      "relation": "canvas",
+                      "x": 0.2,
+                      "y": 0.3,
+                      "gap": 0,
+                      "rotation": 0
+                    }
+                  ]
+                },
+                {
+                  "principle": "Просторное размещение элементов",
+                  "placements": [
+                    {
+                      "uid": "imw199vgxirderm",
+                      "relation": "canvas",
+                      "x": 0.4,
+                      "y": 0.5,
+                      "gap": 0,
+                      "rotation": 0
+                    },
+                    {
+                      "uid": "imw199vgxfdjh8a",
+                      "relation": "right",
+                      "targetUid": "imw199vgxirderm",
+                      "x": 0.68,
+                      "y": 0.52,
+                      "gap": 0.06,
+                      "rotation": 0
+                    },
+                    {
+                      "uid": "imw199vgxz9de3a",
+                      "relation": "canvas",
+                      "x": 0.22,
+                      "y": 0.28,
+                      "gap": 0,
+                      "rotation": 0
+                    }
+                  ]
+                },
+                {
+                  "principle": "Диагональное построение группы",
+                  "placements": [
+                    {
+                      "uid": "imw199vgxirderm",
+                      "relation": "canvas",
+                      "x": 0.44,
+                      "y": 0.56,
+                      "gap": 0,
+                      "rotation": 0
+                    },
+                    {
+                      "uid": "imw199vgxfdjh8a",
+                      "relation": "right",
+                      "targetUid": "imw199vgxirderm",
+                      "x": 0.64,
+                      "y": 0.48,
+                      "gap": 0.04,
+                      "rotation": 0
+                    },
+                    {
+                      "uid": "imw199vgxz9de3a",
+                      "relation": "canvas",
+                      "x": 0.22,
+                      "y": 0.32,
+                      "gap": 0,
+                      "rotation": 0
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "format": "landscape",
+              "views": [
+                {
+                  "principle": "Горизонтальный баланс элементов",
+                  "placements": [
+                    {
+                      "uid": "imw199vgxirderm",
+                      "relation": "canvas",
+                      "x": 0.46,
+                      "y": 0.52,
+                      "gap": 0,
+                      "rotation": 0
+                    },
+                    {
+                      "uid": "imw199vgxfdjh8a",
+                      "relation": "right",
+                      "targetUid": "imw199vgxirderm",
+                      "x": 0.66,
+                      "y": 0.54,
+                      "gap": 0.04,
+                      "rotation": 0
+                    },
+                    {
+                      "uid": "imw199vgxz9de3a",
+                      "relation": "canvas",
+                      "x": 0.25,
+                      "y": 0.32,
+                      "gap": 0,
+                      "rotation": 0
+                    }
+                  ]
+                },
+                {
+                  "principle": "Широкий разворот в кадре",
+                  "placements": [
+                    {
+                      "uid": "imw199vgxirderm",
+                      "relation": "canvas",
+                      "x": 0.44,
+                      "y": 0.5,
+                      "gap": 0,
+                      "rotation": 0
+                    },
+                    {
+                      "uid": "imw199vgxfdjh8a",
+                      "relation": "right",
+                      "targetUid": "imw199vgxirderm",
+                      "x": 0.68,
+                      "y": 0.52,
+                      "gap": 0.06,
+                      "rotation": 0
+                    },
+                    {
+                      "uid": "imw199vgxz9de3a",
+                      "relation": "canvas",
+                      "x": 0.24,
+                      "y": 0.3,
+                      "gap": 0,
+                      "rotation": 0
+                    }
+                  ]
+                },
+                {
+                  "principle": "Диагональная раскладка под альбомный формат",
+                  "placements": [
+                    {
+                      "uid": "imw199vgxirderm",
+                      "relation": "canvas",
+                      "x": 0.48,
+                      "y": 0.55,
+                      "gap": 0,
+                      "rotation": 0
+                    },
+                    {
+                      "uid": "imw199vgxfdjh8a",
+                      "relation": "right",
+                      "targetUid": "imw199vgxirderm",
+                      "x": 0.65,
+                      "y": 0.48,
+                      "gap": 0.04,
+                      "rotation": 0
+                    },
+                    {
+                      "uid": "imw199vgxz9de3a",
+                      "relation": "canvas",
+                      "x": 0.26,
+                      "y": 0.34,
+                      "gap": 0,
+                      "rotation": 0
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "format": "portrait",
+              "views": [
+                {
+                  "principle": "Вертикальная центрированная композиция",
+                  "placements": [
+                    {
+                      "uid": "imw199vgxirderm",
+                      "relation": "canvas",
+                      "x": 0.5,
+                      "y": 0.48,
+                      "gap": 0,
+                      "rotation": 0
+                    },
+                    {
+                      "uid": "imw199vgxfdjh8a",
+                      "relation": "below",
+                      "targetUid": "imw199vgxirderm",
+                      "x": 0.5,
+                      "y": 0.62,
+                      "gap": 0.04,
+                      "rotation": 0
+                    },
+                    {
+                      "uid": "imw199vgxz9de3a",
+                      "relation": "canvas",
+                      "x": 0.28,
+                      "y": 0.25,
+                      "gap": 0,
+                      "rotation": 0
+                    }
+                  ]
+                },
+                {
+                  "principle": "Вытянутое вертикальное распределение",
+                  "placements": [
+                    {
+                      "uid": "imw199vgxirderm",
+                      "relation": "canvas",
+                      "x": 0.5,
+                      "y": 0.46,
+                      "gap": 0,
+                      "rotation": 0
+                    },
+                    {
+                      "uid": "imw199vgxfdjh8a",
+                      "relation": "below",
+                      "targetUid": "imw199vgxirderm",
+                      "x": 0.5,
+                      "y": 0.64,
+                      "gap": 0.06,
+                      "rotation": 0
+                    },
+                    {
+                      "uid": "imw199vgxz9de3a",
+                      "relation": "canvas",
+                      "x": 0.3,
+                      "y": 0.24,
+                      "gap": 0,
+                      "rotation": 0
+                    }
+                  ]
+                },
+                {
+                  "principle": "Диагональный акцент в портретном формате",
+                  "placements": [
+                    {
+                      "uid": "imw199vgxirderm",
+                      "relation": "canvas",
+                      "x": 0.52,
+                      "y": 0.5,
+                      "gap": 0,
+                      "rotation": 0
+                    },
+                    {
+                      "uid": "imw199vgxfdjh8a",
+                      "relation": "below",
+                      "targetUid": "imw199vgxirderm",
+                      "x": 0.46,
+                      "y": 0.64,
+                      "gap": 0.04,
+                      "rotation": 0
+                    },
+                    {
+                      "uid": "imw199vgxz9de3a",
+                      "relation": "canvas",
+                      "x": 0.28,
+                      "y": 0.26,
+                      "gap": 0,
+                      "rotation": 0
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "width": 1200,
+          "height": 630,
+          "format": "landscape",
+          "size": "S",
+          "palette": "aqua",
+          "layout": "compact",
+          "background": "pattern",
+          "backgroundDesign": "auto",
+          "supporting": true,
+          "showSupporting": true,
+          "camera": null,
+          "composition": {
+            "index": 0,
+            "options": [
+              {
+                "strategy": "balanced",
+                "title": "Сбалансированная пара",
+                "principle": "Смартфон и пазл образуют устойчивую смысловую группу в центре холста.",
+                "placement": "beside"
+              },
+              {
+                "strategy": "spacious",
+                "title": "Свободное расположение",
+                "principle": "Элементы разделены небольшим аккуратным просветом для лучшей читаемости силуэтов.",
+                "placement": "beside"
+              },
+              {
+                "strategy": "diagonal",
+                "title": "Диагональный ритм",
+                "principle": "Главные предметы выстроены по диагонали, задавая естественное движение взгляда.",
+                "placement": "beside"
+              }
+            ]
+          },
+          "layerRelations": [
+            {
+              "back": "imw199vgxfdjh8a",
+              "front": "imw199vgxirderm",
+              "reason": "Пазл расположен рядом со смартфоном"
+            },
+            {
+              "back": "imw199vgxz9de3a",
+              "front": "imw199vgxirderm",
+              "reason": "Фоновая лампа находится позади главной группы"
+            }
+          ],
+          "recipe": "team",
+          "framing": "overview",
+          "focus": "phone",
+          "query": "Найти недостающий элемент",
+          "scale": 1,
+          "items": [
+            {
+              "uid": "imw199vgxz9de3a",
+              "assetId": "lamp",
+              "role": "background",
+              "x": 314.19,
+              "y": 258.09999999999997,
+              "rotation": 0,
+              "flipX": false,
+              "flipY": false,
+              "zone": "top-left",
+              "crop": "fragment"
+            },
+            {
+              "uid": "imw199vgxfdjh8a",
+              "assetId": "puzzle",
+              "role": "main",
+              "x": 890.0015625000001,
+              "y": 351.19000000000005,
+              "rotation": 0,
+              "flipX": false,
+              "flipY": false,
+              "zone": "auto",
+              "crop": "whole"
+            },
+            {
+              "uid": "imw199vgxirderm",
+              "assetId": "phone",
+              "role": "main",
+              "x": 571.95,
+              "y": 343.77000000000004,
+              "rotation": 0,
+              "flipX": false,
+              "flipY": false,
+              "zone": "auto",
+              "crop": "whole"
+            }
+          ]
+        },
+        {
+          "version": 1,
+          "sizing": "native",
+          "environmentPrompt": "",
+          "environmentExplanation": [
+            "Главная пара объединяет смартфон и пазл для демонстрации цифровой задачи и её решения.",
+            "Настольная лампа добавлена как фоновый компаньон для создания атмосферы рабочего места.",
+            "Компактная компоновка удерживает элементы в единой связной группе."
+          ],
+          "groups": [
+            {
+              "kind": "collection",
+              "members": [
+                "imw199vgxfdjh8a",
+                "imw199vgxirderm"
+              ],
+              "reason": "Широкий разворот в кадре"
+            }
+          ],
+          "formatPlans": [],
+          "stagingPlans": [
+            {
+              "format": "square",
+              "views": [
+                {
+                  "principle": "Центральная сбалансированная композиция",
+                  "placements": [
+                    {
+                      "uid": "imw199vgxirderm",
+                      "relation": "canvas",
+                      "x": 0.42,
+                      "y": 0.52,
+                      "gap": 0,
+                      "rotation": 0
+                    },
+                    {
+                      "uid": "imw199vgxfdjh8a",
+                      "relation": "right",
+                      "targetUid": "imw199vgxirderm",
+                      "x": 0.65,
+                      "y": 0.55,
+                      "gap": 0.04,
+                      "rotation": 0
+                    },
+                    {
+                      "uid": "imw199vgxz9de3a",
+                      "relation": "canvas",
+                      "x": 0.2,
+                      "y": 0.3,
+                      "gap": 0,
+                      "rotation": 0
+                    }
+                  ]
+                },
+                {
+                  "principle": "Просторное размещение элементов",
+                  "placements": [
+                    {
+                      "uid": "imw199vgxirderm",
+                      "relation": "canvas",
+                      "x": 0.4,
+                      "y": 0.5,
+                      "gap": 0,
+                      "rotation": 0
+                    },
+                    {
+                      "uid": "imw199vgxfdjh8a",
+                      "relation": "right",
+                      "targetUid": "imw199vgxirderm",
+                      "x": 0.68,
+                      "y": 0.52,
+                      "gap": 0.06,
+                      "rotation": 0
+                    },
+                    {
+                      "uid": "imw199vgxz9de3a",
+                      "relation": "canvas",
+                      "x": 0.22,
+                      "y": 0.28,
+                      "gap": 0,
+                      "rotation": 0
+                    }
+                  ]
+                },
+                {
+                  "principle": "Диагональное построение группы",
+                  "placements": [
+                    {
+                      "uid": "imw199vgxirderm",
+                      "relation": "canvas",
+                      "x": 0.44,
+                      "y": 0.56,
+                      "gap": 0,
+                      "rotation": 0
+                    },
+                    {
+                      "uid": "imw199vgxfdjh8a",
+                      "relation": "right",
+                      "targetUid": "imw199vgxirderm",
+                      "x": 0.64,
+                      "y": 0.48,
+                      "gap": 0.04,
+                      "rotation": 0
+                    },
+                    {
+                      "uid": "imw199vgxz9de3a",
+                      "relation": "canvas",
+                      "x": 0.22,
+                      "y": 0.32,
+                      "gap": 0,
+                      "rotation": 0
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "format": "landscape",
+              "views": [
+                {
+                  "principle": "Горизонтальный баланс элементов",
+                  "placements": [
+                    {
+                      "uid": "imw199vgxirderm",
+                      "relation": "canvas",
+                      "x": 0.46,
+                      "y": 0.52,
+                      "gap": 0,
+                      "rotation": 0
+                    },
+                    {
+                      "uid": "imw199vgxfdjh8a",
+                      "relation": "right",
+                      "targetUid": "imw199vgxirderm",
+                      "x": 0.66,
+                      "y": 0.54,
+                      "gap": 0.04,
+                      "rotation": 0
+                    },
+                    {
+                      "uid": "imw199vgxz9de3a",
+                      "relation": "canvas",
+                      "x": 0.25,
+                      "y": 0.32,
+                      "gap": 0,
+                      "rotation": 0
+                    }
+                  ]
+                },
+                {
+                  "principle": "Широкий разворот в кадре",
+                  "placements": [
+                    {
+                      "uid": "imw199vgxirderm",
+                      "relation": "canvas",
+                      "x": 0.44,
+                      "y": 0.5,
+                      "gap": 0,
+                      "rotation": 0
+                    },
+                    {
+                      "uid": "imw199vgxfdjh8a",
+                      "relation": "right",
+                      "targetUid": "imw199vgxirderm",
+                      "x": 0.68,
+                      "y": 0.52,
+                      "gap": 0.06,
+                      "rotation": 0
+                    },
+                    {
+                      "uid": "imw199vgxz9de3a",
+                      "relation": "canvas",
+                      "x": 0.24,
+                      "y": 0.3,
+                      "gap": 0,
+                      "rotation": 0
+                    }
+                  ]
+                },
+                {
+                  "principle": "Диагональная раскладка под альбомный формат",
+                  "placements": [
+                    {
+                      "uid": "imw199vgxirderm",
+                      "relation": "canvas",
+                      "x": 0.48,
+                      "y": 0.55,
+                      "gap": 0,
+                      "rotation": 0
+                    },
+                    {
+                      "uid": "imw199vgxfdjh8a",
+                      "relation": "right",
+                      "targetUid": "imw199vgxirderm",
+                      "x": 0.65,
+                      "y": 0.48,
+                      "gap": 0.04,
+                      "rotation": 0
+                    },
+                    {
+                      "uid": "imw199vgxz9de3a",
+                      "relation": "canvas",
+                      "x": 0.26,
+                      "y": 0.34,
+                      "gap": 0,
+                      "rotation": 0
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "format": "portrait",
+              "views": [
+                {
+                  "principle": "Вертикальная центрированная композиция",
+                  "placements": [
+                    {
+                      "uid": "imw199vgxirderm",
+                      "relation": "canvas",
+                      "x": 0.5,
+                      "y": 0.48,
+                      "gap": 0,
+                      "rotation": 0
+                    },
+                    {
+                      "uid": "imw199vgxfdjh8a",
+                      "relation": "below",
+                      "targetUid": "imw199vgxirderm",
+                      "x": 0.5,
+                      "y": 0.62,
+                      "gap": 0.04,
+                      "rotation": 0
+                    },
+                    {
+                      "uid": "imw199vgxz9de3a",
+                      "relation": "canvas",
+                      "x": 0.28,
+                      "y": 0.25,
+                      "gap": 0,
+                      "rotation": 0
+                    }
+                  ]
+                },
+                {
+                  "principle": "Вытянутое вертикальное распределение",
+                  "placements": [
+                    {
+                      "uid": "imw199vgxirderm",
+                      "relation": "canvas",
+                      "x": 0.5,
+                      "y": 0.46,
+                      "gap": 0,
+                      "rotation": 0
+                    },
+                    {
+                      "uid": "imw199vgxfdjh8a",
+                      "relation": "below",
+                      "targetUid": "imw199vgxirderm",
+                      "x": 0.5,
+                      "y": 0.64,
+                      "gap": 0.06,
+                      "rotation": 0
+                    },
+                    {
+                      "uid": "imw199vgxz9de3a",
+                      "relation": "canvas",
+                      "x": 0.3,
+                      "y": 0.24,
+                      "gap": 0,
+                      "rotation": 0
+                    }
+                  ]
+                },
+                {
+                  "principle": "Диагональный акцент в портретном формате",
+                  "placements": [
+                    {
+                      "uid": "imw199vgxirderm",
+                      "relation": "canvas",
+                      "x": 0.52,
+                      "y": 0.5,
+                      "gap": 0,
+                      "rotation": 0
+                    },
+                    {
+                      "uid": "imw199vgxfdjh8a",
+                      "relation": "below",
+                      "targetUid": "imw199vgxirderm",
+                      "x": 0.46,
+                      "y": 0.64,
+                      "gap": 0.04,
+                      "rotation": 0
+                    },
+                    {
+                      "uid": "imw199vgxz9de3a",
+                      "relation": "canvas",
+                      "x": 0.28,
+                      "y": 0.26,
+                      "gap": 0,
+                      "rotation": 0
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "width": 1200,
+          "height": 630,
+          "format": "landscape",
+          "size": "S",
+          "palette": "aqua",
+          "layout": "compact",
+          "background": "pattern",
+          "backgroundDesign": "auto",
+          "supporting": true,
+          "showSupporting": true,
+          "camera": null,
+          "composition": {
+            "index": 1,
+            "options": [
+              {
+                "strategy": "balanced",
+                "title": "Сбалансированная пара",
+                "principle": "Смартфон и пазл образуют устойчивую смысловую группу в центре холста.",
+                "placement": "beside"
+              },
+              {
+                "strategy": "spacious",
+                "title": "Свободное расположение",
+                "principle": "Элементы разделены небольшим аккуратным просветом для лучшей читаемости силуэтов.",
+                "placement": "beside"
+              },
+              {
+                "strategy": "diagonal",
+                "title": "Диагональный ритм",
+                "principle": "Главные предметы выстроены по диагонали, задавая естественное движение взгляда.",
+                "placement": "beside"
+              }
+            ]
+          },
+          "layerRelations": [
+            {
+              "back": "imw199vgxfdjh8a",
+              "front": "imw199vgxirderm",
+              "reason": "Пазл расположен рядом со смартфоном"
+            },
+            {
+              "back": "imw199vgxz9de3a",
+              "front": "imw199vgxirderm",
+              "reason": "Фоновая лампа находится позади главной группы"
+            }
+          ],
+          "recipe": "team",
+          "framing": "overview",
+          "focus": "phone",
+          "query": "Найти недостающий элемент",
+          "scale": 1,
+          "items": [
+            {
+              "uid": "imw199vgxz9de3a",
+              "assetId": "lamp",
+              "role": "background",
+              "x": 302.19,
+              "y": 245.5,
+              "rotation": 0,
+              "flipX": false,
+              "flipY": false,
+              "zone": "top-left",
+              "crop": "fragment"
+            },
+            {
+              "uid": "imw199vgxfdjh8a",
+              "assetId": "puzzle",
+              "role": "main",
+              "x": 878.6015625,
+              "y": 338.59000000000003,
+              "rotation": 0,
+              "flipX": false,
+              "flipY": false,
+              "zone": "auto",
+              "crop": "whole"
+            },
+            {
+              "uid": "imw199vgxirderm",
+              "assetId": "phone",
+              "role": "main",
+              "x": 547.95,
+              "y": 331.17,
+              "rotation": 0,
+              "flipX": false,
+              "flipY": false,
+              "zone": "auto",
+              "crop": "whole"
+            }
+          ]
+        },
+        {
+          "version": 1,
+          "sizing": "native",
+          "environmentPrompt": "",
+          "environmentExplanation": [
+            "Главная пара объединяет смартфон и пазл для демонстрации цифровой задачи и её решения.",
+            "Настольная лампа добавлена как фоновый компаньон для создания атмосферы рабочего места.",
+            "Компактная компоновка удерживает элементы в единой связной группе."
+          ],
+          "groups": [
+            {
+              "kind": "collection",
+              "members": [
+                "imw199vgxfdjh8a",
+                "imw199vgxirderm"
+              ],
+              "reason": "Диагональная раскладка под альбомный формат"
+            }
+          ],
+          "formatPlans": [],
+          "stagingPlans": [
+            {
+              "format": "square",
+              "views": [
+                {
+                  "principle": "Центральная сбалансированная композиция",
+                  "placements": [
+                    {
+                      "uid": "imw199vgxirderm",
+                      "relation": "canvas",
+                      "x": 0.42,
+                      "y": 0.52,
+                      "gap": 0,
+                      "rotation": 0
+                    },
+                    {
+                      "uid": "imw199vgxfdjh8a",
+                      "relation": "right",
+                      "targetUid": "imw199vgxirderm",
+                      "x": 0.65,
+                      "y": 0.55,
+                      "gap": 0.04,
+                      "rotation": 0
+                    },
+                    {
+                      "uid": "imw199vgxz9de3a",
+                      "relation": "canvas",
+                      "x": 0.2,
+                      "y": 0.3,
+                      "gap": 0,
+                      "rotation": 0
+                    }
+                  ]
+                },
+                {
+                  "principle": "Просторное размещение элементов",
+                  "placements": [
+                    {
+                      "uid": "imw199vgxirderm",
+                      "relation": "canvas",
+                      "x": 0.4,
+                      "y": 0.5,
+                      "gap": 0,
+                      "rotation": 0
+                    },
+                    {
+                      "uid": "imw199vgxfdjh8a",
+                      "relation": "right",
+                      "targetUid": "imw199vgxirderm",
+                      "x": 0.68,
+                      "y": 0.52,
+                      "gap": 0.06,
+                      "rotation": 0
+                    },
+                    {
+                      "uid": "imw199vgxz9de3a",
+                      "relation": "canvas",
+                      "x": 0.22,
+                      "y": 0.28,
+                      "gap": 0,
+                      "rotation": 0
+                    }
+                  ]
+                },
+                {
+                  "principle": "Диагональное построение группы",
+                  "placements": [
+                    {
+                      "uid": "imw199vgxirderm",
+                      "relation": "canvas",
+                      "x": 0.44,
+                      "y": 0.56,
+                      "gap": 0,
+                      "rotation": 0
+                    },
+                    {
+                      "uid": "imw199vgxfdjh8a",
+                      "relation": "right",
+                      "targetUid": "imw199vgxirderm",
+                      "x": 0.64,
+                      "y": 0.48,
+                      "gap": 0.04,
+                      "rotation": 0
+                    },
+                    {
+                      "uid": "imw199vgxz9de3a",
+                      "relation": "canvas",
+                      "x": 0.22,
+                      "y": 0.32,
+                      "gap": 0,
+                      "rotation": 0
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "format": "landscape",
+              "views": [
+                {
+                  "principle": "Горизонтальный баланс элементов",
+                  "placements": [
+                    {
+                      "uid": "imw199vgxirderm",
+                      "relation": "canvas",
+                      "x": 0.46,
+                      "y": 0.52,
+                      "gap": 0,
+                      "rotation": 0
+                    },
+                    {
+                      "uid": "imw199vgxfdjh8a",
+                      "relation": "right",
+                      "targetUid": "imw199vgxirderm",
+                      "x": 0.66,
+                      "y": 0.54,
+                      "gap": 0.04,
+                      "rotation": 0
+                    },
+                    {
+                      "uid": "imw199vgxz9de3a",
+                      "relation": "canvas",
+                      "x": 0.25,
+                      "y": 0.32,
+                      "gap": 0,
+                      "rotation": 0
+                    }
+                  ]
+                },
+                {
+                  "principle": "Широкий разворот в кадре",
+                  "placements": [
+                    {
+                      "uid": "imw199vgxirderm",
+                      "relation": "canvas",
+                      "x": 0.44,
+                      "y": 0.5,
+                      "gap": 0,
+                      "rotation": 0
+                    },
+                    {
+                      "uid": "imw199vgxfdjh8a",
+                      "relation": "right",
+                      "targetUid": "imw199vgxirderm",
+                      "x": 0.68,
+                      "y": 0.52,
+                      "gap": 0.06,
+                      "rotation": 0
+                    },
+                    {
+                      "uid": "imw199vgxz9de3a",
+                      "relation": "canvas",
+                      "x": 0.24,
+                      "y": 0.3,
+                      "gap": 0,
+                      "rotation": 0
+                    }
+                  ]
+                },
+                {
+                  "principle": "Диагональная раскладка под альбомный формат",
+                  "placements": [
+                    {
+                      "uid": "imw199vgxirderm",
+                      "relation": "canvas",
+                      "x": 0.48,
+                      "y": 0.55,
+                      "gap": 0,
+                      "rotation": 0
+                    },
+                    {
+                      "uid": "imw199vgxfdjh8a",
+                      "relation": "right",
+                      "targetUid": "imw199vgxirderm",
+                      "x": 0.65,
+                      "y": 0.48,
+                      "gap": 0.04,
+                      "rotation": 0
+                    },
+                    {
+                      "uid": "imw199vgxz9de3a",
+                      "relation": "canvas",
+                      "x": 0.26,
+                      "y": 0.34,
+                      "gap": 0,
+                      "rotation": 0
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "format": "portrait",
+              "views": [
+                {
+                  "principle": "Вертикальная центрированная композиция",
+                  "placements": [
+                    {
+                      "uid": "imw199vgxirderm",
+                      "relation": "canvas",
+                      "x": 0.5,
+                      "y": 0.48,
+                      "gap": 0,
+                      "rotation": 0
+                    },
+                    {
+                      "uid": "imw199vgxfdjh8a",
+                      "relation": "below",
+                      "targetUid": "imw199vgxirderm",
+                      "x": 0.5,
+                      "y": 0.62,
+                      "gap": 0.04,
+                      "rotation": 0
+                    },
+                    {
+                      "uid": "imw199vgxz9de3a",
+                      "relation": "canvas",
+                      "x": 0.28,
+                      "y": 0.25,
+                      "gap": 0,
+                      "rotation": 0
+                    }
+                  ]
+                },
+                {
+                  "principle": "Вытянутое вертикальное распределение",
+                  "placements": [
+                    {
+                      "uid": "imw199vgxirderm",
+                      "relation": "canvas",
+                      "x": 0.5,
+                      "y": 0.46,
+                      "gap": 0,
+                      "rotation": 0
+                    },
+                    {
+                      "uid": "imw199vgxfdjh8a",
+                      "relation": "below",
+                      "targetUid": "imw199vgxirderm",
+                      "x": 0.5,
+                      "y": 0.64,
+                      "gap": 0.06,
+                      "rotation": 0
+                    },
+                    {
+                      "uid": "imw199vgxz9de3a",
+                      "relation": "canvas",
+                      "x": 0.3,
+                      "y": 0.24,
+                      "gap": 0,
+                      "rotation": 0
+                    }
+                  ]
+                },
+                {
+                  "principle": "Диагональный акцент в портретном формате",
+                  "placements": [
+                    {
+                      "uid": "imw199vgxirderm",
+                      "relation": "canvas",
+                      "x": 0.52,
+                      "y": 0.5,
+                      "gap": 0,
+                      "rotation": 0
+                    },
+                    {
+                      "uid": "imw199vgxfdjh8a",
+                      "relation": "below",
+                      "targetUid": "imw199vgxirderm",
+                      "x": 0.46,
+                      "y": 0.64,
+                      "gap": 0.04,
+                      "rotation": 0
+                    },
+                    {
+                      "uid": "imw199vgxz9de3a",
+                      "relation": "canvas",
+                      "x": 0.28,
+                      "y": 0.26,
+                      "gap": 0,
+                      "rotation": 0
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "width": 1200,
+          "height": 630,
+          "format": "landscape",
+          "size": "S",
+          "palette": "aqua",
+          "layout": "compact",
+          "background": "pattern",
+          "backgroundDesign": "auto",
+          "supporting": true,
+          "showSupporting": true,
+          "camera": null,
+          "composition": {
+            "index": 2,
+            "options": [
+              {
+                "strategy": "balanced",
+                "title": "Сбалансированная пара",
+                "principle": "Смартфон и пазл образуют устойчивую смысловую группу в центре холста.",
+                "placement": "beside"
+              },
+              {
+                "strategy": "spacious",
+                "title": "Свободное расположение",
+                "principle": "Элементы разделены небольшим аккуратным просветом для лучшей читаемости силуэтов.",
+                "placement": "beside"
+              },
+              {
+                "strategy": "diagonal",
+                "title": "Диагональный ритм",
+                "principle": "Главные предметы выстроены по диагонали, задавая естественное движение взгляда.",
+                "placement": "beside"
+              }
+            ]
+          },
+          "layerRelations": [
+            {
+              "back": "imw199vgxfdjh8a",
+              "front": "imw199vgxirderm",
+              "reason": "Пазл расположен рядом со смартфоном"
+            },
+            {
+              "back": "imw199vgxz9de3a",
+              "front": "imw199vgxirderm",
+              "reason": "Фоновая лампа находится позади главной группы"
+            }
+          ],
+          "recipe": "team",
+          "framing": "overview",
+          "focus": "phone",
+          "query": "Найти недостающий элемент",
+          "scale": 1,
+          "items": [
+            {
+              "uid": "imw199vgxz9de3a",
+              "assetId": "lamp",
+              "role": "background",
+              "x": 326.19,
+              "y": 270.7,
+              "rotation": 0,
+              "flipX": false,
+              "flipY": false,
+              "zone": "top-left",
+              "crop": "fragment"
+            },
+            {
+              "uid": "imw199vgxfdjh8a",
+              "assetId": "puzzle",
+              "role": "main",
+              "x": 914.0015625000001,
+              "y": 313.39,
+              "rotation": 0,
+              "flipX": false,
+              "flipY": false,
+              "zone": "auto",
+              "crop": "whole"
+            },
+            {
+              "uid": "imw199vgxirderm",
+              "assetId": "phone",
+              "role": "main",
+              "x": 595.95,
+              "y": 362.67,
+              "rotation": 0,
+              "flipX": false,
+              "flipY": false,
+              "zone": "auto",
+              "crop": "whole"
+            }
+          ]
+        }
+      ],
+      "portrait": [
+        {
+          "version": 1,
+          "sizing": "native",
+          "environmentPrompt": "",
+          "environmentExplanation": [
+            "Главная пара объединяет смартфон и пазл для демонстрации цифровой задачи и её решения.",
+            "Настольная лампа добавлена как фоновый компаньон для создания атмосферы рабочего места.",
+            "Компактная компоновка удерживает элементы в единой связной группе."
+          ],
+          "groups": [
+            {
+              "kind": "collection",
+              "members": [
+                "imw199vgxfdjh8a",
+                "imw199vgxirderm"
+              ],
+              "reason": "Вертикальная центрированная композиция"
+            }
+          ],
+          "formatPlans": [],
+          "stagingPlans": [
+            {
+              "format": "square",
+              "views": [
+                {
+                  "principle": "Центральная сбалансированная композиция",
+                  "placements": [
+                    {
+                      "uid": "imw199vgxirderm",
+                      "relation": "canvas",
+                      "x": 0.42,
+                      "y": 0.52,
+                      "gap": 0,
+                      "rotation": 0
+                    },
+                    {
+                      "uid": "imw199vgxfdjh8a",
+                      "relation": "right",
+                      "targetUid": "imw199vgxirderm",
+                      "x": 0.65,
+                      "y": 0.55,
+                      "gap": 0.04,
+                      "rotation": 0
+                    },
+                    {
+                      "uid": "imw199vgxz9de3a",
+                      "relation": "canvas",
+                      "x": 0.2,
+                      "y": 0.3,
+                      "gap": 0,
+                      "rotation": 0
+                    }
+                  ]
+                },
+                {
+                  "principle": "Просторное размещение элементов",
+                  "placements": [
+                    {
+                      "uid": "imw199vgxirderm",
+                      "relation": "canvas",
+                      "x": 0.4,
+                      "y": 0.5,
+                      "gap": 0,
+                      "rotation": 0
+                    },
+                    {
+                      "uid": "imw199vgxfdjh8a",
+                      "relation": "right",
+                      "targetUid": "imw199vgxirderm",
+                      "x": 0.68,
+                      "y": 0.52,
+                      "gap": 0.06,
+                      "rotation": 0
+                    },
+                    {
+                      "uid": "imw199vgxz9de3a",
+                      "relation": "canvas",
+                      "x": 0.22,
+                      "y": 0.28,
+                      "gap": 0,
+                      "rotation": 0
+                    }
+                  ]
+                },
+                {
+                  "principle": "Диагональное построение группы",
+                  "placements": [
+                    {
+                      "uid": "imw199vgxirderm",
+                      "relation": "canvas",
+                      "x": 0.44,
+                      "y": 0.56,
+                      "gap": 0,
+                      "rotation": 0
+                    },
+                    {
+                      "uid": "imw199vgxfdjh8a",
+                      "relation": "right",
+                      "targetUid": "imw199vgxirderm",
+                      "x": 0.64,
+                      "y": 0.48,
+                      "gap": 0.04,
+                      "rotation": 0
+                    },
+                    {
+                      "uid": "imw199vgxz9de3a",
+                      "relation": "canvas",
+                      "x": 0.22,
+                      "y": 0.32,
+                      "gap": 0,
+                      "rotation": 0
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "format": "landscape",
+              "views": [
+                {
+                  "principle": "Горизонтальный баланс элементов",
+                  "placements": [
+                    {
+                      "uid": "imw199vgxirderm",
+                      "relation": "canvas",
+                      "x": 0.46,
+                      "y": 0.52,
+                      "gap": 0,
+                      "rotation": 0
+                    },
+                    {
+                      "uid": "imw199vgxfdjh8a",
+                      "relation": "right",
+                      "targetUid": "imw199vgxirderm",
+                      "x": 0.66,
+                      "y": 0.54,
+                      "gap": 0.04,
+                      "rotation": 0
+                    },
+                    {
+                      "uid": "imw199vgxz9de3a",
+                      "relation": "canvas",
+                      "x": 0.25,
+                      "y": 0.32,
+                      "gap": 0,
+                      "rotation": 0
+                    }
+                  ]
+                },
+                {
+                  "principle": "Широкий разворот в кадре",
+                  "placements": [
+                    {
+                      "uid": "imw199vgxirderm",
+                      "relation": "canvas",
+                      "x": 0.44,
+                      "y": 0.5,
+                      "gap": 0,
+                      "rotation": 0
+                    },
+                    {
+                      "uid": "imw199vgxfdjh8a",
+                      "relation": "right",
+                      "targetUid": "imw199vgxirderm",
+                      "x": 0.68,
+                      "y": 0.52,
+                      "gap": 0.06,
+                      "rotation": 0
+                    },
+                    {
+                      "uid": "imw199vgxz9de3a",
+                      "relation": "canvas",
+                      "x": 0.24,
+                      "y": 0.3,
+                      "gap": 0,
+                      "rotation": 0
+                    }
+                  ]
+                },
+                {
+                  "principle": "Диагональная раскладка под альбомный формат",
+                  "placements": [
+                    {
+                      "uid": "imw199vgxirderm",
+                      "relation": "canvas",
+                      "x": 0.48,
+                      "y": 0.55,
+                      "gap": 0,
+                      "rotation": 0
+                    },
+                    {
+                      "uid": "imw199vgxfdjh8a",
+                      "relation": "right",
+                      "targetUid": "imw199vgxirderm",
+                      "x": 0.65,
+                      "y": 0.48,
+                      "gap": 0.04,
+                      "rotation": 0
+                    },
+                    {
+                      "uid": "imw199vgxz9de3a",
+                      "relation": "canvas",
+                      "x": 0.26,
+                      "y": 0.34,
+                      "gap": 0,
+                      "rotation": 0
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "format": "portrait",
+              "views": [
+                {
+                  "principle": "Вертикальная центрированная композиция",
+                  "placements": [
+                    {
+                      "uid": "imw199vgxirderm",
+                      "relation": "canvas",
+                      "x": 0.5,
+                      "y": 0.48,
+                      "gap": 0,
+                      "rotation": 0
+                    },
+                    {
+                      "uid": "imw199vgxfdjh8a",
+                      "relation": "below",
+                      "targetUid": "imw199vgxirderm",
+                      "x": 0.5,
+                      "y": 0.62,
+                      "gap": 0.04,
+                      "rotation": 0
+                    },
+                    {
+                      "uid": "imw199vgxz9de3a",
+                      "relation": "canvas",
+                      "x": 0.28,
+                      "y": 0.25,
+                      "gap": 0,
+                      "rotation": 0
+                    }
+                  ]
+                },
+                {
+                  "principle": "Вытянутое вертикальное распределение",
+                  "placements": [
+                    {
+                      "uid": "imw199vgxirderm",
+                      "relation": "canvas",
+                      "x": 0.5,
+                      "y": 0.46,
+                      "gap": 0,
+                      "rotation": 0
+                    },
+                    {
+                      "uid": "imw199vgxfdjh8a",
+                      "relation": "below",
+                      "targetUid": "imw199vgxirderm",
+                      "x": 0.5,
+                      "y": 0.64,
+                      "gap": 0.06,
+                      "rotation": 0
+                    },
+                    {
+                      "uid": "imw199vgxz9de3a",
+                      "relation": "canvas",
+                      "x": 0.3,
+                      "y": 0.24,
+                      "gap": 0,
+                      "rotation": 0
+                    }
+                  ]
+                },
+                {
+                  "principle": "Диагональный акцент в портретном формате",
+                  "placements": [
+                    {
+                      "uid": "imw199vgxirderm",
+                      "relation": "canvas",
+                      "x": 0.52,
+                      "y": 0.5,
+                      "gap": 0,
+                      "rotation": 0
+                    },
+                    {
+                      "uid": "imw199vgxfdjh8a",
+                      "relation": "below",
+                      "targetUid": "imw199vgxirderm",
+                      "x": 0.46,
+                      "y": 0.64,
+                      "gap": 0.04,
+                      "rotation": 0
+                    },
+                    {
+                      "uid": "imw199vgxz9de3a",
+                      "relation": "canvas",
+                      "x": 0.28,
+                      "y": 0.26,
+                      "gap": 0,
+                      "rotation": 0
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "executionNotes": [
+            "Положение «Настольная лампа» уточнено по границам кадра и реестру пересечений."
+          ],
+          "width": 800,
+          "height": 1200,
+          "format": "portrait",
+          "size": "S",
+          "palette": "aqua",
+          "layout": "compact",
+          "background": "pattern",
+          "backgroundDesign": "auto",
+          "supporting": true,
+          "showSupporting": true,
+          "camera": null,
+          "composition": {
+            "index": 0,
+            "options": [
+              {
+                "strategy": "balanced",
+                "title": "Сбалансированная пара",
+                "principle": "Смартфон и пазл образуют устойчивую смысловую группу в центре холста.",
+                "placement": "beside"
+              },
+              {
+                "strategy": "spacious",
+                "title": "Свободное расположение",
+                "principle": "Элементы разделены небольшим аккуратным просветом для лучшей читаемости силуэтов.",
+                "placement": "beside"
+              },
+              {
+                "strategy": "diagonal",
+                "title": "Диагональный ритм",
+                "principle": "Главные предметы выстроены по диагонали, задавая естественное движение взгляда.",
+                "placement": "beside"
+              }
+            ]
+          },
+          "layerRelations": [
+            {
+              "back": "imw199vgxfdjh8a",
+              "front": "imw199vgxirderm",
+              "reason": "Пазл расположен рядом со смартфоном"
+            },
+            {
+              "back": "imw199vgxz9de3a",
+              "front": "imw199vgxirderm",
+              "reason": "Фоновая лампа находится позади главной группы"
+            }
+          ],
+          "recipe": "team",
+          "framing": "overview",
+          "focus": "phone",
+          "query": "Найти недостающий элемент",
+          "scale": 1,
+          "items": [
+            {
+              "uid": "imw199vgxz9de3a",
+              "assetId": "lamp",
+              "role": "background",
+              "x": 96,
+              "y": 144,
+              "rotation": 0,
+              "flipX": false,
+              "flipY": false,
+              "zone": "top-left",
+              "crop": "fragment"
+            },
+            {
+              "uid": "imw199vgxfdjh8a",
+              "assetId": "puzzle",
+              "role": "main",
+              "x": 419.11,
+              "y": 801.9402702702703,
+              "rotation": 0,
+              "flipX": false,
+              "flipY": false,
+              "zone": "auto",
+              "crop": "whole"
+            },
+            {
+              "uid": "imw199vgxirderm",
+              "assetId": "phone",
+              "role": "main",
+              "x": 419.95,
+              "y": 592.17,
+              "rotation": 0,
+              "flipX": false,
+              "flipY": false,
+              "zone": "auto",
+              "crop": "whole"
+            }
+          ]
+        },
+        {
+          "version": 1,
+          "sizing": "native",
+          "environmentPrompt": "",
+          "environmentExplanation": [
+            "Главная пара объединяет смартфон и пазл для демонстрации цифровой задачи и её решения.",
+            "Настольная лампа добавлена как фоновый компаньон для создания атмосферы рабочего места.",
+            "Компактная компоновка удерживает элементы в единой связной группе."
+          ],
+          "groups": [
+            {
+              "kind": "collection",
+              "members": [
+                "imw199vgxfdjh8a",
+                "imw199vgxirderm"
+              ],
+              "reason": "Вытянутое вертикальное распределение"
+            }
+          ],
+          "formatPlans": [],
+          "stagingPlans": [
+            {
+              "format": "square",
+              "views": [
+                {
+                  "principle": "Центральная сбалансированная композиция",
+                  "placements": [
+                    {
+                      "uid": "imw199vgxirderm",
+                      "relation": "canvas",
+                      "x": 0.42,
+                      "y": 0.52,
+                      "gap": 0,
+                      "rotation": 0
+                    },
+                    {
+                      "uid": "imw199vgxfdjh8a",
+                      "relation": "right",
+                      "targetUid": "imw199vgxirderm",
+                      "x": 0.65,
+                      "y": 0.55,
+                      "gap": 0.04,
+                      "rotation": 0
+                    },
+                    {
+                      "uid": "imw199vgxz9de3a",
+                      "relation": "canvas",
+                      "x": 0.2,
+                      "y": 0.3,
+                      "gap": 0,
+                      "rotation": 0
+                    }
+                  ]
+                },
+                {
+                  "principle": "Просторное размещение элементов",
+                  "placements": [
+                    {
+                      "uid": "imw199vgxirderm",
+                      "relation": "canvas",
+                      "x": 0.4,
+                      "y": 0.5,
+                      "gap": 0,
+                      "rotation": 0
+                    },
+                    {
+                      "uid": "imw199vgxfdjh8a",
+                      "relation": "right",
+                      "targetUid": "imw199vgxirderm",
+                      "x": 0.68,
+                      "y": 0.52,
+                      "gap": 0.06,
+                      "rotation": 0
+                    },
+                    {
+                      "uid": "imw199vgxz9de3a",
+                      "relation": "canvas",
+                      "x": 0.22,
+                      "y": 0.28,
+                      "gap": 0,
+                      "rotation": 0
+                    }
+                  ]
+                },
+                {
+                  "principle": "Диагональное построение группы",
+                  "placements": [
+                    {
+                      "uid": "imw199vgxirderm",
+                      "relation": "canvas",
+                      "x": 0.44,
+                      "y": 0.56,
+                      "gap": 0,
+                      "rotation": 0
+                    },
+                    {
+                      "uid": "imw199vgxfdjh8a",
+                      "relation": "right",
+                      "targetUid": "imw199vgxirderm",
+                      "x": 0.64,
+                      "y": 0.48,
+                      "gap": 0.04,
+                      "rotation": 0
+                    },
+                    {
+                      "uid": "imw199vgxz9de3a",
+                      "relation": "canvas",
+                      "x": 0.22,
+                      "y": 0.32,
+                      "gap": 0,
+                      "rotation": 0
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "format": "landscape",
+              "views": [
+                {
+                  "principle": "Горизонтальный баланс элементов",
+                  "placements": [
+                    {
+                      "uid": "imw199vgxirderm",
+                      "relation": "canvas",
+                      "x": 0.46,
+                      "y": 0.52,
+                      "gap": 0,
+                      "rotation": 0
+                    },
+                    {
+                      "uid": "imw199vgxfdjh8a",
+                      "relation": "right",
+                      "targetUid": "imw199vgxirderm",
+                      "x": 0.66,
+                      "y": 0.54,
+                      "gap": 0.04,
+                      "rotation": 0
+                    },
+                    {
+                      "uid": "imw199vgxz9de3a",
+                      "relation": "canvas",
+                      "x": 0.25,
+                      "y": 0.32,
+                      "gap": 0,
+                      "rotation": 0
+                    }
+                  ]
+                },
+                {
+                  "principle": "Широкий разворот в кадре",
+                  "placements": [
+                    {
+                      "uid": "imw199vgxirderm",
+                      "relation": "canvas",
+                      "x": 0.44,
+                      "y": 0.5,
+                      "gap": 0,
+                      "rotation": 0
+                    },
+                    {
+                      "uid": "imw199vgxfdjh8a",
+                      "relation": "right",
+                      "targetUid": "imw199vgxirderm",
+                      "x": 0.68,
+                      "y": 0.52,
+                      "gap": 0.06,
+                      "rotation": 0
+                    },
+                    {
+                      "uid": "imw199vgxz9de3a",
+                      "relation": "canvas",
+                      "x": 0.24,
+                      "y": 0.3,
+                      "gap": 0,
+                      "rotation": 0
+                    }
+                  ]
+                },
+                {
+                  "principle": "Диагональная раскладка под альбомный формат",
+                  "placements": [
+                    {
+                      "uid": "imw199vgxirderm",
+                      "relation": "canvas",
+                      "x": 0.48,
+                      "y": 0.55,
+                      "gap": 0,
+                      "rotation": 0
+                    },
+                    {
+                      "uid": "imw199vgxfdjh8a",
+                      "relation": "right",
+                      "targetUid": "imw199vgxirderm",
+                      "x": 0.65,
+                      "y": 0.48,
+                      "gap": 0.04,
+                      "rotation": 0
+                    },
+                    {
+                      "uid": "imw199vgxz9de3a",
+                      "relation": "canvas",
+                      "x": 0.26,
+                      "y": 0.34,
+                      "gap": 0,
+                      "rotation": 0
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "format": "portrait",
+              "views": [
+                {
+                  "principle": "Вертикальная центрированная композиция",
+                  "placements": [
+                    {
+                      "uid": "imw199vgxirderm",
+                      "relation": "canvas",
+                      "x": 0.5,
+                      "y": 0.48,
+                      "gap": 0,
+                      "rotation": 0
+                    },
+                    {
+                      "uid": "imw199vgxfdjh8a",
+                      "relation": "below",
+                      "targetUid": "imw199vgxirderm",
+                      "x": 0.5,
+                      "y": 0.62,
+                      "gap": 0.04,
+                      "rotation": 0
+                    },
+                    {
+                      "uid": "imw199vgxz9de3a",
+                      "relation": "canvas",
+                      "x": 0.28,
+                      "y": 0.25,
+                      "gap": 0,
+                      "rotation": 0
+                    }
+                  ]
+                },
+                {
+                  "principle": "Вытянутое вертикальное распределение",
+                  "placements": [
+                    {
+                      "uid": "imw199vgxirderm",
+                      "relation": "canvas",
+                      "x": 0.5,
+                      "y": 0.46,
+                      "gap": 0,
+                      "rotation": 0
+                    },
+                    {
+                      "uid": "imw199vgxfdjh8a",
+                      "relation": "below",
+                      "targetUid": "imw199vgxirderm",
+                      "x": 0.5,
+                      "y": 0.64,
+                      "gap": 0.06,
+                      "rotation": 0
+                    },
+                    {
+                      "uid": "imw199vgxz9de3a",
+                      "relation": "canvas",
+                      "x": 0.3,
+                      "y": 0.24,
+                      "gap": 0,
+                      "rotation": 0
+                    }
+                  ]
+                },
+                {
+                  "principle": "Диагональный акцент в портретном формате",
+                  "placements": [
+                    {
+                      "uid": "imw199vgxirderm",
+                      "relation": "canvas",
+                      "x": 0.52,
+                      "y": 0.5,
+                      "gap": 0,
+                      "rotation": 0
+                    },
+                    {
+                      "uid": "imw199vgxfdjh8a",
+                      "relation": "below",
+                      "targetUid": "imw199vgxirderm",
+                      "x": 0.46,
+                      "y": 0.64,
+                      "gap": 0.04,
+                      "rotation": 0
+                    },
+                    {
+                      "uid": "imw199vgxz9de3a",
+                      "relation": "canvas",
+                      "x": 0.28,
+                      "y": 0.26,
+                      "gap": 0,
+                      "rotation": 0
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "executionNotes": [
+            "Положение «Настольная лампа» уточнено по границам кадра и реестру пересечений."
+          ],
+          "width": 800,
+          "height": 1200,
+          "format": "portrait",
+          "size": "S",
+          "palette": "aqua",
+          "layout": "compact",
+          "background": "pattern",
+          "backgroundDesign": "auto",
+          "supporting": true,
+          "showSupporting": true,
+          "camera": null,
+          "composition": {
+            "index": 1,
+            "options": [
+              {
+                "strategy": "balanced",
+                "title": "Сбалансированная пара",
+                "principle": "Смартфон и пазл образуют устойчивую смысловую группу в центре холста.",
+                "placement": "beside"
+              },
+              {
+                "strategy": "spacious",
+                "title": "Свободное расположение",
+                "principle": "Элементы разделены небольшим аккуратным просветом для лучшей читаемости силуэтов.",
+                "placement": "beside"
+              },
+              {
+                "strategy": "diagonal",
+                "title": "Диагональный ритм",
+                "principle": "Главные предметы выстроены по диагонали, задавая естественное движение взгляда.",
+                "placement": "beside"
+              }
+            ]
+          },
+          "layerRelations": [
+            {
+              "back": "imw199vgxfdjh8a",
+              "front": "imw199vgxirderm",
+              "reason": "Пазл расположен рядом со смартфоном"
+            },
+            {
+              "back": "imw199vgxz9de3a",
+              "front": "imw199vgxirderm",
+              "reason": "Фоновая лампа находится позади главной группы"
+            }
+          ],
+          "recipe": "team",
+          "framing": "overview",
+          "focus": "phone",
+          "query": "Найти недостающий элемент",
+          "scale": 1,
+          "items": [
+            {
+              "uid": "imw199vgxz9de3a",
+              "assetId": "lamp",
+              "role": "background",
+              "x": 96,
+              "y": 144,
+              "rotation": 0,
+              "flipX": false,
+              "flipY": false,
+              "zone": "top-left",
+              "crop": "fragment"
+            },
+            {
+              "uid": "imw199vgxfdjh8a",
+              "assetId": "puzzle",
+              "role": "main",
+              "x": 419.11,
+              "y": 793.9402702702703,
+              "rotation": 0,
+              "flipX": false,
+              "flipY": false,
+              "zone": "auto",
+              "crop": "whole"
+            },
+            {
+              "uid": "imw199vgxirderm",
+              "assetId": "phone",
+              "role": "main",
+              "x": 419.95,
+              "y": 568.17,
+              "rotation": 0,
+              "flipX": false,
+              "flipY": false,
+              "zone": "auto",
+              "crop": "whole"
+            }
+          ]
+        },
+        {
+          "version": 1,
+          "sizing": "native",
+          "environmentPrompt": "",
+          "environmentExplanation": [
+            "Главная пара объединяет смартфон и пазл для демонстрации цифровой задачи и её решения.",
+            "Настольная лампа добавлена как фоновый компаньон для создания атмосферы рабочего места.",
+            "Компактная компоновка удерживает элементы в единой связной группе."
+          ],
+          "groups": [
+            {
+              "kind": "collection",
+              "members": [
+                "imw199vgxfdjh8a",
+                "imw199vgxirderm"
+              ],
+              "reason": "Диагональный акцент в портретном формате"
+            }
+          ],
+          "formatPlans": [],
+          "stagingPlans": [
+            {
+              "format": "square",
+              "views": [
+                {
+                  "principle": "Центральная сбалансированная композиция",
+                  "placements": [
+                    {
+                      "uid": "imw199vgxirderm",
+                      "relation": "canvas",
+                      "x": 0.42,
+                      "y": 0.52,
+                      "gap": 0,
+                      "rotation": 0
+                    },
+                    {
+                      "uid": "imw199vgxfdjh8a",
+                      "relation": "right",
+                      "targetUid": "imw199vgxirderm",
+                      "x": 0.65,
+                      "y": 0.55,
+                      "gap": 0.04,
+                      "rotation": 0
+                    },
+                    {
+                      "uid": "imw199vgxz9de3a",
+                      "relation": "canvas",
+                      "x": 0.2,
+                      "y": 0.3,
+                      "gap": 0,
+                      "rotation": 0
+                    }
+                  ]
+                },
+                {
+                  "principle": "Просторное размещение элементов",
+                  "placements": [
+                    {
+                      "uid": "imw199vgxirderm",
+                      "relation": "canvas",
+                      "x": 0.4,
+                      "y": 0.5,
+                      "gap": 0,
+                      "rotation": 0
+                    },
+                    {
+                      "uid": "imw199vgxfdjh8a",
+                      "relation": "right",
+                      "targetUid": "imw199vgxirderm",
+                      "x": 0.68,
+                      "y": 0.52,
+                      "gap": 0.06,
+                      "rotation": 0
+                    },
+                    {
+                      "uid": "imw199vgxz9de3a",
+                      "relation": "canvas",
+                      "x": 0.22,
+                      "y": 0.28,
+                      "gap": 0,
+                      "rotation": 0
+                    }
+                  ]
+                },
+                {
+                  "principle": "Диагональное построение группы",
+                  "placements": [
+                    {
+                      "uid": "imw199vgxirderm",
+                      "relation": "canvas",
+                      "x": 0.44,
+                      "y": 0.56,
+                      "gap": 0,
+                      "rotation": 0
+                    },
+                    {
+                      "uid": "imw199vgxfdjh8a",
+                      "relation": "right",
+                      "targetUid": "imw199vgxirderm",
+                      "x": 0.64,
+                      "y": 0.48,
+                      "gap": 0.04,
+                      "rotation": 0
+                    },
+                    {
+                      "uid": "imw199vgxz9de3a",
+                      "relation": "canvas",
+                      "x": 0.22,
+                      "y": 0.32,
+                      "gap": 0,
+                      "rotation": 0
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "format": "landscape",
+              "views": [
+                {
+                  "principle": "Горизонтальный баланс элементов",
+                  "placements": [
+                    {
+                      "uid": "imw199vgxirderm",
+                      "relation": "canvas",
+                      "x": 0.46,
+                      "y": 0.52,
+                      "gap": 0,
+                      "rotation": 0
+                    },
+                    {
+                      "uid": "imw199vgxfdjh8a",
+                      "relation": "right",
+                      "targetUid": "imw199vgxirderm",
+                      "x": 0.66,
+                      "y": 0.54,
+                      "gap": 0.04,
+                      "rotation": 0
+                    },
+                    {
+                      "uid": "imw199vgxz9de3a",
+                      "relation": "canvas",
+                      "x": 0.25,
+                      "y": 0.32,
+                      "gap": 0,
+                      "rotation": 0
+                    }
+                  ]
+                },
+                {
+                  "principle": "Широкий разворот в кадре",
+                  "placements": [
+                    {
+                      "uid": "imw199vgxirderm",
+                      "relation": "canvas",
+                      "x": 0.44,
+                      "y": 0.5,
+                      "gap": 0,
+                      "rotation": 0
+                    },
+                    {
+                      "uid": "imw199vgxfdjh8a",
+                      "relation": "right",
+                      "targetUid": "imw199vgxirderm",
+                      "x": 0.68,
+                      "y": 0.52,
+                      "gap": 0.06,
+                      "rotation": 0
+                    },
+                    {
+                      "uid": "imw199vgxz9de3a",
+                      "relation": "canvas",
+                      "x": 0.24,
+                      "y": 0.3,
+                      "gap": 0,
+                      "rotation": 0
+                    }
+                  ]
+                },
+                {
+                  "principle": "Диагональная раскладка под альбомный формат",
+                  "placements": [
+                    {
+                      "uid": "imw199vgxirderm",
+                      "relation": "canvas",
+                      "x": 0.48,
+                      "y": 0.55,
+                      "gap": 0,
+                      "rotation": 0
+                    },
+                    {
+                      "uid": "imw199vgxfdjh8a",
+                      "relation": "right",
+                      "targetUid": "imw199vgxirderm",
+                      "x": 0.65,
+                      "y": 0.48,
+                      "gap": 0.04,
+                      "rotation": 0
+                    },
+                    {
+                      "uid": "imw199vgxz9de3a",
+                      "relation": "canvas",
+                      "x": 0.26,
+                      "y": 0.34,
+                      "gap": 0,
+                      "rotation": 0
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "format": "portrait",
+              "views": [
+                {
+                  "principle": "Вертикальная центрированная композиция",
+                  "placements": [
+                    {
+                      "uid": "imw199vgxirderm",
+                      "relation": "canvas",
+                      "x": 0.5,
+                      "y": 0.48,
+                      "gap": 0,
+                      "rotation": 0
+                    },
+                    {
+                      "uid": "imw199vgxfdjh8a",
+                      "relation": "below",
+                      "targetUid": "imw199vgxirderm",
+                      "x": 0.5,
+                      "y": 0.62,
+                      "gap": 0.04,
+                      "rotation": 0
+                    },
+                    {
+                      "uid": "imw199vgxz9de3a",
+                      "relation": "canvas",
+                      "x": 0.28,
+                      "y": 0.25,
+                      "gap": 0,
+                      "rotation": 0
+                    }
+                  ]
+                },
+                {
+                  "principle": "Вытянутое вертикальное распределение",
+                  "placements": [
+                    {
+                      "uid": "imw199vgxirderm",
+                      "relation": "canvas",
+                      "x": 0.5,
+                      "y": 0.46,
+                      "gap": 0,
+                      "rotation": 0
+                    },
+                    {
+                      "uid": "imw199vgxfdjh8a",
+                      "relation": "below",
+                      "targetUid": "imw199vgxirderm",
+                      "x": 0.5,
+                      "y": 0.64,
+                      "gap": 0.06,
+                      "rotation": 0
+                    },
+                    {
+                      "uid": "imw199vgxz9de3a",
+                      "relation": "canvas",
+                      "x": 0.3,
+                      "y": 0.24,
+                      "gap": 0,
+                      "rotation": 0
+                    }
+                  ]
+                },
+                {
+                  "principle": "Диагональный акцент в портретном формате",
+                  "placements": [
+                    {
+                      "uid": "imw199vgxirderm",
+                      "relation": "canvas",
+                      "x": 0.52,
+                      "y": 0.5,
+                      "gap": 0,
+                      "rotation": 0
+                    },
+                    {
+                      "uid": "imw199vgxfdjh8a",
+                      "relation": "below",
+                      "targetUid": "imw199vgxirderm",
+                      "x": 0.46,
+                      "y": 0.64,
+                      "gap": 0.04,
+                      "rotation": 0
+                    },
+                    {
+                      "uid": "imw199vgxz9de3a",
+                      "relation": "canvas",
+                      "x": 0.28,
+                      "y": 0.26,
+                      "gap": 0,
+                      "rotation": 0
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "executionNotes": [
+            "Положение «Настольная лампа» уточнено по границам кадра и реестру пересечений."
+          ],
+          "width": 800,
+          "height": 1200,
+          "format": "portrait",
+          "size": "S",
+          "palette": "aqua",
+          "layout": "compact",
+          "background": "pattern",
+          "backgroundDesign": "auto",
+          "supporting": true,
+          "showSupporting": true,
+          "camera": null,
+          "composition": {
+            "index": 2,
+            "options": [
+              {
+                "strategy": "balanced",
+                "title": "Сбалансированная пара",
+                "principle": "Смартфон и пазл образуют устойчивую смысловую группу в центре холста.",
+                "placement": "beside"
+              },
+              {
+                "strategy": "spacious",
+                "title": "Свободное расположение",
+                "principle": "Элементы разделены небольшим аккуратным просветом для лучшей читаемости силуэтов.",
+                "placement": "beside"
+              },
+              {
+                "strategy": "diagonal",
+                "title": "Диагональный ритм",
+                "principle": "Главные предметы выстроены по диагонали, задавая естественное движение взгляда.",
+                "placement": "beside"
+              }
+            ]
+          },
+          "layerRelations": [
+            {
+              "back": "imw199vgxfdjh8a",
+              "front": "imw199vgxirderm",
+              "reason": "Пазл расположен рядом со смартфоном"
+            },
+            {
+              "back": "imw199vgxz9de3a",
+              "front": "imw199vgxirderm",
+              "reason": "Фоновая лампа находится позади главной группы"
+            }
+          ],
+          "recipe": "team",
+          "framing": "overview",
+          "focus": "phone",
+          "query": "Найти недостающий элемент",
+          "scale": 1,
+          "items": [
+            {
+              "uid": "imw199vgxz9de3a",
+              "assetId": "lamp",
+              "role": "background",
+              "x": 96,
+              "y": 144,
+              "rotation": 0,
+              "flipX": false,
+              "flipY": false,
+              "zone": "top-left",
+              "crop": "fragment"
+            },
+            {
+              "uid": "imw199vgxfdjh8a",
+              "assetId": "puzzle",
+              "role": "main",
+              "x": 387.11,
+              "y": 825.9402702702703,
+              "rotation": 0,
+              "flipX": false,
+              "flipY": false,
+              "zone": "auto",
+              "crop": "whole"
+            },
+            {
+              "uid": "imw199vgxirderm",
+              "assetId": "phone",
+              "role": "main",
+              "x": 435.95,
+              "y": 616.17,
+              "rotation": 0,
+              "flipX": false,
+              "flipY": false,
+              "zone": "auto",
+              "crop": "whole"
+            }
+          ]
+        }
+      ]
+    }
+  }
+}

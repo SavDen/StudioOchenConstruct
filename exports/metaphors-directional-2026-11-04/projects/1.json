@@ -1,0 +1,4090 @@
+{
+  "type": "composition-project",
+  "version": 2,
+  "scene": {
+    "version": 1,
+    "sizing": "native",
+    "environmentPrompt": "",
+    "environmentExplanation": [
+      "Главная группа объединяет открытую книгу как источник знаний и смартфон как символ их мгновенной доступности.",
+      "Фоновый предмет-компаньон дополняет композицию сдержанным контекстом порядка.",
+      "Компактная композиция выстраивает предметы в единую узнаваемую группу без перегрузки кадра."
+    ],
+    "groups": [
+      {
+        "kind": "collection",
+        "members": [
+          "imw1rkvfqk3hmfs",
+          "imw1rkvfqbc7jw2"
+        ],
+        "reason": "Центральная компактная компоновка с опорой телефона на книгу."
+      }
+    ],
+    "formatPlans": [],
+    "stagingPlans": [
+      {
+        "format": "square",
+        "views": [
+          {
+            "principle": "Центральная компактная компоновка с опорой телефона на книгу.",
+            "placements": [
+              {
+                "uid": "imw1rkvfqk3hmfs",
+                "relation": "canvas",
+                "x": 0.5,
+                "y": 0.52,
+                "gap": 0,
+                "rotation": 0
+              },
+              {
+                "uid": "imw1rkvfqbc7jw2",
+                "relation": "on",
+                "targetUid": "imw1rkvfqk3hmfs",
+                "x": 0.66,
+                "y": 0.28,
+                "gap": 0,
+                "rotation": 0
+              },
+              {
+                "uid": "imw1rkvfqfibcuc",
+                "relation": "above",
+                "targetUid": "imw1rkvfqk3hmfs",
+                "x": 0.35,
+                "y": 0.25,
+                "gap": 0.05,
+                "rotation": 0
+              }
+            ]
+          },
+          {
+            "principle": "Смещение группы вправо для баланса с фоновым элементом слева.",
+            "placements": [
+              {
+                "uid": "imw1rkvfqk3hmfs",
+                "relation": "canvas",
+                "x": 0.55,
+                "y": 0.55,
+                "gap": 0,
+                "rotation": 0
+              },
+              {
+                "uid": "imw1rkvfqbc7jw2",
+                "relation": "on",
+                "targetUid": "imw1rkvfqk3hmfs",
+                "x": 0.74,
+                "y": 0.37,
+                "gap": 0,
+                "rotation": 0
+              },
+              {
+                "uid": "imw1rkvfqfibcuc",
+                "relation": "left",
+                "targetUid": "imw1rkvfqk3hmfs",
+                "x": 0.25,
+                "y": 0.45,
+                "gap": 0.08,
+                "rotation": 0
+              }
+            ]
+          },
+          {
+            "principle": "Диагональное расположение элементов для динамичного восприятия темы.",
+            "placements": [
+              {
+                "uid": "imw1rkvfqk3hmfs",
+                "relation": "canvas",
+                "x": 0.48,
+                "y": 0.5,
+                "gap": 0,
+                "rotation": 0
+              },
+              {
+                "uid": "imw1rkvfqbc7jw2",
+                "relation": "on",
+                "targetUid": "imw1rkvfqk3hmfs",
+                "x": 0.7,
+                "y": 0.32,
+                "gap": 0,
+                "rotation": 0
+              },
+              {
+                "uid": "imw1rkvfqfibcuc",
+                "relation": "above",
+                "targetUid": "imw1rkvfqk3hmfs",
+                "x": 0.28,
+                "y": 0.2,
+                "gap": 0.06,
+                "rotation": 0
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "format": "landscape",
+        "views": [
+          {
+            "principle": "Горизонтальная компактная группа с размещением телефона на книге.",
+            "placements": [
+              {
+                "uid": "imw1rkvfqk3hmfs",
+                "relation": "canvas",
+                "x": 0.52,
+                "y": 0.55,
+                "gap": 0,
+                "rotation": 0
+              },
+              {
+                "uid": "imw1rkvfqbc7jw2",
+                "relation": "on",
+                "targetUid": "imw1rkvfqk3hmfs",
+                "x": 0.66,
+                "y": 0.28,
+                "gap": 0,
+                "rotation": 0
+              },
+              {
+                "uid": "imw1rkvfqfibcuc",
+                "relation": "left",
+                "targetUid": "imw1rkvfqk3hmfs",
+                "x": 0.25,
+                "y": 0.45,
+                "gap": 0.08,
+                "rotation": 0
+              }
+            ]
+          },
+          {
+            "principle": "Сбалансированное смещение главной группы к правому центру.",
+            "placements": [
+              {
+                "uid": "imw1rkvfqk3hmfs",
+                "relation": "canvas",
+                "x": 0.58,
+                "y": 0.52,
+                "gap": 0,
+                "rotation": 0
+              },
+              {
+                "uid": "imw1rkvfqbc7jw2",
+                "relation": "on",
+                "targetUid": "imw1rkvfqk3hmfs",
+                "x": 0.74,
+                "y": 0.37,
+                "gap": 0,
+                "rotation": 0
+              },
+              {
+                "uid": "imw1rkvfqfibcuc",
+                "relation": "above",
+                "targetUid": "imw1rkvfqk3hmfs",
+                "x": 0.32,
+                "y": 0.25,
+                "gap": 0.06,
+                "rotation": 0
+              }
+            ]
+          },
+          {
+            "principle": "Широкий горизонтальный разворот с акцентом на доступность вблизи.",
+            "placements": [
+              {
+                "uid": "imw1rkvfqk3hmfs",
+                "relation": "canvas",
+                "x": 0.5,
+                "y": 0.5,
+                "gap": 0,
+                "rotation": 0
+              },
+              {
+                "uid": "imw1rkvfqbc7jw2",
+                "relation": "on",
+                "targetUid": "imw1rkvfqk3hmfs",
+                "x": 0.7,
+                "y": 0.32,
+                "gap": 0,
+                "rotation": 0
+              },
+              {
+                "uid": "imw1rkvfqfibcuc",
+                "relation": "left",
+                "targetUid": "imw1rkvfqk3hmfs",
+                "x": 0.22,
+                "y": 0.5,
+                "gap": 0.1,
+                "rotation": 0
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "format": "portrait",
+        "views": [
+          {
+            "principle": "Вертикальная компоновка для формата портрет с опорой на книгу.",
+            "placements": [
+              {
+                "uid": "imw1rkvfqk3hmfs",
+                "relation": "canvas",
+                "x": 0.5,
+                "y": 0.55,
+                "gap": 0,
+                "rotation": 0
+              },
+              {
+                "uid": "imw1rkvfqbc7jw2",
+                "relation": "on",
+                "targetUid": "imw1rkvfqk3hmfs",
+                "x": 0.66,
+                "y": 0.28,
+                "gap": 0,
+                "rotation": 0
+              },
+              {
+                "uid": "imw1rkvfqfibcuc",
+                "relation": "above",
+                "targetUid": "imw1rkvfqk3hmfs",
+                "x": 0.35,
+                "y": 0.3,
+                "gap": 0.05,
+                "rotation": 0
+              }
+            ]
+          },
+          {
+            "principle": "Вертикальный акцент с небольшим смещением вверх.",
+            "placements": [
+              {
+                "uid": "imw1rkvfqk3hmfs",
+                "relation": "canvas",
+                "x": 0.5,
+                "y": 0.52,
+                "gap": 0,
+                "rotation": 0
+              },
+              {
+                "uid": "imw1rkvfqbc7jw2",
+                "relation": "on",
+                "targetUid": "imw1rkvfqk3hmfs",
+                "x": 0.74,
+                "y": 0.37,
+                "gap": 0,
+                "rotation": 0
+              },
+              {
+                "uid": "imw1rkvfqfibcuc",
+                "relation": "above",
+                "targetUid": "imw1rkvfqk3hmfs",
+                "x": 0.3,
+                "y": 0.25,
+                "gap": 0.07,
+                "rotation": 0
+              }
+            ]
+          },
+          {
+            "principle": "Диагональное построение в вертикальном формате.",
+            "placements": [
+              {
+                "uid": "imw1rkvfqk3hmfs",
+                "relation": "canvas",
+                "x": 0.52,
+                "y": 0.5,
+                "gap": 0,
+                "rotation": 0
+              },
+              {
+                "uid": "imw1rkvfqbc7jw2",
+                "relation": "on",
+                "targetUid": "imw1rkvfqk3hmfs",
+                "x": 0.7,
+                "y": 0.32,
+                "gap": 0,
+                "rotation": 0
+              },
+              {
+                "uid": "imw1rkvfqfibcuc",
+                "relation": "left",
+                "targetUid": "imw1rkvfqk3hmfs",
+                "x": 0.28,
+                "y": 0.4,
+                "gap": 0.08,
+                "rotation": 0
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "width": 1000,
+    "height": 1000,
+    "format": "square",
+    "size": "S",
+    "palette": "aqua",
+    "layout": "compact",
+    "background": "pattern",
+    "backgroundDesign": "auto",
+    "supporting": true,
+    "showSupporting": true,
+    "camera": null,
+    "composition": {
+      "index": 0,
+      "options": [
+        {
+          "strategy": "balanced",
+          "title": "На опоре",
+          "principle": "Центральная компактная компоновка с опорой телефона на книгу.",
+          "placement": "on-surface"
+        },
+        {
+          "strategy": "spacious",
+          "title": "Рядом",
+          "principle": "Смещение группы вправо для баланса с фоновым элементом слева.",
+          "placement": "beside"
+        },
+        {
+          "strategy": "diagonal",
+          "title": "Другой ракурс группы",
+          "principle": "Диагональное расположение элементов для динамичного восприятия темы.",
+          "placement": "across"
+        }
+      ]
+    },
+    "layerRelations": [
+      {
+        "back": "imw1rkvfqk3hmfs",
+        "front": "imw1rkvfqbc7jw2",
+        "reason": "Предмет лежит на допустимой опоре."
+      },
+      {
+        "back": "imw1rkvfqfibcuc",
+        "front": "imw1rkvfqk3hmfs",
+        "reason": "Фоновый компаньон находится позади главной группы."
+      }
+    ],
+    "recipe": "auto",
+    "framing": "overview",
+    "focus": "book",
+    "query": "Знания всегда под рукой",
+    "scale": 1,
+    "items": [
+      {
+        "uid": "imw1rkvfqfibcuc",
+        "assetId": "folder",
+        "role": "background",
+        "x": 374.84,
+        "y": 95.03975659229212,
+        "rotation": 0,
+        "flipX": false,
+        "flipY": false,
+        "zone": "top-left",
+        "crop": "fragment"
+      },
+      {
+        "uid": "imw1rkvfqk3hmfs",
+        "assetId": "book",
+        "role": "main",
+        "x": 521.69,
+        "y": 544.45,
+        "rotation": 0,
+        "flipX": false,
+        "flipY": false,
+        "zone": "auto",
+        "crop": "whole"
+      },
+      {
+        "uid": "imw1rkvfqbc7jw2",
+        "assetId": "phone",
+        "role": "main",
+        "x": 637.3700000000001,
+        "y": 436.87000000000006,
+        "rotation": 0,
+        "flipX": false,
+        "flipY": false,
+        "supportUid": "imw1rkvfqk3hmfs",
+        "zone": "auto",
+        "crop": "whole"
+      }
+    ]
+  },
+  "memory": {
+    "version": 2,
+    "format": "square",
+    "index": 0,
+    "formats": {
+      "square": [
+        {
+          "version": 1,
+          "sizing": "native",
+          "environmentPrompt": "",
+          "environmentExplanation": [
+            "Главная группа объединяет открытую книгу как источник знаний и смартфон как символ их мгновенной доступности.",
+            "Фоновый предмет-компаньон дополняет композицию сдержанным контекстом порядка.",
+            "Компактная композиция выстраивает предметы в единую узнаваемую группу без перегрузки кадра."
+          ],
+          "groups": [
+            {
+              "kind": "collection",
+              "members": [
+                "imw1rkvfqk3hmfs",
+                "imw1rkvfqbc7jw2"
+              ],
+              "reason": "Центральная компактная компоновка с опорой телефона на книгу."
+            }
+          ],
+          "formatPlans": [],
+          "stagingPlans": [
+            {
+              "format": "square",
+              "views": [
+                {
+                  "principle": "Центральная компактная компоновка с опорой телефона на книгу.",
+                  "placements": [
+                    {
+                      "uid": "imw1rkvfqk3hmfs",
+                      "relation": "canvas",
+                      "x": 0.5,
+                      "y": 0.52,
+                      "gap": 0,
+                      "rotation": 0
+                    },
+                    {
+                      "uid": "imw1rkvfqbc7jw2",
+                      "relation": "on",
+                      "targetUid": "imw1rkvfqk3hmfs",
+                      "x": 0.66,
+                      "y": 0.28,
+                      "gap": 0,
+                      "rotation": 0
+                    },
+                    {
+                      "uid": "imw1rkvfqfibcuc",
+                      "relation": "above",
+                      "targetUid": "imw1rkvfqk3hmfs",
+                      "x": 0.35,
+                      "y": 0.25,
+                      "gap": 0.05,
+                      "rotation": 0
+                    }
+                  ]
+                },
+                {
+                  "principle": "Смещение группы вправо для баланса с фоновым элементом слева.",
+                  "placements": [
+                    {
+                      "uid": "imw1rkvfqk3hmfs",
+                      "relation": "canvas",
+                      "x": 0.55,
+                      "y": 0.55,
+                      "gap": 0,
+                      "rotation": 0
+                    },
+                    {
+                      "uid": "imw1rkvfqbc7jw2",
+                      "relation": "on",
+                      "targetUid": "imw1rkvfqk3hmfs",
+                      "x": 0.74,
+                      "y": 0.37,
+                      "gap": 0,
+                      "rotation": 0
+                    },
+                    {
+                      "uid": "imw1rkvfqfibcuc",
+                      "relation": "left",
+                      "targetUid": "imw1rkvfqk3hmfs",
+                      "x": 0.25,
+                      "y": 0.45,
+                      "gap": 0.08,
+                      "rotation": 0
+                    }
+                  ]
+                },
+                {
+                  "principle": "Диагональное расположение элементов для динамичного восприятия темы.",
+                  "placements": [
+                    {
+                      "uid": "imw1rkvfqk3hmfs",
+                      "relation": "canvas",
+                      "x": 0.48,
+                      "y": 0.5,
+                      "gap": 0,
+                      "rotation": 0
+                    },
+                    {
+                      "uid": "imw1rkvfqbc7jw2",
+                      "relation": "on",
+                      "targetUid": "imw1rkvfqk3hmfs",
+                      "x": 0.7,
+                      "y": 0.32,
+                      "gap": 0,
+                      "rotation": 0
+                    },
+                    {
+                      "uid": "imw1rkvfqfibcuc",
+                      "relation": "above",
+                      "targetUid": "imw1rkvfqk3hmfs",
+                      "x": 0.28,
+                      "y": 0.2,
+                      "gap": 0.06,
+                      "rotation": 0
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "format": "landscape",
+              "views": [
+                {
+                  "principle": "Горизонтальная компактная группа с размещением телефона на книге.",
+                  "placements": [
+                    {
+                      "uid": "imw1rkvfqk3hmfs",
+                      "relation": "canvas",
+                      "x": 0.52,
+                      "y": 0.55,
+                      "gap": 0,
+                      "rotation": 0
+                    },
+                    {
+                      "uid": "imw1rkvfqbc7jw2",
+                      "relation": "on",
+                      "targetUid": "imw1rkvfqk3hmfs",
+                      "x": 0.66,
+                      "y": 0.28,
+                      "gap": 0,
+                      "rotation": 0
+                    },
+                    {
+                      "uid": "imw1rkvfqfibcuc",
+                      "relation": "left",
+                      "targetUid": "imw1rkvfqk3hmfs",
+                      "x": 0.25,
+                      "y": 0.45,
+                      "gap": 0.08,
+                      "rotation": 0
+                    }
+                  ]
+                },
+                {
+                  "principle": "Сбалансированное смещение главной группы к правому центру.",
+                  "placements": [
+                    {
+                      "uid": "imw1rkvfqk3hmfs",
+                      "relation": "canvas",
+                      "x": 0.58,
+                      "y": 0.52,
+                      "gap": 0,
+                      "rotation": 0
+                    },
+                    {
+                      "uid": "imw1rkvfqbc7jw2",
+                      "relation": "on",
+                      "targetUid": "imw1rkvfqk3hmfs",
+                      "x": 0.74,
+                      "y": 0.37,
+                      "gap": 0,
+                      "rotation": 0
+                    },
+                    {
+                      "uid": "imw1rkvfqfibcuc",
+                      "relation": "above",
+                      "targetUid": "imw1rkvfqk3hmfs",
+                      "x": 0.32,
+                      "y": 0.25,
+                      "gap": 0.06,
+                      "rotation": 0
+                    }
+                  ]
+                },
+                {
+                  "principle": "Широкий горизонтальный разворот с акцентом на доступность вблизи.",
+                  "placements": [
+                    {
+                      "uid": "imw1rkvfqk3hmfs",
+                      "relation": "canvas",
+                      "x": 0.5,
+                      "y": 0.5,
+                      "gap": 0,
+                      "rotation": 0
+                    },
+                    {
+                      "uid": "imw1rkvfqbc7jw2",
+                      "relation": "on",
+                      "targetUid": "imw1rkvfqk3hmfs",
+                      "x": 0.7,
+                      "y": 0.32,
+                      "gap": 0,
+                      "rotation": 0
+                    },
+                    {
+                      "uid": "imw1rkvfqfibcuc",
+                      "relation": "left",
+                      "targetUid": "imw1rkvfqk3hmfs",
+                      "x": 0.22,
+                      "y": 0.5,
+                      "gap": 0.1,
+                      "rotation": 0
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "format": "portrait",
+              "views": [
+                {
+                  "principle": "Вертикальная компоновка для формата портрет с опорой на книгу.",
+                  "placements": [
+                    {
+                      "uid": "imw1rkvfqk3hmfs",
+                      "relation": "canvas",
+                      "x": 0.5,
+                      "y": 0.55,
+                      "gap": 0,
+                      "rotation": 0
+                    },
+                    {
+                      "uid": "imw1rkvfqbc7jw2",
+                      "relation": "on",
+                      "targetUid": "imw1rkvfqk3hmfs",
+                      "x": 0.66,
+                      "y": 0.28,
+                      "gap": 0,
+                      "rotation": 0
+                    },
+                    {
+                      "uid": "imw1rkvfqfibcuc",
+                      "relation": "above",
+                      "targetUid": "imw1rkvfqk3hmfs",
+                      "x": 0.35,
+                      "y": 0.3,
+                      "gap": 0.05,
+                      "rotation": 0
+                    }
+                  ]
+                },
+                {
+                  "principle": "Вертикальный акцент с небольшим смещением вверх.",
+                  "placements": [
+                    {
+                      "uid": "imw1rkvfqk3hmfs",
+                      "relation": "canvas",
+                      "x": 0.5,
+                      "y": 0.52,
+                      "gap": 0,
+                      "rotation": 0
+                    },
+                    {
+                      "uid": "imw1rkvfqbc7jw2",
+                      "relation": "on",
+                      "targetUid": "imw1rkvfqk3hmfs",
+                      "x": 0.74,
+                      "y": 0.37,
+                      "gap": 0,
+                      "rotation": 0
+                    },
+                    {
+                      "uid": "imw1rkvfqfibcuc",
+                      "relation": "above",
+                      "targetUid": "imw1rkvfqk3hmfs",
+                      "x": 0.3,
+                      "y": 0.25,
+                      "gap": 0.07,
+                      "rotation": 0
+                    }
+                  ]
+                },
+                {
+                  "principle": "Диагональное построение в вертикальном формате.",
+                  "placements": [
+                    {
+                      "uid": "imw1rkvfqk3hmfs",
+                      "relation": "canvas",
+                      "x": 0.52,
+                      "y": 0.5,
+                      "gap": 0,
+                      "rotation": 0
+                    },
+                    {
+                      "uid": "imw1rkvfqbc7jw2",
+                      "relation": "on",
+                      "targetUid": "imw1rkvfqk3hmfs",
+                      "x": 0.7,
+                      "y": 0.32,
+                      "gap": 0,
+                      "rotation": 0
+                    },
+                    {
+                      "uid": "imw1rkvfqfibcuc",
+                      "relation": "left",
+                      "targetUid": "imw1rkvfqk3hmfs",
+                      "x": 0.28,
+                      "y": 0.4,
+                      "gap": 0.08,
+                      "rotation": 0
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "width": 1000,
+          "height": 1000,
+          "format": "square",
+          "size": "S",
+          "palette": "aqua",
+          "layout": "compact",
+          "background": "pattern",
+          "backgroundDesign": "auto",
+          "supporting": true,
+          "showSupporting": true,
+          "camera": null,
+          "composition": {
+            "index": 0,
+            "options": [
+              {
+                "strategy": "balanced",
+                "title": "На опоре",
+                "principle": "Центральная компактная компоновка с опорой телефона на книгу.",
+                "placement": "on-surface"
+              },
+              {
+                "strategy": "spacious",
+                "title": "Рядом",
+                "principle": "Смещение группы вправо для баланса с фоновым элементом слева.",
+                "placement": "beside"
+              },
+              {
+                "strategy": "diagonal",
+                "title": "Другой ракурс группы",
+                "principle": "Диагональное расположение элементов для динамичного восприятия темы.",
+                "placement": "across"
+              }
+            ]
+          },
+          "layerRelations": [
+            {
+              "back": "imw1rkvfqk3hmfs",
+              "front": "imw1rkvfqbc7jw2",
+              "reason": "Предмет лежит на допустимой опоре."
+            },
+            {
+              "back": "imw1rkvfqfibcuc",
+              "front": "imw1rkvfqk3hmfs",
+              "reason": "Фоновый компаньон находится позади главной группы."
+            }
+          ],
+          "recipe": "auto",
+          "framing": "overview",
+          "focus": "book",
+          "query": "Знания всегда под рукой",
+          "scale": 1,
+          "items": [
+            {
+              "uid": "imw1rkvfqfibcuc",
+              "assetId": "folder",
+              "role": "background",
+              "x": 374.84,
+              "y": 95.03975659229212,
+              "rotation": 0,
+              "flipX": false,
+              "flipY": false,
+              "zone": "top-left",
+              "crop": "fragment"
+            },
+            {
+              "uid": "imw1rkvfqk3hmfs",
+              "assetId": "book",
+              "role": "main",
+              "x": 521.69,
+              "y": 544.45,
+              "rotation": 0,
+              "flipX": false,
+              "flipY": false,
+              "zone": "auto",
+              "crop": "whole"
+            },
+            {
+              "uid": "imw1rkvfqbc7jw2",
+              "assetId": "phone",
+              "role": "main",
+              "x": 637.3700000000001,
+              "y": 436.87000000000006,
+              "rotation": 0,
+              "flipX": false,
+              "flipY": false,
+              "supportUid": "imw1rkvfqk3hmfs",
+              "zone": "auto",
+              "crop": "whole"
+            }
+          ]
+        },
+        {
+          "version": 1,
+          "sizing": "native",
+          "environmentPrompt": "",
+          "environmentExplanation": [
+            "Главная группа объединяет открытую книгу как источник знаний и смартфон как символ их мгновенной доступности.",
+            "Фоновый предмет-компаньон дополняет композицию сдержанным контекстом порядка.",
+            "Компактная композиция выстраивает предметы в единую узнаваемую группу без перегрузки кадра."
+          ],
+          "groups": [
+            {
+              "kind": "collection",
+              "members": [
+                "imw1rkvfqk3hmfs",
+                "imw1rkvfqbc7jw2"
+              ],
+              "reason": "Смещение группы вправо для баланса с фоновым элементом слева."
+            }
+          ],
+          "formatPlans": [],
+          "stagingPlans": [
+            {
+              "format": "square",
+              "views": [
+                {
+                  "principle": "Центральная компактная компоновка с опорой телефона на книгу.",
+                  "placements": [
+                    {
+                      "uid": "imw1rkvfqk3hmfs",
+                      "relation": "canvas",
+                      "x": 0.5,
+                      "y": 0.52,
+                      "gap": 0,
+                      "rotation": 0
+                    },
+                    {
+                      "uid": "imw1rkvfqbc7jw2",
+                      "relation": "on",
+                      "targetUid": "imw1rkvfqk3hmfs",
+                      "x": 0.66,
+                      "y": 0.28,
+                      "gap": 0,
+                      "rotation": 0
+                    },
+                    {
+                      "uid": "imw1rkvfqfibcuc",
+                      "relation": "above",
+                      "targetUid": "imw1rkvfqk3hmfs",
+                      "x": 0.35,
+                      "y": 0.25,
+                      "gap": 0.05,
+                      "rotation": 0
+                    }
+                  ]
+                },
+                {
+                  "principle": "Смещение группы вправо для баланса с фоновым элементом слева.",
+                  "placements": [
+                    {
+                      "uid": "imw1rkvfqk3hmfs",
+                      "relation": "canvas",
+                      "x": 0.55,
+                      "y": 0.55,
+                      "gap": 0,
+                      "rotation": 0
+                    },
+                    {
+                      "uid": "imw1rkvfqbc7jw2",
+                      "relation": "on",
+                      "targetUid": "imw1rkvfqk3hmfs",
+                      "x": 0.74,
+                      "y": 0.37,
+                      "gap": 0,
+                      "rotation": 0
+                    },
+                    {
+                      "uid": "imw1rkvfqfibcuc",
+                      "relation": "left",
+                      "targetUid": "imw1rkvfqk3hmfs",
+                      "x": 0.25,
+                      "y": 0.45,
+                      "gap": 0.08,
+                      "rotation": 0
+                    }
+                  ]
+                },
+                {
+                  "principle": "Диагональное расположение элементов для динамичного восприятия темы.",
+                  "placements": [
+                    {
+                      "uid": "imw1rkvfqk3hmfs",
+                      "relation": "canvas",
+                      "x": 0.48,
+                      "y": 0.5,
+                      "gap": 0,
+                      "rotation": 0
+                    },
+                    {
+                      "uid": "imw1rkvfqbc7jw2",
+                      "relation": "on",
+                      "targetUid": "imw1rkvfqk3hmfs",
+                      "x": 0.7,
+                      "y": 0.32,
+                      "gap": 0,
+                      "rotation": 0
+                    },
+                    {
+                      "uid": "imw1rkvfqfibcuc",
+                      "relation": "above",
+                      "targetUid": "imw1rkvfqk3hmfs",
+                      "x": 0.28,
+                      "y": 0.2,
+                      "gap": 0.06,
+                      "rotation": 0
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "format": "landscape",
+              "views": [
+                {
+                  "principle": "Горизонтальная компактная группа с размещением телефона на книге.",
+                  "placements": [
+                    {
+                      "uid": "imw1rkvfqk3hmfs",
+                      "relation": "canvas",
+                      "x": 0.52,
+                      "y": 0.55,
+                      "gap": 0,
+                      "rotation": 0
+                    },
+                    {
+                      "uid": "imw1rkvfqbc7jw2",
+                      "relation": "on",
+                      "targetUid": "imw1rkvfqk3hmfs",
+                      "x": 0.66,
+                      "y": 0.28,
+                      "gap": 0,
+                      "rotation": 0
+                    },
+                    {
+                      "uid": "imw1rkvfqfibcuc",
+                      "relation": "left",
+                      "targetUid": "imw1rkvfqk3hmfs",
+                      "x": 0.25,
+                      "y": 0.45,
+                      "gap": 0.08,
+                      "rotation": 0
+                    }
+                  ]
+                },
+                {
+                  "principle": "Сбалансированное смещение главной группы к правому центру.",
+                  "placements": [
+                    {
+                      "uid": "imw1rkvfqk3hmfs",
+                      "relation": "canvas",
+                      "x": 0.58,
+                      "y": 0.52,
+                      "gap": 0,
+                      "rotation": 0
+                    },
+                    {
+                      "uid": "imw1rkvfqbc7jw2",
+                      "relation": "on",
+                      "targetUid": "imw1rkvfqk3hmfs",
+                      "x": 0.74,
+                      "y": 0.37,
+                      "gap": 0,
+                      "rotation": 0
+                    },
+                    {
+                      "uid": "imw1rkvfqfibcuc",
+                      "relation": "above",
+                      "targetUid": "imw1rkvfqk3hmfs",
+                      "x": 0.32,
+                      "y": 0.25,
+                      "gap": 0.06,
+                      "rotation": 0
+                    }
+                  ]
+                },
+                {
+                  "principle": "Широкий горизонтальный разворот с акцентом на доступность вблизи.",
+                  "placements": [
+                    {
+                      "uid": "imw1rkvfqk3hmfs",
+                      "relation": "canvas",
+                      "x": 0.5,
+                      "y": 0.5,
+                      "gap": 0,
+                      "rotation": 0
+                    },
+                    {
+                      "uid": "imw1rkvfqbc7jw2",
+                      "relation": "on",
+                      "targetUid": "imw1rkvfqk3hmfs",
+                      "x": 0.7,
+                      "y": 0.32,
+                      "gap": 0,
+                      "rotation": 0
+                    },
+                    {
+                      "uid": "imw1rkvfqfibcuc",
+                      "relation": "left",
+                      "targetUid": "imw1rkvfqk3hmfs",
+                      "x": 0.22,
+                      "y": 0.5,
+                      "gap": 0.1,
+                      "rotation": 0
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "format": "portrait",
+              "views": [
+                {
+                  "principle": "Вертикальная компоновка для формата портрет с опорой на книгу.",
+                  "placements": [
+                    {
+                      "uid": "imw1rkvfqk3hmfs",
+                      "relation": "canvas",
+                      "x": 0.5,
+                      "y": 0.55,
+                      "gap": 0,
+                      "rotation": 0
+                    },
+                    {
+                      "uid": "imw1rkvfqbc7jw2",
+                      "relation": "on",
+                      "targetUid": "imw1rkvfqk3hmfs",
+                      "x": 0.66,
+                      "y": 0.28,
+                      "gap": 0,
+                      "rotation": 0
+                    },
+                    {
+                      "uid": "imw1rkvfqfibcuc",
+                      "relation": "above",
+                      "targetUid": "imw1rkvfqk3hmfs",
+                      "x": 0.35,
+                      "y": 0.3,
+                      "gap": 0.05,
+                      "rotation": 0
+                    }
+                  ]
+                },
+                {
+                  "principle": "Вертикальный акцент с небольшим смещением вверх.",
+                  "placements": [
+                    {
+                      "uid": "imw1rkvfqk3hmfs",
+                      "relation": "canvas",
+                      "x": 0.5,
+                      "y": 0.52,
+                      "gap": 0,
+                      "rotation": 0
+                    },
+                    {
+                      "uid": "imw1rkvfqbc7jw2",
+                      "relation": "on",
+                      "targetUid": "imw1rkvfqk3hmfs",
+                      "x": 0.74,
+                      "y": 0.37,
+                      "gap": 0,
+                      "rotation": 0
+                    },
+                    {
+                      "uid": "imw1rkvfqfibcuc",
+                      "relation": "above",
+                      "targetUid": "imw1rkvfqk3hmfs",
+                      "x": 0.3,
+                      "y": 0.25,
+                      "gap": 0.07,
+                      "rotation": 0
+                    }
+                  ]
+                },
+                {
+                  "principle": "Диагональное построение в вертикальном формате.",
+                  "placements": [
+                    {
+                      "uid": "imw1rkvfqk3hmfs",
+                      "relation": "canvas",
+                      "x": 0.52,
+                      "y": 0.5,
+                      "gap": 0,
+                      "rotation": 0
+                    },
+                    {
+                      "uid": "imw1rkvfqbc7jw2",
+                      "relation": "on",
+                      "targetUid": "imw1rkvfqk3hmfs",
+                      "x": 0.7,
+                      "y": 0.32,
+                      "gap": 0,
+                      "rotation": 0
+                    },
+                    {
+                      "uid": "imw1rkvfqfibcuc",
+                      "relation": "left",
+                      "targetUid": "imw1rkvfqk3hmfs",
+                      "x": 0.28,
+                      "y": 0.4,
+                      "gap": 0.08,
+                      "rotation": 0
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "width": 1000,
+          "height": 1000,
+          "format": "square",
+          "size": "S",
+          "palette": "aqua",
+          "layout": "compact",
+          "background": "pattern",
+          "backgroundDesign": "auto",
+          "supporting": true,
+          "showSupporting": true,
+          "camera": null,
+          "composition": {
+            "index": 1,
+            "options": [
+              {
+                "strategy": "balanced",
+                "title": "На опоре",
+                "principle": "Центральная компактная компоновка с опорой телефона на книгу.",
+                "placement": "on-surface"
+              },
+              {
+                "strategy": "spacious",
+                "title": "Рядом",
+                "principle": "Смещение группы вправо для баланса с фоновым элементом слева.",
+                "placement": "beside"
+              },
+              {
+                "strategy": "diagonal",
+                "title": "Другой ракурс группы",
+                "principle": "Диагональное расположение элементов для динамичного восприятия темы.",
+                "placement": "across"
+              }
+            ]
+          },
+          "layerRelations": [
+            {
+              "back": "imw1rkvfqk3hmfs",
+              "front": "imw1rkvfqbc7jw2",
+              "reason": "Предмет лежит на допустимой опоре."
+            },
+            {
+              "back": "imw1rkvfqfibcuc",
+              "front": "imw1rkvfqk3hmfs",
+              "reason": "Фоновый компаньон находится позади главной группы."
+            }
+          ],
+          "recipe": "auto",
+          "framing": "overview",
+          "focus": "book",
+          "query": "Знания всегда под рукой",
+          "scale": 1,
+          "items": [
+            {
+              "uid": "imw1rkvfqfibcuc",
+              "assetId": "folder",
+              "role": "background",
+              "x": -164.5599999999999,
+              "y": 463.2,
+              "rotation": 0,
+              "flipX": false,
+              "flipY": false,
+              "zone": "top-left",
+              "crop": "fragment"
+            },
+            {
+              "uid": "imw1rkvfqk3hmfs",
+              "assetId": "book",
+              "role": "main",
+              "x": 571.69,
+              "y": 574.45,
+              "rotation": 0,
+              "flipX": false,
+              "flipY": false,
+              "zone": "auto",
+              "crop": "whole"
+            },
+            {
+              "uid": "imw1rkvfqbc7jw2",
+              "assetId": "phone",
+              "role": "main",
+              "x": 745.21,
+              "y": 510.88000000000005,
+              "rotation": 0,
+              "flipX": false,
+              "flipY": false,
+              "supportUid": "imw1rkvfqk3hmfs",
+              "zone": "auto",
+              "crop": "whole"
+            }
+          ]
+        },
+        {
+          "version": 1,
+          "sizing": "native",
+          "environmentPrompt": "",
+          "environmentExplanation": [
+            "Главная группа объединяет открытую книгу как источник знаний и смартфон как символ их мгновенной доступности.",
+            "Фоновый предмет-компаньон дополняет композицию сдержанным контекстом порядка.",
+            "Компактная композиция выстраивает предметы в единую узнаваемую группу без перегрузки кадра."
+          ],
+          "groups": [
+            {
+              "kind": "collection",
+              "members": [
+                "imw1rkvfqk3hmfs",
+                "imw1rkvfqbc7jw2"
+              ],
+              "reason": "Диагональное расположение элементов для динамичного восприятия темы."
+            }
+          ],
+          "formatPlans": [],
+          "stagingPlans": [
+            {
+              "format": "square",
+              "views": [
+                {
+                  "principle": "Центральная компактная компоновка с опорой телефона на книгу.",
+                  "placements": [
+                    {
+                      "uid": "imw1rkvfqk3hmfs",
+                      "relation": "canvas",
+                      "x": 0.5,
+                      "y": 0.52,
+                      "gap": 0,
+                      "rotation": 0
+                    },
+                    {
+                      "uid": "imw1rkvfqbc7jw2",
+                      "relation": "on",
+                      "targetUid": "imw1rkvfqk3hmfs",
+                      "x": 0.66,
+                      "y": 0.28,
+                      "gap": 0,
+                      "rotation": 0
+                    },
+                    {
+                      "uid": "imw1rkvfqfibcuc",
+                      "relation": "above",
+                      "targetUid": "imw1rkvfqk3hmfs",
+                      "x": 0.35,
+                      "y": 0.25,
+                      "gap": 0.05,
+                      "rotation": 0
+                    }
+                  ]
+                },
+                {
+                  "principle": "Смещение группы вправо для баланса с фоновым элементом слева.",
+                  "placements": [
+                    {
+                      "uid": "imw1rkvfqk3hmfs",
+                      "relation": "canvas",
+                      "x": 0.55,
+                      "y": 0.55,
+                      "gap": 0,
+                      "rotation": 0
+                    },
+                    {
+                      "uid": "imw1rkvfqbc7jw2",
+                      "relation": "on",
+                      "targetUid": "imw1rkvfqk3hmfs",
+                      "x": 0.74,
+                      "y": 0.37,
+                      "gap": 0,
+                      "rotation": 0
+                    },
+                    {
+                      "uid": "imw1rkvfqfibcuc",
+                      "relation": "left",
+                      "targetUid": "imw1rkvfqk3hmfs",
+                      "x": 0.25,
+                      "y": 0.45,
+                      "gap": 0.08,
+                      "rotation": 0
+                    }
+                  ]
+                },
+                {
+                  "principle": "Диагональное расположение элементов для динамичного восприятия темы.",
+                  "placements": [
+                    {
+                      "uid": "imw1rkvfqk3hmfs",
+                      "relation": "canvas",
+                      "x": 0.48,
+                      "y": 0.5,
+                      "gap": 0,
+                      "rotation": 0
+                    },
+                    {
+                      "uid": "imw1rkvfqbc7jw2",
+                      "relation": "on",
+                      "targetUid": "imw1rkvfqk3hmfs",
+                      "x": 0.7,
+                      "y": 0.32,
+                      "gap": 0,
+                      "rotation": 0
+                    },
+                    {
+                      "uid": "imw1rkvfqfibcuc",
+                      "relation": "above",
+                      "targetUid": "imw1rkvfqk3hmfs",
+                      "x": 0.28,
+                      "y": 0.2,
+                      "gap": 0.06,
+                      "rotation": 0
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "format": "landscape",
+              "views": [
+                {
+                  "principle": "Горизонтальная компактная группа с размещением телефона на книге.",
+                  "placements": [
+                    {
+                      "uid": "imw1rkvfqk3hmfs",
+                      "relation": "canvas",
+                      "x": 0.52,
+                      "y": 0.55,
+                      "gap": 0,
+                      "rotation": 0
+                    },
+                    {
+                      "uid": "imw1rkvfqbc7jw2",
+                      "relation": "on",
+                      "targetUid": "imw1rkvfqk3hmfs",
+                      "x": 0.66,
+                      "y": 0.28,
+                      "gap": 0,
+                      "rotation": 0
+                    },
+                    {
+                      "uid": "imw1rkvfqfibcuc",
+                      "relation": "left",
+                      "targetUid": "imw1rkvfqk3hmfs",
+                      "x": 0.25,
+                      "y": 0.45,
+                      "gap": 0.08,
+                      "rotation": 0
+                    }
+                  ]
+                },
+                {
+                  "principle": "Сбалансированное смещение главной группы к правому центру.",
+                  "placements": [
+                    {
+                      "uid": "imw1rkvfqk3hmfs",
+                      "relation": "canvas",
+                      "x": 0.58,
+                      "y": 0.52,
+                      "gap": 0,
+                      "rotation": 0
+                    },
+                    {
+                      "uid": "imw1rkvfqbc7jw2",
+                      "relation": "on",
+                      "targetUid": "imw1rkvfqk3hmfs",
+                      "x": 0.74,
+                      "y": 0.37,
+                      "gap": 0,
+                      "rotation": 0
+                    },
+                    {
+                      "uid": "imw1rkvfqfibcuc",
+                      "relation": "above",
+                      "targetUid": "imw1rkvfqk3hmfs",
+                      "x": 0.32,
+                      "y": 0.25,
+                      "gap": 0.06,
+                      "rotation": 0
+                    }
+                  ]
+                },
+                {
+                  "principle": "Широкий горизонтальный разворот с акцентом на доступность вблизи.",
+                  "placements": [
+                    {
+                      "uid": "imw1rkvfqk3hmfs",
+                      "relation": "canvas",
+                      "x": 0.5,
+                      "y": 0.5,
+                      "gap": 0,
+                      "rotation": 0
+                    },
+                    {
+                      "uid": "imw1rkvfqbc7jw2",
+                      "relation": "on",
+                      "targetUid": "imw1rkvfqk3hmfs",
+                      "x": 0.7,
+                      "y": 0.32,
+                      "gap": 0,
+                      "rotation": 0
+                    },
+                    {
+                      "uid": "imw1rkvfqfibcuc",
+                      "relation": "left",
+                      "targetUid": "imw1rkvfqk3hmfs",
+                      "x": 0.22,
+                      "y": 0.5,
+                      "gap": 0.1,
+                      "rotation": 0
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "format": "portrait",
+              "views": [
+                {
+                  "principle": "Вертикальная компоновка для формата портрет с опорой на книгу.",
+                  "placements": [
+                    {
+                      "uid": "imw1rkvfqk3hmfs",
+                      "relation": "canvas",
+                      "x": 0.5,
+                      "y": 0.55,
+                      "gap": 0,
+                      "rotation": 0
+                    },
+                    {
+                      "uid": "imw1rkvfqbc7jw2",
+                      "relation": "on",
+                      "targetUid": "imw1rkvfqk3hmfs",
+                      "x": 0.66,
+                      "y": 0.28,
+                      "gap": 0,
+                      "rotation": 0
+                    },
+                    {
+                      "uid": "imw1rkvfqfibcuc",
+                      "relation": "above",
+                      "targetUid": "imw1rkvfqk3hmfs",
+                      "x": 0.35,
+                      "y": 0.3,
+                      "gap": 0.05,
+                      "rotation": 0
+                    }
+                  ]
+                },
+                {
+                  "principle": "Вертикальный акцент с небольшим смещением вверх.",
+                  "placements": [
+                    {
+                      "uid": "imw1rkvfqk3hmfs",
+                      "relation": "canvas",
+                      "x": 0.5,
+                      "y": 0.52,
+                      "gap": 0,
+                      "rotation": 0
+                    },
+                    {
+                      "uid": "imw1rkvfqbc7jw2",
+                      "relation": "on",
+                      "targetUid": "imw1rkvfqk3hmfs",
+                      "x": 0.74,
+                      "y": 0.37,
+                      "gap": 0,
+                      "rotation": 0
+                    },
+                    {
+                      "uid": "imw1rkvfqfibcuc",
+                      "relation": "above",
+                      "targetUid": "imw1rkvfqk3hmfs",
+                      "x": 0.3,
+                      "y": 0.25,
+                      "gap": 0.07,
+                      "rotation": 0
+                    }
+                  ]
+                },
+                {
+                  "principle": "Диагональное построение в вертикальном формате.",
+                  "placements": [
+                    {
+                      "uid": "imw1rkvfqk3hmfs",
+                      "relation": "canvas",
+                      "x": 0.52,
+                      "y": 0.5,
+                      "gap": 0,
+                      "rotation": 0
+                    },
+                    {
+                      "uid": "imw1rkvfqbc7jw2",
+                      "relation": "on",
+                      "targetUid": "imw1rkvfqk3hmfs",
+                      "x": 0.7,
+                      "y": 0.32,
+                      "gap": 0,
+                      "rotation": 0
+                    },
+                    {
+                      "uid": "imw1rkvfqfibcuc",
+                      "relation": "left",
+                      "targetUid": "imw1rkvfqk3hmfs",
+                      "x": 0.28,
+                      "y": 0.4,
+                      "gap": 0.08,
+                      "rotation": 0
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "width": 1000,
+          "height": 1000,
+          "format": "square",
+          "size": "S",
+          "palette": "aqua",
+          "layout": "compact",
+          "background": "pattern",
+          "backgroundDesign": "auto",
+          "supporting": true,
+          "showSupporting": true,
+          "camera": null,
+          "composition": {
+            "index": 2,
+            "options": [
+              {
+                "strategy": "balanced",
+                "title": "На опоре",
+                "principle": "Центральная компактная компоновка с опорой телефона на книгу.",
+                "placement": "on-surface"
+              },
+              {
+                "strategy": "spacious",
+                "title": "Рядом",
+                "principle": "Смещение группы вправо для баланса с фоновым элементом слева.",
+                "placement": "beside"
+              },
+              {
+                "strategy": "diagonal",
+                "title": "Другой ракурс группы",
+                "principle": "Диагональное расположение элементов для динамичного восприятия темы.",
+                "placement": "across"
+              }
+            ]
+          },
+          "layerRelations": [
+            {
+              "back": "imw1rkvfqk3hmfs",
+              "front": "imw1rkvfqbc7jw2",
+              "reason": "Предмет лежит на допустимой опоре."
+            },
+            {
+              "back": "imw1rkvfqfibcuc",
+              "front": "imw1rkvfqk3hmfs",
+              "reason": "Фоновый компаньон находится позади главной группы."
+            }
+          ],
+          "recipe": "auto",
+          "framing": "overview",
+          "focus": "book",
+          "query": "Знания всегда под рукой",
+          "scale": 1,
+          "items": [
+            {
+              "uid": "imw1rkvfqfibcuc",
+              "assetId": "folder",
+              "role": "background",
+              "x": 304.84,
+              "y": 65.03975659229212,
+              "rotation": 0,
+              "flipX": false,
+              "flipY": false,
+              "zone": "top-left",
+              "crop": "fragment"
+            },
+            {
+              "uid": "imw1rkvfqk3hmfs",
+              "assetId": "book",
+              "role": "main",
+              "x": 501.69,
+              "y": 524.45,
+              "rotation": 0,
+              "flipX": false,
+              "flipY": false,
+              "zone": "auto",
+              "crop": "whole"
+            },
+            {
+              "uid": "imw1rkvfqbc7jw2",
+              "assetId": "phone",
+              "role": "main",
+              "x": 646.29,
+              "y": 436.43000000000006,
+              "rotation": 0,
+              "flipX": false,
+              "flipY": false,
+              "supportUid": "imw1rkvfqk3hmfs",
+              "zone": "auto",
+              "crop": "whole"
+            }
+          ]
+        }
+      ],
+      "landscape": [
+        {
+          "version": 1,
+          "sizing": "native",
+          "environmentPrompt": "",
+          "environmentExplanation": [
+            "Главная группа объединяет открытую книгу как источник знаний и смартфон как символ их мгновенной доступности.",
+            "Фоновый предмет-компаньон дополняет композицию сдержанным контекстом порядка.",
+            "Компактная композиция выстраивает предметы в единую узнаваемую группу без перегрузки кадра."
+          ],
+          "groups": [
+            {
+              "kind": "collection",
+              "members": [
+                "imw1rkvfqk3hmfs",
+                "imw1rkvfqbc7jw2"
+              ],
+              "reason": "Горизонтальная компактная группа с размещением телефона на книге."
+            }
+          ],
+          "formatPlans": [],
+          "stagingPlans": [
+            {
+              "format": "square",
+              "views": [
+                {
+                  "principle": "Центральная компактная компоновка с опорой телефона на книгу.",
+                  "placements": [
+                    {
+                      "uid": "imw1rkvfqk3hmfs",
+                      "relation": "canvas",
+                      "x": 0.5,
+                      "y": 0.52,
+                      "gap": 0,
+                      "rotation": 0
+                    },
+                    {
+                      "uid": "imw1rkvfqbc7jw2",
+                      "relation": "on",
+                      "targetUid": "imw1rkvfqk3hmfs",
+                      "x": 0.66,
+                      "y": 0.28,
+                      "gap": 0,
+                      "rotation": 0
+                    },
+                    {
+                      "uid": "imw1rkvfqfibcuc",
+                      "relation": "above",
+                      "targetUid": "imw1rkvfqk3hmfs",
+                      "x": 0.35,
+                      "y": 0.25,
+                      "gap": 0.05,
+                      "rotation": 0
+                    }
+                  ]
+                },
+                {
+                  "principle": "Смещение группы вправо для баланса с фоновым элементом слева.",
+                  "placements": [
+                    {
+                      "uid": "imw1rkvfqk3hmfs",
+                      "relation": "canvas",
+                      "x": 0.55,
+                      "y": 0.55,
+                      "gap": 0,
+                      "rotation": 0
+                    },
+                    {
+                      "uid": "imw1rkvfqbc7jw2",
+                      "relation": "on",
+                      "targetUid": "imw1rkvfqk3hmfs",
+                      "x": 0.74,
+                      "y": 0.37,
+                      "gap": 0,
+                      "rotation": 0
+                    },
+                    {
+                      "uid": "imw1rkvfqfibcuc",
+                      "relation": "left",
+                      "targetUid": "imw1rkvfqk3hmfs",
+                      "x": 0.25,
+                      "y": 0.45,
+                      "gap": 0.08,
+                      "rotation": 0
+                    }
+                  ]
+                },
+                {
+                  "principle": "Диагональное расположение элементов для динамичного восприятия темы.",
+                  "placements": [
+                    {
+                      "uid": "imw1rkvfqk3hmfs",
+                      "relation": "canvas",
+                      "x": 0.48,
+                      "y": 0.5,
+                      "gap": 0,
+                      "rotation": 0
+                    },
+                    {
+                      "uid": "imw1rkvfqbc7jw2",
+                      "relation": "on",
+                      "targetUid": "imw1rkvfqk3hmfs",
+                      "x": 0.7,
+                      "y": 0.32,
+                      "gap": 0,
+                      "rotation": 0
+                    },
+                    {
+                      "uid": "imw1rkvfqfibcuc",
+                      "relation": "above",
+                      "targetUid": "imw1rkvfqk3hmfs",
+                      "x": 0.28,
+                      "y": 0.2,
+                      "gap": 0.06,
+                      "rotation": 0
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "format": "landscape",
+              "views": [
+                {
+                  "principle": "Горизонтальная компактная группа с размещением телефона на книге.",
+                  "placements": [
+                    {
+                      "uid": "imw1rkvfqk3hmfs",
+                      "relation": "canvas",
+                      "x": 0.52,
+                      "y": 0.55,
+                      "gap": 0,
+                      "rotation": 0
+                    },
+                    {
+                      "uid": "imw1rkvfqbc7jw2",
+                      "relation": "on",
+                      "targetUid": "imw1rkvfqk3hmfs",
+                      "x": 0.66,
+                      "y": 0.28,
+                      "gap": 0,
+                      "rotation": 0
+                    },
+                    {
+                      "uid": "imw1rkvfqfibcuc",
+                      "relation": "left",
+                      "targetUid": "imw1rkvfqk3hmfs",
+                      "x": 0.25,
+                      "y": 0.45,
+                      "gap": 0.08,
+                      "rotation": 0
+                    }
+                  ]
+                },
+                {
+                  "principle": "Сбалансированное смещение главной группы к правому центру.",
+                  "placements": [
+                    {
+                      "uid": "imw1rkvfqk3hmfs",
+                      "relation": "canvas",
+                      "x": 0.58,
+                      "y": 0.52,
+                      "gap": 0,
+                      "rotation": 0
+                    },
+                    {
+                      "uid": "imw1rkvfqbc7jw2",
+                      "relation": "on",
+                      "targetUid": "imw1rkvfqk3hmfs",
+                      "x": 0.74,
+                      "y": 0.37,
+                      "gap": 0,
+                      "rotation": 0
+                    },
+                    {
+                      "uid": "imw1rkvfqfibcuc",
+                      "relation": "above",
+                      "targetUid": "imw1rkvfqk3hmfs",
+                      "x": 0.32,
+                      "y": 0.25,
+                      "gap": 0.06,
+                      "rotation": 0
+                    }
+                  ]
+                },
+                {
+                  "principle": "Широкий горизонтальный разворот с акцентом на доступность вблизи.",
+                  "placements": [
+                    {
+                      "uid": "imw1rkvfqk3hmfs",
+                      "relation": "canvas",
+                      "x": 0.5,
+                      "y": 0.5,
+                      "gap": 0,
+                      "rotation": 0
+                    },
+                    {
+                      "uid": "imw1rkvfqbc7jw2",
+                      "relation": "on",
+                      "targetUid": "imw1rkvfqk3hmfs",
+                      "x": 0.7,
+                      "y": 0.32,
+                      "gap": 0,
+                      "rotation": 0
+                    },
+                    {
+                      "uid": "imw1rkvfqfibcuc",
+                      "relation": "left",
+                      "targetUid": "imw1rkvfqk3hmfs",
+                      "x": 0.22,
+                      "y": 0.5,
+                      "gap": 0.1,
+                      "rotation": 0
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "format": "portrait",
+              "views": [
+                {
+                  "principle": "Вертикальная компоновка для формата портрет с опорой на книгу.",
+                  "placements": [
+                    {
+                      "uid": "imw1rkvfqk3hmfs",
+                      "relation": "canvas",
+                      "x": 0.5,
+                      "y": 0.55,
+                      "gap": 0,
+                      "rotation": 0
+                    },
+                    {
+                      "uid": "imw1rkvfqbc7jw2",
+                      "relation": "on",
+                      "targetUid": "imw1rkvfqk3hmfs",
+                      "x": 0.66,
+                      "y": 0.28,
+                      "gap": 0,
+                      "rotation": 0
+                    },
+                    {
+                      "uid": "imw1rkvfqfibcuc",
+                      "relation": "above",
+                      "targetUid": "imw1rkvfqk3hmfs",
+                      "x": 0.35,
+                      "y": 0.3,
+                      "gap": 0.05,
+                      "rotation": 0
+                    }
+                  ]
+                },
+                {
+                  "principle": "Вертикальный акцент с небольшим смещением вверх.",
+                  "placements": [
+                    {
+                      "uid": "imw1rkvfqk3hmfs",
+                      "relation": "canvas",
+                      "x": 0.5,
+                      "y": 0.52,
+                      "gap": 0,
+                      "rotation": 0
+                    },
+                    {
+                      "uid": "imw1rkvfqbc7jw2",
+                      "relation": "on",
+                      "targetUid": "imw1rkvfqk3hmfs",
+                      "x": 0.74,
+                      "y": 0.37,
+                      "gap": 0,
+                      "rotation": 0
+                    },
+                    {
+                      "uid": "imw1rkvfqfibcuc",
+                      "relation": "above",
+                      "targetUid": "imw1rkvfqk3hmfs",
+                      "x": 0.3,
+                      "y": 0.25,
+                      "gap": 0.07,
+                      "rotation": 0
+                    }
+                  ]
+                },
+                {
+                  "principle": "Диагональное построение в вертикальном формате.",
+                  "placements": [
+                    {
+                      "uid": "imw1rkvfqk3hmfs",
+                      "relation": "canvas",
+                      "x": 0.52,
+                      "y": 0.5,
+                      "gap": 0,
+                      "rotation": 0
+                    },
+                    {
+                      "uid": "imw1rkvfqbc7jw2",
+                      "relation": "on",
+                      "targetUid": "imw1rkvfqk3hmfs",
+                      "x": 0.7,
+                      "y": 0.32,
+                      "gap": 0,
+                      "rotation": 0
+                    },
+                    {
+                      "uid": "imw1rkvfqfibcuc",
+                      "relation": "left",
+                      "targetUid": "imw1rkvfqk3hmfs",
+                      "x": 0.28,
+                      "y": 0.4,
+                      "gap": 0.08,
+                      "rotation": 0
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "width": 1200,
+          "height": 630,
+          "format": "landscape",
+          "size": "S",
+          "palette": "aqua",
+          "layout": "compact",
+          "background": "pattern",
+          "backgroundDesign": "auto",
+          "supporting": true,
+          "showSupporting": true,
+          "camera": null,
+          "composition": {
+            "index": 0,
+            "options": [
+              {
+                "strategy": "balanced",
+                "title": "На опоре",
+                "principle": "Центральная компактная компоновка с опорой телефона на книгу.",
+                "placement": "on-surface"
+              },
+              {
+                "strategy": "spacious",
+                "title": "Рядом",
+                "principle": "Смещение группы вправо для баланса с фоновым элементом слева.",
+                "placement": "beside"
+              },
+              {
+                "strategy": "diagonal",
+                "title": "Другой ракурс группы",
+                "principle": "Диагональное расположение элементов для динамичного восприятия темы.",
+                "placement": "across"
+              }
+            ]
+          },
+          "layerRelations": [
+            {
+              "back": "imw1rkvfqk3hmfs",
+              "front": "imw1rkvfqbc7jw2",
+              "reason": "Предмет лежит на допустимой опоре."
+            },
+            {
+              "back": "imw1rkvfqfibcuc",
+              "front": "imw1rkvfqk3hmfs",
+              "reason": "Фоновый компаньон находится позади главной группы."
+            }
+          ],
+          "recipe": "auto",
+          "framing": "overview",
+          "focus": "book",
+          "query": "Знания всегда под рукой",
+          "scale": 1,
+          "items": [
+            {
+              "uid": "imw1rkvfqfibcuc",
+              "assetId": "folder",
+              "role": "background",
+              "x": -60.959999999999866,
+              "y": 296.7,
+              "rotation": 0,
+              "flipX": false,
+              "flipY": false,
+              "zone": "top-left",
+              "crop": "fragment"
+            },
+            {
+              "uid": "imw1rkvfqk3hmfs",
+              "assetId": "book",
+              "role": "main",
+              "x": 645.69,
+              "y": 370.95,
+              "rotation": 0,
+              "flipX": false,
+              "flipY": false,
+              "zone": "auto",
+              "crop": "whole"
+            },
+            {
+              "uid": "imw1rkvfqbc7jw2",
+              "assetId": "phone",
+              "role": "main",
+              "x": 761.3700000000001,
+              "y": 263.37,
+              "rotation": 0,
+              "flipX": false,
+              "flipY": false,
+              "supportUid": "imw1rkvfqk3hmfs",
+              "zone": "auto",
+              "crop": "whole"
+            }
+          ]
+        },
+        {
+          "version": 1,
+          "sizing": "native",
+          "environmentPrompt": "",
+          "environmentExplanation": [
+            "Главная группа объединяет открытую книгу как источник знаний и смартфон как символ их мгновенной доступности.",
+            "Фоновый предмет-компаньон дополняет композицию сдержанным контекстом порядка.",
+            "Компактная композиция выстраивает предметы в единую узнаваемую группу без перегрузки кадра."
+          ],
+          "groups": [
+            {
+              "kind": "collection",
+              "members": [
+                "imw1rkvfqk3hmfs",
+                "imw1rkvfqbc7jw2"
+              ],
+              "reason": "Сбалансированное смещение главной группы к правому центру."
+            }
+          ],
+          "formatPlans": [],
+          "stagingPlans": [
+            {
+              "format": "square",
+              "views": [
+                {
+                  "principle": "Центральная компактная компоновка с опорой телефона на книгу.",
+                  "placements": [
+                    {
+                      "uid": "imw1rkvfqk3hmfs",
+                      "relation": "canvas",
+                      "x": 0.5,
+                      "y": 0.52,
+                      "gap": 0,
+                      "rotation": 0
+                    },
+                    {
+                      "uid": "imw1rkvfqbc7jw2",
+                      "relation": "on",
+                      "targetUid": "imw1rkvfqk3hmfs",
+                      "x": 0.66,
+                      "y": 0.28,
+                      "gap": 0,
+                      "rotation": 0
+                    },
+                    {
+                      "uid": "imw1rkvfqfibcuc",
+                      "relation": "above",
+                      "targetUid": "imw1rkvfqk3hmfs",
+                      "x": 0.35,
+                      "y": 0.25,
+                      "gap": 0.05,
+                      "rotation": 0
+                    }
+                  ]
+                },
+                {
+                  "principle": "Смещение группы вправо для баланса с фоновым элементом слева.",
+                  "placements": [
+                    {
+                      "uid": "imw1rkvfqk3hmfs",
+                      "relation": "canvas",
+                      "x": 0.55,
+                      "y": 0.55,
+                      "gap": 0,
+                      "rotation": 0
+                    },
+                    {
+                      "uid": "imw1rkvfqbc7jw2",
+                      "relation": "on",
+                      "targetUid": "imw1rkvfqk3hmfs",
+                      "x": 0.74,
+                      "y": 0.37,
+                      "gap": 0,
+                      "rotation": 0
+                    },
+                    {
+                      "uid": "imw1rkvfqfibcuc",
+                      "relation": "left",
+                      "targetUid": "imw1rkvfqk3hmfs",
+                      "x": 0.25,
+                      "y": 0.45,
+                      "gap": 0.08,
+                      "rotation": 0
+                    }
+                  ]
+                },
+                {
+                  "principle": "Диагональное расположение элементов для динамичного восприятия темы.",
+                  "placements": [
+                    {
+                      "uid": "imw1rkvfqk3hmfs",
+                      "relation": "canvas",
+                      "x": 0.48,
+                      "y": 0.5,
+                      "gap": 0,
+                      "rotation": 0
+                    },
+                    {
+                      "uid": "imw1rkvfqbc7jw2",
+                      "relation": "on",
+                      "targetUid": "imw1rkvfqk3hmfs",
+                      "x": 0.7,
+                      "y": 0.32,
+                      "gap": 0,
+                      "rotation": 0
+                    },
+                    {
+                      "uid": "imw1rkvfqfibcuc",
+                      "relation": "above",
+                      "targetUid": "imw1rkvfqk3hmfs",
+                      "x": 0.28,
+                      "y": 0.2,
+                      "gap": 0.06,
+                      "rotation": 0
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "format": "landscape",
+              "views": [
+                {
+                  "principle": "Горизонтальная компактная группа с размещением телефона на книге.",
+                  "placements": [
+                    {
+                      "uid": "imw1rkvfqk3hmfs",
+                      "relation": "canvas",
+                      "x": 0.52,
+                      "y": 0.55,
+                      "gap": 0,
+                      "rotation": 0
+                    },
+                    {
+                      "uid": "imw1rkvfqbc7jw2",
+                      "relation": "on",
+                      "targetUid": "imw1rkvfqk3hmfs",
+                      "x": 0.66,
+                      "y": 0.28,
+                      "gap": 0,
+                      "rotation": 0
+                    },
+                    {
+                      "uid": "imw1rkvfqfibcuc",
+                      "relation": "left",
+                      "targetUid": "imw1rkvfqk3hmfs",
+                      "x": 0.25,
+                      "y": 0.45,
+                      "gap": 0.08,
+                      "rotation": 0
+                    }
+                  ]
+                },
+                {
+                  "principle": "Сбалансированное смещение главной группы к правому центру.",
+                  "placements": [
+                    {
+                      "uid": "imw1rkvfqk3hmfs",
+                      "relation": "canvas",
+                      "x": 0.58,
+                      "y": 0.52,
+                      "gap": 0,
+                      "rotation": 0
+                    },
+                    {
+                      "uid": "imw1rkvfqbc7jw2",
+                      "relation": "on",
+                      "targetUid": "imw1rkvfqk3hmfs",
+                      "x": 0.74,
+                      "y": 0.37,
+                      "gap": 0,
+                      "rotation": 0
+                    },
+                    {
+                      "uid": "imw1rkvfqfibcuc",
+                      "relation": "above",
+                      "targetUid": "imw1rkvfqk3hmfs",
+                      "x": 0.32,
+                      "y": 0.25,
+                      "gap": 0.06,
+                      "rotation": 0
+                    }
+                  ]
+                },
+                {
+                  "principle": "Широкий горизонтальный разворот с акцентом на доступность вблизи.",
+                  "placements": [
+                    {
+                      "uid": "imw1rkvfqk3hmfs",
+                      "relation": "canvas",
+                      "x": 0.5,
+                      "y": 0.5,
+                      "gap": 0,
+                      "rotation": 0
+                    },
+                    {
+                      "uid": "imw1rkvfqbc7jw2",
+                      "relation": "on",
+                      "targetUid": "imw1rkvfqk3hmfs",
+                      "x": 0.7,
+                      "y": 0.32,
+                      "gap": 0,
+                      "rotation": 0
+                    },
+                    {
+                      "uid": "imw1rkvfqfibcuc",
+                      "relation": "left",
+                      "targetUid": "imw1rkvfqk3hmfs",
+                      "x": 0.22,
+                      "y": 0.5,
+                      "gap": 0.1,
+                      "rotation": 0
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "format": "portrait",
+              "views": [
+                {
+                  "principle": "Вертикальная компоновка для формата портрет с опорой на книгу.",
+                  "placements": [
+                    {
+                      "uid": "imw1rkvfqk3hmfs",
+                      "relation": "canvas",
+                      "x": 0.5,
+                      "y": 0.55,
+                      "gap": 0,
+                      "rotation": 0
+                    },
+                    {
+                      "uid": "imw1rkvfqbc7jw2",
+                      "relation": "on",
+                      "targetUid": "imw1rkvfqk3hmfs",
+                      "x": 0.66,
+                      "y": 0.28,
+                      "gap": 0,
+                      "rotation": 0
+                    },
+                    {
+                      "uid": "imw1rkvfqfibcuc",
+                      "relation": "above",
+                      "targetUid": "imw1rkvfqk3hmfs",
+                      "x": 0.35,
+                      "y": 0.3,
+                      "gap": 0.05,
+                      "rotation": 0
+                    }
+                  ]
+                },
+                {
+                  "principle": "Вертикальный акцент с небольшим смещением вверх.",
+                  "placements": [
+                    {
+                      "uid": "imw1rkvfqk3hmfs",
+                      "relation": "canvas",
+                      "x": 0.5,
+                      "y": 0.52,
+                      "gap": 0,
+                      "rotation": 0
+                    },
+                    {
+                      "uid": "imw1rkvfqbc7jw2",
+                      "relation": "on",
+                      "targetUid": "imw1rkvfqk3hmfs",
+                      "x": 0.74,
+                      "y": 0.37,
+                      "gap": 0,
+                      "rotation": 0
+                    },
+                    {
+                      "uid": "imw1rkvfqfibcuc",
+                      "relation": "above",
+                      "targetUid": "imw1rkvfqk3hmfs",
+                      "x": 0.3,
+                      "y": 0.25,
+                      "gap": 0.07,
+                      "rotation": 0
+                    }
+                  ]
+                },
+                {
+                  "principle": "Диагональное построение в вертикальном формате.",
+                  "placements": [
+                    {
+                      "uid": "imw1rkvfqk3hmfs",
+                      "relation": "canvas",
+                      "x": 0.52,
+                      "y": 0.5,
+                      "gap": 0,
+                      "rotation": 0
+                    },
+                    {
+                      "uid": "imw1rkvfqbc7jw2",
+                      "relation": "on",
+                      "targetUid": "imw1rkvfqk3hmfs",
+                      "x": 0.7,
+                      "y": 0.32,
+                      "gap": 0,
+                      "rotation": 0
+                    },
+                    {
+                      "uid": "imw1rkvfqfibcuc",
+                      "relation": "left",
+                      "targetUid": "imw1rkvfqk3hmfs",
+                      "x": 0.28,
+                      "y": 0.4,
+                      "gap": 0.08,
+                      "rotation": 0
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "width": 1200,
+          "height": 630,
+          "format": "landscape",
+          "size": "S",
+          "palette": "aqua",
+          "layout": "compact",
+          "background": "pattern",
+          "backgroundDesign": "auto",
+          "supporting": true,
+          "showSupporting": true,
+          "camera": null,
+          "composition": {
+            "index": 1,
+            "options": [
+              {
+                "strategy": "balanced",
+                "title": "На опоре",
+                "principle": "Центральная компактная компоновка с опорой телефона на книгу.",
+                "placement": "on-surface"
+              },
+              {
+                "strategy": "spacious",
+                "title": "Рядом",
+                "principle": "Смещение группы вправо для баланса с фоновым элементом слева.",
+                "placement": "beside"
+              },
+              {
+                "strategy": "diagonal",
+                "title": "Другой ракурс группы",
+                "principle": "Диагональное расположение элементов для динамичного восприятия темы.",
+                "placement": "across"
+              }
+            ]
+          },
+          "layerRelations": [
+            {
+              "back": "imw1rkvfqk3hmfs",
+              "front": "imw1rkvfqbc7jw2",
+              "reason": "Предмет лежит на допустимой опоре."
+            },
+            {
+              "back": "imw1rkvfqfibcuc",
+              "front": "imw1rkvfqk3hmfs",
+              "reason": "Фоновый компаньон находится позади главной группы."
+            }
+          ],
+          "recipe": "auto",
+          "framing": "overview",
+          "focus": "book",
+          "query": "Знания всегда под рукой",
+          "scale": 1,
+          "items": [
+            {
+              "uid": "imw1rkvfqfibcuc",
+              "assetId": "folder",
+              "role": "background",
+              "x": 408.84,
+              "y": -85.16024340770787,
+              "rotation": 0,
+              "flipX": false,
+              "flipY": false,
+              "zone": "top-left",
+              "crop": "fragment"
+            },
+            {
+              "uid": "imw1rkvfqk3hmfs",
+              "assetId": "book",
+              "role": "main",
+              "x": 717.69,
+              "y": 352.05,
+              "rotation": 0,
+              "flipX": false,
+              "flipY": false,
+              "zone": "auto",
+              "crop": "whole"
+            },
+            {
+              "uid": "imw1rkvfqbc7jw2",
+              "assetId": "phone",
+              "role": "main",
+              "x": 891.21,
+              "y": 288.48,
+              "rotation": 0,
+              "flipX": false,
+              "flipY": false,
+              "supportUid": "imw1rkvfqk3hmfs",
+              "zone": "auto",
+              "crop": "whole"
+            }
+          ]
+        },
+        {
+          "version": 1,
+          "sizing": "native",
+          "environmentPrompt": "",
+          "environmentExplanation": [
+            "Главная группа объединяет открытую книгу как источник знаний и смартфон как символ их мгновенной доступности.",
+            "Фоновый предмет-компаньон дополняет композицию сдержанным контекстом порядка.",
+            "Компактная композиция выстраивает предметы в единую узнаваемую группу без перегрузки кадра."
+          ],
+          "groups": [
+            {
+              "kind": "collection",
+              "members": [
+                "imw1rkvfqk3hmfs",
+                "imw1rkvfqbc7jw2"
+              ],
+              "reason": "Широкий горизонтальный разворот с акцентом на доступность вблизи."
+            }
+          ],
+          "formatPlans": [],
+          "stagingPlans": [
+            {
+              "format": "square",
+              "views": [
+                {
+                  "principle": "Центральная компактная компоновка с опорой телефона на книгу.",
+                  "placements": [
+                    {
+                      "uid": "imw1rkvfqk3hmfs",
+                      "relation": "canvas",
+                      "x": 0.5,
+                      "y": 0.52,
+                      "gap": 0,
+                      "rotation": 0
+                    },
+                    {
+                      "uid": "imw1rkvfqbc7jw2",
+                      "relation": "on",
+                      "targetUid": "imw1rkvfqk3hmfs",
+                      "x": 0.66,
+                      "y": 0.28,
+                      "gap": 0,
+                      "rotation": 0
+                    },
+                    {
+                      "uid": "imw1rkvfqfibcuc",
+                      "relation": "above",
+                      "targetUid": "imw1rkvfqk3hmfs",
+                      "x": 0.35,
+                      "y": 0.25,
+                      "gap": 0.05,
+                      "rotation": 0
+                    }
+                  ]
+                },
+                {
+                  "principle": "Смещение группы вправо для баланса с фоновым элементом слева.",
+                  "placements": [
+                    {
+                      "uid": "imw1rkvfqk3hmfs",
+                      "relation": "canvas",
+                      "x": 0.55,
+                      "y": 0.55,
+                      "gap": 0,
+                      "rotation": 0
+                    },
+                    {
+                      "uid": "imw1rkvfqbc7jw2",
+                      "relation": "on",
+                      "targetUid": "imw1rkvfqk3hmfs",
+                      "x": 0.74,
+                      "y": 0.37,
+                      "gap": 0,
+                      "rotation": 0
+                    },
+                    {
+                      "uid": "imw1rkvfqfibcuc",
+                      "relation": "left",
+                      "targetUid": "imw1rkvfqk3hmfs",
+                      "x": 0.25,
+                      "y": 0.45,
+                      "gap": 0.08,
+                      "rotation": 0
+                    }
+                  ]
+                },
+                {
+                  "principle": "Диагональное расположение элементов для динамичного восприятия темы.",
+                  "placements": [
+                    {
+                      "uid": "imw1rkvfqk3hmfs",
+                      "relation": "canvas",
+                      "x": 0.48,
+                      "y": 0.5,
+                      "gap": 0,
+                      "rotation": 0
+                    },
+                    {
+                      "uid": "imw1rkvfqbc7jw2",
+                      "relation": "on",
+                      "targetUid": "imw1rkvfqk3hmfs",
+                      "x": 0.7,
+                      "y": 0.32,
+                      "gap": 0,
+                      "rotation": 0
+                    },
+                    {
+                      "uid": "imw1rkvfqfibcuc",
+                      "relation": "above",
+                      "targetUid": "imw1rkvfqk3hmfs",
+                      "x": 0.28,
+                      "y": 0.2,
+                      "gap": 0.06,
+                      "rotation": 0
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "format": "landscape",
+              "views": [
+                {
+                  "principle": "Горизонтальная компактная группа с размещением телефона на книге.",
+                  "placements": [
+                    {
+                      "uid": "imw1rkvfqk3hmfs",
+                      "relation": "canvas",
+                      "x": 0.52,
+                      "y": 0.55,
+                      "gap": 0,
+                      "rotation": 0
+                    },
+                    {
+                      "uid": "imw1rkvfqbc7jw2",
+                      "relation": "on",
+                      "targetUid": "imw1rkvfqk3hmfs",
+                      "x": 0.66,
+                      "y": 0.28,
+                      "gap": 0,
+                      "rotation": 0
+                    },
+                    {
+                      "uid": "imw1rkvfqfibcuc",
+                      "relation": "left",
+                      "targetUid": "imw1rkvfqk3hmfs",
+                      "x": 0.25,
+                      "y": 0.45,
+                      "gap": 0.08,
+                      "rotation": 0
+                    }
+                  ]
+                },
+                {
+                  "principle": "Сбалансированное смещение главной группы к правому центру.",
+                  "placements": [
+                    {
+                      "uid": "imw1rkvfqk3hmfs",
+                      "relation": "canvas",
+                      "x": 0.58,
+                      "y": 0.52,
+                      "gap": 0,
+                      "rotation": 0
+                    },
+                    {
+                      "uid": "imw1rkvfqbc7jw2",
+                      "relation": "on",
+                      "targetUid": "imw1rkvfqk3hmfs",
+                      "x": 0.74,
+                      "y": 0.37,
+                      "gap": 0,
+                      "rotation": 0
+                    },
+                    {
+                      "uid": "imw1rkvfqfibcuc",
+                      "relation": "above",
+                      "targetUid": "imw1rkvfqk3hmfs",
+                      "x": 0.32,
+                      "y": 0.25,
+                      "gap": 0.06,
+                      "rotation": 0
+                    }
+                  ]
+                },
+                {
+                  "principle": "Широкий горизонтальный разворот с акцентом на доступность вблизи.",
+                  "placements": [
+                    {
+                      "uid": "imw1rkvfqk3hmfs",
+                      "relation": "canvas",
+                      "x": 0.5,
+                      "y": 0.5,
+                      "gap": 0,
+                      "rotation": 0
+                    },
+                    {
+                      "uid": "imw1rkvfqbc7jw2",
+                      "relation": "on",
+                      "targetUid": "imw1rkvfqk3hmfs",
+                      "x": 0.7,
+                      "y": 0.32,
+                      "gap": 0,
+                      "rotation": 0
+                    },
+                    {
+                      "uid": "imw1rkvfqfibcuc",
+                      "relation": "left",
+                      "targetUid": "imw1rkvfqk3hmfs",
+                      "x": 0.22,
+                      "y": 0.5,
+                      "gap": 0.1,
+                      "rotation": 0
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "format": "portrait",
+              "views": [
+                {
+                  "principle": "Вертикальная компоновка для формата портрет с опорой на книгу.",
+                  "placements": [
+                    {
+                      "uid": "imw1rkvfqk3hmfs",
+                      "relation": "canvas",
+                      "x": 0.5,
+                      "y": 0.55,
+                      "gap": 0,
+                      "rotation": 0
+                    },
+                    {
+                      "uid": "imw1rkvfqbc7jw2",
+                      "relation": "on",
+                      "targetUid": "imw1rkvfqk3hmfs",
+                      "x": 0.66,
+                      "y": 0.28,
+                      "gap": 0,
+                      "rotation": 0
+                    },
+                    {
+                      "uid": "imw1rkvfqfibcuc",
+                      "relation": "above",
+                      "targetUid": "imw1rkvfqk3hmfs",
+                      "x": 0.35,
+                      "y": 0.3,
+                      "gap": 0.05,
+                      "rotation": 0
+                    }
+                  ]
+                },
+                {
+                  "principle": "Вертикальный акцент с небольшим смещением вверх.",
+                  "placements": [
+                    {
+                      "uid": "imw1rkvfqk3hmfs",
+                      "relation": "canvas",
+                      "x": 0.5,
+                      "y": 0.52,
+                      "gap": 0,
+                      "rotation": 0
+                    },
+                    {
+                      "uid": "imw1rkvfqbc7jw2",
+                      "relation": "on",
+                      "targetUid": "imw1rkvfqk3hmfs",
+                      "x": 0.74,
+                      "y": 0.37,
+                      "gap": 0,
+                      "rotation": 0
+                    },
+                    {
+                      "uid": "imw1rkvfqfibcuc",
+                      "relation": "above",
+                      "targetUid": "imw1rkvfqk3hmfs",
+                      "x": 0.3,
+                      "y": 0.25,
+                      "gap": 0.07,
+                      "rotation": 0
+                    }
+                  ]
+                },
+                {
+                  "principle": "Диагональное построение в вертикальном формате.",
+                  "placements": [
+                    {
+                      "uid": "imw1rkvfqk3hmfs",
+                      "relation": "canvas",
+                      "x": 0.52,
+                      "y": 0.5,
+                      "gap": 0,
+                      "rotation": 0
+                    },
+                    {
+                      "uid": "imw1rkvfqbc7jw2",
+                      "relation": "on",
+                      "targetUid": "imw1rkvfqk3hmfs",
+                      "x": 0.7,
+                      "y": 0.32,
+                      "gap": 0,
+                      "rotation": 0
+                    },
+                    {
+                      "uid": "imw1rkvfqfibcuc",
+                      "relation": "left",
+                      "targetUid": "imw1rkvfqk3hmfs",
+                      "x": 0.28,
+                      "y": 0.4,
+                      "gap": 0.08,
+                      "rotation": 0
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "width": 1200,
+          "height": 630,
+          "format": "landscape",
+          "size": "S",
+          "palette": "aqua",
+          "layout": "compact",
+          "background": "pattern",
+          "backgroundDesign": "auto",
+          "supporting": true,
+          "showSupporting": true,
+          "camera": null,
+          "composition": {
+            "index": 2,
+            "options": [
+              {
+                "strategy": "balanced",
+                "title": "На опоре",
+                "principle": "Центральная компактная компоновка с опорой телефона на книгу.",
+                "placement": "on-surface"
+              },
+              {
+                "strategy": "spacious",
+                "title": "Рядом",
+                "principle": "Смещение группы вправо для баланса с фоновым элементом слева.",
+                "placement": "beside"
+              },
+              {
+                "strategy": "diagonal",
+                "title": "Другой ракурс группы",
+                "principle": "Диагональное расположение элементов для динамичного восприятия темы.",
+                "placement": "across"
+              }
+            ]
+          },
+          "layerRelations": [
+            {
+              "back": "imw1rkvfqk3hmfs",
+              "front": "imw1rkvfqbc7jw2",
+              "reason": "Предмет лежит на допустимой опоре."
+            },
+            {
+              "back": "imw1rkvfqfibcuc",
+              "front": "imw1rkvfqk3hmfs",
+              "reason": "Фоновый компаньон находится позади главной группы."
+            }
+          ],
+          "recipe": "auto",
+          "framing": "overview",
+          "focus": "book",
+          "query": "Знания всегда под рукой",
+          "scale": 1,
+          "items": [
+            {
+              "uid": "imw1rkvfqfibcuc",
+              "assetId": "folder",
+              "role": "background",
+              "x": -97.55999999999989,
+              "y": 328.2,
+              "rotation": 0,
+              "flipX": false,
+              "flipY": false,
+              "zone": "top-left",
+              "crop": "fragment"
+            },
+            {
+              "uid": "imw1rkvfqk3hmfs",
+              "assetId": "book",
+              "role": "main",
+              "x": 621.69,
+              "y": 339.45,
+              "rotation": 0,
+              "flipX": false,
+              "flipY": false,
+              "zone": "auto",
+              "crop": "whole"
+            },
+            {
+              "uid": "imw1rkvfqbc7jw2",
+              "assetId": "phone",
+              "role": "main",
+              "x": 766.29,
+              "y": 251.43,
+              "rotation": 0,
+              "flipX": false,
+              "flipY": false,
+              "supportUid": "imw1rkvfqk3hmfs",
+              "zone": "auto",
+              "crop": "whole"
+            }
+          ]
+        }
+      ],
+      "portrait": [
+        {
+          "version": 1,
+          "sizing": "native",
+          "environmentPrompt": "",
+          "environmentExplanation": [
+            "Главная группа объединяет открытую книгу как источник знаний и смартфон как символ их мгновенной доступности.",
+            "Фоновый предмет-компаньон дополняет композицию сдержанным контекстом порядка.",
+            "Компактная композиция выстраивает предметы в единую узнаваемую группу без перегрузки кадра."
+          ],
+          "groups": [
+            {
+              "kind": "collection",
+              "members": [
+                "imw1rkvfqk3hmfs",
+                "imw1rkvfqbc7jw2"
+              ],
+              "reason": "Вертикальная компоновка для формата портрет с опорой на книгу."
+            }
+          ],
+          "formatPlans": [],
+          "stagingPlans": [
+            {
+              "format": "square",
+              "views": [
+                {
+                  "principle": "Центральная компактная компоновка с опорой телефона на книгу.",
+                  "placements": [
+                    {
+                      "uid": "imw1rkvfqk3hmfs",
+                      "relation": "canvas",
+                      "x": 0.5,
+                      "y": 0.52,
+                      "gap": 0,
+                      "rotation": 0
+                    },
+                    {
+                      "uid": "imw1rkvfqbc7jw2",
+                      "relation": "on",
+                      "targetUid": "imw1rkvfqk3hmfs",
+                      "x": 0.66,
+                      "y": 0.28,
+                      "gap": 0,
+                      "rotation": 0
+                    },
+                    {
+                      "uid": "imw1rkvfqfibcuc",
+                      "relation": "above",
+                      "targetUid": "imw1rkvfqk3hmfs",
+                      "x": 0.35,
+                      "y": 0.25,
+                      "gap": 0.05,
+                      "rotation": 0
+                    }
+                  ]
+                },
+                {
+                  "principle": "Смещение группы вправо для баланса с фоновым элементом слева.",
+                  "placements": [
+                    {
+                      "uid": "imw1rkvfqk3hmfs",
+                      "relation": "canvas",
+                      "x": 0.55,
+                      "y": 0.55,
+                      "gap": 0,
+                      "rotation": 0
+                    },
+                    {
+                      "uid": "imw1rkvfqbc7jw2",
+                      "relation": "on",
+                      "targetUid": "imw1rkvfqk3hmfs",
+                      "x": 0.74,
+                      "y": 0.37,
+                      "gap": 0,
+                      "rotation": 0
+                    },
+                    {
+                      "uid": "imw1rkvfqfibcuc",
+                      "relation": "left",
+                      "targetUid": "imw1rkvfqk3hmfs",
+                      "x": 0.25,
+                      "y": 0.45,
+                      "gap": 0.08,
+                      "rotation": 0
+                    }
+                  ]
+                },
+                {
+                  "principle": "Диагональное расположение элементов для динамичного восприятия темы.",
+                  "placements": [
+                    {
+                      "uid": "imw1rkvfqk3hmfs",
+                      "relation": "canvas",
+                      "x": 0.48,
+                      "y": 0.5,
+                      "gap": 0,
+                      "rotation": 0
+                    },
+                    {
+                      "uid": "imw1rkvfqbc7jw2",
+                      "relation": "on",
+                      "targetUid": "imw1rkvfqk3hmfs",
+                      "x": 0.7,
+                      "y": 0.32,
+                      "gap": 0,
+                      "rotation": 0
+                    },
+                    {
+                      "uid": "imw1rkvfqfibcuc",
+                      "relation": "above",
+                      "targetUid": "imw1rkvfqk3hmfs",
+                      "x": 0.28,
+                      "y": 0.2,
+                      "gap": 0.06,
+                      "rotation": 0
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "format": "landscape",
+              "views": [
+                {
+                  "principle": "Горизонтальная компактная группа с размещением телефона на книге.",
+                  "placements": [
+                    {
+                      "uid": "imw1rkvfqk3hmfs",
+                      "relation": "canvas",
+                      "x": 0.52,
+                      "y": 0.55,
+                      "gap": 0,
+                      "rotation": 0
+                    },
+                    {
+                      "uid": "imw1rkvfqbc7jw2",
+                      "relation": "on",
+                      "targetUid": "imw1rkvfqk3hmfs",
+                      "x": 0.66,
+                      "y": 0.28,
+                      "gap": 0,
+                      "rotation": 0
+                    },
+                    {
+                      "uid": "imw1rkvfqfibcuc",
+                      "relation": "left",
+                      "targetUid": "imw1rkvfqk3hmfs",
+                      "x": 0.25,
+                      "y": 0.45,
+                      "gap": 0.08,
+                      "rotation": 0
+                    }
+                  ]
+                },
+                {
+                  "principle": "Сбалансированное смещение главной группы к правому центру.",
+                  "placements": [
+                    {
+                      "uid": "imw1rkvfqk3hmfs",
+                      "relation": "canvas",
+                      "x": 0.58,
+                      "y": 0.52,
+                      "gap": 0,
+                      "rotation": 0
+                    },
+                    {
+                      "uid": "imw1rkvfqbc7jw2",
+                      "relation": "on",
+                      "targetUid": "imw1rkvfqk3hmfs",
+                      "x": 0.74,
+                      "y": 0.37,
+                      "gap": 0,
+                      "rotation": 0
+                    },
+                    {
+                      "uid": "imw1rkvfqfibcuc",
+                      "relation": "above",
+                      "targetUid": "imw1rkvfqk3hmfs",
+                      "x": 0.32,
+                      "y": 0.25,
+                      "gap": 0.06,
+                      "rotation": 0
+                    }
+                  ]
+                },
+                {
+                  "principle": "Широкий горизонтальный разворот с акцентом на доступность вблизи.",
+                  "placements": [
+                    {
+                      "uid": "imw1rkvfqk3hmfs",
+                      "relation": "canvas",
+                      "x": 0.5,
+                      "y": 0.5,
+                      "gap": 0,
+                      "rotation": 0
+                    },
+                    {
+                      "uid": "imw1rkvfqbc7jw2",
+                      "relation": "on",
+                      "targetUid": "imw1rkvfqk3hmfs",
+                      "x": 0.7,
+                      "y": 0.32,
+                      "gap": 0,
+                      "rotation": 0
+                    },
+                    {
+                      "uid": "imw1rkvfqfibcuc",
+                      "relation": "left",
+                      "targetUid": "imw1rkvfqk3hmfs",
+                      "x": 0.22,
+                      "y": 0.5,
+                      "gap": 0.1,
+                      "rotation": 0
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "format": "portrait",
+              "views": [
+                {
+                  "principle": "Вертикальная компоновка для формата портрет с опорой на книгу.",
+                  "placements": [
+                    {
+                      "uid": "imw1rkvfqk3hmfs",
+                      "relation": "canvas",
+                      "x": 0.5,
+                      "y": 0.55,
+                      "gap": 0,
+                      "rotation": 0
+                    },
+                    {
+                      "uid": "imw1rkvfqbc7jw2",
+                      "relation": "on",
+                      "targetUid": "imw1rkvfqk3hmfs",
+                      "x": 0.66,
+                      "y": 0.28,
+                      "gap": 0,
+                      "rotation": 0
+                    },
+                    {
+                      "uid": "imw1rkvfqfibcuc",
+                      "relation": "above",
+                      "targetUid": "imw1rkvfqk3hmfs",
+                      "x": 0.35,
+                      "y": 0.3,
+                      "gap": 0.05,
+                      "rotation": 0
+                    }
+                  ]
+                },
+                {
+                  "principle": "Вертикальный акцент с небольшим смещением вверх.",
+                  "placements": [
+                    {
+                      "uid": "imw1rkvfqk3hmfs",
+                      "relation": "canvas",
+                      "x": 0.5,
+                      "y": 0.52,
+                      "gap": 0,
+                      "rotation": 0
+                    },
+                    {
+                      "uid": "imw1rkvfqbc7jw2",
+                      "relation": "on",
+                      "targetUid": "imw1rkvfqk3hmfs",
+                      "x": 0.74,
+                      "y": 0.37,
+                      "gap": 0,
+                      "rotation": 0
+                    },
+                    {
+                      "uid": "imw1rkvfqfibcuc",
+                      "relation": "above",
+                      "targetUid": "imw1rkvfqk3hmfs",
+                      "x": 0.3,
+                      "y": 0.25,
+                      "gap": 0.07,
+                      "rotation": 0
+                    }
+                  ]
+                },
+                {
+                  "principle": "Диагональное построение в вертикальном формате.",
+                  "placements": [
+                    {
+                      "uid": "imw1rkvfqk3hmfs",
+                      "relation": "canvas",
+                      "x": 0.52,
+                      "y": 0.5,
+                      "gap": 0,
+                      "rotation": 0
+                    },
+                    {
+                      "uid": "imw1rkvfqbc7jw2",
+                      "relation": "on",
+                      "targetUid": "imw1rkvfqk3hmfs",
+                      "x": 0.7,
+                      "y": 0.32,
+                      "gap": 0,
+                      "rotation": 0
+                    },
+                    {
+                      "uid": "imw1rkvfqfibcuc",
+                      "relation": "left",
+                      "targetUid": "imw1rkvfqk3hmfs",
+                      "x": 0.28,
+                      "y": 0.4,
+                      "gap": 0.08,
+                      "rotation": 0
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "width": 800,
+          "height": 1200,
+          "format": "portrait",
+          "size": "S",
+          "palette": "aqua",
+          "layout": "compact",
+          "background": "pattern",
+          "backgroundDesign": "auto",
+          "supporting": true,
+          "showSupporting": true,
+          "camera": null,
+          "composition": {
+            "index": 0,
+            "options": [
+              {
+                "strategy": "balanced",
+                "title": "На опоре",
+                "principle": "Центральная компактная компоновка с опорой телефона на книгу.",
+                "placement": "on-surface"
+              },
+              {
+                "strategy": "spacious",
+                "title": "Рядом",
+                "principle": "Смещение группы вправо для баланса с фоновым элементом слева.",
+                "placement": "beside"
+              },
+              {
+                "strategy": "diagonal",
+                "title": "Другой ракурс группы",
+                "principle": "Диагональное расположение элементов для динамичного восприятия темы.",
+                "placement": "across"
+              }
+            ]
+          },
+          "layerRelations": [
+            {
+              "back": "imw1rkvfqk3hmfs",
+              "front": "imw1rkvfqbc7jw2",
+              "reason": "Предмет лежит на допустимой опоре."
+            },
+            {
+              "back": "imw1rkvfqfibcuc",
+              "front": "imw1rkvfqk3hmfs",
+              "reason": "Фоновый компаньон находится позади главной группы."
+            }
+          ],
+          "recipe": "auto",
+          "framing": "overview",
+          "focus": "book",
+          "query": "Знания всегда под рукой",
+          "scale": 1,
+          "items": [
+            {
+              "uid": "imw1rkvfqfibcuc",
+              "assetId": "folder",
+              "role": "background",
+              "x": 304.84,
+              "y": 245.03975659229212,
+              "rotation": 0,
+              "flipX": false,
+              "flipY": false,
+              "zone": "top-left",
+              "crop": "fragment"
+            },
+            {
+              "uid": "imw1rkvfqk3hmfs",
+              "assetId": "book",
+              "role": "main",
+              "x": 421.69,
+              "y": 684.45,
+              "rotation": 0,
+              "flipX": false,
+              "flipY": false,
+              "zone": "auto",
+              "crop": "whole"
+            },
+            {
+              "uid": "imw1rkvfqbc7jw2",
+              "assetId": "phone",
+              "role": "main",
+              "x": 537.37,
+              "y": 576.8700000000001,
+              "rotation": 0,
+              "flipX": false,
+              "flipY": false,
+              "supportUid": "imw1rkvfqk3hmfs",
+              "zone": "auto",
+              "crop": "whole"
+            }
+          ]
+        },
+        {
+          "version": 1,
+          "sizing": "native",
+          "environmentPrompt": "",
+          "environmentExplanation": [
+            "Главная группа объединяет открытую книгу как источник знаний и смартфон как символ их мгновенной доступности.",
+            "Фоновый предмет-компаньон дополняет композицию сдержанным контекстом порядка.",
+            "Компактная композиция выстраивает предметы в единую узнаваемую группу без перегрузки кадра."
+          ],
+          "groups": [
+            {
+              "kind": "collection",
+              "members": [
+                "imw1rkvfqk3hmfs",
+                "imw1rkvfqbc7jw2"
+              ],
+              "reason": "Вертикальный акцент с небольшим смещением вверх."
+            }
+          ],
+          "formatPlans": [],
+          "stagingPlans": [
+            {
+              "format": "square",
+              "views": [
+                {
+                  "principle": "Центральная компактная компоновка с опорой телефона на книгу.",
+                  "placements": [
+                    {
+                      "uid": "imw1rkvfqk3hmfs",
+                      "relation": "canvas",
+                      "x": 0.5,
+                      "y": 0.52,
+                      "gap": 0,
+                      "rotation": 0
+                    },
+                    {
+                      "uid": "imw1rkvfqbc7jw2",
+                      "relation": "on",
+                      "targetUid": "imw1rkvfqk3hmfs",
+                      "x": 0.66,
+                      "y": 0.28,
+                      "gap": 0,
+                      "rotation": 0
+                    },
+                    {
+                      "uid": "imw1rkvfqfibcuc",
+                      "relation": "above",
+                      "targetUid": "imw1rkvfqk3hmfs",
+                      "x": 0.35,
+                      "y": 0.25,
+                      "gap": 0.05,
+                      "rotation": 0
+                    }
+                  ]
+                },
+                {
+                  "principle": "Смещение группы вправо для баланса с фоновым элементом слева.",
+                  "placements": [
+                    {
+                      "uid": "imw1rkvfqk3hmfs",
+                      "relation": "canvas",
+                      "x": 0.55,
+                      "y": 0.55,
+                      "gap": 0,
+                      "rotation": 0
+                    },
+                    {
+                      "uid": "imw1rkvfqbc7jw2",
+                      "relation": "on",
+                      "targetUid": "imw1rkvfqk3hmfs",
+                      "x": 0.74,
+                      "y": 0.37,
+                      "gap": 0,
+                      "rotation": 0
+                    },
+                    {
+                      "uid": "imw1rkvfqfibcuc",
+                      "relation": "left",
+                      "targetUid": "imw1rkvfqk3hmfs",
+                      "x": 0.25,
+                      "y": 0.45,
+                      "gap": 0.08,
+                      "rotation": 0
+                    }
+                  ]
+                },
+                {
+                  "principle": "Диагональное расположение элементов для динамичного восприятия темы.",
+                  "placements": [
+                    {
+                      "uid": "imw1rkvfqk3hmfs",
+                      "relation": "canvas",
+                      "x": 0.48,
+                      "y": 0.5,
+                      "gap": 0,
+                      "rotation": 0
+                    },
+                    {
+                      "uid": "imw1rkvfqbc7jw2",
+                      "relation": "on",
+                      "targetUid": "imw1rkvfqk3hmfs",
+                      "x": 0.7,
+                      "y": 0.32,
+                      "gap": 0,
+                      "rotation": 0
+                    },
+                    {
+                      "uid": "imw1rkvfqfibcuc",
+                      "relation": "above",
+                      "targetUid": "imw1rkvfqk3hmfs",
+                      "x": 0.28,
+                      "y": 0.2,
+                      "gap": 0.06,
+                      "rotation": 0
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "format": "landscape",
+              "views": [
+                {
+                  "principle": "Горизонтальная компактная группа с размещением телефона на книге.",
+                  "placements": [
+                    {
+                      "uid": "imw1rkvfqk3hmfs",
+                      "relation": "canvas",
+                      "x": 0.52,
+                      "y": 0.55,
+                      "gap": 0,
+                      "rotation": 0
+                    },
+                    {
+                      "uid": "imw1rkvfqbc7jw2",
+                      "relation": "on",
+                      "targetUid": "imw1rkvfqk3hmfs",
+                      "x": 0.66,
+                      "y": 0.28,
+                      "gap": 0,
+                      "rotation": 0
+                    },
+                    {
+                      "uid": "imw1rkvfqfibcuc",
+                      "relation": "left",
+                      "targetUid": "imw1rkvfqk3hmfs",
+                      "x": 0.25,
+                      "y": 0.45,
+                      "gap": 0.08,
+                      "rotation": 0
+                    }
+                  ]
+                },
+                {
+                  "principle": "Сбалансированное смещение главной группы к правому центру.",
+                  "placements": [
+                    {
+                      "uid": "imw1rkvfqk3hmfs",
+                      "relation": "canvas",
+                      "x": 0.58,
+                      "y": 0.52,
+                      "gap": 0,
+                      "rotation": 0
+                    },
+                    {
+                      "uid": "imw1rkvfqbc7jw2",
+                      "relation": "on",
+                      "targetUid": "imw1rkvfqk3hmfs",
+                      "x": 0.74,
+                      "y": 0.37,
+                      "gap": 0,
+                      "rotation": 0
+                    },
+                    {
+                      "uid": "imw1rkvfqfibcuc",
+                      "relation": "above",
+                      "targetUid": "imw1rkvfqk3hmfs",
+                      "x": 0.32,
+                      "y": 0.25,
+                      "gap": 0.06,
+                      "rotation": 0
+                    }
+                  ]
+                },
+                {
+                  "principle": "Широкий горизонтальный разворот с акцентом на доступность вблизи.",
+                  "placements": [
+                    {
+                      "uid": "imw1rkvfqk3hmfs",
+                      "relation": "canvas",
+                      "x": 0.5,
+                      "y": 0.5,
+                      "gap": 0,
+                      "rotation": 0
+                    },
+                    {
+                      "uid": "imw1rkvfqbc7jw2",
+                      "relation": "on",
+                      "targetUid": "imw1rkvfqk3hmfs",
+                      "x": 0.7,
+                      "y": 0.32,
+                      "gap": 0,
+                      "rotation": 0
+                    },
+                    {
+                      "uid": "imw1rkvfqfibcuc",
+                      "relation": "left",
+                      "targetUid": "imw1rkvfqk3hmfs",
+                      "x": 0.22,
+                      "y": 0.5,
+                      "gap": 0.1,
+                      "rotation": 0
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "format": "portrait",
+              "views": [
+                {
+                  "principle": "Вертикальная компоновка для формата портрет с опорой на книгу.",
+                  "placements": [
+                    {
+                      "uid": "imw1rkvfqk3hmfs",
+                      "relation": "canvas",
+                      "x": 0.5,
+                      "y": 0.55,
+                      "gap": 0,
+                      "rotation": 0
+                    },
+                    {
+                      "uid": "imw1rkvfqbc7jw2",
+                      "relation": "on",
+                      "targetUid": "imw1rkvfqk3hmfs",
+                      "x": 0.66,
+                      "y": 0.28,
+                      "gap": 0,
+                      "rotation": 0
+                    },
+                    {
+                      "uid": "imw1rkvfqfibcuc",
+                      "relation": "above",
+                      "targetUid": "imw1rkvfqk3hmfs",
+                      "x": 0.35,
+                      "y": 0.3,
+                      "gap": 0.05,
+                      "rotation": 0
+                    }
+                  ]
+                },
+                {
+                  "principle": "Вертикальный акцент с небольшим смещением вверх.",
+                  "placements": [
+                    {
+                      "uid": "imw1rkvfqk3hmfs",
+                      "relation": "canvas",
+                      "x": 0.5,
+                      "y": 0.52,
+                      "gap": 0,
+                      "rotation": 0
+                    },
+                    {
+                      "uid": "imw1rkvfqbc7jw2",
+                      "relation": "on",
+                      "targetUid": "imw1rkvfqk3hmfs",
+                      "x": 0.74,
+                      "y": 0.37,
+                      "gap": 0,
+                      "rotation": 0
+                    },
+                    {
+                      "uid": "imw1rkvfqfibcuc",
+                      "relation": "above",
+                      "targetUid": "imw1rkvfqk3hmfs",
+                      "x": 0.3,
+                      "y": 0.25,
+                      "gap": 0.07,
+                      "rotation": 0
+                    }
+                  ]
+                },
+                {
+                  "principle": "Диагональное построение в вертикальном формате.",
+                  "placements": [
+                    {
+                      "uid": "imw1rkvfqk3hmfs",
+                      "relation": "canvas",
+                      "x": 0.52,
+                      "y": 0.5,
+                      "gap": 0,
+                      "rotation": 0
+                    },
+                    {
+                      "uid": "imw1rkvfqbc7jw2",
+                      "relation": "on",
+                      "targetUid": "imw1rkvfqk3hmfs",
+                      "x": 0.7,
+                      "y": 0.32,
+                      "gap": 0,
+                      "rotation": 0
+                    },
+                    {
+                      "uid": "imw1rkvfqfibcuc",
+                      "relation": "left",
+                      "targetUid": "imw1rkvfqk3hmfs",
+                      "x": 0.28,
+                      "y": 0.4,
+                      "gap": 0.08,
+                      "rotation": 0
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "width": 800,
+          "height": 1200,
+          "format": "portrait",
+          "size": "S",
+          "palette": "aqua",
+          "layout": "compact",
+          "background": "pattern",
+          "backgroundDesign": "auto",
+          "supporting": true,
+          "showSupporting": true,
+          "camera": null,
+          "composition": {
+            "index": 1,
+            "options": [
+              {
+                "strategy": "balanced",
+                "title": "На опоре",
+                "principle": "Центральная компактная компоновка с опорой телефона на книгу.",
+                "placement": "on-surface"
+              },
+              {
+                "strategy": "spacious",
+                "title": "Рядом",
+                "principle": "Смещение группы вправо для баланса с фоновым элементом слева.",
+                "placement": "beside"
+              },
+              {
+                "strategy": "diagonal",
+                "title": "Другой ракурс группы",
+                "principle": "Диагональное расположение элементов для динамичного восприятия темы.",
+                "placement": "across"
+              }
+            ]
+          },
+          "layerRelations": [
+            {
+              "back": "imw1rkvfqk3hmfs",
+              "front": "imw1rkvfqbc7jw2",
+              "reason": "Предмет лежит на допустимой опоре."
+            },
+            {
+              "back": "imw1rkvfqfibcuc",
+              "front": "imw1rkvfqk3hmfs",
+              "reason": "Фоновый компаньон находится позади главной группы."
+            }
+          ],
+          "recipe": "auto",
+          "framing": "overview",
+          "focus": "book",
+          "query": "Знания всегда под рукой",
+          "scale": 1,
+          "items": [
+            {
+              "uid": "imw1rkvfqfibcuc",
+              "assetId": "folder",
+              "role": "background",
+              "x": 264.84,
+              "y": 193.03975659229212,
+              "rotation": 0,
+              "flipX": false,
+              "flipY": false,
+              "zone": "top-left",
+              "crop": "fragment"
+            },
+            {
+              "uid": "imw1rkvfqk3hmfs",
+              "assetId": "book",
+              "role": "main",
+              "x": 421.69,
+              "y": 648.45,
+              "rotation": 0,
+              "flipX": false,
+              "flipY": false,
+              "zone": "auto",
+              "crop": "whole"
+            },
+            {
+              "uid": "imw1rkvfqbc7jw2",
+              "assetId": "phone",
+              "role": "main",
+              "x": 595.21,
+              "y": 584.88,
+              "rotation": 0,
+              "flipX": false,
+              "flipY": false,
+              "supportUid": "imw1rkvfqk3hmfs",
+              "zone": "auto",
+              "crop": "whole"
+            }
+          ]
+        },
+        {
+          "version": 1,
+          "sizing": "native",
+          "environmentPrompt": "",
+          "environmentExplanation": [
+            "Главная группа объединяет открытую книгу как источник знаний и смартфон как символ их мгновенной доступности.",
+            "Фоновый предмет-компаньон дополняет композицию сдержанным контекстом порядка.",
+            "Компактная композиция выстраивает предметы в единую узнаваемую группу без перегрузки кадра."
+          ],
+          "groups": [
+            {
+              "kind": "collection",
+              "members": [
+                "imw1rkvfqk3hmfs",
+                "imw1rkvfqbc7jw2"
+              ],
+              "reason": "Диагональное построение в вертикальном формате."
+            }
+          ],
+          "formatPlans": [],
+          "stagingPlans": [
+            {
+              "format": "square",
+              "views": [
+                {
+                  "principle": "Центральная компактная компоновка с опорой телефона на книгу.",
+                  "placements": [
+                    {
+                      "uid": "imw1rkvfqk3hmfs",
+                      "relation": "canvas",
+                      "x": 0.5,
+                      "y": 0.52,
+                      "gap": 0,
+                      "rotation": 0
+                    },
+                    {
+                      "uid": "imw1rkvfqbc7jw2",
+                      "relation": "on",
+                      "targetUid": "imw1rkvfqk3hmfs",
+                      "x": 0.66,
+                      "y": 0.28,
+                      "gap": 0,
+                      "rotation": 0
+                    },
+                    {
+                      "uid": "imw1rkvfqfibcuc",
+                      "relation": "above",
+                      "targetUid": "imw1rkvfqk3hmfs",
+                      "x": 0.35,
+                      "y": 0.25,
+                      "gap": 0.05,
+                      "rotation": 0
+                    }
+                  ]
+                },
+                {
+                  "principle": "Смещение группы вправо для баланса с фоновым элементом слева.",
+                  "placements": [
+                    {
+                      "uid": "imw1rkvfqk3hmfs",
+                      "relation": "canvas",
+                      "x": 0.55,
+                      "y": 0.55,
+                      "gap": 0,
+                      "rotation": 0
+                    },
+                    {
+                      "uid": "imw1rkvfqbc7jw2",
+                      "relation": "on",
+                      "targetUid": "imw1rkvfqk3hmfs",
+                      "x": 0.74,
+                      "y": 0.37,
+                      "gap": 0,
+                      "rotation": 0
+                    },
+                    {
+                      "uid": "imw1rkvfqfibcuc",
+                      "relation": "left",
+                      "targetUid": "imw1rkvfqk3hmfs",
+                      "x": 0.25,
+                      "y": 0.45,
+                      "gap": 0.08,
+                      "rotation": 0
+                    }
+                  ]
+                },
+                {
+                  "principle": "Диагональное расположение элементов для динамичного восприятия темы.",
+                  "placements": [
+                    {
+                      "uid": "imw1rkvfqk3hmfs",
+                      "relation": "canvas",
+                      "x": 0.48,
+                      "y": 0.5,
+                      "gap": 0,
+                      "rotation": 0
+                    },
+                    {
+                      "uid": "imw1rkvfqbc7jw2",
+                      "relation": "on",
+                      "targetUid": "imw1rkvfqk3hmfs",
+                      "x": 0.7,
+                      "y": 0.32,
+                      "gap": 0,
+                      "rotation": 0
+                    },
+                    {
+                      "uid": "imw1rkvfqfibcuc",
+                      "relation": "above",
+                      "targetUid": "imw1rkvfqk3hmfs",
+                      "x": 0.28,
+                      "y": 0.2,
+                      "gap": 0.06,
+                      "rotation": 0
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "format": "landscape",
+              "views": [
+                {
+                  "principle": "Горизонтальная компактная группа с размещением телефона на книге.",
+                  "placements": [
+                    {
+                      "uid": "imw1rkvfqk3hmfs",
+                      "relation": "canvas",
+                      "x": 0.52,
+                      "y": 0.55,
+                      "gap": 0,
+                      "rotation": 0
+                    },
+                    {
+                      "uid": "imw1rkvfqbc7jw2",
+                      "relation": "on",
+                      "targetUid": "imw1rkvfqk3hmfs",
+                      "x": 0.66,
+                      "y": 0.28,
+                      "gap": 0,
+                      "rotation": 0
+                    },
+                    {
+                      "uid": "imw1rkvfqfibcuc",
+                      "relation": "left",
+                      "targetUid": "imw1rkvfqk3hmfs",
+                      "x": 0.25,
+                      "y": 0.45,
+                      "gap": 0.08,
+                      "rotation": 0
+                    }
+                  ]
+                },
+                {
+                  "principle": "Сбалансированное смещение главной группы к правому центру.",
+                  "placements": [
+                    {
+                      "uid": "imw1rkvfqk3hmfs",
+                      "relation": "canvas",
+                      "x": 0.58,
+                      "y": 0.52,
+                      "gap": 0,
+                      "rotation": 0
+                    },
+                    {
+                      "uid": "imw1rkvfqbc7jw2",
+                      "relation": "on",
+                      "targetUid": "imw1rkvfqk3hmfs",
+                      "x": 0.74,
+                      "y": 0.37,
+                      "gap": 0,
+                      "rotation": 0
+                    },
+                    {
+                      "uid": "imw1rkvfqfibcuc",
+                      "relation": "above",
+                      "targetUid": "imw1rkvfqk3hmfs",
+                      "x": 0.32,
+                      "y": 0.25,
+                      "gap": 0.06,
+                      "rotation": 0
+                    }
+                  ]
+                },
+                {
+                  "principle": "Широкий горизонтальный разворот с акцентом на доступность вблизи.",
+                  "placements": [
+                    {
+                      "uid": "imw1rkvfqk3hmfs",
+                      "relation": "canvas",
+                      "x": 0.5,
+                      "y": 0.5,
+                      "gap": 0,
+                      "rotation": 0
+                    },
+                    {
+                      "uid": "imw1rkvfqbc7jw2",
+                      "relation": "on",
+                      "targetUid": "imw1rkvfqk3hmfs",
+                      "x": 0.7,
+                      "y": 0.32,
+                      "gap": 0,
+                      "rotation": 0
+                    },
+                    {
+                      "uid": "imw1rkvfqfibcuc",
+                      "relation": "left",
+                      "targetUid": "imw1rkvfqk3hmfs",
+                      "x": 0.22,
+                      "y": 0.5,
+                      "gap": 0.1,
+                      "rotation": 0
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "format": "portrait",
+              "views": [
+                {
+                  "principle": "Вертикальная компоновка для формата портрет с опорой на книгу.",
+                  "placements": [
+                    {
+                      "uid": "imw1rkvfqk3hmfs",
+                      "relation": "canvas",
+                      "x": 0.5,
+                      "y": 0.55,
+                      "gap": 0,
+                      "rotation": 0
+                    },
+                    {
+                      "uid": "imw1rkvfqbc7jw2",
+                      "relation": "on",
+                      "targetUid": "imw1rkvfqk3hmfs",
+                      "x": 0.66,
+                      "y": 0.28,
+                      "gap": 0,
+                      "rotation": 0
+                    },
+                    {
+                      "uid": "imw1rkvfqfibcuc",
+                      "relation": "above",
+                      "targetUid": "imw1rkvfqk3hmfs",
+                      "x": 0.35,
+                      "y": 0.3,
+                      "gap": 0.05,
+                      "rotation": 0
+                    }
+                  ]
+                },
+                {
+                  "principle": "Вертикальный акцент с небольшим смещением вверх.",
+                  "placements": [
+                    {
+                      "uid": "imw1rkvfqk3hmfs",
+                      "relation": "canvas",
+                      "x": 0.5,
+                      "y": 0.52,
+                      "gap": 0,
+                      "rotation": 0
+                    },
+                    {
+                      "uid": "imw1rkvfqbc7jw2",
+                      "relation": "on",
+                      "targetUid": "imw1rkvfqk3hmfs",
+                      "x": 0.74,
+                      "y": 0.37,
+                      "gap": 0,
+                      "rotation": 0
+                    },
+                    {
+                      "uid": "imw1rkvfqfibcuc",
+                      "relation": "above",
+                      "targetUid": "imw1rkvfqk3hmfs",
+                      "x": 0.3,
+                      "y": 0.25,
+                      "gap": 0.07,
+                      "rotation": 0
+                    }
+                  ]
+                },
+                {
+                  "principle": "Диагональное построение в вертикальном формате.",
+                  "placements": [
+                    {
+                      "uid": "imw1rkvfqk3hmfs",
+                      "relation": "canvas",
+                      "x": 0.52,
+                      "y": 0.5,
+                      "gap": 0,
+                      "rotation": 0
+                    },
+                    {
+                      "uid": "imw1rkvfqbc7jw2",
+                      "relation": "on",
+                      "targetUid": "imw1rkvfqk3hmfs",
+                      "x": 0.7,
+                      "y": 0.32,
+                      "gap": 0,
+                      "rotation": 0
+                    },
+                    {
+                      "uid": "imw1rkvfqfibcuc",
+                      "relation": "left",
+                      "targetUid": "imw1rkvfqk3hmfs",
+                      "x": 0.28,
+                      "y": 0.4,
+                      "gap": 0.08,
+                      "rotation": 0
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "executionNotes": [
+            "Положение «Папка» уточнено по границам кадра и реестру пересечений."
+          ],
+          "width": 800,
+          "height": 1200,
+          "format": "portrait",
+          "size": "S",
+          "palette": "aqua",
+          "layout": "compact",
+          "background": "pattern",
+          "backgroundDesign": "auto",
+          "supporting": true,
+          "showSupporting": true,
+          "camera": null,
+          "composition": {
+            "index": 2,
+            "options": [
+              {
+                "strategy": "balanced",
+                "title": "На опоре",
+                "principle": "Центральная компактная компоновка с опорой телефона на книгу.",
+                "placement": "on-surface"
+              },
+              {
+                "strategy": "spacious",
+                "title": "Рядом",
+                "principle": "Смещение группы вправо для баланса с фоновым элементом слева.",
+                "placement": "beside"
+              },
+              {
+                "strategy": "diagonal",
+                "title": "Другой ракурс группы",
+                "principle": "Диагональное расположение элементов для динамичного восприятия темы.",
+                "placement": "across"
+              }
+            ]
+          },
+          "layerRelations": [
+            {
+              "back": "imw1rkvfqk3hmfs",
+              "front": "imw1rkvfqbc7jw2",
+              "reason": "Предмет лежит на допустимой опоре."
+            },
+            {
+              "back": "imw1rkvfqfibcuc",
+              "front": "imw1rkvfqk3hmfs",
+              "reason": "Фоновый компаньон находится позади главной группы."
+            }
+          ],
+          "recipe": "auto",
+          "framing": "overview",
+          "focus": "book",
+          "query": "Знания всегда под рукой",
+          "scale": 1,
+          "items": [
+            {
+              "uid": "imw1rkvfqfibcuc",
+              "assetId": "folder",
+              "role": "background",
+              "x": -160,
+              "y": 493.2,
+              "rotation": 0,
+              "flipX": false,
+              "flipY": false,
+              "zone": "top-left",
+              "crop": "fragment"
+            },
+            {
+              "uid": "imw1rkvfqk3hmfs",
+              "assetId": "book",
+              "role": "main",
+              "x": 437.69,
+              "y": 624.45,
+              "rotation": 0,
+              "flipX": false,
+              "flipY": false,
+              "zone": "auto",
+              "crop": "whole"
+            },
+            {
+              "uid": "imw1rkvfqbc7jw2",
+              "assetId": "phone",
+              "role": "main",
+              "x": 582.29,
+              "y": 536.4300000000001,
+              "rotation": 0,
+              "flipX": false,
+              "flipY": false,
+              "supportUid": "imw1rkvfqk3hmfs",
+              "zone": "auto",
+              "crop": "whole"
+            }
+          ]
+        }
+      ]
+    }
+  }
+}

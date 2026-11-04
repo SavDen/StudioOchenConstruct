@@ -1,0 +1,34 @@
+{
+  "version": 1,
+  "width": 1200,
+  "height": 630,
+  "format": "landscape",
+  "size": "L",
+  "palette": "lavender",
+  "layout": "headline",
+  "background": "pattern",
+  "supporting": true,
+  "recipe": "auto",
+  "framing": "focus",
+  "focus": "auto",
+  "query": "Обучение онлайн",
+  "scale": 0.6061125880190247,
+  "items": [
+    {
+      "assetId": "book",
+      "role": "background",
+      "uid": "imw0szntiltm3m9",
+      "x": 687.4097961541889,
+      "y": 517.9062504240686,
+      "rotation": 0
+    },
+    {
+      "assetId": "phone",
+      "role": "main",
+      "uid": "imw0szntivinbvh",
+      "x": 864.6242399999999,
+      "y": 409.6065903423794,
+      "rotation": 0
+    }
+  ]
+}

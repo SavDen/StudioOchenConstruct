@@ -5,18 +5,29 @@
   "format": "portrait",
   "size": "L",
   "palette": "lavender",
-  "layout": "headline",
+  "layout": "compact",
   "background": "pattern",
   "supporting": true,
-  "query": "Решаем сложные задачи вместе",
-  "scale": 0.9061627157824856,
+  "recipe": "auto",
+  "framing": "focus",
+  "focus": "auto",
+  "query": "Решаем задачи вместе",
+  "scale": 1.4815104881079029,
   "items": [
+    {
+      "assetId": "book",
+      "role": "background",
+      "uid": "imw0sznt6ot83q8",
+      "x": 468.1435920115501,
+      "y": 1005.7152636836906,
+      "rotation": 0
+    },
     {
       "assetId": "puzzle",
       "role": "main",
-      "uid": "imw0j4602c9vb9y",
-      "x": 783,
-      "y": 702,
+      "uid": "imw0sznt6dm1497",
+      "x": 598.0922496000001,
+      "y": 682.1747312531086,
       "rotation": 0
     }
   ]

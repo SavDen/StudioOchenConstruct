@@ -1,0 +1,3980 @@
+{
+  "type": "composition-project",
+  "version": 2,
+  "scene": {
+    "version": 1,
+    "sizing": "native",
+    "environmentPrompt": "",
+    "environmentExplanation": [
+      "Главная пара объединяет открытую книгу и настольную лампу для создания атмосферы обучения.",
+      "Настольная лампа выступает источником света слева от книги по правилу reading.",
+      "Фоновый компаньон добавляет глубину композиции, не перекрывая основные элементы."
+    ],
+    "groups": [
+      {
+        "kind": "collection",
+        "members": [
+          "imw199wd887sgas",
+          "imw199wd8vwetzv"
+        ],
+        "reason": "Сбалансированная компактная композиция книги и лампы с фоновыми наушниками"
+      }
+    ],
+    "formatPlans": [],
+    "stagingPlans": [
+      {
+        "format": "square",
+        "views": [
+          {
+            "principle": "Сбалансированная компактная композиция книги и лампы с фоновыми наушниками",
+            "placements": [
+              {
+                "uid": "imw199wd887sgas",
+                "relation": "canvas",
+                "x": 0.52,
+                "y": 0.55,
+                "gap": 0,
+                "rotation": 0
+              },
+              {
+                "uid": "imw199wd8vwetzv",
+                "relation": "left",
+                "targetUid": "imw199wd887sgas",
+                "x": 0.28,
+                "y": 0.42,
+                "gap": 0.04,
+                "rotation": 0
+              },
+              {
+                "uid": "imw199wd8xztapr",
+                "relation": "canvas",
+                "x": 0.8,
+                "y": 0.25,
+                "gap": 0,
+                "rotation": 0
+              }
+            ]
+          },
+          {
+            "principle": "Просторное размещение главных предметов в центре с фоновым акцентом",
+            "placements": [
+              {
+                "uid": "imw199wd887sgas",
+                "relation": "canvas",
+                "x": 0.54,
+                "y": 0.57,
+                "gap": 0,
+                "rotation": 0
+              },
+              {
+                "uid": "imw199wd8vwetzv",
+                "relation": "left",
+                "targetUid": "imw199wd887sgas",
+                "x": 0.26,
+                "y": 0.4,
+                "gap": 0.05,
+                "rotation": 0
+              },
+              {
+                "uid": "imw199wd8xztapr",
+                "relation": "canvas",
+                "x": 0.82,
+                "y": 0.23,
+                "gap": 0,
+                "rotation": 0
+              }
+            ]
+          },
+          {
+            "principle": "Диагональное развитие сцены с подсветкой книги слева",
+            "placements": [
+              {
+                "uid": "imw199wd887sgas",
+                "relation": "canvas",
+                "x": 0.55,
+                "y": 0.58,
+                "gap": 0,
+                "rotation": 0
+              },
+              {
+                "uid": "imw199wd8vwetzv",
+                "relation": "left",
+                "targetUid": "imw199wd887sgas",
+                "x": 0.25,
+                "y": 0.38,
+                "gap": 0.04,
+                "rotation": 0
+              },
+              {
+                "uid": "imw199wd8xztapr",
+                "relation": "canvas",
+                "x": 0.83,
+                "y": 0.22,
+                "gap": 0,
+                "rotation": 0
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "format": "landscape",
+        "views": [
+          {
+            "principle": "Горизонтальная сбалансированная компоновка для широкого кадра",
+            "placements": [
+              {
+                "uid": "imw199wd887sgas",
+                "relation": "canvas",
+                "x": 0.55,
+                "y": 0.56,
+                "gap": 0,
+                "rotation": 0
+              },
+              {
+                "uid": "imw199wd8vwetzv",
+                "relation": "left",
+                "targetUid": "imw199wd887sgas",
+                "x": 0.32,
+                "y": 0.42,
+                "gap": 0.04,
+                "rotation": 0
+              },
+              {
+                "uid": "imw199wd8xztapr",
+                "relation": "canvas",
+                "x": 0.85,
+                "y": 0.25,
+                "gap": 0,
+                "rotation": 0
+              }
+            ]
+          },
+          {
+            "principle": "Просторное горизонтальное построение с акцентом на обучающую пару",
+            "placements": [
+              {
+                "uid": "imw199wd887sgas",
+                "relation": "canvas",
+                "x": 0.56,
+                "y": 0.57,
+                "gap": 0,
+                "rotation": 0
+              },
+              {
+                "uid": "imw199wd8vwetzv",
+                "relation": "left",
+                "targetUid": "imw199wd887sgas",
+                "x": 0.3,
+                "y": 0.4,
+                "gap": 0.05,
+                "rotation": 0
+              },
+              {
+                "uid": "imw199wd8xztapr",
+                "relation": "canvas",
+                "x": 0.86,
+                "y": 0.23,
+                "gap": 0,
+                "rotation": 0
+              }
+            ]
+          },
+          {
+            "principle": "Диагональное распределение элементов в ландшафтном формате",
+            "placements": [
+              {
+                "uid": "imw199wd887sgas",
+                "relation": "canvas",
+                "x": 0.57,
+                "y": 0.58,
+                "gap": 0,
+                "rotation": 0
+              },
+              {
+                "uid": "imw199wd8vwetzv",
+                "relation": "left",
+                "targetUid": "imw199wd887sgas",
+                "x": 0.29,
+                "y": 0.38,
+                "gap": 0.04,
+                "rotation": 0
+              },
+              {
+                "uid": "imw199wd8xztapr",
+                "relation": "canvas",
+                "x": 0.87,
+                "y": 0.22,
+                "gap": 0,
+                "rotation": 0
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "format": "portrait",
+        "views": [
+          {
+            "principle": "Вертикальная сбалансированная композиция для портретного кадра",
+            "placements": [
+              {
+                "uid": "imw199wd887sgas",
+                "relation": "canvas",
+                "x": 0.5,
+                "y": 0.58,
+                "gap": 0,
+                "rotation": 0
+              },
+              {
+                "uid": "imw199wd8vwetzv",
+                "relation": "left",
+                "targetUid": "imw199wd887sgas",
+                "x": 0.3,
+                "y": 0.42,
+                "gap": 0.04,
+                "rotation": 0
+              },
+              {
+                "uid": "imw199wd8xztapr",
+                "relation": "canvas",
+                "x": 0.78,
+                "y": 0.22,
+                "gap": 0,
+                "rotation": 0
+              }
+            ]
+          },
+          {
+            "principle": "Просторная вертикальная расстановка элементов сцены",
+            "placements": [
+              {
+                "uid": "imw199wd887sgas",
+                "relation": "canvas",
+                "x": 0.5,
+                "y": 0.6,
+                "gap": 0,
+                "rotation": 0
+              },
+              {
+                "uid": "imw199wd8vwetzv",
+                "relation": "left",
+                "targetUid": "imw199wd887sgas",
+                "x": 0.28,
+                "y": 0.4,
+                "gap": 0.05,
+                "rotation": 0
+              },
+              {
+                "uid": "imw199wd8xztapr",
+                "relation": "canvas",
+                "x": 0.8,
+                "y": 0.2,
+                "gap": 0,
+                "rotation": 0
+              }
+            ]
+          },
+          {
+            "principle": "Диагональная структура в вертикальном формате с фоном сверху",
+            "placements": [
+              {
+                "uid": "imw199wd887sgas",
+                "relation": "canvas",
+                "x": 0.52,
+                "y": 0.61,
+                "gap": 0,
+                "rotation": 0
+              },
+              {
+                "uid": "imw199wd8vwetzv",
+                "relation": "left",
+                "targetUid": "imw199wd887sgas",
+                "x": 0.27,
+                "y": 0.38,
+                "gap": 0.04,
+                "rotation": 0
+              },
+              {
+                "uid": "imw199wd8xztapr",
+                "relation": "canvas",
+                "x": 0.82,
+                "y": 0.19,
+                "gap": 0,
+                "rotation": 0
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "executionNotes": [
+      "Положение «Наушники» уточнено по границам кадра и реестру пересечений.",
+      "Положение «Открытая книга» уточнено по границам кадра и реестру пересечений.",
+      "Положение «Настольная лампа» уточнено по границам кадра и реестру пересечений."
+    ],
+    "width": 1000,
+    "height": 1000,
+    "format": "square",
+    "size": "S",
+    "palette": "aqua",
+    "layout": "compact",
+    "background": "pattern",
+    "backgroundDesign": "auto",
+    "supporting": true,
+    "showSupporting": true,
+    "camera": null,
+    "composition": {
+      "index": 0,
+      "options": [
+        {
+          "strategy": "balanced",
+          "title": "На опоре",
+          "principle": "Сбалансированная компактная композиция книги и лампы с фоновыми наушниками",
+          "placement": "on-surface"
+        },
+        {
+          "strategy": "spacious",
+          "title": "Рядом",
+          "principle": "Просторное размещение главных предметов в центре с фоновым акцентом",
+          "placement": "beside"
+        },
+        {
+          "strategy": "diagonal",
+          "title": "Другой ракурс группы",
+          "principle": "Диагональное развитие сцены с подсветкой книги слева",
+          "placement": "across"
+        }
+      ]
+    },
+    "layerRelations": [
+      {
+        "back": "imw199wd8xztapr",
+        "front": "imw199wd887sgas",
+        "reason": "Фоновый компаньон находится позади главной группы."
+      }
+    ],
+    "recipe": "auto",
+    "framing": "overview",
+    "focus": "book",
+    "query": "Знания всегда под рукой",
+    "scale": 1,
+    "items": [
+      {
+        "uid": "imw199wd8xztapr",
+        "assetId": "headphones",
+        "role": "background",
+        "x": 1000,
+        "y": 260.38,
+        "rotation": 0,
+        "flipX": false,
+        "flipY": false,
+        "zone": "top-right",
+        "crop": "fragment"
+      },
+      {
+        "uid": "imw199wd887sgas",
+        "assetId": "book",
+        "role": "main",
+        "x": 640,
+        "y": 520,
+        "rotation": 0,
+        "flipX": false,
+        "flipY": false,
+        "zone": "auto",
+        "crop": "whole"
+      },
+      {
+        "uid": "imw199wd8vwetzv",
+        "assetId": "lamp",
+        "role": "main",
+        "x": 254.28971962616822,
+        "y": 476.5,
+        "rotation": 0,
+        "flipX": false,
+        "flipY": false,
+        "zone": "auto",
+        "crop": "whole"
+      }
+    ]
+  },
+  "memory": {
+    "version": 2,
+    "format": "square",
+    "index": 0,
+    "formats": {
+      "square": [
+        {
+          "version": 1,
+          "sizing": "native",
+          "environmentPrompt": "",
+          "environmentExplanation": [
+            "Главная пара объединяет открытую книгу и настольную лампу для создания атмосферы обучения.",
+            "Настольная лампа выступает источником света слева от книги по правилу reading.",
+            "Фоновый компаньон добавляет глубину композиции, не перекрывая основные элементы."
+          ],
+          "groups": [
+            {
+              "kind": "collection",
+              "members": [
+                "imw199wd887sgas",
+                "imw199wd8vwetzv"
+              ],
+              "reason": "Сбалансированная компактная композиция книги и лампы с фоновыми наушниками"
+            }
+          ],
+          "formatPlans": [],
+          "stagingPlans": [
+            {
+              "format": "square",
+              "views": [
+                {
+                  "principle": "Сбалансированная компактная композиция книги и лампы с фоновыми наушниками",
+                  "placements": [
+                    {
+                      "uid": "imw199wd887sgas",
+                      "relation": "canvas",
+                      "x": 0.52,
+                      "y": 0.55,
+                      "gap": 0,
+                      "rotation": 0
+                    },
+                    {
+                      "uid": "imw199wd8vwetzv",
+                      "relation": "left",
+                      "targetUid": "imw199wd887sgas",
+                      "x": 0.28,
+                      "y": 0.42,
+                      "gap": 0.04,
+                      "rotation": 0
+                    },
+                    {
+                      "uid": "imw199wd8xztapr",
+                      "relation": "canvas",
+                      "x": 0.8,
+                      "y": 0.25,
+                      "gap": 0,
+                      "rotation": 0
+                    }
+                  ]
+                },
+                {
+                  "principle": "Просторное размещение главных предметов в центре с фоновым акцентом",
+                  "placements": [
+                    {
+                      "uid": "imw199wd887sgas",
+                      "relation": "canvas",
+                      "x": 0.54,
+                      "y": 0.57,
+                      "gap": 0,
+                      "rotation": 0
+                    },
+                    {
+                      "uid": "imw199wd8vwetzv",
+                      "relation": "left",
+                      "targetUid": "imw199wd887sgas",
+                      "x": 0.26,
+                      "y": 0.4,
+                      "gap": 0.05,
+                      "rotation": 0
+                    },
+                    {
+                      "uid": "imw199wd8xztapr",
+                      "relation": "canvas",
+                      "x": 0.82,
+                      "y": 0.23,
+                      "gap": 0,
+                      "rotation": 0
+                    }
+                  ]
+                },
+                {
+                  "principle": "Диагональное развитие сцены с подсветкой книги слева",
+                  "placements": [
+                    {
+                      "uid": "imw199wd887sgas",
+                      "relation": "canvas",
+                      "x": 0.55,
+                      "y": 0.58,
+                      "gap": 0,
+                      "rotation": 0
+                    },
+                    {
+                      "uid": "imw199wd8vwetzv",
+                      "relation": "left",
+                      "targetUid": "imw199wd887sgas",
+                      "x": 0.25,
+                      "y": 0.38,
+                      "gap": 0.04,
+                      "rotation": 0
+                    },
+                    {
+                      "uid": "imw199wd8xztapr",
+                      "relation": "canvas",
+                      "x": 0.83,
+                      "y": 0.22,
+                      "gap": 0,
+                      "rotation": 0
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "format": "landscape",
+              "views": [
+                {
+                  "principle": "Горизонтальная сбалансированная компоновка для широкого кадра",
+                  "placements": [
+                    {
+                      "uid": "imw199wd887sgas",
+                      "relation": "canvas",
+                      "x": 0.55,
+                      "y": 0.56,
+                      "gap": 0,
+                      "rotation": 0
+                    },
+                    {
+                      "uid": "imw199wd8vwetzv",
+                      "relation": "left",
+                      "targetUid": "imw199wd887sgas",
+                      "x": 0.32,
+                      "y": 0.42,
+                      "gap": 0.04,
+                      "rotation": 0
+                    },
+                    {
+                      "uid": "imw199wd8xztapr",
+                      "relation": "canvas",
+                      "x": 0.85,
+                      "y": 0.25,
+                      "gap": 0,
+                      "rotation": 0
+                    }
+                  ]
+                },
+                {
+                  "principle": "Просторное горизонтальное построение с акцентом на обучающую пару",
+                  "placements": [
+                    {
+                      "uid": "imw199wd887sgas",
+                      "relation": "canvas",
+                      "x": 0.56,
+                      "y": 0.57,
+                      "gap": 0,
+                      "rotation": 0
+                    },
+                    {
+                      "uid": "imw199wd8vwetzv",
+                      "relation": "left",
+                      "targetUid": "imw199wd887sgas",
+                      "x": 0.3,
+                      "y": 0.4,
+                      "gap": 0.05,
+                      "rotation": 0
+                    },
+                    {
+                      "uid": "imw199wd8xztapr",
+                      "relation": "canvas",
+                      "x": 0.86,
+                      "y": 0.23,
+                      "gap": 0,
+                      "rotation": 0
+                    }
+                  ]
+                },
+                {
+                  "principle": "Диагональное распределение элементов в ландшафтном формате",
+                  "placements": [
+                    {
+                      "uid": "imw199wd887sgas",
+                      "relation": "canvas",
+                      "x": 0.57,
+                      "y": 0.58,
+                      "gap": 0,
+                      "rotation": 0
+                    },
+                    {
+                      "uid": "imw199wd8vwetzv",
+                      "relation": "left",
+                      "targetUid": "imw199wd887sgas",
+                      "x": 0.29,
+                      "y": 0.38,
+                      "gap": 0.04,
+                      "rotation": 0
+                    },
+                    {
+                      "uid": "imw199wd8xztapr",
+                      "relation": "canvas",
+                      "x": 0.87,
+                      "y": 0.22,
+                      "gap": 0,
+                      "rotation": 0
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "format": "portrait",
+              "views": [
+                {
+                  "principle": "Вертикальная сбалансированная композиция для портретного кадра",
+                  "placements": [
+                    {
+                      "uid": "imw199wd887sgas",
+                      "relation": "canvas",
+                      "x": 0.5,
+                      "y": 0.58,
+                      "gap": 0,
+                      "rotation": 0
+                    },
+                    {
+                      "uid": "imw199wd8vwetzv",
+                      "relation": "left",
+                      "targetUid": "imw199wd887sgas",
+                      "x": 0.3,
+                      "y": 0.42,
+                      "gap": 0.04,
+                      "rotation": 0
+                    },
+                    {
+                      "uid": "imw199wd8xztapr",
+                      "relation": "canvas",
+                      "x": 0.78,
+                      "y": 0.22,
+                      "gap": 0,
+                      "rotation": 0
+                    }
+                  ]
+                },
+                {
+                  "principle": "Просторная вертикальная расстановка элементов сцены",
+                  "placements": [
+                    {
+                      "uid": "imw199wd887sgas",
+                      "relation": "canvas",
+                      "x": 0.5,
+                      "y": 0.6,
+                      "gap": 0,
+                      "rotation": 0
+                    },
+                    {
+                      "uid": "imw199wd8vwetzv",
+                      "relation": "left",
+                      "targetUid": "imw199wd887sgas",
+                      "x": 0.28,
+                      "y": 0.4,
+                      "gap": 0.05,
+                      "rotation": 0
+                    },
+                    {
+                      "uid": "imw199wd8xztapr",
+                      "relation": "canvas",
+                      "x": 0.8,
+                      "y": 0.2,
+                      "gap": 0,
+                      "rotation": 0
+                    }
+                  ]
+                },
+                {
+                  "principle": "Диагональная структура в вертикальном формате с фоном сверху",
+                  "placements": [
+                    {
+                      "uid": "imw199wd887sgas",
+                      "relation": "canvas",
+                      "x": 0.52,
+                      "y": 0.61,
+                      "gap": 0,
+                      "rotation": 0
+                    },
+                    {
+                      "uid": "imw199wd8vwetzv",
+                      "relation": "left",
+                      "targetUid": "imw199wd887sgas",
+                      "x": 0.27,
+                      "y": 0.38,
+                      "gap": 0.04,
+                      "rotation": 0
+                    },
+                    {
+                      "uid": "imw199wd8xztapr",
+                      "relation": "canvas",
+                      "x": 0.82,
+                      "y": 0.19,
+                      "gap": 0,
+                      "rotation": 0
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "executionNotes": [
+            "Положение «Наушники» уточнено по границам кадра и реестру пересечений.",
+            "Положение «Открытая книга» уточнено по границам кадра и реестру пересечений.",
+            "Положение «Настольная лампа» уточнено по границам кадра и реестру пересечений."
+          ],
+          "width": 1000,
+          "height": 1000,
+          "format": "square",
+          "size": "S",
+          "palette": "aqua",
+          "layout": "compact",
+          "background": "pattern",
+          "backgroundDesign": "auto",
+          "supporting": true,
+          "showSupporting": true,
+          "camera": null,
+          "composition": {
+            "index": 0,
+            "options": [
+              {
+                "strategy": "balanced",
+                "title": "На опоре",
+                "principle": "Сбалансированная компактная композиция книги и лампы с фоновыми наушниками",
+                "placement": "on-surface"
+              },
+              {
+                "strategy": "spacious",
+                "title": "Рядом",
+                "principle": "Просторное размещение главных предметов в центре с фоновым акцентом",
+                "placement": "beside"
+              },
+              {
+                "strategy": "diagonal",
+                "title": "Другой ракурс группы",
+                "principle": "Диагональное развитие сцены с подсветкой книги слева",
+                "placement": "across"
+              }
+            ]
+          },
+          "layerRelations": [
+            {
+              "back": "imw199wd8xztapr",
+              "front": "imw199wd887sgas",
+              "reason": "Фоновый компаньон находится позади главной группы."
+            }
+          ],
+          "recipe": "auto",
+          "framing": "overview",
+          "focus": "book",
+          "query": "Знания всегда под рукой",
+          "scale": 1,
+          "items": [
+            {
+              "uid": "imw199wd8xztapr",
+              "assetId": "headphones",
+              "role": "background",
+              "x": 1000,
+              "y": 260.38,
+              "rotation": 0,
+              "flipX": false,
+              "flipY": false,
+              "zone": "top-right",
+              "crop": "fragment"
+            },
+            {
+              "uid": "imw199wd887sgas",
+              "assetId": "book",
+              "role": "main",
+              "x": 640,
+              "y": 520,
+              "rotation": 0,
+              "flipX": false,
+              "flipY": false,
+              "zone": "auto",
+              "crop": "whole"
+            },
+            {
+              "uid": "imw199wd8vwetzv",
+              "assetId": "lamp",
+              "role": "main",
+              "x": 254.28971962616822,
+              "y": 476.5,
+              "rotation": 0,
+              "flipX": false,
+              "flipY": false,
+              "zone": "auto",
+              "crop": "whole"
+            }
+          ]
+        },
+        {
+          "version": 1,
+          "sizing": "native",
+          "environmentPrompt": "",
+          "environmentExplanation": [
+            "Главная пара объединяет открытую книгу и настольную лампу для создания атмосферы обучения.",
+            "Настольная лампа выступает источником света слева от книги по правилу reading.",
+            "Фоновый компаньон добавляет глубину композиции, не перекрывая основные элементы."
+          ],
+          "groups": [
+            {
+              "kind": "collection",
+              "members": [
+                "imw199wd887sgas",
+                "imw199wd8vwetzv"
+              ],
+              "reason": "Просторное размещение главных предметов в центре с фоновым акцентом"
+            }
+          ],
+          "formatPlans": [],
+          "stagingPlans": [
+            {
+              "format": "square",
+              "views": [
+                {
+                  "principle": "Сбалансированная компактная композиция книги и лампы с фоновыми наушниками",
+                  "placements": [
+                    {
+                      "uid": "imw199wd887sgas",
+                      "relation": "canvas",
+                      "x": 0.52,
+                      "y": 0.55,
+                      "gap": 0,
+                      "rotation": 0
+                    },
+                    {
+                      "uid": "imw199wd8vwetzv",
+                      "relation": "left",
+                      "targetUid": "imw199wd887sgas",
+                      "x": 0.28,
+                      "y": 0.42,
+                      "gap": 0.04,
+                      "rotation": 0
+                    },
+                    {
+                      "uid": "imw199wd8xztapr",
+                      "relation": "canvas",
+                      "x": 0.8,
+                      "y": 0.25,
+                      "gap": 0,
+                      "rotation": 0
+                    }
+                  ]
+                },
+                {
+                  "principle": "Просторное размещение главных предметов в центре с фоновым акцентом",
+                  "placements": [
+                    {
+                      "uid": "imw199wd887sgas",
+                      "relation": "canvas",
+                      "x": 0.54,
+                      "y": 0.57,
+                      "gap": 0,
+                      "rotation": 0
+                    },
+                    {
+                      "uid": "imw199wd8vwetzv",
+                      "relation": "left",
+                      "targetUid": "imw199wd887sgas",
+                      "x": 0.26,
+                      "y": 0.4,
+                      "gap": 0.05,
+                      "rotation": 0
+                    },
+                    {
+                      "uid": "imw199wd8xztapr",
+                      "relation": "canvas",
+                      "x": 0.82,
+                      "y": 0.23,
+                      "gap": 0,
+                      "rotation": 0
+                    }
+                  ]
+                },
+                {
+                  "principle": "Диагональное развитие сцены с подсветкой книги слева",
+                  "placements": [
+                    {
+                      "uid": "imw199wd887sgas",
+                      "relation": "canvas",
+                      "x": 0.55,
+                      "y": 0.58,
+                      "gap": 0,
+                      "rotation": 0
+                    },
+                    {
+                      "uid": "imw199wd8vwetzv",
+                      "relation": "left",
+                      "targetUid": "imw199wd887sgas",
+                      "x": 0.25,
+                      "y": 0.38,
+                      "gap": 0.04,
+                      "rotation": 0
+                    },
+                    {
+                      "uid": "imw199wd8xztapr",
+                      "relation": "canvas",
+                      "x": 0.83,
+                      "y": 0.22,
+                      "gap": 0,
+                      "rotation": 0
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "format": "landscape",
+              "views": [
+                {
+                  "principle": "Горизонтальная сбалансированная компоновка для широкого кадра",
+                  "placements": [
+                    {
+                      "uid": "imw199wd887sgas",
+                      "relation": "canvas",
+                      "x": 0.55,
+                      "y": 0.56,
+                      "gap": 0,
+                      "rotation": 0
+                    },
+                    {
+                      "uid": "imw199wd8vwetzv",
+                      "relation": "left",
+                      "targetUid": "imw199wd887sgas",
+                      "x": 0.32,
+                      "y": 0.42,
+                      "gap": 0.04,
+                      "rotation": 0
+                    },
+                    {
+                      "uid": "imw199wd8xztapr",
+                      "relation": "canvas",
+                      "x": 0.85,
+                      "y": 0.25,
+                      "gap": 0,
+                      "rotation": 0
+                    }
+                  ]
+                },
+                {
+                  "principle": "Просторное горизонтальное построение с акцентом на обучающую пару",
+                  "placements": [
+                    {
+                      "uid": "imw199wd887sgas",
+                      "relation": "canvas",
+                      "x": 0.56,
+                      "y": 0.57,
+                      "gap": 0,
+                      "rotation": 0
+                    },
+                    {
+                      "uid": "imw199wd8vwetzv",
+                      "relation": "left",
+                      "targetUid": "imw199wd887sgas",
+                      "x": 0.3,
+                      "y": 0.4,
+                      "gap": 0.05,
+                      "rotation": 0
+                    },
+                    {
+                      "uid": "imw199wd8xztapr",
+                      "relation": "canvas",
+                      "x": 0.86,
+                      "y": 0.23,
+                      "gap": 0,
+                      "rotation": 0
+                    }
+                  ]
+                },
+                {
+                  "principle": "Диагональное распределение элементов в ландшафтном формате",
+                  "placements": [
+                    {
+                      "uid": "imw199wd887sgas",
+                      "relation": "canvas",
+                      "x": 0.57,
+                      "y": 0.58,
+                      "gap": 0,
+                      "rotation": 0
+                    },
+                    {
+                      "uid": "imw199wd8vwetzv",
+                      "relation": "left",
+                      "targetUid": "imw199wd887sgas",
+                      "x": 0.29,
+                      "y": 0.38,
+                      "gap": 0.04,
+                      "rotation": 0
+                    },
+                    {
+                      "uid": "imw199wd8xztapr",
+                      "relation": "canvas",
+                      "x": 0.87,
+                      "y": 0.22,
+                      "gap": 0,
+                      "rotation": 0
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "format": "portrait",
+              "views": [
+                {
+                  "principle": "Вертикальная сбалансированная композиция для портретного кадра",
+                  "placements": [
+                    {
+                      "uid": "imw199wd887sgas",
+                      "relation": "canvas",
+                      "x": 0.5,
+                      "y": 0.58,
+                      "gap": 0,
+                      "rotation": 0
+                    },
+                    {
+                      "uid": "imw199wd8vwetzv",
+                      "relation": "left",
+                      "targetUid": "imw199wd887sgas",
+                      "x": 0.3,
+                      "y": 0.42,
+                      "gap": 0.04,
+                      "rotation": 0
+                    },
+                    {
+                      "uid": "imw199wd8xztapr",
+                      "relation": "canvas",
+                      "x": 0.78,
+                      "y": 0.22,
+                      "gap": 0,
+                      "rotation": 0
+                    }
+                  ]
+                },
+                {
+                  "principle": "Просторная вертикальная расстановка элементов сцены",
+                  "placements": [
+                    {
+                      "uid": "imw199wd887sgas",
+                      "relation": "canvas",
+                      "x": 0.5,
+                      "y": 0.6,
+                      "gap": 0,
+                      "rotation": 0
+                    },
+                    {
+                      "uid": "imw199wd8vwetzv",
+                      "relation": "left",
+                      "targetUid": "imw199wd887sgas",
+                      "x": 0.28,
+                      "y": 0.4,
+                      "gap": 0.05,
+                      "rotation": 0
+                    },
+                    {
+                      "uid": "imw199wd8xztapr",
+                      "relation": "canvas",
+                      "x": 0.8,
+                      "y": 0.2,
+                      "gap": 0,
+                      "rotation": 0
+                    }
+                  ]
+                },
+                {
+                  "principle": "Диагональная структура в вертикальном формате с фоном сверху",
+                  "placements": [
+                    {
+                      "uid": "imw199wd887sgas",
+                      "relation": "canvas",
+                      "x": 0.52,
+                      "y": 0.61,
+                      "gap": 0,
+                      "rotation": 0
+                    },
+                    {
+                      "uid": "imw199wd8vwetzv",
+                      "relation": "left",
+                      "targetUid": "imw199wd887sgas",
+                      "x": 0.27,
+                      "y": 0.38,
+                      "gap": 0.04,
+                      "rotation": 0
+                    },
+                    {
+                      "uid": "imw199wd8xztapr",
+                      "relation": "canvas",
+                      "x": 0.82,
+                      "y": 0.19,
+                      "gap": 0,
+                      "rotation": 0
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "executionNotes": [
+            "Положение «Наушники» уточнено по границам кадра и реестру пересечений.",
+            "Положение «Открытая книга» уточнено по границам кадра и реестру пересечений.",
+            "Положение «Настольная лампа» уточнено по границам кадра и реестру пересечений."
+          ],
+          "width": 1000,
+          "height": 1000,
+          "format": "square",
+          "size": "S",
+          "palette": "aqua",
+          "layout": "compact",
+          "background": "pattern",
+          "backgroundDesign": "auto",
+          "supporting": true,
+          "showSupporting": true,
+          "camera": null,
+          "composition": {
+            "index": 1,
+            "options": [
+              {
+                "strategy": "balanced",
+                "title": "На опоре",
+                "principle": "Сбалансированная компактная композиция книги и лампы с фоновыми наушниками",
+                "placement": "on-surface"
+              },
+              {
+                "strategy": "spacious",
+                "title": "Рядом",
+                "principle": "Просторное размещение главных предметов в центре с фоновым акцентом",
+                "placement": "beside"
+              },
+              {
+                "strategy": "diagonal",
+                "title": "Другой ракурс группы",
+                "principle": "Диагональное развитие сцены с подсветкой книги слева",
+                "placement": "across"
+              }
+            ]
+          },
+          "layerRelations": [
+            {
+              "back": "imw199wd8xztapr",
+              "front": "imw199wd887sgas",
+              "reason": "Фоновый компаньон находится позади главной группы."
+            }
+          ],
+          "recipe": "auto",
+          "framing": "overview",
+          "focus": "book",
+          "query": "Знания всегда под рукой",
+          "scale": 1,
+          "items": [
+            {
+              "uid": "imw199wd8xztapr",
+              "assetId": "headphones",
+              "role": "background",
+              "x": 1000,
+              "y": 240.38,
+              "rotation": 0,
+              "flipX": false,
+              "flipY": false,
+              "zone": "top-right",
+              "crop": "fragment"
+            },
+            {
+              "uid": "imw199wd887sgas",
+              "assetId": "book",
+              "role": "main",
+              "x": 640,
+              "y": 520,
+              "rotation": 0,
+              "flipX": false,
+              "flipY": false,
+              "zone": "auto",
+              "crop": "whole"
+            },
+            {
+              "uid": "imw199wd8vwetzv",
+              "assetId": "lamp",
+              "role": "main",
+              "x": 254.28971962616822,
+              "y": 456.5,
+              "rotation": 0,
+              "flipX": false,
+              "flipY": false,
+              "zone": "auto",
+              "crop": "whole"
+            }
+          ]
+        },
+        {
+          "version": 1,
+          "sizing": "native",
+          "environmentPrompt": "",
+          "environmentExplanation": [
+            "Главная пара объединяет открытую книгу и настольную лампу для создания атмосферы обучения.",
+            "Настольная лампа выступает источником света слева от книги по правилу reading.",
+            "Фоновый компаньон добавляет глубину композиции, не перекрывая основные элементы."
+          ],
+          "groups": [
+            {
+              "kind": "collection",
+              "members": [
+                "imw199wd887sgas",
+                "imw199wd8vwetzv"
+              ],
+              "reason": "Диагональное развитие сцены с подсветкой книги слева"
+            }
+          ],
+          "formatPlans": [],
+          "stagingPlans": [
+            {
+              "format": "square",
+              "views": [
+                {
+                  "principle": "Сбалансированная компактная композиция книги и лампы с фоновыми наушниками",
+                  "placements": [
+                    {
+                      "uid": "imw199wd887sgas",
+                      "relation": "canvas",
+                      "x": 0.52,
+                      "y": 0.55,
+                      "gap": 0,
+                      "rotation": 0
+                    },
+                    {
+                      "uid": "imw199wd8vwetzv",
+                      "relation": "left",
+                      "targetUid": "imw199wd887sgas",
+                      "x": 0.28,
+                      "y": 0.42,
+                      "gap": 0.04,
+                      "rotation": 0
+                    },
+                    {
+                      "uid": "imw199wd8xztapr",
+                      "relation": "canvas",
+                      "x": 0.8,
+                      "y": 0.25,
+                      "gap": 0,
+                      "rotation": 0
+                    }
+                  ]
+                },
+                {
+                  "principle": "Просторное размещение главных предметов в центре с фоновым акцентом",
+                  "placements": [
+                    {
+                      "uid": "imw199wd887sgas",
+                      "relation": "canvas",
+                      "x": 0.54,
+                      "y": 0.57,
+                      "gap": 0,
+                      "rotation": 0
+                    },
+                    {
+                      "uid": "imw199wd8vwetzv",
+                      "relation": "left",
+                      "targetUid": "imw199wd887sgas",
+                      "x": 0.26,
+                      "y": 0.4,
+                      "gap": 0.05,
+                      "rotation": 0
+                    },
+                    {
+                      "uid": "imw199wd8xztapr",
+                      "relation": "canvas",
+                      "x": 0.82,
+                      "y": 0.23,
+                      "gap": 0,
+                      "rotation": 0
+                    }
+                  ]
+                },
+                {
+                  "principle": "Диагональное развитие сцены с подсветкой книги слева",
+                  "placements": [
+                    {
+                      "uid": "imw199wd887sgas",
+                      "relation": "canvas",
+                      "x": 0.55,
+                      "y": 0.58,
+                      "gap": 0,
+                      "rotation": 0
+                    },
+                    {
+                      "uid": "imw199wd8vwetzv",
+                      "relation": "left",
+                      "targetUid": "imw199wd887sgas",
+                      "x": 0.25,
+                      "y": 0.38,
+                      "gap": 0.04,
+                      "rotation": 0
+                    },
+                    {
+                      "uid": "imw199wd8xztapr",
+                      "relation": "canvas",
+                      "x": 0.83,
+                      "y": 0.22,
+                      "gap": 0,
+                      "rotation": 0
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "format": "landscape",
+              "views": [
+                {
+                  "principle": "Горизонтальная сбалансированная компоновка для широкого кадра",
+                  "placements": [
+                    {
+                      "uid": "imw199wd887sgas",
+                      "relation": "canvas",
+                      "x": 0.55,
+                      "y": 0.56,
+                      "gap": 0,
+                      "rotation": 0
+                    },
+                    {
+                      "uid": "imw199wd8vwetzv",
+                      "relation": "left",
+                      "targetUid": "imw199wd887sgas",
+                      "x": 0.32,
+                      "y": 0.42,
+                      "gap": 0.04,
+                      "rotation": 0
+                    },
+                    {
+                      "uid": "imw199wd8xztapr",
+                      "relation": "canvas",
+                      "x": 0.85,
+                      "y": 0.25,
+                      "gap": 0,
+                      "rotation": 0
+                    }
+                  ]
+                },
+                {
+                  "principle": "Просторное горизонтальное построение с акцентом на обучающую пару",
+                  "placements": [
+                    {
+                      "uid": "imw199wd887sgas",
+                      "relation": "canvas",
+                      "x": 0.56,
+                      "y": 0.57,
+                      "gap": 0,
+                      "rotation": 0
+                    },
+                    {
+                      "uid": "imw199wd8vwetzv",
+                      "relation": "left",
+                      "targetUid": "imw199wd887sgas",
+                      "x": 0.3,
+                      "y": 0.4,
+                      "gap": 0.05,
+                      "rotation": 0
+                    },
+                    {
+                      "uid": "imw199wd8xztapr",
+                      "relation": "canvas",
+                      "x": 0.86,
+                      "y": 0.23,
+                      "gap": 0,
+                      "rotation": 0
+                    }
+                  ]
+                },
+                {
+                  "principle": "Диагональное распределение элементов в ландшафтном формате",
+                  "placements": [
+                    {
+                      "uid": "imw199wd887sgas",
+                      "relation": "canvas",
+                      "x": 0.57,
+                      "y": 0.58,
+                      "gap": 0,
+                      "rotation": 0
+                    },
+                    {
+                      "uid": "imw199wd8vwetzv",
+                      "relation": "left",
+                      "targetUid": "imw199wd887sgas",
+                      "x": 0.29,
+                      "y": 0.38,
+                      "gap": 0.04,
+                      "rotation": 0
+                    },
+                    {
+                      "uid": "imw199wd8xztapr",
+                      "relation": "canvas",
+                      "x": 0.87,
+                      "y": 0.22,
+                      "gap": 0,
+                      "rotation": 0
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "format": "portrait",
+              "views": [
+                {
+                  "principle": "Вертикальная сбалансированная композиция для портретного кадра",
+                  "placements": [
+                    {
+                      "uid": "imw199wd887sgas",
+                      "relation": "canvas",
+                      "x": 0.5,
+                      "y": 0.58,
+                      "gap": 0,
+                      "rotation": 0
+                    },
+                    {
+                      "uid": "imw199wd8vwetzv",
+                      "relation": "left",
+                      "targetUid": "imw199wd887sgas",
+                      "x": 0.3,
+                      "y": 0.42,
+                      "gap": 0.04,
+                      "rotation": 0
+                    },
+                    {
+                      "uid": "imw199wd8xztapr",
+                      "relation": "canvas",
+                      "x": 0.78,
+                      "y": 0.22,
+                      "gap": 0,
+                      "rotation": 0
+                    }
+                  ]
+                },
+                {
+                  "principle": "Просторная вертикальная расстановка элементов сцены",
+                  "placements": [
+                    {
+                      "uid": "imw199wd887sgas",
+                      "relation": "canvas",
+                      "x": 0.5,
+                      "y": 0.6,
+                      "gap": 0,
+                      "rotation": 0
+                    },
+                    {
+                      "uid": "imw199wd8vwetzv",
+                      "relation": "left",
+                      "targetUid": "imw199wd887sgas",
+                      "x": 0.28,
+                      "y": 0.4,
+                      "gap": 0.05,
+                      "rotation": 0
+                    },
+                    {
+                      "uid": "imw199wd8xztapr",
+                      "relation": "canvas",
+                      "x": 0.8,
+                      "y": 0.2,
+                      "gap": 0,
+                      "rotation": 0
+                    }
+                  ]
+                },
+                {
+                  "principle": "Диагональная структура в вертикальном формате с фоном сверху",
+                  "placements": [
+                    {
+                      "uid": "imw199wd887sgas",
+                      "relation": "canvas",
+                      "x": 0.52,
+                      "y": 0.61,
+                      "gap": 0,
+                      "rotation": 0
+                    },
+                    {
+                      "uid": "imw199wd8vwetzv",
+                      "relation": "left",
+                      "targetUid": "imw199wd887sgas",
+                      "x": 0.27,
+                      "y": 0.38,
+                      "gap": 0.04,
+                      "rotation": 0
+                    },
+                    {
+                      "uid": "imw199wd8xztapr",
+                      "relation": "canvas",
+                      "x": 0.82,
+                      "y": 0.19,
+                      "gap": 0,
+                      "rotation": 0
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "executionNotes": [
+            "Положение «Наушники» уточнено по границам кадра и реестру пересечений.",
+            "Положение «Открытая книга» уточнено по границам кадра и реестру пересечений.",
+            "Положение «Настольная лампа» уточнено по границам кадра и реестру пересечений."
+          ],
+          "width": 1000,
+          "height": 1000,
+          "format": "square",
+          "size": "S",
+          "palette": "aqua",
+          "layout": "compact",
+          "background": "pattern",
+          "backgroundDesign": "auto",
+          "supporting": true,
+          "showSupporting": true,
+          "camera": null,
+          "composition": {
+            "index": 2,
+            "options": [
+              {
+                "strategy": "balanced",
+                "title": "На опоре",
+                "principle": "Сбалансированная компактная композиция книги и лампы с фоновыми наушниками",
+                "placement": "on-surface"
+              },
+              {
+                "strategy": "spacious",
+                "title": "Рядом",
+                "principle": "Просторное размещение главных предметов в центре с фоновым акцентом",
+                "placement": "beside"
+              },
+              {
+                "strategy": "diagonal",
+                "title": "Другой ракурс группы",
+                "principle": "Диагональное развитие сцены с подсветкой книги слева",
+                "placement": "across"
+              }
+            ]
+          },
+          "layerRelations": [
+            {
+              "back": "imw199wd8xztapr",
+              "front": "imw199wd887sgas",
+              "reason": "Фоновый компаньон находится позади главной группы."
+            }
+          ],
+          "recipe": "auto",
+          "framing": "overview",
+          "focus": "book",
+          "query": "Знания всегда под рукой",
+          "scale": 1,
+          "items": [
+            {
+              "uid": "imw199wd8xztapr",
+              "assetId": "headphones",
+              "role": "background",
+              "x": 1000,
+              "y": 120,
+              "rotation": 0,
+              "flipX": false,
+              "flipY": false,
+              "zone": "top-right",
+              "crop": "fragment"
+            },
+            {
+              "uid": "imw199wd887sgas",
+              "assetId": "book",
+              "role": "main",
+              "x": 640,
+              "y": 520,
+              "rotation": 0,
+              "flipX": false,
+              "flipY": false,
+              "zone": "auto",
+              "crop": "whole"
+            },
+            {
+              "uid": "imw199wd8vwetzv",
+              "assetId": "lamp",
+              "role": "main",
+              "x": 254.28971962616822,
+              "y": 436.5,
+              "rotation": 0,
+              "flipX": false,
+              "flipY": false,
+              "zone": "auto",
+              "crop": "whole"
+            }
+          ]
+        }
+      ],
+      "landscape": [
+        {
+          "version": 1,
+          "sizing": "native",
+          "environmentPrompt": "",
+          "environmentExplanation": [
+            "Главная пара объединяет открытую книгу и настольную лампу для создания атмосферы обучения.",
+            "Настольная лампа выступает источником света слева от книги по правилу reading.",
+            "Фоновый компаньон добавляет глубину композиции, не перекрывая основные элементы."
+          ],
+          "groups": [
+            {
+              "kind": "collection",
+              "members": [
+                "imw199wd887sgas",
+                "imw199wd8vwetzv"
+              ],
+              "reason": "Горизонтальная сбалансированная компоновка для широкого кадра"
+            }
+          ],
+          "formatPlans": [],
+          "stagingPlans": [
+            {
+              "format": "square",
+              "views": [
+                {
+                  "principle": "Сбалансированная компактная композиция книги и лампы с фоновыми наушниками",
+                  "placements": [
+                    {
+                      "uid": "imw199wd887sgas",
+                      "relation": "canvas",
+                      "x": 0.52,
+                      "y": 0.55,
+                      "gap": 0,
+                      "rotation": 0
+                    },
+                    {
+                      "uid": "imw199wd8vwetzv",
+                      "relation": "left",
+                      "targetUid": "imw199wd887sgas",
+                      "x": 0.28,
+                      "y": 0.42,
+                      "gap": 0.04,
+                      "rotation": 0
+                    },
+                    {
+                      "uid": "imw199wd8xztapr",
+                      "relation": "canvas",
+                      "x": 0.8,
+                      "y": 0.25,
+                      "gap": 0,
+                      "rotation": 0
+                    }
+                  ]
+                },
+                {
+                  "principle": "Просторное размещение главных предметов в центре с фоновым акцентом",
+                  "placements": [
+                    {
+                      "uid": "imw199wd887sgas",
+                      "relation": "canvas",
+                      "x": 0.54,
+                      "y": 0.57,
+                      "gap": 0,
+                      "rotation": 0
+                    },
+                    {
+                      "uid": "imw199wd8vwetzv",
+                      "relation": "left",
+                      "targetUid": "imw199wd887sgas",
+                      "x": 0.26,
+                      "y": 0.4,
+                      "gap": 0.05,
+                      "rotation": 0
+                    },
+                    {
+                      "uid": "imw199wd8xztapr",
+                      "relation": "canvas",
+                      "x": 0.82,
+                      "y": 0.23,
+                      "gap": 0,
+                      "rotation": 0
+                    }
+                  ]
+                },
+                {
+                  "principle": "Диагональное развитие сцены с подсветкой книги слева",
+                  "placements": [
+                    {
+                      "uid": "imw199wd887sgas",
+                      "relation": "canvas",
+                      "x": 0.55,
+                      "y": 0.58,
+                      "gap": 0,
+                      "rotation": 0
+                    },
+                    {
+                      "uid": "imw199wd8vwetzv",
+                      "relation": "left",
+                      "targetUid": "imw199wd887sgas",
+                      "x": 0.25,
+                      "y": 0.38,
+                      "gap": 0.04,
+                      "rotation": 0
+                    },
+                    {
+                      "uid": "imw199wd8xztapr",
+                      "relation": "canvas",
+                      "x": 0.83,
+                      "y": 0.22,
+                      "gap": 0,
+                      "rotation": 0
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "format": "landscape",
+              "views": [
+                {
+                  "principle": "Горизонтальная сбалансированная компоновка для широкого кадра",
+                  "placements": [
+                    {
+                      "uid": "imw199wd887sgas",
+                      "relation": "canvas",
+                      "x": 0.55,
+                      "y": 0.56,
+                      "gap": 0,
+                      "rotation": 0
+                    },
+                    {
+                      "uid": "imw199wd8vwetzv",
+                      "relation": "left",
+                      "targetUid": "imw199wd887sgas",
+                      "x": 0.32,
+                      "y": 0.42,
+                      "gap": 0.04,
+                      "rotation": 0
+                    },
+                    {
+                      "uid": "imw199wd8xztapr",
+                      "relation": "canvas",
+                      "x": 0.85,
+                      "y": 0.25,
+                      "gap": 0,
+                      "rotation": 0
+                    }
+                  ]
+                },
+                {
+                  "principle": "Просторное горизонтальное построение с акцентом на обучающую пару",
+                  "placements": [
+                    {
+                      "uid": "imw199wd887sgas",
+                      "relation": "canvas",
+                      "x": 0.56,
+                      "y": 0.57,
+                      "gap": 0,
+                      "rotation": 0
+                    },
+                    {
+                      "uid": "imw199wd8vwetzv",
+                      "relation": "left",
+                      "targetUid": "imw199wd887sgas",
+                      "x": 0.3,
+                      "y": 0.4,
+                      "gap": 0.05,
+                      "rotation": 0
+                    },
+                    {
+                      "uid": "imw199wd8xztapr",
+                      "relation": "canvas",
+                      "x": 0.86,
+                      "y": 0.23,
+                      "gap": 0,
+                      "rotation": 0
+                    }
+                  ]
+                },
+                {
+                  "principle": "Диагональное распределение элементов в ландшафтном формате",
+                  "placements": [
+                    {
+                      "uid": "imw199wd887sgas",
+                      "relation": "canvas",
+                      "x": 0.57,
+                      "y": 0.58,
+                      "gap": 0,
+                      "rotation": 0
+                    },
+                    {
+                      "uid": "imw199wd8vwetzv",
+                      "relation": "left",
+                      "targetUid": "imw199wd887sgas",
+                      "x": 0.29,
+                      "y": 0.38,
+                      "gap": 0.04,
+                      "rotation": 0
+                    },
+                    {
+                      "uid": "imw199wd8xztapr",
+                      "relation": "canvas",
+                      "x": 0.87,
+                      "y": 0.22,
+                      "gap": 0,
+                      "rotation": 0
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "format": "portrait",
+              "views": [
+                {
+                  "principle": "Вертикальная сбалансированная композиция для портретного кадра",
+                  "placements": [
+                    {
+                      "uid": "imw199wd887sgas",
+                      "relation": "canvas",
+                      "x": 0.5,
+                      "y": 0.58,
+                      "gap": 0,
+                      "rotation": 0
+                    },
+                    {
+                      "uid": "imw199wd8vwetzv",
+                      "relation": "left",
+                      "targetUid": "imw199wd887sgas",
+                      "x": 0.3,
+                      "y": 0.42,
+                      "gap": 0.04,
+                      "rotation": 0
+                    },
+                    {
+                      "uid": "imw199wd8xztapr",
+                      "relation": "canvas",
+                      "x": 0.78,
+                      "y": 0.22,
+                      "gap": 0,
+                      "rotation": 0
+                    }
+                  ]
+                },
+                {
+                  "principle": "Просторная вертикальная расстановка элементов сцены",
+                  "placements": [
+                    {
+                      "uid": "imw199wd887sgas",
+                      "relation": "canvas",
+                      "x": 0.5,
+                      "y": 0.6,
+                      "gap": 0,
+                      "rotation": 0
+                    },
+                    {
+                      "uid": "imw199wd8vwetzv",
+                      "relation": "left",
+                      "targetUid": "imw199wd887sgas",
+                      "x": 0.28,
+                      "y": 0.4,
+                      "gap": 0.05,
+                      "rotation": 0
+                    },
+                    {
+                      "uid": "imw199wd8xztapr",
+                      "relation": "canvas",
+                      "x": 0.8,
+                      "y": 0.2,
+                      "gap": 0,
+                      "rotation": 0
+                    }
+                  ]
+                },
+                {
+                  "principle": "Диагональная структура в вертикальном формате с фоном сверху",
+                  "placements": [
+                    {
+                      "uid": "imw199wd887sgas",
+                      "relation": "canvas",
+                      "x": 0.52,
+                      "y": 0.61,
+                      "gap": 0,
+                      "rotation": 0
+                    },
+                    {
+                      "uid": "imw199wd8vwetzv",
+                      "relation": "left",
+                      "targetUid": "imw199wd887sgas",
+                      "x": 0.27,
+                      "y": 0.38,
+                      "gap": 0.04,
+                      "rotation": 0
+                    },
+                    {
+                      "uid": "imw199wd8xztapr",
+                      "relation": "canvas",
+                      "x": 0.82,
+                      "y": 0.19,
+                      "gap": 0,
+                      "rotation": 0
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "executionNotes": [
+            "Положение «Наушники» уточнено по границам кадра и реестру пересечений.",
+            "Положение «Настольная лампа» уточнено по границам кадра и реестру пересечений."
+          ],
+          "width": 1200,
+          "height": 630,
+          "format": "landscape",
+          "size": "S",
+          "palette": "aqua",
+          "layout": "compact",
+          "background": "pattern",
+          "backgroundDesign": "auto",
+          "supporting": true,
+          "showSupporting": true,
+          "camera": null,
+          "composition": {
+            "index": 0,
+            "options": [
+              {
+                "strategy": "balanced",
+                "title": "На опоре",
+                "principle": "Сбалансированная компактная композиция книги и лампы с фоновыми наушниками",
+                "placement": "on-surface"
+              },
+              {
+                "strategy": "spacious",
+                "title": "Рядом",
+                "principle": "Просторное размещение главных предметов в центре с фоновым акцентом",
+                "placement": "beside"
+              },
+              {
+                "strategy": "diagonal",
+                "title": "Другой ракурс группы",
+                "principle": "Диагональное развитие сцены с подсветкой книги слева",
+                "placement": "across"
+              }
+            ]
+          },
+          "layerRelations": [
+            {
+              "back": "imw199wd8xztapr",
+              "front": "imw199wd887sgas",
+              "reason": "Фоновый компаньон находится позади главной группы."
+            }
+          ],
+          "recipe": "auto",
+          "framing": "overview",
+          "focus": "book",
+          "query": "Знания всегда под рукой",
+          "scale": 1,
+          "items": [
+            {
+              "uid": "imw199wd8xztapr",
+              "assetId": "headphones",
+              "role": "background",
+              "x": 1200,
+              "y": 75.6,
+              "rotation": 0,
+              "flipX": false,
+              "flipY": false,
+              "zone": "top-right",
+              "crop": "fragment"
+            },
+            {
+              "uid": "imw199wd887sgas",
+              "assetId": "book",
+              "role": "main",
+              "x": 681.69,
+              "y": 377.25,
+              "rotation": 0,
+              "flipX": false,
+              "flipY": false,
+              "zone": "auto",
+              "crop": "whole"
+            },
+            {
+              "uid": "imw199wd8vwetzv",
+              "assetId": "lamp",
+              "role": "main",
+              "x": 246.88971962616822,
+              "y": 321.09999999999997,
+              "rotation": 0,
+              "flipX": false,
+              "flipY": false,
+              "zone": "auto",
+              "crop": "whole"
+            }
+          ]
+        },
+        {
+          "version": 1,
+          "sizing": "native",
+          "environmentPrompt": "",
+          "environmentExplanation": [
+            "Главная пара объединяет открытую книгу и настольную лампу для создания атмосферы обучения.",
+            "Настольная лампа выступает источником света слева от книги по правилу reading.",
+            "Фоновый компаньон добавляет глубину композиции, не перекрывая основные элементы."
+          ],
+          "groups": [
+            {
+              "kind": "collection",
+              "members": [
+                "imw199wd887sgas",
+                "imw199wd8vwetzv"
+              ],
+              "reason": "Просторное горизонтальное построение с акцентом на обучающую пару"
+            }
+          ],
+          "formatPlans": [],
+          "stagingPlans": [
+            {
+              "format": "square",
+              "views": [
+                {
+                  "principle": "Сбалансированная компактная композиция книги и лампы с фоновыми наушниками",
+                  "placements": [
+                    {
+                      "uid": "imw199wd887sgas",
+                      "relation": "canvas",
+                      "x": 0.52,
+                      "y": 0.55,
+                      "gap": 0,
+                      "rotation": 0
+                    },
+                    {
+                      "uid": "imw199wd8vwetzv",
+                      "relation": "left",
+                      "targetUid": "imw199wd887sgas",
+                      "x": 0.28,
+                      "y": 0.42,
+                      "gap": 0.04,
+                      "rotation": 0
+                    },
+                    {
+                      "uid": "imw199wd8xztapr",
+                      "relation": "canvas",
+                      "x": 0.8,
+                      "y": 0.25,
+                      "gap": 0,
+                      "rotation": 0
+                    }
+                  ]
+                },
+                {
+                  "principle": "Просторное размещение главных предметов в центре с фоновым акцентом",
+                  "placements": [
+                    {
+                      "uid": "imw199wd887sgas",
+                      "relation": "canvas",
+                      "x": 0.54,
+                      "y": 0.57,
+                      "gap": 0,
+                      "rotation": 0
+                    },
+                    {
+                      "uid": "imw199wd8vwetzv",
+                      "relation": "left",
+                      "targetUid": "imw199wd887sgas",
+                      "x": 0.26,
+                      "y": 0.4,
+                      "gap": 0.05,
+                      "rotation": 0
+                    },
+                    {
+                      "uid": "imw199wd8xztapr",
+                      "relation": "canvas",
+                      "x": 0.82,
+                      "y": 0.23,
+                      "gap": 0,
+                      "rotation": 0
+                    }
+                  ]
+                },
+                {
+                  "principle": "Диагональное развитие сцены с подсветкой книги слева",
+                  "placements": [
+                    {
+                      "uid": "imw199wd887sgas",
+                      "relation": "canvas",
+                      "x": 0.55,
+                      "y": 0.58,
+                      "gap": 0,
+                      "rotation": 0
+                    },
+                    {
+                      "uid": "imw199wd8vwetzv",
+                      "relation": "left",
+                      "targetUid": "imw199wd887sgas",
+                      "x": 0.25,
+                      "y": 0.38,
+                      "gap": 0.04,
+                      "rotation": 0
+                    },
+                    {
+                      "uid": "imw199wd8xztapr",
+                      "relation": "canvas",
+                      "x": 0.83,
+                      "y": 0.22,
+                      "gap": 0,
+                      "rotation": 0
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "format": "landscape",
+              "views": [
+                {
+                  "principle": "Горизонтальная сбалансированная компоновка для широкого кадра",
+                  "placements": [
+                    {
+                      "uid": "imw199wd887sgas",
+                      "relation": "canvas",
+                      "x": 0.55,
+                      "y": 0.56,
+                      "gap": 0,
+                      "rotation": 0
+                    },
+                    {
+                      "uid": "imw199wd8vwetzv",
+                      "relation": "left",
+                      "targetUid": "imw199wd887sgas",
+                      "x": 0.32,
+                      "y": 0.42,
+                      "gap": 0.04,
+                      "rotation": 0
+                    },
+                    {
+                      "uid": "imw199wd8xztapr",
+                      "relation": "canvas",
+                      "x": 0.85,
+                      "y": 0.25,
+                      "gap": 0,
+                      "rotation": 0
+                    }
+                  ]
+                },
+                {
+                  "principle": "Просторное горизонтальное построение с акцентом на обучающую пару",
+                  "placements": [
+                    {
+                      "uid": "imw199wd887sgas",
+                      "relation": "canvas",
+                      "x": 0.56,
+                      "y": 0.57,
+                      "gap": 0,
+                      "rotation": 0
+                    },
+                    {
+                      "uid": "imw199wd8vwetzv",
+                      "relation": "left",
+                      "targetUid": "imw199wd887sgas",
+                      "x": 0.3,
+                      "y": 0.4,
+                      "gap": 0.05,
+                      "rotation": 0
+                    },
+                    {
+                      "uid": "imw199wd8xztapr",
+                      "relation": "canvas",
+                      "x": 0.86,
+                      "y": 0.23,
+                      "gap": 0,
+                      "rotation": 0
+                    }
+                  ]
+                },
+                {
+                  "principle": "Диагональное распределение элементов в ландшафтном формате",
+                  "placements": [
+                    {
+                      "uid": "imw199wd887sgas",
+                      "relation": "canvas",
+                      "x": 0.57,
+                      "y": 0.58,
+                      "gap": 0,
+                      "rotation": 0
+                    },
+                    {
+                      "uid": "imw199wd8vwetzv",
+                      "relation": "left",
+                      "targetUid": "imw199wd887sgas",
+                      "x": 0.29,
+                      "y": 0.38,
+                      "gap": 0.04,
+                      "rotation": 0
+                    },
+                    {
+                      "uid": "imw199wd8xztapr",
+                      "relation": "canvas",
+                      "x": 0.87,
+                      "y": 0.22,
+                      "gap": 0,
+                      "rotation": 0
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "format": "portrait",
+              "views": [
+                {
+                  "principle": "Вертикальная сбалансированная композиция для портретного кадра",
+                  "placements": [
+                    {
+                      "uid": "imw199wd887sgas",
+                      "relation": "canvas",
+                      "x": 0.5,
+                      "y": 0.58,
+                      "gap": 0,
+                      "rotation": 0
+                    },
+                    {
+                      "uid": "imw199wd8vwetzv",
+                      "relation": "left",
+                      "targetUid": "imw199wd887sgas",
+                      "x": 0.3,
+                      "y": 0.42,
+                      "gap": 0.04,
+                      "rotation": 0
+                    },
+                    {
+                      "uid": "imw199wd8xztapr",
+                      "relation": "canvas",
+                      "x": 0.78,
+                      "y": 0.22,
+                      "gap": 0,
+                      "rotation": 0
+                    }
+                  ]
+                },
+                {
+                  "principle": "Просторная вертикальная расстановка элементов сцены",
+                  "placements": [
+                    {
+                      "uid": "imw199wd887sgas",
+                      "relation": "canvas",
+                      "x": 0.5,
+                      "y": 0.6,
+                      "gap": 0,
+                      "rotation": 0
+                    },
+                    {
+                      "uid": "imw199wd8vwetzv",
+                      "relation": "left",
+                      "targetUid": "imw199wd887sgas",
+                      "x": 0.28,
+                      "y": 0.4,
+                      "gap": 0.05,
+                      "rotation": 0
+                    },
+                    {
+                      "uid": "imw199wd8xztapr",
+                      "relation": "canvas",
+                      "x": 0.8,
+                      "y": 0.2,
+                      "gap": 0,
+                      "rotation": 0
+                    }
+                  ]
+                },
+                {
+                  "principle": "Диагональная структура в вертикальном формате с фоном сверху",
+                  "placements": [
+                    {
+                      "uid": "imw199wd887sgas",
+                      "relation": "canvas",
+                      "x": 0.52,
+                      "y": 0.61,
+                      "gap": 0,
+                      "rotation": 0
+                    },
+                    {
+                      "uid": "imw199wd8vwetzv",
+                      "relation": "left",
+                      "targetUid": "imw199wd887sgas",
+                      "x": 0.27,
+                      "y": 0.38,
+                      "gap": 0.04,
+                      "rotation": 0
+                    },
+                    {
+                      "uid": "imw199wd8xztapr",
+                      "relation": "canvas",
+                      "x": 0.82,
+                      "y": 0.19,
+                      "gap": 0,
+                      "rotation": 0
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "executionNotes": [
+            "Положение «Настольная лампа» уточнено по границам кадра и реестру пересечений."
+          ],
+          "width": 1200,
+          "height": 630,
+          "format": "landscape",
+          "size": "S",
+          "palette": "aqua",
+          "layout": "compact",
+          "background": "pattern",
+          "backgroundDesign": "auto",
+          "supporting": true,
+          "showSupporting": true,
+          "camera": null,
+          "composition": {
+            "index": 1,
+            "options": [
+              {
+                "strategy": "balanced",
+                "title": "На опоре",
+                "principle": "Сбалансированная компактная композиция книги и лампы с фоновыми наушниками",
+                "placement": "on-surface"
+              },
+              {
+                "strategy": "spacious",
+                "title": "Рядом",
+                "principle": "Просторное размещение главных предметов в центре с фоновым акцентом",
+                "placement": "beside"
+              },
+              {
+                "strategy": "diagonal",
+                "title": "Другой ракурс группы",
+                "principle": "Диагональное развитие сцены с подсветкой книги слева",
+                "placement": "across"
+              }
+            ]
+          },
+          "layerRelations": [
+            {
+              "back": "imw199wd8xztapr",
+              "front": "imw199wd887sgas",
+              "reason": "Фоновый компаньон находится позади главной группы."
+            }
+          ],
+          "recipe": "auto",
+          "framing": "overview",
+          "focus": "book",
+          "query": "Знания всегда под рукой",
+          "scale": 1,
+          "items": [
+            {
+              "uid": "imw199wd8xztapr",
+              "assetId": "headphones",
+              "role": "background",
+              "x": 1049.8,
+              "y": 155.28000000000003,
+              "rotation": 0,
+              "flipX": false,
+              "flipY": false,
+              "zone": "top-right",
+              "crop": "fragment"
+            },
+            {
+              "uid": "imw199wd887sgas",
+              "assetId": "book",
+              "role": "main",
+              "x": 693.6900000000002,
+              "y": 383.54999999999995,
+              "rotation": 0,
+              "flipX": false,
+              "flipY": false,
+              "zone": "auto",
+              "crop": "whole"
+            },
+            {
+              "uid": "imw199wd8vwetzv",
+              "assetId": "lamp",
+              "role": "main",
+              "x": 246.88971962616822,
+              "y": 308.5,
+              "rotation": 0,
+              "flipX": false,
+              "flipY": false,
+              "zone": "auto",
+              "crop": "whole"
+            }
+          ]
+        },
+        {
+          "version": 1,
+          "sizing": "native",
+          "environmentPrompt": "",
+          "environmentExplanation": [
+            "Главная пара объединяет открытую книгу и настольную лампу для создания атмосферы обучения.",
+            "Настольная лампа выступает источником света слева от книги по правилу reading.",
+            "Фоновый компаньон добавляет глубину композиции, не перекрывая основные элементы."
+          ],
+          "groups": [
+            {
+              "kind": "collection",
+              "members": [
+                "imw199wd887sgas",
+                "imw199wd8vwetzv"
+              ],
+              "reason": "Диагональное распределение элементов в ландшафтном формате"
+            }
+          ],
+          "formatPlans": [],
+          "stagingPlans": [
+            {
+              "format": "square",
+              "views": [
+                {
+                  "principle": "Сбалансированная компактная композиция книги и лампы с фоновыми наушниками",
+                  "placements": [
+                    {
+                      "uid": "imw199wd887sgas",
+                      "relation": "canvas",
+                      "x": 0.52,
+                      "y": 0.55,
+                      "gap": 0,
+                      "rotation": 0
+                    },
+                    {
+                      "uid": "imw199wd8vwetzv",
+                      "relation": "left",
+                      "targetUid": "imw199wd887sgas",
+                      "x": 0.28,
+                      "y": 0.42,
+                      "gap": 0.04,
+                      "rotation": 0
+                    },
+                    {
+                      "uid": "imw199wd8xztapr",
+                      "relation": "canvas",
+                      "x": 0.8,
+                      "y": 0.25,
+                      "gap": 0,
+                      "rotation": 0
+                    }
+                  ]
+                },
+                {
+                  "principle": "Просторное размещение главных предметов в центре с фоновым акцентом",
+                  "placements": [
+                    {
+                      "uid": "imw199wd887sgas",
+                      "relation": "canvas",
+                      "x": 0.54,
+                      "y": 0.57,
+                      "gap": 0,
+                      "rotation": 0
+                    },
+                    {
+                      "uid": "imw199wd8vwetzv",
+                      "relation": "left",
+                      "targetUid": "imw199wd887sgas",
+                      "x": 0.26,
+                      "y": 0.4,
+                      "gap": 0.05,
+                      "rotation": 0
+                    },
+                    {
+                      "uid": "imw199wd8xztapr",
+                      "relation": "canvas",
+                      "x": 0.82,
+                      "y": 0.23,
+                      "gap": 0,
+                      "rotation": 0
+                    }
+                  ]
+                },
+                {
+                  "principle": "Диагональное развитие сцены с подсветкой книги слева",
+                  "placements": [
+                    {
+                      "uid": "imw199wd887sgas",
+                      "relation": "canvas",
+                      "x": 0.55,
+                      "y": 0.58,
+                      "gap": 0,
+                      "rotation": 0
+                    },
+                    {
+                      "uid": "imw199wd8vwetzv",
+                      "relation": "left",
+                      "targetUid": "imw199wd887sgas",
+                      "x": 0.25,
+                      "y": 0.38,
+                      "gap": 0.04,
+                      "rotation": 0
+                    },
+                    {
+                      "uid": "imw199wd8xztapr",
+                      "relation": "canvas",
+                      "x": 0.83,
+                      "y": 0.22,
+                      "gap": 0,
+                      "rotation": 0
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "format": "landscape",
+              "views": [
+                {
+                  "principle": "Горизонтальная сбалансированная компоновка для широкого кадра",
+                  "placements": [
+                    {
+                      "uid": "imw199wd887sgas",
+                      "relation": "canvas",
+                      "x": 0.55,
+                      "y": 0.56,
+                      "gap": 0,
+                      "rotation": 0
+                    },
+                    {
+                      "uid": "imw199wd8vwetzv",
+                      "relation": "left",
+                      "targetUid": "imw199wd887sgas",
+                      "x": 0.32,
+                      "y": 0.42,
+                      "gap": 0.04,
+                      "rotation": 0
+                    },
+                    {
+                      "uid": "imw199wd8xztapr",
+                      "relation": "canvas",
+                      "x": 0.85,
+                      "y": 0.25,
+                      "gap": 0,
+                      "rotation": 0
+                    }
+                  ]
+                },
+                {
+                  "principle": "Просторное горизонтальное построение с акцентом на обучающую пару",
+                  "placements": [
+                    {
+                      "uid": "imw199wd887sgas",
+                      "relation": "canvas",
+                      "x": 0.56,
+                      "y": 0.57,
+                      "gap": 0,
+                      "rotation": 0
+                    },
+                    {
+                      "uid": "imw199wd8vwetzv",
+                      "relation": "left",
+                      "targetUid": "imw199wd887sgas",
+                      "x": 0.3,
+                      "y": 0.4,
+                      "gap": 0.05,
+                      "rotation": 0
+                    },
+                    {
+                      "uid": "imw199wd8xztapr",
+                      "relation": "canvas",
+                      "x": 0.86,
+                      "y": 0.23,
+                      "gap": 0,
+                      "rotation": 0
+                    }
+                  ]
+                },
+                {
+                  "principle": "Диагональное распределение элементов в ландшафтном формате",
+                  "placements": [
+                    {
+                      "uid": "imw199wd887sgas",
+                      "relation": "canvas",
+                      "x": 0.57,
+                      "y": 0.58,
+                      "gap": 0,
+                      "rotation": 0
+                    },
+                    {
+                      "uid": "imw199wd8vwetzv",
+                      "relation": "left",
+                      "targetUid": "imw199wd887sgas",
+                      "x": 0.29,
+                      "y": 0.38,
+                      "gap": 0.04,
+                      "rotation": 0
+                    },
+                    {
+                      "uid": "imw199wd8xztapr",
+                      "relation": "canvas",
+                      "x": 0.87,
+                      "y": 0.22,
+                      "gap": 0,
+                      "rotation": 0
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "format": "portrait",
+              "views": [
+                {
+                  "principle": "Вертикальная сбалансированная композиция для портретного кадра",
+                  "placements": [
+                    {
+                      "uid": "imw199wd887sgas",
+                      "relation": "canvas",
+                      "x": 0.5,
+                      "y": 0.58,
+                      "gap": 0,
+                      "rotation": 0
+                    },
+                    {
+                      "uid": "imw199wd8vwetzv",
+                      "relation": "left",
+                      "targetUid": "imw199wd887sgas",
+                      "x": 0.3,
+                      "y": 0.42,
+                      "gap": 0.04,
+                      "rotation": 0
+                    },
+                    {
+                      "uid": "imw199wd8xztapr",
+                      "relation": "canvas",
+                      "x": 0.78,
+                      "y": 0.22,
+                      "gap": 0,
+                      "rotation": 0
+                    }
+                  ]
+                },
+                {
+                  "principle": "Просторная вертикальная расстановка элементов сцены",
+                  "placements": [
+                    {
+                      "uid": "imw199wd887sgas",
+                      "relation": "canvas",
+                      "x": 0.5,
+                      "y": 0.6,
+                      "gap": 0,
+                      "rotation": 0
+                    },
+                    {
+                      "uid": "imw199wd8vwetzv",
+                      "relation": "left",
+                      "targetUid": "imw199wd887sgas",
+                      "x": 0.28,
+                      "y": 0.4,
+                      "gap": 0.05,
+                      "rotation": 0
+                    },
+                    {
+                      "uid": "imw199wd8xztapr",
+                      "relation": "canvas",
+                      "x": 0.8,
+                      "y": 0.2,
+                      "gap": 0,
+                      "rotation": 0
+                    }
+                  ]
+                },
+                {
+                  "principle": "Диагональная структура в вертикальном формате с фоном сверху",
+                  "placements": [
+                    {
+                      "uid": "imw199wd887sgas",
+                      "relation": "canvas",
+                      "x": 0.52,
+                      "y": 0.61,
+                      "gap": 0,
+                      "rotation": 0
+                    },
+                    {
+                      "uid": "imw199wd8vwetzv",
+                      "relation": "left",
+                      "targetUid": "imw199wd887sgas",
+                      "x": 0.27,
+                      "y": 0.38,
+                      "gap": 0.04,
+                      "rotation": 0
+                    },
+                    {
+                      "uid": "imw199wd8xztapr",
+                      "relation": "canvas",
+                      "x": 0.82,
+                      "y": 0.19,
+                      "gap": 0,
+                      "rotation": 0
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "executionNotes": [
+            "Положение «Настольная лампа» уточнено по границам кадра и реестру пересечений."
+          ],
+          "width": 1200,
+          "height": 630,
+          "format": "landscape",
+          "size": "S",
+          "palette": "aqua",
+          "layout": "compact",
+          "background": "pattern",
+          "backgroundDesign": "auto",
+          "supporting": true,
+          "showSupporting": true,
+          "camera": null,
+          "composition": {
+            "index": 2,
+            "options": [
+              {
+                "strategy": "balanced",
+                "title": "На опоре",
+                "principle": "Сбалансированная компактная композиция книги и лампы с фоновыми наушниками",
+                "placement": "on-surface"
+              },
+              {
+                "strategy": "spacious",
+                "title": "Рядом",
+                "principle": "Просторное размещение главных предметов в центре с фоновым акцентом",
+                "placement": "beside"
+              },
+              {
+                "strategy": "diagonal",
+                "title": "Другой ракурс группы",
+                "principle": "Диагональное развитие сцены с подсветкой книги слева",
+                "placement": "across"
+              }
+            ]
+          },
+          "layerRelations": [
+            {
+              "back": "imw199wd8xztapr",
+              "front": "imw199wd887sgas",
+              "reason": "Фоновый компаньон находится позади главной группы."
+            }
+          ],
+          "recipe": "auto",
+          "framing": "overview",
+          "focus": "book",
+          "query": "Знания всегда под рукой",
+          "scale": 1,
+          "items": [
+            {
+              "uid": "imw199wd8xztapr",
+              "assetId": "headphones",
+              "role": "background",
+              "x": 1061.8,
+              "y": 148.98000000000002,
+              "rotation": 0,
+              "flipX": false,
+              "flipY": false,
+              "zone": "top-right",
+              "crop": "fragment"
+            },
+            {
+              "uid": "imw199wd887sgas",
+              "assetId": "book",
+              "role": "main",
+              "x": 705.6899999999999,
+              "y": 389.84999999999997,
+              "rotation": 0,
+              "flipX": false,
+              "flipY": false,
+              "zone": "auto",
+              "crop": "whole"
+            },
+            {
+              "uid": "imw199wd8vwetzv",
+              "assetId": "lamp",
+              "role": "main",
+              "x": 246.88971962616822,
+              "y": 295.9,
+              "rotation": 0,
+              "flipX": false,
+              "flipY": false,
+              "zone": "auto",
+              "crop": "whole"
+            }
+          ]
+        }
+      ],
+      "portrait": [
+        {
+          "version": 1,
+          "sizing": "native",
+          "environmentPrompt": "",
+          "environmentExplanation": [
+            "Главная пара объединяет открытую книгу и настольную лампу для создания атмосферы обучения.",
+            "Настольная лампа выступает источником света слева от книги по правилу reading.",
+            "Фоновый компаньон добавляет глубину композиции, не перекрывая основные элементы."
+          ],
+          "groups": [
+            {
+              "kind": "collection",
+              "members": [
+                "imw199wd887sgas",
+                "imw199wd8vwetzv"
+              ],
+              "reason": "Вертикальная сбалансированная композиция для портретного кадра"
+            }
+          ],
+          "formatPlans": [],
+          "stagingPlans": [
+            {
+              "format": "square",
+              "views": [
+                {
+                  "principle": "Сбалансированная компактная композиция книги и лампы с фоновыми наушниками",
+                  "placements": [
+                    {
+                      "uid": "imw199wd887sgas",
+                      "relation": "canvas",
+                      "x": 0.52,
+                      "y": 0.55,
+                      "gap": 0,
+                      "rotation": 0
+                    },
+                    {
+                      "uid": "imw199wd8vwetzv",
+                      "relation": "left",
+                      "targetUid": "imw199wd887sgas",
+                      "x": 0.28,
+                      "y": 0.42,
+                      "gap": 0.04,
+                      "rotation": 0
+                    },
+                    {
+                      "uid": "imw199wd8xztapr",
+                      "relation": "canvas",
+                      "x": 0.8,
+                      "y": 0.25,
+                      "gap": 0,
+                      "rotation": 0
+                    }
+                  ]
+                },
+                {
+                  "principle": "Просторное размещение главных предметов в центре с фоновым акцентом",
+                  "placements": [
+                    {
+                      "uid": "imw199wd887sgas",
+                      "relation": "canvas",
+                      "x": 0.54,
+                      "y": 0.57,
+                      "gap": 0,
+                      "rotation": 0
+                    },
+                    {
+                      "uid": "imw199wd8vwetzv",
+                      "relation": "left",
+                      "targetUid": "imw199wd887sgas",
+                      "x": 0.26,
+                      "y": 0.4,
+                      "gap": 0.05,
+                      "rotation": 0
+                    },
+                    {
+                      "uid": "imw199wd8xztapr",
+                      "relation": "canvas",
+                      "x": 0.82,
+                      "y": 0.23,
+                      "gap": 0,
+                      "rotation": 0
+                    }
+                  ]
+                },
+                {
+                  "principle": "Диагональное развитие сцены с подсветкой книги слева",
+                  "placements": [
+                    {
+                      "uid": "imw199wd887sgas",
+                      "relation": "canvas",
+                      "x": 0.55,
+                      "y": 0.58,
+                      "gap": 0,
+                      "rotation": 0
+                    },
+                    {
+                      "uid": "imw199wd8vwetzv",
+                      "relation": "left",
+                      "targetUid": "imw199wd887sgas",
+                      "x": 0.25,
+                      "y": 0.38,
+                      "gap": 0.04,
+                      "rotation": 0
+                    },
+                    {
+                      "uid": "imw199wd8xztapr",
+                      "relation": "canvas",
+                      "x": 0.83,
+                      "y": 0.22,
+                      "gap": 0,
+                      "rotation": 0
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "format": "landscape",
+              "views": [
+                {
+                  "principle": "Горизонтальная сбалансированная компоновка для широкого кадра",
+                  "placements": [
+                    {
+                      "uid": "imw199wd887sgas",
+                      "relation": "canvas",
+                      "x": 0.55,
+                      "y": 0.56,
+                      "gap": 0,
+                      "rotation": 0
+                    },
+                    {
+                      "uid": "imw199wd8vwetzv",
+                      "relation": "left",
+                      "targetUid": "imw199wd887sgas",
+                      "x": 0.32,
+                      "y": 0.42,
+                      "gap": 0.04,
+                      "rotation": 0
+                    },
+                    {
+                      "uid": "imw199wd8xztapr",
+                      "relation": "canvas",
+                      "x": 0.85,
+                      "y": 0.25,
+                      "gap": 0,
+                      "rotation": 0
+                    }
+                  ]
+                },
+                {
+                  "principle": "Просторное горизонтальное построение с акцентом на обучающую пару",
+                  "placements": [
+                    {
+                      "uid": "imw199wd887sgas",
+                      "relation": "canvas",
+                      "x": 0.56,
+                      "y": 0.57,
+                      "gap": 0,
+                      "rotation": 0
+                    },
+                    {
+                      "uid": "imw199wd8vwetzv",
+                      "relation": "left",
+                      "targetUid": "imw199wd887sgas",
+                      "x": 0.3,
+                      "y": 0.4,
+                      "gap": 0.05,
+                      "rotation": 0
+                    },
+                    {
+                      "uid": "imw199wd8xztapr",
+                      "relation": "canvas",
+                      "x": 0.86,
+                      "y": 0.23,
+                      "gap": 0,
+                      "rotation": 0
+                    }
+                  ]
+                },
+                {
+                  "principle": "Диагональное распределение элементов в ландшафтном формате",
+                  "placements": [
+                    {
+                      "uid": "imw199wd887sgas",
+                      "relation": "canvas",
+                      "x": 0.57,
+                      "y": 0.58,
+                      "gap": 0,
+                      "rotation": 0
+                    },
+                    {
+                      "uid": "imw199wd8vwetzv",
+                      "relation": "left",
+                      "targetUid": "imw199wd887sgas",
+                      "x": 0.29,
+                      "y": 0.38,
+                      "gap": 0.04,
+                      "rotation": 0
+                    },
+                    {
+                      "uid": "imw199wd8xztapr",
+                      "relation": "canvas",
+                      "x": 0.87,
+                      "y": 0.22,
+                      "gap": 0,
+                      "rotation": 0
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "format": "portrait",
+              "views": [
+                {
+                  "principle": "Вертикальная сбалансированная композиция для портретного кадра",
+                  "placements": [
+                    {
+                      "uid": "imw199wd887sgas",
+                      "relation": "canvas",
+                      "x": 0.5,
+                      "y": 0.58,
+                      "gap": 0,
+                      "rotation": 0
+                    },
+                    {
+                      "uid": "imw199wd8vwetzv",
+                      "relation": "left",
+                      "targetUid": "imw199wd887sgas",
+                      "x": 0.3,
+                      "y": 0.42,
+                      "gap": 0.04,
+                      "rotation": 0
+                    },
+                    {
+                      "uid": "imw199wd8xztapr",
+                      "relation": "canvas",
+                      "x": 0.78,
+                      "y": 0.22,
+                      "gap": 0,
+                      "rotation": 0
+                    }
+                  ]
+                },
+                {
+                  "principle": "Просторная вертикальная расстановка элементов сцены",
+                  "placements": [
+                    {
+                      "uid": "imw199wd887sgas",
+                      "relation": "canvas",
+                      "x": 0.5,
+                      "y": 0.6,
+                      "gap": 0,
+                      "rotation": 0
+                    },
+                    {
+                      "uid": "imw199wd8vwetzv",
+                      "relation": "left",
+                      "targetUid": "imw199wd887sgas",
+                      "x": 0.28,
+                      "y": 0.4,
+                      "gap": 0.05,
+                      "rotation": 0
+                    },
+                    {
+                      "uid": "imw199wd8xztapr",
+                      "relation": "canvas",
+                      "x": 0.8,
+                      "y": 0.2,
+                      "gap": 0,
+                      "rotation": 0
+                    }
+                  ]
+                },
+                {
+                  "principle": "Диагональная структура в вертикальном формате с фоном сверху",
+                  "placements": [
+                    {
+                      "uid": "imw199wd887sgas",
+                      "relation": "canvas",
+                      "x": 0.52,
+                      "y": 0.61,
+                      "gap": 0,
+                      "rotation": 0
+                    },
+                    {
+                      "uid": "imw199wd8vwetzv",
+                      "relation": "left",
+                      "targetUid": "imw199wd887sgas",
+                      "x": 0.27,
+                      "y": 0.38,
+                      "gap": 0.04,
+                      "rotation": 0
+                    },
+                    {
+                      "uid": "imw199wd8xztapr",
+                      "relation": "canvas",
+                      "x": 0.82,
+                      "y": 0.19,
+                      "gap": 0,
+                      "rotation": 0
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "executionNotes": [
+            "Положение «Наушники» уточнено по границам кадра и реестру пересечений.",
+            "Положение «Открытая книга» уточнено по границам кадра и реестру пересечений.",
+            "Положение «Настольная лампа» уточнено по границам кадра и реестру пересечений."
+          ],
+          "width": 800,
+          "height": 1200,
+          "format": "portrait",
+          "size": "S",
+          "palette": "aqua",
+          "layout": "compact",
+          "background": "pattern",
+          "backgroundDesign": "auto",
+          "supporting": true,
+          "showSupporting": true,
+          "camera": null,
+          "composition": {
+            "index": 0,
+            "options": [
+              {
+                "strategy": "balanced",
+                "title": "На опоре",
+                "principle": "Сбалансированная компактная композиция книги и лампы с фоновыми наушниками",
+                "placement": "on-surface"
+              },
+              {
+                "strategy": "spacious",
+                "title": "Рядом",
+                "principle": "Просторное размещение главных предметов в центре с фоновым акцентом",
+                "placement": "beside"
+              },
+              {
+                "strategy": "diagonal",
+                "title": "Другой ракурс группы",
+                "principle": "Диагональное развитие сцены с подсветкой книги слева",
+                "placement": "across"
+              }
+            ]
+          },
+          "layerRelations": [
+            {
+              "back": "imw199wd8xztapr",
+              "front": "imw199wd887sgas",
+              "reason": "Фоновый компаньон находится позади главной группы."
+            }
+          ],
+          "recipe": "auto",
+          "framing": "overview",
+          "focus": "book",
+          "query": "Знания всегда под рукой",
+          "scale": 1,
+          "items": [
+            {
+              "uid": "imw199wd8xztapr",
+              "assetId": "headphones",
+              "role": "background",
+              "x": 704,
+              "y": 0,
+              "rotation": 0,
+              "flipX": false,
+              "flipY": false,
+              "zone": "top-right",
+              "crop": "fragment"
+            },
+            {
+              "uid": "imw199wd887sgas",
+              "assetId": "book",
+              "role": "main",
+              "x": 608,
+              "y": 624,
+              "rotation": 0,
+              "flipX": false,
+              "flipY": false,
+              "zone": "auto",
+              "crop": "whole"
+            },
+            {
+              "uid": "imw199wd8vwetzv",
+              "assetId": "lamp",
+              "role": "main",
+              "x": 250.28971962616822,
+              "y": 560.5,
+              "rotation": 0,
+              "flipX": false,
+              "flipY": false,
+              "zone": "auto",
+              "crop": "whole"
+            }
+          ]
+        },
+        {
+          "version": 1,
+          "sizing": "native",
+          "environmentPrompt": "",
+          "environmentExplanation": [
+            "Главная пара объединяет открытую книгу и настольную лампу для создания атмосферы обучения.",
+            "Настольная лампа выступает источником света слева от книги по правилу reading.",
+            "Фоновый компаньон добавляет глубину композиции, не перекрывая основные элементы."
+          ],
+          "groups": [
+            {
+              "kind": "collection",
+              "members": [
+                "imw199wd887sgas",
+                "imw199wd8vwetzv"
+              ],
+              "reason": "Просторная вертикальная расстановка элементов сцены"
+            }
+          ],
+          "formatPlans": [],
+          "stagingPlans": [
+            {
+              "format": "square",
+              "views": [
+                {
+                  "principle": "Сбалансированная компактная композиция книги и лампы с фоновыми наушниками",
+                  "placements": [
+                    {
+                      "uid": "imw199wd887sgas",
+                      "relation": "canvas",
+                      "x": 0.52,
+                      "y": 0.55,
+                      "gap": 0,
+                      "rotation": 0
+                    },
+                    {
+                      "uid": "imw199wd8vwetzv",
+                      "relation": "left",
+                      "targetUid": "imw199wd887sgas",
+                      "x": 0.28,
+                      "y": 0.42,
+                      "gap": 0.04,
+                      "rotation": 0
+                    },
+                    {
+                      "uid": "imw199wd8xztapr",
+                      "relation": "canvas",
+                      "x": 0.8,
+                      "y": 0.25,
+                      "gap": 0,
+                      "rotation": 0
+                    }
+                  ]
+                },
+                {
+                  "principle": "Просторное размещение главных предметов в центре с фоновым акцентом",
+                  "placements": [
+                    {
+                      "uid": "imw199wd887sgas",
+                      "relation": "canvas",
+                      "x": 0.54,
+                      "y": 0.57,
+                      "gap": 0,
+                      "rotation": 0
+                    },
+                    {
+                      "uid": "imw199wd8vwetzv",
+                      "relation": "left",
+                      "targetUid": "imw199wd887sgas",
+                      "x": 0.26,
+                      "y": 0.4,
+                      "gap": 0.05,
+                      "rotation": 0
+                    },
+                    {
+                      "uid": "imw199wd8xztapr",
+                      "relation": "canvas",
+                      "x": 0.82,
+                      "y": 0.23,
+                      "gap": 0,
+                      "rotation": 0
+                    }
+                  ]
+                },
+                {
+                  "principle": "Диагональное развитие сцены с подсветкой книги слева",
+                  "placements": [
+                    {
+                      "uid": "imw199wd887sgas",
+                      "relation": "canvas",
+                      "x": 0.55,
+                      "y": 0.58,
+                      "gap": 0,
+                      "rotation": 0
+                    },
+                    {
+                      "uid": "imw199wd8vwetzv",
+                      "relation": "left",
+                      "targetUid": "imw199wd887sgas",
+                      "x": 0.25,
+                      "y": 0.38,
+                      "gap": 0.04,
+                      "rotation": 0
+                    },
+                    {
+                      "uid": "imw199wd8xztapr",
+                      "relation": "canvas",
+                      "x": 0.83,
+                      "y": 0.22,
+                      "gap": 0,
+                      "rotation": 0
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "format": "landscape",
+              "views": [
+                {
+                  "principle": "Горизонтальная сбалансированная компоновка для широкого кадра",
+                  "placements": [
+                    {
+                      "uid": "imw199wd887sgas",
+                      "relation": "canvas",
+                      "x": 0.55,
+                      "y": 0.56,
+                      "gap": 0,
+                      "rotation": 0
+                    },
+                    {
+                      "uid": "imw199wd8vwetzv",
+                      "relation": "left",
+                      "targetUid": "imw199wd887sgas",
+                      "x": 0.32,
+                      "y": 0.42,
+                      "gap": 0.04,
+                      "rotation": 0
+                    },
+                    {
+                      "uid": "imw199wd8xztapr",
+                      "relation": "canvas",
+                      "x": 0.85,
+                      "y": 0.25,
+                      "gap": 0,
+                      "rotation": 0
+                    }
+                  ]
+                },
+                {
+                  "principle": "Просторное горизонтальное построение с акцентом на обучающую пару",
+                  "placements": [
+                    {
+                      "uid": "imw199wd887sgas",
+                      "relation": "canvas",
+                      "x": 0.56,
+                      "y": 0.57,
+                      "gap": 0,
+                      "rotation": 0
+                    },
+                    {
+                      "uid": "imw199wd8vwetzv",
+                      "relation": "left",
+                      "targetUid": "imw199wd887sgas",
+                      "x": 0.3,
+                      "y": 0.4,
+                      "gap": 0.05,
+                      "rotation": 0
+                    },
+                    {
+                      "uid": "imw199wd8xztapr",
+                      "relation": "canvas",
+                      "x": 0.86,
+                      "y": 0.23,
+                      "gap": 0,
+                      "rotation": 0
+                    }
+                  ]
+                },
+                {
+                  "principle": "Диагональное распределение элементов в ландшафтном формате",
+                  "placements": [
+                    {
+                      "uid": "imw199wd887sgas",
+                      "relation": "canvas",
+                      "x": 0.57,
+                      "y": 0.58,
+                      "gap": 0,
+                      "rotation": 0
+                    },
+                    {
+                      "uid": "imw199wd8vwetzv",
+                      "relation": "left",
+                      "targetUid": "imw199wd887sgas",
+                      "x": 0.29,
+                      "y": 0.38,
+                      "gap": 0.04,
+                      "rotation": 0
+                    },
+                    {
+                      "uid": "imw199wd8xztapr",
+                      "relation": "canvas",
+                      "x": 0.87,
+                      "y": 0.22,
+                      "gap": 0,
+                      "rotation": 0
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "format": "portrait",
+              "views": [
+                {
+                  "principle": "Вертикальная сбалансированная композиция для портретного кадра",
+                  "placements": [
+                    {
+                      "uid": "imw199wd887sgas",
+                      "relation": "canvas",
+                      "x": 0.5,
+                      "y": 0.58,
+                      "gap": 0,
+                      "rotation": 0
+                    },
+                    {
+                      "uid": "imw199wd8vwetzv",
+                      "relation": "left",
+                      "targetUid": "imw199wd887sgas",
+                      "x": 0.3,
+                      "y": 0.42,
+                      "gap": 0.04,
+                      "rotation": 0
+                    },
+                    {
+                      "uid": "imw199wd8xztapr",
+                      "relation": "canvas",
+                      "x": 0.78,
+                      "y": 0.22,
+                      "gap": 0,
+                      "rotation": 0
+                    }
+                  ]
+                },
+                {
+                  "principle": "Просторная вертикальная расстановка элементов сцены",
+                  "placements": [
+                    {
+                      "uid": "imw199wd887sgas",
+                      "relation": "canvas",
+                      "x": 0.5,
+                      "y": 0.6,
+                      "gap": 0,
+                      "rotation": 0
+                    },
+                    {
+                      "uid": "imw199wd8vwetzv",
+                      "relation": "left",
+                      "targetUid": "imw199wd887sgas",
+                      "x": 0.28,
+                      "y": 0.4,
+                      "gap": 0.05,
+                      "rotation": 0
+                    },
+                    {
+                      "uid": "imw199wd8xztapr",
+                      "relation": "canvas",
+                      "x": 0.8,
+                      "y": 0.2,
+                      "gap": 0,
+                      "rotation": 0
+                    }
+                  ]
+                },
+                {
+                  "principle": "Диагональная структура в вертикальном формате с фоном сверху",
+                  "placements": [
+                    {
+                      "uid": "imw199wd887sgas",
+                      "relation": "canvas",
+                      "x": 0.52,
+                      "y": 0.61,
+                      "gap": 0,
+                      "rotation": 0
+                    },
+                    {
+                      "uid": "imw199wd8vwetzv",
+                      "relation": "left",
+                      "targetUid": "imw199wd887sgas",
+                      "x": 0.27,
+                      "y": 0.38,
+                      "gap": 0.04,
+                      "rotation": 0
+                    },
+                    {
+                      "uid": "imw199wd8xztapr",
+                      "relation": "canvas",
+                      "x": 0.82,
+                      "y": 0.19,
+                      "gap": 0,
+                      "rotation": 0
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "executionNotes": [
+            "Положение «Открытая книга» уточнено по границам кадра и реестру пересечений.",
+            "Положение «Настольная лампа» уточнено по границам кадра и реестру пересечений."
+          ],
+          "width": 800,
+          "height": 1200,
+          "format": "portrait",
+          "size": "S",
+          "palette": "aqua",
+          "layout": "compact",
+          "background": "pattern",
+          "backgroundDesign": "auto",
+          "supporting": true,
+          "showSupporting": true,
+          "camera": null,
+          "composition": {
+            "index": 1,
+            "options": [
+              {
+                "strategy": "balanced",
+                "title": "На опоре",
+                "principle": "Сбалансированная компактная композиция книги и лампы с фоновыми наушниками",
+                "placement": "on-surface"
+              },
+              {
+                "strategy": "spacious",
+                "title": "Рядом",
+                "principle": "Просторное размещение главных предметов в центре с фоновым акцентом",
+                "placement": "beside"
+              },
+              {
+                "strategy": "diagonal",
+                "title": "Другой ракурс группы",
+                "principle": "Диагональное развитие сцены с подсветкой книги слева",
+                "placement": "across"
+              }
+            ]
+          },
+          "layerRelations": [
+            {
+              "back": "imw199wd8xztapr",
+              "front": "imw199wd887sgas",
+              "reason": "Фоновый компаньон находится позади главной группы."
+            }
+          ],
+          "recipe": "auto",
+          "framing": "overview",
+          "focus": "book",
+          "query": "Знания всегда под рукой",
+          "scale": 1,
+          "items": [
+            {
+              "uid": "imw199wd8xztapr",
+              "assetId": "headphones",
+              "role": "background",
+              "x": 657.8,
+              "y": 250.38,
+              "rotation": 0,
+              "flipX": false,
+              "flipY": false,
+              "zone": "top-right",
+              "crop": "fragment"
+            },
+            {
+              "uid": "imw199wd887sgas",
+              "assetId": "book",
+              "role": "main",
+              "x": 421.69,
+              "y": 912,
+              "rotation": 0,
+              "flipX": false,
+              "flipY": false,
+              "zone": "auto",
+              "crop": "whole"
+            },
+            {
+              "uid": "imw199wd8vwetzv",
+              "assetId": "lamp",
+              "role": "main",
+              "x": 250.28971962616822,
+              "y": 536.5,
+              "rotation": 0,
+              "flipX": false,
+              "flipY": false,
+              "zone": "auto",
+              "crop": "whole"
+            }
+          ]
+        },
+        {
+          "version": 1,
+          "sizing": "native",
+          "environmentPrompt": "",
+          "environmentExplanation": [
+            "Главная пара объединяет открытую книгу и настольную лампу для создания атмосферы обучения.",
+            "Настольная лампа выступает источником света слева от книги по правилу reading.",
+            "Фоновый компаньон добавляет глубину композиции, не перекрывая основные элементы."
+          ],
+          "groups": [
+            {
+              "kind": "collection",
+              "members": [
+                "imw199wd887sgas",
+                "imw199wd8vwetzv"
+              ],
+              "reason": "Диагональная структура в вертикальном формате с фоном сверху"
+            }
+          ],
+          "formatPlans": [],
+          "stagingPlans": [
+            {
+              "format": "square",
+              "views": [
+                {
+                  "principle": "Сбалансированная компактная композиция книги и лампы с фоновыми наушниками",
+                  "placements": [
+                    {
+                      "uid": "imw199wd887sgas",
+                      "relation": "canvas",
+                      "x": 0.52,
+                      "y": 0.55,
+                      "gap": 0,
+                      "rotation": 0
+                    },
+                    {
+                      "uid": "imw199wd8vwetzv",
+                      "relation": "left",
+                      "targetUid": "imw199wd887sgas",
+                      "x": 0.28,
+                      "y": 0.42,
+                      "gap": 0.04,
+                      "rotation": 0
+                    },
+                    {
+                      "uid": "imw199wd8xztapr",
+                      "relation": "canvas",
+                      "x": 0.8,
+                      "y": 0.25,
+                      "gap": 0,
+                      "rotation": 0
+                    }
+                  ]
+                },
+                {
+                  "principle": "Просторное размещение главных предметов в центре с фоновым акцентом",
+                  "placements": [
+                    {
+                      "uid": "imw199wd887sgas",
+                      "relation": "canvas",
+                      "x": 0.54,
+                      "y": 0.57,
+                      "gap": 0,
+                      "rotation": 0
+                    },
+                    {
+                      "uid": "imw199wd8vwetzv",
+                      "relation": "left",
+                      "targetUid": "imw199wd887sgas",
+                      "x": 0.26,
+                      "y": 0.4,
+                      "gap": 0.05,
+                      "rotation": 0
+                    },
+                    {
+                      "uid": "imw199wd8xztapr",
+                      "relation": "canvas",
+                      "x": 0.82,
+                      "y": 0.23,
+                      "gap": 0,
+                      "rotation": 0
+                    }
+                  ]
+                },
+                {
+                  "principle": "Диагональное развитие сцены с подсветкой книги слева",
+                  "placements": [
+                    {
+                      "uid": "imw199wd887sgas",
+                      "relation": "canvas",
+                      "x": 0.55,
+                      "y": 0.58,
+                      "gap": 0,
+                      "rotation": 0
+                    },
+                    {
+                      "uid": "imw199wd8vwetzv",
+                      "relation": "left",
+                      "targetUid": "imw199wd887sgas",
+                      "x": 0.25,
+                      "y": 0.38,
+                      "gap": 0.04,
+                      "rotation": 0
+                    },
+                    {
+                      "uid": "imw199wd8xztapr",
+                      "relation": "canvas",
+                      "x": 0.83,
+                      "y": 0.22,
+                      "gap": 0,
+                      "rotation": 0
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "format": "landscape",
+              "views": [
+                {
+                  "principle": "Горизонтальная сбалансированная компоновка для широкого кадра",
+                  "placements": [
+                    {
+                      "uid": "imw199wd887sgas",
+                      "relation": "canvas",
+                      "x": 0.55,
+                      "y": 0.56,
+                      "gap": 0,
+                      "rotation": 0
+                    },
+                    {
+                      "uid": "imw199wd8vwetzv",
+                      "relation": "left",
+                      "targetUid": "imw199wd887sgas",
+                      "x": 0.32,
+                      "y": 0.42,
+                      "gap": 0.04,
+                      "rotation": 0
+                    },
+                    {
+                      "uid": "imw199wd8xztapr",
+                      "relation": "canvas",
+                      "x": 0.85,
+                      "y": 0.25,
+                      "gap": 0,
+                      "rotation": 0
+                    }
+                  ]
+                },
+                {
+                  "principle": "Просторное горизонтальное построение с акцентом на обучающую пару",
+                  "placements": [
+                    {
+                      "uid": "imw199wd887sgas",
+                      "relation": "canvas",
+                      "x": 0.56,
+                      "y": 0.57,
+                      "gap": 0,
+                      "rotation": 0
+                    },
+                    {
+                      "uid": "imw199wd8vwetzv",
+                      "relation": "left",
+                      "targetUid": "imw199wd887sgas",
+                      "x": 0.3,
+                      "y": 0.4,
+                      "gap": 0.05,
+                      "rotation": 0
+                    },
+                    {
+                      "uid": "imw199wd8xztapr",
+                      "relation": "canvas",
+                      "x": 0.86,
+                      "y": 0.23,
+                      "gap": 0,
+                      "rotation": 0
+                    }
+                  ]
+                },
+                {
+                  "principle": "Диагональное распределение элементов в ландшафтном формате",
+                  "placements": [
+                    {
+                      "uid": "imw199wd887sgas",
+                      "relation": "canvas",
+                      "x": 0.57,
+                      "y": 0.58,
+                      "gap": 0,
+                      "rotation": 0
+                    },
+                    {
+                      "uid": "imw199wd8vwetzv",
+                      "relation": "left",
+                      "targetUid": "imw199wd887sgas",
+                      "x": 0.29,
+                      "y": 0.38,
+                      "gap": 0.04,
+                      "rotation": 0
+                    },
+                    {
+                      "uid": "imw199wd8xztapr",
+                      "relation": "canvas",
+                      "x": 0.87,
+                      "y": 0.22,
+                      "gap": 0,
+                      "rotation": 0
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "format": "portrait",
+              "views": [
+                {
+                  "principle": "Вертикальная сбалансированная композиция для портретного кадра",
+                  "placements": [
+                    {
+                      "uid": "imw199wd887sgas",
+                      "relation": "canvas",
+                      "x": 0.5,
+                      "y": 0.58,
+                      "gap": 0,
+                      "rotation": 0
+                    },
+                    {
+                      "uid": "imw199wd8vwetzv",
+                      "relation": "left",
+                      "targetUid": "imw199wd887sgas",
+                      "x": 0.3,
+                      "y": 0.42,
+                      "gap": 0.04,
+                      "rotation": 0
+                    },
+                    {
+                      "uid": "imw199wd8xztapr",
+                      "relation": "canvas",
+                      "x": 0.78,
+                      "y": 0.22,
+                      "gap": 0,
+                      "rotation": 0
+                    }
+                  ]
+                },
+                {
+                  "principle": "Просторная вертикальная расстановка элементов сцены",
+                  "placements": [
+                    {
+                      "uid": "imw199wd887sgas",
+                      "relation": "canvas",
+                      "x": 0.5,
+                      "y": 0.6,
+                      "gap": 0,
+                      "rotation": 0
+                    },
+                    {
+                      "uid": "imw199wd8vwetzv",
+                      "relation": "left",
+                      "targetUid": "imw199wd887sgas",
+                      "x": 0.28,
+                      "y": 0.4,
+                      "gap": 0.05,
+                      "rotation": 0
+                    },
+                    {
+                      "uid": "imw199wd8xztapr",
+                      "relation": "canvas",
+                      "x": 0.8,
+                      "y": 0.2,
+                      "gap": 0,
+                      "rotation": 0
+                    }
+                  ]
+                },
+                {
+                  "principle": "Диагональная структура в вертикальном формате с фоном сверху",
+                  "placements": [
+                    {
+                      "uid": "imw199wd887sgas",
+                      "relation": "canvas",
+                      "x": 0.52,
+                      "y": 0.61,
+                      "gap": 0,
+                      "rotation": 0
+                    },
+                    {
+                      "uid": "imw199wd8vwetzv",
+                      "relation": "left",
+                      "targetUid": "imw199wd887sgas",
+                      "x": 0.27,
+                      "y": 0.38,
+                      "gap": 0.04,
+                      "rotation": 0
+                    },
+                    {
+                      "uid": "imw199wd8xztapr",
+                      "relation": "canvas",
+                      "x": 0.82,
+                      "y": 0.19,
+                      "gap": 0,
+                      "rotation": 0
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "executionNotes": [
+            "Положение «Открытая книга» уточнено по границам кадра и реестру пересечений.",
+            "Положение «Настольная лампа» уточнено по границам кадра и реестру пересечений."
+          ],
+          "width": 800,
+          "height": 1200,
+          "format": "portrait",
+          "size": "S",
+          "palette": "aqua",
+          "layout": "compact",
+          "background": "pattern",
+          "backgroundDesign": "auto",
+          "supporting": true,
+          "showSupporting": true,
+          "camera": null,
+          "composition": {
+            "index": 2,
+            "options": [
+              {
+                "strategy": "balanced",
+                "title": "На опоре",
+                "principle": "Сбалансированная компактная композиция книги и лампы с фоновыми наушниками",
+                "placement": "on-surface"
+              },
+              {
+                "strategy": "spacious",
+                "title": "Рядом",
+                "principle": "Просторное размещение главных предметов в центре с фоновым акцентом",
+                "placement": "beside"
+              },
+              {
+                "strategy": "diagonal",
+                "title": "Другой ракурс группы",
+                "principle": "Диагональное развитие сцены с подсветкой книги слева",
+                "placement": "across"
+              }
+            ]
+          },
+          "layerRelations": [
+            {
+              "back": "imw199wd8xztapr",
+              "front": "imw199wd887sgas",
+              "reason": "Фоновый компаньон находится позади главной группы."
+            }
+          ],
+          "recipe": "auto",
+          "framing": "overview",
+          "focus": "book",
+          "query": "Знания всегда под рукой",
+          "scale": 1,
+          "items": [
+            {
+              "uid": "imw199wd8xztapr",
+              "assetId": "headphones",
+              "role": "background",
+              "x": 673.8,
+              "y": 238.38,
+              "rotation": 0,
+              "flipX": false,
+              "flipY": false,
+              "zone": "top-right",
+              "crop": "fragment"
+            },
+            {
+              "uid": "imw199wd887sgas",
+              "assetId": "book",
+              "role": "main",
+              "x": 437.69,
+              "y": 912,
+              "rotation": 0,
+              "flipX": false,
+              "flipY": false,
+              "zone": "auto",
+              "crop": "whole"
+            },
+            {
+              "uid": "imw199wd8vwetzv",
+              "assetId": "lamp",
+              "role": "main",
+              "x": 250.28971962616822,
+              "y": 512.5,
+              "rotation": 0,
+              "flipX": false,
+              "flipY": false,
+              "zone": "auto",
+              "crop": "whole"
+            }
+          ]
+        }
+      ]
+    }
+  }
+}

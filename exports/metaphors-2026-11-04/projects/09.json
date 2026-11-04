@@ -1,0 +1,4107 @@
+{
+  "type": "composition-project",
+  "version": 2,
+  "scene": {
+    "version": 1,
+    "sizing": "native",
+    "environmentPrompt": "",
+    "environmentExplanation": [
+      "Главная пара объединяет открытую книгу и настольную лампу для создания атмосферы обучения.",
+      "Фоновые наушники добавляют глубину и поддерживают тему самостоятельного ритма.",
+      "Компактная компоновка удерживает элементы в единой сбалансированной группе."
+    ],
+    "groups": [
+      {
+        "kind": "reading",
+        "members": [
+          "imw199x6s3rdhiy",
+          "imw199x6stmvlz1"
+        ],
+        "reason": "Книга и освещающая её лампа составляют смысловой центр обучения"
+      },
+      {
+        "kind": "collection",
+        "members": [
+          "imw199x6s3rdhiy",
+          "imw199x6stmvlz1"
+        ],
+        "reason": "Лампа слева освещает книгу по центру квадратного холста."
+      }
+    ],
+    "formatPlans": [],
+    "stagingPlans": [
+      {
+        "format": "square",
+        "views": [
+          {
+            "principle": "Лампа слева освещает книгу по центру квадратного холста.",
+            "placements": [
+              {
+                "uid": "imw199x6s3rdhiy",
+                "relation": "canvas",
+                "x": 0.53,
+                "y": 0.55,
+                "gap": 0,
+                "rotation": 0
+              },
+              {
+                "uid": "imw199x6stmvlz1",
+                "relation": "left",
+                "targetUid": "imw199x6s3rdhiy",
+                "x": 0.32,
+                "y": 0.45,
+                "gap": 0.04,
+                "rotation": 0
+              },
+              {
+                "uid": "imw199x6s3bydwz",
+                "relation": "canvas",
+                "x": 0.8,
+                "y": 0.25,
+                "gap": 0,
+                "rotation": 0
+              }
+            ]
+          },
+          {
+            "principle": "Сбалансированное расположение с фоновым акцентом справа.",
+            "placements": [
+              {
+                "uid": "imw199x6s3rdhiy",
+                "relation": "canvas",
+                "x": 0.5,
+                "y": 0.52,
+                "gap": 0,
+                "rotation": 0
+              },
+              {
+                "uid": "imw199x6stmvlz1",
+                "relation": "left",
+                "targetUid": "imw199x6s3rdhiy",
+                "x": 0.3,
+                "y": 0.42,
+                "gap": 0.05,
+                "rotation": 0
+              },
+              {
+                "uid": "imw199x6s3bydwz",
+                "relation": "canvas",
+                "x": 0.78,
+                "y": 0.28,
+                "gap": 0,
+                "rotation": 0
+              }
+            ]
+          },
+          {
+            "principle": "Диагональное построение учебной группы.",
+            "placements": [
+              {
+                "uid": "imw199x6s3rdhiy",
+                "relation": "canvas",
+                "x": 0.55,
+                "y": 0.58,
+                "gap": 0,
+                "rotation": 0
+              },
+              {
+                "uid": "imw199x6stmvlz1",
+                "relation": "left",
+                "targetUid": "imw199x6s3rdhiy",
+                "x": 0.35,
+                "y": 0.48,
+                "gap": 0.04,
+                "rotation": 0
+              },
+              {
+                "uid": "imw199x6s3bydwz",
+                "relation": "canvas",
+                "x": 0.82,
+                "y": 0.22,
+                "gap": 0,
+                "rotation": 0
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "format": "landscape",
+        "views": [
+          {
+            "principle": "Широкий формат с центрированной главной парой и фоном.",
+            "placements": [
+              {
+                "uid": "imw199x6s3rdhiy",
+                "relation": "canvas",
+                "x": 0.52,
+                "y": 0.55,
+                "gap": 0,
+                "rotation": 0
+              },
+              {
+                "uid": "imw199x6stmvlz1",
+                "relation": "left",
+                "targetUid": "imw199x6s3rdhiy",
+                "x": 0.34,
+                "y": 0.45,
+                "gap": 0.04,
+                "rotation": 0
+              },
+              {
+                "uid": "imw199x6s3bydwz",
+                "relation": "canvas",
+                "x": 0.85,
+                "y": 0.25,
+                "gap": 0,
+                "rotation": 0
+              }
+            ]
+          },
+          {
+            "principle": "Просторное горизонтальное размещение элементов.",
+            "placements": [
+              {
+                "uid": "imw199x6s3rdhiy",
+                "relation": "canvas",
+                "x": 0.5,
+                "y": 0.53,
+                "gap": 0,
+                "rotation": 0
+              },
+              {
+                "uid": "imw199x6stmvlz1",
+                "relation": "left",
+                "targetUid": "imw199x6s3rdhiy",
+                "x": 0.32,
+                "y": 0.43,
+                "gap": 0.05,
+                "rotation": 0
+              },
+              {
+                "uid": "imw199x6s3bydwz",
+                "relation": "canvas",
+                "x": 0.83,
+                "y": 0.28,
+                "gap": 0,
+                "rotation": 0
+              }
+            ]
+          },
+          {
+            "principle": "Диагональная композиция для ландшафтного экрана.",
+            "placements": [
+              {
+                "uid": "imw199x6s3rdhiy",
+                "relation": "canvas",
+                "x": 0.54,
+                "y": 0.57,
+                "gap": 0,
+                "rotation": 0
+              },
+              {
+                "uid": "imw199x6stmvlz1",
+                "relation": "left",
+                "targetUid": "imw199x6s3rdhiy",
+                "x": 0.36,
+                "y": 0.47,
+                "gap": 0.04,
+                "rotation": 0
+              },
+              {
+                "uid": "imw199x6s3bydwz",
+                "relation": "canvas",
+                "x": 0.86,
+                "y": 0.22,
+                "gap": 0,
+                "rotation": 0
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "format": "portrait",
+        "views": [
+          {
+            "principle": "Вертикальная компоновка с компактным размещением в центре.",
+            "placements": [
+              {
+                "uid": "imw199x6s3rdhiy",
+                "relation": "canvas",
+                "x": 0.5,
+                "y": 0.55,
+                "gap": 0,
+                "rotation": 0
+              },
+              {
+                "uid": "imw199x6stmvlz1",
+                "relation": "left",
+                "targetUid": "imw199x6s3rdhiy",
+                "x": 0.3,
+                "y": 0.45,
+                "gap": 0.04,
+                "rotation": 0
+              },
+              {
+                "uid": "imw199x6s3bydwz",
+                "relation": "canvas",
+                "x": 0.75,
+                "y": 0.22,
+                "gap": 0,
+                "rotation": 0
+              }
+            ]
+          },
+          {
+            "principle": "Сбалансированный вертикальный ритм.",
+            "placements": [
+              {
+                "uid": "imw199x6s3rdhiy",
+                "relation": "canvas",
+                "x": 0.5,
+                "y": 0.53,
+                "gap": 0,
+                "rotation": 0
+              },
+              {
+                "uid": "imw199x6stmvlz1",
+                "relation": "left",
+                "targetUid": "imw199x6s3rdhiy",
+                "x": 0.3,
+                "y": 0.43,
+                "gap": 0.05,
+                "rotation": 0
+              },
+              {
+                "uid": "imw199x6s3bydwz",
+                "relation": "canvas",
+                "x": 0.73,
+                "y": 0.25,
+                "gap": 0,
+                "rotation": 0
+              }
+            ]
+          },
+          {
+            "principle": "Диагональное соотношение объектов в вертикальном формате.",
+            "placements": [
+              {
+                "uid": "imw199x6s3rdhiy",
+                "relation": "canvas",
+                "x": 0.52,
+                "y": 0.57,
+                "gap": 0,
+                "rotation": 0
+              },
+              {
+                "uid": "imw199x6stmvlz1",
+                "relation": "left",
+                "targetUid": "imw199x6s3rdhiy",
+                "x": 0.32,
+                "y": 0.47,
+                "gap": 0.04,
+                "rotation": 0
+              },
+              {
+                "uid": "imw199x6s3bydwz",
+                "relation": "canvas",
+                "x": 0.77,
+                "y": 0.2,
+                "gap": 0,
+                "rotation": 0
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "executionNotes": [
+      "Положение «Настольная лампа» уточнено по границам кадра и реестру пересечений.",
+      "Положение «Открытая книга» уточнено по границам кадра и реестру пересечений."
+    ],
+    "width": 1000,
+    "height": 1000,
+    "format": "square",
+    "size": "S",
+    "palette": "aqua",
+    "layout": "compact",
+    "background": "pattern",
+    "backgroundDesign": "auto",
+    "supporting": true,
+    "showSupporting": true,
+    "camera": null,
+    "composition": {
+      "index": 0,
+      "options": [
+        {
+          "strategy": "balanced",
+          "title": "Сбалансированное освещение",
+          "principle": "Книга и лампа образуют устойчивую учебную пару по центру кадра.",
+          "placement": "on-surface"
+        },
+        {
+          "strategy": "spacious",
+          "title": "Просторный ритм",
+          "principle": "Элементы распределены с естественными отступами для ощущения свободы.",
+          "placement": "beside"
+        },
+        {
+          "strategy": "diagonal",
+          "title": "Диагональная динамика",
+          "principle": "Лампа и книга выстроены по диагонали для направления взгляда.",
+          "placement": "across"
+        }
+      ]
+    },
+    "layerRelations": [
+      {
+        "back": "imw199x6stmvlz1",
+        "front": "imw199x6s3rdhiy",
+        "reason": "Лампа располагается слева и позади книги"
+      },
+      {
+        "back": "imw199x6s3bydwz",
+        "front": "imw199x6s3rdhiy",
+        "reason": "Наушники на фоне поддерживают главную группу сзади"
+      }
+    ],
+    "recipe": "study",
+    "framing": "overview",
+    "focus": "book",
+    "query": "Учиться в своём ритме",
+    "scale": 1,
+    "items": [
+      {
+        "uid": "imw199x6s3bydwz",
+        "assetId": "headphones",
+        "role": "background",
+        "x": 817.8,
+        "y": 260.38,
+        "rotation": 0,
+        "flipX": false,
+        "flipY": false,
+        "zone": "top-right",
+        "crop": "fragment"
+      },
+      {
+        "uid": "imw199x6stmvlz1",
+        "assetId": "lamp",
+        "role": "main",
+        "x": 254.28971962616822,
+        "y": 506.5,
+        "rotation": 0,
+        "flipX": false,
+        "flipY": false,
+        "zone": "auto",
+        "crop": "whole"
+      },
+      {
+        "uid": "imw199x6s3rdhiy",
+        "assetId": "book",
+        "role": "main",
+        "x": 640,
+        "y": 574.45,
+        "rotation": 0,
+        "flipX": false,
+        "flipY": false,
+        "zone": "auto",
+        "crop": "whole"
+      }
+    ]
+  },
+  "memory": {
+    "version": 2,
+    "format": "square",
+    "index": 0,
+    "formats": {
+      "square": [
+        {
+          "version": 1,
+          "sizing": "native",
+          "environmentPrompt": "",
+          "environmentExplanation": [
+            "Главная пара объединяет открытую книгу и настольную лампу для создания атмосферы обучения.",
+            "Фоновые наушники добавляют глубину и поддерживают тему самостоятельного ритма.",
+            "Компактная компоновка удерживает элементы в единой сбалансированной группе."
+          ],
+          "groups": [
+            {
+              "kind": "reading",
+              "members": [
+                "imw199x6s3rdhiy",
+                "imw199x6stmvlz1"
+              ],
+              "reason": "Книга и освещающая её лампа составляют смысловой центр обучения"
+            },
+            {
+              "kind": "collection",
+              "members": [
+                "imw199x6s3rdhiy",
+                "imw199x6stmvlz1"
+              ],
+              "reason": "Лампа слева освещает книгу по центру квадратного холста."
+            }
+          ],
+          "formatPlans": [],
+          "stagingPlans": [
+            {
+              "format": "square",
+              "views": [
+                {
+                  "principle": "Лампа слева освещает книгу по центру квадратного холста.",
+                  "placements": [
+                    {
+                      "uid": "imw199x6s3rdhiy",
+                      "relation": "canvas",
+                      "x": 0.53,
+                      "y": 0.55,
+                      "gap": 0,
+                      "rotation": 0
+                    },
+                    {
+                      "uid": "imw199x6stmvlz1",
+                      "relation": "left",
+                      "targetUid": "imw199x6s3rdhiy",
+                      "x": 0.32,
+                      "y": 0.45,
+                      "gap": 0.04,
+                      "rotation": 0
+                    },
+                    {
+                      "uid": "imw199x6s3bydwz",
+                      "relation": "canvas",
+                      "x": 0.8,
+                      "y": 0.25,
+                      "gap": 0,
+                      "rotation": 0
+                    }
+                  ]
+                },
+                {
+                  "principle": "Сбалансированное расположение с фоновым акцентом справа.",
+                  "placements": [
+                    {
+                      "uid": "imw199x6s3rdhiy",
+                      "relation": "canvas",
+                      "x": 0.5,
+                      "y": 0.52,
+                      "gap": 0,
+                      "rotation": 0
+                    },
+                    {
+                      "uid": "imw199x6stmvlz1",
+                      "relation": "left",
+                      "targetUid": "imw199x6s3rdhiy",
+                      "x": 0.3,
+                      "y": 0.42,
+                      "gap": 0.05,
+                      "rotation": 0
+                    },
+                    {
+                      "uid": "imw199x6s3bydwz",
+                      "relation": "canvas",
+                      "x": 0.78,
+                      "y": 0.28,
+                      "gap": 0,
+                      "rotation": 0
+                    }
+                  ]
+                },
+                {
+                  "principle": "Диагональное построение учебной группы.",
+                  "placements": [
+                    {
+                      "uid": "imw199x6s3rdhiy",
+                      "relation": "canvas",
+                      "x": 0.55,
+                      "y": 0.58,
+                      "gap": 0,
+                      "rotation": 0
+                    },
+                    {
+                      "uid": "imw199x6stmvlz1",
+                      "relation": "left",
+                      "targetUid": "imw199x6s3rdhiy",
+                      "x": 0.35,
+                      "y": 0.48,
+                      "gap": 0.04,
+                      "rotation": 0
+                    },
+                    {
+                      "uid": "imw199x6s3bydwz",
+                      "relation": "canvas",
+                      "x": 0.82,
+                      "y": 0.22,
+                      "gap": 0,
+                      "rotation": 0
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "format": "landscape",
+              "views": [
+                {
+                  "principle": "Широкий формат с центрированной главной парой и фоном.",
+                  "placements": [
+                    {
+                      "uid": "imw199x6s3rdhiy",
+                      "relation": "canvas",
+                      "x": 0.52,
+                      "y": 0.55,
+                      "gap": 0,
+                      "rotation": 0
+                    },
+                    {
+                      "uid": "imw199x6stmvlz1",
+                      "relation": "left",
+                      "targetUid": "imw199x6s3rdhiy",
+                      "x": 0.34,
+                      "y": 0.45,
+                      "gap": 0.04,
+                      "rotation": 0
+                    },
+                    {
+                      "uid": "imw199x6s3bydwz",
+                      "relation": "canvas",
+                      "x": 0.85,
+                      "y": 0.25,
+                      "gap": 0,
+                      "rotation": 0
+                    }
+                  ]
+                },
+                {
+                  "principle": "Просторное горизонтальное размещение элементов.",
+                  "placements": [
+                    {
+                      "uid": "imw199x6s3rdhiy",
+                      "relation": "canvas",
+                      "x": 0.5,
+                      "y": 0.53,
+                      "gap": 0,
+                      "rotation": 0
+                    },
+                    {
+                      "uid": "imw199x6stmvlz1",
+                      "relation": "left",
+                      "targetUid": "imw199x6s3rdhiy",
+                      "x": 0.32,
+                      "y": 0.43,
+                      "gap": 0.05,
+                      "rotation": 0
+                    },
+                    {
+                      "uid": "imw199x6s3bydwz",
+                      "relation": "canvas",
+                      "x": 0.83,
+                      "y": 0.28,
+                      "gap": 0,
+                      "rotation": 0
+                    }
+                  ]
+                },
+                {
+                  "principle": "Диагональная композиция для ландшафтного экрана.",
+                  "placements": [
+                    {
+                      "uid": "imw199x6s3rdhiy",
+                      "relation": "canvas",
+                      "x": 0.54,
+                      "y": 0.57,
+                      "gap": 0,
+                      "rotation": 0
+                    },
+                    {
+                      "uid": "imw199x6stmvlz1",
+                      "relation": "left",
+                      "targetUid": "imw199x6s3rdhiy",
+                      "x": 0.36,
+                      "y": 0.47,
+                      "gap": 0.04,
+                      "rotation": 0
+                    },
+                    {
+                      "uid": "imw199x6s3bydwz",
+                      "relation": "canvas",
+                      "x": 0.86,
+                      "y": 0.22,
+                      "gap": 0,
+                      "rotation": 0
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "format": "portrait",
+              "views": [
+                {
+                  "principle": "Вертикальная компоновка с компактным размещением в центре.",
+                  "placements": [
+                    {
+                      "uid": "imw199x6s3rdhiy",
+                      "relation": "canvas",
+                      "x": 0.5,
+                      "y": 0.55,
+                      "gap": 0,
+                      "rotation": 0
+                    },
+                    {
+                      "uid": "imw199x6stmvlz1",
+                      "relation": "left",
+                      "targetUid": "imw199x6s3rdhiy",
+                      "x": 0.3,
+                      "y": 0.45,
+                      "gap": 0.04,
+                      "rotation": 0
+                    },
+                    {
+                      "uid": "imw199x6s3bydwz",
+                      "relation": "canvas",
+                      "x": 0.75,
+                      "y": 0.22,
+                      "gap": 0,
+                      "rotation": 0
+                    }
+                  ]
+                },
+                {
+                  "principle": "Сбалансированный вертикальный ритм.",
+                  "placements": [
+                    {
+                      "uid": "imw199x6s3rdhiy",
+                      "relation": "canvas",
+                      "x": 0.5,
+                      "y": 0.53,
+                      "gap": 0,
+                      "rotation": 0
+                    },
+                    {
+                      "uid": "imw199x6stmvlz1",
+                      "relation": "left",
+                      "targetUid": "imw199x6s3rdhiy",
+                      "x": 0.3,
+                      "y": 0.43,
+                      "gap": 0.05,
+                      "rotation": 0
+                    },
+                    {
+                      "uid": "imw199x6s3bydwz",
+                      "relation": "canvas",
+                      "x": 0.73,
+                      "y": 0.25,
+                      "gap": 0,
+                      "rotation": 0
+                    }
+                  ]
+                },
+                {
+                  "principle": "Диагональное соотношение объектов в вертикальном формате.",
+                  "placements": [
+                    {
+                      "uid": "imw199x6s3rdhiy",
+                      "relation": "canvas",
+                      "x": 0.52,
+                      "y": 0.57,
+                      "gap": 0,
+                      "rotation": 0
+                    },
+                    {
+                      "uid": "imw199x6stmvlz1",
+                      "relation": "left",
+                      "targetUid": "imw199x6s3rdhiy",
+                      "x": 0.32,
+                      "y": 0.47,
+                      "gap": 0.04,
+                      "rotation": 0
+                    },
+                    {
+                      "uid": "imw199x6s3bydwz",
+                      "relation": "canvas",
+                      "x": 0.77,
+                      "y": 0.2,
+                      "gap": 0,
+                      "rotation": 0
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "executionNotes": [
+            "Положение «Настольная лампа» уточнено по границам кадра и реестру пересечений.",
+            "Положение «Открытая книга» уточнено по границам кадра и реестру пересечений."
+          ],
+          "width": 1000,
+          "height": 1000,
+          "format": "square",
+          "size": "S",
+          "palette": "aqua",
+          "layout": "compact",
+          "background": "pattern",
+          "backgroundDesign": "auto",
+          "supporting": true,
+          "showSupporting": true,
+          "camera": null,
+          "composition": {
+            "index": 0,
+            "options": [
+              {
+                "strategy": "balanced",
+                "title": "Сбалансированное освещение",
+                "principle": "Книга и лампа образуют устойчивую учебную пару по центру кадра.",
+                "placement": "on-surface"
+              },
+              {
+                "strategy": "spacious",
+                "title": "Просторный ритм",
+                "principle": "Элементы распределены с естественными отступами для ощущения свободы.",
+                "placement": "beside"
+              },
+              {
+                "strategy": "diagonal",
+                "title": "Диагональная динамика",
+                "principle": "Лампа и книга выстроены по диагонали для направления взгляда.",
+                "placement": "across"
+              }
+            ]
+          },
+          "layerRelations": [
+            {
+              "back": "imw199x6stmvlz1",
+              "front": "imw199x6s3rdhiy",
+              "reason": "Лампа располагается слева и позади книги"
+            },
+            {
+              "back": "imw199x6s3bydwz",
+              "front": "imw199x6s3rdhiy",
+              "reason": "Наушники на фоне поддерживают главную группу сзади"
+            }
+          ],
+          "recipe": "study",
+          "framing": "overview",
+          "focus": "book",
+          "query": "Учиться в своём ритме",
+          "scale": 1,
+          "items": [
+            {
+              "uid": "imw199x6s3bydwz",
+              "assetId": "headphones",
+              "role": "background",
+              "x": 817.8,
+              "y": 260.38,
+              "rotation": 0,
+              "flipX": false,
+              "flipY": false,
+              "zone": "top-right",
+              "crop": "fragment"
+            },
+            {
+              "uid": "imw199x6stmvlz1",
+              "assetId": "lamp",
+              "role": "main",
+              "x": 254.28971962616822,
+              "y": 506.5,
+              "rotation": 0,
+              "flipX": false,
+              "flipY": false,
+              "zone": "auto",
+              "crop": "whole"
+            },
+            {
+              "uid": "imw199x6s3rdhiy",
+              "assetId": "book",
+              "role": "main",
+              "x": 640,
+              "y": 574.45,
+              "rotation": 0,
+              "flipX": false,
+              "flipY": false,
+              "zone": "auto",
+              "crop": "whole"
+            }
+          ]
+        },
+        {
+          "version": 1,
+          "sizing": "native",
+          "environmentPrompt": "",
+          "environmentExplanation": [
+            "Главная пара объединяет открытую книгу и настольную лампу для создания атмосферы обучения.",
+            "Фоновые наушники добавляют глубину и поддерживают тему самостоятельного ритма.",
+            "Компактная компоновка удерживает элементы в единой сбалансированной группе."
+          ],
+          "groups": [
+            {
+              "kind": "reading",
+              "members": [
+                "imw199x6s3rdhiy",
+                "imw199x6stmvlz1"
+              ],
+              "reason": "Книга и освещающая её лампа составляют смысловой центр обучения"
+            },
+            {
+              "kind": "collection",
+              "members": [
+                "imw199x6stmvlz1",
+                "imw199x6s3rdhiy"
+              ],
+              "reason": "Сбалансированное расположение с фоновым акцентом справа."
+            }
+          ],
+          "formatPlans": [],
+          "stagingPlans": [
+            {
+              "format": "square",
+              "views": [
+                {
+                  "principle": "Лампа слева освещает книгу по центру квадратного холста.",
+                  "placements": [
+                    {
+                      "uid": "imw199x6s3rdhiy",
+                      "relation": "canvas",
+                      "x": 0.53,
+                      "y": 0.55,
+                      "gap": 0,
+                      "rotation": 0
+                    },
+                    {
+                      "uid": "imw199x6stmvlz1",
+                      "relation": "left",
+                      "targetUid": "imw199x6s3rdhiy",
+                      "x": 0.32,
+                      "y": 0.45,
+                      "gap": 0.04,
+                      "rotation": 0
+                    },
+                    {
+                      "uid": "imw199x6s3bydwz",
+                      "relation": "canvas",
+                      "x": 0.8,
+                      "y": 0.25,
+                      "gap": 0,
+                      "rotation": 0
+                    }
+                  ]
+                },
+                {
+                  "principle": "Сбалансированное расположение с фоновым акцентом справа.",
+                  "placements": [
+                    {
+                      "uid": "imw199x6s3rdhiy",
+                      "relation": "canvas",
+                      "x": 0.5,
+                      "y": 0.52,
+                      "gap": 0,
+                      "rotation": 0
+                    },
+                    {
+                      "uid": "imw199x6stmvlz1",
+                      "relation": "left",
+                      "targetUid": "imw199x6s3rdhiy",
+                      "x": 0.3,
+                      "y": 0.42,
+                      "gap": 0.05,
+                      "rotation": 0
+                    },
+                    {
+                      "uid": "imw199x6s3bydwz",
+                      "relation": "canvas",
+                      "x": 0.78,
+                      "y": 0.28,
+                      "gap": 0,
+                      "rotation": 0
+                    }
+                  ]
+                },
+                {
+                  "principle": "Диагональное построение учебной группы.",
+                  "placements": [
+                    {
+                      "uid": "imw199x6s3rdhiy",
+                      "relation": "canvas",
+                      "x": 0.55,
+                      "y": 0.58,
+                      "gap": 0,
+                      "rotation": 0
+                    },
+                    {
+                      "uid": "imw199x6stmvlz1",
+                      "relation": "left",
+                      "targetUid": "imw199x6s3rdhiy",
+                      "x": 0.35,
+                      "y": 0.48,
+                      "gap": 0.04,
+                      "rotation": 0
+                    },
+                    {
+                      "uid": "imw199x6s3bydwz",
+                      "relation": "canvas",
+                      "x": 0.82,
+                      "y": 0.22,
+                      "gap": 0,
+                      "rotation": 0
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "format": "landscape",
+              "views": [
+                {
+                  "principle": "Широкий формат с центрированной главной парой и фоном.",
+                  "placements": [
+                    {
+                      "uid": "imw199x6s3rdhiy",
+                      "relation": "canvas",
+                      "x": 0.52,
+                      "y": 0.55,
+                      "gap": 0,
+                      "rotation": 0
+                    },
+                    {
+                      "uid": "imw199x6stmvlz1",
+                      "relation": "left",
+                      "targetUid": "imw199x6s3rdhiy",
+                      "x": 0.34,
+                      "y": 0.45,
+                      "gap": 0.04,
+                      "rotation": 0
+                    },
+                    {
+                      "uid": "imw199x6s3bydwz",
+                      "relation": "canvas",
+                      "x": 0.85,
+                      "y": 0.25,
+                      "gap": 0,
+                      "rotation": 0
+                    }
+                  ]
+                },
+                {
+                  "principle": "Просторное горизонтальное размещение элементов.",
+                  "placements": [
+                    {
+                      "uid": "imw199x6s3rdhiy",
+                      "relation": "canvas",
+                      "x": 0.5,
+                      "y": 0.53,
+                      "gap": 0,
+                      "rotation": 0
+                    },
+                    {
+                      "uid": "imw199x6stmvlz1",
+                      "relation": "left",
+                      "targetUid": "imw199x6s3rdhiy",
+                      "x": 0.32,
+                      "y": 0.43,
+                      "gap": 0.05,
+                      "rotation": 0
+                    },
+                    {
+                      "uid": "imw199x6s3bydwz",
+                      "relation": "canvas",
+                      "x": 0.83,
+                      "y": 0.28,
+                      "gap": 0,
+                      "rotation": 0
+                    }
+                  ]
+                },
+                {
+                  "principle": "Диагональная композиция для ландшафтного экрана.",
+                  "placements": [
+                    {
+                      "uid": "imw199x6s3rdhiy",
+                      "relation": "canvas",
+                      "x": 0.54,
+                      "y": 0.57,
+                      "gap": 0,
+                      "rotation": 0
+                    },
+                    {
+                      "uid": "imw199x6stmvlz1",
+                      "relation": "left",
+                      "targetUid": "imw199x6s3rdhiy",
+                      "x": 0.36,
+                      "y": 0.47,
+                      "gap": 0.04,
+                      "rotation": 0
+                    },
+                    {
+                      "uid": "imw199x6s3bydwz",
+                      "relation": "canvas",
+                      "x": 0.86,
+                      "y": 0.22,
+                      "gap": 0,
+                      "rotation": 0
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "format": "portrait",
+              "views": [
+                {
+                  "principle": "Вертикальная компоновка с компактным размещением в центре.",
+                  "placements": [
+                    {
+                      "uid": "imw199x6s3rdhiy",
+                      "relation": "canvas",
+                      "x": 0.5,
+                      "y": 0.55,
+                      "gap": 0,
+                      "rotation": 0
+                    },
+                    {
+                      "uid": "imw199x6stmvlz1",
+                      "relation": "left",
+                      "targetUid": "imw199x6s3rdhiy",
+                      "x": 0.3,
+                      "y": 0.45,
+                      "gap": 0.04,
+                      "rotation": 0
+                    },
+                    {
+                      "uid": "imw199x6s3bydwz",
+                      "relation": "canvas",
+                      "x": 0.75,
+                      "y": 0.22,
+                      "gap": 0,
+                      "rotation": 0
+                    }
+                  ]
+                },
+                {
+                  "principle": "Сбалансированный вертикальный ритм.",
+                  "placements": [
+                    {
+                      "uid": "imw199x6s3rdhiy",
+                      "relation": "canvas",
+                      "x": 0.5,
+                      "y": 0.53,
+                      "gap": 0,
+                      "rotation": 0
+                    },
+                    {
+                      "uid": "imw199x6stmvlz1",
+                      "relation": "left",
+                      "targetUid": "imw199x6s3rdhiy",
+                      "x": 0.3,
+                      "y": 0.43,
+                      "gap": 0.05,
+                      "rotation": 0
+                    },
+                    {
+                      "uid": "imw199x6s3bydwz",
+                      "relation": "canvas",
+                      "x": 0.73,
+                      "y": 0.25,
+                      "gap": 0,
+                      "rotation": 0
+                    }
+                  ]
+                },
+                {
+                  "principle": "Диагональное соотношение объектов в вертикальном формате.",
+                  "placements": [
+                    {
+                      "uid": "imw199x6s3rdhiy",
+                      "relation": "canvas",
+                      "x": 0.52,
+                      "y": 0.57,
+                      "gap": 0,
+                      "rotation": 0
+                    },
+                    {
+                      "uid": "imw199x6stmvlz1",
+                      "relation": "left",
+                      "targetUid": "imw199x6s3rdhiy",
+                      "x": 0.32,
+                      "y": 0.47,
+                      "gap": 0.04,
+                      "rotation": 0
+                    },
+                    {
+                      "uid": "imw199x6s3bydwz",
+                      "relation": "canvas",
+                      "x": 0.77,
+                      "y": 0.2,
+                      "gap": 0,
+                      "rotation": 0
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "executionNotes": [
+            "Положение «Наушники» уточнено по границам кадра и реестру пересечений.",
+            "Положение «Настольная лампа» уточнено по границам кадра и реестру пересечений.",
+            "Положение «Открытая книга» уточнено по границам кадра и реестру пересечений."
+          ],
+          "width": 1000,
+          "height": 1000,
+          "format": "square",
+          "size": "S",
+          "palette": "aqua",
+          "layout": "compact",
+          "background": "pattern",
+          "backgroundDesign": "auto",
+          "supporting": true,
+          "showSupporting": true,
+          "camera": null,
+          "composition": {
+            "index": 1,
+            "options": [
+              {
+                "strategy": "balanced",
+                "title": "Сбалансированное освещение",
+                "principle": "Книга и лампа образуют устойчивую учебную пару по центру кадра.",
+                "placement": "on-surface"
+              },
+              {
+                "strategy": "spacious",
+                "title": "Просторный ритм",
+                "principle": "Элементы распределены с естественными отступами для ощущения свободы.",
+                "placement": "beside"
+              },
+              {
+                "strategy": "diagonal",
+                "title": "Диагональная динамика",
+                "principle": "Лампа и книга выстроены по диагонали для направления взгляда.",
+                "placement": "across"
+              }
+            ]
+          },
+          "layerRelations": [
+            {
+              "back": "imw199x6stmvlz1",
+              "front": "imw199x6s3rdhiy",
+              "reason": "Лампа располагается слева и позади книги"
+            },
+            {
+              "back": "imw199x6s3bydwz",
+              "front": "imw199x6s3rdhiy",
+              "reason": "Наушники на фоне поддерживают главную группу сзади"
+            }
+          ],
+          "recipe": "study",
+          "framing": "overview",
+          "focus": "book",
+          "query": "Учиться в своём ритме",
+          "scale": 1,
+          "items": [
+            {
+              "uid": "imw199x6s3bydwz",
+              "assetId": "headphones",
+              "role": "background",
+              "x": 1000,
+              "y": 290.38,
+              "rotation": 0,
+              "flipX": false,
+              "flipY": false,
+              "zone": "top-right",
+              "crop": "fragment"
+            },
+            {
+              "uid": "imw199x6stmvlz1",
+              "assetId": "lamp",
+              "role": "main",
+              "x": 254.28971962616822,
+              "y": 476.5,
+              "rotation": 0,
+              "flipX": false,
+              "flipY": false,
+              "zone": "auto",
+              "crop": "whole"
+            },
+            {
+              "uid": "imw199x6s3rdhiy",
+              "assetId": "book",
+              "role": "main",
+              "x": 640,
+              "y": 544.45,
+              "rotation": 0,
+              "flipX": false,
+              "flipY": false,
+              "zone": "auto",
+              "crop": "whole"
+            }
+          ]
+        },
+        {
+          "version": 1,
+          "sizing": "native",
+          "environmentPrompt": "",
+          "environmentExplanation": [
+            "Главная пара объединяет открытую книгу и настольную лампу для создания атмосферы обучения.",
+            "Фоновые наушники добавляют глубину и поддерживают тему самостоятельного ритма.",
+            "Компактная компоновка удерживает элементы в единой сбалансированной группе."
+          ],
+          "groups": [
+            {
+              "kind": "reading",
+              "members": [
+                "imw199x6s3rdhiy",
+                "imw199x6stmvlz1"
+              ],
+              "reason": "Книга и освещающая её лампа составляют смысловой центр обучения"
+            },
+            {
+              "kind": "collection",
+              "members": [
+                "imw199x6stmvlz1",
+                "imw199x6s3rdhiy"
+              ],
+              "reason": "Диагональное построение учебной группы."
+            }
+          ],
+          "formatPlans": [],
+          "stagingPlans": [
+            {
+              "format": "square",
+              "views": [
+                {
+                  "principle": "Лампа слева освещает книгу по центру квадратного холста.",
+                  "placements": [
+                    {
+                      "uid": "imw199x6s3rdhiy",
+                      "relation": "canvas",
+                      "x": 0.53,
+                      "y": 0.55,
+                      "gap": 0,
+                      "rotation": 0
+                    },
+                    {
+                      "uid": "imw199x6stmvlz1",
+                      "relation": "left",
+                      "targetUid": "imw199x6s3rdhiy",
+                      "x": 0.32,
+                      "y": 0.45,
+                      "gap": 0.04,
+                      "rotation": 0
+                    },
+                    {
+                      "uid": "imw199x6s3bydwz",
+                      "relation": "canvas",
+                      "x": 0.8,
+                      "y": 0.25,
+                      "gap": 0,
+                      "rotation": 0
+                    }
+                  ]
+                },
+                {
+                  "principle": "Сбалансированное расположение с фоновым акцентом справа.",
+                  "placements": [
+                    {
+                      "uid": "imw199x6s3rdhiy",
+                      "relation": "canvas",
+                      "x": 0.5,
+                      "y": 0.52,
+                      "gap": 0,
+                      "rotation": 0
+                    },
+                    {
+                      "uid": "imw199x6stmvlz1",
+                      "relation": "left",
+                      "targetUid": "imw199x6s3rdhiy",
+                      "x": 0.3,
+                      "y": 0.42,
+                      "gap": 0.05,
+                      "rotation": 0
+                    },
+                    {
+                      "uid": "imw199x6s3bydwz",
+                      "relation": "canvas",
+                      "x": 0.78,
+                      "y": 0.28,
+                      "gap": 0,
+                      "rotation": 0
+                    }
+                  ]
+                },
+                {
+                  "principle": "Диагональное построение учебной группы.",
+                  "placements": [
+                    {
+                      "uid": "imw199x6s3rdhiy",
+                      "relation": "canvas",
+                      "x": 0.55,
+                      "y": 0.58,
+                      "gap": 0,
+                      "rotation": 0
+                    },
+                    {
+                      "uid": "imw199x6stmvlz1",
+                      "relation": "left",
+                      "targetUid": "imw199x6s3rdhiy",
+                      "x": 0.35,
+                      "y": 0.48,
+                      "gap": 0.04,
+                      "rotation": 0
+                    },
+                    {
+                      "uid": "imw199x6s3bydwz",
+                      "relation": "canvas",
+                      "x": 0.82,
+                      "y": 0.22,
+                      "gap": 0,
+                      "rotation": 0
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "format": "landscape",
+              "views": [
+                {
+                  "principle": "Широкий формат с центрированной главной парой и фоном.",
+                  "placements": [
+                    {
+                      "uid": "imw199x6s3rdhiy",
+                      "relation": "canvas",
+                      "x": 0.52,
+                      "y": 0.55,
+                      "gap": 0,
+                      "rotation": 0
+                    },
+                    {
+                      "uid": "imw199x6stmvlz1",
+                      "relation": "left",
+                      "targetUid": "imw199x6s3rdhiy",
+                      "x": 0.34,
+                      "y": 0.45,
+                      "gap": 0.04,
+                      "rotation": 0
+                    },
+                    {
+                      "uid": "imw199x6s3bydwz",
+                      "relation": "canvas",
+                      "x": 0.85,
+                      "y": 0.25,
+                      "gap": 0,
+                      "rotation": 0
+                    }
+                  ]
+                },
+                {
+                  "principle": "Просторное горизонтальное размещение элементов.",
+                  "placements": [
+                    {
+                      "uid": "imw199x6s3rdhiy",
+                      "relation": "canvas",
+                      "x": 0.5,
+                      "y": 0.53,
+                      "gap": 0,
+                      "rotation": 0
+                    },
+                    {
+                      "uid": "imw199x6stmvlz1",
+                      "relation": "left",
+                      "targetUid": "imw199x6s3rdhiy",
+                      "x": 0.32,
+                      "y": 0.43,
+                      "gap": 0.05,
+                      "rotation": 0
+                    },
+                    {
+                      "uid": "imw199x6s3bydwz",
+                      "relation": "canvas",
+                      "x": 0.83,
+                      "y": 0.28,
+                      "gap": 0,
+                      "rotation": 0
+                    }
+                  ]
+                },
+                {
+                  "principle": "Диагональная композиция для ландшафтного экрана.",
+                  "placements": [
+                    {
+                      "uid": "imw199x6s3rdhiy",
+                      "relation": "canvas",
+                      "x": 0.54,
+                      "y": 0.57,
+                      "gap": 0,
+                      "rotation": 0
+                    },
+                    {
+                      "uid": "imw199x6stmvlz1",
+                      "relation": "left",
+                      "targetUid": "imw199x6s3rdhiy",
+                      "x": 0.36,
+                      "y": 0.47,
+                      "gap": 0.04,
+                      "rotation": 0
+                    },
+                    {
+                      "uid": "imw199x6s3bydwz",
+                      "relation": "canvas",
+                      "x": 0.86,
+                      "y": 0.22,
+                      "gap": 0,
+                      "rotation": 0
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "format": "portrait",
+              "views": [
+                {
+                  "principle": "Вертикальная компоновка с компактным размещением в центре.",
+                  "placements": [
+                    {
+                      "uid": "imw199x6s3rdhiy",
+                      "relation": "canvas",
+                      "x": 0.5,
+                      "y": 0.55,
+                      "gap": 0,
+                      "rotation": 0
+                    },
+                    {
+                      "uid": "imw199x6stmvlz1",
+                      "relation": "left",
+                      "targetUid": "imw199x6s3rdhiy",
+                      "x": 0.3,
+                      "y": 0.45,
+                      "gap": 0.04,
+                      "rotation": 0
+                    },
+                    {
+                      "uid": "imw199x6s3bydwz",
+                      "relation": "canvas",
+                      "x": 0.75,
+                      "y": 0.22,
+                      "gap": 0,
+                      "rotation": 0
+                    }
+                  ]
+                },
+                {
+                  "principle": "Сбалансированный вертикальный ритм.",
+                  "placements": [
+                    {
+                      "uid": "imw199x6s3rdhiy",
+                      "relation": "canvas",
+                      "x": 0.5,
+                      "y": 0.53,
+                      "gap": 0,
+                      "rotation": 0
+                    },
+                    {
+                      "uid": "imw199x6stmvlz1",
+                      "relation": "left",
+                      "targetUid": "imw199x6s3rdhiy",
+                      "x": 0.3,
+                      "y": 0.43,
+                      "gap": 0.05,
+                      "rotation": 0
+                    },
+                    {
+                      "uid": "imw199x6s3bydwz",
+                      "relation": "canvas",
+                      "x": 0.73,
+                      "y": 0.25,
+                      "gap": 0,
+                      "rotation": 0
+                    }
+                  ]
+                },
+                {
+                  "principle": "Диагональное соотношение объектов в вертикальном формате.",
+                  "placements": [
+                    {
+                      "uid": "imw199x6s3rdhiy",
+                      "relation": "canvas",
+                      "x": 0.52,
+                      "y": 0.57,
+                      "gap": 0,
+                      "rotation": 0
+                    },
+                    {
+                      "uid": "imw199x6stmvlz1",
+                      "relation": "left",
+                      "targetUid": "imw199x6s3rdhiy",
+                      "x": 0.32,
+                      "y": 0.47,
+                      "gap": 0.04,
+                      "rotation": 0
+                    },
+                    {
+                      "uid": "imw199x6s3bydwz",
+                      "relation": "canvas",
+                      "x": 0.77,
+                      "y": 0.2,
+                      "gap": 0,
+                      "rotation": 0
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "executionNotes": [
+            "Положение «Настольная лампа» уточнено по границам кадра и реестру пересечений.",
+            "Положение «Открытая книга» уточнено по границам кадра и реестру пересечений."
+          ],
+          "width": 1000,
+          "height": 1000,
+          "format": "square",
+          "size": "S",
+          "palette": "aqua",
+          "layout": "compact",
+          "background": "pattern",
+          "backgroundDesign": "auto",
+          "supporting": true,
+          "showSupporting": true,
+          "camera": null,
+          "composition": {
+            "index": 2,
+            "options": [
+              {
+                "strategy": "balanced",
+                "title": "Сбалансированное освещение",
+                "principle": "Книга и лампа образуют устойчивую учебную пару по центру кадра.",
+                "placement": "on-surface"
+              },
+              {
+                "strategy": "spacious",
+                "title": "Просторный ритм",
+                "principle": "Элементы распределены с естественными отступами для ощущения свободы.",
+                "placement": "beside"
+              },
+              {
+                "strategy": "diagonal",
+                "title": "Диагональная динамика",
+                "principle": "Лампа и книга выстроены по диагонали для направления взгляда.",
+                "placement": "across"
+              }
+            ]
+          },
+          "layerRelations": [
+            {
+              "back": "imw199x6stmvlz1",
+              "front": "imw199x6s3rdhiy",
+              "reason": "Лампа располагается слева и позади книги"
+            },
+            {
+              "back": "imw199x6s3bydwz",
+              "front": "imw199x6s3rdhiy",
+              "reason": "Наушники на фоне поддерживают главную группу сзади"
+            }
+          ],
+          "recipe": "study",
+          "framing": "overview",
+          "focus": "book",
+          "query": "Учиться в своём ритме",
+          "scale": 1,
+          "items": [
+            {
+              "uid": "imw199x6s3bydwz",
+              "assetId": "headphones",
+              "role": "background",
+              "x": 837.8,
+              "y": 230.38,
+              "rotation": 0,
+              "flipX": false,
+              "flipY": false,
+              "zone": "top-right",
+              "crop": "fragment"
+            },
+            {
+              "uid": "imw199x6stmvlz1",
+              "assetId": "lamp",
+              "role": "main",
+              "x": 254.28971962616822,
+              "y": 536.5,
+              "rotation": 0,
+              "flipX": false,
+              "flipY": false,
+              "zone": "auto",
+              "crop": "whole"
+            },
+            {
+              "uid": "imw199x6s3rdhiy",
+              "assetId": "book",
+              "role": "main",
+              "x": 640,
+              "y": 604.45,
+              "rotation": 0,
+              "flipX": false,
+              "flipY": false,
+              "zone": "auto",
+              "crop": "whole"
+            }
+          ]
+        }
+      ],
+      "landscape": [
+        {
+          "version": 1,
+          "sizing": "native",
+          "environmentPrompt": "",
+          "environmentExplanation": [
+            "Главная пара объединяет открытую книгу и настольную лампу для создания атмосферы обучения.",
+            "Фоновые наушники добавляют глубину и поддерживают тему самостоятельного ритма.",
+            "Компактная компоновка удерживает элементы в единой сбалансированной группе."
+          ],
+          "groups": [
+            {
+              "kind": "reading",
+              "members": [
+                "imw199x6s3rdhiy",
+                "imw199x6stmvlz1"
+              ],
+              "reason": "Книга и освещающая её лампа составляют смысловой центр обучения"
+            },
+            {
+              "kind": "collection",
+              "members": [
+                "imw199x6stmvlz1",
+                "imw199x6s3rdhiy"
+              ],
+              "reason": "Широкий формат с центрированной главной парой и фоном."
+            }
+          ],
+          "formatPlans": [],
+          "stagingPlans": [
+            {
+              "format": "square",
+              "views": [
+                {
+                  "principle": "Лампа слева освещает книгу по центру квадратного холста.",
+                  "placements": [
+                    {
+                      "uid": "imw199x6s3rdhiy",
+                      "relation": "canvas",
+                      "x": 0.53,
+                      "y": 0.55,
+                      "gap": 0,
+                      "rotation": 0
+                    },
+                    {
+                      "uid": "imw199x6stmvlz1",
+                      "relation": "left",
+                      "targetUid": "imw199x6s3rdhiy",
+                      "x": 0.32,
+                      "y": 0.45,
+                      "gap": 0.04,
+                      "rotation": 0
+                    },
+                    {
+                      "uid": "imw199x6s3bydwz",
+                      "relation": "canvas",
+                      "x": 0.8,
+                      "y": 0.25,
+                      "gap": 0,
+                      "rotation": 0
+                    }
+                  ]
+                },
+                {
+                  "principle": "Сбалансированное расположение с фоновым акцентом справа.",
+                  "placements": [
+                    {
+                      "uid": "imw199x6s3rdhiy",
+                      "relation": "canvas",
+                      "x": 0.5,
+                      "y": 0.52,
+                      "gap": 0,
+                      "rotation": 0
+                    },
+                    {
+                      "uid": "imw199x6stmvlz1",
+                      "relation": "left",
+                      "targetUid": "imw199x6s3rdhiy",
+                      "x": 0.3,
+                      "y": 0.42,
+                      "gap": 0.05,
+                      "rotation": 0
+                    },
+                    {
+                      "uid": "imw199x6s3bydwz",
+                      "relation": "canvas",
+                      "x": 0.78,
+                      "y": 0.28,
+                      "gap": 0,
+                      "rotation": 0
+                    }
+                  ]
+                },
+                {
+                  "principle": "Диагональное построение учебной группы.",
+                  "placements": [
+                    {
+                      "uid": "imw199x6s3rdhiy",
+                      "relation": "canvas",
+                      "x": 0.55,
+                      "y": 0.58,
+                      "gap": 0,
+                      "rotation": 0
+                    },
+                    {
+                      "uid": "imw199x6stmvlz1",
+                      "relation": "left",
+                      "targetUid": "imw199x6s3rdhiy",
+                      "x": 0.35,
+                      "y": 0.48,
+                      "gap": 0.04,
+                      "rotation": 0
+                    },
+                    {
+                      "uid": "imw199x6s3bydwz",
+                      "relation": "canvas",
+                      "x": 0.82,
+                      "y": 0.22,
+                      "gap": 0,
+                      "rotation": 0
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "format": "landscape",
+              "views": [
+                {
+                  "principle": "Широкий формат с центрированной главной парой и фоном.",
+                  "placements": [
+                    {
+                      "uid": "imw199x6s3rdhiy",
+                      "relation": "canvas",
+                      "x": 0.52,
+                      "y": 0.55,
+                      "gap": 0,
+                      "rotation": 0
+                    },
+                    {
+                      "uid": "imw199x6stmvlz1",
+                      "relation": "left",
+                      "targetUid": "imw199x6s3rdhiy",
+                      "x": 0.34,
+                      "y": 0.45,
+                      "gap": 0.04,
+                      "rotation": 0
+                    },
+                    {
+                      "uid": "imw199x6s3bydwz",
+                      "relation": "canvas",
+                      "x": 0.85,
+                      "y": 0.25,
+                      "gap": 0,
+                      "rotation": 0
+                    }
+                  ]
+                },
+                {
+                  "principle": "Просторное горизонтальное размещение элементов.",
+                  "placements": [
+                    {
+                      "uid": "imw199x6s3rdhiy",
+                      "relation": "canvas",
+                      "x": 0.5,
+                      "y": 0.53,
+                      "gap": 0,
+                      "rotation": 0
+                    },
+                    {
+                      "uid": "imw199x6stmvlz1",
+                      "relation": "left",
+                      "targetUid": "imw199x6s3rdhiy",
+                      "x": 0.32,
+                      "y": 0.43,
+                      "gap": 0.05,
+                      "rotation": 0
+                    },
+                    {
+                      "uid": "imw199x6s3bydwz",
+                      "relation": "canvas",
+                      "x": 0.83,
+                      "y": 0.28,
+                      "gap": 0,
+                      "rotation": 0
+                    }
+                  ]
+                },
+                {
+                  "principle": "Диагональная композиция для ландшафтного экрана.",
+                  "placements": [
+                    {
+                      "uid": "imw199x6s3rdhiy",
+                      "relation": "canvas",
+                      "x": 0.54,
+                      "y": 0.57,
+                      "gap": 0,
+                      "rotation": 0
+                    },
+                    {
+                      "uid": "imw199x6stmvlz1",
+                      "relation": "left",
+                      "targetUid": "imw199x6s3rdhiy",
+                      "x": 0.36,
+                      "y": 0.47,
+                      "gap": 0.04,
+                      "rotation": 0
+                    },
+                    {
+                      "uid": "imw199x6s3bydwz",
+                      "relation": "canvas",
+                      "x": 0.86,
+                      "y": 0.22,
+                      "gap": 0,
+                      "rotation": 0
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "format": "portrait",
+              "views": [
+                {
+                  "principle": "Вертикальная компоновка с компактным размещением в центре.",
+                  "placements": [
+                    {
+                      "uid": "imw199x6s3rdhiy",
+                      "relation": "canvas",
+                      "x": 0.5,
+                      "y": 0.55,
+                      "gap": 0,
+                      "rotation": 0
+                    },
+                    {
+                      "uid": "imw199x6stmvlz1",
+                      "relation": "left",
+                      "targetUid": "imw199x6s3rdhiy",
+                      "x": 0.3,
+                      "y": 0.45,
+                      "gap": 0.04,
+                      "rotation": 0
+                    },
+                    {
+                      "uid": "imw199x6s3bydwz",
+                      "relation": "canvas",
+                      "x": 0.75,
+                      "y": 0.22,
+                      "gap": 0,
+                      "rotation": 0
+                    }
+                  ]
+                },
+                {
+                  "principle": "Сбалансированный вертикальный ритм.",
+                  "placements": [
+                    {
+                      "uid": "imw199x6s3rdhiy",
+                      "relation": "canvas",
+                      "x": 0.5,
+                      "y": 0.53,
+                      "gap": 0,
+                      "rotation": 0
+                    },
+                    {
+                      "uid": "imw199x6stmvlz1",
+                      "relation": "left",
+                      "targetUid": "imw199x6s3rdhiy",
+                      "x": 0.3,
+                      "y": 0.43,
+                      "gap": 0.05,
+                      "rotation": 0
+                    },
+                    {
+                      "uid": "imw199x6s3bydwz",
+                      "relation": "canvas",
+                      "x": 0.73,
+                      "y": 0.25,
+                      "gap": 0,
+                      "rotation": 0
+                    }
+                  ]
+                },
+                {
+                  "principle": "Диагональное соотношение объектов в вертикальном формате.",
+                  "placements": [
+                    {
+                      "uid": "imw199x6s3rdhiy",
+                      "relation": "canvas",
+                      "x": 0.52,
+                      "y": 0.57,
+                      "gap": 0,
+                      "rotation": 0
+                    },
+                    {
+                      "uid": "imw199x6stmvlz1",
+                      "relation": "left",
+                      "targetUid": "imw199x6s3rdhiy",
+                      "x": 0.32,
+                      "y": 0.47,
+                      "gap": 0.04,
+                      "rotation": 0
+                    },
+                    {
+                      "uid": "imw199x6s3bydwz",
+                      "relation": "canvas",
+                      "x": 0.77,
+                      "y": 0.2,
+                      "gap": 0,
+                      "rotation": 0
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "executionNotes": [
+            "Положение «Настольная лампа» уточнено по границам кадра и реестру пересечений."
+          ],
+          "width": 1200,
+          "height": 630,
+          "format": "landscape",
+          "size": "S",
+          "palette": "aqua",
+          "layout": "compact",
+          "background": "pattern",
+          "backgroundDesign": "auto",
+          "supporting": true,
+          "showSupporting": true,
+          "camera": null,
+          "composition": {
+            "index": 0,
+            "options": [
+              {
+                "strategy": "balanced",
+                "title": "Сбалансированное освещение",
+                "principle": "Книга и лампа образуют устойчивую учебную пару по центру кадра.",
+                "placement": "on-surface"
+              },
+              {
+                "strategy": "spacious",
+                "title": "Просторный ритм",
+                "principle": "Элементы распределены с естественными отступами для ощущения свободы.",
+                "placement": "beside"
+              },
+              {
+                "strategy": "diagonal",
+                "title": "Диагональная динамика",
+                "principle": "Лампа и книга выстроены по диагонали для направления взгляда.",
+                "placement": "across"
+              }
+            ]
+          },
+          "layerRelations": [
+            {
+              "back": "imw199x6stmvlz1",
+              "front": "imw199x6s3rdhiy",
+              "reason": "Лампа располагается слева и позади книги"
+            },
+            {
+              "back": "imw199x6s3bydwz",
+              "front": "imw199x6s3rdhiy",
+              "reason": "Наушники на фоне поддерживают главную группу сзади"
+            }
+          ],
+          "recipe": "study",
+          "framing": "overview",
+          "focus": "book",
+          "query": "Учиться в своём ритме",
+          "scale": 1,
+          "items": [
+            {
+              "uid": "imw199x6s3bydwz",
+              "assetId": "headphones",
+              "role": "background",
+              "x": 1037.8,
+              "y": 167.88,
+              "rotation": 0,
+              "flipX": false,
+              "flipY": false,
+              "zone": "top-right",
+              "crop": "fragment"
+            },
+            {
+              "uid": "imw199x6stmvlz1",
+              "assetId": "lamp",
+              "role": "main",
+              "x": 246.88971962616822,
+              "y": 340,
+              "rotation": 0,
+              "flipX": false,
+              "flipY": false,
+              "zone": "auto",
+              "crop": "whole"
+            },
+            {
+              "uid": "imw199x6s3rdhiy",
+              "assetId": "book",
+              "role": "main",
+              "x": 645.69,
+              "y": 370.95,
+              "rotation": 0,
+              "flipX": false,
+              "flipY": false,
+              "zone": "auto",
+              "crop": "whole"
+            }
+          ]
+        },
+        {
+          "version": 1,
+          "sizing": "native",
+          "environmentPrompt": "",
+          "environmentExplanation": [
+            "Главная пара объединяет открытую книгу и настольную лампу для создания атмосферы обучения.",
+            "Фоновые наушники добавляют глубину и поддерживают тему самостоятельного ритма.",
+            "Компактная компоновка удерживает элементы в единой сбалансированной группе."
+          ],
+          "groups": [
+            {
+              "kind": "reading",
+              "members": [
+                "imw199x6s3rdhiy",
+                "imw199x6stmvlz1"
+              ],
+              "reason": "Книга и освещающая её лампа составляют смысловой центр обучения"
+            },
+            {
+              "kind": "collection",
+              "members": [
+                "imw199x6stmvlz1",
+                "imw199x6s3rdhiy"
+              ],
+              "reason": "Просторное горизонтальное размещение элементов."
+            }
+          ],
+          "formatPlans": [],
+          "stagingPlans": [
+            {
+              "format": "square",
+              "views": [
+                {
+                  "principle": "Лампа слева освещает книгу по центру квадратного холста.",
+                  "placements": [
+                    {
+                      "uid": "imw199x6s3rdhiy",
+                      "relation": "canvas",
+                      "x": 0.53,
+                      "y": 0.55,
+                      "gap": 0,
+                      "rotation": 0
+                    },
+                    {
+                      "uid": "imw199x6stmvlz1",
+                      "relation": "left",
+                      "targetUid": "imw199x6s3rdhiy",
+                      "x": 0.32,
+                      "y": 0.45,
+                      "gap": 0.04,
+                      "rotation": 0
+                    },
+                    {
+                      "uid": "imw199x6s3bydwz",
+                      "relation": "canvas",
+                      "x": 0.8,
+                      "y": 0.25,
+                      "gap": 0,
+                      "rotation": 0
+                    }
+                  ]
+                },
+                {
+                  "principle": "Сбалансированное расположение с фоновым акцентом справа.",
+                  "placements": [
+                    {
+                      "uid": "imw199x6s3rdhiy",
+                      "relation": "canvas",
+                      "x": 0.5,
+                      "y": 0.52,
+                      "gap": 0,
+                      "rotation": 0
+                    },
+                    {
+                      "uid": "imw199x6stmvlz1",
+                      "relation": "left",
+                      "targetUid": "imw199x6s3rdhiy",
+                      "x": 0.3,
+                      "y": 0.42,
+                      "gap": 0.05,
+                      "rotation": 0
+                    },
+                    {
+                      "uid": "imw199x6s3bydwz",
+                      "relation": "canvas",
+                      "x": 0.78,
+                      "y": 0.28,
+                      "gap": 0,
+                      "rotation": 0
+                    }
+                  ]
+                },
+                {
+                  "principle": "Диагональное построение учебной группы.",
+                  "placements": [
+                    {
+                      "uid": "imw199x6s3rdhiy",
+                      "relation": "canvas",
+                      "x": 0.55,
+                      "y": 0.58,
+                      "gap": 0,
+                      "rotation": 0
+                    },
+                    {
+                      "uid": "imw199x6stmvlz1",
+                      "relation": "left",
+                      "targetUid": "imw199x6s3rdhiy",
+                      "x": 0.35,
+                      "y": 0.48,
+                      "gap": 0.04,
+                      "rotation": 0
+                    },
+                    {
+                      "uid": "imw199x6s3bydwz",
+                      "relation": "canvas",
+                      "x": 0.82,
+                      "y": 0.22,
+                      "gap": 0,
+                      "rotation": 0
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "format": "landscape",
+              "views": [
+                {
+                  "principle": "Широкий формат с центрированной главной парой и фоном.",
+                  "placements": [
+                    {
+                      "uid": "imw199x6s3rdhiy",
+                      "relation": "canvas",
+                      "x": 0.52,
+                      "y": 0.55,
+                      "gap": 0,
+                      "rotation": 0
+                    },
+                    {
+                      "uid": "imw199x6stmvlz1",
+                      "relation": "left",
+                      "targetUid": "imw199x6s3rdhiy",
+                      "x": 0.34,
+                      "y": 0.45,
+                      "gap": 0.04,
+                      "rotation": 0
+                    },
+                    {
+                      "uid": "imw199x6s3bydwz",
+                      "relation": "canvas",
+                      "x": 0.85,
+                      "y": 0.25,
+                      "gap": 0,
+                      "rotation": 0
+                    }
+                  ]
+                },
+                {
+                  "principle": "Просторное горизонтальное размещение элементов.",
+                  "placements": [
+                    {
+                      "uid": "imw199x6s3rdhiy",
+                      "relation": "canvas",
+                      "x": 0.5,
+                      "y": 0.53,
+                      "gap": 0,
+                      "rotation": 0
+                    },
+                    {
+                      "uid": "imw199x6stmvlz1",
+                      "relation": "left",
+                      "targetUid": "imw199x6s3rdhiy",
+                      "x": 0.32,
+                      "y": 0.43,
+                      "gap": 0.05,
+                      "rotation": 0
+                    },
+                    {
+                      "uid": "imw199x6s3bydwz",
+                      "relation": "canvas",
+                      "x": 0.83,
+                      "y": 0.28,
+                      "gap": 0,
+                      "rotation": 0
+                    }
+                  ]
+                },
+                {
+                  "principle": "Диагональная композиция для ландшафтного экрана.",
+                  "placements": [
+                    {
+                      "uid": "imw199x6s3rdhiy",
+                      "relation": "canvas",
+                      "x": 0.54,
+                      "y": 0.57,
+                      "gap": 0,
+                      "rotation": 0
+                    },
+                    {
+                      "uid": "imw199x6stmvlz1",
+                      "relation": "left",
+                      "targetUid": "imw199x6s3rdhiy",
+                      "x": 0.36,
+                      "y": 0.47,
+                      "gap": 0.04,
+                      "rotation": 0
+                    },
+                    {
+                      "uid": "imw199x6s3bydwz",
+                      "relation": "canvas",
+                      "x": 0.86,
+                      "y": 0.22,
+                      "gap": 0,
+                      "rotation": 0
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "format": "portrait",
+              "views": [
+                {
+                  "principle": "Вертикальная компоновка с компактным размещением в центре.",
+                  "placements": [
+                    {
+                      "uid": "imw199x6s3rdhiy",
+                      "relation": "canvas",
+                      "x": 0.5,
+                      "y": 0.55,
+                      "gap": 0,
+                      "rotation": 0
+                    },
+                    {
+                      "uid": "imw199x6stmvlz1",
+                      "relation": "left",
+                      "targetUid": "imw199x6s3rdhiy",
+                      "x": 0.3,
+                      "y": 0.45,
+                      "gap": 0.04,
+                      "rotation": 0
+                    },
+                    {
+                      "uid": "imw199x6s3bydwz",
+                      "relation": "canvas",
+                      "x": 0.75,
+                      "y": 0.22,
+                      "gap": 0,
+                      "rotation": 0
+                    }
+                  ]
+                },
+                {
+                  "principle": "Сбалансированный вертикальный ритм.",
+                  "placements": [
+                    {
+                      "uid": "imw199x6s3rdhiy",
+                      "relation": "canvas",
+                      "x": 0.5,
+                      "y": 0.53,
+                      "gap": 0,
+                      "rotation": 0
+                    },
+                    {
+                      "uid": "imw199x6stmvlz1",
+                      "relation": "left",
+                      "targetUid": "imw199x6s3rdhiy",
+                      "x": 0.3,
+                      "y": 0.43,
+                      "gap": 0.05,
+                      "rotation": 0
+                    },
+                    {
+                      "uid": "imw199x6s3bydwz",
+                      "relation": "canvas",
+                      "x": 0.73,
+                      "y": 0.25,
+                      "gap": 0,
+                      "rotation": 0
+                    }
+                  ]
+                },
+                {
+                  "principle": "Диагональное соотношение объектов в вертикальном формате.",
+                  "placements": [
+                    {
+                      "uid": "imw199x6s3rdhiy",
+                      "relation": "canvas",
+                      "x": 0.52,
+                      "y": 0.57,
+                      "gap": 0,
+                      "rotation": 0
+                    },
+                    {
+                      "uid": "imw199x6stmvlz1",
+                      "relation": "left",
+                      "targetUid": "imw199x6s3rdhiy",
+                      "x": 0.32,
+                      "y": 0.47,
+                      "gap": 0.04,
+                      "rotation": 0
+                    },
+                    {
+                      "uid": "imw199x6s3bydwz",
+                      "relation": "canvas",
+                      "x": 0.77,
+                      "y": 0.2,
+                      "gap": 0,
+                      "rotation": 0
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "executionNotes": [
+            "Положение «Наушники» уточнено по границам кадра и реестру пересечений.",
+            "Положение «Настольная лампа» уточнено по границам кадра и реестру пересечений."
+          ],
+          "width": 1200,
+          "height": 630,
+          "format": "landscape",
+          "size": "S",
+          "palette": "aqua",
+          "layout": "compact",
+          "background": "pattern",
+          "backgroundDesign": "auto",
+          "supporting": true,
+          "showSupporting": true,
+          "camera": null,
+          "composition": {
+            "index": 1,
+            "options": [
+              {
+                "strategy": "balanced",
+                "title": "Сбалансированное освещение",
+                "principle": "Книга и лампа образуют устойчивую учебную пару по центру кадра.",
+                "placement": "on-surface"
+              },
+              {
+                "strategy": "spacious",
+                "title": "Просторный ритм",
+                "principle": "Элементы распределены с естественными отступами для ощущения свободы.",
+                "placement": "beside"
+              },
+              {
+                "strategy": "diagonal",
+                "title": "Диагональная динамика",
+                "principle": "Лампа и книга выстроены по диагонали для направления взгляда.",
+                "placement": "across"
+              }
+            ]
+          },
+          "layerRelations": [
+            {
+              "back": "imw199x6stmvlz1",
+              "front": "imw199x6s3rdhiy",
+              "reason": "Лампа располагается слева и позади книги"
+            },
+            {
+              "back": "imw199x6s3bydwz",
+              "front": "imw199x6s3rdhiy",
+              "reason": "Наушники на фоне поддерживают главную группу сзади"
+            }
+          ],
+          "recipe": "study",
+          "framing": "overview",
+          "focus": "book",
+          "query": "Учиться в своём ритме",
+          "scale": 1,
+          "items": [
+            {
+              "uid": "imw199x6s3bydwz",
+              "assetId": "headphones",
+              "role": "background",
+              "x": 1200,
+              "y": 75.6,
+              "rotation": 0,
+              "flipX": false,
+              "flipY": false,
+              "zone": "top-right",
+              "crop": "fragment"
+            },
+            {
+              "uid": "imw199x6stmvlz1",
+              "assetId": "lamp",
+              "role": "main",
+              "x": 246.88971962616822,
+              "y": 327.4,
+              "rotation": 0,
+              "flipX": false,
+              "flipY": false,
+              "zone": "auto",
+              "crop": "whole"
+            },
+            {
+              "uid": "imw199x6s3rdhiy",
+              "assetId": "book",
+              "role": "main",
+              "x": 621.69,
+              "y": 358.35,
+              "rotation": 0,
+              "flipX": false,
+              "flipY": false,
+              "zone": "auto",
+              "crop": "whole"
+            }
+          ]
+        },
+        {
+          "version": 1,
+          "sizing": "native",
+          "environmentPrompt": "",
+          "environmentExplanation": [
+            "Главная пара объединяет открытую книгу и настольную лампу для создания атмосферы обучения.",
+            "Фоновые наушники добавляют глубину и поддерживают тему самостоятельного ритма.",
+            "Компактная компоновка удерживает элементы в единой сбалансированной группе."
+          ],
+          "groups": [
+            {
+              "kind": "reading",
+              "members": [
+                "imw199x6s3rdhiy",
+                "imw199x6stmvlz1"
+              ],
+              "reason": "Книга и освещающая её лампа составляют смысловой центр обучения"
+            },
+            {
+              "kind": "collection",
+              "members": [
+                "imw199x6stmvlz1",
+                "imw199x6s3rdhiy"
+              ],
+              "reason": "Диагональная композиция для ландшафтного экрана."
+            }
+          ],
+          "formatPlans": [],
+          "stagingPlans": [
+            {
+              "format": "square",
+              "views": [
+                {
+                  "principle": "Лампа слева освещает книгу по центру квадратного холста.",
+                  "placements": [
+                    {
+                      "uid": "imw199x6s3rdhiy",
+                      "relation": "canvas",
+                      "x": 0.53,
+                      "y": 0.55,
+                      "gap": 0,
+                      "rotation": 0
+                    },
+                    {
+                      "uid": "imw199x6stmvlz1",
+                      "relation": "left",
+                      "targetUid": "imw199x6s3rdhiy",
+                      "x": 0.32,
+                      "y": 0.45,
+                      "gap": 0.04,
+                      "rotation": 0
+                    },
+                    {
+                      "uid": "imw199x6s3bydwz",
+                      "relation": "canvas",
+                      "x": 0.8,
+                      "y": 0.25,
+                      "gap": 0,
+                      "rotation": 0
+                    }
+                  ]
+                },
+                {
+                  "principle": "Сбалансированное расположение с фоновым акцентом справа.",
+                  "placements": [
+                    {
+                      "uid": "imw199x6s3rdhiy",
+                      "relation": "canvas",
+                      "x": 0.5,
+                      "y": 0.52,
+                      "gap": 0,
+                      "rotation": 0
+                    },
+                    {
+                      "uid": "imw199x6stmvlz1",
+                      "relation": "left",
+                      "targetUid": "imw199x6s3rdhiy",
+                      "x": 0.3,
+                      "y": 0.42,
+                      "gap": 0.05,
+                      "rotation": 0
+                    },
+                    {
+                      "uid": "imw199x6s3bydwz",
+                      "relation": "canvas",
+                      "x": 0.78,
+                      "y": 0.28,
+                      "gap": 0,
+                      "rotation": 0
+                    }
+                  ]
+                },
+                {
+                  "principle": "Диагональное построение учебной группы.",
+                  "placements": [
+                    {
+                      "uid": "imw199x6s3rdhiy",
+                      "relation": "canvas",
+                      "x": 0.55,
+                      "y": 0.58,
+                      "gap": 0,
+                      "rotation": 0
+                    },
+                    {
+                      "uid": "imw199x6stmvlz1",
+                      "relation": "left",
+                      "targetUid": "imw199x6s3rdhiy",
+                      "x": 0.35,
+                      "y": 0.48,
+                      "gap": 0.04,
+                      "rotation": 0
+                    },
+                    {
+                      "uid": "imw199x6s3bydwz",
+                      "relation": "canvas",
+                      "x": 0.82,
+                      "y": 0.22,
+                      "gap": 0,
+                      "rotation": 0
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "format": "landscape",
+              "views": [
+                {
+                  "principle": "Широкий формат с центрированной главной парой и фоном.",
+                  "placements": [
+                    {
+                      "uid": "imw199x6s3rdhiy",
+                      "relation": "canvas",
+                      "x": 0.52,
+                      "y": 0.55,
+                      "gap": 0,
+                      "rotation": 0
+                    },
+                    {
+                      "uid": "imw199x6stmvlz1",
+                      "relation": "left",
+                      "targetUid": "imw199x6s3rdhiy",
+                      "x": 0.34,
+                      "y": 0.45,
+                      "gap": 0.04,
+                      "rotation": 0
+                    },
+                    {
+                      "uid": "imw199x6s3bydwz",
+                      "relation": "canvas",
+                      "x": 0.85,
+                      "y": 0.25,
+                      "gap": 0,
+                      "rotation": 0
+                    }
+                  ]
+                },
+                {
+                  "principle": "Просторное горизонтальное размещение элементов.",
+                  "placements": [
+                    {
+                      "uid": "imw199x6s3rdhiy",
+                      "relation": "canvas",
+                      "x": 0.5,
+                      "y": 0.53,
+                      "gap": 0,
+                      "rotation": 0
+                    },
+                    {
+                      "uid": "imw199x6stmvlz1",
+                      "relation": "left",
+                      "targetUid": "imw199x6s3rdhiy",
+                      "x": 0.32,
+                      "y": 0.43,
+                      "gap": 0.05,
+                      "rotation": 0
+                    },
+                    {
+                      "uid": "imw199x6s3bydwz",
+                      "relation": "canvas",
+                      "x": 0.83,
+                      "y": 0.28,
+                      "gap": 0,
+                      "rotation": 0
+                    }
+                  ]
+                },
+                {
+                  "principle": "Диагональная композиция для ландшафтного экрана.",
+                  "placements": [
+                    {
+                      "uid": "imw199x6s3rdhiy",
+                      "relation": "canvas",
+                      "x": 0.54,
+                      "y": 0.57,
+                      "gap": 0,
+                      "rotation": 0
+                    },
+                    {
+                      "uid": "imw199x6stmvlz1",
+                      "relation": "left",
+                      "targetUid": "imw199x6s3rdhiy",
+                      "x": 0.36,
+                      "y": 0.47,
+                      "gap": 0.04,
+                      "rotation": 0
+                    },
+                    {
+                      "uid": "imw199x6s3bydwz",
+                      "relation": "canvas",
+                      "x": 0.86,
+                      "y": 0.22,
+                      "gap": 0,
+                      "rotation": 0
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "format": "portrait",
+              "views": [
+                {
+                  "principle": "Вертикальная компоновка с компактным размещением в центре.",
+                  "placements": [
+                    {
+                      "uid": "imw199x6s3rdhiy",
+                      "relation": "canvas",
+                      "x": 0.5,
+                      "y": 0.55,
+                      "gap": 0,
+                      "rotation": 0
+                    },
+                    {
+                      "uid": "imw199x6stmvlz1",
+                      "relation": "left",
+                      "targetUid": "imw199x6s3rdhiy",
+                      "x": 0.3,
+                      "y": 0.45,
+                      "gap": 0.04,
+                      "rotation": 0
+                    },
+                    {
+                      "uid": "imw199x6s3bydwz",
+                      "relation": "canvas",
+                      "x": 0.75,
+                      "y": 0.22,
+                      "gap": 0,
+                      "rotation": 0
+                    }
+                  ]
+                },
+                {
+                  "principle": "Сбалансированный вертикальный ритм.",
+                  "placements": [
+                    {
+                      "uid": "imw199x6s3rdhiy",
+                      "relation": "canvas",
+                      "x": 0.5,
+                      "y": 0.53,
+                      "gap": 0,
+                      "rotation": 0
+                    },
+                    {
+                      "uid": "imw199x6stmvlz1",
+                      "relation": "left",
+                      "targetUid": "imw199x6s3rdhiy",
+                      "x": 0.3,
+                      "y": 0.43,
+                      "gap": 0.05,
+                      "rotation": 0
+                    },
+                    {
+                      "uid": "imw199x6s3bydwz",
+                      "relation": "canvas",
+                      "x": 0.73,
+                      "y": 0.25,
+                      "gap": 0,
+                      "rotation": 0
+                    }
+                  ]
+                },
+                {
+                  "principle": "Диагональное соотношение объектов в вертикальном формате.",
+                  "placements": [
+                    {
+                      "uid": "imw199x6s3rdhiy",
+                      "relation": "canvas",
+                      "x": 0.52,
+                      "y": 0.57,
+                      "gap": 0,
+                      "rotation": 0
+                    },
+                    {
+                      "uid": "imw199x6stmvlz1",
+                      "relation": "left",
+                      "targetUid": "imw199x6s3rdhiy",
+                      "x": 0.32,
+                      "y": 0.47,
+                      "gap": 0.04,
+                      "rotation": 0
+                    },
+                    {
+                      "uid": "imw199x6s3bydwz",
+                      "relation": "canvas",
+                      "x": 0.77,
+                      "y": 0.2,
+                      "gap": 0,
+                      "rotation": 0
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "executionNotes": [
+            "Положение «Настольная лампа» уточнено по границам кадра и реестру пересечений."
+          ],
+          "width": 1200,
+          "height": 630,
+          "format": "landscape",
+          "size": "S",
+          "palette": "aqua",
+          "layout": "compact",
+          "background": "pattern",
+          "backgroundDesign": "auto",
+          "supporting": true,
+          "showSupporting": true,
+          "camera": null,
+          "composition": {
+            "index": 2,
+            "options": [
+              {
+                "strategy": "balanced",
+                "title": "Сбалансированное освещение",
+                "principle": "Книга и лампа образуют устойчивую учебную пару по центру кадра.",
+                "placement": "on-surface"
+              },
+              {
+                "strategy": "spacious",
+                "title": "Просторный ритм",
+                "principle": "Элементы распределены с естественными отступами для ощущения свободы.",
+                "placement": "beside"
+              },
+              {
+                "strategy": "diagonal",
+                "title": "Диагональная динамика",
+                "principle": "Лампа и книга выстроены по диагонали для направления взгляда.",
+                "placement": "across"
+              }
+            ]
+          },
+          "layerRelations": [
+            {
+              "back": "imw199x6stmvlz1",
+              "front": "imw199x6s3rdhiy",
+              "reason": "Лампа располагается слева и позади книги"
+            },
+            {
+              "back": "imw199x6s3bydwz",
+              "front": "imw199x6s3rdhiy",
+              "reason": "Наушники на фоне поддерживают главную группу сзади"
+            }
+          ],
+          "recipe": "study",
+          "framing": "overview",
+          "focus": "book",
+          "query": "Учиться в своём ритме",
+          "scale": 1,
+          "items": [
+            {
+              "uid": "imw199x6s3bydwz",
+              "assetId": "headphones",
+              "role": "background",
+              "x": 1049.8,
+              "y": 148.98000000000002,
+              "rotation": 0,
+              "flipX": false,
+              "flipY": false,
+              "zone": "top-right",
+              "crop": "fragment"
+            },
+            {
+              "uid": "imw199x6stmvlz1",
+              "assetId": "lamp",
+              "role": "main",
+              "x": 246.88971962616822,
+              "y": 341.52109375,
+              "rotation": 0,
+              "flipX": false,
+              "flipY": false,
+              "zone": "auto",
+              "crop": "whole"
+            },
+            {
+              "uid": "imw199x6s3rdhiy",
+              "assetId": "book",
+              "role": "main",
+              "x": 669.69,
+              "y": 383.54999999999995,
+              "rotation": 0,
+              "flipX": false,
+              "flipY": false,
+              "zone": "auto",
+              "crop": "whole"
+            }
+          ]
+        }
+      ],
+      "portrait": [
+        {
+          "version": 1,
+          "sizing": "native",
+          "environmentPrompt": "",
+          "environmentExplanation": [
+            "Главная пара объединяет открытую книгу и настольную лампу для создания атмосферы обучения.",
+            "Фоновые наушники добавляют глубину и поддерживают тему самостоятельного ритма.",
+            "Компактная компоновка удерживает элементы в единой сбалансированной группе."
+          ],
+          "groups": [
+            {
+              "kind": "reading",
+              "members": [
+                "imw199x6s3rdhiy",
+                "imw199x6stmvlz1"
+              ],
+              "reason": "Книга и освещающая её лампа составляют смысловой центр обучения"
+            },
+            {
+              "kind": "collection",
+              "members": [
+                "imw199x6stmvlz1",
+                "imw199x6s3rdhiy"
+              ],
+              "reason": "Вертикальная компоновка с компактным размещением в центре."
+            }
+          ],
+          "formatPlans": [],
+          "stagingPlans": [
+            {
+              "format": "square",
+              "views": [
+                {
+                  "principle": "Лампа слева освещает книгу по центру квадратного холста.",
+                  "placements": [
+                    {
+                      "uid": "imw199x6s3rdhiy",
+                      "relation": "canvas",
+                      "x": 0.53,
+                      "y": 0.55,
+                      "gap": 0,
+                      "rotation": 0
+                    },
+                    {
+                      "uid": "imw199x6stmvlz1",
+                      "relation": "left",
+                      "targetUid": "imw199x6s3rdhiy",
+                      "x": 0.32,
+                      "y": 0.45,
+                      "gap": 0.04,
+                      "rotation": 0
+                    },
+                    {
+                      "uid": "imw199x6s3bydwz",
+                      "relation": "canvas",
+                      "x": 0.8,
+                      "y": 0.25,
+                      "gap": 0,
+                      "rotation": 0
+                    }
+                  ]
+                },
+                {
+                  "principle": "Сбалансированное расположение с фоновым акцентом справа.",
+                  "placements": [
+                    {
+                      "uid": "imw199x6s3rdhiy",
+                      "relation": "canvas",
+                      "x": 0.5,
+                      "y": 0.52,
+                      "gap": 0,
+                      "rotation": 0
+                    },
+                    {
+                      "uid": "imw199x6stmvlz1",
+                      "relation": "left",
+                      "targetUid": "imw199x6s3rdhiy",
+                      "x": 0.3,
+                      "y": 0.42,
+                      "gap": 0.05,
+                      "rotation": 0
+                    },
+                    {
+                      "uid": "imw199x6s3bydwz",
+                      "relation": "canvas",
+                      "x": 0.78,
+                      "y": 0.28,
+                      "gap": 0,
+                      "rotation": 0
+                    }
+                  ]
+                },
+                {
+                  "principle": "Диагональное построение учебной группы.",
+                  "placements": [
+                    {
+                      "uid": "imw199x6s3rdhiy",
+                      "relation": "canvas",
+                      "x": 0.55,
+                      "y": 0.58,
+                      "gap": 0,
+                      "rotation": 0
+                    },
+                    {
+                      "uid": "imw199x6stmvlz1",
+                      "relation": "left",
+                      "targetUid": "imw199x6s3rdhiy",
+                      "x": 0.35,
+                      "y": 0.48,
+                      "gap": 0.04,
+                      "rotation": 0
+                    },
+                    {
+                      "uid": "imw199x6s3bydwz",
+                      "relation": "canvas",
+                      "x": 0.82,
+                      "y": 0.22,
+                      "gap": 0,
+                      "rotation": 0
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "format": "landscape",
+              "views": [
+                {
+                  "principle": "Широкий формат с центрированной главной парой и фоном.",
+                  "placements": [
+                    {
+                      "uid": "imw199x6s3rdhiy",
+                      "relation": "canvas",
+                      "x": 0.52,
+                      "y": 0.55,
+                      "gap": 0,
+                      "rotation": 0
+                    },
+                    {
+                      "uid": "imw199x6stmvlz1",
+                      "relation": "left",
+                      "targetUid": "imw199x6s3rdhiy",
+                      "x": 0.34,
+                      "y": 0.45,
+                      "gap": 0.04,
+                      "rotation": 0
+                    },
+                    {
+                      "uid": "imw199x6s3bydwz",
+                      "relation": "canvas",
+                      "x": 0.85,
+                      "y": 0.25,
+                      "gap": 0,
+                      "rotation": 0
+                    }
+                  ]
+                },
+                {
+                  "principle": "Просторное горизонтальное размещение элементов.",
+                  "placements": [
+                    {
+                      "uid": "imw199x6s3rdhiy",
+                      "relation": "canvas",
+                      "x": 0.5,
+                      "y": 0.53,
+                      "gap": 0,
+                      "rotation": 0
+                    },
+                    {
+                      "uid": "imw199x6stmvlz1",
+                      "relation": "left",
+                      "targetUid": "imw199x6s3rdhiy",
+                      "x": 0.32,
+                      "y": 0.43,
+                      "gap": 0.05,
+                      "rotation": 0
+                    },
+                    {
+                      "uid": "imw199x6s3bydwz",
+                      "relation": "canvas",
+                      "x": 0.83,
+                      "y": 0.28,
+                      "gap": 0,
+                      "rotation": 0
+                    }
+                  ]
+                },
+                {
+                  "principle": "Диагональная композиция для ландшафтного экрана.",
+                  "placements": [
+                    {
+                      "uid": "imw199x6s3rdhiy",
+                      "relation": "canvas",
+                      "x": 0.54,
+                      "y": 0.57,
+                      "gap": 0,
+                      "rotation": 0
+                    },
+                    {
+                      "uid": "imw199x6stmvlz1",
+                      "relation": "left",
+                      "targetUid": "imw199x6s3rdhiy",
+                      "x": 0.36,
+                      "y": 0.47,
+                      "gap": 0.04,
+                      "rotation": 0
+                    },
+                    {
+                      "uid": "imw199x6s3bydwz",
+                      "relation": "canvas",
+                      "x": 0.86,
+                      "y": 0.22,
+                      "gap": 0,
+                      "rotation": 0
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "format": "portrait",
+              "views": [
+                {
+                  "principle": "Вертикальная компоновка с компактным размещением в центре.",
+                  "placements": [
+                    {
+                      "uid": "imw199x6s3rdhiy",
+                      "relation": "canvas",
+                      "x": 0.5,
+                      "y": 0.55,
+                      "gap": 0,
+                      "rotation": 0
+                    },
+                    {
+                      "uid": "imw199x6stmvlz1",
+                      "relation": "left",
+                      "targetUid": "imw199x6s3rdhiy",
+                      "x": 0.3,
+                      "y": 0.45,
+                      "gap": 0.04,
+                      "rotation": 0
+                    },
+                    {
+                      "uid": "imw199x6s3bydwz",
+                      "relation": "canvas",
+                      "x": 0.75,
+                      "y": 0.22,
+                      "gap": 0,
+                      "rotation": 0
+                    }
+                  ]
+                },
+                {
+                  "principle": "Сбалансированный вертикальный ритм.",
+                  "placements": [
+                    {
+                      "uid": "imw199x6s3rdhiy",
+                      "relation": "canvas",
+                      "x": 0.5,
+                      "y": 0.53,
+                      "gap": 0,
+                      "rotation": 0
+                    },
+                    {
+                      "uid": "imw199x6stmvlz1",
+                      "relation": "left",
+                      "targetUid": "imw199x6s3rdhiy",
+                      "x": 0.3,
+                      "y": 0.43,
+                      "gap": 0.05,
+                      "rotation": 0
+                    },
+                    {
+                      "uid": "imw199x6s3bydwz",
+                      "relation": "canvas",
+                      "x": 0.73,
+                      "y": 0.25,
+                      "gap": 0,
+                      "rotation": 0
+                    }
+                  ]
+                },
+                {
+                  "principle": "Диагональное соотношение объектов в вертикальном формате.",
+                  "placements": [
+                    {
+                      "uid": "imw199x6s3rdhiy",
+                      "relation": "canvas",
+                      "x": 0.52,
+                      "y": 0.57,
+                      "gap": 0,
+                      "rotation": 0
+                    },
+                    {
+                      "uid": "imw199x6stmvlz1",
+                      "relation": "left",
+                      "targetUid": "imw199x6s3rdhiy",
+                      "x": 0.32,
+                      "y": 0.47,
+                      "gap": 0.04,
+                      "rotation": 0
+                    },
+                    {
+                      "uid": "imw199x6s3bydwz",
+                      "relation": "canvas",
+                      "x": 0.77,
+                      "y": 0.2,
+                      "gap": 0,
+                      "rotation": 0
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "executionNotes": [
+            "Положение «Настольная лампа» уточнено по границам кадра и реестру пересечений.",
+            "Положение «Открытая книга» уточнено по границам кадра и реестру пересечений."
+          ],
+          "width": 800,
+          "height": 1200,
+          "format": "portrait",
+          "size": "S",
+          "palette": "aqua",
+          "layout": "compact",
+          "background": "pattern",
+          "backgroundDesign": "auto",
+          "supporting": true,
+          "showSupporting": true,
+          "camera": null,
+          "composition": {
+            "index": 0,
+            "options": [
+              {
+                "strategy": "balanced",
+                "title": "Сбалансированное освещение",
+                "principle": "Книга и лампа образуют устойчивую учебную пару по центру кадра.",
+                "placement": "on-surface"
+              },
+              {
+                "strategy": "spacious",
+                "title": "Просторный ритм",
+                "principle": "Элементы распределены с естественными отступами для ощущения свободы.",
+                "placement": "beside"
+              },
+              {
+                "strategy": "diagonal",
+                "title": "Диагональная динамика",
+                "principle": "Лампа и книга выстроены по диагонали для направления взгляда.",
+                "placement": "across"
+              }
+            ]
+          },
+          "layerRelations": [
+            {
+              "back": "imw199x6stmvlz1",
+              "front": "imw199x6s3rdhiy",
+              "reason": "Лампа располагается слева и позади книги"
+            },
+            {
+              "back": "imw199x6s3bydwz",
+              "front": "imw199x6s3rdhiy",
+              "reason": "Наушники на фоне поддерживают главную группу сзади"
+            }
+          ],
+          "recipe": "study",
+          "framing": "overview",
+          "focus": "book",
+          "query": "Учиться в своём ритме",
+          "scale": 1,
+          "items": [
+            {
+              "uid": "imw199x6s3bydwz",
+              "assetId": "headphones",
+              "role": "background",
+              "x": 617.8,
+              "y": 274.38,
+              "rotation": 0,
+              "flipX": false,
+              "flipY": false,
+              "zone": "top-right",
+              "crop": "fragment"
+            },
+            {
+              "uid": "imw199x6stmvlz1",
+              "assetId": "lamp",
+              "role": "main",
+              "x": 250.28971962616822,
+              "y": 596.5,
+              "rotation": 0,
+              "flipX": false,
+              "flipY": false,
+              "zone": "auto",
+              "crop": "whole"
+            },
+            {
+              "uid": "imw199x6s3rdhiy",
+              "assetId": "book",
+              "role": "main",
+              "x": 512,
+              "y": 912,
+              "rotation": 0,
+              "flipX": false,
+              "flipY": false,
+              "zone": "auto",
+              "crop": "whole"
+            }
+          ]
+        },
+        {
+          "version": 1,
+          "sizing": "native",
+          "environmentPrompt": "",
+          "environmentExplanation": [
+            "Главная пара объединяет открытую книгу и настольную лампу для создания атмосферы обучения.",
+            "Фоновые наушники добавляют глубину и поддерживают тему самостоятельного ритма.",
+            "Компактная компоновка удерживает элементы в единой сбалансированной группе."
+          ],
+          "groups": [
+            {
+              "kind": "reading",
+              "members": [
+                "imw199x6s3rdhiy",
+                "imw199x6stmvlz1"
+              ],
+              "reason": "Книга и освещающая её лампа составляют смысловой центр обучения"
+            },
+            {
+              "kind": "collection",
+              "members": [
+                "imw199x6stmvlz1",
+                "imw199x6s3rdhiy"
+              ],
+              "reason": "Сбалансированный вертикальный ритм."
+            }
+          ],
+          "formatPlans": [],
+          "stagingPlans": [
+            {
+              "format": "square",
+              "views": [
+                {
+                  "principle": "Лампа слева освещает книгу по центру квадратного холста.",
+                  "placements": [
+                    {
+                      "uid": "imw199x6s3rdhiy",
+                      "relation": "canvas",
+                      "x": 0.53,
+                      "y": 0.55,
+                      "gap": 0,
+                      "rotation": 0
+                    },
+                    {
+                      "uid": "imw199x6stmvlz1",
+                      "relation": "left",
+                      "targetUid": "imw199x6s3rdhiy",
+                      "x": 0.32,
+                      "y": 0.45,
+                      "gap": 0.04,
+                      "rotation": 0
+                    },
+                    {
+                      "uid": "imw199x6s3bydwz",
+                      "relation": "canvas",
+                      "x": 0.8,
+                      "y": 0.25,
+                      "gap": 0,
+                      "rotation": 0
+                    }
+                  ]
+                },
+                {
+                  "principle": "Сбалансированное расположение с фоновым акцентом справа.",
+                  "placements": [
+                    {
+                      "uid": "imw199x6s3rdhiy",
+                      "relation": "canvas",
+                      "x": 0.5,
+                      "y": 0.52,
+                      "gap": 0,
+                      "rotation": 0
+                    },
+                    {
+                      "uid": "imw199x6stmvlz1",
+                      "relation": "left",
+                      "targetUid": "imw199x6s3rdhiy",
+                      "x": 0.3,
+                      "y": 0.42,
+                      "gap": 0.05,
+                      "rotation": 0
+                    },
+                    {
+                      "uid": "imw199x6s3bydwz",
+                      "relation": "canvas",
+                      "x": 0.78,
+                      "y": 0.28,
+                      "gap": 0,
+                      "rotation": 0
+                    }
+                  ]
+                },
+                {
+                  "principle": "Диагональное построение учебной группы.",
+                  "placements": [
+                    {
+                      "uid": "imw199x6s3rdhiy",
+                      "relation": "canvas",
+                      "x": 0.55,
+                      "y": 0.58,
+                      "gap": 0,
+                      "rotation": 0
+                    },
+                    {
+                      "uid": "imw199x6stmvlz1",
+                      "relation": "left",
+                      "targetUid": "imw199x6s3rdhiy",
+                      "x": 0.35,
+                      "y": 0.48,
+                      "gap": 0.04,
+                      "rotation": 0
+                    },
+                    {
+                      "uid": "imw199x6s3bydwz",
+                      "relation": "canvas",
+                      "x": 0.82,
+                      "y": 0.22,
+                      "gap": 0,
+                      "rotation": 0
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "format": "landscape",
+              "views": [
+                {
+                  "principle": "Широкий формат с центрированной главной парой и фоном.",
+                  "placements": [
+                    {
+                      "uid": "imw199x6s3rdhiy",
+                      "relation": "canvas",
+                      "x": 0.52,
+                      "y": 0.55,
+                      "gap": 0,
+                      "rotation": 0
+                    },
+                    {
+                      "uid": "imw199x6stmvlz1",
+                      "relation": "left",
+                      "targetUid": "imw199x6s3rdhiy",
+                      "x": 0.34,
+                      "y": 0.45,
+                      "gap": 0.04,
+                      "rotation": 0
+                    },
+                    {
+                      "uid": "imw199x6s3bydwz",
+                      "relation": "canvas",
+                      "x": 0.85,
+                      "y": 0.25,
+                      "gap": 0,
+                      "rotation": 0
+                    }
+                  ]
+                },
+                {
+                  "principle": "Просторное горизонтальное размещение элементов.",
+                  "placements": [
+                    {
+                      "uid": "imw199x6s3rdhiy",
+                      "relation": "canvas",
+                      "x": 0.5,
+                      "y": 0.53,
+                      "gap": 0,
+                      "rotation": 0
+                    },
+                    {
+                      "uid": "imw199x6stmvlz1",
+                      "relation": "left",
+                      "targetUid": "imw199x6s3rdhiy",
+                      "x": 0.32,
+                      "y": 0.43,
+                      "gap": 0.05,
+                      "rotation": 0
+                    },
+                    {
+                      "uid": "imw199x6s3bydwz",
+                      "relation": "canvas",
+                      "x": 0.83,
+                      "y": 0.28,
+                      "gap": 0,
+                      "rotation": 0
+                    }
+                  ]
+                },
+                {
+                  "principle": "Диагональная композиция для ландшафтного экрана.",
+                  "placements": [
+                    {
+                      "uid": "imw199x6s3rdhiy",
+                      "relation": "canvas",
+                      "x": 0.54,
+                      "y": 0.57,
+                      "gap": 0,
+                      "rotation": 0
+                    },
+                    {
+                      "uid": "imw199x6stmvlz1",
+                      "relation": "left",
+                      "targetUid": "imw199x6s3rdhiy",
+                      "x": 0.36,
+                      "y": 0.47,
+                      "gap": 0.04,
+                      "rotation": 0
+                    },
+                    {
+                      "uid": "imw199x6s3bydwz",
+                      "relation": "canvas",
+                      "x": 0.86,
+                      "y": 0.22,
+                      "gap": 0,
+                      "rotation": 0
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "format": "portrait",
+              "views": [
+                {
+                  "principle": "Вертикальная компоновка с компактным размещением в центре.",
+                  "placements": [
+                    {
+                      "uid": "imw199x6s3rdhiy",
+                      "relation": "canvas",
+                      "x": 0.5,
+                      "y": 0.55,
+                      "gap": 0,
+                      "rotation": 0
+                    },
+                    {
+                      "uid": "imw199x6stmvlz1",
+                      "relation": "left",
+                      "targetUid": "imw199x6s3rdhiy",
+                      "x": 0.3,
+                      "y": 0.45,
+                      "gap": 0.04,
+                      "rotation": 0
+                    },
+                    {
+                      "uid": "imw199x6s3bydwz",
+                      "relation": "canvas",
+                      "x": 0.75,
+                      "y": 0.22,
+                      "gap": 0,
+                      "rotation": 0
+                    }
+                  ]
+                },
+                {
+                  "principle": "Сбалансированный вертикальный ритм.",
+                  "placements": [
+                    {
+                      "uid": "imw199x6s3rdhiy",
+                      "relation": "canvas",
+                      "x": 0.5,
+                      "y": 0.53,
+                      "gap": 0,
+                      "rotation": 0
+                    },
+                    {
+                      "uid": "imw199x6stmvlz1",
+                      "relation": "left",
+                      "targetUid": "imw199x6s3rdhiy",
+                      "x": 0.3,
+                      "y": 0.43,
+                      "gap": 0.05,
+                      "rotation": 0
+                    },
+                    {
+                      "uid": "imw199x6s3bydwz",
+                      "relation": "canvas",
+                      "x": 0.73,
+                      "y": 0.25,
+                      "gap": 0,
+                      "rotation": 0
+                    }
+                  ]
+                },
+                {
+                  "principle": "Диагональное соотношение объектов в вертикальном формате.",
+                  "placements": [
+                    {
+                      "uid": "imw199x6s3rdhiy",
+                      "relation": "canvas",
+                      "x": 0.52,
+                      "y": 0.57,
+                      "gap": 0,
+                      "rotation": 0
+                    },
+                    {
+                      "uid": "imw199x6stmvlz1",
+                      "relation": "left",
+                      "targetUid": "imw199x6s3rdhiy",
+                      "x": 0.32,
+                      "y": 0.47,
+                      "gap": 0.04,
+                      "rotation": 0
+                    },
+                    {
+                      "uid": "imw199x6s3bydwz",
+                      "relation": "canvas",
+                      "x": 0.77,
+                      "y": 0.2,
+                      "gap": 0,
+                      "rotation": 0
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "executionNotes": [
+            "Положение «Наушники» уточнено по границам кадра и реестру пересечений.",
+            "Положение «Настольная лампа» уточнено по границам кадра и реестру пересечений.",
+            "Положение «Открытая книга» уточнено по границам кадра и реестру пересечений."
+          ],
+          "width": 800,
+          "height": 1200,
+          "format": "portrait",
+          "size": "S",
+          "palette": "aqua",
+          "layout": "compact",
+          "background": "pattern",
+          "backgroundDesign": "auto",
+          "supporting": true,
+          "showSupporting": true,
+          "camera": null,
+          "composition": {
+            "index": 1,
+            "options": [
+              {
+                "strategy": "balanced",
+                "title": "Сбалансированное освещение",
+                "principle": "Книга и лампа образуют устойчивую учебную пару по центру кадра.",
+                "placement": "on-surface"
+              },
+              {
+                "strategy": "spacious",
+                "title": "Просторный ритм",
+                "principle": "Элементы распределены с естественными отступами для ощущения свободы.",
+                "placement": "beside"
+              },
+              {
+                "strategy": "diagonal",
+                "title": "Диагональная динамика",
+                "principle": "Лампа и книга выстроены по диагонали для направления взгляда.",
+                "placement": "across"
+              }
+            ]
+          },
+          "layerRelations": [
+            {
+              "back": "imw199x6stmvlz1",
+              "front": "imw199x6s3rdhiy",
+              "reason": "Лампа располагается слева и позади книги"
+            },
+            {
+              "back": "imw199x6s3bydwz",
+              "front": "imw199x6s3rdhiy",
+              "reason": "Наушники на фоне поддерживают главную группу сзади"
+            }
+          ],
+          "recipe": "study",
+          "framing": "overview",
+          "focus": "book",
+          "query": "Учиться в своём ритме",
+          "scale": 1,
+          "items": [
+            {
+              "uid": "imw199x6s3bydwz",
+              "assetId": "headphones",
+              "role": "background",
+              "x": 704,
+              "y": 0,
+              "rotation": 0,
+              "flipX": false,
+              "flipY": false,
+              "zone": "top-right",
+              "crop": "fragment"
+            },
+            {
+              "uid": "imw199x6stmvlz1",
+              "assetId": "lamp",
+              "role": "main",
+              "x": 250.28971962616822,
+              "y": 572.5,
+              "rotation": 0,
+              "flipX": false,
+              "flipY": false,
+              "zone": "auto",
+              "crop": "whole"
+            },
+            {
+              "uid": "imw199x6s3rdhiy",
+              "assetId": "book",
+              "role": "main",
+              "x": 608,
+              "y": 624,
+              "rotation": 0,
+              "flipX": false,
+              "flipY": false,
+              "zone": "auto",
+              "crop": "whole"
+            }
+          ]
+        },
+        {
+          "version": 1,
+          "sizing": "native",
+          "environmentPrompt": "",
+          "environmentExplanation": [
+            "Главная пара объединяет открытую книгу и настольную лампу для создания атмосферы обучения.",
+            "Фоновые наушники добавляют глубину и поддерживают тему самостоятельного ритма.",
+            "Компактная компоновка удерживает элементы в единой сбалансированной группе."
+          ],
+          "groups": [
+            {
+              "kind": "reading",
+              "members": [
+                "imw199x6s3rdhiy",
+                "imw199x6stmvlz1"
+              ],
+              "reason": "Книга и освещающая её лампа составляют смысловой центр обучения"
+            },
+            {
+              "kind": "collection",
+              "members": [
+                "imw199x6stmvlz1",
+                "imw199x6s3rdhiy"
+              ],
+              "reason": "Диагональное соотношение объектов в вертикальном формате."
+            }
+          ],
+          "formatPlans": [],
+          "stagingPlans": [
+            {
+              "format": "square",
+              "views": [
+                {
+                  "principle": "Лампа слева освещает книгу по центру квадратного холста.",
+                  "placements": [
+                    {
+                      "uid": "imw199x6s3rdhiy",
+                      "relation": "canvas",
+                      "x": 0.53,
+                      "y": 0.55,
+                      "gap": 0,
+                      "rotation": 0
+                    },
+                    {
+                      "uid": "imw199x6stmvlz1",
+                      "relation": "left",
+                      "targetUid": "imw199x6s3rdhiy",
+                      "x": 0.32,
+                      "y": 0.45,
+                      "gap": 0.04,
+                      "rotation": 0
+                    },
+                    {
+                      "uid": "imw199x6s3bydwz",
+                      "relation": "canvas",
+                      "x": 0.8,
+                      "y": 0.25,
+                      "gap": 0,
+                      "rotation": 0
+                    }
+                  ]
+                },
+                {
+                  "principle": "Сбалансированное расположение с фоновым акцентом справа.",
+                  "placements": [
+                    {
+                      "uid": "imw199x6s3rdhiy",
+                      "relation": "canvas",
+                      "x": 0.5,
+                      "y": 0.52,
+                      "gap": 0,
+                      "rotation": 0
+                    },
+                    {
+                      "uid": "imw199x6stmvlz1",
+                      "relation": "left",
+                      "targetUid": "imw199x6s3rdhiy",
+                      "x": 0.3,
+                      "y": 0.42,
+                      "gap": 0.05,
+                      "rotation": 0
+                    },
+                    {
+                      "uid": "imw199x6s3bydwz",
+                      "relation": "canvas",
+                      "x": 0.78,
+                      "y": 0.28,
+                      "gap": 0,
+                      "rotation": 0
+                    }
+                  ]
+                },
+                {
+                  "principle": "Диагональное построение учебной группы.",
+                  "placements": [
+                    {
+                      "uid": "imw199x6s3rdhiy",
+                      "relation": "canvas",
+                      "x": 0.55,
+                      "y": 0.58,
+                      "gap": 0,
+                      "rotation": 0
+                    },
+                    {
+                      "uid": "imw199x6stmvlz1",
+                      "relation": "left",
+                      "targetUid": "imw199x6s3rdhiy",
+                      "x": 0.35,
+                      "y": 0.48,
+                      "gap": 0.04,
+                      "rotation": 0
+                    },
+                    {
+                      "uid": "imw199x6s3bydwz",
+                      "relation": "canvas",
+                      "x": 0.82,
+                      "y": 0.22,
+                      "gap": 0,
+                      "rotation": 0
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "format": "landscape",
+              "views": [
+                {
+                  "principle": "Широкий формат с центрированной главной парой и фоном.",
+                  "placements": [
+                    {
+                      "uid": "imw199x6s3rdhiy",
+                      "relation": "canvas",
+                      "x": 0.52,
+                      "y": 0.55,
+                      "gap": 0,
+                      "rotation": 0
+                    },
+                    {
+                      "uid": "imw199x6stmvlz1",
+                      "relation": "left",
+                      "targetUid": "imw199x6s3rdhiy",
+                      "x": 0.34,
+                      "y": 0.45,
+                      "gap": 0.04,
+                      "rotation": 0
+                    },
+                    {
+                      "uid": "imw199x6s3bydwz",
+                      "relation": "canvas",
+                      "x": 0.85,
+                      "y": 0.25,
+                      "gap": 0,
+                      "rotation": 0
+                    }
+                  ]
+                },
+                {
+                  "principle": "Просторное горизонтальное размещение элементов.",
+                  "placements": [
+                    {
+                      "uid": "imw199x6s3rdhiy",
+                      "relation": "canvas",
+                      "x": 0.5,
+                      "y": 0.53,
+                      "gap": 0,
+                      "rotation": 0
+                    },
+                    {
+                      "uid": "imw199x6stmvlz1",
+                      "relation": "left",
+                      "targetUid": "imw199x6s3rdhiy",
+                      "x": 0.32,
+                      "y": 0.43,
+                      "gap": 0.05,
+                      "rotation": 0
+                    },
+                    {
+                      "uid": "imw199x6s3bydwz",
+                      "relation": "canvas",
+                      "x": 0.83,
+                      "y": 0.28,
+                      "gap": 0,
+                      "rotation": 0
+                    }
+                  ]
+                },
+                {
+                  "principle": "Диагональная композиция для ландшафтного экрана.",
+                  "placements": [
+                    {
+                      "uid": "imw199x6s3rdhiy",
+                      "relation": "canvas",
+                      "x": 0.54,
+                      "y": 0.57,
+                      "gap": 0,
+                      "rotation": 0
+                    },
+                    {
+                      "uid": "imw199x6stmvlz1",
+                      "relation": "left",
+                      "targetUid": "imw199x6s3rdhiy",
+                      "x": 0.36,
+                      "y": 0.47,
+                      "gap": 0.04,
+                      "rotation": 0
+                    },
+                    {
+                      "uid": "imw199x6s3bydwz",
+                      "relation": "canvas",
+                      "x": 0.86,
+                      "y": 0.22,
+                      "gap": 0,
+                      "rotation": 0
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "format": "portrait",
+              "views": [
+                {
+                  "principle": "Вертикальная компоновка с компактным размещением в центре.",
+                  "placements": [
+                    {
+                      "uid": "imw199x6s3rdhiy",
+                      "relation": "canvas",
+                      "x": 0.5,
+                      "y": 0.55,
+                      "gap": 0,
+                      "rotation": 0
+                    },
+                    {
+                      "uid": "imw199x6stmvlz1",
+                      "relation": "left",
+                      "targetUid": "imw199x6s3rdhiy",
+                      "x": 0.3,
+                      "y": 0.45,
+                      "gap": 0.04,
+                      "rotation": 0
+                    },
+                    {
+                      "uid": "imw199x6s3bydwz",
+                      "relation": "canvas",
+                      "x": 0.75,
+                      "y": 0.22,
+                      "gap": 0,
+                      "rotation": 0
+                    }
+                  ]
+                },
+                {
+                  "principle": "Сбалансированный вертикальный ритм.",
+                  "placements": [
+                    {
+                      "uid": "imw199x6s3rdhiy",
+                      "relation": "canvas",
+                      "x": 0.5,
+                      "y": 0.53,
+                      "gap": 0,
+                      "rotation": 0
+                    },
+                    {
+                      "uid": "imw199x6stmvlz1",
+                      "relation": "left",
+                      "targetUid": "imw199x6s3rdhiy",
+                      "x": 0.3,
+                      "y": 0.43,
+                      "gap": 0.05,
+                      "rotation": 0
+                    },
+                    {
+                      "uid": "imw199x6s3bydwz",
+                      "relation": "canvas",
+                      "x": 0.73,
+                      "y": 0.25,
+                      "gap": 0,
+                      "rotation": 0
+                    }
+                  ]
+                },
+                {
+                  "principle": "Диагональное соотношение объектов в вертикальном формате.",
+                  "placements": [
+                    {
+                      "uid": "imw199x6s3rdhiy",
+                      "relation": "canvas",
+                      "x": 0.52,
+                      "y": 0.57,
+                      "gap": 0,
+                      "rotation": 0
+                    },
+                    {
+                      "uid": "imw199x6stmvlz1",
+                      "relation": "left",
+                      "targetUid": "imw199x6s3rdhiy",
+                      "x": 0.32,
+                      "y": 0.47,
+                      "gap": 0.04,
+                      "rotation": 0
+                    },
+                    {
+                      "uid": "imw199x6s3bydwz",
+                      "relation": "canvas",
+                      "x": 0.77,
+                      "y": 0.2,
+                      "gap": 0,
+                      "rotation": 0
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "executionNotes": [
+            "Положение «Настольная лампа» уточнено по границам кадра и реестру пересечений.",
+            "Положение «Открытая книга» уточнено по границам кадра и реестру пересечений."
+          ],
+          "width": 800,
+          "height": 1200,
+          "format": "portrait",
+          "size": "S",
+          "palette": "aqua",
+          "layout": "compact",
+          "background": "pattern",
+          "backgroundDesign": "auto",
+          "supporting": true,
+          "showSupporting": true,
+          "camera": null,
+          "composition": {
+            "index": 2,
+            "options": [
+              {
+                "strategy": "balanced",
+                "title": "Сбалансированное освещение",
+                "principle": "Книга и лампа образуют устойчивую учебную пару по центру кадра.",
+                "placement": "on-surface"
+              },
+              {
+                "strategy": "spacious",
+                "title": "Просторный ритм",
+                "principle": "Элементы распределены с естественными отступами для ощущения свободы.",
+                "placement": "beside"
+              },
+              {
+                "strategy": "diagonal",
+                "title": "Диагональная динамика",
+                "principle": "Лампа и книга выстроены по диагонали для направления взгляда.",
+                "placement": "across"
+              }
+            ]
+          },
+          "layerRelations": [
+            {
+              "back": "imw199x6stmvlz1",
+              "front": "imw199x6s3rdhiy",
+              "reason": "Лампа располагается слева и позади книги"
+            },
+            {
+              "back": "imw199x6s3bydwz",
+              "front": "imw199x6s3rdhiy",
+              "reason": "Наушники на фоне поддерживают главную группу сзади"
+            }
+          ],
+          "recipe": "study",
+          "framing": "overview",
+          "focus": "book",
+          "query": "Учиться в своём ритме",
+          "scale": 1,
+          "items": [
+            {
+              "uid": "imw199x6s3bydwz",
+              "assetId": "headphones",
+              "role": "background",
+              "x": 633.8,
+              "y": 250.38,
+              "rotation": 0,
+              "flipX": false,
+              "flipY": false,
+              "zone": "top-right",
+              "crop": "fragment"
+            },
+            {
+              "uid": "imw199x6stmvlz1",
+              "assetId": "lamp",
+              "role": "main",
+              "x": 250.28971962616822,
+              "y": 620.5,
+              "rotation": 0,
+              "flipX": false,
+              "flipY": false,
+              "zone": "auto",
+              "crop": "whole"
+            },
+            {
+              "uid": "imw199x6s3rdhiy",
+              "assetId": "book",
+              "role": "main",
+              "x": 608,
+              "y": 912,
+              "rotation": 0,
+              "flipX": false,
+              "flipY": false,
+              "zone": "auto",
+              "crop": "whole"
+            }
+          ]
+        }
+      ]
+    }
+  }
+}

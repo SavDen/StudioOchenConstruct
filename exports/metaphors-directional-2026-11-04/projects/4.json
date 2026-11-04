@@ -1,0 +1,4096 @@
+{
+  "type": "composition-project",
+  "version": 2,
+  "scene": {
+    "version": 1,
+    "sizing": "native",
+    "environmentPrompt": "",
+    "environmentExplanation": [
+      "Главная пара открытой книги и ручки воплощает переход от идеи к письменной фиксации и действию.",
+      "Настольная лампа слева создает классический световой контекст для работы и прояснения мысли.",
+      "Компактная композиция объединяет элементы в единую рабочую зону с четкими опорными связями."
+    ],
+    "groups": [
+      {
+        "kind": "collection",
+        "members": [
+          "imw1rlf2nix2ghk",
+          "imw1rlf2nq4qy0g"
+        ],
+        "reason": "Книга в центре, ручка на странице, лампа слева сверху для создания светового акцента"
+      }
+    ],
+    "formatPlans": [],
+    "stagingPlans": [
+      {
+        "format": "square",
+        "views": [
+          {
+            "principle": "Книга в центре, ручка на странице, лампа слева сверху для создания светового акцента",
+            "placements": [
+              {
+                "uid": "imw1rlf2nix2ghk",
+                "relation": "canvas",
+                "x": 0.5,
+                "y": 0.52,
+                "gap": 0,
+                "rotation": 0
+              },
+              {
+                "uid": "imw1rlf2nq4qy0g",
+                "relation": "on",
+                "targetUid": "imw1rlf2nix2ghk",
+                "x": 0.61,
+                "y": 0.32,
+                "gap": 0,
+                "rotation": -65
+              },
+              {
+                "uid": "imw1rlf2nqh7afb",
+                "relation": "left",
+                "targetUid": "imw1rlf2nix2ghk",
+                "x": 0.25,
+                "y": 0.35,
+                "gap": 0.12,
+                "rotation": 0
+              }
+            ]
+          },
+          {
+            "principle": "Смещение группы ближе к правому краю, ручка лежит под наклоном на книге",
+            "placements": [
+              {
+                "uid": "imw1rlf2nix2ghk",
+                "relation": "canvas",
+                "x": 0.55,
+                "y": 0.55,
+                "gap": 0,
+                "rotation": 0
+              },
+              {
+                "uid": "imw1rlf2nq4qy0g",
+                "relation": "on",
+                "targetUid": "imw1rlf2nix2ghk",
+                "x": 0.28,
+                "y": 0.62,
+                "gap": 0,
+                "rotation": -45
+              },
+              {
+                "uid": "imw1rlf2nqh7afb",
+                "relation": "left",
+                "targetUid": "imw1rlf2nix2ghk",
+                "x": 0.2,
+                "y": 0.38,
+                "gap": 0.15,
+                "rotation": 0
+              }
+            ]
+          },
+          {
+            "principle": "Плотная компоновка с акцентом на вертикальную ось и верхнее освещение",
+            "placements": [
+              {
+                "uid": "imw1rlf2nix2ghk",
+                "relation": "canvas",
+                "x": 0.48,
+                "y": 0.5,
+                "gap": 0,
+                "rotation": 0
+              },
+              {
+                "uid": "imw1rlf2nq4qy0g",
+                "relation": "on",
+                "targetUid": "imw1rlf2nix2ghk",
+                "x": 0.58,
+                "y": 0.37,
+                "gap": 0,
+                "rotation": -60
+              },
+              {
+                "uid": "imw1rlf2nqh7afb",
+                "relation": "left",
+                "targetUid": "imw1rlf2nix2ghk",
+                "x": 0.22,
+                "y": 0.32,
+                "gap": 0.1,
+                "rotation": 0
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "format": "landscape",
+        "views": [
+          {
+            "principle": "Горизонтальное распределение с лампой слева и центральной книгой",
+            "placements": [
+              {
+                "uid": "imw1rlf2nix2ghk",
+                "relation": "canvas",
+                "x": 0.52,
+                "y": 0.54,
+                "gap": 0,
+                "rotation": 0
+              },
+              {
+                "uid": "imw1rlf2nq4qy0g",
+                "relation": "on",
+                "targetUid": "imw1rlf2nix2ghk",
+                "x": 0.61,
+                "y": 0.32,
+                "gap": 0,
+                "rotation": -65
+              },
+              {
+                "uid": "imw1rlf2nqh7afb",
+                "relation": "left",
+                "targetUid": "imw1rlf2nix2ghk",
+                "x": 0.28,
+                "y": 0.36,
+                "gap": 0.12,
+                "rotation": 0
+              }
+            ]
+          },
+          {
+            "principle": "Смещение всей композиции вправо для сохранения воздуха слева",
+            "placements": [
+              {
+                "uid": "imw1rlf2nix2ghk",
+                "relation": "canvas",
+                "x": 0.58,
+                "y": 0.56,
+                "gap": 0,
+                "rotation": 0
+              },
+              {
+                "uid": "imw1rlf2nq4qy0g",
+                "relation": "on",
+                "targetUid": "imw1rlf2nix2ghk",
+                "x": 0.28,
+                "y": 0.62,
+                "gap": 0,
+                "rotation": -50
+              },
+              {
+                "uid": "imw1rlf2nqh7afb",
+                "relation": "left",
+                "targetUid": "imw1rlf2nix2ghk",
+                "x": 0.32,
+                "y": 0.38,
+                "gap": 0.15,
+                "rotation": 0
+              }
+            ]
+          },
+          {
+            "principle": "Сбалансированное размещение элементов по диагонали холста",
+            "placements": [
+              {
+                "uid": "imw1rlf2nix2ghk",
+                "relation": "canvas",
+                "x": 0.5,
+                "y": 0.5,
+                "gap": 0,
+                "rotation": 0
+              },
+              {
+                "uid": "imw1rlf2nq4qy0g",
+                "relation": "on",
+                "targetUid": "imw1rlf2nix2ghk",
+                "x": 0.58,
+                "y": 0.37,
+                "gap": 0,
+                "rotation": -60
+              },
+              {
+                "uid": "imw1rlf2nqh7afb",
+                "relation": "left",
+                "targetUid": "imw1rlf2nix2ghk",
+                "x": 0.25,
+                "y": 0.32,
+                "gap": 0.1,
+                "rotation": 0
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "format": "portrait",
+        "views": [
+          {
+            "principle": "Вертикальная ориентация с акцентом на центральный блок книги",
+            "placements": [
+              {
+                "uid": "imw1rlf2nix2ghk",
+                "relation": "canvas",
+                "x": 0.5,
+                "y": 0.52,
+                "gap": 0,
+                "rotation": 0
+              },
+              {
+                "uid": "imw1rlf2nq4qy0g",
+                "relation": "on",
+                "targetUid": "imw1rlf2nix2ghk",
+                "x": 0.61,
+                "y": 0.32,
+                "gap": 0,
+                "rotation": -65
+              },
+              {
+                "uid": "imw1rlf2nqh7afb",
+                "relation": "left",
+                "targetUid": "imw1rlf2nix2ghk",
+                "x": 0.25,
+                "y": 0.34,
+                "gap": 0.12,
+                "rotation": 0
+              }
+            ]
+          },
+          {
+            "principle": "Компактная вертикальная стопка с небольшим смещением влево",
+            "placements": [
+              {
+                "uid": "imw1rlf2nix2ghk",
+                "relation": "canvas",
+                "x": 0.48,
+                "y": 0.55,
+                "gap": 0,
+                "rotation": 0
+              },
+              {
+                "uid": "imw1rlf2nq4qy0g",
+                "relation": "on",
+                "targetUid": "imw1rlf2nix2ghk",
+                "x": 0.28,
+                "y": 0.62,
+                "gap": 0,
+                "rotation": -45
+              },
+              {
+                "uid": "imw1rlf2nqh7afb",
+                "relation": "left",
+                "targetUid": "imw1rlf2nix2ghk",
+                "x": 0.22,
+                "y": 0.36,
+                "gap": 0.14,
+                "rotation": 0
+              }
+            ]
+          },
+          {
+            "principle": "Динамичное расположение элементов с выраженной верхней зоной",
+            "placements": [
+              {
+                "uid": "imw1rlf2nix2ghk",
+                "relation": "canvas",
+                "x": 0.52,
+                "y": 0.48,
+                "gap": 0,
+                "rotation": 0
+              },
+              {
+                "uid": "imw1rlf2nq4qy0g",
+                "relation": "on",
+                "targetUid": "imw1rlf2nix2ghk",
+                "x": 0.58,
+                "y": 0.37,
+                "gap": 0,
+                "rotation": -60
+              },
+              {
+                "uid": "imw1rlf2nqh7afb",
+                "relation": "left",
+                "targetUid": "imw1rlf2nix2ghk",
+                "x": 0.26,
+                "y": 0.3,
+                "gap": 0.1,
+                "rotation": 0
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "width": 1000,
+    "height": 1000,
+    "format": "square",
+    "size": "S",
+    "palette": "aqua",
+    "layout": "compact",
+    "background": "pattern",
+    "backgroundDesign": "auto",
+    "supporting": true,
+    "showSupporting": true,
+    "camera": null,
+    "composition": {
+      "index": 0,
+      "options": [
+        {
+          "strategy": "balanced",
+          "title": "На опоре",
+          "principle": "Книга в центре, ручка на странице, лампа слева сверху для создания светового акцента",
+          "placement": "on-surface"
+        },
+        {
+          "strategy": "spacious",
+          "title": "Рядом",
+          "principle": "Смещение группы ближе к правому краю, ручка лежит под наклоном на книге",
+          "placement": "beside"
+        },
+        {
+          "strategy": "diagonal",
+          "title": "Другой ракурс группы",
+          "principle": "Плотная компоновка с акцентом на вертикальную ось и верхнее освещение",
+          "placement": "across"
+        }
+      ]
+    },
+    "layerRelations": [
+      {
+        "back": "imw1rlf2nix2ghk",
+        "front": "imw1rlf2nq4qy0g",
+        "reason": "Предмет лежит на допустимой опоре."
+      },
+      {
+        "back": "imw1rlf2nqh7afb",
+        "front": "imw1rlf2nix2ghk",
+        "reason": "Фоновый компаньон находится позади главной группы."
+      }
+    ],
+    "recipe": "auto",
+    "framing": "overview",
+    "focus": "book",
+    "query": "Превратить идеи в действие",
+    "scale": 1,
+    "items": [
+      {
+        "uid": "imw1rlf2nqh7afb",
+        "assetId": "lamp",
+        "role": "background",
+        "x": -185.62706337616822,
+        "y": 406.5,
+        "rotation": 0,
+        "flipX": false,
+        "flipY": false,
+        "zone": "top-left",
+        "crop": "fragment"
+      },
+      {
+        "uid": "imw1rlf2nix2ghk",
+        "assetId": "book",
+        "role": "main",
+        "x": 521.69,
+        "y": 544.45,
+        "rotation": 0,
+        "flipX": false,
+        "flipY": false,
+        "zone": "auto",
+        "crop": "whole"
+      },
+      {
+        "uid": "imw1rlf2nq4qy0g",
+        "assetId": "pen",
+        "role": "main",
+        "x": 601.22,
+        "y": 456.43000000000006,
+        "rotation": -65,
+        "flipX": false,
+        "flipY": false,
+        "supportUid": "imw1rlf2nix2ghk",
+        "zone": "auto",
+        "crop": "whole"
+      }
+    ]
+  },
+  "memory": {
+    "version": 2,
+    "format": "square",
+    "index": 0,
+    "formats": {
+      "square": [
+        {
+          "version": 1,
+          "sizing": "native",
+          "environmentPrompt": "",
+          "environmentExplanation": [
+            "Главная пара открытой книги и ручки воплощает переход от идеи к письменной фиксации и действию.",
+            "Настольная лампа слева создает классический световой контекст для работы и прояснения мысли.",
+            "Компактная композиция объединяет элементы в единую рабочую зону с четкими опорными связями."
+          ],
+          "groups": [
+            {
+              "kind": "collection",
+              "members": [
+                "imw1rlf2nix2ghk",
+                "imw1rlf2nq4qy0g"
+              ],
+              "reason": "Книга в центре, ручка на странице, лампа слева сверху для создания светового акцента"
+            }
+          ],
+          "formatPlans": [],
+          "stagingPlans": [
+            {
+              "format": "square",
+              "views": [
+                {
+                  "principle": "Книга в центре, ручка на странице, лампа слева сверху для создания светового акцента",
+                  "placements": [
+                    {
+                      "uid": "imw1rlf2nix2ghk",
+                      "relation": "canvas",
+                      "x": 0.5,
+                      "y": 0.52,
+                      "gap": 0,
+                      "rotation": 0
+                    },
+                    {
+                      "uid": "imw1rlf2nq4qy0g",
+                      "relation": "on",
+                      "targetUid": "imw1rlf2nix2ghk",
+                      "x": 0.61,
+                      "y": 0.32,
+                      "gap": 0,
+                      "rotation": -65
+                    },
+                    {
+                      "uid": "imw1rlf2nqh7afb",
+                      "relation": "left",
+                      "targetUid": "imw1rlf2nix2ghk",
+                      "x": 0.25,
+                      "y": 0.35,
+                      "gap": 0.12,
+                      "rotation": 0
+                    }
+                  ]
+                },
+                {
+                  "principle": "Смещение группы ближе к правому краю, ручка лежит под наклоном на книге",
+                  "placements": [
+                    {
+                      "uid": "imw1rlf2nix2ghk",
+                      "relation": "canvas",
+                      "x": 0.55,
+                      "y": 0.55,
+                      "gap": 0,
+                      "rotation": 0
+                    },
+                    {
+                      "uid": "imw1rlf2nq4qy0g",
+                      "relation": "on",
+                      "targetUid": "imw1rlf2nix2ghk",
+                      "x": 0.28,
+                      "y": 0.62,
+                      "gap": 0,
+                      "rotation": -45
+                    },
+                    {
+                      "uid": "imw1rlf2nqh7afb",
+                      "relation": "left",
+                      "targetUid": "imw1rlf2nix2ghk",
+                      "x": 0.2,
+                      "y": 0.38,
+                      "gap": 0.15,
+                      "rotation": 0
+                    }
+                  ]
+                },
+                {
+                  "principle": "Плотная компоновка с акцентом на вертикальную ось и верхнее освещение",
+                  "placements": [
+                    {
+                      "uid": "imw1rlf2nix2ghk",
+                      "relation": "canvas",
+                      "x": 0.48,
+                      "y": 0.5,
+                      "gap": 0,
+                      "rotation": 0
+                    },
+                    {
+                      "uid": "imw1rlf2nq4qy0g",
+                      "relation": "on",
+                      "targetUid": "imw1rlf2nix2ghk",
+                      "x": 0.58,
+                      "y": 0.37,
+                      "gap": 0,
+                      "rotation": -60
+                    },
+                    {
+                      "uid": "imw1rlf2nqh7afb",
+                      "relation": "left",
+                      "targetUid": "imw1rlf2nix2ghk",
+                      "x": 0.22,
+                      "y": 0.32,
+                      "gap": 0.1,
+                      "rotation": 0
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "format": "landscape",
+              "views": [
+                {
+                  "principle": "Горизонтальное распределение с лампой слева и центральной книгой",
+                  "placements": [
+                    {
+                      "uid": "imw1rlf2nix2ghk",
+                      "relation": "canvas",
+                      "x": 0.52,
+                      "y": 0.54,
+                      "gap": 0,
+                      "rotation": 0
+                    },
+                    {
+                      "uid": "imw1rlf2nq4qy0g",
+                      "relation": "on",
+                      "targetUid": "imw1rlf2nix2ghk",
+                      "x": 0.61,
+                      "y": 0.32,
+                      "gap": 0,
+                      "rotation": -65
+                    },
+                    {
+                      "uid": "imw1rlf2nqh7afb",
+                      "relation": "left",
+                      "targetUid": "imw1rlf2nix2ghk",
+                      "x": 0.28,
+                      "y": 0.36,
+                      "gap": 0.12,
+                      "rotation": 0
+                    }
+                  ]
+                },
+                {
+                  "principle": "Смещение всей композиции вправо для сохранения воздуха слева",
+                  "placements": [
+                    {
+                      "uid": "imw1rlf2nix2ghk",
+                      "relation": "canvas",
+                      "x": 0.58,
+                      "y": 0.56,
+                      "gap": 0,
+                      "rotation": 0
+                    },
+                    {
+                      "uid": "imw1rlf2nq4qy0g",
+                      "relation": "on",
+                      "targetUid": "imw1rlf2nix2ghk",
+                      "x": 0.28,
+                      "y": 0.62,
+                      "gap": 0,
+                      "rotation": -50
+                    },
+                    {
+                      "uid": "imw1rlf2nqh7afb",
+                      "relation": "left",
+                      "targetUid": "imw1rlf2nix2ghk",
+                      "x": 0.32,
+                      "y": 0.38,
+                      "gap": 0.15,
+                      "rotation": 0
+                    }
+                  ]
+                },
+                {
+                  "principle": "Сбалансированное размещение элементов по диагонали холста",
+                  "placements": [
+                    {
+                      "uid": "imw1rlf2nix2ghk",
+                      "relation": "canvas",
+                      "x": 0.5,
+                      "y": 0.5,
+                      "gap": 0,
+                      "rotation": 0
+                    },
+                    {
+                      "uid": "imw1rlf2nq4qy0g",
+                      "relation": "on",
+                      "targetUid": "imw1rlf2nix2ghk",
+                      "x": 0.58,
+                      "y": 0.37,
+                      "gap": 0,
+                      "rotation": -60
+                    },
+                    {
+                      "uid": "imw1rlf2nqh7afb",
+                      "relation": "left",
+                      "targetUid": "imw1rlf2nix2ghk",
+                      "x": 0.25,
+                      "y": 0.32,
+                      "gap": 0.1,
+                      "rotation": 0
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "format": "portrait",
+              "views": [
+                {
+                  "principle": "Вертикальная ориентация с акцентом на центральный блок книги",
+                  "placements": [
+                    {
+                      "uid": "imw1rlf2nix2ghk",
+                      "relation": "canvas",
+                      "x": 0.5,
+                      "y": 0.52,
+                      "gap": 0,
+                      "rotation": 0
+                    },
+                    {
+                      "uid": "imw1rlf2nq4qy0g",
+                      "relation": "on",
+                      "targetUid": "imw1rlf2nix2ghk",
+                      "x": 0.61,
+                      "y": 0.32,
+                      "gap": 0,
+                      "rotation": -65
+                    },
+                    {
+                      "uid": "imw1rlf2nqh7afb",
+                      "relation": "left",
+                      "targetUid": "imw1rlf2nix2ghk",
+                      "x": 0.25,
+                      "y": 0.34,
+                      "gap": 0.12,
+                      "rotation": 0
+                    }
+                  ]
+                },
+                {
+                  "principle": "Компактная вертикальная стопка с небольшим смещением влево",
+                  "placements": [
+                    {
+                      "uid": "imw1rlf2nix2ghk",
+                      "relation": "canvas",
+                      "x": 0.48,
+                      "y": 0.55,
+                      "gap": 0,
+                      "rotation": 0
+                    },
+                    {
+                      "uid": "imw1rlf2nq4qy0g",
+                      "relation": "on",
+                      "targetUid": "imw1rlf2nix2ghk",
+                      "x": 0.28,
+                      "y": 0.62,
+                      "gap": 0,
+                      "rotation": -45
+                    },
+                    {
+                      "uid": "imw1rlf2nqh7afb",
+                      "relation": "left",
+                      "targetUid": "imw1rlf2nix2ghk",
+                      "x": 0.22,
+                      "y": 0.36,
+                      "gap": 0.14,
+                      "rotation": 0
+                    }
+                  ]
+                },
+                {
+                  "principle": "Динамичное расположение элементов с выраженной верхней зоной",
+                  "placements": [
+                    {
+                      "uid": "imw1rlf2nix2ghk",
+                      "relation": "canvas",
+                      "x": 0.52,
+                      "y": 0.48,
+                      "gap": 0,
+                      "rotation": 0
+                    },
+                    {
+                      "uid": "imw1rlf2nq4qy0g",
+                      "relation": "on",
+                      "targetUid": "imw1rlf2nix2ghk",
+                      "x": 0.58,
+                      "y": 0.37,
+                      "gap": 0,
+                      "rotation": -60
+                    },
+                    {
+                      "uid": "imw1rlf2nqh7afb",
+                      "relation": "left",
+                      "targetUid": "imw1rlf2nix2ghk",
+                      "x": 0.26,
+                      "y": 0.3,
+                      "gap": 0.1,
+                      "rotation": 0
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "width": 1000,
+          "height": 1000,
+          "format": "square",
+          "size": "S",
+          "palette": "aqua",
+          "layout": "compact",
+          "background": "pattern",
+          "backgroundDesign": "auto",
+          "supporting": true,
+          "showSupporting": true,
+          "camera": null,
+          "composition": {
+            "index": 0,
+            "options": [
+              {
+                "strategy": "balanced",
+                "title": "На опоре",
+                "principle": "Книга в центре, ручка на странице, лампа слева сверху для создания светового акцента",
+                "placement": "on-surface"
+              },
+              {
+                "strategy": "spacious",
+                "title": "Рядом",
+                "principle": "Смещение группы ближе к правому краю, ручка лежит под наклоном на книге",
+                "placement": "beside"
+              },
+              {
+                "strategy": "diagonal",
+                "title": "Другой ракурс группы",
+                "principle": "Плотная компоновка с акцентом на вертикальную ось и верхнее освещение",
+                "placement": "across"
+              }
+            ]
+          },
+          "layerRelations": [
+            {
+              "back": "imw1rlf2nix2ghk",
+              "front": "imw1rlf2nq4qy0g",
+              "reason": "Предмет лежит на допустимой опоре."
+            },
+            {
+              "back": "imw1rlf2nqh7afb",
+              "front": "imw1rlf2nix2ghk",
+              "reason": "Фоновый компаньон находится позади главной группы."
+            }
+          ],
+          "recipe": "auto",
+          "framing": "overview",
+          "focus": "book",
+          "query": "Превратить идеи в действие",
+          "scale": 1,
+          "items": [
+            {
+              "uid": "imw1rlf2nqh7afb",
+              "assetId": "lamp",
+              "role": "background",
+              "x": -185.62706337616822,
+              "y": 406.5,
+              "rotation": 0,
+              "flipX": false,
+              "flipY": false,
+              "zone": "top-left",
+              "crop": "fragment"
+            },
+            {
+              "uid": "imw1rlf2nix2ghk",
+              "assetId": "book",
+              "role": "main",
+              "x": 521.69,
+              "y": 544.45,
+              "rotation": 0,
+              "flipX": false,
+              "flipY": false,
+              "zone": "auto",
+              "crop": "whole"
+            },
+            {
+              "uid": "imw1rlf2nq4qy0g",
+              "assetId": "pen",
+              "role": "main",
+              "x": 601.22,
+              "y": 456.43000000000006,
+              "rotation": -65,
+              "flipX": false,
+              "flipY": false,
+              "supportUid": "imw1rlf2nix2ghk",
+              "zone": "auto",
+              "crop": "whole"
+            }
+          ]
+        },
+        {
+          "version": 1,
+          "sizing": "native",
+          "environmentPrompt": "",
+          "environmentExplanation": [
+            "Главная пара открытой книги и ручки воплощает переход от идеи к письменной фиксации и действию.",
+            "Настольная лампа слева создает классический световой контекст для работы и прояснения мысли.",
+            "Компактная композиция объединяет элементы в единую рабочую зону с четкими опорными связями."
+          ],
+          "groups": [
+            {
+              "kind": "collection",
+              "members": [
+                "imw1rlf2nix2ghk",
+                "imw1rlf2nq4qy0g"
+              ],
+              "reason": "Смещение группы ближе к правому краю, ручка лежит под наклоном на книге"
+            }
+          ],
+          "formatPlans": [],
+          "stagingPlans": [
+            {
+              "format": "square",
+              "views": [
+                {
+                  "principle": "Книга в центре, ручка на странице, лампа слева сверху для создания светового акцента",
+                  "placements": [
+                    {
+                      "uid": "imw1rlf2nix2ghk",
+                      "relation": "canvas",
+                      "x": 0.5,
+                      "y": 0.52,
+                      "gap": 0,
+                      "rotation": 0
+                    },
+                    {
+                      "uid": "imw1rlf2nq4qy0g",
+                      "relation": "on",
+                      "targetUid": "imw1rlf2nix2ghk",
+                      "x": 0.61,
+                      "y": 0.32,
+                      "gap": 0,
+                      "rotation": -65
+                    },
+                    {
+                      "uid": "imw1rlf2nqh7afb",
+                      "relation": "left",
+                      "targetUid": "imw1rlf2nix2ghk",
+                      "x": 0.25,
+                      "y": 0.35,
+                      "gap": 0.12,
+                      "rotation": 0
+                    }
+                  ]
+                },
+                {
+                  "principle": "Смещение группы ближе к правому краю, ручка лежит под наклоном на книге",
+                  "placements": [
+                    {
+                      "uid": "imw1rlf2nix2ghk",
+                      "relation": "canvas",
+                      "x": 0.55,
+                      "y": 0.55,
+                      "gap": 0,
+                      "rotation": 0
+                    },
+                    {
+                      "uid": "imw1rlf2nq4qy0g",
+                      "relation": "on",
+                      "targetUid": "imw1rlf2nix2ghk",
+                      "x": 0.28,
+                      "y": 0.62,
+                      "gap": 0,
+                      "rotation": -45
+                    },
+                    {
+                      "uid": "imw1rlf2nqh7afb",
+                      "relation": "left",
+                      "targetUid": "imw1rlf2nix2ghk",
+                      "x": 0.2,
+                      "y": 0.38,
+                      "gap": 0.15,
+                      "rotation": 0
+                    }
+                  ]
+                },
+                {
+                  "principle": "Плотная компоновка с акцентом на вертикальную ось и верхнее освещение",
+                  "placements": [
+                    {
+                      "uid": "imw1rlf2nix2ghk",
+                      "relation": "canvas",
+                      "x": 0.48,
+                      "y": 0.5,
+                      "gap": 0,
+                      "rotation": 0
+                    },
+                    {
+                      "uid": "imw1rlf2nq4qy0g",
+                      "relation": "on",
+                      "targetUid": "imw1rlf2nix2ghk",
+                      "x": 0.58,
+                      "y": 0.37,
+                      "gap": 0,
+                      "rotation": -60
+                    },
+                    {
+                      "uid": "imw1rlf2nqh7afb",
+                      "relation": "left",
+                      "targetUid": "imw1rlf2nix2ghk",
+                      "x": 0.22,
+                      "y": 0.32,
+                      "gap": 0.1,
+                      "rotation": 0
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "format": "landscape",
+              "views": [
+                {
+                  "principle": "Горизонтальное распределение с лампой слева и центральной книгой",
+                  "placements": [
+                    {
+                      "uid": "imw1rlf2nix2ghk",
+                      "relation": "canvas",
+                      "x": 0.52,
+                      "y": 0.54,
+                      "gap": 0,
+                      "rotation": 0
+                    },
+                    {
+                      "uid": "imw1rlf2nq4qy0g",
+                      "relation": "on",
+                      "targetUid": "imw1rlf2nix2ghk",
+                      "x": 0.61,
+                      "y": 0.32,
+                      "gap": 0,
+                      "rotation": -65
+                    },
+                    {
+                      "uid": "imw1rlf2nqh7afb",
+                      "relation": "left",
+                      "targetUid": "imw1rlf2nix2ghk",
+                      "x": 0.28,
+                      "y": 0.36,
+                      "gap": 0.12,
+                      "rotation": 0
+                    }
+                  ]
+                },
+                {
+                  "principle": "Смещение всей композиции вправо для сохранения воздуха слева",
+                  "placements": [
+                    {
+                      "uid": "imw1rlf2nix2ghk",
+                      "relation": "canvas",
+                      "x": 0.58,
+                      "y": 0.56,
+                      "gap": 0,
+                      "rotation": 0
+                    },
+                    {
+                      "uid": "imw1rlf2nq4qy0g",
+                      "relation": "on",
+                      "targetUid": "imw1rlf2nix2ghk",
+                      "x": 0.28,
+                      "y": 0.62,
+                      "gap": 0,
+                      "rotation": -50
+                    },
+                    {
+                      "uid": "imw1rlf2nqh7afb",
+                      "relation": "left",
+                      "targetUid": "imw1rlf2nix2ghk",
+                      "x": 0.32,
+                      "y": 0.38,
+                      "gap": 0.15,
+                      "rotation": 0
+                    }
+                  ]
+                },
+                {
+                  "principle": "Сбалансированное размещение элементов по диагонали холста",
+                  "placements": [
+                    {
+                      "uid": "imw1rlf2nix2ghk",
+                      "relation": "canvas",
+                      "x": 0.5,
+                      "y": 0.5,
+                      "gap": 0,
+                      "rotation": 0
+                    },
+                    {
+                      "uid": "imw1rlf2nq4qy0g",
+                      "relation": "on",
+                      "targetUid": "imw1rlf2nix2ghk",
+                      "x": 0.58,
+                      "y": 0.37,
+                      "gap": 0,
+                      "rotation": -60
+                    },
+                    {
+                      "uid": "imw1rlf2nqh7afb",
+                      "relation": "left",
+                      "targetUid": "imw1rlf2nix2ghk",
+                      "x": 0.25,
+                      "y": 0.32,
+                      "gap": 0.1,
+                      "rotation": 0
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "format": "portrait",
+              "views": [
+                {
+                  "principle": "Вертикальная ориентация с акцентом на центральный блок книги",
+                  "placements": [
+                    {
+                      "uid": "imw1rlf2nix2ghk",
+                      "relation": "canvas",
+                      "x": 0.5,
+                      "y": 0.52,
+                      "gap": 0,
+                      "rotation": 0
+                    },
+                    {
+                      "uid": "imw1rlf2nq4qy0g",
+                      "relation": "on",
+                      "targetUid": "imw1rlf2nix2ghk",
+                      "x": 0.61,
+                      "y": 0.32,
+                      "gap": 0,
+                      "rotation": -65
+                    },
+                    {
+                      "uid": "imw1rlf2nqh7afb",
+                      "relation": "left",
+                      "targetUid": "imw1rlf2nix2ghk",
+                      "x": 0.25,
+                      "y": 0.34,
+                      "gap": 0.12,
+                      "rotation": 0
+                    }
+                  ]
+                },
+                {
+                  "principle": "Компактная вертикальная стопка с небольшим смещением влево",
+                  "placements": [
+                    {
+                      "uid": "imw1rlf2nix2ghk",
+                      "relation": "canvas",
+                      "x": 0.48,
+                      "y": 0.55,
+                      "gap": 0,
+                      "rotation": 0
+                    },
+                    {
+                      "uid": "imw1rlf2nq4qy0g",
+                      "relation": "on",
+                      "targetUid": "imw1rlf2nix2ghk",
+                      "x": 0.28,
+                      "y": 0.62,
+                      "gap": 0,
+                      "rotation": -45
+                    },
+                    {
+                      "uid": "imw1rlf2nqh7afb",
+                      "relation": "left",
+                      "targetUid": "imw1rlf2nix2ghk",
+                      "x": 0.22,
+                      "y": 0.36,
+                      "gap": 0.14,
+                      "rotation": 0
+                    }
+                  ]
+                },
+                {
+                  "principle": "Динамичное расположение элементов с выраженной верхней зоной",
+                  "placements": [
+                    {
+                      "uid": "imw1rlf2nix2ghk",
+                      "relation": "canvas",
+                      "x": 0.52,
+                      "y": 0.48,
+                      "gap": 0,
+                      "rotation": 0
+                    },
+                    {
+                      "uid": "imw1rlf2nq4qy0g",
+                      "relation": "on",
+                      "targetUid": "imw1rlf2nix2ghk",
+                      "x": 0.58,
+                      "y": 0.37,
+                      "gap": 0,
+                      "rotation": -60
+                    },
+                    {
+                      "uid": "imw1rlf2nqh7afb",
+                      "relation": "left",
+                      "targetUid": "imw1rlf2nix2ghk",
+                      "x": 0.26,
+                      "y": 0.3,
+                      "gap": 0.1,
+                      "rotation": 0
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "width": 1000,
+          "height": 1000,
+          "format": "square",
+          "size": "S",
+          "palette": "aqua",
+          "layout": "compact",
+          "background": "pattern",
+          "backgroundDesign": "auto",
+          "supporting": true,
+          "showSupporting": true,
+          "camera": null,
+          "composition": {
+            "index": 1,
+            "options": [
+              {
+                "strategy": "balanced",
+                "title": "На опоре",
+                "principle": "Книга в центре, ручка на странице, лампа слева сверху для создания светового акцента",
+                "placement": "on-surface"
+              },
+              {
+                "strategy": "spacious",
+                "title": "Рядом",
+                "principle": "Смещение группы ближе к правому краю, ручка лежит под наклоном на книге",
+                "placement": "beside"
+              },
+              {
+                "strategy": "diagonal",
+                "title": "Другой ракурс группы",
+                "principle": "Плотная компоновка с акцентом на вертикальную ось и верхнее освещение",
+                "placement": "across"
+              }
+            ]
+          },
+          "layerRelations": [
+            {
+              "back": "imw1rlf2nix2ghk",
+              "front": "imw1rlf2nq4qy0g",
+              "reason": "Предмет лежит на допустимой опоре."
+            },
+            {
+              "back": "imw1rlf2nqh7afb",
+              "front": "imw1rlf2nix2ghk",
+              "reason": "Фоновый компаньон находится позади главной группы."
+            }
+          ],
+          "recipe": "auto",
+          "framing": "overview",
+          "focus": "book",
+          "query": "Превратить идеи в действие",
+          "scale": 1,
+          "items": [
+            {
+              "uid": "imw1rlf2nqh7afb",
+              "assetId": "lamp",
+              "role": "background",
+              "x": -165.62706337616822,
+              "y": 436.5,
+              "rotation": 0,
+              "flipX": false,
+              "flipY": false,
+              "zone": "top-left",
+              "crop": "fragment"
+            },
+            {
+              "uid": "imw1rlf2nix2ghk",
+              "assetId": "book",
+              "role": "main",
+              "x": 571.69,
+              "y": 574.45,
+              "rotation": 0,
+              "flipX": false,
+              "flipY": false,
+              "zone": "auto",
+              "crop": "whole"
+            },
+            {
+              "uid": "imw1rlf2nq4qy0g",
+              "assetId": "pen",
+              "role": "main",
+              "x": 412.6300000000001,
+              "y": 633.13,
+              "rotation": -45,
+              "flipX": false,
+              "flipY": false,
+              "supportUid": "imw1rlf2nix2ghk",
+              "zone": "auto",
+              "crop": "whole"
+            }
+          ]
+        },
+        {
+          "version": 1,
+          "sizing": "native",
+          "environmentPrompt": "",
+          "environmentExplanation": [
+            "Главная пара открытой книги и ручки воплощает переход от идеи к письменной фиксации и действию.",
+            "Настольная лампа слева создает классический световой контекст для работы и прояснения мысли.",
+            "Компактная композиция объединяет элементы в единую рабочую зону с четкими опорными связями."
+          ],
+          "groups": [
+            {
+              "kind": "collection",
+              "members": [
+                "imw1rlf2nix2ghk",
+                "imw1rlf2nq4qy0g"
+              ],
+              "reason": "Плотная компоновка с акцентом на вертикальную ось и верхнее освещение"
+            }
+          ],
+          "formatPlans": [],
+          "stagingPlans": [
+            {
+              "format": "square",
+              "views": [
+                {
+                  "principle": "Книга в центре, ручка на странице, лампа слева сверху для создания светового акцента",
+                  "placements": [
+                    {
+                      "uid": "imw1rlf2nix2ghk",
+                      "relation": "canvas",
+                      "x": 0.5,
+                      "y": 0.52,
+                      "gap": 0,
+                      "rotation": 0
+                    },
+                    {
+                      "uid": "imw1rlf2nq4qy0g",
+                      "relation": "on",
+                      "targetUid": "imw1rlf2nix2ghk",
+                      "x": 0.61,
+                      "y": 0.32,
+                      "gap": 0,
+                      "rotation": -65
+                    },
+                    {
+                      "uid": "imw1rlf2nqh7afb",
+                      "relation": "left",
+                      "targetUid": "imw1rlf2nix2ghk",
+                      "x": 0.25,
+                      "y": 0.35,
+                      "gap": 0.12,
+                      "rotation": 0
+                    }
+                  ]
+                },
+                {
+                  "principle": "Смещение группы ближе к правому краю, ручка лежит под наклоном на книге",
+                  "placements": [
+                    {
+                      "uid": "imw1rlf2nix2ghk",
+                      "relation": "canvas",
+                      "x": 0.55,
+                      "y": 0.55,
+                      "gap": 0,
+                      "rotation": 0
+                    },
+                    {
+                      "uid": "imw1rlf2nq4qy0g",
+                      "relation": "on",
+                      "targetUid": "imw1rlf2nix2ghk",
+                      "x": 0.28,
+                      "y": 0.62,
+                      "gap": 0,
+                      "rotation": -45
+                    },
+                    {
+                      "uid": "imw1rlf2nqh7afb",
+                      "relation": "left",
+                      "targetUid": "imw1rlf2nix2ghk",
+                      "x": 0.2,
+                      "y": 0.38,
+                      "gap": 0.15,
+                      "rotation": 0
+                    }
+                  ]
+                },
+                {
+                  "principle": "Плотная компоновка с акцентом на вертикальную ось и верхнее освещение",
+                  "placements": [
+                    {
+                      "uid": "imw1rlf2nix2ghk",
+                      "relation": "canvas",
+                      "x": 0.48,
+                      "y": 0.5,
+                      "gap": 0,
+                      "rotation": 0
+                    },
+                    {
+                      "uid": "imw1rlf2nq4qy0g",
+                      "relation": "on",
+                      "targetUid": "imw1rlf2nix2ghk",
+                      "x": 0.58,
+                      "y": 0.37,
+                      "gap": 0,
+                      "rotation": -60
+                    },
+                    {
+                      "uid": "imw1rlf2nqh7afb",
+                      "relation": "left",
+                      "targetUid": "imw1rlf2nix2ghk",
+                      "x": 0.22,
+                      "y": 0.32,
+                      "gap": 0.1,
+                      "rotation": 0
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "format": "landscape",
+              "views": [
+                {
+                  "principle": "Горизонтальное распределение с лампой слева и центральной книгой",
+                  "placements": [
+                    {
+                      "uid": "imw1rlf2nix2ghk",
+                      "relation": "canvas",
+                      "x": 0.52,
+                      "y": 0.54,
+                      "gap": 0,
+                      "rotation": 0
+                    },
+                    {
+                      "uid": "imw1rlf2nq4qy0g",
+                      "relation": "on",
+                      "targetUid": "imw1rlf2nix2ghk",
+                      "x": 0.61,
+                      "y": 0.32,
+                      "gap": 0,
+                      "rotation": -65
+                    },
+                    {
+                      "uid": "imw1rlf2nqh7afb",
+                      "relation": "left",
+                      "targetUid": "imw1rlf2nix2ghk",
+                      "x": 0.28,
+                      "y": 0.36,
+                      "gap": 0.12,
+                      "rotation": 0
+                    }
+                  ]
+                },
+                {
+                  "principle": "Смещение всей композиции вправо для сохранения воздуха слева",
+                  "placements": [
+                    {
+                      "uid": "imw1rlf2nix2ghk",
+                      "relation": "canvas",
+                      "x": 0.58,
+                      "y": 0.56,
+                      "gap": 0,
+                      "rotation": 0
+                    },
+                    {
+                      "uid": "imw1rlf2nq4qy0g",
+                      "relation": "on",
+                      "targetUid": "imw1rlf2nix2ghk",
+                      "x": 0.28,
+                      "y": 0.62,
+                      "gap": 0,
+                      "rotation": -50
+                    },
+                    {
+                      "uid": "imw1rlf2nqh7afb",
+                      "relation": "left",
+                      "targetUid": "imw1rlf2nix2ghk",
+                      "x": 0.32,
+                      "y": 0.38,
+                      "gap": 0.15,
+                      "rotation": 0
+                    }
+                  ]
+                },
+                {
+                  "principle": "Сбалансированное размещение элементов по диагонали холста",
+                  "placements": [
+                    {
+                      "uid": "imw1rlf2nix2ghk",
+                      "relation": "canvas",
+                      "x": 0.5,
+                      "y": 0.5,
+                      "gap": 0,
+                      "rotation": 0
+                    },
+                    {
+                      "uid": "imw1rlf2nq4qy0g",
+                      "relation": "on",
+                      "targetUid": "imw1rlf2nix2ghk",
+                      "x": 0.58,
+                      "y": 0.37,
+                      "gap": 0,
+                      "rotation": -60
+                    },
+                    {
+                      "uid": "imw1rlf2nqh7afb",
+                      "relation": "left",
+                      "targetUid": "imw1rlf2nix2ghk",
+                      "x": 0.25,
+                      "y": 0.32,
+                      "gap": 0.1,
+                      "rotation": 0
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "format": "portrait",
+              "views": [
+                {
+                  "principle": "Вертикальная ориентация с акцентом на центральный блок книги",
+                  "placements": [
+                    {
+                      "uid": "imw1rlf2nix2ghk",
+                      "relation": "canvas",
+                      "x": 0.5,
+                      "y": 0.52,
+                      "gap": 0,
+                      "rotation": 0
+                    },
+                    {
+                      "uid": "imw1rlf2nq4qy0g",
+                      "relation": "on",
+                      "targetUid": "imw1rlf2nix2ghk",
+                      "x": 0.61,
+                      "y": 0.32,
+                      "gap": 0,
+                      "rotation": -65
+                    },
+                    {
+                      "uid": "imw1rlf2nqh7afb",
+                      "relation": "left",
+                      "targetUid": "imw1rlf2nix2ghk",
+                      "x": 0.25,
+                      "y": 0.34,
+                      "gap": 0.12,
+                      "rotation": 0
+                    }
+                  ]
+                },
+                {
+                  "principle": "Компактная вертикальная стопка с небольшим смещением влево",
+                  "placements": [
+                    {
+                      "uid": "imw1rlf2nix2ghk",
+                      "relation": "canvas",
+                      "x": 0.48,
+                      "y": 0.55,
+                      "gap": 0,
+                      "rotation": 0
+                    },
+                    {
+                      "uid": "imw1rlf2nq4qy0g",
+                      "relation": "on",
+                      "targetUid": "imw1rlf2nix2ghk",
+                      "x": 0.28,
+                      "y": 0.62,
+                      "gap": 0,
+                      "rotation": -45
+                    },
+                    {
+                      "uid": "imw1rlf2nqh7afb",
+                      "relation": "left",
+                      "targetUid": "imw1rlf2nix2ghk",
+                      "x": 0.22,
+                      "y": 0.36,
+                      "gap": 0.14,
+                      "rotation": 0
+                    }
+                  ]
+                },
+                {
+                  "principle": "Динамичное расположение элементов с выраженной верхней зоной",
+                  "placements": [
+                    {
+                      "uid": "imw1rlf2nix2ghk",
+                      "relation": "canvas",
+                      "x": 0.52,
+                      "y": 0.48,
+                      "gap": 0,
+                      "rotation": 0
+                    },
+                    {
+                      "uid": "imw1rlf2nq4qy0g",
+                      "relation": "on",
+                      "targetUid": "imw1rlf2nix2ghk",
+                      "x": 0.58,
+                      "y": 0.37,
+                      "gap": 0,
+                      "rotation": -60
+                    },
+                    {
+                      "uid": "imw1rlf2nqh7afb",
+                      "relation": "left",
+                      "targetUid": "imw1rlf2nix2ghk",
+                      "x": 0.26,
+                      "y": 0.3,
+                      "gap": 0.1,
+                      "rotation": 0
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "width": 1000,
+          "height": 1000,
+          "format": "square",
+          "size": "S",
+          "palette": "aqua",
+          "layout": "compact",
+          "background": "pattern",
+          "backgroundDesign": "auto",
+          "supporting": true,
+          "showSupporting": true,
+          "camera": null,
+          "composition": {
+            "index": 2,
+            "options": [
+              {
+                "strategy": "balanced",
+                "title": "На опоре",
+                "principle": "Книга в центре, ручка на странице, лампа слева сверху для создания светового акцента",
+                "placement": "on-surface"
+              },
+              {
+                "strategy": "spacious",
+                "title": "Рядом",
+                "principle": "Смещение группы ближе к правому краю, ручка лежит под наклоном на книге",
+                "placement": "beside"
+              },
+              {
+                "strategy": "diagonal",
+                "title": "Другой ракурс группы",
+                "principle": "Плотная компоновка с акцентом на вертикальную ось и верхнее освещение",
+                "placement": "across"
+              }
+            ]
+          },
+          "layerRelations": [
+            {
+              "back": "imw1rlf2nix2ghk",
+              "front": "imw1rlf2nq4qy0g",
+              "reason": "Предмет лежит на допустимой опоре."
+            },
+            {
+              "back": "imw1rlf2nqh7afb",
+              "front": "imw1rlf2nix2ghk",
+              "reason": "Фоновый компаньон находится позади главной группы."
+            }
+          ],
+          "recipe": "auto",
+          "framing": "overview",
+          "focus": "book",
+          "query": "Превратить идеи в действие",
+          "scale": 1,
+          "items": [
+            {
+              "uid": "imw1rlf2nqh7afb",
+              "assetId": "lamp",
+              "role": "background",
+              "x": -185.62706337616828,
+              "y": 376.5,
+              "rotation": 0,
+              "flipX": false,
+              "flipY": false,
+              "zone": "top-left",
+              "crop": "fragment"
+            },
+            {
+              "uid": "imw1rlf2nix2ghk",
+              "assetId": "book",
+              "role": "main",
+              "x": 501.69,
+              "y": 524.45,
+              "rotation": 0,
+              "flipX": false,
+              "flipY": false,
+              "zone": "auto",
+              "crop": "whole"
+            },
+            {
+              "uid": "imw1rlf2nq4qy0g",
+              "assetId": "pen",
+              "role": "main",
+              "x": 559.53,
+              "y": 460.88000000000005,
+              "rotation": -60,
+              "flipX": false,
+              "flipY": false,
+              "supportUid": "imw1rlf2nix2ghk",
+              "zone": "auto",
+              "crop": "whole"
+            }
+          ]
+        }
+      ],
+      "landscape": [
+        {
+          "version": 1,
+          "sizing": "native",
+          "environmentPrompt": "",
+          "environmentExplanation": [
+            "Главная пара открытой книги и ручки воплощает переход от идеи к письменной фиксации и действию.",
+            "Настольная лампа слева создает классический световой контекст для работы и прояснения мысли.",
+            "Компактная композиция объединяет элементы в единую рабочую зону с четкими опорными связями."
+          ],
+          "groups": [
+            {
+              "kind": "collection",
+              "members": [
+                "imw1rlf2nix2ghk",
+                "imw1rlf2nq4qy0g"
+              ],
+              "reason": "Горизонтальное распределение с лампой слева и центральной книгой"
+            }
+          ],
+          "formatPlans": [],
+          "stagingPlans": [
+            {
+              "format": "square",
+              "views": [
+                {
+                  "principle": "Книга в центре, ручка на странице, лампа слева сверху для создания светового акцента",
+                  "placements": [
+                    {
+                      "uid": "imw1rlf2nix2ghk",
+                      "relation": "canvas",
+                      "x": 0.5,
+                      "y": 0.52,
+                      "gap": 0,
+                      "rotation": 0
+                    },
+                    {
+                      "uid": "imw1rlf2nq4qy0g",
+                      "relation": "on",
+                      "targetUid": "imw1rlf2nix2ghk",
+                      "x": 0.61,
+                      "y": 0.32,
+                      "gap": 0,
+                      "rotation": -65
+                    },
+                    {
+                      "uid": "imw1rlf2nqh7afb",
+                      "relation": "left",
+                      "targetUid": "imw1rlf2nix2ghk",
+                      "x": 0.25,
+                      "y": 0.35,
+                      "gap": 0.12,
+                      "rotation": 0
+                    }
+                  ]
+                },
+                {
+                  "principle": "Смещение группы ближе к правому краю, ручка лежит под наклоном на книге",
+                  "placements": [
+                    {
+                      "uid": "imw1rlf2nix2ghk",
+                      "relation": "canvas",
+                      "x": 0.55,
+                      "y": 0.55,
+                      "gap": 0,
+                      "rotation": 0
+                    },
+                    {
+                      "uid": "imw1rlf2nq4qy0g",
+                      "relation": "on",
+                      "targetUid": "imw1rlf2nix2ghk",
+                      "x": 0.28,
+                      "y": 0.62,
+                      "gap": 0,
+                      "rotation": -45
+                    },
+                    {
+                      "uid": "imw1rlf2nqh7afb",
+                      "relation": "left",
+                      "targetUid": "imw1rlf2nix2ghk",
+                      "x": 0.2,
+                      "y": 0.38,
+                      "gap": 0.15,
+                      "rotation": 0
+                    }
+                  ]
+                },
+                {
+                  "principle": "Плотная компоновка с акцентом на вертикальную ось и верхнее освещение",
+                  "placements": [
+                    {
+                      "uid": "imw1rlf2nix2ghk",
+                      "relation": "canvas",
+                      "x": 0.48,
+                      "y": 0.5,
+                      "gap": 0,
+                      "rotation": 0
+                    },
+                    {
+                      "uid": "imw1rlf2nq4qy0g",
+                      "relation": "on",
+                      "targetUid": "imw1rlf2nix2ghk",
+                      "x": 0.58,
+                      "y": 0.37,
+                      "gap": 0,
+                      "rotation": -60
+                    },
+                    {
+                      "uid": "imw1rlf2nqh7afb",
+                      "relation": "left",
+                      "targetUid": "imw1rlf2nix2ghk",
+                      "x": 0.22,
+                      "y": 0.32,
+                      "gap": 0.1,
+                      "rotation": 0
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "format": "landscape",
+              "views": [
+                {
+                  "principle": "Горизонтальное распределение с лампой слева и центральной книгой",
+                  "placements": [
+                    {
+                      "uid": "imw1rlf2nix2ghk",
+                      "relation": "canvas",
+                      "x": 0.52,
+                      "y": 0.54,
+                      "gap": 0,
+                      "rotation": 0
+                    },
+                    {
+                      "uid": "imw1rlf2nq4qy0g",
+                      "relation": "on",
+                      "targetUid": "imw1rlf2nix2ghk",
+                      "x": 0.61,
+                      "y": 0.32,
+                      "gap": 0,
+                      "rotation": -65
+                    },
+                    {
+                      "uid": "imw1rlf2nqh7afb",
+                      "relation": "left",
+                      "targetUid": "imw1rlf2nix2ghk",
+                      "x": 0.28,
+                      "y": 0.36,
+                      "gap": 0.12,
+                      "rotation": 0
+                    }
+                  ]
+                },
+                {
+                  "principle": "Смещение всей композиции вправо для сохранения воздуха слева",
+                  "placements": [
+                    {
+                      "uid": "imw1rlf2nix2ghk",
+                      "relation": "canvas",
+                      "x": 0.58,
+                      "y": 0.56,
+                      "gap": 0,
+                      "rotation": 0
+                    },
+                    {
+                      "uid": "imw1rlf2nq4qy0g",
+                      "relation": "on",
+                      "targetUid": "imw1rlf2nix2ghk",
+                      "x": 0.28,
+                      "y": 0.62,
+                      "gap": 0,
+                      "rotation": -50
+                    },
+                    {
+                      "uid": "imw1rlf2nqh7afb",
+                      "relation": "left",
+                      "targetUid": "imw1rlf2nix2ghk",
+                      "x": 0.32,
+                      "y": 0.38,
+                      "gap": 0.15,
+                      "rotation": 0
+                    }
+                  ]
+                },
+                {
+                  "principle": "Сбалансированное размещение элементов по диагонали холста",
+                  "placements": [
+                    {
+                      "uid": "imw1rlf2nix2ghk",
+                      "relation": "canvas",
+                      "x": 0.5,
+                      "y": 0.5,
+                      "gap": 0,
+                      "rotation": 0
+                    },
+                    {
+                      "uid": "imw1rlf2nq4qy0g",
+                      "relation": "on",
+                      "targetUid": "imw1rlf2nix2ghk",
+                      "x": 0.58,
+                      "y": 0.37,
+                      "gap": 0,
+                      "rotation": -60
+                    },
+                    {
+                      "uid": "imw1rlf2nqh7afb",
+                      "relation": "left",
+                      "targetUid": "imw1rlf2nix2ghk",
+                      "x": 0.25,
+                      "y": 0.32,
+                      "gap": 0.1,
+                      "rotation": 0
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "format": "portrait",
+              "views": [
+                {
+                  "principle": "Вертикальная ориентация с акцентом на центральный блок книги",
+                  "placements": [
+                    {
+                      "uid": "imw1rlf2nix2ghk",
+                      "relation": "canvas",
+                      "x": 0.5,
+                      "y": 0.52,
+                      "gap": 0,
+                      "rotation": 0
+                    },
+                    {
+                      "uid": "imw1rlf2nq4qy0g",
+                      "relation": "on",
+                      "targetUid": "imw1rlf2nix2ghk",
+                      "x": 0.61,
+                      "y": 0.32,
+                      "gap": 0,
+                      "rotation": -65
+                    },
+                    {
+                      "uid": "imw1rlf2nqh7afb",
+                      "relation": "left",
+                      "targetUid": "imw1rlf2nix2ghk",
+                      "x": 0.25,
+                      "y": 0.34,
+                      "gap": 0.12,
+                      "rotation": 0
+                    }
+                  ]
+                },
+                {
+                  "principle": "Компактная вертикальная стопка с небольшим смещением влево",
+                  "placements": [
+                    {
+                      "uid": "imw1rlf2nix2ghk",
+                      "relation": "canvas",
+                      "x": 0.48,
+                      "y": 0.55,
+                      "gap": 0,
+                      "rotation": 0
+                    },
+                    {
+                      "uid": "imw1rlf2nq4qy0g",
+                      "relation": "on",
+                      "targetUid": "imw1rlf2nix2ghk",
+                      "x": 0.28,
+                      "y": 0.62,
+                      "gap": 0,
+                      "rotation": -45
+                    },
+                    {
+                      "uid": "imw1rlf2nqh7afb",
+                      "relation": "left",
+                      "targetUid": "imw1rlf2nix2ghk",
+                      "x": 0.22,
+                      "y": 0.36,
+                      "gap": 0.14,
+                      "rotation": 0
+                    }
+                  ]
+                },
+                {
+                  "principle": "Динамичное расположение элементов с выраженной верхней зоной",
+                  "placements": [
+                    {
+                      "uid": "imw1rlf2nix2ghk",
+                      "relation": "canvas",
+                      "x": 0.52,
+                      "y": 0.48,
+                      "gap": 0,
+                      "rotation": 0
+                    },
+                    {
+                      "uid": "imw1rlf2nq4qy0g",
+                      "relation": "on",
+                      "targetUid": "imw1rlf2nix2ghk",
+                      "x": 0.58,
+                      "y": 0.37,
+                      "gap": 0,
+                      "rotation": -60
+                    },
+                    {
+                      "uid": "imw1rlf2nqh7afb",
+                      "relation": "left",
+                      "targetUid": "imw1rlf2nix2ghk",
+                      "x": 0.26,
+                      "y": 0.3,
+                      "gap": 0.1,
+                      "rotation": 0
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "width": 1200,
+          "height": 630,
+          "format": "landscape",
+          "size": "S",
+          "palette": "aqua",
+          "layout": "compact",
+          "background": "pattern",
+          "backgroundDesign": "auto",
+          "supporting": true,
+          "showSupporting": true,
+          "camera": null,
+          "composition": {
+            "index": 0,
+            "options": [
+              {
+                "strategy": "balanced",
+                "title": "На опоре",
+                "principle": "Книга в центре, ручка на странице, лампа слева сверху для создания светового акцента",
+                "placement": "on-surface"
+              },
+              {
+                "strategy": "spacious",
+                "title": "Рядом",
+                "principle": "Смещение группы ближе к правому краю, ручка лежит под наклоном на книге",
+                "placement": "beside"
+              },
+              {
+                "strategy": "diagonal",
+                "title": "Другой ракурс группы",
+                "principle": "Плотная компоновка с акцентом на вертикальную ось и верхнее освещение",
+                "placement": "across"
+              }
+            ]
+          },
+          "layerRelations": [
+            {
+              "back": "imw1rlf2nix2ghk",
+              "front": "imw1rlf2nq4qy0g",
+              "reason": "Предмет лежит на допустимой опоре."
+            },
+            {
+              "back": "imw1rlf2nqh7afb",
+              "front": "imw1rlf2nix2ghk",
+              "reason": "Фоновый компаньон находится позади главной группы."
+            }
+          ],
+          "recipe": "auto",
+          "framing": "overview",
+          "focus": "book",
+          "query": "Превратить идеи в действие",
+          "scale": 1,
+          "items": [
+            {
+              "uid": "imw1rlf2nqh7afb",
+              "assetId": "lamp",
+              "role": "background",
+              "x": -17.22706337616819,
+              "y": 283.29999999999995,
+              "rotation": 0,
+              "flipX": false,
+              "flipY": false,
+              "zone": "top-left",
+              "crop": "fragment"
+            },
+            {
+              "uid": "imw1rlf2nix2ghk",
+              "assetId": "book",
+              "role": "main",
+              "x": 645.69,
+              "y": 364.65000000000003,
+              "rotation": 0,
+              "flipX": false,
+              "flipY": false,
+              "zone": "auto",
+              "crop": "whole"
+            },
+            {
+              "uid": "imw1rlf2nq4qy0g",
+              "assetId": "pen",
+              "role": "main",
+              "x": 725.22,
+              "y": 276.63000000000005,
+              "rotation": -65,
+              "flipX": false,
+              "flipY": false,
+              "supportUid": "imw1rlf2nix2ghk",
+              "zone": "auto",
+              "crop": "whole"
+            }
+          ]
+        },
+        {
+          "version": 1,
+          "sizing": "native",
+          "environmentPrompt": "",
+          "environmentExplanation": [
+            "Главная пара открытой книги и ручки воплощает переход от идеи к письменной фиксации и действию.",
+            "Настольная лампа слева создает классический световой контекст для работы и прояснения мысли.",
+            "Компактная композиция объединяет элементы в единую рабочую зону с четкими опорными связями."
+          ],
+          "groups": [
+            {
+              "kind": "collection",
+              "members": [
+                "imw1rlf2nix2ghk",
+                "imw1rlf2nq4qy0g"
+              ],
+              "reason": "Смещение всей композиции вправо для сохранения воздуха слева"
+            }
+          ],
+          "formatPlans": [],
+          "stagingPlans": [
+            {
+              "format": "square",
+              "views": [
+                {
+                  "principle": "Книга в центре, ручка на странице, лампа слева сверху для создания светового акцента",
+                  "placements": [
+                    {
+                      "uid": "imw1rlf2nix2ghk",
+                      "relation": "canvas",
+                      "x": 0.5,
+                      "y": 0.52,
+                      "gap": 0,
+                      "rotation": 0
+                    },
+                    {
+                      "uid": "imw1rlf2nq4qy0g",
+                      "relation": "on",
+                      "targetUid": "imw1rlf2nix2ghk",
+                      "x": 0.61,
+                      "y": 0.32,
+                      "gap": 0,
+                      "rotation": -65
+                    },
+                    {
+                      "uid": "imw1rlf2nqh7afb",
+                      "relation": "left",
+                      "targetUid": "imw1rlf2nix2ghk",
+                      "x": 0.25,
+                      "y": 0.35,
+                      "gap": 0.12,
+                      "rotation": 0
+                    }
+                  ]
+                },
+                {
+                  "principle": "Смещение группы ближе к правому краю, ручка лежит под наклоном на книге",
+                  "placements": [
+                    {
+                      "uid": "imw1rlf2nix2ghk",
+                      "relation": "canvas",
+                      "x": 0.55,
+                      "y": 0.55,
+                      "gap": 0,
+                      "rotation": 0
+                    },
+                    {
+                      "uid": "imw1rlf2nq4qy0g",
+                      "relation": "on",
+                      "targetUid": "imw1rlf2nix2ghk",
+                      "x": 0.28,
+                      "y": 0.62,
+                      "gap": 0,
+                      "rotation": -45
+                    },
+                    {
+                      "uid": "imw1rlf2nqh7afb",
+                      "relation": "left",
+                      "targetUid": "imw1rlf2nix2ghk",
+                      "x": 0.2,
+                      "y": 0.38,
+                      "gap": 0.15,
+                      "rotation": 0
+                    }
+                  ]
+                },
+                {
+                  "principle": "Плотная компоновка с акцентом на вертикальную ось и верхнее освещение",
+                  "placements": [
+                    {
+                      "uid": "imw1rlf2nix2ghk",
+                      "relation": "canvas",
+                      "x": 0.48,
+                      "y": 0.5,
+                      "gap": 0,
+                      "rotation": 0
+                    },
+                    {
+                      "uid": "imw1rlf2nq4qy0g",
+                      "relation": "on",
+                      "targetUid": "imw1rlf2nix2ghk",
+                      "x": 0.58,
+                      "y": 0.37,
+                      "gap": 0,
+                      "rotation": -60
+                    },
+                    {
+                      "uid": "imw1rlf2nqh7afb",
+                      "relation": "left",
+                      "targetUid": "imw1rlf2nix2ghk",
+                      "x": 0.22,
+                      "y": 0.32,
+                      "gap": 0.1,
+                      "rotation": 0
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "format": "landscape",
+              "views": [
+                {
+                  "principle": "Горизонтальное распределение с лампой слева и центральной книгой",
+                  "placements": [
+                    {
+                      "uid": "imw1rlf2nix2ghk",
+                      "relation": "canvas",
+                      "x": 0.52,
+                      "y": 0.54,
+                      "gap": 0,
+                      "rotation": 0
+                    },
+                    {
+                      "uid": "imw1rlf2nq4qy0g",
+                      "relation": "on",
+                      "targetUid": "imw1rlf2nix2ghk",
+                      "x": 0.61,
+                      "y": 0.32,
+                      "gap": 0,
+                      "rotation": -65
+                    },
+                    {
+                      "uid": "imw1rlf2nqh7afb",
+                      "relation": "left",
+                      "targetUid": "imw1rlf2nix2ghk",
+                      "x": 0.28,
+                      "y": 0.36,
+                      "gap": 0.12,
+                      "rotation": 0
+                    }
+                  ]
+                },
+                {
+                  "principle": "Смещение всей композиции вправо для сохранения воздуха слева",
+                  "placements": [
+                    {
+                      "uid": "imw1rlf2nix2ghk",
+                      "relation": "canvas",
+                      "x": 0.58,
+                      "y": 0.56,
+                      "gap": 0,
+                      "rotation": 0
+                    },
+                    {
+                      "uid": "imw1rlf2nq4qy0g",
+                      "relation": "on",
+                      "targetUid": "imw1rlf2nix2ghk",
+                      "x": 0.28,
+                      "y": 0.62,
+                      "gap": 0,
+                      "rotation": -50
+                    },
+                    {
+                      "uid": "imw1rlf2nqh7afb",
+                      "relation": "left",
+                      "targetUid": "imw1rlf2nix2ghk",
+                      "x": 0.32,
+                      "y": 0.38,
+                      "gap": 0.15,
+                      "rotation": 0
+                    }
+                  ]
+                },
+                {
+                  "principle": "Сбалансированное размещение элементов по диагонали холста",
+                  "placements": [
+                    {
+                      "uid": "imw1rlf2nix2ghk",
+                      "relation": "canvas",
+                      "x": 0.5,
+                      "y": 0.5,
+                      "gap": 0,
+                      "rotation": 0
+                    },
+                    {
+                      "uid": "imw1rlf2nq4qy0g",
+                      "relation": "on",
+                      "targetUid": "imw1rlf2nix2ghk",
+                      "x": 0.58,
+                      "y": 0.37,
+                      "gap": 0,
+                      "rotation": -60
+                    },
+                    {
+                      "uid": "imw1rlf2nqh7afb",
+                      "relation": "left",
+                      "targetUid": "imw1rlf2nix2ghk",
+                      "x": 0.25,
+                      "y": 0.32,
+                      "gap": 0.1,
+                      "rotation": 0
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "format": "portrait",
+              "views": [
+                {
+                  "principle": "Вертикальная ориентация с акцентом на центральный блок книги",
+                  "placements": [
+                    {
+                      "uid": "imw1rlf2nix2ghk",
+                      "relation": "canvas",
+                      "x": 0.5,
+                      "y": 0.52,
+                      "gap": 0,
+                      "rotation": 0
+                    },
+                    {
+                      "uid": "imw1rlf2nq4qy0g",
+                      "relation": "on",
+                      "targetUid": "imw1rlf2nix2ghk",
+                      "x": 0.61,
+                      "y": 0.32,
+                      "gap": 0,
+                      "rotation": -65
+                    },
+                    {
+                      "uid": "imw1rlf2nqh7afb",
+                      "relation": "left",
+                      "targetUid": "imw1rlf2nix2ghk",
+                      "x": 0.25,
+                      "y": 0.34,
+                      "gap": 0.12,
+                      "rotation": 0
+                    }
+                  ]
+                },
+                {
+                  "principle": "Компактная вертикальная стопка с небольшим смещением влево",
+                  "placements": [
+                    {
+                      "uid": "imw1rlf2nix2ghk",
+                      "relation": "canvas",
+                      "x": 0.48,
+                      "y": 0.55,
+                      "gap": 0,
+                      "rotation": 0
+                    },
+                    {
+                      "uid": "imw1rlf2nq4qy0g",
+                      "relation": "on",
+                      "targetUid": "imw1rlf2nix2ghk",
+                      "x": 0.28,
+                      "y": 0.62,
+                      "gap": 0,
+                      "rotation": -45
+                    },
+                    {
+                      "uid": "imw1rlf2nqh7afb",
+                      "relation": "left",
+                      "targetUid": "imw1rlf2nix2ghk",
+                      "x": 0.22,
+                      "y": 0.36,
+                      "gap": 0.14,
+                      "rotation": 0
+                    }
+                  ]
+                },
+                {
+                  "principle": "Динамичное расположение элементов с выраженной верхней зоной",
+                  "placements": [
+                    {
+                      "uid": "imw1rlf2nix2ghk",
+                      "relation": "canvas",
+                      "x": 0.52,
+                      "y": 0.48,
+                      "gap": 0,
+                      "rotation": 0
+                    },
+                    {
+                      "uid": "imw1rlf2nq4qy0g",
+                      "relation": "on",
+                      "targetUid": "imw1rlf2nix2ghk",
+                      "x": 0.58,
+                      "y": 0.37,
+                      "gap": 0,
+                      "rotation": -60
+                    },
+                    {
+                      "uid": "imw1rlf2nqh7afb",
+                      "relation": "left",
+                      "targetUid": "imw1rlf2nix2ghk",
+                      "x": 0.26,
+                      "y": 0.3,
+                      "gap": 0.1,
+                      "rotation": 0
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "width": 1200,
+          "height": 630,
+          "format": "landscape",
+          "size": "S",
+          "palette": "aqua",
+          "layout": "compact",
+          "background": "pattern",
+          "backgroundDesign": "auto",
+          "supporting": true,
+          "showSupporting": true,
+          "camera": null,
+          "composition": {
+            "index": 1,
+            "options": [
+              {
+                "strategy": "balanced",
+                "title": "На опоре",
+                "principle": "Книга в центре, ручка на странице, лампа слева сверху для создания светового акцента",
+                "placement": "on-surface"
+              },
+              {
+                "strategy": "spacious",
+                "title": "Рядом",
+                "principle": "Смещение группы ближе к правому краю, ручка лежит под наклоном на книге",
+                "placement": "beside"
+              },
+              {
+                "strategy": "diagonal",
+                "title": "Другой ракурс группы",
+                "principle": "Плотная компоновка с акцентом на вертикальную ось и верхнее освещение",
+                "placement": "across"
+              }
+            ]
+          },
+          "layerRelations": [
+            {
+              "back": "imw1rlf2nix2ghk",
+              "front": "imw1rlf2nq4qy0g",
+              "reason": "Предмет лежит на допустимой опоре."
+            },
+            {
+              "back": "imw1rlf2nqh7afb",
+              "front": "imw1rlf2nix2ghk",
+              "reason": "Фоновый компаньон находится позади главной группы."
+            }
+          ],
+          "recipe": "auto",
+          "framing": "overview",
+          "focus": "book",
+          "query": "Превратить идеи в действие",
+          "scale": 1,
+          "items": [
+            {
+              "uid": "imw1rlf2nqh7afb",
+              "assetId": "lamp",
+              "role": "background",
+              "x": 35.87293662383178,
+              "y": 295.9,
+              "rotation": 0,
+              "flipX": false,
+              "flipY": false,
+              "zone": "top-left",
+              "crop": "fragment"
+            },
+            {
+              "uid": "imw1rlf2nix2ghk",
+              "assetId": "book",
+              "role": "main",
+              "x": 717.69,
+              "y": 377.25,
+              "rotation": 0,
+              "flipX": false,
+              "flipY": false,
+              "zone": "auto",
+              "crop": "whole"
+            },
+            {
+              "uid": "imw1rlf2nq4qy0g",
+              "assetId": "pen",
+              "role": "main",
+              "x": 558.6300000000001,
+              "y": 435.93,
+              "rotation": -50,
+              "flipX": false,
+              "flipY": false,
+              "supportUid": "imw1rlf2nix2ghk",
+              "zone": "auto",
+              "crop": "whole"
+            }
+          ]
+        },
+        {
+          "version": 1,
+          "sizing": "native",
+          "environmentPrompt": "",
+          "environmentExplanation": [
+            "Главная пара открытой книги и ручки воплощает переход от идеи к письменной фиксации и действию.",
+            "Настольная лампа слева создает классический световой контекст для работы и прояснения мысли.",
+            "Компактная композиция объединяет элементы в единую рабочую зону с четкими опорными связями."
+          ],
+          "groups": [
+            {
+              "kind": "collection",
+              "members": [
+                "imw1rlf2nix2ghk",
+                "imw1rlf2nq4qy0g"
+              ],
+              "reason": "Сбалансированное размещение элементов по диагонали холста"
+            }
+          ],
+          "formatPlans": [],
+          "stagingPlans": [
+            {
+              "format": "square",
+              "views": [
+                {
+                  "principle": "Книга в центре, ручка на странице, лампа слева сверху для создания светового акцента",
+                  "placements": [
+                    {
+                      "uid": "imw1rlf2nix2ghk",
+                      "relation": "canvas",
+                      "x": 0.5,
+                      "y": 0.52,
+                      "gap": 0,
+                      "rotation": 0
+                    },
+                    {
+                      "uid": "imw1rlf2nq4qy0g",
+                      "relation": "on",
+                      "targetUid": "imw1rlf2nix2ghk",
+                      "x": 0.61,
+                      "y": 0.32,
+                      "gap": 0,
+                      "rotation": -65
+                    },
+                    {
+                      "uid": "imw1rlf2nqh7afb",
+                      "relation": "left",
+                      "targetUid": "imw1rlf2nix2ghk",
+                      "x": 0.25,
+                      "y": 0.35,
+                      "gap": 0.12,
+                      "rotation": 0
+                    }
+                  ]
+                },
+                {
+                  "principle": "Смещение группы ближе к правому краю, ручка лежит под наклоном на книге",
+                  "placements": [
+                    {
+                      "uid": "imw1rlf2nix2ghk",
+                      "relation": "canvas",
+                      "x": 0.55,
+                      "y": 0.55,
+                      "gap": 0,
+                      "rotation": 0
+                    },
+                    {
+                      "uid": "imw1rlf2nq4qy0g",
+                      "relation": "on",
+                      "targetUid": "imw1rlf2nix2ghk",
+                      "x": 0.28,
+                      "y": 0.62,
+                      "gap": 0,
+                      "rotation": -45
+                    },
+                    {
+                      "uid": "imw1rlf2nqh7afb",
+                      "relation": "left",
+                      "targetUid": "imw1rlf2nix2ghk",
+                      "x": 0.2,
+                      "y": 0.38,
+                      "gap": 0.15,
+                      "rotation": 0
+                    }
+                  ]
+                },
+                {
+                  "principle": "Плотная компоновка с акцентом на вертикальную ось и верхнее освещение",
+                  "placements": [
+                    {
+                      "uid": "imw1rlf2nix2ghk",
+                      "relation": "canvas",
+                      "x": 0.48,
+                      "y": 0.5,
+                      "gap": 0,
+                      "rotation": 0
+                    },
+                    {
+                      "uid": "imw1rlf2nq4qy0g",
+                      "relation": "on",
+                      "targetUid": "imw1rlf2nix2ghk",
+                      "x": 0.58,
+                      "y": 0.37,
+                      "gap": 0,
+                      "rotation": -60
+                    },
+                    {
+                      "uid": "imw1rlf2nqh7afb",
+                      "relation": "left",
+                      "targetUid": "imw1rlf2nix2ghk",
+                      "x": 0.22,
+                      "y": 0.32,
+                      "gap": 0.1,
+                      "rotation": 0
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "format": "landscape",
+              "views": [
+                {
+                  "principle": "Горизонтальное распределение с лампой слева и центральной книгой",
+                  "placements": [
+                    {
+                      "uid": "imw1rlf2nix2ghk",
+                      "relation": "canvas",
+                      "x": 0.52,
+                      "y": 0.54,
+                      "gap": 0,
+                      "rotation": 0
+                    },
+                    {
+                      "uid": "imw1rlf2nq4qy0g",
+                      "relation": "on",
+                      "targetUid": "imw1rlf2nix2ghk",
+                      "x": 0.61,
+                      "y": 0.32,
+                      "gap": 0,
+                      "rotation": -65
+                    },
+                    {
+                      "uid": "imw1rlf2nqh7afb",
+                      "relation": "left",
+                      "targetUid": "imw1rlf2nix2ghk",
+                      "x": 0.28,
+                      "y": 0.36,
+                      "gap": 0.12,
+                      "rotation": 0
+                    }
+                  ]
+                },
+                {
+                  "principle": "Смещение всей композиции вправо для сохранения воздуха слева",
+                  "placements": [
+                    {
+                      "uid": "imw1rlf2nix2ghk",
+                      "relation": "canvas",
+                      "x": 0.58,
+                      "y": 0.56,
+                      "gap": 0,
+                      "rotation": 0
+                    },
+                    {
+                      "uid": "imw1rlf2nq4qy0g",
+                      "relation": "on",
+                      "targetUid": "imw1rlf2nix2ghk",
+                      "x": 0.28,
+                      "y": 0.62,
+                      "gap": 0,
+                      "rotation": -50
+                    },
+                    {
+                      "uid": "imw1rlf2nqh7afb",
+                      "relation": "left",
+                      "targetUid": "imw1rlf2nix2ghk",
+                      "x": 0.32,
+                      "y": 0.38,
+                      "gap": 0.15,
+                      "rotation": 0
+                    }
+                  ]
+                },
+                {
+                  "principle": "Сбалансированное размещение элементов по диагонали холста",
+                  "placements": [
+                    {
+                      "uid": "imw1rlf2nix2ghk",
+                      "relation": "canvas",
+                      "x": 0.5,
+                      "y": 0.5,
+                      "gap": 0,
+                      "rotation": 0
+                    },
+                    {
+                      "uid": "imw1rlf2nq4qy0g",
+                      "relation": "on",
+                      "targetUid": "imw1rlf2nix2ghk",
+                      "x": 0.58,
+                      "y": 0.37,
+                      "gap": 0,
+                      "rotation": -60
+                    },
+                    {
+                      "uid": "imw1rlf2nqh7afb",
+                      "relation": "left",
+                      "targetUid": "imw1rlf2nix2ghk",
+                      "x": 0.25,
+                      "y": 0.32,
+                      "gap": 0.1,
+                      "rotation": 0
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "format": "portrait",
+              "views": [
+                {
+                  "principle": "Вертикальная ориентация с акцентом на центральный блок книги",
+                  "placements": [
+                    {
+                      "uid": "imw1rlf2nix2ghk",
+                      "relation": "canvas",
+                      "x": 0.5,
+                      "y": 0.52,
+                      "gap": 0,
+                      "rotation": 0
+                    },
+                    {
+                      "uid": "imw1rlf2nq4qy0g",
+                      "relation": "on",
+                      "targetUid": "imw1rlf2nix2ghk",
+                      "x": 0.61,
+                      "y": 0.32,
+                      "gap": 0,
+                      "rotation": -65
+                    },
+                    {
+                      "uid": "imw1rlf2nqh7afb",
+                      "relation": "left",
+                      "targetUid": "imw1rlf2nix2ghk",
+                      "x": 0.25,
+                      "y": 0.34,
+                      "gap": 0.12,
+                      "rotation": 0
+                    }
+                  ]
+                },
+                {
+                  "principle": "Компактная вертикальная стопка с небольшим смещением влево",
+                  "placements": [
+                    {
+                      "uid": "imw1rlf2nix2ghk",
+                      "relation": "canvas",
+                      "x": 0.48,
+                      "y": 0.55,
+                      "gap": 0,
+                      "rotation": 0
+                    },
+                    {
+                      "uid": "imw1rlf2nq4qy0g",
+                      "relation": "on",
+                      "targetUid": "imw1rlf2nix2ghk",
+                      "x": 0.28,
+                      "y": 0.62,
+                      "gap": 0,
+                      "rotation": -45
+                    },
+                    {
+                      "uid": "imw1rlf2nqh7afb",
+                      "relation": "left",
+                      "targetUid": "imw1rlf2nix2ghk",
+                      "x": 0.22,
+                      "y": 0.36,
+                      "gap": 0.14,
+                      "rotation": 0
+                    }
+                  ]
+                },
+                {
+                  "principle": "Динамичное расположение элементов с выраженной верхней зоной",
+                  "placements": [
+                    {
+                      "uid": "imw1rlf2nix2ghk",
+                      "relation": "canvas",
+                      "x": 0.52,
+                      "y": 0.48,
+                      "gap": 0,
+                      "rotation": 0
+                    },
+                    {
+                      "uid": "imw1rlf2nq4qy0g",
+                      "relation": "on",
+                      "targetUid": "imw1rlf2nix2ghk",
+                      "x": 0.58,
+                      "y": 0.37,
+                      "gap": 0,
+                      "rotation": -60
+                    },
+                    {
+                      "uid": "imw1rlf2nqh7afb",
+                      "relation": "left",
+                      "targetUid": "imw1rlf2nix2ghk",
+                      "x": 0.26,
+                      "y": 0.3,
+                      "gap": 0.1,
+                      "rotation": 0
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "width": 1200,
+          "height": 630,
+          "format": "landscape",
+          "size": "S",
+          "palette": "aqua",
+          "layout": "compact",
+          "background": "pattern",
+          "backgroundDesign": "auto",
+          "supporting": true,
+          "showSupporting": true,
+          "camera": null,
+          "composition": {
+            "index": 2,
+            "options": [
+              {
+                "strategy": "balanced",
+                "title": "На опоре",
+                "principle": "Книга в центре, ручка на странице, лампа слева сверху для создания светового акцента",
+                "placement": "on-surface"
+              },
+              {
+                "strategy": "spacious",
+                "title": "Рядом",
+                "principle": "Смещение группы ближе к правому краю, ручка лежит под наклоном на книге",
+                "placement": "beside"
+              },
+              {
+                "strategy": "diagonal",
+                "title": "Другой ракурс группы",
+                "principle": "Плотная компоновка с акцентом на вертикальную ось и верхнее освещение",
+                "placement": "across"
+              }
+            ]
+          },
+          "layerRelations": [
+            {
+              "back": "imw1rlf2nix2ghk",
+              "front": "imw1rlf2nq4qy0g",
+              "reason": "Предмет лежит на допустимой опоре."
+            },
+            {
+              "back": "imw1rlf2nqh7afb",
+              "front": "imw1rlf2nix2ghk",
+              "reason": "Фоновый компаньон находится позади главной группы."
+            }
+          ],
+          "recipe": "auto",
+          "framing": "overview",
+          "focus": "book",
+          "query": "Превратить идеи в действие",
+          "scale": 1,
+          "items": [
+            {
+              "uid": "imw1rlf2nqh7afb",
+              "assetId": "lamp",
+              "role": "background",
+              "x": -28.627063376168223,
+              "y": 258.09999999999997,
+              "rotation": 0,
+              "flipX": false,
+              "flipY": false,
+              "zone": "top-left",
+              "crop": "fragment"
+            },
+            {
+              "uid": "imw1rlf2nix2ghk",
+              "assetId": "book",
+              "role": "main",
+              "x": 621.69,
+              "y": 339.45,
+              "rotation": 0,
+              "flipX": false,
+              "flipY": false,
+              "zone": "auto",
+              "crop": "whole"
+            },
+            {
+              "uid": "imw1rlf2nq4qy0g",
+              "assetId": "pen",
+              "role": "main",
+              "x": 679.53,
+              "y": 275.88,
+              "rotation": -60,
+              "flipX": false,
+              "flipY": false,
+              "supportUid": "imw1rlf2nix2ghk",
+              "zone": "auto",
+              "crop": "whole"
+            }
+          ]
+        }
+      ],
+      "portrait": [
+        {
+          "version": 1,
+          "sizing": "native",
+          "environmentPrompt": "",
+          "environmentExplanation": [
+            "Главная пара открытой книги и ручки воплощает переход от идеи к письменной фиксации и действию.",
+            "Настольная лампа слева создает классический световой контекст для работы и прояснения мысли.",
+            "Компактная композиция объединяет элементы в единую рабочую зону с четкими опорными связями."
+          ],
+          "groups": [
+            {
+              "kind": "collection",
+              "members": [
+                "imw1rlf2nix2ghk",
+                "imw1rlf2nq4qy0g"
+              ],
+              "reason": "Вертикальная ориентация с акцентом на центральный блок книги"
+            }
+          ],
+          "formatPlans": [],
+          "stagingPlans": [
+            {
+              "format": "square",
+              "views": [
+                {
+                  "principle": "Книга в центре, ручка на странице, лампа слева сверху для создания светового акцента",
+                  "placements": [
+                    {
+                      "uid": "imw1rlf2nix2ghk",
+                      "relation": "canvas",
+                      "x": 0.5,
+                      "y": 0.52,
+                      "gap": 0,
+                      "rotation": 0
+                    },
+                    {
+                      "uid": "imw1rlf2nq4qy0g",
+                      "relation": "on",
+                      "targetUid": "imw1rlf2nix2ghk",
+                      "x": 0.61,
+                      "y": 0.32,
+                      "gap": 0,
+                      "rotation": -65
+                    },
+                    {
+                      "uid": "imw1rlf2nqh7afb",
+                      "relation": "left",
+                      "targetUid": "imw1rlf2nix2ghk",
+                      "x": 0.25,
+                      "y": 0.35,
+                      "gap": 0.12,
+                      "rotation": 0
+                    }
+                  ]
+                },
+                {
+                  "principle": "Смещение группы ближе к правому краю, ручка лежит под наклоном на книге",
+                  "placements": [
+                    {
+                      "uid": "imw1rlf2nix2ghk",
+                      "relation": "canvas",
+                      "x": 0.55,
+                      "y": 0.55,
+                      "gap": 0,
+                      "rotation": 0
+                    },
+                    {
+                      "uid": "imw1rlf2nq4qy0g",
+                      "relation": "on",
+                      "targetUid": "imw1rlf2nix2ghk",
+                      "x": 0.28,
+                      "y": 0.62,
+                      "gap": 0,
+                      "rotation": -45
+                    },
+                    {
+                      "uid": "imw1rlf2nqh7afb",
+                      "relation": "left",
+                      "targetUid": "imw1rlf2nix2ghk",
+                      "x": 0.2,
+                      "y": 0.38,
+                      "gap": 0.15,
+                      "rotation": 0
+                    }
+                  ]
+                },
+                {
+                  "principle": "Плотная компоновка с акцентом на вертикальную ось и верхнее освещение",
+                  "placements": [
+                    {
+                      "uid": "imw1rlf2nix2ghk",
+                      "relation": "canvas",
+                      "x": 0.48,
+                      "y": 0.5,
+                      "gap": 0,
+                      "rotation": 0
+                    },
+                    {
+                      "uid": "imw1rlf2nq4qy0g",
+                      "relation": "on",
+                      "targetUid": "imw1rlf2nix2ghk",
+                      "x": 0.58,
+                      "y": 0.37,
+                      "gap": 0,
+                      "rotation": -60
+                    },
+                    {
+                      "uid": "imw1rlf2nqh7afb",
+                      "relation": "left",
+                      "targetUid": "imw1rlf2nix2ghk",
+                      "x": 0.22,
+                      "y": 0.32,
+                      "gap": 0.1,
+                      "rotation": 0
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "format": "landscape",
+              "views": [
+                {
+                  "principle": "Горизонтальное распределение с лампой слева и центральной книгой",
+                  "placements": [
+                    {
+                      "uid": "imw1rlf2nix2ghk",
+                      "relation": "canvas",
+                      "x": 0.52,
+                      "y": 0.54,
+                      "gap": 0,
+                      "rotation": 0
+                    },
+                    {
+                      "uid": "imw1rlf2nq4qy0g",
+                      "relation": "on",
+                      "targetUid": "imw1rlf2nix2ghk",
+                      "x": 0.61,
+                      "y": 0.32,
+                      "gap": 0,
+                      "rotation": -65
+                    },
+                    {
+                      "uid": "imw1rlf2nqh7afb",
+                      "relation": "left",
+                      "targetUid": "imw1rlf2nix2ghk",
+                      "x": 0.28,
+                      "y": 0.36,
+                      "gap": 0.12,
+                      "rotation": 0
+                    }
+                  ]
+                },
+                {
+                  "principle": "Смещение всей композиции вправо для сохранения воздуха слева",
+                  "placements": [
+                    {
+                      "uid": "imw1rlf2nix2ghk",
+                      "relation": "canvas",
+                      "x": 0.58,
+                      "y": 0.56,
+                      "gap": 0,
+                      "rotation": 0
+                    },
+                    {
+                      "uid": "imw1rlf2nq4qy0g",
+                      "relation": "on",
+                      "targetUid": "imw1rlf2nix2ghk",
+                      "x": 0.28,
+                      "y": 0.62,
+                      "gap": 0,
+                      "rotation": -50
+                    },
+                    {
+                      "uid": "imw1rlf2nqh7afb",
+                      "relation": "left",
+                      "targetUid": "imw1rlf2nix2ghk",
+                      "x": 0.32,
+                      "y": 0.38,
+                      "gap": 0.15,
+                      "rotation": 0
+                    }
+                  ]
+                },
+                {
+                  "principle": "Сбалансированное размещение элементов по диагонали холста",
+                  "placements": [
+                    {
+                      "uid": "imw1rlf2nix2ghk",
+                      "relation": "canvas",
+                      "x": 0.5,
+                      "y": 0.5,
+                      "gap": 0,
+                      "rotation": 0
+                    },
+                    {
+                      "uid": "imw1rlf2nq4qy0g",
+                      "relation": "on",
+                      "targetUid": "imw1rlf2nix2ghk",
+                      "x": 0.58,
+                      "y": 0.37,
+                      "gap": 0,
+                      "rotation": -60
+                    },
+                    {
+                      "uid": "imw1rlf2nqh7afb",
+                      "relation": "left",
+                      "targetUid": "imw1rlf2nix2ghk",
+                      "x": 0.25,
+                      "y": 0.32,
+                      "gap": 0.1,
+                      "rotation": 0
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "format": "portrait",
+              "views": [
+                {
+                  "principle": "Вертикальная ориентация с акцентом на центральный блок книги",
+                  "placements": [
+                    {
+                      "uid": "imw1rlf2nix2ghk",
+                      "relation": "canvas",
+                      "x": 0.5,
+                      "y": 0.52,
+                      "gap": 0,
+                      "rotation": 0
+                    },
+                    {
+                      "uid": "imw1rlf2nq4qy0g",
+                      "relation": "on",
+                      "targetUid": "imw1rlf2nix2ghk",
+                      "x": 0.61,
+                      "y": 0.32,
+                      "gap": 0,
+                      "rotation": -65
+                    },
+                    {
+                      "uid": "imw1rlf2nqh7afb",
+                      "relation": "left",
+                      "targetUid": "imw1rlf2nix2ghk",
+                      "x": 0.25,
+                      "y": 0.34,
+                      "gap": 0.12,
+                      "rotation": 0
+                    }
+                  ]
+                },
+                {
+                  "principle": "Компактная вертикальная стопка с небольшим смещением влево",
+                  "placements": [
+                    {
+                      "uid": "imw1rlf2nix2ghk",
+                      "relation": "canvas",
+                      "x": 0.48,
+                      "y": 0.55,
+                      "gap": 0,
+                      "rotation": 0
+                    },
+                    {
+                      "uid": "imw1rlf2nq4qy0g",
+                      "relation": "on",
+                      "targetUid": "imw1rlf2nix2ghk",
+                      "x": 0.28,
+                      "y": 0.62,
+                      "gap": 0,
+                      "rotation": -45
+                    },
+                    {
+                      "uid": "imw1rlf2nqh7afb",
+                      "relation": "left",
+                      "targetUid": "imw1rlf2nix2ghk",
+                      "x": 0.22,
+                      "y": 0.36,
+                      "gap": 0.14,
+                      "rotation": 0
+                    }
+                  ]
+                },
+                {
+                  "principle": "Динамичное расположение элементов с выраженной верхней зоной",
+                  "placements": [
+                    {
+                      "uid": "imw1rlf2nix2ghk",
+                      "relation": "canvas",
+                      "x": 0.52,
+                      "y": 0.48,
+                      "gap": 0,
+                      "rotation": 0
+                    },
+                    {
+                      "uid": "imw1rlf2nq4qy0g",
+                      "relation": "on",
+                      "targetUid": "imw1rlf2nix2ghk",
+                      "x": 0.58,
+                      "y": 0.37,
+                      "gap": 0,
+                      "rotation": -60
+                    },
+                    {
+                      "uid": "imw1rlf2nqh7afb",
+                      "relation": "left",
+                      "targetUid": "imw1rlf2nix2ghk",
+                      "x": 0.26,
+                      "y": 0.3,
+                      "gap": 0.1,
+                      "rotation": 0
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "executionNotes": [
+            "Положение «Настольная лампа» уточнено по границам кадра и реестру пересечений."
+          ],
+          "width": 800,
+          "height": 1200,
+          "format": "portrait",
+          "size": "S",
+          "palette": "aqua",
+          "layout": "compact",
+          "background": "pattern",
+          "backgroundDesign": "auto",
+          "supporting": true,
+          "showSupporting": true,
+          "camera": null,
+          "composition": {
+            "index": 0,
+            "options": [
+              {
+                "strategy": "balanced",
+                "title": "На опоре",
+                "principle": "Книга в центре, ручка на странице, лампа слева сверху для создания светового акцента",
+                "placement": "on-surface"
+              },
+              {
+                "strategy": "spacious",
+                "title": "Рядом",
+                "principle": "Смещение группы ближе к правому краю, ручка лежит под наклоном на книге",
+                "placement": "beside"
+              },
+              {
+                "strategy": "diagonal",
+                "title": "Другой ракурс группы",
+                "principle": "Плотная компоновка с акцентом на вертикальную ось и верхнее освещение",
+                "placement": "across"
+              }
+            ]
+          },
+          "layerRelations": [
+            {
+              "back": "imw1rlf2nix2ghk",
+              "front": "imw1rlf2nq4qy0g",
+              "reason": "Предмет лежит на допустимой опоре."
+            },
+            {
+              "back": "imw1rlf2nqh7afb",
+              "front": "imw1rlf2nix2ghk",
+              "reason": "Фоновый компаньон находится позади главной группы."
+            }
+          ],
+          "recipe": "auto",
+          "framing": "overview",
+          "focus": "book",
+          "query": "Превратить идеи в действие",
+          "scale": 1,
+          "items": [
+            {
+              "uid": "imw1rlf2nqh7afb",
+              "assetId": "lamp",
+              "role": "background",
+              "x": -160,
+              "y": 464.50000000000006,
+              "rotation": 0,
+              "flipX": false,
+              "flipY": false,
+              "zone": "top-left",
+              "crop": "fragment"
+            },
+            {
+              "uid": "imw1rlf2nix2ghk",
+              "assetId": "book",
+              "role": "main",
+              "x": 421.69,
+              "y": 648.45,
+              "rotation": 0,
+              "flipX": false,
+              "flipY": false,
+              "zone": "auto",
+              "crop": "whole"
+            },
+            {
+              "uid": "imw1rlf2nq4qy0g",
+              "assetId": "pen",
+              "role": "main",
+              "x": 501.21999999999997,
+              "y": 560.4300000000001,
+              "rotation": -65,
+              "flipX": false,
+              "flipY": false,
+              "supportUid": "imw1rlf2nix2ghk",
+              "zone": "auto",
+              "crop": "whole"
+            }
+          ]
+        },
+        {
+          "version": 1,
+          "sizing": "native",
+          "environmentPrompt": "",
+          "environmentExplanation": [
+            "Главная пара открытой книги и ручки воплощает переход от идеи к письменной фиксации и действию.",
+            "Настольная лампа слева создает классический световой контекст для работы и прояснения мысли.",
+            "Компактная композиция объединяет элементы в единую рабочую зону с четкими опорными связями."
+          ],
+          "groups": [
+            {
+              "kind": "collection",
+              "members": [
+                "imw1rlf2nix2ghk",
+                "imw1rlf2nq4qy0g"
+              ],
+              "reason": "Компактная вертикальная стопка с небольшим смещением влево"
+            }
+          ],
+          "formatPlans": [],
+          "stagingPlans": [
+            {
+              "format": "square",
+              "views": [
+                {
+                  "principle": "Книга в центре, ручка на странице, лампа слева сверху для создания светового акцента",
+                  "placements": [
+                    {
+                      "uid": "imw1rlf2nix2ghk",
+                      "relation": "canvas",
+                      "x": 0.5,
+                      "y": 0.52,
+                      "gap": 0,
+                      "rotation": 0
+                    },
+                    {
+                      "uid": "imw1rlf2nq4qy0g",
+                      "relation": "on",
+                      "targetUid": "imw1rlf2nix2ghk",
+                      "x": 0.61,
+                      "y": 0.32,
+                      "gap": 0,
+                      "rotation": -65
+                    },
+                    {
+                      "uid": "imw1rlf2nqh7afb",
+                      "relation": "left",
+                      "targetUid": "imw1rlf2nix2ghk",
+                      "x": 0.25,
+                      "y": 0.35,
+                      "gap": 0.12,
+                      "rotation": 0
+                    }
+                  ]
+                },
+                {
+                  "principle": "Смещение группы ближе к правому краю, ручка лежит под наклоном на книге",
+                  "placements": [
+                    {
+                      "uid": "imw1rlf2nix2ghk",
+                      "relation": "canvas",
+                      "x": 0.55,
+                      "y": 0.55,
+                      "gap": 0,
+                      "rotation": 0
+                    },
+                    {
+                      "uid": "imw1rlf2nq4qy0g",
+                      "relation": "on",
+                      "targetUid": "imw1rlf2nix2ghk",
+                      "x": 0.28,
+                      "y": 0.62,
+                      "gap": 0,
+                      "rotation": -45
+                    },
+                    {
+                      "uid": "imw1rlf2nqh7afb",
+                      "relation": "left",
+                      "targetUid": "imw1rlf2nix2ghk",
+                      "x": 0.2,
+                      "y": 0.38,
+                      "gap": 0.15,
+                      "rotation": 0
+                    }
+                  ]
+                },
+                {
+                  "principle": "Плотная компоновка с акцентом на вертикальную ось и верхнее освещение",
+                  "placements": [
+                    {
+                      "uid": "imw1rlf2nix2ghk",
+                      "relation": "canvas",
+                      "x": 0.48,
+                      "y": 0.5,
+                      "gap": 0,
+                      "rotation": 0
+                    },
+                    {
+                      "uid": "imw1rlf2nq4qy0g",
+                      "relation": "on",
+                      "targetUid": "imw1rlf2nix2ghk",
+                      "x": 0.58,
+                      "y": 0.37,
+                      "gap": 0,
+                      "rotation": -60
+                    },
+                    {
+                      "uid": "imw1rlf2nqh7afb",
+                      "relation": "left",
+                      "targetUid": "imw1rlf2nix2ghk",
+                      "x": 0.22,
+                      "y": 0.32,
+                      "gap": 0.1,
+                      "rotation": 0
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "format": "landscape",
+              "views": [
+                {
+                  "principle": "Горизонтальное распределение с лампой слева и центральной книгой",
+                  "placements": [
+                    {
+                      "uid": "imw1rlf2nix2ghk",
+                      "relation": "canvas",
+                      "x": 0.52,
+                      "y": 0.54,
+                      "gap": 0,
+                      "rotation": 0
+                    },
+                    {
+                      "uid": "imw1rlf2nq4qy0g",
+                      "relation": "on",
+                      "targetUid": "imw1rlf2nix2ghk",
+                      "x": 0.61,
+                      "y": 0.32,
+                      "gap": 0,
+                      "rotation": -65
+                    },
+                    {
+                      "uid": "imw1rlf2nqh7afb",
+                      "relation": "left",
+                      "targetUid": "imw1rlf2nix2ghk",
+                      "x": 0.28,
+                      "y": 0.36,
+                      "gap": 0.12,
+                      "rotation": 0
+                    }
+                  ]
+                },
+                {
+                  "principle": "Смещение всей композиции вправо для сохранения воздуха слева",
+                  "placements": [
+                    {
+                      "uid": "imw1rlf2nix2ghk",
+                      "relation": "canvas",
+                      "x": 0.58,
+                      "y": 0.56,
+                      "gap": 0,
+                      "rotation": 0
+                    },
+                    {
+                      "uid": "imw1rlf2nq4qy0g",
+                      "relation": "on",
+                      "targetUid": "imw1rlf2nix2ghk",
+                      "x": 0.28,
+                      "y": 0.62,
+                      "gap": 0,
+                      "rotation": -50
+                    },
+                    {
+                      "uid": "imw1rlf2nqh7afb",
+                      "relation": "left",
+                      "targetUid": "imw1rlf2nix2ghk",
+                      "x": 0.32,
+                      "y": 0.38,
+                      "gap": 0.15,
+                      "rotation": 0
+                    }
+                  ]
+                },
+                {
+                  "principle": "Сбалансированное размещение элементов по диагонали холста",
+                  "placements": [
+                    {
+                      "uid": "imw1rlf2nix2ghk",
+                      "relation": "canvas",
+                      "x": 0.5,
+                      "y": 0.5,
+                      "gap": 0,
+                      "rotation": 0
+                    },
+                    {
+                      "uid": "imw1rlf2nq4qy0g",
+                      "relation": "on",
+                      "targetUid": "imw1rlf2nix2ghk",
+                      "x": 0.58,
+                      "y": 0.37,
+                      "gap": 0,
+                      "rotation": -60
+                    },
+                    {
+                      "uid": "imw1rlf2nqh7afb",
+                      "relation": "left",
+                      "targetUid": "imw1rlf2nix2ghk",
+                      "x": 0.25,
+                      "y": 0.32,
+                      "gap": 0.1,
+                      "rotation": 0
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "format": "portrait",
+              "views": [
+                {
+                  "principle": "Вертикальная ориентация с акцентом на центральный блок книги",
+                  "placements": [
+                    {
+                      "uid": "imw1rlf2nix2ghk",
+                      "relation": "canvas",
+                      "x": 0.5,
+                      "y": 0.52,
+                      "gap": 0,
+                      "rotation": 0
+                    },
+                    {
+                      "uid": "imw1rlf2nq4qy0g",
+                      "relation": "on",
+                      "targetUid": "imw1rlf2nix2ghk",
+                      "x": 0.61,
+                      "y": 0.32,
+                      "gap": 0,
+                      "rotation": -65
+                    },
+                    {
+                      "uid": "imw1rlf2nqh7afb",
+                      "relation": "left",
+                      "targetUid": "imw1rlf2nix2ghk",
+                      "x": 0.25,
+                      "y": 0.34,
+                      "gap": 0.12,
+                      "rotation": 0
+                    }
+                  ]
+                },
+                {
+                  "principle": "Компактная вертикальная стопка с небольшим смещением влево",
+                  "placements": [
+                    {
+                      "uid": "imw1rlf2nix2ghk",
+                      "relation": "canvas",
+                      "x": 0.48,
+                      "y": 0.55,
+                      "gap": 0,
+                      "rotation": 0
+                    },
+                    {
+                      "uid": "imw1rlf2nq4qy0g",
+                      "relation": "on",
+                      "targetUid": "imw1rlf2nix2ghk",
+                      "x": 0.28,
+                      "y": 0.62,
+                      "gap": 0,
+                      "rotation": -45
+                    },
+                    {
+                      "uid": "imw1rlf2nqh7afb",
+                      "relation": "left",
+                      "targetUid": "imw1rlf2nix2ghk",
+                      "x": 0.22,
+                      "y": 0.36,
+                      "gap": 0.14,
+                      "rotation": 0
+                    }
+                  ]
+                },
+                {
+                  "principle": "Динамичное расположение элементов с выраженной верхней зоной",
+                  "placements": [
+                    {
+                      "uid": "imw1rlf2nix2ghk",
+                      "relation": "canvas",
+                      "x": 0.52,
+                      "y": 0.48,
+                      "gap": 0,
+                      "rotation": 0
+                    },
+                    {
+                      "uid": "imw1rlf2nq4qy0g",
+                      "relation": "on",
+                      "targetUid": "imw1rlf2nix2ghk",
+                      "x": 0.58,
+                      "y": 0.37,
+                      "gap": 0,
+                      "rotation": -60
+                    },
+                    {
+                      "uid": "imw1rlf2nqh7afb",
+                      "relation": "left",
+                      "targetUid": "imw1rlf2nix2ghk",
+                      "x": 0.26,
+                      "y": 0.3,
+                      "gap": 0.1,
+                      "rotation": 0
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "executionNotes": [
+            "Положение «Настольная лампа» уточнено по границам кадра и реестру пересечений."
+          ],
+          "width": 800,
+          "height": 1200,
+          "format": "portrait",
+          "size": "S",
+          "palette": "aqua",
+          "layout": "compact",
+          "background": "pattern",
+          "backgroundDesign": "auto",
+          "supporting": true,
+          "showSupporting": true,
+          "camera": null,
+          "composition": {
+            "index": 1,
+            "options": [
+              {
+                "strategy": "balanced",
+                "title": "На опоре",
+                "principle": "Книга в центре, ручка на странице, лампа слева сверху для создания светового акцента",
+                "placement": "on-surface"
+              },
+              {
+                "strategy": "spacious",
+                "title": "Рядом",
+                "principle": "Смещение группы ближе к правому краю, ручка лежит под наклоном на книге",
+                "placement": "beside"
+              },
+              {
+                "strategy": "diagonal",
+                "title": "Другой ракурс группы",
+                "principle": "Плотная компоновка с акцентом на вертикальную ось и верхнее освещение",
+                "placement": "across"
+              }
+            ]
+          },
+          "layerRelations": [
+            {
+              "back": "imw1rlf2nix2ghk",
+              "front": "imw1rlf2nq4qy0g",
+              "reason": "Предмет лежит на допустимой опоре."
+            },
+            {
+              "back": "imw1rlf2nqh7afb",
+              "front": "imw1rlf2nix2ghk",
+              "reason": "Фоновый компаньон находится позади главной группы."
+            }
+          ],
+          "recipe": "auto",
+          "framing": "overview",
+          "focus": "book",
+          "query": "Превратить идеи в действие",
+          "scale": 1,
+          "items": [
+            {
+              "uid": "imw1rlf2nqh7afb",
+              "assetId": "lamp",
+              "role": "background",
+              "x": -160,
+              "y": 488.5,
+              "rotation": 0,
+              "flipX": false,
+              "flipY": false,
+              "zone": "top-left",
+              "crop": "fragment"
+            },
+            {
+              "uid": "imw1rlf2nix2ghk",
+              "assetId": "book",
+              "role": "main",
+              "x": 405.69,
+              "y": 684.45,
+              "rotation": 0,
+              "flipX": false,
+              "flipY": false,
+              "zone": "auto",
+              "crop": "whole"
+            },
+            {
+              "uid": "imw1rlf2nq4qy0g",
+              "assetId": "pen",
+              "role": "main",
+              "x": 246.63000000000002,
+              "y": 743.13,
+              "rotation": -45,
+              "flipX": false,
+              "flipY": false,
+              "supportUid": "imw1rlf2nix2ghk",
+              "zone": "auto",
+              "crop": "whole"
+            }
+          ]
+        },
+        {
+          "version": 1,
+          "sizing": "native",
+          "environmentPrompt": "",
+          "environmentExplanation": [
+            "Главная пара открытой книги и ручки воплощает переход от идеи к письменной фиксации и действию.",
+            "Настольная лампа слева создает классический световой контекст для работы и прояснения мысли.",
+            "Компактная композиция объединяет элементы в единую рабочую зону с четкими опорными связями."
+          ],
+          "groups": [
+            {
+              "kind": "collection",
+              "members": [
+                "imw1rlf2nix2ghk",
+                "imw1rlf2nq4qy0g"
+              ],
+              "reason": "Динамичное расположение элементов с выраженной верхней зоной"
+            }
+          ],
+          "formatPlans": [],
+          "stagingPlans": [
+            {
+              "format": "square",
+              "views": [
+                {
+                  "principle": "Книга в центре, ручка на странице, лампа слева сверху для создания светового акцента",
+                  "placements": [
+                    {
+                      "uid": "imw1rlf2nix2ghk",
+                      "relation": "canvas",
+                      "x": 0.5,
+                      "y": 0.52,
+                      "gap": 0,
+                      "rotation": 0
+                    },
+                    {
+                      "uid": "imw1rlf2nq4qy0g",
+                      "relation": "on",
+                      "targetUid": "imw1rlf2nix2ghk",
+                      "x": 0.61,
+                      "y": 0.32,
+                      "gap": 0,
+                      "rotation": -65
+                    },
+                    {
+                      "uid": "imw1rlf2nqh7afb",
+                      "relation": "left",
+                      "targetUid": "imw1rlf2nix2ghk",
+                      "x": 0.25,
+                      "y": 0.35,
+                      "gap": 0.12,
+                      "rotation": 0
+                    }
+                  ]
+                },
+                {
+                  "principle": "Смещение группы ближе к правому краю, ручка лежит под наклоном на книге",
+                  "placements": [
+                    {
+                      "uid": "imw1rlf2nix2ghk",
+                      "relation": "canvas",
+                      "x": 0.55,
+                      "y": 0.55,
+                      "gap": 0,
+                      "rotation": 0
+                    },
+                    {
+                      "uid": "imw1rlf2nq4qy0g",
+                      "relation": "on",
+                      "targetUid": "imw1rlf2nix2ghk",
+                      "x": 0.28,
+                      "y": 0.62,
+                      "gap": 0,
+                      "rotation": -45
+                    },
+                    {
+                      "uid": "imw1rlf2nqh7afb",
+                      "relation": "left",
+                      "targetUid": "imw1rlf2nix2ghk",
+                      "x": 0.2,
+                      "y": 0.38,
+                      "gap": 0.15,
+                      "rotation": 0
+                    }
+                  ]
+                },
+                {
+                  "principle": "Плотная компоновка с акцентом на вертикальную ось и верхнее освещение",
+                  "placements": [
+                    {
+                      "uid": "imw1rlf2nix2ghk",
+                      "relation": "canvas",
+                      "x": 0.48,
+                      "y": 0.5,
+                      "gap": 0,
+                      "rotation": 0
+                    },
+                    {
+                      "uid": "imw1rlf2nq4qy0g",
+                      "relation": "on",
+                      "targetUid": "imw1rlf2nix2ghk",
+                      "x": 0.58,
+                      "y": 0.37,
+                      "gap": 0,
+                      "rotation": -60
+                    },
+                    {
+                      "uid": "imw1rlf2nqh7afb",
+                      "relation": "left",
+                      "targetUid": "imw1rlf2nix2ghk",
+                      "x": 0.22,
+                      "y": 0.32,
+                      "gap": 0.1,
+                      "rotation": 0
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "format": "landscape",
+              "views": [
+                {
+                  "principle": "Горизонтальное распределение с лампой слева и центральной книгой",
+                  "placements": [
+                    {
+                      "uid": "imw1rlf2nix2ghk",
+                      "relation": "canvas",
+                      "x": 0.52,
+                      "y": 0.54,
+                      "gap": 0,
+                      "rotation": 0
+                    },
+                    {
+                      "uid": "imw1rlf2nq4qy0g",
+                      "relation": "on",
+                      "targetUid": "imw1rlf2nix2ghk",
+                      "x": 0.61,
+                      "y": 0.32,
+                      "gap": 0,
+                      "rotation": -65
+                    },
+                    {
+                      "uid": "imw1rlf2nqh7afb",
+                      "relation": "left",
+                      "targetUid": "imw1rlf2nix2ghk",
+                      "x": 0.28,
+                      "y": 0.36,
+                      "gap": 0.12,
+                      "rotation": 0
+                    }
+                  ]
+                },
+                {
+                  "principle": "Смещение всей композиции вправо для сохранения воздуха слева",
+                  "placements": [
+                    {
+                      "uid": "imw1rlf2nix2ghk",
+                      "relation": "canvas",
+                      "x": 0.58,
+                      "y": 0.56,
+                      "gap": 0,
+                      "rotation": 0
+                    },
+                    {
+                      "uid": "imw1rlf2nq4qy0g",
+                      "relation": "on",
+                      "targetUid": "imw1rlf2nix2ghk",
+                      "x": 0.28,
+                      "y": 0.62,
+                      "gap": 0,
+                      "rotation": -50
+                    },
+                    {
+                      "uid": "imw1rlf2nqh7afb",
+                      "relation": "left",
+                      "targetUid": "imw1rlf2nix2ghk",
+                      "x": 0.32,
+                      "y": 0.38,
+                      "gap": 0.15,
+                      "rotation": 0
+                    }
+                  ]
+                },
+                {
+                  "principle": "Сбалансированное размещение элементов по диагонали холста",
+                  "placements": [
+                    {
+                      "uid": "imw1rlf2nix2ghk",
+                      "relation": "canvas",
+                      "x": 0.5,
+                      "y": 0.5,
+                      "gap": 0,
+                      "rotation": 0
+                    },
+                    {
+                      "uid": "imw1rlf2nq4qy0g",
+                      "relation": "on",
+                      "targetUid": "imw1rlf2nix2ghk",
+                      "x": 0.58,
+                      "y": 0.37,
+                      "gap": 0,
+                      "rotation": -60
+                    },
+                    {
+                      "uid": "imw1rlf2nqh7afb",
+                      "relation": "left",
+                      "targetUid": "imw1rlf2nix2ghk",
+                      "x": 0.25,
+                      "y": 0.32,
+                      "gap": 0.1,
+                      "rotation": 0
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "format": "portrait",
+              "views": [
+                {
+                  "principle": "Вертикальная ориентация с акцентом на центральный блок книги",
+                  "placements": [
+                    {
+                      "uid": "imw1rlf2nix2ghk",
+                      "relation": "canvas",
+                      "x": 0.5,
+                      "y": 0.52,
+                      "gap": 0,
+                      "rotation": 0
+                    },
+                    {
+                      "uid": "imw1rlf2nq4qy0g",
+                      "relation": "on",
+                      "targetUid": "imw1rlf2nix2ghk",
+                      "x": 0.61,
+                      "y": 0.32,
+                      "gap": 0,
+                      "rotation": -65
+                    },
+                    {
+                      "uid": "imw1rlf2nqh7afb",
+                      "relation": "left",
+                      "targetUid": "imw1rlf2nix2ghk",
+                      "x": 0.25,
+                      "y": 0.34,
+                      "gap": 0.12,
+                      "rotation": 0
+                    }
+                  ]
+                },
+                {
+                  "principle": "Компактная вертикальная стопка с небольшим смещением влево",
+                  "placements": [
+                    {
+                      "uid": "imw1rlf2nix2ghk",
+                      "relation": "canvas",
+                      "x": 0.48,
+                      "y": 0.55,
+                      "gap": 0,
+                      "rotation": 0
+                    },
+                    {
+                      "uid": "imw1rlf2nq4qy0g",
+                      "relation": "on",
+                      "targetUid": "imw1rlf2nix2ghk",
+                      "x": 0.28,
+                      "y": 0.62,
+                      "gap": 0,
+                      "rotation": -45
+                    },
+                    {
+                      "uid": "imw1rlf2nqh7afb",
+                      "relation": "left",
+                      "targetUid": "imw1rlf2nix2ghk",
+                      "x": 0.22,
+                      "y": 0.36,
+                      "gap": 0.14,
+                      "rotation": 0
+                    }
+                  ]
+                },
+                {
+                  "principle": "Динамичное расположение элементов с выраженной верхней зоной",
+                  "placements": [
+                    {
+                      "uid": "imw1rlf2nix2ghk",
+                      "relation": "canvas",
+                      "x": 0.52,
+                      "y": 0.48,
+                      "gap": 0,
+                      "rotation": 0
+                    },
+                    {
+                      "uid": "imw1rlf2nq4qy0g",
+                      "relation": "on",
+                      "targetUid": "imw1rlf2nix2ghk",
+                      "x": 0.58,
+                      "y": 0.37,
+                      "gap": 0,
+                      "rotation": -60
+                    },
+                    {
+                      "uid": "imw1rlf2nqh7afb",
+                      "relation": "left",
+                      "targetUid": "imw1rlf2nix2ghk",
+                      "x": 0.26,
+                      "y": 0.3,
+                      "gap": 0.1,
+                      "rotation": 0
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "executionNotes": [
+            "Положение «Настольная лампа» уточнено по границам кадра и реестру пересечений."
+          ],
+          "width": 800,
+          "height": 1200,
+          "format": "portrait",
+          "size": "S",
+          "palette": "aqua",
+          "layout": "compact",
+          "background": "pattern",
+          "backgroundDesign": "auto",
+          "supporting": true,
+          "showSupporting": true,
+          "camera": null,
+          "composition": {
+            "index": 2,
+            "options": [
+              {
+                "strategy": "balanced",
+                "title": "На опоре",
+                "principle": "Книга в центре, ручка на странице, лампа слева сверху для создания светового акцента",
+                "placement": "on-surface"
+              },
+              {
+                "strategy": "spacious",
+                "title": "Рядом",
+                "principle": "Смещение группы ближе к правому краю, ручка лежит под наклоном на книге",
+                "placement": "beside"
+              },
+              {
+                "strategy": "diagonal",
+                "title": "Другой ракурс группы",
+                "principle": "Плотная компоновка с акцентом на вертикальную ось и верхнее освещение",
+                "placement": "across"
+              }
+            ]
+          },
+          "layerRelations": [
+            {
+              "back": "imw1rlf2nix2ghk",
+              "front": "imw1rlf2nq4qy0g",
+              "reason": "Предмет лежит на допустимой опоре."
+            },
+            {
+              "back": "imw1rlf2nqh7afb",
+              "front": "imw1rlf2nix2ghk",
+              "reason": "Фоновый компаньон находится позади главной группы."
+            }
+          ],
+          "recipe": "auto",
+          "framing": "overview",
+          "focus": "book",
+          "query": "Превратить идеи в действие",
+          "scale": 1,
+          "items": [
+            {
+              "uid": "imw1rlf2nqh7afb",
+              "assetId": "lamp",
+              "role": "background",
+              "x": -160,
+              "y": 416.5,
+              "rotation": 0,
+              "flipX": false,
+              "flipY": false,
+              "zone": "top-left",
+              "crop": "fragment"
+            },
+            {
+              "uid": "imw1rlf2nix2ghk",
+              "assetId": "book",
+              "role": "main",
+              "x": 437.69,
+              "y": 600.45,
+              "rotation": 0,
+              "flipX": false,
+              "flipY": false,
+              "zone": "auto",
+              "crop": "whole"
+            },
+            {
+              "uid": "imw1rlf2nq4qy0g",
+              "assetId": "pen",
+              "role": "main",
+              "x": 495.53,
+              "y": 536.88,
+              "rotation": -60,
+              "flipX": false,
+              "flipY": false,
+              "supportUid": "imw1rlf2nix2ghk",
+              "zone": "auto",
+              "crop": "whole"
+            }
+          ]
+        }
+      ]
+    }
+  }
+}

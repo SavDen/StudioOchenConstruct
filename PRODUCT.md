@@ -1,35 +1,42 @@
-# Product
+# Product: Конструктор
 <!-- impeccable:product-schema 1 -->
 
 ## Platform
-web
+Web, local buildless HTML/CSS/JavaScript editor with a Node.js Gemini gateway. Keep delivery local; do not use Sites for updates.
 
-## Stack
-Buildless HTML/CSS/JavaScript, extending the prepared local SVG catalog. No AI, external API or server runtime is required. Hosting uses a private Sites static deployment.
+## Purpose and users
+A designer preparing an illustration-construction test assignment enters a metaphor, headline or exact subject names, receives an editable SVG composition, adjusts it and exports real vector groups.
 
-## Users
-The user is preparing an illustration-composition test assignment. The prototype is used to evaluate keyword selection, composition templates, editing and vector output, including opening on a phone.
+## Source of truth
+The user's standalone SVG folder VectorTestov supplies ten subjects in authored sizes S and L: twenty canonical size variants. Main/monochrome roles are presentation variants, not additional subjects. There are forty SVG presentation files, three palettes and six size/palette backdrops. Original standalone files and SHA-256 hashes are archived under library/sources/canonical. Importing adds semantic color-slot and accessibility attributes only; path data, viewBoxes and dimensions are unchanged.
 
-## Product Purpose
-Turn existing SVG subjects into editable compositions. Users enter object names or words with curated semantic tags, generate a layout, adjust objects and export an SVG.
+## Current behavior
+Native mode is the default. Objects and authored backgrounds are rendered at 1:1 SVG units. Neither a global scale slider nor camera zoom is available. S/L loads the corresponding source SVG for every foreground and background item. Positions transfer around the frame center, preserving relative support offsets, manual edits, transforms and hidden states. It never calls arrange or the model; environment content stays the same. Changing S/L does not compensate by scaling. Canvas presets are 1200×630, 1000×1000, 800×1200 and 1920×1080; custom integer dimensions 256–4096 are supported. A separate button sets the base canvas to S 500×500 or L 1000×1000. Source size and canvas dimensions remain separate controls.
 
-## Capabilities and Constraints
-Use only supplied SVG geometry. Ten subjects, two detail sizes, two source roles and three original palettes.
-Automatic selection uses curated keywords, not AI. No new graphic objects are generated.
-Keep original contours and internal proportions. Use a common scene scale.
-Moving, rotation, duplication, deletion and layer ordering are supported.
-S/L must load actual source versions, including their authored differences.
-Formats are 1200×630, 1080×1080, 1080×1350 and 1920×1080.
-Background items only use background color slots. Main items may use both slot groups.
-Palettes are limited to the three supplied schemes. No palette generator is included.
-Layouts follow prepared anchor arrangements. Main-object boxes are separated automatically; background overlap and cropping are permitted.
-The user can save/reopen a scene as JSON. Scene autosave remains in the same browser.
+Composition modes follow the references: Собранно makes a connected group, Со смещением changes relative sides/balance inside it, Под заголовок reserves the left 43% and clips artwork into the right field. Density comes from native-size subjects, support relationships and deliberate framing/cropping. A large native subject is allowed to extend outside the canvas; the system cannot make every possible set fit fully at fixed size. Reading pairs put the illuminating lamp left of the book; collections can put a lamp on the right. This distinction is semantic, not a subject-count rule.
 
-## Evidence on Hand
-The sibling illustration-library contains validated SVGs, original exports, manifests and palettes. The library sheet and six sample layouts define the supplied visual assets. Original names were absent; names and keyword tags are editorial annotations.
+Gemini receives two labeled contact sheets of the actual main/background SVG presentations for the selected S/L source size. It returns known subjects, roles, a backdrop design and nine executable staging plans: three variants for each of square, landscape and portrait. Each plan has a short composition principle and one placement per subject, with a normalized optical center or a directed relationship to another subject (on, left, right, above, below). Multiple subjects can be main. Writing can use book and pen as a main group, with variants on a page, alongside, and crosswise. The model cannot set scale, paths, colors or arbitrary geometry. The local executor resolves dependencies, checks the physical registry, preserves native dimensions and reports position corrections. Unsupported supports are explicitly changed to placement alongside; cycles, unknown targets and incomplete plans are rejected. Older scenes without authored staging retain the previous arrangement pipeline.
 
-## Product Principles
-Preserve the source artwork. Make selection explainable. Keep direct editing available. Export actual vector groups. Report unsupported keywords instead of inventing subjects.
+The environment field is independent of the main query. It is included during full generation. Gemini defaults to exactly one quiet, thematic background companion, preserving the main pair and the six-item total limit. At least one background subject is required for a ready native AI plan when backgrounds are allowed and an unexcluded companion and an item slot are available. Explicit background bans still permit a main-only pair; multiple background companions are only requested explicitly. The backdrop pattern does not count as a companion. Manual deletion and visibility remain available without forcing regeneration. Multiple background subjects consider one another during placement, and a format's preferred background edge applies to an automatically zoned first companion while explicit zones remain distinct across repeated variant building.
 
-## Open Decisions
-The source library's main S phone has a blank screen while the background S and L variants have a puzzle. These versions remain unchanged pending author clarification.
+Обновить окружение calls Gemini in environment mode for only the active variant. The gateway checks that all main subjects and their counts are unchanged; application code reuses their exact poses, transforms, visibility, order and camera. Only background subjects are replaced/positioned. Explicit empty-background requests remove background subjects. Environment crops may show only a lamp base, part of a vase or a large supporting page. Role-specific palette restrictions remain enforced. The visibility checkbox hides background subjects without deleting them.
+
+One full model response supplies a shared cast, three arrangement definitions and compact staging plans for square 1000x1000, landscape 1200x630 and portrait 800x1200. The engine builds nine native scenes locally. Each format/variant cell has an independent validated snapshot: subjects, poses, roles, layers, visibility, size, format, palette, camera, environment prompt/explanation and composition definition. Switching saves current edits and restores the target; it makes no model request. Browser autosave and JSON project export/import include all nine snapshots in version-2 format memory. Mixed-format version-1 projects migrate into their matching cells without losing edits. Additional custom/wide formats are generated locally on first selection. Undo/redo restore scene and variant memory together. Manual templates are separate and scoped by subject signature, source size, format/dimensions, layout, framing and focus.
+
+Manual dragging, X/Y, rotation, mirroring, duplication, deletion, layer ordering and per-layer visibility remain available. Empty-canvas clicks and Escape deselect and return to Composition. Hiding the only visible main promotes the next visible layer; positions do not reflow. Camera reframing changes translation only, preserving native scale.
+
+Manual placement overrides the generated format-specific positions for the active variant: dragging, X/Y, rotation and mirroring synchronize matching item poses across format banks, preserving native distances about the visible frame center. Target S/L, local presentation settings and the other two variants remain independent. Version-2 memory persists the manually edited variant indices in manualPlacements; first opening an additional format then copies saved poses instead of arranging again. Explicit canvas dimensions and the base-canvas button preserve exact world positions and camera. AI generation, environment requests, format selection and S/L selection do not count as manual placement edits.
+
+## Compatibility
+The renderer retains the previous sizing pipeline only for legacy-project compatibility tests. The editor converts old saved projects to native size, keeping item coordinates/transforms and all variant slots. Before initial autosave migration, it stores the original JSON under svg-composition-studio-v1-before-native in the same browser. Appearance necessarily changes when old scaling/zoom is removed. Native and legacy remembered templates are isolated. New saved templates retain exact pixel coordinates as well as normalized fallback positions.
+
+## Backend and credentials
+npm start serves loopback localhost:8000. The local Node gateway reads .env configuration server-side and calls the existing authenticated HTTPS Gemini proxy. Browser bundles and JSON projects never receive credentials. Both full and environment plans are validated. Cancellation, malformed responses, stale results, unavailable subjects, quota failures and timeouts preserve the active scene. The debug panel exposes a concise decision summary, the actual model plan and prompt, not private chain-of-thought.
+
+## Visual identity
+Preserve the existing editorial editor, vector artwork, source palettes, typography and compact controls. Desktop sidebars scroll independently. Mobile uses a bounded settings panel before the canvas. Place palette first, source/canvas sizes together, then layers, variants and environment controls. Make source size versus canvas size clear in plain Russian.
+
+## Deferred work
+Canvas backdrops have an independent design choice; the shared scene palette controls all backdrop colors. The supplied details design (dots and lines) and table-edge design are available in all three source colors. S/L selects the corresponding native background paths. Motifs keep their native dimensions and are anchored to their authored corners when the canvas changes aspect ratio; the bottom-right table edge stays attached to that corner. Solid and transparent modes remain available. There is no separate backdrop color setting. Older independent backdrop color overrides are ignored during import. Each format/variant remembers these settings independently, including JSON import/export and undo. Legacy projects use their original palette-dependent design until a design is explicitly selected.
+
+User palette import/recolor workflow is explicitly deferred to the next task. Three supplied palettes remain selectable. Public hosting/repository publishing is not part of this change. The system assembles library SVGs; it does not generate new illustrated objects.

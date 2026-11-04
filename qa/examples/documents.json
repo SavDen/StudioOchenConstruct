@@ -1,0 +1,34 @@
+{
+  "version": 1,
+  "width": 1200,
+  "height": 630,
+  "format": "landscape",
+  "size": "S",
+  "palette": "lavender",
+  "layout": "compact",
+  "background": "pattern",
+  "supporting": true,
+  "recipe": "auto",
+  "framing": "focus",
+  "focus": "auto",
+  "query": "Порядок в документах",
+  "scale": 1.3183418191146021,
+  "items": [
+    {
+      "assetId": "pen",
+      "role": "background",
+      "uid": "imw0sznsxg6hz84",
+      "x": 937.6558098372541,
+      "y": 122.54190247704136,
+      "rotation": 0
+    },
+    {
+      "assetId": "folder",
+      "role": "main",
+      "uid": "imw0sznsxvvo6o7",
+      "x": 491.53305600000004,
+      "y": 332.78673236429483,
+      "rotation": 0
+    }
+  ]
+}

@@ -1,0 +1,4021 @@
+{
+  "type": "composition-project",
+  "version": 2,
+  "scene": {
+    "version": 1,
+    "sizing": "native",
+    "environmentPrompt": "",
+    "environmentExplanation": [
+      "Главная группа объединяет открытую книгу как основу знаний и монету как символ результата.",
+      "Фоновая папка поддерживает деловой контекст и порядок на рабочей плоскости.",
+      "Композиция выстроена компактно с четким соблюдением опор и читаемости элементов."
+    ],
+    "groups": [
+      {
+        "kind": "collection",
+        "members": [
+          "imw1sdrlls35mii",
+          "imw1sdrllkghjn3"
+        ],
+        "reason": "Книга в центре, монета на странице, фоновая папка слева внизу."
+      }
+    ],
+    "formatPlans": [],
+    "stagingPlans": [
+      {
+        "format": "square",
+        "views": [
+          {
+            "principle": "Книга в центре, монета на странице, фоновая папка слева внизу.",
+            "placements": [
+              {
+                "uid": "imw1sdrlls35mii",
+                "relation": "canvas",
+                "x": 0.5,
+                "y": 0.5,
+                "gap": 0,
+                "rotation": 0
+              },
+              {
+                "uid": "imw1sdrllkghjn3",
+                "relation": "on",
+                "targetUid": "imw1sdrlls35mii",
+                "x": 0.73,
+                "y": 0.4,
+                "gap": 0,
+                "rotation": 0
+              },
+              {
+                "uid": "imw1sdrll4arlhe",
+                "relation": "canvas",
+                "x": 0.25,
+                "y": 0.75,
+                "gap": 0,
+                "rotation": 0
+              }
+            ]
+          },
+          {
+            "principle": "Смещение композиции чуть выше, монета ближе к правому краю книги.",
+            "placements": [
+              {
+                "uid": "imw1sdrlls35mii",
+                "relation": "canvas",
+                "x": 0.48,
+                "y": 0.48,
+                "gap": 0,
+                "rotation": 0
+              },
+              {
+                "uid": "imw1sdrllkghjn3",
+                "relation": "on",
+                "targetUid": "imw1sdrlls35mii",
+                "x": 0.63,
+                "y": 0.29,
+                "gap": 0,
+                "rotation": 0
+              },
+              {
+                "uid": "imw1sdrll4arlhe",
+                "relation": "canvas",
+                "x": 0.22,
+                "y": 0.78,
+                "gap": 0,
+                "rotation": 0
+              }
+            ]
+          },
+          {
+            "principle": "Диагональное расположение элементов для создания динамики.",
+            "placements": [
+              {
+                "uid": "imw1sdrlls35mii",
+                "relation": "canvas",
+                "x": 0.52,
+                "y": 0.52,
+                "gap": 0,
+                "rotation": 0
+              },
+              {
+                "uid": "imw1sdrllkghjn3",
+                "relation": "on",
+                "targetUid": "imw1sdrlls35mii",
+                "x": 0.26,
+                "y": 0.6,
+                "gap": 0,
+                "rotation": 0
+              },
+              {
+                "uid": "imw1sdrll4arlhe",
+                "relation": "canvas",
+                "x": 0.28,
+                "y": 0.72,
+                "gap": 0,
+                "rotation": 0
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "format": "landscape",
+        "views": [
+          {
+            "principle": "Горизонтальное размещение с книгой в центре и монетой на ней.",
+            "placements": [
+              {
+                "uid": "imw1sdrlls35mii",
+                "relation": "canvas",
+                "x": 0.52,
+                "y": 0.5,
+                "gap": 0,
+                "rotation": 0
+              },
+              {
+                "uid": "imw1sdrllkghjn3",
+                "relation": "on",
+                "targetUid": "imw1sdrlls35mii",
+                "x": 0.73,
+                "y": 0.4,
+                "gap": 0,
+                "rotation": 0
+              },
+              {
+                "uid": "imw1sdrll4arlhe",
+                "relation": "canvas",
+                "x": 0.2,
+                "y": 0.75,
+                "gap": 0,
+                "rotation": 0
+              }
+            ]
+          },
+          {
+            "principle": "Смещение главной группы правее, папка у левого края.",
+            "placements": [
+              {
+                "uid": "imw1sdrlls35mii",
+                "relation": "canvas",
+                "x": 0.55,
+                "y": 0.48,
+                "gap": 0,
+                "rotation": 0
+              },
+              {
+                "uid": "imw1sdrllkghjn3",
+                "relation": "on",
+                "targetUid": "imw1sdrlls35mii",
+                "x": 0.63,
+                "y": 0.29,
+                "gap": 0,
+                "rotation": 0
+              },
+              {
+                "uid": "imw1sdrll4arlhe",
+                "relation": "canvas",
+                "x": 0.18,
+                "y": 0.72,
+                "gap": 0,
+                "rotation": 0
+              }
+            ]
+          },
+          {
+            "principle": "Широкий формат с акцентом на горизонтальные связи.",
+            "placements": [
+              {
+                "uid": "imw1sdrlls35mii",
+                "relation": "canvas",
+                "x": 0.5,
+                "y": 0.52,
+                "gap": 0,
+                "rotation": 0
+              },
+              {
+                "uid": "imw1sdrllkghjn3",
+                "relation": "on",
+                "targetUid": "imw1sdrlls35mii",
+                "x": 0.26,
+                "y": 0.6,
+                "gap": 0,
+                "rotation": 0
+              },
+              {
+                "uid": "imw1sdrll4arlhe",
+                "relation": "canvas",
+                "x": 0.22,
+                "y": 0.78,
+                "gap": 0,
+                "rotation": 0
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "format": "portrait",
+        "views": [
+          {
+            "principle": "Вертикальная композиция с центрированной книгой.",
+            "placements": [
+              {
+                "uid": "imw1sdrlls35mii",
+                "relation": "canvas",
+                "x": 0.5,
+                "y": 0.48,
+                "gap": 0,
+                "rotation": 0
+              },
+              {
+                "uid": "imw1sdrllkghjn3",
+                "relation": "on",
+                "targetUid": "imw1sdrlls35mii",
+                "x": 0.73,
+                "y": 0.4,
+                "gap": 0,
+                "rotation": 0
+              },
+              {
+                "uid": "imw1sdrll4arlhe",
+                "relation": "canvas",
+                "x": 0.3,
+                "y": 0.8,
+                "gap": 0,
+                "rotation": 0
+              }
+            ]
+          },
+          {
+            "principle": "Вертикальный сдвиг элементов вверх для свободы внизу.",
+            "placements": [
+              {
+                "uid": "imw1sdrlls35mii",
+                "relation": "canvas",
+                "x": 0.5,
+                "y": 0.45,
+                "gap": 0,
+                "rotation": 0
+              },
+              {
+                "uid": "imw1sdrllkghjn3",
+                "relation": "on",
+                "targetUid": "imw1sdrlls35mii",
+                "x": 0.63,
+                "y": 0.29,
+                "gap": 0,
+                "rotation": 0
+              },
+              {
+                "uid": "imw1sdrll4arlhe",
+                "relation": "canvas",
+                "x": 0.28,
+                "y": 0.82,
+                "gap": 0,
+                "rotation": 0
+              }
+            ]
+          },
+          {
+            "principle": "Сбалансированная вертикальная стопка.",
+            "placements": [
+              {
+                "uid": "imw1sdrlls35mii",
+                "relation": "canvas",
+                "x": 0.5,
+                "y": 0.5,
+                "gap": 0,
+                "rotation": 0
+              },
+              {
+                "uid": "imw1sdrllkghjn3",
+                "relation": "on",
+                "targetUid": "imw1sdrlls35mii",
+                "x": 0.26,
+                "y": 0.6,
+                "gap": 0,
+                "rotation": 0
+              },
+              {
+                "uid": "imw1sdrll4arlhe",
+                "relation": "canvas",
+                "x": 0.32,
+                "y": 0.78,
+                "gap": 0,
+                "rotation": 0
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "executionNotes": [
+      "Положение «Папка» уточнено по границам кадра и реестру пересечений."
+    ],
+    "width": 1000,
+    "height": 1000,
+    "format": "square",
+    "size": "S",
+    "palette": "aqua",
+    "layout": "compact",
+    "background": "pattern",
+    "backgroundDesign": "auto",
+    "supporting": true,
+    "showSupporting": true,
+    "camera": null,
+    "composition": {
+      "index": 0,
+      "options": [
+        {
+          "strategy": "balanced",
+          "title": "На опоре",
+          "principle": "Книга в центре, монета на странице, фоновая папка слева внизу.",
+          "placement": "on-surface"
+        },
+        {
+          "strategy": "spacious",
+          "title": "Рядом",
+          "principle": "Смещение композиции чуть выше, монета ближе к правому краю книги.",
+          "placement": "beside"
+        },
+        {
+          "strategy": "diagonal",
+          "title": "Другой ракурс группы",
+          "principle": "Диагональное расположение элементов для создания динамики.",
+          "placement": "across"
+        }
+      ]
+    },
+    "layerRelations": [
+      {
+        "back": "imw1sdrlls35mii",
+        "front": "imw1sdrllkghjn3",
+        "reason": "Предмет лежит на допустимой опоре."
+      },
+      {
+        "back": "imw1sdrll4arlhe",
+        "front": "imw1sdrlls35mii",
+        "reason": "Фоновый компаньон находится позади главной группы."
+      }
+    ],
+    "recipe": "auto",
+    "framing": "overview",
+    "focus": "coin",
+    "query": "Маленький вклад — большой результат",
+    "scale": 1,
+    "items": [
+      {
+        "uid": "imw1sdrll4arlhe",
+        "assetId": "folder",
+        "role": "background",
+        "x": 223.1677078853482,
+        "y": 814.8722921146518,
+        "rotation": 0,
+        "flipX": false,
+        "flipY": false,
+        "zone": "bottom-left",
+        "crop": "fragment"
+      },
+      {
+        "uid": "imw1sdrlls35mii",
+        "assetId": "book",
+        "role": "main",
+        "x": 521.69,
+        "y": 524.45,
+        "rotation": 0,
+        "flipX": false,
+        "flipY": false,
+        "zone": "auto",
+        "crop": "whole"
+      },
+      {
+        "uid": "imw1sdrllkghjn3",
+        "assetId": "coin",
+        "role": "main",
+        "x": 687.98,
+        "y": 475.55000000000007,
+        "rotation": 0,
+        "flipX": false,
+        "flipY": false,
+        "supportUid": "imw1sdrlls35mii",
+        "zone": "auto",
+        "crop": "whole"
+      }
+    ]
+  },
+  "memory": {
+    "version": 2,
+    "format": "square",
+    "index": 0,
+    "formats": {
+      "square": [
+        {
+          "version": 1,
+          "sizing": "native",
+          "environmentPrompt": "",
+          "environmentExplanation": [
+            "Главная группа объединяет открытую книгу как основу знаний и монету как символ результата.",
+            "Фоновая папка поддерживает деловой контекст и порядок на рабочей плоскости.",
+            "Композиция выстроена компактно с четким соблюдением опор и читаемости элементов."
+          ],
+          "groups": [
+            {
+              "kind": "collection",
+              "members": [
+                "imw1sdrlls35mii",
+                "imw1sdrllkghjn3"
+              ],
+              "reason": "Книга в центре, монета на странице, фоновая папка слева внизу."
+            }
+          ],
+          "formatPlans": [],
+          "stagingPlans": [
+            {
+              "format": "square",
+              "views": [
+                {
+                  "principle": "Книга в центре, монета на странице, фоновая папка слева внизу.",
+                  "placements": [
+                    {
+                      "uid": "imw1sdrlls35mii",
+                      "relation": "canvas",
+                      "x": 0.5,
+                      "y": 0.5,
+                      "gap": 0,
+                      "rotation": 0
+                    },
+                    {
+                      "uid": "imw1sdrllkghjn3",
+                      "relation": "on",
+                      "targetUid": "imw1sdrlls35mii",
+                      "x": 0.73,
+                      "y": 0.4,
+                      "gap": 0,
+                      "rotation": 0
+                    },
+                    {
+                      "uid": "imw1sdrll4arlhe",
+                      "relation": "canvas",
+                      "x": 0.25,
+                      "y": 0.75,
+                      "gap": 0,
+                      "rotation": 0
+                    }
+                  ]
+                },
+                {
+                  "principle": "Смещение композиции чуть выше, монета ближе к правому краю книги.",
+                  "placements": [
+                    {
+                      "uid": "imw1sdrlls35mii",
+                      "relation": "canvas",
+                      "x": 0.48,
+                      "y": 0.48,
+                      "gap": 0,
+                      "rotation": 0
+                    },
+                    {
+                      "uid": "imw1sdrllkghjn3",
+                      "relation": "on",
+                      "targetUid": "imw1sdrlls35mii",
+                      "x": 0.63,
+                      "y": 0.29,
+                      "gap": 0,
+                      "rotation": 0
+                    },
+                    {
+                      "uid": "imw1sdrll4arlhe",
+                      "relation": "canvas",
+                      "x": 0.22,
+                      "y": 0.78,
+                      "gap": 0,
+                      "rotation": 0
+                    }
+                  ]
+                },
+                {
+                  "principle": "Диагональное расположение элементов для создания динамики.",
+                  "placements": [
+                    {
+                      "uid": "imw1sdrlls35mii",
+                      "relation": "canvas",
+                      "x": 0.52,
+                      "y": 0.52,
+                      "gap": 0,
+                      "rotation": 0
+                    },
+                    {
+                      "uid": "imw1sdrllkghjn3",
+                      "relation": "on",
+                      "targetUid": "imw1sdrlls35mii",
+                      "x": 0.26,
+                      "y": 0.6,
+                      "gap": 0,
+                      "rotation": 0
+                    },
+                    {
+                      "uid": "imw1sdrll4arlhe",
+                      "relation": "canvas",
+                      "x": 0.28,
+                      "y": 0.72,
+                      "gap": 0,
+                      "rotation": 0
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "format": "landscape",
+              "views": [
+                {
+                  "principle": "Горизонтальное размещение с книгой в центре и монетой на ней.",
+                  "placements": [
+                    {
+                      "uid": "imw1sdrlls35mii",
+                      "relation": "canvas",
+                      "x": 0.52,
+                      "y": 0.5,
+                      "gap": 0,
+                      "rotation": 0
+                    },
+                    {
+                      "uid": "imw1sdrllkghjn3",
+                      "relation": "on",
+                      "targetUid": "imw1sdrlls35mii",
+                      "x": 0.73,
+                      "y": 0.4,
+                      "gap": 0,
+                      "rotation": 0
+                    },
+                    {
+                      "uid": "imw1sdrll4arlhe",
+                      "relation": "canvas",
+                      "x": 0.2,
+                      "y": 0.75,
+                      "gap": 0,
+                      "rotation": 0
+                    }
+                  ]
+                },
+                {
+                  "principle": "Смещение главной группы правее, папка у левого края.",
+                  "placements": [
+                    {
+                      "uid": "imw1sdrlls35mii",
+                      "relation": "canvas",
+                      "x": 0.55,
+                      "y": 0.48,
+                      "gap": 0,
+                      "rotation": 0
+                    },
+                    {
+                      "uid": "imw1sdrllkghjn3",
+                      "relation": "on",
+                      "targetUid": "imw1sdrlls35mii",
+                      "x": 0.63,
+                      "y": 0.29,
+                      "gap": 0,
+                      "rotation": 0
+                    },
+                    {
+                      "uid": "imw1sdrll4arlhe",
+                      "relation": "canvas",
+                      "x": 0.18,
+                      "y": 0.72,
+                      "gap": 0,
+                      "rotation": 0
+                    }
+                  ]
+                },
+                {
+                  "principle": "Широкий формат с акцентом на горизонтальные связи.",
+                  "placements": [
+                    {
+                      "uid": "imw1sdrlls35mii",
+                      "relation": "canvas",
+                      "x": 0.5,
+                      "y": 0.52,
+                      "gap": 0,
+                      "rotation": 0
+                    },
+                    {
+                      "uid": "imw1sdrllkghjn3",
+                      "relation": "on",
+                      "targetUid": "imw1sdrlls35mii",
+                      "x": 0.26,
+                      "y": 0.6,
+                      "gap": 0,
+                      "rotation": 0
+                    },
+                    {
+                      "uid": "imw1sdrll4arlhe",
+                      "relation": "canvas",
+                      "x": 0.22,
+                      "y": 0.78,
+                      "gap": 0,
+                      "rotation": 0
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "format": "portrait",
+              "views": [
+                {
+                  "principle": "Вертикальная композиция с центрированной книгой.",
+                  "placements": [
+                    {
+                      "uid": "imw1sdrlls35mii",
+                      "relation": "canvas",
+                      "x": 0.5,
+                      "y": 0.48,
+                      "gap": 0,
+                      "rotation": 0
+                    },
+                    {
+                      "uid": "imw1sdrllkghjn3",
+                      "relation": "on",
+                      "targetUid": "imw1sdrlls35mii",
+                      "x": 0.73,
+                      "y": 0.4,
+                      "gap": 0,
+                      "rotation": 0
+                    },
+                    {
+                      "uid": "imw1sdrll4arlhe",
+                      "relation": "canvas",
+                      "x": 0.3,
+                      "y": 0.8,
+                      "gap": 0,
+                      "rotation": 0
+                    }
+                  ]
+                },
+                {
+                  "principle": "Вертикальный сдвиг элементов вверх для свободы внизу.",
+                  "placements": [
+                    {
+                      "uid": "imw1sdrlls35mii",
+                      "relation": "canvas",
+                      "x": 0.5,
+                      "y": 0.45,
+                      "gap": 0,
+                      "rotation": 0
+                    },
+                    {
+                      "uid": "imw1sdrllkghjn3",
+                      "relation": "on",
+                      "targetUid": "imw1sdrlls35mii",
+                      "x": 0.63,
+                      "y": 0.29,
+                      "gap": 0,
+                      "rotation": 0
+                    },
+                    {
+                      "uid": "imw1sdrll4arlhe",
+                      "relation": "canvas",
+                      "x": 0.28,
+                      "y": 0.82,
+                      "gap": 0,
+                      "rotation": 0
+                    }
+                  ]
+                },
+                {
+                  "principle": "Сбалансированная вертикальная стопка.",
+                  "placements": [
+                    {
+                      "uid": "imw1sdrlls35mii",
+                      "relation": "canvas",
+                      "x": 0.5,
+                      "y": 0.5,
+                      "gap": 0,
+                      "rotation": 0
+                    },
+                    {
+                      "uid": "imw1sdrllkghjn3",
+                      "relation": "on",
+                      "targetUid": "imw1sdrlls35mii",
+                      "x": 0.26,
+                      "y": 0.6,
+                      "gap": 0,
+                      "rotation": 0
+                    },
+                    {
+                      "uid": "imw1sdrll4arlhe",
+                      "relation": "canvas",
+                      "x": 0.32,
+                      "y": 0.78,
+                      "gap": 0,
+                      "rotation": 0
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "executionNotes": [
+            "Положение «Папка» уточнено по границам кадра и реестру пересечений."
+          ],
+          "width": 1000,
+          "height": 1000,
+          "format": "square",
+          "size": "S",
+          "palette": "aqua",
+          "layout": "compact",
+          "background": "pattern",
+          "backgroundDesign": "auto",
+          "supporting": true,
+          "showSupporting": true,
+          "camera": null,
+          "composition": {
+            "index": 0,
+            "options": [
+              {
+                "strategy": "balanced",
+                "title": "На опоре",
+                "principle": "Книга в центре, монета на странице, фоновая папка слева внизу.",
+                "placement": "on-surface"
+              },
+              {
+                "strategy": "spacious",
+                "title": "Рядом",
+                "principle": "Смещение композиции чуть выше, монета ближе к правому краю книги.",
+                "placement": "beside"
+              },
+              {
+                "strategy": "diagonal",
+                "title": "Другой ракурс группы",
+                "principle": "Диагональное расположение элементов для создания динамики.",
+                "placement": "across"
+              }
+            ]
+          },
+          "layerRelations": [
+            {
+              "back": "imw1sdrlls35mii",
+              "front": "imw1sdrllkghjn3",
+              "reason": "Предмет лежит на допустимой опоре."
+            },
+            {
+              "back": "imw1sdrll4arlhe",
+              "front": "imw1sdrlls35mii",
+              "reason": "Фоновый компаньон находится позади главной группы."
+            }
+          ],
+          "recipe": "auto",
+          "framing": "overview",
+          "focus": "coin",
+          "query": "Маленький вклад — большой результат",
+          "scale": 1,
+          "items": [
+            {
+              "uid": "imw1sdrll4arlhe",
+              "assetId": "folder",
+              "role": "background",
+              "x": 223.1677078853482,
+              "y": 814.8722921146518,
+              "rotation": 0,
+              "flipX": false,
+              "flipY": false,
+              "zone": "bottom-left",
+              "crop": "fragment"
+            },
+            {
+              "uid": "imw1sdrlls35mii",
+              "assetId": "book",
+              "role": "main",
+              "x": 521.69,
+              "y": 524.45,
+              "rotation": 0,
+              "flipX": false,
+              "flipY": false,
+              "zone": "auto",
+              "crop": "whole"
+            },
+            {
+              "uid": "imw1sdrllkghjn3",
+              "assetId": "coin",
+              "role": "main",
+              "x": 687.98,
+              "y": 475.55000000000007,
+              "rotation": 0,
+              "flipX": false,
+              "flipY": false,
+              "supportUid": "imw1sdrlls35mii",
+              "zone": "auto",
+              "crop": "whole"
+            }
+          ]
+        },
+        {
+          "version": 1,
+          "sizing": "native",
+          "environmentPrompt": "",
+          "environmentExplanation": [
+            "Главная группа объединяет открытую книгу как основу знаний и монету как символ результата.",
+            "Фоновая папка поддерживает деловой контекст и порядок на рабочей плоскости.",
+            "Композиция выстроена компактно с четким соблюдением опор и читаемости элементов."
+          ],
+          "groups": [
+            {
+              "kind": "collection",
+              "members": [
+                "imw1sdrlls35mii",
+                "imw1sdrllkghjn3"
+              ],
+              "reason": "Смещение композиции чуть выше, монета ближе к правому краю книги."
+            }
+          ],
+          "formatPlans": [],
+          "stagingPlans": [
+            {
+              "format": "square",
+              "views": [
+                {
+                  "principle": "Книга в центре, монета на странице, фоновая папка слева внизу.",
+                  "placements": [
+                    {
+                      "uid": "imw1sdrlls35mii",
+                      "relation": "canvas",
+                      "x": 0.5,
+                      "y": 0.5,
+                      "gap": 0,
+                      "rotation": 0
+                    },
+                    {
+                      "uid": "imw1sdrllkghjn3",
+                      "relation": "on",
+                      "targetUid": "imw1sdrlls35mii",
+                      "x": 0.73,
+                      "y": 0.4,
+                      "gap": 0,
+                      "rotation": 0
+                    },
+                    {
+                      "uid": "imw1sdrll4arlhe",
+                      "relation": "canvas",
+                      "x": 0.25,
+                      "y": 0.75,
+                      "gap": 0,
+                      "rotation": 0
+                    }
+                  ]
+                },
+                {
+                  "principle": "Смещение композиции чуть выше, монета ближе к правому краю книги.",
+                  "placements": [
+                    {
+                      "uid": "imw1sdrlls35mii",
+                      "relation": "canvas",
+                      "x": 0.48,
+                      "y": 0.48,
+                      "gap": 0,
+                      "rotation": 0
+                    },
+                    {
+                      "uid": "imw1sdrllkghjn3",
+                      "relation": "on",
+                      "targetUid": "imw1sdrlls35mii",
+                      "x": 0.63,
+                      "y": 0.29,
+                      "gap": 0,
+                      "rotation": 0
+                    },
+                    {
+                      "uid": "imw1sdrll4arlhe",
+                      "relation": "canvas",
+                      "x": 0.22,
+                      "y": 0.78,
+                      "gap": 0,
+                      "rotation": 0
+                    }
+                  ]
+                },
+                {
+                  "principle": "Диагональное расположение элементов для создания динамики.",
+                  "placements": [
+                    {
+                      "uid": "imw1sdrlls35mii",
+                      "relation": "canvas",
+                      "x": 0.52,
+                      "y": 0.52,
+                      "gap": 0,
+                      "rotation": 0
+                    },
+                    {
+                      "uid": "imw1sdrllkghjn3",
+                      "relation": "on",
+                      "targetUid": "imw1sdrlls35mii",
+                      "x": 0.26,
+                      "y": 0.6,
+                      "gap": 0,
+                      "rotation": 0
+                    },
+                    {
+                      "uid": "imw1sdrll4arlhe",
+                      "relation": "canvas",
+                      "x": 0.28,
+                      "y": 0.72,
+                      "gap": 0,
+                      "rotation": 0
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "format": "landscape",
+              "views": [
+                {
+                  "principle": "Горизонтальное размещение с книгой в центре и монетой на ней.",
+                  "placements": [
+                    {
+                      "uid": "imw1sdrlls35mii",
+                      "relation": "canvas",
+                      "x": 0.52,
+                      "y": 0.5,
+                      "gap": 0,
+                      "rotation": 0
+                    },
+                    {
+                      "uid": "imw1sdrllkghjn3",
+                      "relation": "on",
+                      "targetUid": "imw1sdrlls35mii",
+                      "x": 0.73,
+                      "y": 0.4,
+                      "gap": 0,
+                      "rotation": 0
+                    },
+                    {
+                      "uid": "imw1sdrll4arlhe",
+                      "relation": "canvas",
+                      "x": 0.2,
+                      "y": 0.75,
+                      "gap": 0,
+                      "rotation": 0
+                    }
+                  ]
+                },
+                {
+                  "principle": "Смещение главной группы правее, папка у левого края.",
+                  "placements": [
+                    {
+                      "uid": "imw1sdrlls35mii",
+                      "relation": "canvas",
+                      "x": 0.55,
+                      "y": 0.48,
+                      "gap": 0,
+                      "rotation": 0
+                    },
+                    {
+                      "uid": "imw1sdrllkghjn3",
+                      "relation": "on",
+                      "targetUid": "imw1sdrlls35mii",
+                      "x": 0.63,
+                      "y": 0.29,
+                      "gap": 0,
+                      "rotation": 0
+                    },
+                    {
+                      "uid": "imw1sdrll4arlhe",
+                      "relation": "canvas",
+                      "x": 0.18,
+                      "y": 0.72,
+                      "gap": 0,
+                      "rotation": 0
+                    }
+                  ]
+                },
+                {
+                  "principle": "Широкий формат с акцентом на горизонтальные связи.",
+                  "placements": [
+                    {
+                      "uid": "imw1sdrlls35mii",
+                      "relation": "canvas",
+                      "x": 0.5,
+                      "y": 0.52,
+                      "gap": 0,
+                      "rotation": 0
+                    },
+                    {
+                      "uid": "imw1sdrllkghjn3",
+                      "relation": "on",
+                      "targetUid": "imw1sdrlls35mii",
+                      "x": 0.26,
+                      "y": 0.6,
+                      "gap": 0,
+                      "rotation": 0
+                    },
+                    {
+                      "uid": "imw1sdrll4arlhe",
+                      "relation": "canvas",
+                      "x": 0.22,
+                      "y": 0.78,
+                      "gap": 0,
+                      "rotation": 0
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "format": "portrait",
+              "views": [
+                {
+                  "principle": "Вертикальная композиция с центрированной книгой.",
+                  "placements": [
+                    {
+                      "uid": "imw1sdrlls35mii",
+                      "relation": "canvas",
+                      "x": 0.5,
+                      "y": 0.48,
+                      "gap": 0,
+                      "rotation": 0
+                    },
+                    {
+                      "uid": "imw1sdrllkghjn3",
+                      "relation": "on",
+                      "targetUid": "imw1sdrlls35mii",
+                      "x": 0.73,
+                      "y": 0.4,
+                      "gap": 0,
+                      "rotation": 0
+                    },
+                    {
+                      "uid": "imw1sdrll4arlhe",
+                      "relation": "canvas",
+                      "x": 0.3,
+                      "y": 0.8,
+                      "gap": 0,
+                      "rotation": 0
+                    }
+                  ]
+                },
+                {
+                  "principle": "Вертикальный сдвиг элементов вверх для свободы внизу.",
+                  "placements": [
+                    {
+                      "uid": "imw1sdrlls35mii",
+                      "relation": "canvas",
+                      "x": 0.5,
+                      "y": 0.45,
+                      "gap": 0,
+                      "rotation": 0
+                    },
+                    {
+                      "uid": "imw1sdrllkghjn3",
+                      "relation": "on",
+                      "targetUid": "imw1sdrlls35mii",
+                      "x": 0.63,
+                      "y": 0.29,
+                      "gap": 0,
+                      "rotation": 0
+                    },
+                    {
+                      "uid": "imw1sdrll4arlhe",
+                      "relation": "canvas",
+                      "x": 0.28,
+                      "y": 0.82,
+                      "gap": 0,
+                      "rotation": 0
+                    }
+                  ]
+                },
+                {
+                  "principle": "Сбалансированная вертикальная стопка.",
+                  "placements": [
+                    {
+                      "uid": "imw1sdrlls35mii",
+                      "relation": "canvas",
+                      "x": 0.5,
+                      "y": 0.5,
+                      "gap": 0,
+                      "rotation": 0
+                    },
+                    {
+                      "uid": "imw1sdrllkghjn3",
+                      "relation": "on",
+                      "targetUid": "imw1sdrlls35mii",
+                      "x": 0.26,
+                      "y": 0.6,
+                      "gap": 0,
+                      "rotation": 0
+                    },
+                    {
+                      "uid": "imw1sdrll4arlhe",
+                      "relation": "canvas",
+                      "x": 0.32,
+                      "y": 0.78,
+                      "gap": 0,
+                      "rotation": 0
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "executionNotes": [
+            "Положение «Папка» уточнено по границам кадра и реестру пересечений."
+          ],
+          "width": 1000,
+          "height": 1000,
+          "format": "square",
+          "size": "S",
+          "palette": "aqua",
+          "layout": "compact",
+          "background": "pattern",
+          "backgroundDesign": "auto",
+          "supporting": true,
+          "showSupporting": true,
+          "camera": null,
+          "composition": {
+            "index": 1,
+            "options": [
+              {
+                "strategy": "balanced",
+                "title": "На опоре",
+                "principle": "Книга в центре, монета на странице, фоновая папка слева внизу.",
+                "placement": "on-surface"
+              },
+              {
+                "strategy": "spacious",
+                "title": "Рядом",
+                "principle": "Смещение композиции чуть выше, монета ближе к правому краю книги.",
+                "placement": "beside"
+              },
+              {
+                "strategy": "diagonal",
+                "title": "Другой ракурс группы",
+                "principle": "Диагональное расположение элементов для создания динамики.",
+                "placement": "across"
+              }
+            ]
+          },
+          "layerRelations": [
+            {
+              "back": "imw1sdrlls35mii",
+              "front": "imw1sdrllkghjn3",
+              "reason": "Предмет лежит на допустимой опоре."
+            },
+            {
+              "back": "imw1sdrll4arlhe",
+              "front": "imw1sdrlls35mii",
+              "reason": "Фоновый компаньон находится позади главной группы."
+            }
+          ],
+          "recipe": "auto",
+          "framing": "overview",
+          "focus": "coin",
+          "query": "Маленький вклад — большой результат",
+          "scale": 1,
+          "items": [
+            {
+              "uid": "imw1sdrll4arlhe",
+              "assetId": "folder",
+              "role": "background",
+              "x": 230.4638918739257,
+              "y": 809.7878170685473,
+              "rotation": 0,
+              "flipX": false,
+              "flipY": false,
+              "zone": "bottom-left",
+              "crop": "fragment"
+            },
+            {
+              "uid": "imw1sdrlls35mii",
+              "assetId": "book",
+              "role": "main",
+              "x": 501.69,
+              "y": 504.45,
+              "rotation": 0,
+              "flipX": false,
+              "flipY": false,
+              "zone": "auto",
+              "crop": "whole"
+            },
+            {
+              "uid": "imw1sdrllkghjn3",
+              "assetId": "coin",
+              "role": "main",
+              "x": 595.6800000000001,
+              "y": 401.76,
+              "rotation": 0,
+              "flipX": false,
+              "flipY": false,
+              "supportUid": "imw1sdrlls35mii",
+              "zone": "auto",
+              "crop": "whole"
+            }
+          ]
+        },
+        {
+          "version": 1,
+          "sizing": "native",
+          "environmentPrompt": "",
+          "environmentExplanation": [
+            "Главная группа объединяет открытую книгу как основу знаний и монету как символ результата.",
+            "Фоновая папка поддерживает деловой контекст и порядок на рабочей плоскости.",
+            "Композиция выстроена компактно с четким соблюдением опор и читаемости элементов."
+          ],
+          "groups": [
+            {
+              "kind": "collection",
+              "members": [
+                "imw1sdrlls35mii",
+                "imw1sdrllkghjn3"
+              ],
+              "reason": "Диагональное расположение элементов для создания динамики."
+            }
+          ],
+          "formatPlans": [],
+          "stagingPlans": [
+            {
+              "format": "square",
+              "views": [
+                {
+                  "principle": "Книга в центре, монета на странице, фоновая папка слева внизу.",
+                  "placements": [
+                    {
+                      "uid": "imw1sdrlls35mii",
+                      "relation": "canvas",
+                      "x": 0.5,
+                      "y": 0.5,
+                      "gap": 0,
+                      "rotation": 0
+                    },
+                    {
+                      "uid": "imw1sdrllkghjn3",
+                      "relation": "on",
+                      "targetUid": "imw1sdrlls35mii",
+                      "x": 0.73,
+                      "y": 0.4,
+                      "gap": 0,
+                      "rotation": 0
+                    },
+                    {
+                      "uid": "imw1sdrll4arlhe",
+                      "relation": "canvas",
+                      "x": 0.25,
+                      "y": 0.75,
+                      "gap": 0,
+                      "rotation": 0
+                    }
+                  ]
+                },
+                {
+                  "principle": "Смещение композиции чуть выше, монета ближе к правому краю книги.",
+                  "placements": [
+                    {
+                      "uid": "imw1sdrlls35mii",
+                      "relation": "canvas",
+                      "x": 0.48,
+                      "y": 0.48,
+                      "gap": 0,
+                      "rotation": 0
+                    },
+                    {
+                      "uid": "imw1sdrllkghjn3",
+                      "relation": "on",
+                      "targetUid": "imw1sdrlls35mii",
+                      "x": 0.63,
+                      "y": 0.29,
+                      "gap": 0,
+                      "rotation": 0
+                    },
+                    {
+                      "uid": "imw1sdrll4arlhe",
+                      "relation": "canvas",
+                      "x": 0.22,
+                      "y": 0.78,
+                      "gap": 0,
+                      "rotation": 0
+                    }
+                  ]
+                },
+                {
+                  "principle": "Диагональное расположение элементов для создания динамики.",
+                  "placements": [
+                    {
+                      "uid": "imw1sdrlls35mii",
+                      "relation": "canvas",
+                      "x": 0.52,
+                      "y": 0.52,
+                      "gap": 0,
+                      "rotation": 0
+                    },
+                    {
+                      "uid": "imw1sdrllkghjn3",
+                      "relation": "on",
+                      "targetUid": "imw1sdrlls35mii",
+                      "x": 0.26,
+                      "y": 0.6,
+                      "gap": 0,
+                      "rotation": 0
+                    },
+                    {
+                      "uid": "imw1sdrll4arlhe",
+                      "relation": "canvas",
+                      "x": 0.28,
+                      "y": 0.72,
+                      "gap": 0,
+                      "rotation": 0
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "format": "landscape",
+              "views": [
+                {
+                  "principle": "Горизонтальное размещение с книгой в центре и монетой на ней.",
+                  "placements": [
+                    {
+                      "uid": "imw1sdrlls35mii",
+                      "relation": "canvas",
+                      "x": 0.52,
+                      "y": 0.5,
+                      "gap": 0,
+                      "rotation": 0
+                    },
+                    {
+                      "uid": "imw1sdrllkghjn3",
+                      "relation": "on",
+                      "targetUid": "imw1sdrlls35mii",
+                      "x": 0.73,
+                      "y": 0.4,
+                      "gap": 0,
+                      "rotation": 0
+                    },
+                    {
+                      "uid": "imw1sdrll4arlhe",
+                      "relation": "canvas",
+                      "x": 0.2,
+                      "y": 0.75,
+                      "gap": 0,
+                      "rotation": 0
+                    }
+                  ]
+                },
+                {
+                  "principle": "Смещение главной группы правее, папка у левого края.",
+                  "placements": [
+                    {
+                      "uid": "imw1sdrlls35mii",
+                      "relation": "canvas",
+                      "x": 0.55,
+                      "y": 0.48,
+                      "gap": 0,
+                      "rotation": 0
+                    },
+                    {
+                      "uid": "imw1sdrllkghjn3",
+                      "relation": "on",
+                      "targetUid": "imw1sdrlls35mii",
+                      "x": 0.63,
+                      "y": 0.29,
+                      "gap": 0,
+                      "rotation": 0
+                    },
+                    {
+                      "uid": "imw1sdrll4arlhe",
+                      "relation": "canvas",
+                      "x": 0.18,
+                      "y": 0.72,
+                      "gap": 0,
+                      "rotation": 0
+                    }
+                  ]
+                },
+                {
+                  "principle": "Широкий формат с акцентом на горизонтальные связи.",
+                  "placements": [
+                    {
+                      "uid": "imw1sdrlls35mii",
+                      "relation": "canvas",
+                      "x": 0.5,
+                      "y": 0.52,
+                      "gap": 0,
+                      "rotation": 0
+                    },
+                    {
+                      "uid": "imw1sdrllkghjn3",
+                      "relation": "on",
+                      "targetUid": "imw1sdrlls35mii",
+                      "x": 0.26,
+                      "y": 0.6,
+                      "gap": 0,
+                      "rotation": 0
+                    },
+                    {
+                      "uid": "imw1sdrll4arlhe",
+                      "relation": "canvas",
+                      "x": 0.22,
+                      "y": 0.78,
+                      "gap": 0,
+                      "rotation": 0
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "format": "portrait",
+              "views": [
+                {
+                  "principle": "Вертикальная композиция с центрированной книгой.",
+                  "placements": [
+                    {
+                      "uid": "imw1sdrlls35mii",
+                      "relation": "canvas",
+                      "x": 0.5,
+                      "y": 0.48,
+                      "gap": 0,
+                      "rotation": 0
+                    },
+                    {
+                      "uid": "imw1sdrllkghjn3",
+                      "relation": "on",
+                      "targetUid": "imw1sdrlls35mii",
+                      "x": 0.73,
+                      "y": 0.4,
+                      "gap": 0,
+                      "rotation": 0
+                    },
+                    {
+                      "uid": "imw1sdrll4arlhe",
+                      "relation": "canvas",
+                      "x": 0.3,
+                      "y": 0.8,
+                      "gap": 0,
+                      "rotation": 0
+                    }
+                  ]
+                },
+                {
+                  "principle": "Вертикальный сдвиг элементов вверх для свободы внизу.",
+                  "placements": [
+                    {
+                      "uid": "imw1sdrlls35mii",
+                      "relation": "canvas",
+                      "x": 0.5,
+                      "y": 0.45,
+                      "gap": 0,
+                      "rotation": 0
+                    },
+                    {
+                      "uid": "imw1sdrllkghjn3",
+                      "relation": "on",
+                      "targetUid": "imw1sdrlls35mii",
+                      "x": 0.63,
+                      "y": 0.29,
+                      "gap": 0,
+                      "rotation": 0
+                    },
+                    {
+                      "uid": "imw1sdrll4arlhe",
+                      "relation": "canvas",
+                      "x": 0.28,
+                      "y": 0.82,
+                      "gap": 0,
+                      "rotation": 0
+                    }
+                  ]
+                },
+                {
+                  "principle": "Сбалансированная вертикальная стопка.",
+                  "placements": [
+                    {
+                      "uid": "imw1sdrlls35mii",
+                      "relation": "canvas",
+                      "x": 0.5,
+                      "y": 0.5,
+                      "gap": 0,
+                      "rotation": 0
+                    },
+                    {
+                      "uid": "imw1sdrllkghjn3",
+                      "relation": "on",
+                      "targetUid": "imw1sdrlls35mii",
+                      "x": 0.26,
+                      "y": 0.6,
+                      "gap": 0,
+                      "rotation": 0
+                    },
+                    {
+                      "uid": "imw1sdrll4arlhe",
+                      "relation": "canvas",
+                      "x": 0.32,
+                      "y": 0.78,
+                      "gap": 0,
+                      "rotation": 0
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "executionNotes": [
+            "Положение «Папка» уточнено по границам кадра и реестру пересечений."
+          ],
+          "width": 1000,
+          "height": 1000,
+          "format": "square",
+          "size": "S",
+          "palette": "aqua",
+          "layout": "compact",
+          "background": "pattern",
+          "backgroundDesign": "auto",
+          "supporting": true,
+          "showSupporting": true,
+          "camera": null,
+          "composition": {
+            "index": 2,
+            "options": [
+              {
+                "strategy": "balanced",
+                "title": "На опоре",
+                "principle": "Книга в центре, монета на странице, фоновая папка слева внизу.",
+                "placement": "on-surface"
+              },
+              {
+                "strategy": "spacious",
+                "title": "Рядом",
+                "principle": "Смещение композиции чуть выше, монета ближе к правому краю книги.",
+                "placement": "beside"
+              },
+              {
+                "strategy": "diagonal",
+                "title": "Другой ракурс группы",
+                "principle": "Диагональное расположение элементов для создания динамики.",
+                "placement": "across"
+              }
+            ]
+          },
+          "layerRelations": [
+            {
+              "back": "imw1sdrlls35mii",
+              "front": "imw1sdrllkghjn3",
+              "reason": "Предмет лежит на допустимой опоре."
+            },
+            {
+              "back": "imw1sdrll4arlhe",
+              "front": "imw1sdrlls35mii",
+              "reason": "Фоновый компаньон находится позади главной группы."
+            }
+          ],
+          "recipe": "auto",
+          "framing": "overview",
+          "focus": "coin",
+          "query": "Маленький вклад — большой результат",
+          "scale": 1,
+          "items": [
+            {
+              "uid": "imw1sdrll4arlhe",
+              "assetId": "folder",
+              "role": "background",
+              "x": 206.23050335955037,
+              "y": 815.374580533708,
+              "rotation": 0,
+              "flipX": false,
+              "flipY": false,
+              "zone": "bottom-left",
+              "crop": "fragment"
+            },
+            {
+              "uid": "imw1sdrlls35mii",
+              "assetId": "book",
+              "role": "main",
+              "x": 541.69,
+              "y": 544.45,
+              "rotation": 0,
+              "flipX": false,
+              "flipY": false,
+              "zone": "auto",
+              "crop": "whole"
+            },
+            {
+              "uid": "imw1sdrllkghjn3",
+              "assetId": "coin",
+              "role": "main",
+              "x": 368.1700000000001,
+              "y": 593.35,
+              "rotation": 0,
+              "flipX": false,
+              "flipY": false,
+              "supportUid": "imw1sdrlls35mii",
+              "zone": "auto",
+              "crop": "whole"
+            }
+          ]
+        }
+      ],
+      "landscape": [
+        {
+          "version": 1,
+          "sizing": "native",
+          "environmentPrompt": "",
+          "environmentExplanation": [
+            "Главная группа объединяет открытую книгу как основу знаний и монету как символ результата.",
+            "Фоновая папка поддерживает деловой контекст и порядок на рабочей плоскости.",
+            "Композиция выстроена компактно с четким соблюдением опор и читаемости элементов."
+          ],
+          "groups": [
+            {
+              "kind": "collection",
+              "members": [
+                "imw1sdrlls35mii",
+                "imw1sdrllkghjn3"
+              ],
+              "reason": "Горизонтальное размещение с книгой в центре и монетой на ней."
+            }
+          ],
+          "formatPlans": [],
+          "stagingPlans": [
+            {
+              "format": "square",
+              "views": [
+                {
+                  "principle": "Книга в центре, монета на странице, фоновая папка слева внизу.",
+                  "placements": [
+                    {
+                      "uid": "imw1sdrlls35mii",
+                      "relation": "canvas",
+                      "x": 0.5,
+                      "y": 0.5,
+                      "gap": 0,
+                      "rotation": 0
+                    },
+                    {
+                      "uid": "imw1sdrllkghjn3",
+                      "relation": "on",
+                      "targetUid": "imw1sdrlls35mii",
+                      "x": 0.73,
+                      "y": 0.4,
+                      "gap": 0,
+                      "rotation": 0
+                    },
+                    {
+                      "uid": "imw1sdrll4arlhe",
+                      "relation": "canvas",
+                      "x": 0.25,
+                      "y": 0.75,
+                      "gap": 0,
+                      "rotation": 0
+                    }
+                  ]
+                },
+                {
+                  "principle": "Смещение композиции чуть выше, монета ближе к правому краю книги.",
+                  "placements": [
+                    {
+                      "uid": "imw1sdrlls35mii",
+                      "relation": "canvas",
+                      "x": 0.48,
+                      "y": 0.48,
+                      "gap": 0,
+                      "rotation": 0
+                    },
+                    {
+                      "uid": "imw1sdrllkghjn3",
+                      "relation": "on",
+                      "targetUid": "imw1sdrlls35mii",
+                      "x": 0.63,
+                      "y": 0.29,
+                      "gap": 0,
+                      "rotation": 0
+                    },
+                    {
+                      "uid": "imw1sdrll4arlhe",
+                      "relation": "canvas",
+                      "x": 0.22,
+                      "y": 0.78,
+                      "gap": 0,
+                      "rotation": 0
+                    }
+                  ]
+                },
+                {
+                  "principle": "Диагональное расположение элементов для создания динамики.",
+                  "placements": [
+                    {
+                      "uid": "imw1sdrlls35mii",
+                      "relation": "canvas",
+                      "x": 0.52,
+                      "y": 0.52,
+                      "gap": 0,
+                      "rotation": 0
+                    },
+                    {
+                      "uid": "imw1sdrllkghjn3",
+                      "relation": "on",
+                      "targetUid": "imw1sdrlls35mii",
+                      "x": 0.26,
+                      "y": 0.6,
+                      "gap": 0,
+                      "rotation": 0
+                    },
+                    {
+                      "uid": "imw1sdrll4arlhe",
+                      "relation": "canvas",
+                      "x": 0.28,
+                      "y": 0.72,
+                      "gap": 0,
+                      "rotation": 0
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "format": "landscape",
+              "views": [
+                {
+                  "principle": "Горизонтальное размещение с книгой в центре и монетой на ней.",
+                  "placements": [
+                    {
+                      "uid": "imw1sdrlls35mii",
+                      "relation": "canvas",
+                      "x": 0.52,
+                      "y": 0.5,
+                      "gap": 0,
+                      "rotation": 0
+                    },
+                    {
+                      "uid": "imw1sdrllkghjn3",
+                      "relation": "on",
+                      "targetUid": "imw1sdrlls35mii",
+                      "x": 0.73,
+                      "y": 0.4,
+                      "gap": 0,
+                      "rotation": 0
+                    },
+                    {
+                      "uid": "imw1sdrll4arlhe",
+                      "relation": "canvas",
+                      "x": 0.2,
+                      "y": 0.75,
+                      "gap": 0,
+                      "rotation": 0
+                    }
+                  ]
+                },
+                {
+                  "principle": "Смещение главной группы правее, папка у левого края.",
+                  "placements": [
+                    {
+                      "uid": "imw1sdrlls35mii",
+                      "relation": "canvas",
+                      "x": 0.55,
+                      "y": 0.48,
+                      "gap": 0,
+                      "rotation": 0
+                    },
+                    {
+                      "uid": "imw1sdrllkghjn3",
+                      "relation": "on",
+                      "targetUid": "imw1sdrlls35mii",
+                      "x": 0.63,
+                      "y": 0.29,
+                      "gap": 0,
+                      "rotation": 0
+                    },
+                    {
+                      "uid": "imw1sdrll4arlhe",
+                      "relation": "canvas",
+                      "x": 0.18,
+                      "y": 0.72,
+                      "gap": 0,
+                      "rotation": 0
+                    }
+                  ]
+                },
+                {
+                  "principle": "Широкий формат с акцентом на горизонтальные связи.",
+                  "placements": [
+                    {
+                      "uid": "imw1sdrlls35mii",
+                      "relation": "canvas",
+                      "x": 0.5,
+                      "y": 0.52,
+                      "gap": 0,
+                      "rotation": 0
+                    },
+                    {
+                      "uid": "imw1sdrllkghjn3",
+                      "relation": "on",
+                      "targetUid": "imw1sdrlls35mii",
+                      "x": 0.26,
+                      "y": 0.6,
+                      "gap": 0,
+                      "rotation": 0
+                    },
+                    {
+                      "uid": "imw1sdrll4arlhe",
+                      "relation": "canvas",
+                      "x": 0.22,
+                      "y": 0.78,
+                      "gap": 0,
+                      "rotation": 0
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "format": "portrait",
+              "views": [
+                {
+                  "principle": "Вертикальная композиция с центрированной книгой.",
+                  "placements": [
+                    {
+                      "uid": "imw1sdrlls35mii",
+                      "relation": "canvas",
+                      "x": 0.5,
+                      "y": 0.48,
+                      "gap": 0,
+                      "rotation": 0
+                    },
+                    {
+                      "uid": "imw1sdrllkghjn3",
+                      "relation": "on",
+                      "targetUid": "imw1sdrlls35mii",
+                      "x": 0.73,
+                      "y": 0.4,
+                      "gap": 0,
+                      "rotation": 0
+                    },
+                    {
+                      "uid": "imw1sdrll4arlhe",
+                      "relation": "canvas",
+                      "x": 0.3,
+                      "y": 0.8,
+                      "gap": 0,
+                      "rotation": 0
+                    }
+                  ]
+                },
+                {
+                  "principle": "Вертикальный сдвиг элементов вверх для свободы внизу.",
+                  "placements": [
+                    {
+                      "uid": "imw1sdrlls35mii",
+                      "relation": "canvas",
+                      "x": 0.5,
+                      "y": 0.45,
+                      "gap": 0,
+                      "rotation": 0
+                    },
+                    {
+                      "uid": "imw1sdrllkghjn3",
+                      "relation": "on",
+                      "targetUid": "imw1sdrlls35mii",
+                      "x": 0.63,
+                      "y": 0.29,
+                      "gap": 0,
+                      "rotation": 0
+                    },
+                    {
+                      "uid": "imw1sdrll4arlhe",
+                      "relation": "canvas",
+                      "x": 0.28,
+                      "y": 0.82,
+                      "gap": 0,
+                      "rotation": 0
+                    }
+                  ]
+                },
+                {
+                  "principle": "Сбалансированная вертикальная стопка.",
+                  "placements": [
+                    {
+                      "uid": "imw1sdrlls35mii",
+                      "relation": "canvas",
+                      "x": 0.5,
+                      "y": 0.5,
+                      "gap": 0,
+                      "rotation": 0
+                    },
+                    {
+                      "uid": "imw1sdrllkghjn3",
+                      "relation": "on",
+                      "targetUid": "imw1sdrlls35mii",
+                      "x": 0.26,
+                      "y": 0.6,
+                      "gap": 0,
+                      "rotation": 0
+                    },
+                    {
+                      "uid": "imw1sdrll4arlhe",
+                      "relation": "canvas",
+                      "x": 0.32,
+                      "y": 0.78,
+                      "gap": 0,
+                      "rotation": 0
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "executionNotes": [
+            "Положение «Папка» уточнено по границам кадра и реестру пересечений."
+          ],
+          "width": 1200,
+          "height": 630,
+          "format": "landscape",
+          "size": "S",
+          "palette": "aqua",
+          "layout": "compact",
+          "background": "pattern",
+          "backgroundDesign": "auto",
+          "supporting": true,
+          "showSupporting": true,
+          "camera": null,
+          "composition": {
+            "index": 0,
+            "options": [
+              {
+                "strategy": "balanced",
+                "title": "На опоре",
+                "principle": "Книга в центре, монета на странице, фоновая папка слева внизу.",
+                "placement": "on-surface"
+              },
+              {
+                "strategy": "spacious",
+                "title": "Рядом",
+                "principle": "Смещение композиции чуть выше, монета ближе к правому краю книги.",
+                "placement": "beside"
+              },
+              {
+                "strategy": "diagonal",
+                "title": "Другой ракурс группы",
+                "principle": "Диагональное расположение элементов для создания динамики.",
+                "placement": "across"
+              }
+            ]
+          },
+          "layerRelations": [
+            {
+              "back": "imw1sdrlls35mii",
+              "front": "imw1sdrllkghjn3",
+              "reason": "Предмет лежит на допустимой опоре."
+            },
+            {
+              "back": "imw1sdrll4arlhe",
+              "front": "imw1sdrlls35mii",
+              "reason": "Фоновый компаньон находится позади главной группы."
+            }
+          ],
+          "recipe": "auto",
+          "framing": "overview",
+          "focus": "coin",
+          "query": "Маленький вклад — большой результат",
+          "scale": 1,
+          "items": [
+            {
+              "uid": "imw1sdrll4arlhe",
+              "assetId": "folder",
+              "role": "background",
+              "x": 165.56803791678882,
+              "y": 526.417015698192,
+              "rotation": 0,
+              "flipX": false,
+              "flipY": false,
+              "zone": "bottom-left",
+              "crop": "fragment"
+            },
+            {
+              "uid": "imw1sdrlls35mii",
+              "assetId": "book",
+              "role": "main",
+              "x": 645.69,
+              "y": 339.45,
+              "rotation": 0,
+              "flipX": false,
+              "flipY": false,
+              "zone": "auto",
+              "crop": "whole"
+            },
+            {
+              "uid": "imw1sdrllkghjn3",
+              "assetId": "coin",
+              "role": "main",
+              "x": 811.98,
+              "y": 290.55,
+              "rotation": 0,
+              "flipX": false,
+              "flipY": false,
+              "supportUid": "imw1sdrlls35mii",
+              "zone": "auto",
+              "crop": "whole"
+            }
+          ]
+        },
+        {
+          "version": 1,
+          "sizing": "native",
+          "environmentPrompt": "",
+          "environmentExplanation": [
+            "Главная группа объединяет открытую книгу как основу знаний и монету как символ результата.",
+            "Фоновая папка поддерживает деловой контекст и порядок на рабочей плоскости.",
+            "Композиция выстроена компактно с четким соблюдением опор и читаемости элементов."
+          ],
+          "groups": [
+            {
+              "kind": "collection",
+              "members": [
+                "imw1sdrlls35mii",
+                "imw1sdrllkghjn3"
+              ],
+              "reason": "Смещение главной группы правее, папка у левого края."
+            }
+          ],
+          "formatPlans": [],
+          "stagingPlans": [
+            {
+              "format": "square",
+              "views": [
+                {
+                  "principle": "Книга в центре, монета на странице, фоновая папка слева внизу.",
+                  "placements": [
+                    {
+                      "uid": "imw1sdrlls35mii",
+                      "relation": "canvas",
+                      "x": 0.5,
+                      "y": 0.5,
+                      "gap": 0,
+                      "rotation": 0
+                    },
+                    {
+                      "uid": "imw1sdrllkghjn3",
+                      "relation": "on",
+                      "targetUid": "imw1sdrlls35mii",
+                      "x": 0.73,
+                      "y": 0.4,
+                      "gap": 0,
+                      "rotation": 0
+                    },
+                    {
+                      "uid": "imw1sdrll4arlhe",
+                      "relation": "canvas",
+                      "x": 0.25,
+                      "y": 0.75,
+                      "gap": 0,
+                      "rotation": 0
+                    }
+                  ]
+                },
+                {
+                  "principle": "Смещение композиции чуть выше, монета ближе к правому краю книги.",
+                  "placements": [
+                    {
+                      "uid": "imw1sdrlls35mii",
+                      "relation": "canvas",
+                      "x": 0.48,
+                      "y": 0.48,
+                      "gap": 0,
+                      "rotation": 0
+                    },
+                    {
+                      "uid": "imw1sdrllkghjn3",
+                      "relation": "on",
+                      "targetUid": "imw1sdrlls35mii",
+                      "x": 0.63,
+                      "y": 0.29,
+                      "gap": 0,
+                      "rotation": 0
+                    },
+                    {
+                      "uid": "imw1sdrll4arlhe",
+                      "relation": "canvas",
+                      "x": 0.22,
+                      "y": 0.78,
+                      "gap": 0,
+                      "rotation": 0
+                    }
+                  ]
+                },
+                {
+                  "principle": "Диагональное расположение элементов для создания динамики.",
+                  "placements": [
+                    {
+                      "uid": "imw1sdrlls35mii",
+                      "relation": "canvas",
+                      "x": 0.52,
+                      "y": 0.52,
+                      "gap": 0,
+                      "rotation": 0
+                    },
+                    {
+                      "uid": "imw1sdrllkghjn3",
+                      "relation": "on",
+                      "targetUid": "imw1sdrlls35mii",
+                      "x": 0.26,
+                      "y": 0.6,
+                      "gap": 0,
+                      "rotation": 0
+                    },
+                    {
+                      "uid": "imw1sdrll4arlhe",
+                      "relation": "canvas",
+                      "x": 0.28,
+                      "y": 0.72,
+                      "gap": 0,
+                      "rotation": 0
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "format": "landscape",
+              "views": [
+                {
+                  "principle": "Горизонтальное размещение с книгой в центре и монетой на ней.",
+                  "placements": [
+                    {
+                      "uid": "imw1sdrlls35mii",
+                      "relation": "canvas",
+                      "x": 0.52,
+                      "y": 0.5,
+                      "gap": 0,
+                      "rotation": 0
+                    },
+                    {
+                      "uid": "imw1sdrllkghjn3",
+                      "relation": "on",
+                      "targetUid": "imw1sdrlls35mii",
+                      "x": 0.73,
+                      "y": 0.4,
+                      "gap": 0,
+                      "rotation": 0
+                    },
+                    {
+                      "uid": "imw1sdrll4arlhe",
+                      "relation": "canvas",
+                      "x": 0.2,
+                      "y": 0.75,
+                      "gap": 0,
+                      "rotation": 0
+                    }
+                  ]
+                },
+                {
+                  "principle": "Смещение главной группы правее, папка у левого края.",
+                  "placements": [
+                    {
+                      "uid": "imw1sdrlls35mii",
+                      "relation": "canvas",
+                      "x": 0.55,
+                      "y": 0.48,
+                      "gap": 0,
+                      "rotation": 0
+                    },
+                    {
+                      "uid": "imw1sdrllkghjn3",
+                      "relation": "on",
+                      "targetUid": "imw1sdrlls35mii",
+                      "x": 0.63,
+                      "y": 0.29,
+                      "gap": 0,
+                      "rotation": 0
+                    },
+                    {
+                      "uid": "imw1sdrll4arlhe",
+                      "relation": "canvas",
+                      "x": 0.18,
+                      "y": 0.72,
+                      "gap": 0,
+                      "rotation": 0
+                    }
+                  ]
+                },
+                {
+                  "principle": "Широкий формат с акцентом на горизонтальные связи.",
+                  "placements": [
+                    {
+                      "uid": "imw1sdrlls35mii",
+                      "relation": "canvas",
+                      "x": 0.5,
+                      "y": 0.52,
+                      "gap": 0,
+                      "rotation": 0
+                    },
+                    {
+                      "uid": "imw1sdrllkghjn3",
+                      "relation": "on",
+                      "targetUid": "imw1sdrlls35mii",
+                      "x": 0.26,
+                      "y": 0.6,
+                      "gap": 0,
+                      "rotation": 0
+                    },
+                    {
+                      "uid": "imw1sdrll4arlhe",
+                      "relation": "canvas",
+                      "x": 0.22,
+                      "y": 0.78,
+                      "gap": 0,
+                      "rotation": 0
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "format": "portrait",
+              "views": [
+                {
+                  "principle": "Вертикальная композиция с центрированной книгой.",
+                  "placements": [
+                    {
+                      "uid": "imw1sdrlls35mii",
+                      "relation": "canvas",
+                      "x": 0.5,
+                      "y": 0.48,
+                      "gap": 0,
+                      "rotation": 0
+                    },
+                    {
+                      "uid": "imw1sdrllkghjn3",
+                      "relation": "on",
+                      "targetUid": "imw1sdrlls35mii",
+                      "x": 0.73,
+                      "y": 0.4,
+                      "gap": 0,
+                      "rotation": 0
+                    },
+                    {
+                      "uid": "imw1sdrll4arlhe",
+                      "relation": "canvas",
+                      "x": 0.3,
+                      "y": 0.8,
+                      "gap": 0,
+                      "rotation": 0
+                    }
+                  ]
+                },
+                {
+                  "principle": "Вертикальный сдвиг элементов вверх для свободы внизу.",
+                  "placements": [
+                    {
+                      "uid": "imw1sdrlls35mii",
+                      "relation": "canvas",
+                      "x": 0.5,
+                      "y": 0.45,
+                      "gap": 0,
+                      "rotation": 0
+                    },
+                    {
+                      "uid": "imw1sdrllkghjn3",
+                      "relation": "on",
+                      "targetUid": "imw1sdrlls35mii",
+                      "x": 0.63,
+                      "y": 0.29,
+                      "gap": 0,
+                      "rotation": 0
+                    },
+                    {
+                      "uid": "imw1sdrll4arlhe",
+                      "relation": "canvas",
+                      "x": 0.28,
+                      "y": 0.82,
+                      "gap": 0,
+                      "rotation": 0
+                    }
+                  ]
+                },
+                {
+                  "principle": "Сбалансированная вертикальная стопка.",
+                  "placements": [
+                    {
+                      "uid": "imw1sdrlls35mii",
+                      "relation": "canvas",
+                      "x": 0.5,
+                      "y": 0.5,
+                      "gap": 0,
+                      "rotation": 0
+                    },
+                    {
+                      "uid": "imw1sdrllkghjn3",
+                      "relation": "on",
+                      "targetUid": "imw1sdrlls35mii",
+                      "x": 0.26,
+                      "y": 0.6,
+                      "gap": 0,
+                      "rotation": 0
+                    },
+                    {
+                      "uid": "imw1sdrll4arlhe",
+                      "relation": "canvas",
+                      "x": 0.32,
+                      "y": 0.78,
+                      "gap": 0,
+                      "rotation": 0
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "executionNotes": [
+            "Положение «Папка» уточнено по границам кадра и реестру пересечений."
+          ],
+          "width": 1200,
+          "height": 630,
+          "format": "landscape",
+          "size": "S",
+          "palette": "aqua",
+          "layout": "compact",
+          "background": "pattern",
+          "backgroundDesign": "auto",
+          "supporting": true,
+          "showSupporting": true,
+          "camera": null,
+          "composition": {
+            "index": 1,
+            "options": [
+              {
+                "strategy": "balanced",
+                "title": "На опоре",
+                "principle": "Книга в центре, монета на странице, фоновая папка слева внизу.",
+                "placement": "on-surface"
+              },
+              {
+                "strategy": "spacious",
+                "title": "Рядом",
+                "principle": "Смещение композиции чуть выше, монета ближе к правому краю книги.",
+                "placement": "beside"
+              },
+              {
+                "strategy": "diagonal",
+                "title": "Другой ракурс группы",
+                "principle": "Диагональное расположение элементов для создания динамики.",
+                "placement": "across"
+              }
+            ]
+          },
+          "layerRelations": [
+            {
+              "back": "imw1sdrlls35mii",
+              "front": "imw1sdrllkghjn3",
+              "reason": "Предмет лежит на допустимой опоре."
+            },
+            {
+              "back": "imw1sdrll4arlhe",
+              "front": "imw1sdrlls35mii",
+              "reason": "Фоновый компаньон находится позади главной группы."
+            }
+          ],
+          "recipe": "auto",
+          "framing": "overview",
+          "focus": "coin",
+          "query": "Маленький вклад — большой результат",
+          "scale": 1,
+          "items": [
+            {
+              "uid": "imw1sdrll4arlhe",
+              "assetId": "folder",
+              "role": "background",
+              "x": 168.42170259894385,
+              "y": 491.4613661419812,
+              "rotation": 0,
+              "flipX": false,
+              "flipY": false,
+              "zone": "bottom-left",
+              "crop": "fragment"
+            },
+            {
+              "uid": "imw1sdrlls35mii",
+              "assetId": "book",
+              "role": "main",
+              "x": 681.69,
+              "y": 326.84999999999997,
+              "rotation": 0,
+              "flipX": false,
+              "flipY": false,
+              "zone": "auto",
+              "crop": "whole"
+            },
+            {
+              "uid": "imw1sdrllkghjn3",
+              "assetId": "coin",
+              "role": "main",
+              "x": 775.6800000000001,
+              "y": 224.15999999999997,
+              "rotation": 0,
+              "flipX": false,
+              "flipY": false,
+              "supportUid": "imw1sdrlls35mii",
+              "zone": "auto",
+              "crop": "whole"
+            }
+          ]
+        },
+        {
+          "version": 1,
+          "sizing": "native",
+          "environmentPrompt": "",
+          "environmentExplanation": [
+            "Главная группа объединяет открытую книгу как основу знаний и монету как символ результата.",
+            "Фоновая папка поддерживает деловой контекст и порядок на рабочей плоскости.",
+            "Композиция выстроена компактно с четким соблюдением опор и читаемости элементов."
+          ],
+          "groups": [
+            {
+              "kind": "collection",
+              "members": [
+                "imw1sdrlls35mii",
+                "imw1sdrllkghjn3"
+              ],
+              "reason": "Широкий формат с акцентом на горизонтальные связи."
+            }
+          ],
+          "formatPlans": [],
+          "stagingPlans": [
+            {
+              "format": "square",
+              "views": [
+                {
+                  "principle": "Книга в центре, монета на странице, фоновая папка слева внизу.",
+                  "placements": [
+                    {
+                      "uid": "imw1sdrlls35mii",
+                      "relation": "canvas",
+                      "x": 0.5,
+                      "y": 0.5,
+                      "gap": 0,
+                      "rotation": 0
+                    },
+                    {
+                      "uid": "imw1sdrllkghjn3",
+                      "relation": "on",
+                      "targetUid": "imw1sdrlls35mii",
+                      "x": 0.73,
+                      "y": 0.4,
+                      "gap": 0,
+                      "rotation": 0
+                    },
+                    {
+                      "uid": "imw1sdrll4arlhe",
+                      "relation": "canvas",
+                      "x": 0.25,
+                      "y": 0.75,
+                      "gap": 0,
+                      "rotation": 0
+                    }
+                  ]
+                },
+                {
+                  "principle": "Смещение композиции чуть выше, монета ближе к правому краю книги.",
+                  "placements": [
+                    {
+                      "uid": "imw1sdrlls35mii",
+                      "relation": "canvas",
+                      "x": 0.48,
+                      "y": 0.48,
+                      "gap": 0,
+                      "rotation": 0
+                    },
+                    {
+                      "uid": "imw1sdrllkghjn3",
+                      "relation": "on",
+                      "targetUid": "imw1sdrlls35mii",
+                      "x": 0.63,
+                      "y": 0.29,
+                      "gap": 0,
+                      "rotation": 0
+                    },
+                    {
+                      "uid": "imw1sdrll4arlhe",
+                      "relation": "canvas",
+                      "x": 0.22,
+                      "y": 0.78,
+                      "gap": 0,
+                      "rotation": 0
+                    }
+                  ]
+                },
+                {
+                  "principle": "Диагональное расположение элементов для создания динамики.",
+                  "placements": [
+                    {
+                      "uid": "imw1sdrlls35mii",
+                      "relation": "canvas",
+                      "x": 0.52,
+                      "y": 0.52,
+                      "gap": 0,
+                      "rotation": 0
+                    },
+                    {
+                      "uid": "imw1sdrllkghjn3",
+                      "relation": "on",
+                      "targetUid": "imw1sdrlls35mii",
+                      "x": 0.26,
+                      "y": 0.6,
+                      "gap": 0,
+                      "rotation": 0
+                    },
+                    {
+                      "uid": "imw1sdrll4arlhe",
+                      "relation": "canvas",
+                      "x": 0.28,
+                      "y": 0.72,
+                      "gap": 0,
+                      "rotation": 0
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "format": "landscape",
+              "views": [
+                {
+                  "principle": "Горизонтальное размещение с книгой в центре и монетой на ней.",
+                  "placements": [
+                    {
+                      "uid": "imw1sdrlls35mii",
+                      "relation": "canvas",
+                      "x": 0.52,
+                      "y": 0.5,
+                      "gap": 0,
+                      "rotation": 0
+                    },
+                    {
+                      "uid": "imw1sdrllkghjn3",
+                      "relation": "on",
+                      "targetUid": "imw1sdrlls35mii",
+                      "x": 0.73,
+                      "y": 0.4,
+                      "gap": 0,
+                      "rotation": 0
+                    },
+                    {
+                      "uid": "imw1sdrll4arlhe",
+                      "relation": "canvas",
+                      "x": 0.2,
+                      "y": 0.75,
+                      "gap": 0,
+                      "rotation": 0
+                    }
+                  ]
+                },
+                {
+                  "principle": "Смещение главной группы правее, папка у левого края.",
+                  "placements": [
+                    {
+                      "uid": "imw1sdrlls35mii",
+                      "relation": "canvas",
+                      "x": 0.55,
+                      "y": 0.48,
+                      "gap": 0,
+                      "rotation": 0
+                    },
+                    {
+                      "uid": "imw1sdrllkghjn3",
+                      "relation": "on",
+                      "targetUid": "imw1sdrlls35mii",
+                      "x": 0.63,
+                      "y": 0.29,
+                      "gap": 0,
+                      "rotation": 0
+                    },
+                    {
+                      "uid": "imw1sdrll4arlhe",
+                      "relation": "canvas",
+                      "x": 0.18,
+                      "y": 0.72,
+                      "gap": 0,
+                      "rotation": 0
+                    }
+                  ]
+                },
+                {
+                  "principle": "Широкий формат с акцентом на горизонтальные связи.",
+                  "placements": [
+                    {
+                      "uid": "imw1sdrlls35mii",
+                      "relation": "canvas",
+                      "x": 0.5,
+                      "y": 0.52,
+                      "gap": 0,
+                      "rotation": 0
+                    },
+                    {
+                      "uid": "imw1sdrllkghjn3",
+                      "relation": "on",
+                      "targetUid": "imw1sdrlls35mii",
+                      "x": 0.26,
+                      "y": 0.6,
+                      "gap": 0,
+                      "rotation": 0
+                    },
+                    {
+                      "uid": "imw1sdrll4arlhe",
+                      "relation": "canvas",
+                      "x": 0.22,
+                      "y": 0.78,
+                      "gap": 0,
+                      "rotation": 0
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "format": "portrait",
+              "views": [
+                {
+                  "principle": "Вертикальная композиция с центрированной книгой.",
+                  "placements": [
+                    {
+                      "uid": "imw1sdrlls35mii",
+                      "relation": "canvas",
+                      "x": 0.5,
+                      "y": 0.48,
+                      "gap": 0,
+                      "rotation": 0
+                    },
+                    {
+                      "uid": "imw1sdrllkghjn3",
+                      "relation": "on",
+                      "targetUid": "imw1sdrlls35mii",
+                      "x": 0.73,
+                      "y": 0.4,
+                      "gap": 0,
+                      "rotation": 0
+                    },
+                    {
+                      "uid": "imw1sdrll4arlhe",
+                      "relation": "canvas",
+                      "x": 0.3,
+                      "y": 0.8,
+                      "gap": 0,
+                      "rotation": 0
+                    }
+                  ]
+                },
+                {
+                  "principle": "Вертикальный сдвиг элементов вверх для свободы внизу.",
+                  "placements": [
+                    {
+                      "uid": "imw1sdrlls35mii",
+                      "relation": "canvas",
+                      "x": 0.5,
+                      "y": 0.45,
+                      "gap": 0,
+                      "rotation": 0
+                    },
+                    {
+                      "uid": "imw1sdrllkghjn3",
+                      "relation": "on",
+                      "targetUid": "imw1sdrlls35mii",
+                      "x": 0.63,
+                      "y": 0.29,
+                      "gap": 0,
+                      "rotation": 0
+                    },
+                    {
+                      "uid": "imw1sdrll4arlhe",
+                      "relation": "canvas",
+                      "x": 0.28,
+                      "y": 0.82,
+                      "gap": 0,
+                      "rotation": 0
+                    }
+                  ]
+                },
+                {
+                  "principle": "Сбалансированная вертикальная стопка.",
+                  "placements": [
+                    {
+                      "uid": "imw1sdrlls35mii",
+                      "relation": "canvas",
+                      "x": 0.5,
+                      "y": 0.5,
+                      "gap": 0,
+                      "rotation": 0
+                    },
+                    {
+                      "uid": "imw1sdrllkghjn3",
+                      "relation": "on",
+                      "targetUid": "imw1sdrlls35mii",
+                      "x": 0.26,
+                      "y": 0.6,
+                      "gap": 0,
+                      "rotation": 0
+                    },
+                    {
+                      "uid": "imw1sdrll4arlhe",
+                      "relation": "canvas",
+                      "x": 0.32,
+                      "y": 0.78,
+                      "gap": 0,
+                      "rotation": 0
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "executionNotes": [
+            "Положение «Папка» уточнено по границам кадра и реестру пересечений."
+          ],
+          "width": 1200,
+          "height": 630,
+          "format": "landscape",
+          "size": "S",
+          "palette": "aqua",
+          "layout": "compact",
+          "background": "pattern",
+          "backgroundDesign": "auto",
+          "supporting": true,
+          "showSupporting": true,
+          "camera": null,
+          "composition": {
+            "index": 2,
+            "options": [
+              {
+                "strategy": "balanced",
+                "title": "На опоре",
+                "principle": "Книга в центре, монета на странице, фоновая папка слева внизу.",
+                "placement": "on-surface"
+              },
+              {
+                "strategy": "spacious",
+                "title": "Рядом",
+                "principle": "Смещение композиции чуть выше, монета ближе к правому краю книги.",
+                "placement": "beside"
+              },
+              {
+                "strategy": "diagonal",
+                "title": "Другой ракурс группы",
+                "principle": "Диагональное расположение элементов для создания динамики.",
+                "placement": "across"
+              }
+            ]
+          },
+          "layerRelations": [
+            {
+              "back": "imw1sdrlls35mii",
+              "front": "imw1sdrllkghjn3",
+              "reason": "Предмет лежит на допустимой опоре."
+            },
+            {
+              "back": "imw1sdrll4arlhe",
+              "front": "imw1sdrlls35mii",
+              "reason": "Фоновый компаньон находится позади главной группы."
+            }
+          ],
+          "recipe": "auto",
+          "framing": "overview",
+          "focus": "coin",
+          "query": "Маленький вклад — большой результат",
+          "scale": 1,
+          "items": [
+            {
+              "uid": "imw1sdrll4arlhe",
+              "assetId": "folder",
+              "role": "background",
+              "x": 175.88026948735947,
+              "y": 559.6678686249122,
+              "rotation": 0,
+              "flipX": false,
+              "flipY": false,
+              "zone": "bottom-left",
+              "crop": "fragment"
+            },
+            {
+              "uid": "imw1sdrlls35mii",
+              "assetId": "book",
+              "role": "main",
+              "x": 621.69,
+              "y": 352.05,
+              "rotation": 0,
+              "flipX": false,
+              "flipY": false,
+              "zone": "auto",
+              "crop": "whole"
+            },
+            {
+              "uid": "imw1sdrllkghjn3",
+              "assetId": "coin",
+              "role": "main",
+              "x": 448.1700000000001,
+              "y": 400.95,
+              "rotation": 0,
+              "flipX": false,
+              "flipY": false,
+              "supportUid": "imw1sdrlls35mii",
+              "zone": "auto",
+              "crop": "whole"
+            }
+          ]
+        }
+      ],
+      "portrait": [
+        {
+          "version": 1,
+          "sizing": "native",
+          "environmentPrompt": "",
+          "environmentExplanation": [
+            "Главная группа объединяет открытую книгу как основу знаний и монету как символ результата.",
+            "Фоновая папка поддерживает деловой контекст и порядок на рабочей плоскости.",
+            "Композиция выстроена компактно с четким соблюдением опор и читаемости элементов."
+          ],
+          "groups": [
+            {
+              "kind": "collection",
+              "members": [
+                "imw1sdrlls35mii",
+                "imw1sdrllkghjn3"
+              ],
+              "reason": "Вертикальная композиция с центрированной книгой."
+            }
+          ],
+          "formatPlans": [],
+          "stagingPlans": [
+            {
+              "format": "square",
+              "views": [
+                {
+                  "principle": "Книга в центре, монета на странице, фоновая папка слева внизу.",
+                  "placements": [
+                    {
+                      "uid": "imw1sdrlls35mii",
+                      "relation": "canvas",
+                      "x": 0.5,
+                      "y": 0.5,
+                      "gap": 0,
+                      "rotation": 0
+                    },
+                    {
+                      "uid": "imw1sdrllkghjn3",
+                      "relation": "on",
+                      "targetUid": "imw1sdrlls35mii",
+                      "x": 0.73,
+                      "y": 0.4,
+                      "gap": 0,
+                      "rotation": 0
+                    },
+                    {
+                      "uid": "imw1sdrll4arlhe",
+                      "relation": "canvas",
+                      "x": 0.25,
+                      "y": 0.75,
+                      "gap": 0,
+                      "rotation": 0
+                    }
+                  ]
+                },
+                {
+                  "principle": "Смещение композиции чуть выше, монета ближе к правому краю книги.",
+                  "placements": [
+                    {
+                      "uid": "imw1sdrlls35mii",
+                      "relation": "canvas",
+                      "x": 0.48,
+                      "y": 0.48,
+                      "gap": 0,
+                      "rotation": 0
+                    },
+                    {
+                      "uid": "imw1sdrllkghjn3",
+                      "relation": "on",
+                      "targetUid": "imw1sdrlls35mii",
+                      "x": 0.63,
+                      "y": 0.29,
+                      "gap": 0,
+                      "rotation": 0
+                    },
+                    {
+                      "uid": "imw1sdrll4arlhe",
+                      "relation": "canvas",
+                      "x": 0.22,
+                      "y": 0.78,
+                      "gap": 0,
+                      "rotation": 0
+                    }
+                  ]
+                },
+                {
+                  "principle": "Диагональное расположение элементов для создания динамики.",
+                  "placements": [
+                    {
+                      "uid": "imw1sdrlls35mii",
+                      "relation": "canvas",
+                      "x": 0.52,
+                      "y": 0.52,
+                      "gap": 0,
+                      "rotation": 0
+                    },
+                    {
+                      "uid": "imw1sdrllkghjn3",
+                      "relation": "on",
+                      "targetUid": "imw1sdrlls35mii",
+                      "x": 0.26,
+                      "y": 0.6,
+                      "gap": 0,
+                      "rotation": 0
+                    },
+                    {
+                      "uid": "imw1sdrll4arlhe",
+                      "relation": "canvas",
+                      "x": 0.28,
+                      "y": 0.72,
+                      "gap": 0,
+                      "rotation": 0
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "format": "landscape",
+              "views": [
+                {
+                  "principle": "Горизонтальное размещение с книгой в центре и монетой на ней.",
+                  "placements": [
+                    {
+                      "uid": "imw1sdrlls35mii",
+                      "relation": "canvas",
+                      "x": 0.52,
+                      "y": 0.5,
+                      "gap": 0,
+                      "rotation": 0
+                    },
+                    {
+                      "uid": "imw1sdrllkghjn3",
+                      "relation": "on",
+                      "targetUid": "imw1sdrlls35mii",
+                      "x": 0.73,
+                      "y": 0.4,
+                      "gap": 0,
+                      "rotation": 0
+                    },
+                    {
+                      "uid": "imw1sdrll4arlhe",
+                      "relation": "canvas",
+                      "x": 0.2,
+                      "y": 0.75,
+                      "gap": 0,
+                      "rotation": 0
+                    }
+                  ]
+                },
+                {
+                  "principle": "Смещение главной группы правее, папка у левого края.",
+                  "placements": [
+                    {
+                      "uid": "imw1sdrlls35mii",
+                      "relation": "canvas",
+                      "x": 0.55,
+                      "y": 0.48,
+                      "gap": 0,
+                      "rotation": 0
+                    },
+                    {
+                      "uid": "imw1sdrllkghjn3",
+                      "relation": "on",
+                      "targetUid": "imw1sdrlls35mii",
+                      "x": 0.63,
+                      "y": 0.29,
+                      "gap": 0,
+                      "rotation": 0
+                    },
+                    {
+                      "uid": "imw1sdrll4arlhe",
+                      "relation": "canvas",
+                      "x": 0.18,
+                      "y": 0.72,
+                      "gap": 0,
+                      "rotation": 0
+                    }
+                  ]
+                },
+                {
+                  "principle": "Широкий формат с акцентом на горизонтальные связи.",
+                  "placements": [
+                    {
+                      "uid": "imw1sdrlls35mii",
+                      "relation": "canvas",
+                      "x": 0.5,
+                      "y": 0.52,
+                      "gap": 0,
+                      "rotation": 0
+                    },
+                    {
+                      "uid": "imw1sdrllkghjn3",
+                      "relation": "on",
+                      "targetUid": "imw1sdrlls35mii",
+                      "x": 0.26,
+                      "y": 0.6,
+                      "gap": 0,
+                      "rotation": 0
+                    },
+                    {
+                      "uid": "imw1sdrll4arlhe",
+                      "relation": "canvas",
+                      "x": 0.22,
+                      "y": 0.78,
+                      "gap": 0,
+                      "rotation": 0
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "format": "portrait",
+              "views": [
+                {
+                  "principle": "Вертикальная композиция с центрированной книгой.",
+                  "placements": [
+                    {
+                      "uid": "imw1sdrlls35mii",
+                      "relation": "canvas",
+                      "x": 0.5,
+                      "y": 0.48,
+                      "gap": 0,
+                      "rotation": 0
+                    },
+                    {
+                      "uid": "imw1sdrllkghjn3",
+                      "relation": "on",
+                      "targetUid": "imw1sdrlls35mii",
+                      "x": 0.73,
+                      "y": 0.4,
+                      "gap": 0,
+                      "rotation": 0
+                    },
+                    {
+                      "uid": "imw1sdrll4arlhe",
+                      "relation": "canvas",
+                      "x": 0.3,
+                      "y": 0.8,
+                      "gap": 0,
+                      "rotation": 0
+                    }
+                  ]
+                },
+                {
+                  "principle": "Вертикальный сдвиг элементов вверх для свободы внизу.",
+                  "placements": [
+                    {
+                      "uid": "imw1sdrlls35mii",
+                      "relation": "canvas",
+                      "x": 0.5,
+                      "y": 0.45,
+                      "gap": 0,
+                      "rotation": 0
+                    },
+                    {
+                      "uid": "imw1sdrllkghjn3",
+                      "relation": "on",
+                      "targetUid": "imw1sdrlls35mii",
+                      "x": 0.63,
+                      "y": 0.29,
+                      "gap": 0,
+                      "rotation": 0
+                    },
+                    {
+                      "uid": "imw1sdrll4arlhe",
+                      "relation": "canvas",
+                      "x": 0.28,
+                      "y": 0.82,
+                      "gap": 0,
+                      "rotation": 0
+                    }
+                  ]
+                },
+                {
+                  "principle": "Сбалансированная вертикальная стопка.",
+                  "placements": [
+                    {
+                      "uid": "imw1sdrlls35mii",
+                      "relation": "canvas",
+                      "x": 0.5,
+                      "y": 0.5,
+                      "gap": 0,
+                      "rotation": 0
+                    },
+                    {
+                      "uid": "imw1sdrllkghjn3",
+                      "relation": "on",
+                      "targetUid": "imw1sdrlls35mii",
+                      "x": 0.26,
+                      "y": 0.6,
+                      "gap": 0,
+                      "rotation": 0
+                    },
+                    {
+                      "uid": "imw1sdrll4arlhe",
+                      "relation": "canvas",
+                      "x": 0.32,
+                      "y": 0.78,
+                      "gap": 0,
+                      "rotation": 0
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "width": 800,
+          "height": 1200,
+          "format": "portrait",
+          "size": "S",
+          "palette": "aqua",
+          "layout": "compact",
+          "background": "pattern",
+          "backgroundDesign": "auto",
+          "supporting": true,
+          "showSupporting": true,
+          "camera": null,
+          "composition": {
+            "index": 0,
+            "options": [
+              {
+                "strategy": "balanced",
+                "title": "На опоре",
+                "principle": "Книга в центре, монета на странице, фоновая папка слева внизу.",
+                "placement": "on-surface"
+              },
+              {
+                "strategy": "spacious",
+                "title": "Рядом",
+                "principle": "Смещение композиции чуть выше, монета ближе к правому краю книги.",
+                "placement": "beside"
+              },
+              {
+                "strategy": "diagonal",
+                "title": "Другой ракурс группы",
+                "principle": "Диагональное расположение элементов для создания динамики.",
+                "placement": "across"
+              }
+            ]
+          },
+          "layerRelations": [
+            {
+              "back": "imw1sdrlls35mii",
+              "front": "imw1sdrllkghjn3",
+              "reason": "Предмет лежит на допустимой опоре."
+            },
+            {
+              "back": "imw1sdrll4arlhe",
+              "front": "imw1sdrlls35mii",
+              "reason": "Фоновый компаньон находится позади главной группы."
+            }
+          ],
+          "recipe": "auto",
+          "framing": "overview",
+          "focus": "coin",
+          "query": "Маленький вклад — большой результат",
+          "scale": 1,
+          "items": [
+            {
+              "uid": "imw1sdrll4arlhe",
+              "assetId": "folder",
+              "role": "background",
+              "x": 264.84,
+              "y": 973.2,
+              "rotation": 0,
+              "flipX": false,
+              "flipY": false,
+              "zone": "bottom-left",
+              "crop": "fragment"
+            },
+            {
+              "uid": "imw1sdrlls35mii",
+              "assetId": "book",
+              "role": "main",
+              "x": 421.69,
+              "y": 600.45,
+              "rotation": 0,
+              "flipX": false,
+              "flipY": false,
+              "zone": "auto",
+              "crop": "whole"
+            },
+            {
+              "uid": "imw1sdrllkghjn3",
+              "assetId": "coin",
+              "role": "main",
+              "x": 587.98,
+              "y": 551.5500000000001,
+              "rotation": 0,
+              "flipX": false,
+              "flipY": false,
+              "supportUid": "imw1sdrlls35mii",
+              "zone": "auto",
+              "crop": "whole"
+            }
+          ]
+        },
+        {
+          "version": 1,
+          "sizing": "native",
+          "environmentPrompt": "",
+          "environmentExplanation": [
+            "Главная группа объединяет открытую книгу как основу знаний и монету как символ результата.",
+            "Фоновая папка поддерживает деловой контекст и порядок на рабочей плоскости.",
+            "Композиция выстроена компактно с четким соблюдением опор и читаемости элементов."
+          ],
+          "groups": [
+            {
+              "kind": "collection",
+              "members": [
+                "imw1sdrlls35mii",
+                "imw1sdrllkghjn3"
+              ],
+              "reason": "Вертикальный сдвиг элементов вверх для свободы внизу."
+            }
+          ],
+          "formatPlans": [],
+          "stagingPlans": [
+            {
+              "format": "square",
+              "views": [
+                {
+                  "principle": "Книга в центре, монета на странице, фоновая папка слева внизу.",
+                  "placements": [
+                    {
+                      "uid": "imw1sdrlls35mii",
+                      "relation": "canvas",
+                      "x": 0.5,
+                      "y": 0.5,
+                      "gap": 0,
+                      "rotation": 0
+                    },
+                    {
+                      "uid": "imw1sdrllkghjn3",
+                      "relation": "on",
+                      "targetUid": "imw1sdrlls35mii",
+                      "x": 0.73,
+                      "y": 0.4,
+                      "gap": 0,
+                      "rotation": 0
+                    },
+                    {
+                      "uid": "imw1sdrll4arlhe",
+                      "relation": "canvas",
+                      "x": 0.25,
+                      "y": 0.75,
+                      "gap": 0,
+                      "rotation": 0
+                    }
+                  ]
+                },
+                {
+                  "principle": "Смещение композиции чуть выше, монета ближе к правому краю книги.",
+                  "placements": [
+                    {
+                      "uid": "imw1sdrlls35mii",
+                      "relation": "canvas",
+                      "x": 0.48,
+                      "y": 0.48,
+                      "gap": 0,
+                      "rotation": 0
+                    },
+                    {
+                      "uid": "imw1sdrllkghjn3",
+                      "relation": "on",
+                      "targetUid": "imw1sdrlls35mii",
+                      "x": 0.63,
+                      "y": 0.29,
+                      "gap": 0,
+                      "rotation": 0
+                    },
+                    {
+                      "uid": "imw1sdrll4arlhe",
+                      "relation": "canvas",
+                      "x": 0.22,
+                      "y": 0.78,
+                      "gap": 0,
+                      "rotation": 0
+                    }
+                  ]
+                },
+                {
+                  "principle": "Диагональное расположение элементов для создания динамики.",
+                  "placements": [
+                    {
+                      "uid": "imw1sdrlls35mii",
+                      "relation": "canvas",
+                      "x": 0.52,
+                      "y": 0.52,
+                      "gap": 0,
+                      "rotation": 0
+                    },
+                    {
+                      "uid": "imw1sdrllkghjn3",
+                      "relation": "on",
+                      "targetUid": "imw1sdrlls35mii",
+                      "x": 0.26,
+                      "y": 0.6,
+                      "gap": 0,
+                      "rotation": 0
+                    },
+                    {
+                      "uid": "imw1sdrll4arlhe",
+                      "relation": "canvas",
+                      "x": 0.28,
+                      "y": 0.72,
+                      "gap": 0,
+                      "rotation": 0
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "format": "landscape",
+              "views": [
+                {
+                  "principle": "Горизонтальное размещение с книгой в центре и монетой на ней.",
+                  "placements": [
+                    {
+                      "uid": "imw1sdrlls35mii",
+                      "relation": "canvas",
+                      "x": 0.52,
+                      "y": 0.5,
+                      "gap": 0,
+                      "rotation": 0
+                    },
+                    {
+                      "uid": "imw1sdrllkghjn3",
+                      "relation": "on",
+                      "targetUid": "imw1sdrlls35mii",
+                      "x": 0.73,
+                      "y": 0.4,
+                      "gap": 0,
+                      "rotation": 0
+                    },
+                    {
+                      "uid": "imw1sdrll4arlhe",
+                      "relation": "canvas",
+                      "x": 0.2,
+                      "y": 0.75,
+                      "gap": 0,
+                      "rotation": 0
+                    }
+                  ]
+                },
+                {
+                  "principle": "Смещение главной группы правее, папка у левого края.",
+                  "placements": [
+                    {
+                      "uid": "imw1sdrlls35mii",
+                      "relation": "canvas",
+                      "x": 0.55,
+                      "y": 0.48,
+                      "gap": 0,
+                      "rotation": 0
+                    },
+                    {
+                      "uid": "imw1sdrllkghjn3",
+                      "relation": "on",
+                      "targetUid": "imw1sdrlls35mii",
+                      "x": 0.63,
+                      "y": 0.29,
+                      "gap": 0,
+                      "rotation": 0
+                    },
+                    {
+                      "uid": "imw1sdrll4arlhe",
+                      "relation": "canvas",
+                      "x": 0.18,
+                      "y": 0.72,
+                      "gap": 0,
+                      "rotation": 0
+                    }
+                  ]
+                },
+                {
+                  "principle": "Широкий формат с акцентом на горизонтальные связи.",
+                  "placements": [
+                    {
+                      "uid": "imw1sdrlls35mii",
+                      "relation": "canvas",
+                      "x": 0.5,
+                      "y": 0.52,
+                      "gap": 0,
+                      "rotation": 0
+                    },
+                    {
+                      "uid": "imw1sdrllkghjn3",
+                      "relation": "on",
+                      "targetUid": "imw1sdrlls35mii",
+                      "x": 0.26,
+                      "y": 0.6,
+                      "gap": 0,
+                      "rotation": 0
+                    },
+                    {
+                      "uid": "imw1sdrll4arlhe",
+                      "relation": "canvas",
+                      "x": 0.22,
+                      "y": 0.78,
+                      "gap": 0,
+                      "rotation": 0
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "format": "portrait",
+              "views": [
+                {
+                  "principle": "Вертикальная композиция с центрированной книгой.",
+                  "placements": [
+                    {
+                      "uid": "imw1sdrlls35mii",
+                      "relation": "canvas",
+                      "x": 0.5,
+                      "y": 0.48,
+                      "gap": 0,
+                      "rotation": 0
+                    },
+                    {
+                      "uid": "imw1sdrllkghjn3",
+                      "relation": "on",
+                      "targetUid": "imw1sdrlls35mii",
+                      "x": 0.73,
+                      "y": 0.4,
+                      "gap": 0,
+                      "rotation": 0
+                    },
+                    {
+                      "uid": "imw1sdrll4arlhe",
+                      "relation": "canvas",
+                      "x": 0.3,
+                      "y": 0.8,
+                      "gap": 0,
+                      "rotation": 0
+                    }
+                  ]
+                },
+                {
+                  "principle": "Вертикальный сдвиг элементов вверх для свободы внизу.",
+                  "placements": [
+                    {
+                      "uid": "imw1sdrlls35mii",
+                      "relation": "canvas",
+                      "x": 0.5,
+                      "y": 0.45,
+                      "gap": 0,
+                      "rotation": 0
+                    },
+                    {
+                      "uid": "imw1sdrllkghjn3",
+                      "relation": "on",
+                      "targetUid": "imw1sdrlls35mii",
+                      "x": 0.63,
+                      "y": 0.29,
+                      "gap": 0,
+                      "rotation": 0
+                    },
+                    {
+                      "uid": "imw1sdrll4arlhe",
+                      "relation": "canvas",
+                      "x": 0.28,
+                      "y": 0.82,
+                      "gap": 0,
+                      "rotation": 0
+                    }
+                  ]
+                },
+                {
+                  "principle": "Сбалансированная вертикальная стопка.",
+                  "placements": [
+                    {
+                      "uid": "imw1sdrlls35mii",
+                      "relation": "canvas",
+                      "x": 0.5,
+                      "y": 0.5,
+                      "gap": 0,
+                      "rotation": 0
+                    },
+                    {
+                      "uid": "imw1sdrllkghjn3",
+                      "relation": "on",
+                      "targetUid": "imw1sdrlls35mii",
+                      "x": 0.26,
+                      "y": 0.6,
+                      "gap": 0,
+                      "rotation": 0
+                    },
+                    {
+                      "uid": "imw1sdrll4arlhe",
+                      "relation": "canvas",
+                      "x": 0.32,
+                      "y": 0.78,
+                      "gap": 0,
+                      "rotation": 0
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "width": 800,
+          "height": 1200,
+          "format": "portrait",
+          "size": "S",
+          "palette": "aqua",
+          "layout": "compact",
+          "background": "pattern",
+          "backgroundDesign": "auto",
+          "supporting": true,
+          "showSupporting": true,
+          "camera": null,
+          "composition": {
+            "index": 1,
+            "options": [
+              {
+                "strategy": "balanced",
+                "title": "На опоре",
+                "principle": "Книга в центре, монета на странице, фоновая папка слева внизу.",
+                "placement": "on-surface"
+              },
+              {
+                "strategy": "spacious",
+                "title": "Рядом",
+                "principle": "Смещение композиции чуть выше, монета ближе к правому краю книги.",
+                "placement": "beside"
+              },
+              {
+                "strategy": "diagonal",
+                "title": "Другой ракурс группы",
+                "principle": "Диагональное расположение элементов для создания динамики.",
+                "placement": "across"
+              }
+            ]
+          },
+          "layerRelations": [
+            {
+              "back": "imw1sdrlls35mii",
+              "front": "imw1sdrllkghjn3",
+              "reason": "Предмет лежит на допустимой опоре."
+            },
+            {
+              "back": "imw1sdrll4arlhe",
+              "front": "imw1sdrlls35mii",
+              "reason": "Фоновый компаньон находится позади главной группы."
+            }
+          ],
+          "recipe": "auto",
+          "framing": "overview",
+          "focus": "coin",
+          "query": "Маленький вклад — большой результат",
+          "scale": 1,
+          "items": [
+            {
+              "uid": "imw1sdrll4arlhe",
+              "assetId": "folder",
+              "role": "background",
+              "x": 248.84000000000003,
+              "y": 997.1999999999999,
+              "rotation": 0,
+              "flipX": false,
+              "flipY": false,
+              "zone": "bottom-left",
+              "crop": "fragment"
+            },
+            {
+              "uid": "imw1sdrlls35mii",
+              "assetId": "book",
+              "role": "main",
+              "x": 421.69,
+              "y": 564.45,
+              "rotation": 0,
+              "flipX": false,
+              "flipY": false,
+              "zone": "auto",
+              "crop": "whole"
+            },
+            {
+              "uid": "imw1sdrllkghjn3",
+              "assetId": "coin",
+              "role": "main",
+              "x": 515.6800000000001,
+              "y": 461.76000000000005,
+              "rotation": 0,
+              "flipX": false,
+              "flipY": false,
+              "supportUid": "imw1sdrlls35mii",
+              "zone": "auto",
+              "crop": "whole"
+            }
+          ]
+        },
+        {
+          "version": 1,
+          "sizing": "native",
+          "environmentPrompt": "",
+          "environmentExplanation": [
+            "Главная группа объединяет открытую книгу как основу знаний и монету как символ результата.",
+            "Фоновая папка поддерживает деловой контекст и порядок на рабочей плоскости.",
+            "Композиция выстроена компактно с четким соблюдением опор и читаемости элементов."
+          ],
+          "groups": [
+            {
+              "kind": "collection",
+              "members": [
+                "imw1sdrlls35mii",
+                "imw1sdrllkghjn3"
+              ],
+              "reason": "Сбалансированная вертикальная стопка."
+            }
+          ],
+          "formatPlans": [],
+          "stagingPlans": [
+            {
+              "format": "square",
+              "views": [
+                {
+                  "principle": "Книга в центре, монета на странице, фоновая папка слева внизу.",
+                  "placements": [
+                    {
+                      "uid": "imw1sdrlls35mii",
+                      "relation": "canvas",
+                      "x": 0.5,
+                      "y": 0.5,
+                      "gap": 0,
+                      "rotation": 0
+                    },
+                    {
+                      "uid": "imw1sdrllkghjn3",
+                      "relation": "on",
+                      "targetUid": "imw1sdrlls35mii",
+                      "x": 0.73,
+                      "y": 0.4,
+                      "gap": 0,
+                      "rotation": 0
+                    },
+                    {
+                      "uid": "imw1sdrll4arlhe",
+                      "relation": "canvas",
+                      "x": 0.25,
+                      "y": 0.75,
+                      "gap": 0,
+                      "rotation": 0
+                    }
+                  ]
+                },
+                {
+                  "principle": "Смещение композиции чуть выше, монета ближе к правому краю книги.",
+                  "placements": [
+                    {
+                      "uid": "imw1sdrlls35mii",
+                      "relation": "canvas",
+                      "x": 0.48,
+                      "y": 0.48,
+                      "gap": 0,
+                      "rotation": 0
+                    },
+                    {
+                      "uid": "imw1sdrllkghjn3",
+                      "relation": "on",
+                      "targetUid": "imw1sdrlls35mii",
+                      "x": 0.63,
+                      "y": 0.29,
+                      "gap": 0,
+                      "rotation": 0
+                    },
+                    {
+                      "uid": "imw1sdrll4arlhe",
+                      "relation": "canvas",
+                      "x": 0.22,
+                      "y": 0.78,
+                      "gap": 0,
+                      "rotation": 0
+                    }
+                  ]
+                },
+                {
+                  "principle": "Диагональное расположение элементов для создания динамики.",
+                  "placements": [
+                    {
+                      "uid": "imw1sdrlls35mii",
+                      "relation": "canvas",
+                      "x": 0.52,
+                      "y": 0.52,
+                      "gap": 0,
+                      "rotation": 0
+                    },
+                    {
+                      "uid": "imw1sdrllkghjn3",
+                      "relation": "on",
+                      "targetUid": "imw1sdrlls35mii",
+                      "x": 0.26,
+                      "y": 0.6,
+                      "gap": 0,
+                      "rotation": 0
+                    },
+                    {
+                      "uid": "imw1sdrll4arlhe",
+                      "relation": "canvas",
+                      "x": 0.28,
+                      "y": 0.72,
+                      "gap": 0,
+                      "rotation": 0
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "format": "landscape",
+              "views": [
+                {
+                  "principle": "Горизонтальное размещение с книгой в центре и монетой на ней.",
+                  "placements": [
+                    {
+                      "uid": "imw1sdrlls35mii",
+                      "relation": "canvas",
+                      "x": 0.52,
+                      "y": 0.5,
+                      "gap": 0,
+                      "rotation": 0
+                    },
+                    {
+                      "uid": "imw1sdrllkghjn3",
+                      "relation": "on",
+                      "targetUid": "imw1sdrlls35mii",
+                      "x": 0.73,
+                      "y": 0.4,
+                      "gap": 0,
+                      "rotation": 0
+                    },
+                    {
+                      "uid": "imw1sdrll4arlhe",
+                      "relation": "canvas",
+                      "x": 0.2,
+                      "y": 0.75,
+                      "gap": 0,
+                      "rotation": 0
+                    }
+                  ]
+                },
+                {
+                  "principle": "Смещение главной группы правее, папка у левого края.",
+                  "placements": [
+                    {
+                      "uid": "imw1sdrlls35mii",
+                      "relation": "canvas",
+                      "x": 0.55,
+                      "y": 0.48,
+                      "gap": 0,
+                      "rotation": 0
+                    },
+                    {
+                      "uid": "imw1sdrllkghjn3",
+                      "relation": "on",
+                      "targetUid": "imw1sdrlls35mii",
+                      "x": 0.63,
+                      "y": 0.29,
+                      "gap": 0,
+                      "rotation": 0
+                    },
+                    {
+                      "uid": "imw1sdrll4arlhe",
+                      "relation": "canvas",
+                      "x": 0.18,
+                      "y": 0.72,
+                      "gap": 0,
+                      "rotation": 0
+                    }
+                  ]
+                },
+                {
+                  "principle": "Широкий формат с акцентом на горизонтальные связи.",
+                  "placements": [
+                    {
+                      "uid": "imw1sdrlls35mii",
+                      "relation": "canvas",
+                      "x": 0.5,
+                      "y": 0.52,
+                      "gap": 0,
+                      "rotation": 0
+                    },
+                    {
+                      "uid": "imw1sdrllkghjn3",
+                      "relation": "on",
+                      "targetUid": "imw1sdrlls35mii",
+                      "x": 0.26,
+                      "y": 0.6,
+                      "gap": 0,
+                      "rotation": 0
+                    },
+                    {
+                      "uid": "imw1sdrll4arlhe",
+                      "relation": "canvas",
+                      "x": 0.22,
+                      "y": 0.78,
+                      "gap": 0,
+                      "rotation": 0
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "format": "portrait",
+              "views": [
+                {
+                  "principle": "Вертикальная композиция с центрированной книгой.",
+                  "placements": [
+                    {
+                      "uid": "imw1sdrlls35mii",
+                      "relation": "canvas",
+                      "x": 0.5,
+                      "y": 0.48,
+                      "gap": 0,
+                      "rotation": 0
+                    },
+                    {
+                      "uid": "imw1sdrllkghjn3",
+                      "relation": "on",
+                      "targetUid": "imw1sdrlls35mii",
+                      "x": 0.73,
+                      "y": 0.4,
+                      "gap": 0,
+                      "rotation": 0
+                    },
+                    {
+                      "uid": "imw1sdrll4arlhe",
+                      "relation": "canvas",
+                      "x": 0.3,
+                      "y": 0.8,
+                      "gap": 0,
+                      "rotation": 0
+                    }
+                  ]
+                },
+                {
+                  "principle": "Вертикальный сдвиг элементов вверх для свободы внизу.",
+                  "placements": [
+                    {
+                      "uid": "imw1sdrlls35mii",
+                      "relation": "canvas",
+                      "x": 0.5,
+                      "y": 0.45,
+                      "gap": 0,
+                      "rotation": 0
+                    },
+                    {
+                      "uid": "imw1sdrllkghjn3",
+                      "relation": "on",
+                      "targetUid": "imw1sdrlls35mii",
+                      "x": 0.63,
+                      "y": 0.29,
+                      "gap": 0,
+                      "rotation": 0
+                    },
+                    {
+                      "uid": "imw1sdrll4arlhe",
+                      "relation": "canvas",
+                      "x": 0.28,
+                      "y": 0.82,
+                      "gap": 0,
+                      "rotation": 0
+                    }
+                  ]
+                },
+                {
+                  "principle": "Сбалансированная вертикальная стопка.",
+                  "placements": [
+                    {
+                      "uid": "imw1sdrlls35mii",
+                      "relation": "canvas",
+                      "x": 0.5,
+                      "y": 0.5,
+                      "gap": 0,
+                      "rotation": 0
+                    },
+                    {
+                      "uid": "imw1sdrllkghjn3",
+                      "relation": "on",
+                      "targetUid": "imw1sdrlls35mii",
+                      "x": 0.26,
+                      "y": 0.6,
+                      "gap": 0,
+                      "rotation": 0
+                    },
+                    {
+                      "uid": "imw1sdrll4arlhe",
+                      "relation": "canvas",
+                      "x": 0.32,
+                      "y": 0.78,
+                      "gap": 0,
+                      "rotation": 0
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "executionNotes": [
+            "Положение «Папка» уточнено по границам кадра и реестру пересечений."
+          ],
+          "width": 800,
+          "height": 1200,
+          "format": "portrait",
+          "size": "S",
+          "palette": "aqua",
+          "layout": "compact",
+          "background": "pattern",
+          "backgroundDesign": "auto",
+          "supporting": true,
+          "showSupporting": true,
+          "camera": null,
+          "composition": {
+            "index": 2,
+            "options": [
+              {
+                "strategy": "balanced",
+                "title": "На опоре",
+                "principle": "Книга в центре, монета на странице, фоновая папка слева внизу.",
+                "placement": "on-surface"
+              },
+              {
+                "strategy": "spacious",
+                "title": "Рядом",
+                "principle": "Смещение композиции чуть выше, монета ближе к правому краю книги.",
+                "placement": "beside"
+              },
+              {
+                "strategy": "diagonal",
+                "title": "Другой ракурс группы",
+                "principle": "Диагональное расположение элементов для создания динамики.",
+                "placement": "across"
+              }
+            ]
+          },
+          "layerRelations": [
+            {
+              "back": "imw1sdrlls35mii",
+              "front": "imw1sdrllkghjn3",
+              "reason": "Предмет лежит на допустимой опоре."
+            },
+            {
+              "back": "imw1sdrll4arlhe",
+              "front": "imw1sdrlls35mii",
+              "reason": "Фоновый компаньон находится позади главной группы."
+            }
+          ],
+          "recipe": "auto",
+          "framing": "overview",
+          "focus": "coin",
+          "query": "Маленький вклад — большой результат",
+          "scale": 1,
+          "items": [
+            {
+              "uid": "imw1sdrll4arlhe",
+              "assetId": "folder",
+              "role": "background",
+              "x": 270.7830692347843,
+              "y": 972.6661717855033,
+              "rotation": 0,
+              "flipX": false,
+              "flipY": false,
+              "zone": "bottom-left",
+              "crop": "fragment"
+            },
+            {
+              "uid": "imw1sdrlls35mii",
+              "assetId": "book",
+              "role": "main",
+              "x": 421.69,
+              "y": 624.45,
+              "rotation": 0,
+              "flipX": false,
+              "flipY": false,
+              "zone": "auto",
+              "crop": "whole"
+            },
+            {
+              "uid": "imw1sdrllkghjn3",
+              "assetId": "coin",
+              "role": "main",
+              "x": 248.17000000000002,
+              "y": 673.35,
+              "rotation": 0,
+              "flipX": false,
+              "flipY": false,
+              "supportUid": "imw1sdrlls35mii",
+              "zone": "auto",
+              "crop": "whole"
+            }
+          ]
+        }
+      ]
+    }
+  }
+}

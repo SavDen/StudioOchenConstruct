@@ -1,0 +1,42 @@
+{
+  "version": 1,
+  "width": 1200,
+  "height": 630,
+  "format": "landscape",
+  "size": "S",
+  "palette": "lavender",
+  "layout": "compact",
+  "background": "pattern",
+  "supporting": false,
+  "recipe": "auto",
+  "framing": "overview",
+  "focus": "book",
+  "query": "Обучение письму",
+  "scale": 0.8435037324503988,
+  "items": [
+    {
+      "assetId": "book",
+      "role": "main",
+      "uid": "imw0szns3x45u6p",
+      "x": 819.7217543668024,
+      "y": 326.87551422187704,
+      "rotation": 0
+    },
+    {
+      "assetId": "lamp",
+      "role": "main",
+      "uid": "imw0szns3kiqkij",
+      "x": 274.8516797177944,
+      "y": 315,
+      "rotation": 0
+    },
+    {
+      "assetId": "pen",
+      "role": "main",
+      "uid": "imw0szns39hoi38",
+      "x": 887.542968406106,
+      "y": 251.51714158159496,
+      "rotation": 0
+    }
+  ]
+}

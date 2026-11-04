@@ -8,31 +8,26 @@
   "layout": "compact",
   "background": "pattern",
   "supporting": true,
+  "recipe": "auto",
+  "framing": "focus",
+  "focus": "auto",
   "query": "Свет знаний",
-  "scale": 0.6645477840814541,
+  "scale": 1.0544432677407412,
   "items": [
-    {
-      "assetId": "headphones",
-      "role": "background",
-      "uid": "imw0j45zq7ux9ni",
-      "x": 144,
-      "y": 144.9,
-      "rotation": 0
-    },
     {
       "assetId": "book",
       "role": "main",
-      "uid": "imw0j45zppo4aii",
-      "x": 430.2166821697522,
-      "y": 402.08194048398786,
+      "uid": "imw0sznshjoj4xl",
+      "x": 764.7222631170491,
+      "y": 341.16768,
       "rotation": 0
     },
     {
       "assetId": "lamp",
-      "role": "main",
-      "uid": "imw0j45zqyzn8fu",
-      "x": 852.8428089351297,
-      "y": 253.2232368497422,
+      "role": "background",
+      "uid": "imw0sznshlis4rs",
+      "x": 83.59358531261944,
+      "y": 326.3197553519903,
       "rotation": 0
     }
   ]

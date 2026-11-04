@@ -1,0 +1,484 @@
+{
+  "version": 1,
+  "size": "S",
+  "formats": [
+    "square",
+    "landscape",
+    "portrait"
+  ],
+  "variants": 3,
+  "cases": [
+    {
+      "id": 1,
+      "query": "Знания всегда под рукой",
+      "http": 200,
+      "status": "ready",
+      "vision": true,
+      "model": "gemini-3.5-flash-lite",
+      "cast": [
+        {
+          "assetId": "book",
+          "role": "main",
+          "zone": "auto",
+          "crop": "whole"
+        },
+        {
+          "assetId": "phone",
+          "role": "main",
+          "zone": "auto",
+          "crop": "whole"
+        },
+        {
+          "assetId": "folder",
+          "role": "background",
+          "zone": "top-left",
+          "crop": "fragment"
+        }
+      ],
+      "explanation": [
+        "Главная группа объединяет открытую книгу как источник знаний и смартфон как символ их мгновенной доступности.",
+        "Фоновый предмет-компаньон дополняет композицию сдержанным контекстом порядка.",
+        "Компактная композиция выстраивает предметы в единую узнаваемую группу без перегрузки кадра."
+      ],
+      "limitations": [
+        "Масштаб исходников зафиксирован 1:1 согласно правилам каталога.",
+        "Стоящие предметы и основные группы размещены с учетом допустимых опор."
+      ],
+      "outputs": [
+        {
+          "format": "square",
+          "variant": 1,
+          "file": "svg/1-square-1.svg",
+          "executionNotes": [],
+          "warnings": [],
+          "principle": "Центральная компактная компоновка с опорой телефона на книгу."
+        },
+        {
+          "format": "square",
+          "variant": 2,
+          "file": "svg/1-square-2.svg",
+          "executionNotes": [],
+          "warnings": [],
+          "principle": "Смещение группы вправо для баланса с фоновым элементом слева."
+        },
+        {
+          "format": "square",
+          "variant": 3,
+          "file": "svg/1-square-3.svg",
+          "executionNotes": [],
+          "warnings": [],
+          "principle": "Диагональное расположение элементов для динамичного восприятия темы."
+        },
+        {
+          "format": "landscape",
+          "variant": 1,
+          "file": "svg/1-landscape-1.svg",
+          "executionNotes": [],
+          "warnings": [],
+          "principle": "Горизонтальная компактная группа с размещением телефона на книге."
+        },
+        {
+          "format": "landscape",
+          "variant": 2,
+          "file": "svg/1-landscape-2.svg",
+          "executionNotes": [],
+          "warnings": [],
+          "principle": "Сбалансированное смещение главной группы к правому центру."
+        },
+        {
+          "format": "landscape",
+          "variant": 3,
+          "file": "svg/1-landscape-3.svg",
+          "executionNotes": [],
+          "warnings": [],
+          "principle": "Широкий горизонтальный разворот с акцентом на доступность вблизи."
+        },
+        {
+          "format": "portrait",
+          "variant": 1,
+          "file": "svg/1-portrait-1.svg",
+          "executionNotes": [],
+          "warnings": [],
+          "principle": "Вертикальная компоновка для формата портрет с опорой на книгу."
+        },
+        {
+          "format": "portrait",
+          "variant": 2,
+          "file": "svg/1-portrait-2.svg",
+          "executionNotes": [],
+          "warnings": [],
+          "principle": "Вертикальный акцент с небольшим смещением вверх."
+        },
+        {
+          "format": "portrait",
+          "variant": 3,
+          "file": "svg/1-portrait-3.svg",
+          "executionNotes": [
+            "Положение «Папка» уточнено по границам кадра и реестру пересечений."
+          ],
+          "warnings": [],
+          "principle": "Диагональное построение в вертикальном формате."
+        }
+      ],
+      "project": "projects/1.json"
+    },
+    {
+      "id": 2,
+      "query": "Учиться в своём ритме",
+      "http": 200,
+      "status": "ready",
+      "vision": true,
+      "model": "gemini-3.5-flash-lite",
+      "cast": [
+        {
+          "assetId": "book",
+          "role": "main",
+          "zone": "auto",
+          "crop": "whole"
+        },
+        {
+          "assetId": "headphones",
+          "role": "main",
+          "zone": "auto",
+          "crop": "whole"
+        },
+        {
+          "assetId": "lamp",
+          "role": "background",
+          "zone": "top-left",
+          "crop": "whole"
+        }
+      ],
+      "explanation": [
+        "Главная пара из открытой книги и наушников раскрывает метафору личного темпа и погружения в обучение.",
+        "Фоновая настольная лампа дополняет композицию мягким световым контекстом, не перегружая центр.",
+        "Компактная сцена выстроена как единая сбалансированная группа с учетом взаимных пропорций."
+      ],
+      "limitations": [
+        "Использованы только разрешенные ассеты из каталога.",
+        "Соблюдены правила размещения и отсутствие запрещенных пересечений."
+      ],
+      "outputs": [
+        {
+          "format": "square",
+          "variant": 1,
+          "file": "svg/2-square-1.svg",
+          "executionNotes": [
+            "Положение «Наушники» уточнено по границам кадра и реестру пересечений."
+          ],
+          "warnings": [],
+          "principle": "Центральная компактная группа с наушниками и книгой, лампа на заднем плане слева."
+        },
+        {
+          "format": "square",
+          "variant": 2,
+          "file": "svg/2-square-2.svg",
+          "executionNotes": [
+            "Положение «Наушники» уточнено по границам кадра и реестру пересечений."
+          ],
+          "warnings": [],
+          "principle": "Смещение композиции вправо с сохранением связности."
+        },
+        {
+          "format": "square",
+          "variant": 3,
+          "file": "svg/2-square-3.svg",
+          "executionNotes": [
+            "Положение «Наушники» уточнено по границам кадра и реестру пересечений."
+          ],
+          "warnings": [],
+          "principle": "Диагональное распределение элементов для большей динамики."
+        },
+        {
+          "format": "landscape",
+          "variant": 1,
+          "file": "svg/2-landscape-1.svg",
+          "executionNotes": [
+            "Положение «Наушники» уточнено по границам кадра и реестру пересечений."
+          ],
+          "warnings": [],
+          "principle": "Горизонтальный баланс с книгой в центре и наушниками над ней."
+        },
+        {
+          "format": "landscape",
+          "variant": 2,
+          "file": "svg/2-landscape-2.svg",
+          "executionNotes": [
+            "Положение «Наушники» уточнено по границам кадра и реестру пересечений."
+          ],
+          "warnings": [],
+          "principle": "Смещенный горизонтальный вариант с акцентом в правой части."
+        },
+        {
+          "format": "landscape",
+          "variant": 3,
+          "file": "svg/2-landscape-3.svg",
+          "executionNotes": [
+            "Положение «Наушники» уточнено по границам кадра и реестру пересечений."
+          ],
+          "warnings": [],
+          "principle": "Широкое диагональное построение по горизонтали."
+        },
+        {
+          "format": "portrait",
+          "variant": 1,
+          "file": "svg/2-portrait-1.svg",
+          "executionNotes": [
+            "Положение «Настольная лампа» уточнено по границам кадра и реестру пересечений."
+          ],
+          "warnings": [],
+          "principle": "Вертикальная компоновка с размещением наушников над книгой."
+        },
+        {
+          "format": "portrait",
+          "variant": 2,
+          "file": "svg/2-portrait-2.svg",
+          "executionNotes": [
+            "Положение «Настольная лампа» уточнено по границам кадра и реестру пересечений."
+          ],
+          "warnings": [],
+          "principle": "Вертикальный вариант со смещением группы выше центра."
+        },
+        {
+          "format": "portrait",
+          "variant": 3,
+          "file": "svg/2-portrait-3.svg",
+          "executionNotes": [
+            "Положение «Настольная лампа» уточнено по границам кадра и реестру пересечений."
+          ],
+          "warnings": [],
+          "principle": "Вертикальная диагональ для гармоничного заполнения высокого кадра."
+        }
+      ],
+      "project": "projects/2.json"
+    },
+    {
+      "id": 3,
+      "query": "Сохранить самое ценное",
+      "http": 200,
+      "status": "ready",
+      "vision": true,
+      "model": "gemini-3.5-flash-lite",
+      "cast": [
+        {
+          "assetId": "book",
+          "role": "main",
+          "zone": "auto",
+          "crop": "whole"
+        },
+        {
+          "assetId": "wallet",
+          "role": "main",
+          "zone": "auto",
+          "crop": "whole"
+        },
+        {
+          "assetId": "coin",
+          "role": "background",
+          "zone": "top-right",
+          "crop": "whole"
+        }
+      ],
+      "explanation": [
+        "Главная группа объединяет книгу и кошелёк, раскрывая тему ценности, накопления и бережного хранения информации.",
+        "Монета в качестве фонового компаньона усиливает метафору ценного содержимого.",
+        "Компактная композиция выстраивает предметы в единую гармоничную группу на поверхности."
+      ],
+      "limitations": [],
+      "outputs": [
+        {
+          "format": "square",
+          "variant": 1,
+          "file": "svg/3-square-1.svg",
+          "executionNotes": [],
+          "warnings": [],
+          "principle": "Книга и кошелёк образуют смысловой центр, монета располагается рядом на заднем плане."
+        },
+        {
+          "format": "square",
+          "variant": 2,
+          "file": "svg/3-square-2.svg",
+          "executionNotes": [],
+          "warnings": [],
+          "principle": "Кошелёк находится на книге со смещением влево, монета поддерживает композицию сверху."
+        },
+        {
+          "format": "square",
+          "variant": 3,
+          "file": "svg/3-square-3.svg",
+          "executionNotes": [],
+          "warnings": [],
+          "principle": "Диагональное расположение элементов для создания динамики и читаемости."
+        },
+        {
+          "format": "landscape",
+          "variant": 1,
+          "file": "svg/3-landscape-1.svg",
+          "executionNotes": [],
+          "warnings": [],
+          "principle": "Сбалансированное горизонтальное размещение главной группы по центру."
+        },
+        {
+          "format": "landscape",
+          "variant": 2,
+          "file": "svg/3-landscape-2.svg",
+          "executionNotes": [],
+          "warnings": [],
+          "principle": "Смещение элементов вправо с акцентом на кошелёк поверх книги."
+        },
+        {
+          "format": "landscape",
+          "variant": 3,
+          "file": "svg/3-landscape-3.svg",
+          "executionNotes": [],
+          "warnings": [],
+          "principle": "Диагональный ритм для панорамного формата."
+        },
+        {
+          "format": "portrait",
+          "variant": 1,
+          "file": "svg/3-portrait-1.svg",
+          "executionNotes": [],
+          "warnings": [],
+          "principle": "Вертикальная компоновка центральной группы предметов."
+        },
+        {
+          "format": "portrait",
+          "variant": 2,
+          "file": "svg/3-portrait-2.svg",
+          "executionNotes": [],
+          "warnings": [],
+          "principle": "Вертикальное смещение для создания устойчивой композиции."
+        },
+        {
+          "format": "portrait",
+          "variant": 3,
+          "file": "svg/3-portrait-3.svg",
+          "executionNotes": [
+            "Положение «Монета» уточнено по границам кадра и реестру пересечений."
+          ],
+          "warnings": [],
+          "principle": "Вытянутая диагональ для вертикального формата."
+        }
+      ],
+      "project": "projects/3.json"
+    },
+    {
+      "id": 4,
+      "query": "Превратить идеи в действие",
+      "http": 200,
+      "status": "ready",
+      "vision": true,
+      "model": "gemini-3.5-flash-lite",
+      "cast": [
+        {
+          "assetId": "book",
+          "role": "main",
+          "zone": "auto",
+          "crop": "whole"
+        },
+        {
+          "assetId": "pen",
+          "role": "main",
+          "zone": "auto",
+          "crop": "whole"
+        },
+        {
+          "assetId": "lamp",
+          "role": "background",
+          "zone": "top-left",
+          "crop": "fragment"
+        }
+      ],
+      "explanation": [
+        "Главная пара открытой книги и ручки воплощает переход от идеи к письменной фиксации и действию.",
+        "Настольная лампа слева создает классический световой контекст для работы и прояснения мысли.",
+        "Компактная композиция объединяет элементы в единую рабочую зону с четкими опорными связями."
+      ],
+      "limitations": [
+        "Масштаб предметов зафиксирован на уровне native 1:1 в соответствии с правилами каталога."
+      ],
+      "outputs": [
+        {
+          "format": "square",
+          "variant": 1,
+          "file": "svg/4-square-1.svg",
+          "executionNotes": [],
+          "warnings": [],
+          "principle": "Книга в центре, ручка на странице, лампа слева сверху для создания светового акцента"
+        },
+        {
+          "format": "square",
+          "variant": 2,
+          "file": "svg/4-square-2.svg",
+          "executionNotes": [],
+          "warnings": [],
+          "principle": "Смещение группы ближе к правому краю, ручка лежит под наклоном на книге"
+        },
+        {
+          "format": "square",
+          "variant": 3,
+          "file": "svg/4-square-3.svg",
+          "executionNotes": [],
+          "warnings": [],
+          "principle": "Плотная компоновка с акцентом на вертикальную ось и верхнее освещение"
+        },
+        {
+          "format": "landscape",
+          "variant": 1,
+          "file": "svg/4-landscape-1.svg",
+          "executionNotes": [],
+          "warnings": [],
+          "principle": "Горизонтальное распределение с лампой слева и центральной книгой"
+        },
+        {
+          "format": "landscape",
+          "variant": 2,
+          "file": "svg/4-landscape-2.svg",
+          "executionNotes": [],
+          "warnings": [],
+          "principle": "Смещение всей композиции вправо для сохранения воздуха слева"
+        },
+        {
+          "format": "landscape",
+          "variant": 3,
+          "file": "svg/4-landscape-3.svg",
+          "executionNotes": [],
+          "warnings": [],
+          "principle": "Сбалансированное размещение элементов по диагонали холста"
+        },
+        {
+          "format": "portrait",
+          "variant": 1,
+          "file": "svg/4-portrait-1.svg",
+          "executionNotes": [
+            "Положение «Настольная лампа» уточнено по границам кадра и реестру пересечений."
+          ],
+          "warnings": [],
+          "principle": "Вертикальная ориентация с акцентом на центральный блок книги"
+        },
+        {
+          "format": "portrait",
+          "variant": 2,
+          "file": "svg/4-portrait-2.svg",
+          "executionNotes": [
+            "Положение «Настольная лампа» уточнено по границам кадра и реестру пересечений."
+          ],
+          "warnings": [],
+          "principle": "Компактная вертикальная стопка с небольшим смещением влево"
+        },
+        {
+          "format": "portrait",
+          "variant": 3,
+          "file": "svg/4-portrait-3.svg",
+          "executionNotes": [
+            "Положение «Настольная лампа» уточнено по границам кадра и реестру пересечений."
+          ],
+          "warnings": [],
+          "principle": "Динамичное расположение элементов с выраженной верхней зоной"
+        }
+      ],
+      "project": "projects/4.json"
+    }
+  ]
+}

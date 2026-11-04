@@ -1,0 +1,443 @@
+{
+  "type": "composition-project",
+  "version": 1,
+  "scene": {
+    "version": 1,
+    "sizing": "native",
+    "environmentPrompt": "Уютная домашняя атмосфера. Только фрагмент цветов в вазе справа сверху. Без лампы, без телефона и без других фоновых предметов.",
+    "environmentExplanation": [
+      "Главная группа объединяет открытую книгу и пишущую ручку для темы письма.",
+      "Добавлен фоновый предмет цветов в вазе справа сверху для создания уютной атмосферы.",
+      "Ручка располагается поверх книги согласно правилам связей."
+    ],
+    "groups": [
+      {
+        "kind": "writing",
+        "members": [
+          "imw10uyjkbfr6jz",
+          "imw10uyjk81njc2"
+        ],
+        "reason": "Книга и ручка составляют смысловую пару для письма и заметок."
+      }
+    ],
+    "width": 1000,
+    "height": 1000,
+    "format": "square",
+    "size": "L",
+    "palette": "lavender",
+    "layout": "compact",
+    "background": "pattern",
+    "supporting": true,
+    "showSupporting": true,
+    "camera": null,
+    "composition": {
+      "index": 0,
+      "options": [
+        {
+          "strategy": "balanced",
+          "title": "Сбалансированная",
+          "principle": "Книга и ручка составляют смысловую пару для письма и заметок. Окружение: цветы в вазе.",
+          "placement": "on-surface"
+        },
+        {
+          "strategy": "spacious",
+          "title": "Свободная",
+          "principle": "Ручка лежит рядом с книгой на поверхности в спокойном порядке.",
+          "placement": "beside"
+        },
+        {
+          "strategy": "diagonal",
+          "title": "Диагональная",
+          "principle": "Ручка расположена поперек страницы книги, создавая динамичный акцент.",
+          "placement": "across"
+        }
+      ]
+    },
+    "layerRelations": [
+      {
+        "back": "imw10uyjkbfr6jz",
+        "front": "imw10uyjk81njc2",
+        "reason": "Ручка лежит поверх открытой книги."
+      },
+      {
+        "back": "imw11628ddwwmca",
+        "front": "imw10uyjkbfr6jz",
+        "reason": "Цветы на заднем плане создают атмосферу"
+      },
+      {
+        "back": "imw10uyjkbfr6jz",
+        "front": "imw10uyjk81njc2",
+        "reason": "Сохранён порядок главной группы."
+      }
+    ],
+    "recipe": "study",
+    "framing": "overview",
+    "focus": "pen",
+    "query": "Любит писать. Книга и ручка — главные предметы.",
+    "scale": 1,
+    "items": [
+      {
+        "uid": "imw11628ddwwmca",
+        "assetId": "flowers",
+        "role": "background",
+        "x": 800,
+        "y": 164.71999999999997,
+        "rotation": 0,
+        "flipX": false,
+        "flipY": false,
+        "zone": "top-right",
+        "crop": "fragment"
+      },
+      {
+        "uid": "imw10uyjkbfr6jz",
+        "assetId": "book",
+        "role": "main",
+        "x": 540,
+        "y": 510,
+        "rotation": 0,
+        "flipX": false,
+        "flipY": false,
+        "zone": "auto",
+        "crop": "whole"
+      },
+      {
+        "uid": "imw10uyjk81njc2",
+        "assetId": "pen",
+        "role": "main",
+        "x": 395.4,
+        "y": 588.16,
+        "rotation": 0,
+        "flipX": false,
+        "flipY": false,
+        "supportUid": "imw10uyjkbfr6jz",
+        "zone": "auto",
+        "crop": "whole"
+      }
+    ]
+  },
+  "memory": {
+    "version": 1,
+    "index": 0,
+    "scenes": [
+      {
+        "version": 1,
+        "sizing": "native",
+        "environmentPrompt": "Уютная домашняя атмосфера. Только фрагмент цветов в вазе справа сверху. Без лампы, без телефона и без других фоновых предметов.",
+        "environmentExplanation": [
+          "Главная группа объединяет открытую книгу и пишущую ручку для темы письма.",
+          "Добавлен фоновый предмет цветов в вазе справа сверху для создания уютной атмосферы.",
+          "Ручка располагается поверх книги согласно правилам связей."
+        ],
+        "groups": [
+          {
+            "kind": "writing",
+            "members": [
+              "imw10uyjkbfr6jz",
+              "imw10uyjk81njc2"
+            ],
+            "reason": "Книга и ручка составляют смысловую пару для письма и заметок."
+          }
+        ],
+        "width": 1000,
+        "height": 1000,
+        "format": "square",
+        "size": "L",
+        "palette": "lavender",
+        "layout": "compact",
+        "background": "pattern",
+        "supporting": true,
+        "showSupporting": true,
+        "camera": null,
+        "composition": {
+          "index": 0,
+          "options": [
+            {
+              "strategy": "balanced",
+              "title": "Сбалансированная",
+              "principle": "Книга и ручка составляют смысловую пару для письма и заметок. Окружение: цветы в вазе.",
+              "placement": "on-surface"
+            },
+            {
+              "strategy": "spacious",
+              "title": "Свободная",
+              "principle": "Ручка лежит рядом с книгой на поверхности в спокойном порядке.",
+              "placement": "beside"
+            },
+            {
+              "strategy": "diagonal",
+              "title": "Диагональная",
+              "principle": "Ручка расположена поперек страницы книги, создавая динамичный акцент.",
+              "placement": "across"
+            }
+          ]
+        },
+        "layerRelations": [
+          {
+            "back": "imw10uyjkbfr6jz",
+            "front": "imw10uyjk81njc2",
+            "reason": "Ручка лежит поверх открытой книги."
+          },
+          {
+            "back": "imw11628ddwwmca",
+            "front": "imw10uyjkbfr6jz",
+            "reason": "Цветы на заднем плане создают атмосферу"
+          },
+          {
+            "back": "imw10uyjkbfr6jz",
+            "front": "imw10uyjk81njc2",
+            "reason": "Сохранён порядок главной группы."
+          }
+        ],
+        "recipe": "study",
+        "framing": "overview",
+        "focus": "pen",
+        "query": "Любит писать. Книга и ручка — главные предметы.",
+        "scale": 1,
+        "items": [
+          {
+            "uid": "imw11628ddwwmca",
+            "assetId": "flowers",
+            "role": "background",
+            "x": 800,
+            "y": 164.71999999999997,
+            "rotation": 0,
+            "flipX": false,
+            "flipY": false,
+            "zone": "top-right",
+            "crop": "fragment"
+          },
+          {
+            "uid": "imw10uyjkbfr6jz",
+            "assetId": "book",
+            "role": "main",
+            "x": 540,
+            "y": 510,
+            "rotation": 0,
+            "flipX": false,
+            "flipY": false,
+            "zone": "auto",
+            "crop": "whole"
+          },
+          {
+            "uid": "imw10uyjk81njc2",
+            "assetId": "pen",
+            "role": "main",
+            "x": 395.4,
+            "y": 588.16,
+            "rotation": 0,
+            "flipX": false,
+            "flipY": false,
+            "supportUid": "imw10uyjkbfr6jz",
+            "zone": "auto",
+            "crop": "whole"
+          }
+        ]
+      },
+      {
+        "version": 1,
+        "sizing": "native",
+        "environmentPrompt": "Без фоновых предметов",
+        "environmentExplanation": [
+          "Главная смысловая группа: книга и ручка для письма.",
+          "Фоновые предметы исключены по требованию пользователя.",
+          "Композиция построена на компактном размещении главных объектов."
+        ],
+        "groups": [
+          {
+            "kind": "writing",
+            "members": [
+              "imw10uyjkbfr6jz",
+              "imw10uyjk81njc2"
+            ],
+            "reason": "Книга и ручка составляют смысловую пару для письма и заметок."
+          }
+        ],
+        "width": 500,
+        "height": 500,
+        "format": "custom",
+        "size": "S",
+        "palette": "lavender",
+        "layout": "compact",
+        "background": "pattern",
+        "supporting": true,
+        "showSupporting": true,
+        "camera": null,
+        "composition": {
+          "index": 1,
+          "options": [
+            {
+              "strategy": "balanced",
+              "title": "Сбалансированная",
+              "principle": "Книга и ручка образуют гармоничный центр, а лампа дополняет сцену слева.",
+              "placement": "on-surface"
+            },
+            {
+              "strategy": "spacious",
+              "title": "Свободная",
+              "principle": "Ручка лежит рядом с книгой на поверхности в спокойном порядке.",
+              "placement": "beside"
+            },
+            {
+              "strategy": "diagonal",
+              "title": "Диагональная",
+              "principle": "Ручка расположена поперек страницы книги, создавая динамичный акцент.",
+              "placement": "across"
+            }
+          ]
+        },
+        "layerRelations": [
+          {
+            "back": "imw10uyjkbfr6jz",
+            "front": "imw10uyjk81njc2",
+            "reason": "Ручка лежит поверх открытой книги."
+          },
+          {
+            "back": "imw10uyjkbfr6jz",
+            "front": "imw10uyjk81njc2",
+            "reason": "Сохранён порядок главной группы."
+          }
+        ],
+        "recipe": "study",
+        "framing": "overview",
+        "focus": "pen",
+        "query": "Любит писать. Книга и ручка — главные предметы.",
+        "scale": 1,
+        "items": [
+          {
+            "uid": "imw10uyjkbfr6jz",
+            "assetId": "book",
+            "role": "main",
+            "x": 400,
+            "y": 115,
+            "rotation": 0,
+            "flipX": false,
+            "flipY": false,
+            "zone": "auto",
+            "crop": "whole"
+          },
+          {
+            "uid": "imw10uyjk81njc2",
+            "assetId": "pen",
+            "role": "main",
+            "x": 137.5,
+            "y": 400,
+            "rotation": 0,
+            "flipX": false,
+            "flipY": false,
+            "zone": "auto",
+            "crop": "whole"
+          }
+        ]
+      },
+      {
+        "version": 1,
+        "sizing": "native",
+        "environmentPrompt": "Уютное вечернее рабочее место. Фрагмент монохромной лампы, без других фоновых предметов.",
+        "environmentExplanation": [
+          "Главные предметы — открытая книга и пишущая ручка, объединенные темой письма.",
+          "Добавлена настольная лампа в качестве фонового элемента для создания уютной вечерней атмосферы.",
+          "Композиция построена компактно с перекрытием слоев для естественного расположения ручки на странице."
+        ],
+        "groups": [
+          {
+            "kind": "writing",
+            "members": [
+              "imw10uyjkbfr6jz",
+              "imw10uyjk81njc2"
+            ],
+            "reason": "Книга и ручка составляют смысловую пару для письма и заметок."
+          }
+        ],
+        "width": 1000,
+        "height": 1000,
+        "format": "square",
+        "size": "L",
+        "palette": "lavender",
+        "layout": "compact",
+        "background": "pattern",
+        "supporting": true,
+        "showSupporting": true,
+        "camera": null,
+        "composition": {
+          "index": 2,
+          "options": [
+            {
+              "strategy": "balanced",
+              "title": "Сбалансированная",
+              "principle": "Книга и ручка образуют гармоничный центр, а лампа дополняет сцену слева.",
+              "placement": "on-surface"
+            },
+            {
+              "strategy": "spacious",
+              "title": "Свободная",
+              "principle": "Ручка лежит рядом с книгой на поверхности в спокойном порядке.",
+              "placement": "beside"
+            },
+            {
+              "strategy": "diagonal",
+              "title": "Диагональная",
+              "principle": "Ручка расположена поперек страницы книги, создавая динамичный акцент.",
+              "placement": "across"
+            }
+          ]
+        },
+        "layerRelations": [
+          {
+            "back": "imw10uyjkbfr6jz",
+            "front": "imw10uyjk81njc2",
+            "reason": "Ручка лежит поверх открытой книги."
+          },
+          {
+            "back": "imw10uyjkq1pr8y",
+            "front": "imw10uyjkbfr6jz",
+            "reason": "Лампа находится на заднем плане позади основных предметов."
+          }
+        ],
+        "recipe": "study",
+        "framing": "overview",
+        "focus": "pen",
+        "query": "Любит писать. Книга и ручка — главные предметы.",
+        "scale": 1,
+        "items": [
+          {
+            "uid": "imw10uyjkq1pr8y",
+            "assetId": "lamp",
+            "role": "background",
+            "x": 80,
+            "y": -45.160000000000004,
+            "rotation": 0,
+            "flipX": false,
+            "flipY": false,
+            "zone": "top-left",
+            "crop": "fragment"
+          },
+          {
+            "uid": "imw10uyjkbfr6jz",
+            "assetId": "book",
+            "role": "main",
+            "x": 565.0000000000001,
+            "y": 510,
+            "rotation": 0,
+            "flipX": false,
+            "flipY": false,
+            "zone": "auto",
+            "crop": "whole"
+          },
+          {
+            "uid": "imw10uyjk81njc2",
+            "assetId": "pen",
+            "role": "main",
+            "x": 622.8400000000001,
+            "y": 490.46,
+            "rotation": -65,
+            "flipX": false,
+            "flipY": false,
+            "supportUid": "imw10uyjkbfr6jz",
+            "zone": "auto",
+            "crop": "whole"
+          }
+        ]
+      }
+    ]
+  }
+}

@@ -1,0 +1,3952 @@
+{
+  "type": "composition-project",
+  "version": 2,
+  "scene": {
+    "version": 1,
+    "sizing": "native",
+    "environmentPrompt": "",
+    "environmentExplanation": [
+      "Главная смысловая группа объединяет кошелек и монету для раскрытия темы управления финансами.",
+      "Фоновый элемент в виде папки создает рабочую атмосферу и глубину композиции.",
+      "Компактная раскладка выстраивает элементы в единую сбалансированную структуру."
+    ],
+    "groups": [
+      {
+        "kind": "collection",
+        "members": [
+          "imw199yqqlwjz4r",
+          "imw199yqqpt8eg6"
+        ],
+        "reason": "Сбалансированная композиция финансовой группы с акцентом на кошелек и монету"
+      }
+    ],
+    "formatPlans": [],
+    "stagingPlans": [
+      {
+        "format": "square",
+        "views": [
+          {
+            "principle": "Сбалансированная композиция финансовой группы с акцентом на кошелек и монету",
+            "placements": [
+              {
+                "uid": "imw199yqqlwjz4r",
+                "relation": "canvas",
+                "x": 0.48,
+                "y": 0.52,
+                "gap": 0,
+                "rotation": 0
+              },
+              {
+                "uid": "imw199yqqpt8eg6",
+                "relation": "right",
+                "targetUid": "imw199yqqlwjz4r",
+                "x": 0.75,
+                "y": 0.5,
+                "gap": 0.03,
+                "rotation": 0
+              },
+              {
+                "uid": "imw199yqqvng8q8",
+                "relation": "canvas",
+                "x": 0.78,
+                "y": 0.3,
+                "gap": 0.04,
+                "rotation": 0
+              }
+            ]
+          },
+          {
+            "principle": "Просторное размещение предметов с сохранением визуальной связи",
+            "placements": [
+              {
+                "uid": "imw199yqqlwjz4r",
+                "relation": "canvas",
+                "x": 0.45,
+                "y": 0.55,
+                "gap": 0,
+                "rotation": 0
+              },
+              {
+                "uid": "imw199yqqpt8eg6",
+                "relation": "right",
+                "targetUid": "imw199yqqlwjz4r",
+                "x": 0.75,
+                "y": 0.5,
+                "gap": 0.03,
+                "rotation": 0
+              },
+              {
+                "uid": "imw199yqqvng8q8",
+                "relation": "canvas",
+                "x": 0.8,
+                "y": 0.25,
+                "gap": 0.05,
+                "rotation": 0
+              }
+            ]
+          },
+          {
+            "principle": "Диагональное построение для создания динамики в квадратном формате",
+            "placements": [
+              {
+                "uid": "imw199yqqlwjz4r",
+                "relation": "canvas",
+                "x": 0.5,
+                "y": 0.5,
+                "gap": 0,
+                "rotation": 0
+              },
+              {
+                "uid": "imw199yqqpt8eg6",
+                "relation": "right",
+                "targetUid": "imw199yqqlwjz4r",
+                "x": 0.75,
+                "y": 0.5,
+                "gap": 0.03,
+                "rotation": 0
+              },
+              {
+                "uid": "imw199yqqvng8q8",
+                "relation": "canvas",
+                "x": 0.75,
+                "y": 0.28,
+                "gap": 0.04,
+                "rotation": 0
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "format": "landscape",
+        "views": [
+          {
+            "principle": "Горизонтальный баланс с центральным расположением главных элементов",
+            "placements": [
+              {
+                "uid": "imw199yqqlwjz4r",
+                "relation": "canvas",
+                "x": 0.5,
+                "y": 0.55,
+                "gap": 0,
+                "rotation": 0
+              },
+              {
+                "uid": "imw199yqqpt8eg6",
+                "relation": "right",
+                "targetUid": "imw199yqqlwjz4r",
+                "x": 0.75,
+                "y": 0.5,
+                "gap": 0.03,
+                "rotation": 0
+              },
+              {
+                "uid": "imw199yqqvng8q8",
+                "relation": "canvas",
+                "x": 0.82,
+                "y": 0.3,
+                "gap": 0.04,
+                "rotation": 0
+              }
+            ]
+          },
+          {
+            "principle": "Широкое распределение по горизонтали для ландшафтного экрана",
+            "placements": [
+              {
+                "uid": "imw199yqqlwjz4r",
+                "relation": "canvas",
+                "x": 0.48,
+                "y": 0.58,
+                "gap": 0,
+                "rotation": 0
+              },
+              {
+                "uid": "imw199yqqpt8eg6",
+                "relation": "right",
+                "targetUid": "imw199yqqlwjz4r",
+                "x": 0.75,
+                "y": 0.5,
+                "gap": 0.03,
+                "rotation": 0
+              },
+              {
+                "uid": "imw199yqqvng8q8",
+                "relation": "canvas",
+                "x": 0.85,
+                "y": 0.28,
+                "gap": 0.05,
+                "rotation": 0
+              }
+            ]
+          },
+          {
+            "principle": "Диагональный ритм вдоль длинной стороны холста",
+            "placements": [
+              {
+                "uid": "imw199yqqlwjz4r",
+                "relation": "canvas",
+                "x": 0.52,
+                "y": 0.52,
+                "gap": 0,
+                "rotation": 0
+              },
+              {
+                "uid": "imw199yqqpt8eg6",
+                "relation": "right",
+                "targetUid": "imw199yqqlwjz4r",
+                "x": 0.75,
+                "y": 0.5,
+                "gap": 0.03,
+                "rotation": 0
+              },
+              {
+                "uid": "imw199yqqvng8q8",
+                "relation": "canvas",
+                "x": 0.8,
+                "y": 0.25,
+                "gap": 0.04,
+                "rotation": 0
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "format": "portrait",
+        "views": [
+          {
+            "principle": "Вертикальная композиция с акцентом в нижней части кадра",
+            "placements": [
+              {
+                "uid": "imw199yqqlwjz4r",
+                "relation": "canvas",
+                "x": 0.5,
+                "y": 0.6,
+                "gap": 0,
+                "rotation": 0
+              },
+              {
+                "uid": "imw199yqqpt8eg6",
+                "relation": "right",
+                "targetUid": "imw199yqqlwjz4r",
+                "x": 0.75,
+                "y": 0.5,
+                "gap": 0.03,
+                "rotation": 0
+              },
+              {
+                "uid": "imw199yqqvng8q8",
+                "relation": "canvas",
+                "x": 0.75,
+                "y": 0.25,
+                "gap": 0.04,
+                "rotation": 0
+              }
+            ]
+          },
+          {
+            "principle": "Высокое размещение элементов для вертикального формата",
+            "placements": [
+              {
+                "uid": "imw199yqqlwjz4r",
+                "relation": "canvas",
+                "x": 0.52,
+                "y": 0.58,
+                "gap": 0,
+                "rotation": 0
+              },
+              {
+                "uid": "imw199yqqpt8eg6",
+                "relation": "right",
+                "targetUid": "imw199yqqlwjz4r",
+                "x": 0.75,
+                "y": 0.5,
+                "gap": 0.03,
+                "rotation": 0
+              },
+              {
+                "uid": "imw199yqqvng8q8",
+                "relation": "canvas",
+                "x": 0.78,
+                "y": 0.22,
+                "gap": 0.05,
+                "rotation": 0
+              }
+            ]
+          },
+          {
+            "principle": "Диагональное движение по вертикальному холсту",
+            "placements": [
+              {
+                "uid": "imw199yqqlwjz4r",
+                "relation": "canvas",
+                "x": 0.48,
+                "y": 0.62,
+                "gap": 0,
+                "rotation": 0
+              },
+              {
+                "uid": "imw199yqqpt8eg6",
+                "relation": "right",
+                "targetUid": "imw199yqqlwjz4r",
+                "x": 0.75,
+                "y": 0.5,
+                "gap": 0.03,
+                "rotation": 0
+              },
+              {
+                "uid": "imw199yqqvng8q8",
+                "relation": "canvas",
+                "x": 0.75,
+                "y": 0.28,
+                "gap": 0.04,
+                "rotation": 0
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "executionNotes": [
+      "Положение «Папка» уточнено по границам кадра и реестру пересечений."
+    ],
+    "width": 1000,
+    "height": 1000,
+    "format": "square",
+    "size": "S",
+    "palette": "aqua",
+    "layout": "compact",
+    "background": "pattern",
+    "backgroundDesign": "auto",
+    "supporting": true,
+    "showSupporting": true,
+    "camera": null,
+    "composition": {
+      "index": 0,
+      "options": [
+        {
+          "strategy": "balanced",
+          "title": "На опоре",
+          "principle": "Сбалансированная композиция финансовой группы с акцентом на кошелек и монету",
+          "placement": "on-surface"
+        },
+        {
+          "strategy": "spacious",
+          "title": "Рядом",
+          "principle": "Просторное размещение предметов с сохранением визуальной связи",
+          "placement": "beside"
+        },
+        {
+          "strategy": "diagonal",
+          "title": "Другой ракурс группы",
+          "principle": "Диагональное построение для создания динамики в квадратном формате",
+          "placement": "across"
+        }
+      ]
+    },
+    "layerRelations": [
+      {
+        "back": "imw199yqqvng8q8",
+        "front": "imw199yqqlwjz4r",
+        "reason": "Фоновый компаньон находится позади главной группы."
+      }
+    ],
+    "recipe": "auto",
+    "framing": "overview",
+    "focus": "wallet",
+    "query": "Держать финансы под контролем",
+    "scale": 1,
+    "items": [
+      {
+        "uid": "imw199yqqvng8q8",
+        "assetId": "folder",
+        "role": "background",
+        "x": 1000,
+        "y": 313.2,
+        "rotation": 0,
+        "flipX": false,
+        "flipY": false,
+        "zone": "top-right",
+        "crop": "fragment"
+      },
+      {
+        "uid": "imw199yqqlwjz4r",
+        "assetId": "wallet",
+        "role": "main",
+        "x": 502.12,
+        "y": 533.93,
+        "rotation": 0,
+        "flipX": false,
+        "flipY": false,
+        "zone": "auto",
+        "crop": "whole"
+      },
+      {
+        "uid": "imw199yqqpt8eg6",
+        "assetId": "coin",
+        "role": "main",
+        "x": 768.36,
+        "y": 510.1,
+        "rotation": 0,
+        "flipX": false,
+        "flipY": false,
+        "zone": "auto",
+        "crop": "whole"
+      }
+    ]
+  },
+  "memory": {
+    "version": 2,
+    "format": "square",
+    "index": 0,
+    "formats": {
+      "square": [
+        {
+          "version": 1,
+          "sizing": "native",
+          "environmentPrompt": "",
+          "environmentExplanation": [
+            "Главная смысловая группа объединяет кошелек и монету для раскрытия темы управления финансами.",
+            "Фоновый элемент в виде папки создает рабочую атмосферу и глубину композиции.",
+            "Компактная раскладка выстраивает элементы в единую сбалансированную структуру."
+          ],
+          "groups": [
+            {
+              "kind": "collection",
+              "members": [
+                "imw199yqqlwjz4r",
+                "imw199yqqpt8eg6"
+              ],
+              "reason": "Сбалансированная композиция финансовой группы с акцентом на кошелек и монету"
+            }
+          ],
+          "formatPlans": [],
+          "stagingPlans": [
+            {
+              "format": "square",
+              "views": [
+                {
+                  "principle": "Сбалансированная композиция финансовой группы с акцентом на кошелек и монету",
+                  "placements": [
+                    {
+                      "uid": "imw199yqqlwjz4r",
+                      "relation": "canvas",
+                      "x": 0.48,
+                      "y": 0.52,
+                      "gap": 0,
+                      "rotation": 0
+                    },
+                    {
+                      "uid": "imw199yqqpt8eg6",
+                      "relation": "right",
+                      "targetUid": "imw199yqqlwjz4r",
+                      "x": 0.75,
+                      "y": 0.5,
+                      "gap": 0.03,
+                      "rotation": 0
+                    },
+                    {
+                      "uid": "imw199yqqvng8q8",
+                      "relation": "canvas",
+                      "x": 0.78,
+                      "y": 0.3,
+                      "gap": 0.04,
+                      "rotation": 0
+                    }
+                  ]
+                },
+                {
+                  "principle": "Просторное размещение предметов с сохранением визуальной связи",
+                  "placements": [
+                    {
+                      "uid": "imw199yqqlwjz4r",
+                      "relation": "canvas",
+                      "x": 0.45,
+                      "y": 0.55,
+                      "gap": 0,
+                      "rotation": 0
+                    },
+                    {
+                      "uid": "imw199yqqpt8eg6",
+                      "relation": "right",
+                      "targetUid": "imw199yqqlwjz4r",
+                      "x": 0.75,
+                      "y": 0.5,
+                      "gap": 0.03,
+                      "rotation": 0
+                    },
+                    {
+                      "uid": "imw199yqqvng8q8",
+                      "relation": "canvas",
+                      "x": 0.8,
+                      "y": 0.25,
+                      "gap": 0.05,
+                      "rotation": 0
+                    }
+                  ]
+                },
+                {
+                  "principle": "Диагональное построение для создания динамики в квадратном формате",
+                  "placements": [
+                    {
+                      "uid": "imw199yqqlwjz4r",
+                      "relation": "canvas",
+                      "x": 0.5,
+                      "y": 0.5,
+                      "gap": 0,
+                      "rotation": 0
+                    },
+                    {
+                      "uid": "imw199yqqpt8eg6",
+                      "relation": "right",
+                      "targetUid": "imw199yqqlwjz4r",
+                      "x": 0.75,
+                      "y": 0.5,
+                      "gap": 0.03,
+                      "rotation": 0
+                    },
+                    {
+                      "uid": "imw199yqqvng8q8",
+                      "relation": "canvas",
+                      "x": 0.75,
+                      "y": 0.28,
+                      "gap": 0.04,
+                      "rotation": 0
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "format": "landscape",
+              "views": [
+                {
+                  "principle": "Горизонтальный баланс с центральным расположением главных элементов",
+                  "placements": [
+                    {
+                      "uid": "imw199yqqlwjz4r",
+                      "relation": "canvas",
+                      "x": 0.5,
+                      "y": 0.55,
+                      "gap": 0,
+                      "rotation": 0
+                    },
+                    {
+                      "uid": "imw199yqqpt8eg6",
+                      "relation": "right",
+                      "targetUid": "imw199yqqlwjz4r",
+                      "x": 0.75,
+                      "y": 0.5,
+                      "gap": 0.03,
+                      "rotation": 0
+                    },
+                    {
+                      "uid": "imw199yqqvng8q8",
+                      "relation": "canvas",
+                      "x": 0.82,
+                      "y": 0.3,
+                      "gap": 0.04,
+                      "rotation": 0
+                    }
+                  ]
+                },
+                {
+                  "principle": "Широкое распределение по горизонтали для ландшафтного экрана",
+                  "placements": [
+                    {
+                      "uid": "imw199yqqlwjz4r",
+                      "relation": "canvas",
+                      "x": 0.48,
+                      "y": 0.58,
+                      "gap": 0,
+                      "rotation": 0
+                    },
+                    {
+                      "uid": "imw199yqqpt8eg6",
+                      "relation": "right",
+                      "targetUid": "imw199yqqlwjz4r",
+                      "x": 0.75,
+                      "y": 0.5,
+                      "gap": 0.03,
+                      "rotation": 0
+                    },
+                    {
+                      "uid": "imw199yqqvng8q8",
+                      "relation": "canvas",
+                      "x": 0.85,
+                      "y": 0.28,
+                      "gap": 0.05,
+                      "rotation": 0
+                    }
+                  ]
+                },
+                {
+                  "principle": "Диагональный ритм вдоль длинной стороны холста",
+                  "placements": [
+                    {
+                      "uid": "imw199yqqlwjz4r",
+                      "relation": "canvas",
+                      "x": 0.52,
+                      "y": 0.52,
+                      "gap": 0,
+                      "rotation": 0
+                    },
+                    {
+                      "uid": "imw199yqqpt8eg6",
+                      "relation": "right",
+                      "targetUid": "imw199yqqlwjz4r",
+                      "x": 0.75,
+                      "y": 0.5,
+                      "gap": 0.03,
+                      "rotation": 0
+                    },
+                    {
+                      "uid": "imw199yqqvng8q8",
+                      "relation": "canvas",
+                      "x": 0.8,
+                      "y": 0.25,
+                      "gap": 0.04,
+                      "rotation": 0
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "format": "portrait",
+              "views": [
+                {
+                  "principle": "Вертикальная композиция с акцентом в нижней части кадра",
+                  "placements": [
+                    {
+                      "uid": "imw199yqqlwjz4r",
+                      "relation": "canvas",
+                      "x": 0.5,
+                      "y": 0.6,
+                      "gap": 0,
+                      "rotation": 0
+                    },
+                    {
+                      "uid": "imw199yqqpt8eg6",
+                      "relation": "right",
+                      "targetUid": "imw199yqqlwjz4r",
+                      "x": 0.75,
+                      "y": 0.5,
+                      "gap": 0.03,
+                      "rotation": 0
+                    },
+                    {
+                      "uid": "imw199yqqvng8q8",
+                      "relation": "canvas",
+                      "x": 0.75,
+                      "y": 0.25,
+                      "gap": 0.04,
+                      "rotation": 0
+                    }
+                  ]
+                },
+                {
+                  "principle": "Высокое размещение элементов для вертикального формата",
+                  "placements": [
+                    {
+                      "uid": "imw199yqqlwjz4r",
+                      "relation": "canvas",
+                      "x": 0.52,
+                      "y": 0.58,
+                      "gap": 0,
+                      "rotation": 0
+                    },
+                    {
+                      "uid": "imw199yqqpt8eg6",
+                      "relation": "right",
+                      "targetUid": "imw199yqqlwjz4r",
+                      "x": 0.75,
+                      "y": 0.5,
+                      "gap": 0.03,
+                      "rotation": 0
+                    },
+                    {
+                      "uid": "imw199yqqvng8q8",
+                      "relation": "canvas",
+                      "x": 0.78,
+                      "y": 0.22,
+                      "gap": 0.05,
+                      "rotation": 0
+                    }
+                  ]
+                },
+                {
+                  "principle": "Диагональное движение по вертикальному холсту",
+                  "placements": [
+                    {
+                      "uid": "imw199yqqlwjz4r",
+                      "relation": "canvas",
+                      "x": 0.48,
+                      "y": 0.62,
+                      "gap": 0,
+                      "rotation": 0
+                    },
+                    {
+                      "uid": "imw199yqqpt8eg6",
+                      "relation": "right",
+                      "targetUid": "imw199yqqlwjz4r",
+                      "x": 0.75,
+                      "y": 0.5,
+                      "gap": 0.03,
+                      "rotation": 0
+                    },
+                    {
+                      "uid": "imw199yqqvng8q8",
+                      "relation": "canvas",
+                      "x": 0.75,
+                      "y": 0.28,
+                      "gap": 0.04,
+                      "rotation": 0
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "executionNotes": [
+            "Положение «Папка» уточнено по границам кадра и реестру пересечений."
+          ],
+          "width": 1000,
+          "height": 1000,
+          "format": "square",
+          "size": "S",
+          "palette": "aqua",
+          "layout": "compact",
+          "background": "pattern",
+          "backgroundDesign": "auto",
+          "supporting": true,
+          "showSupporting": true,
+          "camera": null,
+          "composition": {
+            "index": 0,
+            "options": [
+              {
+                "strategy": "balanced",
+                "title": "На опоре",
+                "principle": "Сбалансированная композиция финансовой группы с акцентом на кошелек и монету",
+                "placement": "on-surface"
+              },
+              {
+                "strategy": "spacious",
+                "title": "Рядом",
+                "principle": "Просторное размещение предметов с сохранением визуальной связи",
+                "placement": "beside"
+              },
+              {
+                "strategy": "diagonal",
+                "title": "Другой ракурс группы",
+                "principle": "Диагональное построение для создания динамики в квадратном формате",
+                "placement": "across"
+              }
+            ]
+          },
+          "layerRelations": [
+            {
+              "back": "imw199yqqvng8q8",
+              "front": "imw199yqqlwjz4r",
+              "reason": "Фоновый компаньон находится позади главной группы."
+            }
+          ],
+          "recipe": "auto",
+          "framing": "overview",
+          "focus": "wallet",
+          "query": "Держать финансы под контролем",
+          "scale": 1,
+          "items": [
+            {
+              "uid": "imw199yqqvng8q8",
+              "assetId": "folder",
+              "role": "background",
+              "x": 1000,
+              "y": 313.2,
+              "rotation": 0,
+              "flipX": false,
+              "flipY": false,
+              "zone": "top-right",
+              "crop": "fragment"
+            },
+            {
+              "uid": "imw199yqqlwjz4r",
+              "assetId": "wallet",
+              "role": "main",
+              "x": 502.12,
+              "y": 533.93,
+              "rotation": 0,
+              "flipX": false,
+              "flipY": false,
+              "zone": "auto",
+              "crop": "whole"
+            },
+            {
+              "uid": "imw199yqqpt8eg6",
+              "assetId": "coin",
+              "role": "main",
+              "x": 768.36,
+              "y": 510.1,
+              "rotation": 0,
+              "flipX": false,
+              "flipY": false,
+              "zone": "auto",
+              "crop": "whole"
+            }
+          ]
+        },
+        {
+          "version": 1,
+          "sizing": "native",
+          "environmentPrompt": "",
+          "environmentExplanation": [
+            "Главная смысловая группа объединяет кошелек и монету для раскрытия темы управления финансами.",
+            "Фоновый элемент в виде папки создает рабочую атмосферу и глубину композиции.",
+            "Компактная раскладка выстраивает элементы в единую сбалансированную структуру."
+          ],
+          "groups": [
+            {
+              "kind": "collection",
+              "members": [
+                "imw199yqqlwjz4r",
+                "imw199yqqpt8eg6"
+              ],
+              "reason": "Просторное размещение предметов с сохранением визуальной связи"
+            }
+          ],
+          "formatPlans": [],
+          "stagingPlans": [
+            {
+              "format": "square",
+              "views": [
+                {
+                  "principle": "Сбалансированная композиция финансовой группы с акцентом на кошелек и монету",
+                  "placements": [
+                    {
+                      "uid": "imw199yqqlwjz4r",
+                      "relation": "canvas",
+                      "x": 0.48,
+                      "y": 0.52,
+                      "gap": 0,
+                      "rotation": 0
+                    },
+                    {
+                      "uid": "imw199yqqpt8eg6",
+                      "relation": "right",
+                      "targetUid": "imw199yqqlwjz4r",
+                      "x": 0.75,
+                      "y": 0.5,
+                      "gap": 0.03,
+                      "rotation": 0
+                    },
+                    {
+                      "uid": "imw199yqqvng8q8",
+                      "relation": "canvas",
+                      "x": 0.78,
+                      "y": 0.3,
+                      "gap": 0.04,
+                      "rotation": 0
+                    }
+                  ]
+                },
+                {
+                  "principle": "Просторное размещение предметов с сохранением визуальной связи",
+                  "placements": [
+                    {
+                      "uid": "imw199yqqlwjz4r",
+                      "relation": "canvas",
+                      "x": 0.45,
+                      "y": 0.55,
+                      "gap": 0,
+                      "rotation": 0
+                    },
+                    {
+                      "uid": "imw199yqqpt8eg6",
+                      "relation": "right",
+                      "targetUid": "imw199yqqlwjz4r",
+                      "x": 0.75,
+                      "y": 0.5,
+                      "gap": 0.03,
+                      "rotation": 0
+                    },
+                    {
+                      "uid": "imw199yqqvng8q8",
+                      "relation": "canvas",
+                      "x": 0.8,
+                      "y": 0.25,
+                      "gap": 0.05,
+                      "rotation": 0
+                    }
+                  ]
+                },
+                {
+                  "principle": "Диагональное построение для создания динамики в квадратном формате",
+                  "placements": [
+                    {
+                      "uid": "imw199yqqlwjz4r",
+                      "relation": "canvas",
+                      "x": 0.5,
+                      "y": 0.5,
+                      "gap": 0,
+                      "rotation": 0
+                    },
+                    {
+                      "uid": "imw199yqqpt8eg6",
+                      "relation": "right",
+                      "targetUid": "imw199yqqlwjz4r",
+                      "x": 0.75,
+                      "y": 0.5,
+                      "gap": 0.03,
+                      "rotation": 0
+                    },
+                    {
+                      "uid": "imw199yqqvng8q8",
+                      "relation": "canvas",
+                      "x": 0.75,
+                      "y": 0.28,
+                      "gap": 0.04,
+                      "rotation": 0
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "format": "landscape",
+              "views": [
+                {
+                  "principle": "Горизонтальный баланс с центральным расположением главных элементов",
+                  "placements": [
+                    {
+                      "uid": "imw199yqqlwjz4r",
+                      "relation": "canvas",
+                      "x": 0.5,
+                      "y": 0.55,
+                      "gap": 0,
+                      "rotation": 0
+                    },
+                    {
+                      "uid": "imw199yqqpt8eg6",
+                      "relation": "right",
+                      "targetUid": "imw199yqqlwjz4r",
+                      "x": 0.75,
+                      "y": 0.5,
+                      "gap": 0.03,
+                      "rotation": 0
+                    },
+                    {
+                      "uid": "imw199yqqvng8q8",
+                      "relation": "canvas",
+                      "x": 0.82,
+                      "y": 0.3,
+                      "gap": 0.04,
+                      "rotation": 0
+                    }
+                  ]
+                },
+                {
+                  "principle": "Широкое распределение по горизонтали для ландшафтного экрана",
+                  "placements": [
+                    {
+                      "uid": "imw199yqqlwjz4r",
+                      "relation": "canvas",
+                      "x": 0.48,
+                      "y": 0.58,
+                      "gap": 0,
+                      "rotation": 0
+                    },
+                    {
+                      "uid": "imw199yqqpt8eg6",
+                      "relation": "right",
+                      "targetUid": "imw199yqqlwjz4r",
+                      "x": 0.75,
+                      "y": 0.5,
+                      "gap": 0.03,
+                      "rotation": 0
+                    },
+                    {
+                      "uid": "imw199yqqvng8q8",
+                      "relation": "canvas",
+                      "x": 0.85,
+                      "y": 0.28,
+                      "gap": 0.05,
+                      "rotation": 0
+                    }
+                  ]
+                },
+                {
+                  "principle": "Диагональный ритм вдоль длинной стороны холста",
+                  "placements": [
+                    {
+                      "uid": "imw199yqqlwjz4r",
+                      "relation": "canvas",
+                      "x": 0.52,
+                      "y": 0.52,
+                      "gap": 0,
+                      "rotation": 0
+                    },
+                    {
+                      "uid": "imw199yqqpt8eg6",
+                      "relation": "right",
+                      "targetUid": "imw199yqqlwjz4r",
+                      "x": 0.75,
+                      "y": 0.5,
+                      "gap": 0.03,
+                      "rotation": 0
+                    },
+                    {
+                      "uid": "imw199yqqvng8q8",
+                      "relation": "canvas",
+                      "x": 0.8,
+                      "y": 0.25,
+                      "gap": 0.04,
+                      "rotation": 0
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "format": "portrait",
+              "views": [
+                {
+                  "principle": "Вертикальная композиция с акцентом в нижней части кадра",
+                  "placements": [
+                    {
+                      "uid": "imw199yqqlwjz4r",
+                      "relation": "canvas",
+                      "x": 0.5,
+                      "y": 0.6,
+                      "gap": 0,
+                      "rotation": 0
+                    },
+                    {
+                      "uid": "imw199yqqpt8eg6",
+                      "relation": "right",
+                      "targetUid": "imw199yqqlwjz4r",
+                      "x": 0.75,
+                      "y": 0.5,
+                      "gap": 0.03,
+                      "rotation": 0
+                    },
+                    {
+                      "uid": "imw199yqqvng8q8",
+                      "relation": "canvas",
+                      "x": 0.75,
+                      "y": 0.25,
+                      "gap": 0.04,
+                      "rotation": 0
+                    }
+                  ]
+                },
+                {
+                  "principle": "Высокое размещение элементов для вертикального формата",
+                  "placements": [
+                    {
+                      "uid": "imw199yqqlwjz4r",
+                      "relation": "canvas",
+                      "x": 0.52,
+                      "y": 0.58,
+                      "gap": 0,
+                      "rotation": 0
+                    },
+                    {
+                      "uid": "imw199yqqpt8eg6",
+                      "relation": "right",
+                      "targetUid": "imw199yqqlwjz4r",
+                      "x": 0.75,
+                      "y": 0.5,
+                      "gap": 0.03,
+                      "rotation": 0
+                    },
+                    {
+                      "uid": "imw199yqqvng8q8",
+                      "relation": "canvas",
+                      "x": 0.78,
+                      "y": 0.22,
+                      "gap": 0.05,
+                      "rotation": 0
+                    }
+                  ]
+                },
+                {
+                  "principle": "Диагональное движение по вертикальному холсту",
+                  "placements": [
+                    {
+                      "uid": "imw199yqqlwjz4r",
+                      "relation": "canvas",
+                      "x": 0.48,
+                      "y": 0.62,
+                      "gap": 0,
+                      "rotation": 0
+                    },
+                    {
+                      "uid": "imw199yqqpt8eg6",
+                      "relation": "right",
+                      "targetUid": "imw199yqqlwjz4r",
+                      "x": 0.75,
+                      "y": 0.5,
+                      "gap": 0.03,
+                      "rotation": 0
+                    },
+                    {
+                      "uid": "imw199yqqvng8q8",
+                      "relation": "canvas",
+                      "x": 0.75,
+                      "y": 0.28,
+                      "gap": 0.04,
+                      "rotation": 0
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "width": 1000,
+          "height": 1000,
+          "format": "square",
+          "size": "S",
+          "palette": "aqua",
+          "layout": "compact",
+          "background": "pattern",
+          "backgroundDesign": "auto",
+          "supporting": true,
+          "showSupporting": true,
+          "camera": null,
+          "composition": {
+            "index": 1,
+            "options": [
+              {
+                "strategy": "balanced",
+                "title": "На опоре",
+                "principle": "Сбалансированная композиция финансовой группы с акцентом на кошелек и монету",
+                "placement": "on-surface"
+              },
+              {
+                "strategy": "spacious",
+                "title": "Рядом",
+                "principle": "Просторное размещение предметов с сохранением визуальной связи",
+                "placement": "beside"
+              },
+              {
+                "strategy": "diagonal",
+                "title": "Другой ракурс группы",
+                "principle": "Диагональное построение для создания динамики в квадратном формате",
+                "placement": "across"
+              }
+            ]
+          },
+          "layerRelations": [
+            {
+              "back": "imw199yqqvng8q8",
+              "front": "imw199yqqlwjz4r",
+              "reason": "Фоновый компаньон находится позади главной группы."
+            }
+          ],
+          "recipe": "auto",
+          "framing": "overview",
+          "focus": "wallet",
+          "query": "Держать финансы под контролем",
+          "scale": 1,
+          "items": [
+            {
+              "uid": "imw199yqqvng8q8",
+              "assetId": "folder",
+              "role": "background",
+              "x": 824.84,
+              "y": 263.2,
+              "rotation": 0,
+              "flipX": false,
+              "flipY": false,
+              "zone": "top-right",
+              "crop": "fragment"
+            },
+            {
+              "uid": "imw199yqqlwjz4r",
+              "assetId": "wallet",
+              "role": "main",
+              "x": 472.12,
+              "y": 563.93,
+              "rotation": 0,
+              "flipX": false,
+              "flipY": false,
+              "zone": "auto",
+              "crop": "whole"
+            },
+            {
+              "uid": "imw199yqqpt8eg6",
+              "assetId": "coin",
+              "role": "main",
+              "x": 768.36,
+              "y": 510.1,
+              "rotation": 0,
+              "flipX": false,
+              "flipY": false,
+              "zone": "auto",
+              "crop": "whole"
+            }
+          ]
+        },
+        {
+          "version": 1,
+          "sizing": "native",
+          "environmentPrompt": "",
+          "environmentExplanation": [
+            "Главная смысловая группа объединяет кошелек и монету для раскрытия темы управления финансами.",
+            "Фоновый элемент в виде папки создает рабочую атмосферу и глубину композиции.",
+            "Компактная раскладка выстраивает элементы в единую сбалансированную структуру."
+          ],
+          "groups": [
+            {
+              "kind": "collection",
+              "members": [
+                "imw199yqqlwjz4r",
+                "imw199yqqpt8eg6"
+              ],
+              "reason": "Диагональное построение для создания динамики в квадратном формате"
+            }
+          ],
+          "formatPlans": [],
+          "stagingPlans": [
+            {
+              "format": "square",
+              "views": [
+                {
+                  "principle": "Сбалансированная композиция финансовой группы с акцентом на кошелек и монету",
+                  "placements": [
+                    {
+                      "uid": "imw199yqqlwjz4r",
+                      "relation": "canvas",
+                      "x": 0.48,
+                      "y": 0.52,
+                      "gap": 0,
+                      "rotation": 0
+                    },
+                    {
+                      "uid": "imw199yqqpt8eg6",
+                      "relation": "right",
+                      "targetUid": "imw199yqqlwjz4r",
+                      "x": 0.75,
+                      "y": 0.5,
+                      "gap": 0.03,
+                      "rotation": 0
+                    },
+                    {
+                      "uid": "imw199yqqvng8q8",
+                      "relation": "canvas",
+                      "x": 0.78,
+                      "y": 0.3,
+                      "gap": 0.04,
+                      "rotation": 0
+                    }
+                  ]
+                },
+                {
+                  "principle": "Просторное размещение предметов с сохранением визуальной связи",
+                  "placements": [
+                    {
+                      "uid": "imw199yqqlwjz4r",
+                      "relation": "canvas",
+                      "x": 0.45,
+                      "y": 0.55,
+                      "gap": 0,
+                      "rotation": 0
+                    },
+                    {
+                      "uid": "imw199yqqpt8eg6",
+                      "relation": "right",
+                      "targetUid": "imw199yqqlwjz4r",
+                      "x": 0.75,
+                      "y": 0.5,
+                      "gap": 0.03,
+                      "rotation": 0
+                    },
+                    {
+                      "uid": "imw199yqqvng8q8",
+                      "relation": "canvas",
+                      "x": 0.8,
+                      "y": 0.25,
+                      "gap": 0.05,
+                      "rotation": 0
+                    }
+                  ]
+                },
+                {
+                  "principle": "Диагональное построение для создания динамики в квадратном формате",
+                  "placements": [
+                    {
+                      "uid": "imw199yqqlwjz4r",
+                      "relation": "canvas",
+                      "x": 0.5,
+                      "y": 0.5,
+                      "gap": 0,
+                      "rotation": 0
+                    },
+                    {
+                      "uid": "imw199yqqpt8eg6",
+                      "relation": "right",
+                      "targetUid": "imw199yqqlwjz4r",
+                      "x": 0.75,
+                      "y": 0.5,
+                      "gap": 0.03,
+                      "rotation": 0
+                    },
+                    {
+                      "uid": "imw199yqqvng8q8",
+                      "relation": "canvas",
+                      "x": 0.75,
+                      "y": 0.28,
+                      "gap": 0.04,
+                      "rotation": 0
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "format": "landscape",
+              "views": [
+                {
+                  "principle": "Горизонтальный баланс с центральным расположением главных элементов",
+                  "placements": [
+                    {
+                      "uid": "imw199yqqlwjz4r",
+                      "relation": "canvas",
+                      "x": 0.5,
+                      "y": 0.55,
+                      "gap": 0,
+                      "rotation": 0
+                    },
+                    {
+                      "uid": "imw199yqqpt8eg6",
+                      "relation": "right",
+                      "targetUid": "imw199yqqlwjz4r",
+                      "x": 0.75,
+                      "y": 0.5,
+                      "gap": 0.03,
+                      "rotation": 0
+                    },
+                    {
+                      "uid": "imw199yqqvng8q8",
+                      "relation": "canvas",
+                      "x": 0.82,
+                      "y": 0.3,
+                      "gap": 0.04,
+                      "rotation": 0
+                    }
+                  ]
+                },
+                {
+                  "principle": "Широкое распределение по горизонтали для ландшафтного экрана",
+                  "placements": [
+                    {
+                      "uid": "imw199yqqlwjz4r",
+                      "relation": "canvas",
+                      "x": 0.48,
+                      "y": 0.58,
+                      "gap": 0,
+                      "rotation": 0
+                    },
+                    {
+                      "uid": "imw199yqqpt8eg6",
+                      "relation": "right",
+                      "targetUid": "imw199yqqlwjz4r",
+                      "x": 0.75,
+                      "y": 0.5,
+                      "gap": 0.03,
+                      "rotation": 0
+                    },
+                    {
+                      "uid": "imw199yqqvng8q8",
+                      "relation": "canvas",
+                      "x": 0.85,
+                      "y": 0.28,
+                      "gap": 0.05,
+                      "rotation": 0
+                    }
+                  ]
+                },
+                {
+                  "principle": "Диагональный ритм вдоль длинной стороны холста",
+                  "placements": [
+                    {
+                      "uid": "imw199yqqlwjz4r",
+                      "relation": "canvas",
+                      "x": 0.52,
+                      "y": 0.52,
+                      "gap": 0,
+                      "rotation": 0
+                    },
+                    {
+                      "uid": "imw199yqqpt8eg6",
+                      "relation": "right",
+                      "targetUid": "imw199yqqlwjz4r",
+                      "x": 0.75,
+                      "y": 0.5,
+                      "gap": 0.03,
+                      "rotation": 0
+                    },
+                    {
+                      "uid": "imw199yqqvng8q8",
+                      "relation": "canvas",
+                      "x": 0.8,
+                      "y": 0.25,
+                      "gap": 0.04,
+                      "rotation": 0
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "format": "portrait",
+              "views": [
+                {
+                  "principle": "Вертикальная композиция с акцентом в нижней части кадра",
+                  "placements": [
+                    {
+                      "uid": "imw199yqqlwjz4r",
+                      "relation": "canvas",
+                      "x": 0.5,
+                      "y": 0.6,
+                      "gap": 0,
+                      "rotation": 0
+                    },
+                    {
+                      "uid": "imw199yqqpt8eg6",
+                      "relation": "right",
+                      "targetUid": "imw199yqqlwjz4r",
+                      "x": 0.75,
+                      "y": 0.5,
+                      "gap": 0.03,
+                      "rotation": 0
+                    },
+                    {
+                      "uid": "imw199yqqvng8q8",
+                      "relation": "canvas",
+                      "x": 0.75,
+                      "y": 0.25,
+                      "gap": 0.04,
+                      "rotation": 0
+                    }
+                  ]
+                },
+                {
+                  "principle": "Высокое размещение элементов для вертикального формата",
+                  "placements": [
+                    {
+                      "uid": "imw199yqqlwjz4r",
+                      "relation": "canvas",
+                      "x": 0.52,
+                      "y": 0.58,
+                      "gap": 0,
+                      "rotation": 0
+                    },
+                    {
+                      "uid": "imw199yqqpt8eg6",
+                      "relation": "right",
+                      "targetUid": "imw199yqqlwjz4r",
+                      "x": 0.75,
+                      "y": 0.5,
+                      "gap": 0.03,
+                      "rotation": 0
+                    },
+                    {
+                      "uid": "imw199yqqvng8q8",
+                      "relation": "canvas",
+                      "x": 0.78,
+                      "y": 0.22,
+                      "gap": 0.05,
+                      "rotation": 0
+                    }
+                  ]
+                },
+                {
+                  "principle": "Диагональное движение по вертикальному холсту",
+                  "placements": [
+                    {
+                      "uid": "imw199yqqlwjz4r",
+                      "relation": "canvas",
+                      "x": 0.48,
+                      "y": 0.62,
+                      "gap": 0,
+                      "rotation": 0
+                    },
+                    {
+                      "uid": "imw199yqqpt8eg6",
+                      "relation": "right",
+                      "targetUid": "imw199yqqlwjz4r",
+                      "x": 0.75,
+                      "y": 0.5,
+                      "gap": 0.03,
+                      "rotation": 0
+                    },
+                    {
+                      "uid": "imw199yqqvng8q8",
+                      "relation": "canvas",
+                      "x": 0.75,
+                      "y": 0.28,
+                      "gap": 0.04,
+                      "rotation": 0
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "width": 1000,
+          "height": 1000,
+          "format": "square",
+          "size": "S",
+          "palette": "aqua",
+          "layout": "compact",
+          "background": "pattern",
+          "backgroundDesign": "auto",
+          "supporting": true,
+          "showSupporting": true,
+          "camera": null,
+          "composition": {
+            "index": 2,
+            "options": [
+              {
+                "strategy": "balanced",
+                "title": "На опоре",
+                "principle": "Сбалансированная композиция финансовой группы с акцентом на кошелек и монету",
+                "placement": "on-surface"
+              },
+              {
+                "strategy": "spacious",
+                "title": "Рядом",
+                "principle": "Просторное размещение предметов с сохранением визуальной связи",
+                "placement": "beside"
+              },
+              {
+                "strategy": "diagonal",
+                "title": "Другой ракурс группы",
+                "principle": "Диагональное построение для создания динамики в квадратном формате",
+                "placement": "across"
+              }
+            ]
+          },
+          "layerRelations": [
+            {
+              "back": "imw199yqqvng8q8",
+              "front": "imw199yqqlwjz4r",
+              "reason": "Фоновый компаньон находится позади главной группы."
+            }
+          ],
+          "recipe": "auto",
+          "framing": "overview",
+          "focus": "wallet",
+          "query": "Держать финансы под контролем",
+          "scale": 1,
+          "items": [
+            {
+              "uid": "imw199yqqvng8q8",
+              "assetId": "folder",
+              "role": "background",
+              "x": 774.84,
+              "y": 293.2,
+              "rotation": 0,
+              "flipX": false,
+              "flipY": false,
+              "zone": "top-right",
+              "crop": "fragment"
+            },
+            {
+              "uid": "imw199yqqlwjz4r",
+              "assetId": "wallet",
+              "role": "main",
+              "x": 522.12,
+              "y": 513.93,
+              "rotation": 0,
+              "flipX": false,
+              "flipY": false,
+              "zone": "auto",
+              "crop": "whole"
+            },
+            {
+              "uid": "imw199yqqpt8eg6",
+              "assetId": "coin",
+              "role": "main",
+              "x": 781.12390625,
+              "y": 510.1,
+              "rotation": 0,
+              "flipX": false,
+              "flipY": false,
+              "zone": "auto",
+              "crop": "whole"
+            }
+          ]
+        }
+      ],
+      "landscape": [
+        {
+          "version": 1,
+          "sizing": "native",
+          "environmentPrompt": "",
+          "environmentExplanation": [
+            "Главная смысловая группа объединяет кошелек и монету для раскрытия темы управления финансами.",
+            "Фоновый элемент в виде папки создает рабочую атмосферу и глубину композиции.",
+            "Компактная раскладка выстраивает элементы в единую сбалансированную структуру."
+          ],
+          "groups": [
+            {
+              "kind": "collection",
+              "members": [
+                "imw199yqqlwjz4r",
+                "imw199yqqpt8eg6"
+              ],
+              "reason": "Горизонтальный баланс с центральным расположением главных элементов"
+            }
+          ],
+          "formatPlans": [],
+          "stagingPlans": [
+            {
+              "format": "square",
+              "views": [
+                {
+                  "principle": "Сбалансированная композиция финансовой группы с акцентом на кошелек и монету",
+                  "placements": [
+                    {
+                      "uid": "imw199yqqlwjz4r",
+                      "relation": "canvas",
+                      "x": 0.48,
+                      "y": 0.52,
+                      "gap": 0,
+                      "rotation": 0
+                    },
+                    {
+                      "uid": "imw199yqqpt8eg6",
+                      "relation": "right",
+                      "targetUid": "imw199yqqlwjz4r",
+                      "x": 0.75,
+                      "y": 0.5,
+                      "gap": 0.03,
+                      "rotation": 0
+                    },
+                    {
+                      "uid": "imw199yqqvng8q8",
+                      "relation": "canvas",
+                      "x": 0.78,
+                      "y": 0.3,
+                      "gap": 0.04,
+                      "rotation": 0
+                    }
+                  ]
+                },
+                {
+                  "principle": "Просторное размещение предметов с сохранением визуальной связи",
+                  "placements": [
+                    {
+                      "uid": "imw199yqqlwjz4r",
+                      "relation": "canvas",
+                      "x": 0.45,
+                      "y": 0.55,
+                      "gap": 0,
+                      "rotation": 0
+                    },
+                    {
+                      "uid": "imw199yqqpt8eg6",
+                      "relation": "right",
+                      "targetUid": "imw199yqqlwjz4r",
+                      "x": 0.75,
+                      "y": 0.5,
+                      "gap": 0.03,
+                      "rotation": 0
+                    },
+                    {
+                      "uid": "imw199yqqvng8q8",
+                      "relation": "canvas",
+                      "x": 0.8,
+                      "y": 0.25,
+                      "gap": 0.05,
+                      "rotation": 0
+                    }
+                  ]
+                },
+                {
+                  "principle": "Диагональное построение для создания динамики в квадратном формате",
+                  "placements": [
+                    {
+                      "uid": "imw199yqqlwjz4r",
+                      "relation": "canvas",
+                      "x": 0.5,
+                      "y": 0.5,
+                      "gap": 0,
+                      "rotation": 0
+                    },
+                    {
+                      "uid": "imw199yqqpt8eg6",
+                      "relation": "right",
+                      "targetUid": "imw199yqqlwjz4r",
+                      "x": 0.75,
+                      "y": 0.5,
+                      "gap": 0.03,
+                      "rotation": 0
+                    },
+                    {
+                      "uid": "imw199yqqvng8q8",
+                      "relation": "canvas",
+                      "x": 0.75,
+                      "y": 0.28,
+                      "gap": 0.04,
+                      "rotation": 0
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "format": "landscape",
+              "views": [
+                {
+                  "principle": "Горизонтальный баланс с центральным расположением главных элементов",
+                  "placements": [
+                    {
+                      "uid": "imw199yqqlwjz4r",
+                      "relation": "canvas",
+                      "x": 0.5,
+                      "y": 0.55,
+                      "gap": 0,
+                      "rotation": 0
+                    },
+                    {
+                      "uid": "imw199yqqpt8eg6",
+                      "relation": "right",
+                      "targetUid": "imw199yqqlwjz4r",
+                      "x": 0.75,
+                      "y": 0.5,
+                      "gap": 0.03,
+                      "rotation": 0
+                    },
+                    {
+                      "uid": "imw199yqqvng8q8",
+                      "relation": "canvas",
+                      "x": 0.82,
+                      "y": 0.3,
+                      "gap": 0.04,
+                      "rotation": 0
+                    }
+                  ]
+                },
+                {
+                  "principle": "Широкое распределение по горизонтали для ландшафтного экрана",
+                  "placements": [
+                    {
+                      "uid": "imw199yqqlwjz4r",
+                      "relation": "canvas",
+                      "x": 0.48,
+                      "y": 0.58,
+                      "gap": 0,
+                      "rotation": 0
+                    },
+                    {
+                      "uid": "imw199yqqpt8eg6",
+                      "relation": "right",
+                      "targetUid": "imw199yqqlwjz4r",
+                      "x": 0.75,
+                      "y": 0.5,
+                      "gap": 0.03,
+                      "rotation": 0
+                    },
+                    {
+                      "uid": "imw199yqqvng8q8",
+                      "relation": "canvas",
+                      "x": 0.85,
+                      "y": 0.28,
+                      "gap": 0.05,
+                      "rotation": 0
+                    }
+                  ]
+                },
+                {
+                  "principle": "Диагональный ритм вдоль длинной стороны холста",
+                  "placements": [
+                    {
+                      "uid": "imw199yqqlwjz4r",
+                      "relation": "canvas",
+                      "x": 0.52,
+                      "y": 0.52,
+                      "gap": 0,
+                      "rotation": 0
+                    },
+                    {
+                      "uid": "imw199yqqpt8eg6",
+                      "relation": "right",
+                      "targetUid": "imw199yqqlwjz4r",
+                      "x": 0.75,
+                      "y": 0.5,
+                      "gap": 0.03,
+                      "rotation": 0
+                    },
+                    {
+                      "uid": "imw199yqqvng8q8",
+                      "relation": "canvas",
+                      "x": 0.8,
+                      "y": 0.25,
+                      "gap": 0.04,
+                      "rotation": 0
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "format": "portrait",
+              "views": [
+                {
+                  "principle": "Вертикальная композиция с акцентом в нижней части кадра",
+                  "placements": [
+                    {
+                      "uid": "imw199yqqlwjz4r",
+                      "relation": "canvas",
+                      "x": 0.5,
+                      "y": 0.6,
+                      "gap": 0,
+                      "rotation": 0
+                    },
+                    {
+                      "uid": "imw199yqqpt8eg6",
+                      "relation": "right",
+                      "targetUid": "imw199yqqlwjz4r",
+                      "x": 0.75,
+                      "y": 0.5,
+                      "gap": 0.03,
+                      "rotation": 0
+                    },
+                    {
+                      "uid": "imw199yqqvng8q8",
+                      "relation": "canvas",
+                      "x": 0.75,
+                      "y": 0.25,
+                      "gap": 0.04,
+                      "rotation": 0
+                    }
+                  ]
+                },
+                {
+                  "principle": "Высокое размещение элементов для вертикального формата",
+                  "placements": [
+                    {
+                      "uid": "imw199yqqlwjz4r",
+                      "relation": "canvas",
+                      "x": 0.52,
+                      "y": 0.58,
+                      "gap": 0,
+                      "rotation": 0
+                    },
+                    {
+                      "uid": "imw199yqqpt8eg6",
+                      "relation": "right",
+                      "targetUid": "imw199yqqlwjz4r",
+                      "x": 0.75,
+                      "y": 0.5,
+                      "gap": 0.03,
+                      "rotation": 0
+                    },
+                    {
+                      "uid": "imw199yqqvng8q8",
+                      "relation": "canvas",
+                      "x": 0.78,
+                      "y": 0.22,
+                      "gap": 0.05,
+                      "rotation": 0
+                    }
+                  ]
+                },
+                {
+                  "principle": "Диагональное движение по вертикальному холсту",
+                  "placements": [
+                    {
+                      "uid": "imw199yqqlwjz4r",
+                      "relation": "canvas",
+                      "x": 0.48,
+                      "y": 0.62,
+                      "gap": 0,
+                      "rotation": 0
+                    },
+                    {
+                      "uid": "imw199yqqpt8eg6",
+                      "relation": "right",
+                      "targetUid": "imw199yqqlwjz4r",
+                      "x": 0.75,
+                      "y": 0.5,
+                      "gap": 0.03,
+                      "rotation": 0
+                    },
+                    {
+                      "uid": "imw199yqqvng8q8",
+                      "relation": "canvas",
+                      "x": 0.75,
+                      "y": 0.28,
+                      "gap": 0.04,
+                      "rotation": 0
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "executionNotes": [
+            "Положение «Папка» уточнено по границам кадра и реестру пересечений."
+          ],
+          "width": 1200,
+          "height": 630,
+          "format": "landscape",
+          "size": "S",
+          "palette": "aqua",
+          "layout": "compact",
+          "background": "pattern",
+          "backgroundDesign": "auto",
+          "supporting": true,
+          "showSupporting": true,
+          "camera": null,
+          "composition": {
+            "index": 0,
+            "options": [
+              {
+                "strategy": "balanced",
+                "title": "На опоре",
+                "principle": "Сбалансированная композиция финансовой группы с акцентом на кошелек и монету",
+                "placement": "on-surface"
+              },
+              {
+                "strategy": "spacious",
+                "title": "Рядом",
+                "principle": "Просторное размещение предметов с сохранением визуальной связи",
+                "placement": "beside"
+              },
+              {
+                "strategy": "diagonal",
+                "title": "Другой ракурс группы",
+                "principle": "Диагональное построение для создания динамики в квадратном формате",
+                "placement": "across"
+              }
+            ]
+          },
+          "layerRelations": [
+            {
+              "back": "imw199yqqvng8q8",
+              "front": "imw199yqqlwjz4r",
+              "reason": "Фоновый компаньон находится позади главной группы."
+            }
+          ],
+          "recipe": "auto",
+          "framing": "overview",
+          "focus": "wallet",
+          "query": "Держать финансы под контролем",
+          "scale": 1,
+          "items": [
+            {
+              "uid": "imw199yqqvng8q8",
+              "assetId": "folder",
+              "role": "background",
+              "x": 1200,
+              "y": 202.2,
+              "rotation": 0,
+              "flipX": false,
+              "flipY": false,
+              "zone": "top-right",
+              "crop": "fragment"
+            },
+            {
+              "uid": "imw199yqqlwjz4r",
+              "assetId": "wallet",
+              "role": "main",
+              "x": 622.12,
+              "y": 360.43,
+              "rotation": 0,
+              "flipX": false,
+              "flipY": false,
+              "zone": "auto",
+              "crop": "whole"
+            },
+            {
+              "uid": "imw199yqqpt8eg6",
+              "assetId": "coin",
+              "role": "main",
+              "x": 918.36,
+              "y": 325.1,
+              "rotation": 0,
+              "flipX": false,
+              "flipY": false,
+              "zone": "auto",
+              "crop": "whole"
+            }
+          ]
+        },
+        {
+          "version": 1,
+          "sizing": "native",
+          "environmentPrompt": "",
+          "environmentExplanation": [
+            "Главная смысловая группа объединяет кошелек и монету для раскрытия темы управления финансами.",
+            "Фоновый элемент в виде папки создает рабочую атмосферу и глубину композиции.",
+            "Компактная раскладка выстраивает элементы в единую сбалансированную структуру."
+          ],
+          "groups": [
+            {
+              "kind": "collection",
+              "members": [
+                "imw199yqqlwjz4r",
+                "imw199yqqpt8eg6"
+              ],
+              "reason": "Широкое распределение по горизонтали для ландшафтного экрана"
+            }
+          ],
+          "formatPlans": [],
+          "stagingPlans": [
+            {
+              "format": "square",
+              "views": [
+                {
+                  "principle": "Сбалансированная композиция финансовой группы с акцентом на кошелек и монету",
+                  "placements": [
+                    {
+                      "uid": "imw199yqqlwjz4r",
+                      "relation": "canvas",
+                      "x": 0.48,
+                      "y": 0.52,
+                      "gap": 0,
+                      "rotation": 0
+                    },
+                    {
+                      "uid": "imw199yqqpt8eg6",
+                      "relation": "right",
+                      "targetUid": "imw199yqqlwjz4r",
+                      "x": 0.75,
+                      "y": 0.5,
+                      "gap": 0.03,
+                      "rotation": 0
+                    },
+                    {
+                      "uid": "imw199yqqvng8q8",
+                      "relation": "canvas",
+                      "x": 0.78,
+                      "y": 0.3,
+                      "gap": 0.04,
+                      "rotation": 0
+                    }
+                  ]
+                },
+                {
+                  "principle": "Просторное размещение предметов с сохранением визуальной связи",
+                  "placements": [
+                    {
+                      "uid": "imw199yqqlwjz4r",
+                      "relation": "canvas",
+                      "x": 0.45,
+                      "y": 0.55,
+                      "gap": 0,
+                      "rotation": 0
+                    },
+                    {
+                      "uid": "imw199yqqpt8eg6",
+                      "relation": "right",
+                      "targetUid": "imw199yqqlwjz4r",
+                      "x": 0.75,
+                      "y": 0.5,
+                      "gap": 0.03,
+                      "rotation": 0
+                    },
+                    {
+                      "uid": "imw199yqqvng8q8",
+                      "relation": "canvas",
+                      "x": 0.8,
+                      "y": 0.25,
+                      "gap": 0.05,
+                      "rotation": 0
+                    }
+                  ]
+                },
+                {
+                  "principle": "Диагональное построение для создания динамики в квадратном формате",
+                  "placements": [
+                    {
+                      "uid": "imw199yqqlwjz4r",
+                      "relation": "canvas",
+                      "x": 0.5,
+                      "y": 0.5,
+                      "gap": 0,
+                      "rotation": 0
+                    },
+                    {
+                      "uid": "imw199yqqpt8eg6",
+                      "relation": "right",
+                      "targetUid": "imw199yqqlwjz4r",
+                      "x": 0.75,
+                      "y": 0.5,
+                      "gap": 0.03,
+                      "rotation": 0
+                    },
+                    {
+                      "uid": "imw199yqqvng8q8",
+                      "relation": "canvas",
+                      "x": 0.75,
+                      "y": 0.28,
+                      "gap": 0.04,
+                      "rotation": 0
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "format": "landscape",
+              "views": [
+                {
+                  "principle": "Горизонтальный баланс с центральным расположением главных элементов",
+                  "placements": [
+                    {
+                      "uid": "imw199yqqlwjz4r",
+                      "relation": "canvas",
+                      "x": 0.5,
+                      "y": 0.55,
+                      "gap": 0,
+                      "rotation": 0
+                    },
+                    {
+                      "uid": "imw199yqqpt8eg6",
+                      "relation": "right",
+                      "targetUid": "imw199yqqlwjz4r",
+                      "x": 0.75,
+                      "y": 0.5,
+                      "gap": 0.03,
+                      "rotation": 0
+                    },
+                    {
+                      "uid": "imw199yqqvng8q8",
+                      "relation": "canvas",
+                      "x": 0.82,
+                      "y": 0.3,
+                      "gap": 0.04,
+                      "rotation": 0
+                    }
+                  ]
+                },
+                {
+                  "principle": "Широкое распределение по горизонтали для ландшафтного экрана",
+                  "placements": [
+                    {
+                      "uid": "imw199yqqlwjz4r",
+                      "relation": "canvas",
+                      "x": 0.48,
+                      "y": 0.58,
+                      "gap": 0,
+                      "rotation": 0
+                    },
+                    {
+                      "uid": "imw199yqqpt8eg6",
+                      "relation": "right",
+                      "targetUid": "imw199yqqlwjz4r",
+                      "x": 0.75,
+                      "y": 0.5,
+                      "gap": 0.03,
+                      "rotation": 0
+                    },
+                    {
+                      "uid": "imw199yqqvng8q8",
+                      "relation": "canvas",
+                      "x": 0.85,
+                      "y": 0.28,
+                      "gap": 0.05,
+                      "rotation": 0
+                    }
+                  ]
+                },
+                {
+                  "principle": "Диагональный ритм вдоль длинной стороны холста",
+                  "placements": [
+                    {
+                      "uid": "imw199yqqlwjz4r",
+                      "relation": "canvas",
+                      "x": 0.52,
+                      "y": 0.52,
+                      "gap": 0,
+                      "rotation": 0
+                    },
+                    {
+                      "uid": "imw199yqqpt8eg6",
+                      "relation": "right",
+                      "targetUid": "imw199yqqlwjz4r",
+                      "x": 0.75,
+                      "y": 0.5,
+                      "gap": 0.03,
+                      "rotation": 0
+                    },
+                    {
+                      "uid": "imw199yqqvng8q8",
+                      "relation": "canvas",
+                      "x": 0.8,
+                      "y": 0.25,
+                      "gap": 0.04,
+                      "rotation": 0
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "format": "portrait",
+              "views": [
+                {
+                  "principle": "Вертикальная композиция с акцентом в нижней части кадра",
+                  "placements": [
+                    {
+                      "uid": "imw199yqqlwjz4r",
+                      "relation": "canvas",
+                      "x": 0.5,
+                      "y": 0.6,
+                      "gap": 0,
+                      "rotation": 0
+                    },
+                    {
+                      "uid": "imw199yqqpt8eg6",
+                      "relation": "right",
+                      "targetUid": "imw199yqqlwjz4r",
+                      "x": 0.75,
+                      "y": 0.5,
+                      "gap": 0.03,
+                      "rotation": 0
+                    },
+                    {
+                      "uid": "imw199yqqvng8q8",
+                      "relation": "canvas",
+                      "x": 0.75,
+                      "y": 0.25,
+                      "gap": 0.04,
+                      "rotation": 0
+                    }
+                  ]
+                },
+                {
+                  "principle": "Высокое размещение элементов для вертикального формата",
+                  "placements": [
+                    {
+                      "uid": "imw199yqqlwjz4r",
+                      "relation": "canvas",
+                      "x": 0.52,
+                      "y": 0.58,
+                      "gap": 0,
+                      "rotation": 0
+                    },
+                    {
+                      "uid": "imw199yqqpt8eg6",
+                      "relation": "right",
+                      "targetUid": "imw199yqqlwjz4r",
+                      "x": 0.75,
+                      "y": 0.5,
+                      "gap": 0.03,
+                      "rotation": 0
+                    },
+                    {
+                      "uid": "imw199yqqvng8q8",
+                      "relation": "canvas",
+                      "x": 0.78,
+                      "y": 0.22,
+                      "gap": 0.05,
+                      "rotation": 0
+                    }
+                  ]
+                },
+                {
+                  "principle": "Диагональное движение по вертикальному холсту",
+                  "placements": [
+                    {
+                      "uid": "imw199yqqlwjz4r",
+                      "relation": "canvas",
+                      "x": 0.48,
+                      "y": 0.62,
+                      "gap": 0,
+                      "rotation": 0
+                    },
+                    {
+                      "uid": "imw199yqqpt8eg6",
+                      "relation": "right",
+                      "targetUid": "imw199yqqlwjz4r",
+                      "x": 0.75,
+                      "y": 0.5,
+                      "gap": 0.03,
+                      "rotation": 0
+                    },
+                    {
+                      "uid": "imw199yqqvng8q8",
+                      "relation": "canvas",
+                      "x": 0.75,
+                      "y": 0.28,
+                      "gap": 0.04,
+                      "rotation": 0
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "executionNotes": [
+            "Положение «Папка» уточнено по границам кадра и реестру пересечений."
+          ],
+          "width": 1200,
+          "height": 630,
+          "format": "landscape",
+          "size": "S",
+          "palette": "aqua",
+          "layout": "compact",
+          "background": "pattern",
+          "backgroundDesign": "auto",
+          "supporting": true,
+          "showSupporting": true,
+          "camera": null,
+          "composition": {
+            "index": 1,
+            "options": [
+              {
+                "strategy": "balanced",
+                "title": "На опоре",
+                "principle": "Сбалансированная композиция финансовой группы с акцентом на кошелек и монету",
+                "placement": "on-surface"
+              },
+              {
+                "strategy": "spacious",
+                "title": "Рядом",
+                "principle": "Просторное размещение предметов с сохранением визуальной связи",
+                "placement": "beside"
+              },
+              {
+                "strategy": "diagonal",
+                "title": "Другой ракурс группы",
+                "principle": "Диагональное построение для создания динамики в квадратном формате",
+                "placement": "across"
+              }
+            ]
+          },
+          "layerRelations": [
+            {
+              "back": "imw199yqqvng8q8",
+              "front": "imw199yqqlwjz4r",
+              "reason": "Фоновый компаньон находится позади главной группы."
+            }
+          ],
+          "recipe": "auto",
+          "framing": "overview",
+          "focus": "wallet",
+          "query": "Держать финансы под контролем",
+          "scale": 1,
+          "items": [
+            {
+              "uid": "imw199yqqvng8q8",
+              "assetId": "folder",
+              "role": "background",
+              "x": 1200,
+              "y": 189.6,
+              "rotation": 0,
+              "flipX": false,
+              "flipY": false,
+              "zone": "top-right",
+              "crop": "fragment"
+            },
+            {
+              "uid": "imw199yqqlwjz4r",
+              "assetId": "wallet",
+              "role": "main",
+              "x": 598.12,
+              "y": 379.33,
+              "rotation": 0,
+              "flipX": false,
+              "flipY": false,
+              "zone": "auto",
+              "crop": "whole"
+            },
+            {
+              "uid": "imw199yqqpt8eg6",
+              "assetId": "coin",
+              "role": "main",
+              "x": 918.36,
+              "y": 325.1,
+              "rotation": 0,
+              "flipX": false,
+              "flipY": false,
+              "zone": "auto",
+              "crop": "whole"
+            }
+          ]
+        },
+        {
+          "version": 1,
+          "sizing": "native",
+          "environmentPrompt": "",
+          "environmentExplanation": [
+            "Главная смысловая группа объединяет кошелек и монету для раскрытия темы управления финансами.",
+            "Фоновый элемент в виде папки создает рабочую атмосферу и глубину композиции.",
+            "Компактная раскладка выстраивает элементы в единую сбалансированную структуру."
+          ],
+          "groups": [
+            {
+              "kind": "collection",
+              "members": [
+                "imw199yqqlwjz4r",
+                "imw199yqqpt8eg6"
+              ],
+              "reason": "Диагональный ритм вдоль длинной стороны холста"
+            }
+          ],
+          "formatPlans": [],
+          "stagingPlans": [
+            {
+              "format": "square",
+              "views": [
+                {
+                  "principle": "Сбалансированная композиция финансовой группы с акцентом на кошелек и монету",
+                  "placements": [
+                    {
+                      "uid": "imw199yqqlwjz4r",
+                      "relation": "canvas",
+                      "x": 0.48,
+                      "y": 0.52,
+                      "gap": 0,
+                      "rotation": 0
+                    },
+                    {
+                      "uid": "imw199yqqpt8eg6",
+                      "relation": "right",
+                      "targetUid": "imw199yqqlwjz4r",
+                      "x": 0.75,
+                      "y": 0.5,
+                      "gap": 0.03,
+                      "rotation": 0
+                    },
+                    {
+                      "uid": "imw199yqqvng8q8",
+                      "relation": "canvas",
+                      "x": 0.78,
+                      "y": 0.3,
+                      "gap": 0.04,
+                      "rotation": 0
+                    }
+                  ]
+                },
+                {
+                  "principle": "Просторное размещение предметов с сохранением визуальной связи",
+                  "placements": [
+                    {
+                      "uid": "imw199yqqlwjz4r",
+                      "relation": "canvas",
+                      "x": 0.45,
+                      "y": 0.55,
+                      "gap": 0,
+                      "rotation": 0
+                    },
+                    {
+                      "uid": "imw199yqqpt8eg6",
+                      "relation": "right",
+                      "targetUid": "imw199yqqlwjz4r",
+                      "x": 0.75,
+                      "y": 0.5,
+                      "gap": 0.03,
+                      "rotation": 0
+                    },
+                    {
+                      "uid": "imw199yqqvng8q8",
+                      "relation": "canvas",
+                      "x": 0.8,
+                      "y": 0.25,
+                      "gap": 0.05,
+                      "rotation": 0
+                    }
+                  ]
+                },
+                {
+                  "principle": "Диагональное построение для создания динамики в квадратном формате",
+                  "placements": [
+                    {
+                      "uid": "imw199yqqlwjz4r",
+                      "relation": "canvas",
+                      "x": 0.5,
+                      "y": 0.5,
+                      "gap": 0,
+                      "rotation": 0
+                    },
+                    {
+                      "uid": "imw199yqqpt8eg6",
+                      "relation": "right",
+                      "targetUid": "imw199yqqlwjz4r",
+                      "x": 0.75,
+                      "y": 0.5,
+                      "gap": 0.03,
+                      "rotation": 0
+                    },
+                    {
+                      "uid": "imw199yqqvng8q8",
+                      "relation": "canvas",
+                      "x": 0.75,
+                      "y": 0.28,
+                      "gap": 0.04,
+                      "rotation": 0
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "format": "landscape",
+              "views": [
+                {
+                  "principle": "Горизонтальный баланс с центральным расположением главных элементов",
+                  "placements": [
+                    {
+                      "uid": "imw199yqqlwjz4r",
+                      "relation": "canvas",
+                      "x": 0.5,
+                      "y": 0.55,
+                      "gap": 0,
+                      "rotation": 0
+                    },
+                    {
+                      "uid": "imw199yqqpt8eg6",
+                      "relation": "right",
+                      "targetUid": "imw199yqqlwjz4r",
+                      "x": 0.75,
+                      "y": 0.5,
+                      "gap": 0.03,
+                      "rotation": 0
+                    },
+                    {
+                      "uid": "imw199yqqvng8q8",
+                      "relation": "canvas",
+                      "x": 0.82,
+                      "y": 0.3,
+                      "gap": 0.04,
+                      "rotation": 0
+                    }
+                  ]
+                },
+                {
+                  "principle": "Широкое распределение по горизонтали для ландшафтного экрана",
+                  "placements": [
+                    {
+                      "uid": "imw199yqqlwjz4r",
+                      "relation": "canvas",
+                      "x": 0.48,
+                      "y": 0.58,
+                      "gap": 0,
+                      "rotation": 0
+                    },
+                    {
+                      "uid": "imw199yqqpt8eg6",
+                      "relation": "right",
+                      "targetUid": "imw199yqqlwjz4r",
+                      "x": 0.75,
+                      "y": 0.5,
+                      "gap": 0.03,
+                      "rotation": 0
+                    },
+                    {
+                      "uid": "imw199yqqvng8q8",
+                      "relation": "canvas",
+                      "x": 0.85,
+                      "y": 0.28,
+                      "gap": 0.05,
+                      "rotation": 0
+                    }
+                  ]
+                },
+                {
+                  "principle": "Диагональный ритм вдоль длинной стороны холста",
+                  "placements": [
+                    {
+                      "uid": "imw199yqqlwjz4r",
+                      "relation": "canvas",
+                      "x": 0.52,
+                      "y": 0.52,
+                      "gap": 0,
+                      "rotation": 0
+                    },
+                    {
+                      "uid": "imw199yqqpt8eg6",
+                      "relation": "right",
+                      "targetUid": "imw199yqqlwjz4r",
+                      "x": 0.75,
+                      "y": 0.5,
+                      "gap": 0.03,
+                      "rotation": 0
+                    },
+                    {
+                      "uid": "imw199yqqvng8q8",
+                      "relation": "canvas",
+                      "x": 0.8,
+                      "y": 0.25,
+                      "gap": 0.04,
+                      "rotation": 0
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "format": "portrait",
+              "views": [
+                {
+                  "principle": "Вертикальная композиция с акцентом в нижней части кадра",
+                  "placements": [
+                    {
+                      "uid": "imw199yqqlwjz4r",
+                      "relation": "canvas",
+                      "x": 0.5,
+                      "y": 0.6,
+                      "gap": 0,
+                      "rotation": 0
+                    },
+                    {
+                      "uid": "imw199yqqpt8eg6",
+                      "relation": "right",
+                      "targetUid": "imw199yqqlwjz4r",
+                      "x": 0.75,
+                      "y": 0.5,
+                      "gap": 0.03,
+                      "rotation": 0
+                    },
+                    {
+                      "uid": "imw199yqqvng8q8",
+                      "relation": "canvas",
+                      "x": 0.75,
+                      "y": 0.25,
+                      "gap": 0.04,
+                      "rotation": 0
+                    }
+                  ]
+                },
+                {
+                  "principle": "Высокое размещение элементов для вертикального формата",
+                  "placements": [
+                    {
+                      "uid": "imw199yqqlwjz4r",
+                      "relation": "canvas",
+                      "x": 0.52,
+                      "y": 0.58,
+                      "gap": 0,
+                      "rotation": 0
+                    },
+                    {
+                      "uid": "imw199yqqpt8eg6",
+                      "relation": "right",
+                      "targetUid": "imw199yqqlwjz4r",
+                      "x": 0.75,
+                      "y": 0.5,
+                      "gap": 0.03,
+                      "rotation": 0
+                    },
+                    {
+                      "uid": "imw199yqqvng8q8",
+                      "relation": "canvas",
+                      "x": 0.78,
+                      "y": 0.22,
+                      "gap": 0.05,
+                      "rotation": 0
+                    }
+                  ]
+                },
+                {
+                  "principle": "Диагональное движение по вертикальному холсту",
+                  "placements": [
+                    {
+                      "uid": "imw199yqqlwjz4r",
+                      "relation": "canvas",
+                      "x": 0.48,
+                      "y": 0.62,
+                      "gap": 0,
+                      "rotation": 0
+                    },
+                    {
+                      "uid": "imw199yqqpt8eg6",
+                      "relation": "right",
+                      "targetUid": "imw199yqqlwjz4r",
+                      "x": 0.75,
+                      "y": 0.5,
+                      "gap": 0.03,
+                      "rotation": 0
+                    },
+                    {
+                      "uid": "imw199yqqvng8q8",
+                      "relation": "canvas",
+                      "x": 0.75,
+                      "y": 0.28,
+                      "gap": 0.04,
+                      "rotation": 0
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "executionNotes": [
+            "Положение «Папка» уточнено по границам кадра и реестру пересечений."
+          ],
+          "width": 1200,
+          "height": 630,
+          "format": "landscape",
+          "size": "S",
+          "palette": "aqua",
+          "layout": "compact",
+          "background": "pattern",
+          "backgroundDesign": "auto",
+          "supporting": true,
+          "showSupporting": true,
+          "camera": null,
+          "composition": {
+            "index": 2,
+            "options": [
+              {
+                "strategy": "balanced",
+                "title": "На опоре",
+                "principle": "Сбалансированная композиция финансовой группы с акцентом на кошелек и монету",
+                "placement": "on-surface"
+              },
+              {
+                "strategy": "spacious",
+                "title": "Рядом",
+                "principle": "Просторное размещение предметов с сохранением визуальной связи",
+                "placement": "beside"
+              },
+              {
+                "strategy": "diagonal",
+                "title": "Другой ракурс группы",
+                "principle": "Диагональное построение для создания динамики в квадратном формате",
+                "placement": "across"
+              }
+            ]
+          },
+          "layerRelations": [
+            {
+              "back": "imw199yqqvng8q8",
+              "front": "imw199yqqlwjz4r",
+              "reason": "Фоновый компаньон находится позади главной группы."
+            }
+          ],
+          "recipe": "auto",
+          "framing": "overview",
+          "focus": "wallet",
+          "query": "Держать финансы под контролем",
+          "scale": 1,
+          "items": [
+            {
+              "uid": "imw199yqqvng8q8",
+              "assetId": "folder",
+              "role": "background",
+              "x": 1200,
+              "y": 170.7,
+              "rotation": 0,
+              "flipX": false,
+              "flipY": false,
+              "zone": "top-right",
+              "crop": "fragment"
+            },
+            {
+              "uid": "imw199yqqlwjz4r",
+              "assetId": "wallet",
+              "role": "main",
+              "x": 646.12,
+              "y": 341.53000000000003,
+              "rotation": 0,
+              "flipX": false,
+              "flipY": false,
+              "zone": "auto",
+              "crop": "whole"
+            },
+            {
+              "uid": "imw199yqqpt8eg6",
+              "assetId": "coin",
+              "role": "main",
+              "x": 918.36,
+              "y": 325.1,
+              "rotation": 0,
+              "flipX": false,
+              "flipY": false,
+              "zone": "auto",
+              "crop": "whole"
+            }
+          ]
+        }
+      ],
+      "portrait": [
+        {
+          "version": 1,
+          "sizing": "native",
+          "environmentPrompt": "",
+          "environmentExplanation": [
+            "Главная смысловая группа объединяет кошелек и монету для раскрытия темы управления финансами.",
+            "Фоновый элемент в виде папки создает рабочую атмосферу и глубину композиции.",
+            "Компактная раскладка выстраивает элементы в единую сбалансированную структуру."
+          ],
+          "groups": [
+            {
+              "kind": "collection",
+              "members": [
+                "imw199yqqlwjz4r",
+                "imw199yqqpt8eg6"
+              ],
+              "reason": "Вертикальная композиция с акцентом в нижней части кадра"
+            }
+          ],
+          "formatPlans": [],
+          "stagingPlans": [
+            {
+              "format": "square",
+              "views": [
+                {
+                  "principle": "Сбалансированная композиция финансовой группы с акцентом на кошелек и монету",
+                  "placements": [
+                    {
+                      "uid": "imw199yqqlwjz4r",
+                      "relation": "canvas",
+                      "x": 0.48,
+                      "y": 0.52,
+                      "gap": 0,
+                      "rotation": 0
+                    },
+                    {
+                      "uid": "imw199yqqpt8eg6",
+                      "relation": "right",
+                      "targetUid": "imw199yqqlwjz4r",
+                      "x": 0.75,
+                      "y": 0.5,
+                      "gap": 0.03,
+                      "rotation": 0
+                    },
+                    {
+                      "uid": "imw199yqqvng8q8",
+                      "relation": "canvas",
+                      "x": 0.78,
+                      "y": 0.3,
+                      "gap": 0.04,
+                      "rotation": 0
+                    }
+                  ]
+                },
+                {
+                  "principle": "Просторное размещение предметов с сохранением визуальной связи",
+                  "placements": [
+                    {
+                      "uid": "imw199yqqlwjz4r",
+                      "relation": "canvas",
+                      "x": 0.45,
+                      "y": 0.55,
+                      "gap": 0,
+                      "rotation": 0
+                    },
+                    {
+                      "uid": "imw199yqqpt8eg6",
+                      "relation": "right",
+                      "targetUid": "imw199yqqlwjz4r",
+                      "x": 0.75,
+                      "y": 0.5,
+                      "gap": 0.03,
+                      "rotation": 0
+                    },
+                    {
+                      "uid": "imw199yqqvng8q8",
+                      "relation": "canvas",
+                      "x": 0.8,
+                      "y": 0.25,
+                      "gap": 0.05,
+                      "rotation": 0
+                    }
+                  ]
+                },
+                {
+                  "principle": "Диагональное построение для создания динамики в квадратном формате",
+                  "placements": [
+                    {
+                      "uid": "imw199yqqlwjz4r",
+                      "relation": "canvas",
+                      "x": 0.5,
+                      "y": 0.5,
+                      "gap": 0,
+                      "rotation": 0
+                    },
+                    {
+                      "uid": "imw199yqqpt8eg6",
+                      "relation": "right",
+                      "targetUid": "imw199yqqlwjz4r",
+                      "x": 0.75,
+                      "y": 0.5,
+                      "gap": 0.03,
+                      "rotation": 0
+                    },
+                    {
+                      "uid": "imw199yqqvng8q8",
+                      "relation": "canvas",
+                      "x": 0.75,
+                      "y": 0.28,
+                      "gap": 0.04,
+                      "rotation": 0
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "format": "landscape",
+              "views": [
+                {
+                  "principle": "Горизонтальный баланс с центральным расположением главных элементов",
+                  "placements": [
+                    {
+                      "uid": "imw199yqqlwjz4r",
+                      "relation": "canvas",
+                      "x": 0.5,
+                      "y": 0.55,
+                      "gap": 0,
+                      "rotation": 0
+                    },
+                    {
+                      "uid": "imw199yqqpt8eg6",
+                      "relation": "right",
+                      "targetUid": "imw199yqqlwjz4r",
+                      "x": 0.75,
+                      "y": 0.5,
+                      "gap": 0.03,
+                      "rotation": 0
+                    },
+                    {
+                      "uid": "imw199yqqvng8q8",
+                      "relation": "canvas",
+                      "x": 0.82,
+                      "y": 0.3,
+                      "gap": 0.04,
+                      "rotation": 0
+                    }
+                  ]
+                },
+                {
+                  "principle": "Широкое распределение по горизонтали для ландшафтного экрана",
+                  "placements": [
+                    {
+                      "uid": "imw199yqqlwjz4r",
+                      "relation": "canvas",
+                      "x": 0.48,
+                      "y": 0.58,
+                      "gap": 0,
+                      "rotation": 0
+                    },
+                    {
+                      "uid": "imw199yqqpt8eg6",
+                      "relation": "right",
+                      "targetUid": "imw199yqqlwjz4r",
+                      "x": 0.75,
+                      "y": 0.5,
+                      "gap": 0.03,
+                      "rotation": 0
+                    },
+                    {
+                      "uid": "imw199yqqvng8q8",
+                      "relation": "canvas",
+                      "x": 0.85,
+                      "y": 0.28,
+                      "gap": 0.05,
+                      "rotation": 0
+                    }
+                  ]
+                },
+                {
+                  "principle": "Диагональный ритм вдоль длинной стороны холста",
+                  "placements": [
+                    {
+                      "uid": "imw199yqqlwjz4r",
+                      "relation": "canvas",
+                      "x": 0.52,
+                      "y": 0.52,
+                      "gap": 0,
+                      "rotation": 0
+                    },
+                    {
+                      "uid": "imw199yqqpt8eg6",
+                      "relation": "right",
+                      "targetUid": "imw199yqqlwjz4r",
+                      "x": 0.75,
+                      "y": 0.5,
+                      "gap": 0.03,
+                      "rotation": 0
+                    },
+                    {
+                      "uid": "imw199yqqvng8q8",
+                      "relation": "canvas",
+                      "x": 0.8,
+                      "y": 0.25,
+                      "gap": 0.04,
+                      "rotation": 0
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "format": "portrait",
+              "views": [
+                {
+                  "principle": "Вертикальная композиция с акцентом в нижней части кадра",
+                  "placements": [
+                    {
+                      "uid": "imw199yqqlwjz4r",
+                      "relation": "canvas",
+                      "x": 0.5,
+                      "y": 0.6,
+                      "gap": 0,
+                      "rotation": 0
+                    },
+                    {
+                      "uid": "imw199yqqpt8eg6",
+                      "relation": "right",
+                      "targetUid": "imw199yqqlwjz4r",
+                      "x": 0.75,
+                      "y": 0.5,
+                      "gap": 0.03,
+                      "rotation": 0
+                    },
+                    {
+                      "uid": "imw199yqqvng8q8",
+                      "relation": "canvas",
+                      "x": 0.75,
+                      "y": 0.25,
+                      "gap": 0.04,
+                      "rotation": 0
+                    }
+                  ]
+                },
+                {
+                  "principle": "Высокое размещение элементов для вертикального формата",
+                  "placements": [
+                    {
+                      "uid": "imw199yqqlwjz4r",
+                      "relation": "canvas",
+                      "x": 0.52,
+                      "y": 0.58,
+                      "gap": 0,
+                      "rotation": 0
+                    },
+                    {
+                      "uid": "imw199yqqpt8eg6",
+                      "relation": "right",
+                      "targetUid": "imw199yqqlwjz4r",
+                      "x": 0.75,
+                      "y": 0.5,
+                      "gap": 0.03,
+                      "rotation": 0
+                    },
+                    {
+                      "uid": "imw199yqqvng8q8",
+                      "relation": "canvas",
+                      "x": 0.78,
+                      "y": 0.22,
+                      "gap": 0.05,
+                      "rotation": 0
+                    }
+                  ]
+                },
+                {
+                  "principle": "Диагональное движение по вертикальному холсту",
+                  "placements": [
+                    {
+                      "uid": "imw199yqqlwjz4r",
+                      "relation": "canvas",
+                      "x": 0.48,
+                      "y": 0.62,
+                      "gap": 0,
+                      "rotation": 0
+                    },
+                    {
+                      "uid": "imw199yqqpt8eg6",
+                      "relation": "right",
+                      "targetUid": "imw199yqqlwjz4r",
+                      "x": 0.75,
+                      "y": 0.5,
+                      "gap": 0.03,
+                      "rotation": 0
+                    },
+                    {
+                      "uid": "imw199yqqvng8q8",
+                      "relation": "canvas",
+                      "x": 0.75,
+                      "y": 0.28,
+                      "gap": 0.04,
+                      "rotation": 0
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "width": 800,
+          "height": 1200,
+          "format": "portrait",
+          "size": "S",
+          "palette": "aqua",
+          "layout": "compact",
+          "background": "pattern",
+          "backgroundDesign": "auto",
+          "supporting": true,
+          "showSupporting": true,
+          "camera": null,
+          "composition": {
+            "index": 0,
+            "options": [
+              {
+                "strategy": "balanced",
+                "title": "На опоре",
+                "principle": "Сбалансированная композиция финансовой группы с акцентом на кошелек и монету",
+                "placement": "on-surface"
+              },
+              {
+                "strategy": "spacious",
+                "title": "Рядом",
+                "principle": "Просторное размещение предметов с сохранением визуальной связи",
+                "placement": "beside"
+              },
+              {
+                "strategy": "diagonal",
+                "title": "Другой ракурс группы",
+                "principle": "Диагональное построение для создания динамики в квадратном формате",
+                "placement": "across"
+              }
+            ]
+          },
+          "layerRelations": [
+            {
+              "back": "imw199yqqvng8q8",
+              "front": "imw199yqqlwjz4r",
+              "reason": "Фоновый компаньон находится позади главной группы."
+            }
+          ],
+          "recipe": "auto",
+          "framing": "overview",
+          "focus": "wallet",
+          "query": "Держать финансы под контролем",
+          "scale": 1,
+          "items": [
+            {
+              "uid": "imw199yqqvng8q8",
+              "assetId": "folder",
+              "role": "background",
+              "x": 624.84,
+              "y": 313.2,
+              "rotation": 0,
+              "flipX": false,
+              "flipY": false,
+              "zone": "top-right",
+              "crop": "fragment"
+            },
+            {
+              "uid": "imw199yqqlwjz4r",
+              "assetId": "wallet",
+              "role": "main",
+              "x": 422.12,
+              "y": 733.93,
+              "rotation": 0,
+              "flipX": false,
+              "flipY": false,
+              "zone": "auto",
+              "crop": "whole"
+            },
+            {
+              "uid": "imw199yqqpt8eg6",
+              "assetId": "coin",
+              "role": "main",
+              "x": 675.12390625,
+              "y": 610.1,
+              "rotation": 0,
+              "flipX": false,
+              "flipY": false,
+              "zone": "auto",
+              "crop": "whole"
+            }
+          ]
+        },
+        {
+          "version": 1,
+          "sizing": "native",
+          "environmentPrompt": "",
+          "environmentExplanation": [
+            "Главная смысловая группа объединяет кошелек и монету для раскрытия темы управления финансами.",
+            "Фоновый элемент в виде папки создает рабочую атмосферу и глубину композиции.",
+            "Компактная раскладка выстраивает элементы в единую сбалансированную структуру."
+          ],
+          "groups": [
+            {
+              "kind": "collection",
+              "members": [
+                "imw199yqqlwjz4r",
+                "imw199yqqpt8eg6"
+              ],
+              "reason": "Высокое размещение элементов для вертикального формата"
+            }
+          ],
+          "formatPlans": [],
+          "stagingPlans": [
+            {
+              "format": "square",
+              "views": [
+                {
+                  "principle": "Сбалансированная композиция финансовой группы с акцентом на кошелек и монету",
+                  "placements": [
+                    {
+                      "uid": "imw199yqqlwjz4r",
+                      "relation": "canvas",
+                      "x": 0.48,
+                      "y": 0.52,
+                      "gap": 0,
+                      "rotation": 0
+                    },
+                    {
+                      "uid": "imw199yqqpt8eg6",
+                      "relation": "right",
+                      "targetUid": "imw199yqqlwjz4r",
+                      "x": 0.75,
+                      "y": 0.5,
+                      "gap": 0.03,
+                      "rotation": 0
+                    },
+                    {
+                      "uid": "imw199yqqvng8q8",
+                      "relation": "canvas",
+                      "x": 0.78,
+                      "y": 0.3,
+                      "gap": 0.04,
+                      "rotation": 0
+                    }
+                  ]
+                },
+                {
+                  "principle": "Просторное размещение предметов с сохранением визуальной связи",
+                  "placements": [
+                    {
+                      "uid": "imw199yqqlwjz4r",
+                      "relation": "canvas",
+                      "x": 0.45,
+                      "y": 0.55,
+                      "gap": 0,
+                      "rotation": 0
+                    },
+                    {
+                      "uid": "imw199yqqpt8eg6",
+                      "relation": "right",
+                      "targetUid": "imw199yqqlwjz4r",
+                      "x": 0.75,
+                      "y": 0.5,
+                      "gap": 0.03,
+                      "rotation": 0
+                    },
+                    {
+                      "uid": "imw199yqqvng8q8",
+                      "relation": "canvas",
+                      "x": 0.8,
+                      "y": 0.25,
+                      "gap": 0.05,
+                      "rotation": 0
+                    }
+                  ]
+                },
+                {
+                  "principle": "Диагональное построение для создания динамики в квадратном формате",
+                  "placements": [
+                    {
+                      "uid": "imw199yqqlwjz4r",
+                      "relation": "canvas",
+                      "x": 0.5,
+                      "y": 0.5,
+                      "gap": 0,
+                      "rotation": 0
+                    },
+                    {
+                      "uid": "imw199yqqpt8eg6",
+                      "relation": "right",
+                      "targetUid": "imw199yqqlwjz4r",
+                      "x": 0.75,
+                      "y": 0.5,
+                      "gap": 0.03,
+                      "rotation": 0
+                    },
+                    {
+                      "uid": "imw199yqqvng8q8",
+                      "relation": "canvas",
+                      "x": 0.75,
+                      "y": 0.28,
+                      "gap": 0.04,
+                      "rotation": 0
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "format": "landscape",
+              "views": [
+                {
+                  "principle": "Горизонтальный баланс с центральным расположением главных элементов",
+                  "placements": [
+                    {
+                      "uid": "imw199yqqlwjz4r",
+                      "relation": "canvas",
+                      "x": 0.5,
+                      "y": 0.55,
+                      "gap": 0,
+                      "rotation": 0
+                    },
+                    {
+                      "uid": "imw199yqqpt8eg6",
+                      "relation": "right",
+                      "targetUid": "imw199yqqlwjz4r",
+                      "x": 0.75,
+                      "y": 0.5,
+                      "gap": 0.03,
+                      "rotation": 0
+                    },
+                    {
+                      "uid": "imw199yqqvng8q8",
+                      "relation": "canvas",
+                      "x": 0.82,
+                      "y": 0.3,
+                      "gap": 0.04,
+                      "rotation": 0
+                    }
+                  ]
+                },
+                {
+                  "principle": "Широкое распределение по горизонтали для ландшафтного экрана",
+                  "placements": [
+                    {
+                      "uid": "imw199yqqlwjz4r",
+                      "relation": "canvas",
+                      "x": 0.48,
+                      "y": 0.58,
+                      "gap": 0,
+                      "rotation": 0
+                    },
+                    {
+                      "uid": "imw199yqqpt8eg6",
+                      "relation": "right",
+                      "targetUid": "imw199yqqlwjz4r",
+                      "x": 0.75,
+                      "y": 0.5,
+                      "gap": 0.03,
+                      "rotation": 0
+                    },
+                    {
+                      "uid": "imw199yqqvng8q8",
+                      "relation": "canvas",
+                      "x": 0.85,
+                      "y": 0.28,
+                      "gap": 0.05,
+                      "rotation": 0
+                    }
+                  ]
+                },
+                {
+                  "principle": "Диагональный ритм вдоль длинной стороны холста",
+                  "placements": [
+                    {
+                      "uid": "imw199yqqlwjz4r",
+                      "relation": "canvas",
+                      "x": 0.52,
+                      "y": 0.52,
+                      "gap": 0,
+                      "rotation": 0
+                    },
+                    {
+                      "uid": "imw199yqqpt8eg6",
+                      "relation": "right",
+                      "targetUid": "imw199yqqlwjz4r",
+                      "x": 0.75,
+                      "y": 0.5,
+                      "gap": 0.03,
+                      "rotation": 0
+                    },
+                    {
+                      "uid": "imw199yqqvng8q8",
+                      "relation": "canvas",
+                      "x": 0.8,
+                      "y": 0.25,
+                      "gap": 0.04,
+                      "rotation": 0
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "format": "portrait",
+              "views": [
+                {
+                  "principle": "Вертикальная композиция с акцентом в нижней части кадра",
+                  "placements": [
+                    {
+                      "uid": "imw199yqqlwjz4r",
+                      "relation": "canvas",
+                      "x": 0.5,
+                      "y": 0.6,
+                      "gap": 0,
+                      "rotation": 0
+                    },
+                    {
+                      "uid": "imw199yqqpt8eg6",
+                      "relation": "right",
+                      "targetUid": "imw199yqqlwjz4r",
+                      "x": 0.75,
+                      "y": 0.5,
+                      "gap": 0.03,
+                      "rotation": 0
+                    },
+                    {
+                      "uid": "imw199yqqvng8q8",
+                      "relation": "canvas",
+                      "x": 0.75,
+                      "y": 0.25,
+                      "gap": 0.04,
+                      "rotation": 0
+                    }
+                  ]
+                },
+                {
+                  "principle": "Высокое размещение элементов для вертикального формата",
+                  "placements": [
+                    {
+                      "uid": "imw199yqqlwjz4r",
+                      "relation": "canvas",
+                      "x": 0.52,
+                      "y": 0.58,
+                      "gap": 0,
+                      "rotation": 0
+                    },
+                    {
+                      "uid": "imw199yqqpt8eg6",
+                      "relation": "right",
+                      "targetUid": "imw199yqqlwjz4r",
+                      "x": 0.75,
+                      "y": 0.5,
+                      "gap": 0.03,
+                      "rotation": 0
+                    },
+                    {
+                      "uid": "imw199yqqvng8q8",
+                      "relation": "canvas",
+                      "x": 0.78,
+                      "y": 0.22,
+                      "gap": 0.05,
+                      "rotation": 0
+                    }
+                  ]
+                },
+                {
+                  "principle": "Диагональное движение по вертикальному холсту",
+                  "placements": [
+                    {
+                      "uid": "imw199yqqlwjz4r",
+                      "relation": "canvas",
+                      "x": 0.48,
+                      "y": 0.62,
+                      "gap": 0,
+                      "rotation": 0
+                    },
+                    {
+                      "uid": "imw199yqqpt8eg6",
+                      "relation": "right",
+                      "targetUid": "imw199yqqlwjz4r",
+                      "x": 0.75,
+                      "y": 0.5,
+                      "gap": 0.03,
+                      "rotation": 0
+                    },
+                    {
+                      "uid": "imw199yqqvng8q8",
+                      "relation": "canvas",
+                      "x": 0.75,
+                      "y": 0.28,
+                      "gap": 0.04,
+                      "rotation": 0
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "width": 800,
+          "height": 1200,
+          "format": "portrait",
+          "size": "S",
+          "palette": "aqua",
+          "layout": "compact",
+          "background": "pattern",
+          "backgroundDesign": "auto",
+          "supporting": true,
+          "showSupporting": true,
+          "camera": null,
+          "composition": {
+            "index": 1,
+            "options": [
+              {
+                "strategy": "balanced",
+                "title": "На опоре",
+                "principle": "Сбалансированная композиция финансовой группы с акцентом на кошелек и монету",
+                "placement": "on-surface"
+              },
+              {
+                "strategy": "spacious",
+                "title": "Рядом",
+                "principle": "Просторное размещение предметов с сохранением визуальной связи",
+                "placement": "beside"
+              },
+              {
+                "strategy": "diagonal",
+                "title": "Другой ракурс группы",
+                "principle": "Диагональное построение для создания динамики в квадратном формате",
+                "placement": "across"
+              }
+            ]
+          },
+          "layerRelations": [
+            {
+              "back": "imw199yqqvng8q8",
+              "front": "imw199yqqlwjz4r",
+              "reason": "Фоновый компаньон находится позади главной группы."
+            }
+          ],
+          "recipe": "auto",
+          "framing": "overview",
+          "focus": "wallet",
+          "query": "Держать финансы под контролем",
+          "scale": 1,
+          "items": [
+            {
+              "uid": "imw199yqqvng8q8",
+              "assetId": "folder",
+              "role": "background",
+              "x": 648.84,
+              "y": 277.2,
+              "rotation": 0,
+              "flipX": false,
+              "flipY": false,
+              "zone": "top-right",
+              "crop": "fragment"
+            },
+            {
+              "uid": "imw199yqqlwjz4r",
+              "assetId": "wallet",
+              "role": "main",
+              "x": 438.12,
+              "y": 709.93,
+              "rotation": 0,
+              "flipX": false,
+              "flipY": false,
+              "zone": "auto",
+              "crop": "whole"
+            },
+            {
+              "uid": "imw199yqqpt8eg6",
+              "assetId": "coin",
+              "role": "main",
+              "x": 691.12390625,
+              "y": 610.1,
+              "rotation": 0,
+              "flipX": false,
+              "flipY": false,
+              "zone": "auto",
+              "crop": "whole"
+            }
+          ]
+        },
+        {
+          "version": 1,
+          "sizing": "native",
+          "environmentPrompt": "",
+          "environmentExplanation": [
+            "Главная смысловая группа объединяет кошелек и монету для раскрытия темы управления финансами.",
+            "Фоновый элемент в виде папки создает рабочую атмосферу и глубину композиции.",
+            "Компактная раскладка выстраивает элементы в единую сбалансированную структуру."
+          ],
+          "groups": [
+            {
+              "kind": "collection",
+              "members": [
+                "imw199yqqlwjz4r",
+                "imw199yqqpt8eg6"
+              ],
+              "reason": "Диагональное движение по вертикальному холсту"
+            }
+          ],
+          "formatPlans": [],
+          "stagingPlans": [
+            {
+              "format": "square",
+              "views": [
+                {
+                  "principle": "Сбалансированная композиция финансовой группы с акцентом на кошелек и монету",
+                  "placements": [
+                    {
+                      "uid": "imw199yqqlwjz4r",
+                      "relation": "canvas",
+                      "x": 0.48,
+                      "y": 0.52,
+                      "gap": 0,
+                      "rotation": 0
+                    },
+                    {
+                      "uid": "imw199yqqpt8eg6",
+                      "relation": "right",
+                      "targetUid": "imw199yqqlwjz4r",
+                      "x": 0.75,
+                      "y": 0.5,
+                      "gap": 0.03,
+                      "rotation": 0
+                    },
+                    {
+                      "uid": "imw199yqqvng8q8",
+                      "relation": "canvas",
+                      "x": 0.78,
+                      "y": 0.3,
+                      "gap": 0.04,
+                      "rotation": 0
+                    }
+                  ]
+                },
+                {
+                  "principle": "Просторное размещение предметов с сохранением визуальной связи",
+                  "placements": [
+                    {
+                      "uid": "imw199yqqlwjz4r",
+                      "relation": "canvas",
+                      "x": 0.45,
+                      "y": 0.55,
+                      "gap": 0,
+                      "rotation": 0
+                    },
+                    {
+                      "uid": "imw199yqqpt8eg6",
+                      "relation": "right",
+                      "targetUid": "imw199yqqlwjz4r",
+                      "x": 0.75,
+                      "y": 0.5,
+                      "gap": 0.03,
+                      "rotation": 0
+                    },
+                    {
+                      "uid": "imw199yqqvng8q8",
+                      "relation": "canvas",
+                      "x": 0.8,
+                      "y": 0.25,
+                      "gap": 0.05,
+                      "rotation": 0
+                    }
+                  ]
+                },
+                {
+                  "principle": "Диагональное построение для создания динамики в квадратном формате",
+                  "placements": [
+                    {
+                      "uid": "imw199yqqlwjz4r",
+                      "relation": "canvas",
+                      "x": 0.5,
+                      "y": 0.5,
+                      "gap": 0,
+                      "rotation": 0
+                    },
+                    {
+                      "uid": "imw199yqqpt8eg6",
+                      "relation": "right",
+                      "targetUid": "imw199yqqlwjz4r",
+                      "x": 0.75,
+                      "y": 0.5,
+                      "gap": 0.03,
+                      "rotation": 0
+                    },
+                    {
+                      "uid": "imw199yqqvng8q8",
+                      "relation": "canvas",
+                      "x": 0.75,
+                      "y": 0.28,
+                      "gap": 0.04,
+                      "rotation": 0
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "format": "landscape",
+              "views": [
+                {
+                  "principle": "Горизонтальный баланс с центральным расположением главных элементов",
+                  "placements": [
+                    {
+                      "uid": "imw199yqqlwjz4r",
+                      "relation": "canvas",
+                      "x": 0.5,
+                      "y": 0.55,
+                      "gap": 0,
+                      "rotation": 0
+                    },
+                    {
+                      "uid": "imw199yqqpt8eg6",
+                      "relation": "right",
+                      "targetUid": "imw199yqqlwjz4r",
+                      "x": 0.75,
+                      "y": 0.5,
+                      "gap": 0.03,
+                      "rotation": 0
+                    },
+                    {
+                      "uid": "imw199yqqvng8q8",
+                      "relation": "canvas",
+                      "x": 0.82,
+                      "y": 0.3,
+                      "gap": 0.04,
+                      "rotation": 0
+                    }
+                  ]
+                },
+                {
+                  "principle": "Широкое распределение по горизонтали для ландшафтного экрана",
+                  "placements": [
+                    {
+                      "uid": "imw199yqqlwjz4r",
+                      "relation": "canvas",
+                      "x": 0.48,
+                      "y": 0.58,
+                      "gap": 0,
+                      "rotation": 0
+                    },
+                    {
+                      "uid": "imw199yqqpt8eg6",
+                      "relation": "right",
+                      "targetUid": "imw199yqqlwjz4r",
+                      "x": 0.75,
+                      "y": 0.5,
+                      "gap": 0.03,
+                      "rotation": 0
+                    },
+                    {
+                      "uid": "imw199yqqvng8q8",
+                      "relation": "canvas",
+                      "x": 0.85,
+                      "y": 0.28,
+                      "gap": 0.05,
+                      "rotation": 0
+                    }
+                  ]
+                },
+                {
+                  "principle": "Диагональный ритм вдоль длинной стороны холста",
+                  "placements": [
+                    {
+                      "uid": "imw199yqqlwjz4r",
+                      "relation": "canvas",
+                      "x": 0.52,
+                      "y": 0.52,
+                      "gap": 0,
+                      "rotation": 0
+                    },
+                    {
+                      "uid": "imw199yqqpt8eg6",
+                      "relation": "right",
+                      "targetUid": "imw199yqqlwjz4r",
+                      "x": 0.75,
+                      "y": 0.5,
+                      "gap": 0.03,
+                      "rotation": 0
+                    },
+                    {
+                      "uid": "imw199yqqvng8q8",
+                      "relation": "canvas",
+                      "x": 0.8,
+                      "y": 0.25,
+                      "gap": 0.04,
+                      "rotation": 0
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "format": "portrait",
+              "views": [
+                {
+                  "principle": "Вертикальная композиция с акцентом в нижней части кадра",
+                  "placements": [
+                    {
+                      "uid": "imw199yqqlwjz4r",
+                      "relation": "canvas",
+                      "x": 0.5,
+                      "y": 0.6,
+                      "gap": 0,
+                      "rotation": 0
+                    },
+                    {
+                      "uid": "imw199yqqpt8eg6",
+                      "relation": "right",
+                      "targetUid": "imw199yqqlwjz4r",
+                      "x": 0.75,
+                      "y": 0.5,
+                      "gap": 0.03,
+                      "rotation": 0
+                    },
+                    {
+                      "uid": "imw199yqqvng8q8",
+                      "relation": "canvas",
+                      "x": 0.75,
+                      "y": 0.25,
+                      "gap": 0.04,
+                      "rotation": 0
+                    }
+                  ]
+                },
+                {
+                  "principle": "Высокое размещение элементов для вертикального формата",
+                  "placements": [
+                    {
+                      "uid": "imw199yqqlwjz4r",
+                      "relation": "canvas",
+                      "x": 0.52,
+                      "y": 0.58,
+                      "gap": 0,
+                      "rotation": 0
+                    },
+                    {
+                      "uid": "imw199yqqpt8eg6",
+                      "relation": "right",
+                      "targetUid": "imw199yqqlwjz4r",
+                      "x": 0.75,
+                      "y": 0.5,
+                      "gap": 0.03,
+                      "rotation": 0
+                    },
+                    {
+                      "uid": "imw199yqqvng8q8",
+                      "relation": "canvas",
+                      "x": 0.78,
+                      "y": 0.22,
+                      "gap": 0.05,
+                      "rotation": 0
+                    }
+                  ]
+                },
+                {
+                  "principle": "Диагональное движение по вертикальному холсту",
+                  "placements": [
+                    {
+                      "uid": "imw199yqqlwjz4r",
+                      "relation": "canvas",
+                      "x": 0.48,
+                      "y": 0.62,
+                      "gap": 0,
+                      "rotation": 0
+                    },
+                    {
+                      "uid": "imw199yqqpt8eg6",
+                      "relation": "right",
+                      "targetUid": "imw199yqqlwjz4r",
+                      "x": 0.75,
+                      "y": 0.5,
+                      "gap": 0.03,
+                      "rotation": 0
+                    },
+                    {
+                      "uid": "imw199yqqvng8q8",
+                      "relation": "canvas",
+                      "x": 0.75,
+                      "y": 0.28,
+                      "gap": 0.04,
+                      "rotation": 0
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "width": 800,
+          "height": 1200,
+          "format": "portrait",
+          "size": "S",
+          "palette": "aqua",
+          "layout": "compact",
+          "background": "pattern",
+          "backgroundDesign": "auto",
+          "supporting": true,
+          "showSupporting": true,
+          "camera": null,
+          "composition": {
+            "index": 2,
+            "options": [
+              {
+                "strategy": "balanced",
+                "title": "На опоре",
+                "principle": "Сбалансированная композиция финансовой группы с акцентом на кошелек и монету",
+                "placement": "on-surface"
+              },
+              {
+                "strategy": "spacious",
+                "title": "Рядом",
+                "principle": "Просторное размещение предметов с сохранением визуальной связи",
+                "placement": "beside"
+              },
+              {
+                "strategy": "diagonal",
+                "title": "Другой ракурс группы",
+                "principle": "Диагональное построение для создания динамики в квадратном формате",
+                "placement": "across"
+              }
+            ]
+          },
+          "layerRelations": [
+            {
+              "back": "imw199yqqvng8q8",
+              "front": "imw199yqqlwjz4r",
+              "reason": "Фоновый компаньон находится позади главной группы."
+            }
+          ],
+          "recipe": "auto",
+          "framing": "overview",
+          "focus": "wallet",
+          "query": "Держать финансы под контролем",
+          "scale": 1,
+          "items": [
+            {
+              "uid": "imw199yqqvng8q8",
+              "assetId": "folder",
+              "role": "background",
+              "x": 624.84,
+              "y": 349.20000000000005,
+              "rotation": 0,
+              "flipX": false,
+              "flipY": false,
+              "zone": "top-right",
+              "crop": "fragment"
+            },
+            {
+              "uid": "imw199yqqlwjz4r",
+              "assetId": "wallet",
+              "role": "main",
+              "x": 406.12,
+              "y": 757.93,
+              "rotation": 0,
+              "flipX": false,
+              "flipY": false,
+              "zone": "auto",
+              "crop": "whole"
+            },
+            {
+              "uid": "imw199yqqpt8eg6",
+              "assetId": "coin",
+              "role": "main",
+              "x": 659.12390625,
+              "y": 610.1,
+              "rotation": 0,
+              "flipX": false,
+              "flipY": false,
+              "zone": "auto",
+              "crop": "whole"
+            }
+          ]
+        }
+      ]
+    }
+  }
+}

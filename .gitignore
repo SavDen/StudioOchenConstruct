@@ -3,3 +3,15 @@ __pycache__/
 .DS_Store
 .openai/*.tar.gz
 .openai/*.zip
+.env
+.env.*
+!.env.example
+_site/
+exports/baselines/
+exports/*/responses/
+qa/*
+!qa/examples/
+!qa/review.json
+!qa/validation.json
+!qa/scene-contact.png
+*.log

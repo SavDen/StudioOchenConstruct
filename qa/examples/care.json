@@ -1,0 +1,26 @@
+{
+  "version": 1,
+  "width": 1080,
+  "height": 1350,
+  "format": "portrait",
+  "size": "S",
+  "palette": "peach",
+  "layout": "compact",
+  "background": "pattern",
+  "supporting": true,
+  "recipe": "auto",
+  "framing": "focus",
+  "focus": "auto",
+  "query": "Забота и подарки",
+  "scale": 2.505185094831044,
+  "items": [
+    {
+      "assetId": "flowers",
+      "role": "main",
+      "uid": "imw0szntbdk4y9g",
+      "x": 589.7933568,
+      "y": 721.1167833686744,
+      "rotation": 0
+    }
+  ]
+}

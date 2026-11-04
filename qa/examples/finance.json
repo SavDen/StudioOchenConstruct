@@ -8,31 +8,26 @@
   "layout": "offset",
   "background": "pattern",
   "supporting": true,
-  "query": "Финансы и безопасность денег",
-  "scale": 0.501837427344768,
+  "recipe": "auto",
+  "framing": "focus",
+  "focus": "auto",
+  "query": "Финансы под контролем",
+  "scale": 0.9356693398800674,
   "items": [
     {
-      "assetId": "phone",
-      "role": "background",
-      "uid": "imw0j45zwaz0zls",
-      "x": 129.6,
-      "y": 248.4,
-      "rotation": 0
-    },
-    {
       "assetId": "coin",
-      "role": "main",
-      "uid": "imw0j45zwbuzw2p",
-      "x": 313.5470998108292,
-      "y": 689.2827854740168,
+      "role": "background",
+      "uid": "imw0sznssuq6f8z",
+      "x": 1047.2333587717296,
+      "y": 378.3994649858922,
       "rotation": 0
     },
     {
       "assetId": "wallet",
       "role": "main",
-      "uid": "imw0j45zwy6llps",
-      "x": 874.6013435822798,
-      "y": 464.4596180235608,
+      "uid": "imw0sznss6pwb0x",
+      "x": 709.7784192,
+      "y": 567.0048581389204,
       "rotation": 0
     }
   ]

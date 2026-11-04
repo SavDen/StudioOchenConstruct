@@ -1,16 +1,54 @@
 {
-  "disposition": "ship as test prototype",
-  "scope": "Independent source review and three rendered SVG composition previews; verdict pass covered two fixes.",
-  "resolved": [
-    "Scale range includes generated/imported value before thumb assignment",
-    "Project menu remains available on phones",
-    "Detector findings for undersized functional copy addressed with 12px floor"
+  "version": 10,
+  "disposition": "ship",
+  "scope": "Fresh V10 source and three-viewport screenshot review: lamp LEFT/book RIGHT in reading order; general framing restored. Targeted stale-template safeguard reviewed separately.",
+  "resolvedFixes": [
+    "Lamp left, book right matches clarified left-to-right meaning.",
+    "Original seven-recipe selection and framing restored; special pen close-up removed.",
+    "Remembered layouts from old rule versions are revalidated; current-version manual layouts remain free."
   ],
+  "regressionsObserved": [],
+  "engineTests": 51,
+  "finalFocusedTestsPassed": 4,
+  "browser": {
+    "version": 10,
+    "widths": [
+      1365,
+      870,
+      390
+    ],
+    "surfaces": [
+      "editor"
+    ],
+    "screenshots": "qa/ui-v10/",
+    "interactions": [
+      "overview writing scene restores book/lamp/pen",
+      "book focus retained",
+      "lamp is left of book in rendered SVG",
+      "unchanged shared settings tabs"
+    ],
+    "javascriptErrors": 0,
+    "horizontalBodyOverflowAt390": false,
+    "liveMouseDragVerified": false
+  },
   "limits": [
-    "Local browser use disabled and Mac locked; no browser UI screenshots or interaction run",
-    "Pointer dragging, responsive fit and native downloads need browser acceptance"
+    "Conservative padded convex support envelopes; concavities and holes are not modeled exactly.",
+    "Registry samples120 source size/role/anchor states;10 configured families, not all conceivable physical placements.",
+    "Camera metrics are authored heuristics, not a universal guarantee of publication quality.",
+    "Live mouse dragging remains unverified."
   ],
-  "coreTests": 13,
-  "layoutCases": 24,
-  "paletteVectorCases": 120
+  "sources": [
+    "https://www.ibm.com/design/language/illustration/tips-and-techniques/",
+    "https://www.nngroup.com/articles/principles-visual-design/",
+    "https://www.adobe.com/creativecloud/photography/technique/composition.html",
+    "https://www.fujifilm-x.com/en-gb/learning-centre/the-golden-ratio/"
+  ],
+  "intentionalDetectorFindings": [
+    "Artboard content meets SVG viewport edges.",
+    "Framing controls use top inset supplied by preceding continuous footer.",
+    "Runtime editor colors derive from source palettes, not only static fallback values."
+  ],
+  "bookLampAllRoleConfigurations": 576,
+  "denseBookLampAllRoleConfigurations": 32,
+  "spatialPairConfigurations": 8640
 }

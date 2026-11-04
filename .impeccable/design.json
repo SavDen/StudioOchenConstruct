@@ -1,6 +1,6 @@
 {
   "schemaVersion": 2,
-  "title": "Design System: Сборка",
+  "title": "Design System: Конструктор",
   "extensions": {
     "shadows": [
       {
@@ -47,17 +47,91 @@
   },
   "narrative": {
     "northStar": "Existing illustration-library visual world",
-    "overview": "Operate editor inheriting green chrome and source SVG assets.",
+    "overview": "Local Operate SVG editor. Interface surfaces and actions follow the selected original SVG palette.",
     "rules": [
       {
-        "name": "Palette boundary",
-        "body": "Editor tokens style controls; original palettes style artwork."
+        "name": "Source-palette theme",
+        "body": "The interface derives colors from the currently selected source artwork palette; text contrast remains explicit."
       }
     ]
   },
   "verification": {
     "sourceReviewed": true,
-    "browserUiReviewed": false,
-    "compositionPreviewsReviewed": true
+    "browserUiReviewed": true,
+    "compositionPreviewsReviewed": true,
+    "browserWidths": [
+      1365,
+      870,
+      390
+    ],
+    "noHorizontalOverflowAt390": true,
+    "version": 10,
+    "screenshots": "qa/ui-v10/",
+    "engineTests": 51,
+    "browserSurfaces": [
+      "editor"
+    ],
+    "liveMouseDragReviewed": false,
+    "bookLampRegularConfigurations": 576,
+    "bookLampDenseConfigurations": 32,
+    "browserConsoleErrors": false,
+    "screenshotFiles": [
+      "desktop.jpg",
+      "user-870.jpg",
+      "mobile.jpg"
+    ],
+    "actualWidthsConfirmed": true,
+    "engineTestsVersion": 10,
+    "finishReview": "ship; fresh V10 review found no UI issues requiring fixes",
+    "detector": "not run; no CSS changes; no pass claimed",
+    "v7BrowserEvidence": {
+      "freeCoordinateOverlapReviewed": true,
+      "undoRedoReviewed": true,
+      "reloadPersistenceReviewed": true
+    },
+    "v8Evidence": {
+      "noHorizontalOverflowAtCheckedWidths": true,
+      "duplicateIds": 0,
+      "mainSettingsControls": 0,
+      "browserInteractions": [
+        "format and framing changes",
+        "ARIA tabs with arrow/Home/End navigation without artwork movement",
+        "layer selection opens Object tab",
+        "15 degree rotation and horizontal mirror",
+        "palette and backdrop changes through the settings panel"
+      ],
+      "appSyntax": "node --check dist/app.js passed",
+      "reviewEvidence": "qa/settings-review.json",
+      "engineTestsRerun": false,
+      "engineUnchanged": true
+    },
+    "browserInteractions": [
+      "overview writing scene with background support disabled shows book, lamp and pen as main subjects",
+      "designer-selected book focus retained",
+      "lamp rendered left of book",
+      "shared settings tabs preserved"
+    ],
+    "fullValidationPassed": true,
+    "spatialPairConfigurations": 8640,
+    "overviewConfigurations": 504,
+    "focusConfigurations": 504,
+    "subjectSupportProfiles": 10,
+    "spatialUniquePairs": 45,
+    "registryDirectedPairs": 100,
+    "renderedExamples": 11,
+    "engineReviewEvidence": "qa/validation.json",
+    "placementRuleScope": "Authored root-center art direction; not physical simulation or a guarantee of publication quality.",
+    "v9ReviewScope": {
+      "originalUserScreenshotReviewed": false,
+      "originalUserScreenshotReviewLimitation": "Reviewer file access denied; comparison used the screenshot description."
+    },
+    "lampBookRenderedCenters": {
+      "lampX": 274.85,
+      "bookX": 819.72
+    },
+    "semanticRecipes": 7,
+    "browserReviewEvidence": "qa/validation.json#browserReview",
+    "readingOrderRule": "Lamp left of book; Z-order is separate and unchanged.",
+    "v9WritingAndFocusExceptionsReverted": true
   }
 }

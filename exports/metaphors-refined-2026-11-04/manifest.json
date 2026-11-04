@@ -1,0 +1,487 @@
+{
+  "version": 1,
+  "size": "S",
+  "formats": [
+    "square",
+    "landscape",
+    "portrait"
+  ],
+  "variants": 3,
+  "cases": [
+    {
+      "id": 1,
+      "query": "Личное пространство",
+      "http": 200,
+      "status": "ready",
+      "vision": true,
+      "model": "gemini-3.5-flash-lite",
+      "cast": [
+        {
+          "assetId": "headphones",
+          "role": "main",
+          "zone": "auto",
+          "crop": "whole"
+        },
+        {
+          "assetId": "phone",
+          "role": "background",
+          "zone": "bottom-right",
+          "crop": "whole"
+        }
+      ],
+      "explanation": [
+        "Главный предмет — наушники, выражающие идею личного пространства, погружения и фокуса.",
+        "Фоновый предмет — смартфон, дополняющий тему персональных цифровых каналов связи и доступности.",
+        "Композиция выстроена компактно, сохраняя единый смысловой центр и читаемые пропорции."
+      ],
+      "limitations": [],
+      "outputs": [
+        {
+          "format": "square",
+          "variant": 1,
+          "file": "svg/1-square-1.svg",
+          "executionNotes": [],
+          "warnings": [],
+          "principle": "Сбалансированное компактное размещение наушников по центру с фоновым смартфоном справа."
+        },
+        {
+          "format": "square",
+          "variant": 2,
+          "file": "svg/1-square-2.svg",
+          "executionNotes": [],
+          "warnings": [],
+          "principle": "Смещенный вариант с акцентом на центральную группу и плотным расположением."
+        },
+        {
+          "format": "square",
+          "variant": 3,
+          "file": "svg/1-square-3.svg",
+          "executionNotes": [],
+          "warnings": [],
+          "principle": "Диагональное взаимодействие главного объекта и фонового элемента."
+        },
+        {
+          "format": "landscape",
+          "variant": 1,
+          "file": "svg/1-landscape-1.svg",
+          "executionNotes": [],
+          "warnings": [],
+          "principle": "Горизонтальное компактное размещение с центральным фокусом."
+        },
+        {
+          "format": "landscape",
+          "variant": 2,
+          "file": "svg/1-landscape-2.svg",
+          "executionNotes": [],
+          "warnings": [],
+          "principle": "Пространственное разделение по горизонтали с сохранением плотности."
+        },
+        {
+          "format": "landscape",
+          "variant": 3,
+          "file": "svg/1-landscape-3.svg",
+          "executionNotes": [],
+          "warnings": [],
+          "principle": "Диагональный баланс элементов в ландшафтном формате."
+        },
+        {
+          "format": "portrait",
+          "variant": 1,
+          "file": "svg/1-portrait-1.svg",
+          "executionNotes": [],
+          "warnings": [],
+          "principle": "Вертикальная композиция с наушниками во главе и телефоном внизу."
+        },
+        {
+          "format": "portrait",
+          "variant": 2,
+          "file": "svg/1-portrait-2.svg",
+          "executionNotes": [],
+          "warnings": [],
+          "principle": "Смещение фокуса выше для создания пространства под телефон."
+        },
+        {
+          "format": "portrait",
+          "variant": 3,
+          "file": "svg/1-portrait-3.svg",
+          "executionNotes": [],
+          "warnings": [],
+          "principle": "Диагональное расположение в вертикальном кадре."
+        }
+      ],
+      "project": "projects/1.json"
+    },
+    {
+      "id": 2,
+      "query": "Маленький вклад — большой результат",
+      "http": 200,
+      "status": "ready",
+      "vision": true,
+      "model": "gemini-3.5-flash-lite",
+      "cast": [
+        {
+          "assetId": "book",
+          "role": "main",
+          "zone": "auto",
+          "crop": "whole"
+        },
+        {
+          "assetId": "coin",
+          "role": "main",
+          "zone": "auto",
+          "crop": "whole"
+        },
+        {
+          "assetId": "folder",
+          "role": "background",
+          "zone": "bottom-left",
+          "crop": "fragment"
+        }
+      ],
+      "explanation": [
+        "Главная группа объединяет открытую книгу как основу знаний и монету как символ результата.",
+        "Фоновая папка поддерживает деловой контекст и порядок на рабочей плоскости.",
+        "Композиция выстроена компактно с четким соблюдением опор и читаемости элементов."
+      ],
+      "limitations": [
+        "Монета размещена на странице книги согласно правилам физических опор.",
+        "Фоновый элемент добавлен в единственном числе для сохранения баланса."
+      ],
+      "outputs": [
+        {
+          "format": "square",
+          "variant": 1,
+          "file": "svg/2-square-1.svg",
+          "executionNotes": [
+            "Положение «Папка» уточнено по границам кадра и реестру пересечений."
+          ],
+          "warnings": [],
+          "principle": "Книга в центре, монета на странице, фоновая папка слева внизу."
+        },
+        {
+          "format": "square",
+          "variant": 2,
+          "file": "svg/2-square-2.svg",
+          "executionNotes": [
+            "Положение «Папка» уточнено по границам кадра и реестру пересечений."
+          ],
+          "warnings": [],
+          "principle": "Смещение композиции чуть выше, монета ближе к правому краю книги."
+        },
+        {
+          "format": "square",
+          "variant": 3,
+          "file": "svg/2-square-3.svg",
+          "executionNotes": [
+            "Положение «Папка» уточнено по границам кадра и реестру пересечений."
+          ],
+          "warnings": [],
+          "principle": "Диагональное расположение элементов для создания динамики."
+        },
+        {
+          "format": "landscape",
+          "variant": 1,
+          "file": "svg/2-landscape-1.svg",
+          "executionNotes": [
+            "Положение «Папка» уточнено по границам кадра и реестру пересечений."
+          ],
+          "warnings": [],
+          "principle": "Горизонтальное размещение с книгой в центре и монетой на ней."
+        },
+        {
+          "format": "landscape",
+          "variant": 2,
+          "file": "svg/2-landscape-2.svg",
+          "executionNotes": [
+            "Положение «Папка» уточнено по границам кадра и реестру пересечений."
+          ],
+          "warnings": [],
+          "principle": "Смещение главной группы правее, папка у левого края."
+        },
+        {
+          "format": "landscape",
+          "variant": 3,
+          "file": "svg/2-landscape-3.svg",
+          "executionNotes": [
+            "Положение «Папка» уточнено по границам кадра и реестру пересечений."
+          ],
+          "warnings": [],
+          "principle": "Широкий формат с акцентом на горизонтальные связи."
+        },
+        {
+          "format": "portrait",
+          "variant": 1,
+          "file": "svg/2-portrait-1.svg",
+          "executionNotes": [],
+          "warnings": [],
+          "principle": "Вертикальная композиция с центрированной книгой."
+        },
+        {
+          "format": "portrait",
+          "variant": 2,
+          "file": "svg/2-portrait-2.svg",
+          "executionNotes": [],
+          "warnings": [],
+          "principle": "Вертикальный сдвиг элементов вверх для свободы внизу."
+        },
+        {
+          "format": "portrait",
+          "variant": 3,
+          "file": "svg/2-portrait-3.svg",
+          "executionNotes": [
+            "Положение «Папка» уточнено по границам кадра и реестру пересечений."
+          ],
+          "warnings": [],
+          "principle": "Сбалансированная вертикальная стопка."
+        }
+      ],
+      "project": "projects/2.json"
+    },
+    {
+      "id": 3,
+      "query": "Все части работают вместе",
+      "http": 200,
+      "status": "ready",
+      "vision": true,
+      "model": "gemini-3.5-flash-lite",
+      "cast": [
+        {
+          "assetId": "book",
+          "role": "main",
+          "zone": "auto",
+          "crop": "whole"
+        },
+        {
+          "assetId": "puzzle",
+          "role": "main",
+          "zone": "auto",
+          "crop": "whole"
+        },
+        {
+          "assetId": "phone",
+          "role": "background",
+          "zone": "top-right",
+          "crop": "whole"
+        }
+      ],
+      "explanation": [
+        "Главная группа объединяет раскрытую книгу и пазл, выражая идею слаженной сборки частей и совместной работы.",
+        "Фоновый элемент в виде телефона добавляет цифровой контекст связи, дополняя метафору целостности.",
+        "Композиция выстроена компактно с сохранением читаемости и смысловых опор между элементами."
+      ],
+      "limitations": [
+        "Количество предметов ограничено главной группой и одним компаньоном.",
+        "Масштаб и пропорции исходных ассетов зафиксированы без изменений."
+      ],
+      "outputs": [
+        {
+          "format": "square",
+          "variant": 1,
+          "file": "svg/3-square-1.svg",
+          "executionNotes": [],
+          "warnings": [],
+          "principle": "Центральная сбалансированная группа с пазлом на странице книги и фоновым телефоном справа."
+        },
+        {
+          "format": "square",
+          "variant": 2,
+          "file": "svg/3-square-2.svg",
+          "executionNotes": [],
+          "warnings": [],
+          "principle": "Компактная компоновка со смещением элементов к центру."
+        },
+        {
+          "format": "square",
+          "variant": 3,
+          "file": "svg/3-square-3.svg",
+          "executionNotes": [],
+          "warnings": [],
+          "principle": "Плотное диагональное построение объектов."
+        },
+        {
+          "format": "landscape",
+          "variant": 1,
+          "file": "svg/3-landscape-1.svg",
+          "executionNotes": [],
+          "warnings": [],
+          "principle": "Горизонтальный баланс с главной книгой по центру и фоном сбоку."
+        },
+        {
+          "format": "landscape",
+          "variant": 2,
+          "file": "svg/3-landscape-2.svg",
+          "executionNotes": [],
+          "warnings": [],
+          "principle": "Смещение основных объектов влево для открытого пространства справа."
+        },
+        {
+          "format": "landscape",
+          "variant": 3,
+          "file": "svg/3-landscape-3.svg",
+          "executionNotes": [],
+          "warnings": [],
+          "principle": "Диагональное распределение вдоль кадра."
+        },
+        {
+          "format": "portrait",
+          "variant": 1,
+          "file": "svg/3-portrait-1.svg",
+          "executionNotes": [],
+          "warnings": [],
+          "principle": "Вертикальная композиция с вертикальным стеком элементов."
+        },
+        {
+          "format": "portrait",
+          "variant": 2,
+          "file": "svg/3-portrait-2.svg",
+          "executionNotes": [],
+          "warnings": [],
+          "principle": "Плотное вертикальное размещение в центре кадра."
+        },
+        {
+          "format": "portrait",
+          "variant": 3,
+          "file": "svg/3-portrait-3.svg",
+          "executionNotes": [],
+          "warnings": [],
+          "principle": "Асимметричное вертикальное расположение с легким смещением."
+        }
+      ],
+      "project": "projects/3.json"
+    },
+    {
+      "id": 4,
+      "query": "Учиться в своём ритме",
+      "http": 200,
+      "status": "ready",
+      "vision": true,
+      "model": "gemini-3.5-flash-lite",
+      "cast": [
+        {
+          "assetId": "book",
+          "role": "main",
+          "zone": "auto",
+          "crop": "whole"
+        },
+        {
+          "assetId": "headphones",
+          "role": "main",
+          "zone": "auto",
+          "crop": "whole"
+        },
+        {
+          "assetId": "phone",
+          "role": "background",
+          "zone": "top-right",
+          "crop": "whole"
+        }
+      ],
+      "explanation": [
+        "Главная пара открытой книги и наушников раскрывает метафору самостоятельного темпа и погружения в обучение.",
+        "Фоновый смартфон дополняет композицию цифровым контекстом доступности знаний.",
+        "Компактная компоновка объединяет элементы в устойчивую и сбалансированную сцену."
+      ],
+      "limitations": [],
+      "outputs": [
+        {
+          "format": "square",
+          "variant": 1,
+          "file": "svg/4-square-1.svg",
+          "executionNotes": [
+            "Кадр сдвинут без масштабирования, чтобы сохранить главные предметы целиком.",
+            "Положение «Смартфон» уточнено по границам кадра и реестру пересечений.",
+            "Положение «Наушники» уточнено по границам кадра и реестру пересечений."
+          ],
+          "warnings": [],
+          "principle": "Центральная сбалансированная группа книги и наушников с фоновым смартфоном сверху справа"
+        },
+        {
+          "format": "square",
+          "variant": 2,
+          "file": "svg/4-square-2.svg",
+          "executionNotes": [
+            "Положение «Наушники» уточнено по границам кадра и реестру пересечений."
+          ],
+          "warnings": [],
+          "principle": "Смещение группы влево с диагональным размещением фонового элемента"
+        },
+        {
+          "format": "square",
+          "variant": 3,
+          "file": "svg/4-square-3.svg",
+          "executionNotes": [
+            "Кадр сдвинут без масштабирования, чтобы сохранить главные предметы целиком.",
+            "Положение «Смартфон» уточнено по границам кадра и реестру пересечений.",
+            "Положение «Наушники» уточнено по границам кадра и реестру пересечений."
+          ],
+          "warnings": [],
+          "principle": "Плотная компактная компоновка элементов в центре холста"
+        },
+        {
+          "format": "landscape",
+          "variant": 1,
+          "file": "svg/4-landscape-1.svg",
+          "executionNotes": [
+            "Кадр сдвинут без масштабирования, чтобы сохранить главные предметы целиком.",
+            "Положение «Наушники» уточнено по границам кадра и реестру пересечений."
+          ],
+          "warnings": [],
+          "principle": "Горизонтальное распределение основных предметов с фоном справа"
+        },
+        {
+          "format": "landscape",
+          "variant": 2,
+          "file": "svg/4-landscape-2.svg",
+          "executionNotes": [
+            "Кадр сдвинут без масштабирования, чтобы сохранить главные предметы целиком.",
+            "Положение «Наушники» уточнено по границам кадра и реестру пересечений."
+          ],
+          "warnings": [],
+          "principle": "Смещение композиции вправо с гармоничным сохранением пропорций кадра"
+        },
+        {
+          "format": "landscape",
+          "variant": 3,
+          "file": "svg/4-landscape-3.svg",
+          "executionNotes": [
+            "Кадр сдвинут без масштабирования, чтобы сохранить главные предметы целиком.",
+            "Положение «Наушники» уточнено по границам кадра и реестру пересечений."
+          ],
+          "warnings": [],
+          "principle": "Диагональный баланс элементов для широкого формата"
+        },
+        {
+          "format": "portrait",
+          "variant": 1,
+          "file": "svg/4-portrait-1.svg",
+          "executionNotes": [
+            "Положение «Смартфон» уточнено по границам кадра и реестру пересечений."
+          ],
+          "warnings": [],
+          "principle": "Вертикальная центрированная композиция с верхним расположением наушников"
+        },
+        {
+          "format": "portrait",
+          "variant": 2,
+          "file": "svg/4-portrait-2.svg",
+          "executionNotes": [
+            "Положение «Смартфон» уточнено по границам кадра и реестру пересечений."
+          ],
+          "warnings": [],
+          "principle": "Смещение элементов к верхне-центральной зоне портретного холста"
+        },
+        {
+          "format": "portrait",
+          "variant": 3,
+          "file": "svg/4-portrait-3.svg",
+          "executionNotes": [
+            "Положение «Смартфон» уточнено по границам кадра и реестру пересечений."
+          ],
+          "warnings": [],
+          "principle": "Плотная вертикальная компоновка с акцентом на центральный объект"
+        }
+      ],
+      "project": "projects/4.json"
+    }
+  ]
+}

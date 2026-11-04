@@ -1,33 +1,187 @@
 {
   "status": "passed",
-  "engineTests": 13,
-  "layoutConfigurations": 24,
+  "engineTests": 51,
+  "genericLayoutConfigurations": 24,
+  "semanticLayoutConfigurations": 504,
+  "focusFramingConfigurations": 504,
+  "approvedContactConfigurations": 144,
+  "registryContactTransformConfigurations": 1440,
+  "registryDirectedPairs": 100,
+  "spatialUniquePairs": 45,
+  "spatialPairConfigurations": 8640,
+  "reviewedSupportFamilies": 10,
+  "sourceVariantsAudited": 40,
+  "visualAnchorCases": 120,
   "colorAndVectorCases": 120,
+  "rotatedSubjectPairConfigurations": 1440,
+  "dense32ItemConfigurations": 24,
+  "bookLampRegressionConfigurations": 72,
+  "bookLampAllRoleConfigurations": 576,
+  "denseBookLampAllRoleConfigurations": 32,
   "examples": [
     {
-      "id": "education",
+      "id": "writing",
+      "query": "Обучение письму",
+      "recipe": "study",
       "objects": 3,
       "width": 1200,
       "height": 630,
       "size": "S",
-      "palette": "aqua"
+      "palette": "lavender",
+      "layout": "compact",
+      "framing": "overview",
+      "focus": "book"
     },
     {
-      "id": "finance",
+      "id": "writing-portrait",
+      "query": "Обучение письму",
+      "recipe": "study",
       "objects": 3,
-      "width": 1080,
-      "height": 1080,
-      "size": "L",
-      "palette": "peach"
-    },
-    {
-      "id": "teamwork",
-      "objects": 1,
       "width": 1080,
       "height": 1350,
       "size": "L",
-      "palette": "lavender"
+      "palette": "lavender",
+      "layout": "compact",
+      "framing": "overview",
+      "focus": "book"
+    },
+    {
+      "id": "education",
+      "query": "Свет знаний",
+      "recipe": "study",
+      "objects": 2,
+      "width": 1200,
+      "height": 630,
+      "size": "S",
+      "palette": "aqua",
+      "layout": "compact",
+      "framing": "focus",
+      "focus": "book"
+    },
+    {
+      "id": "online",
+      "query": "Обучение онлайн",
+      "recipe": "online",
+      "objects": 2,
+      "width": 1080,
+      "height": 1080,
+      "size": "L",
+      "palette": "lavender",
+      "layout": "compact",
+      "framing": "focus",
+      "focus": "phone"
+    },
+    {
+      "id": "finance",
+      "query": "Финансы под контролем",
+      "recipe": "finance",
+      "objects": 2,
+      "width": 1080,
+      "height": 1080,
+      "size": "L",
+      "palette": "peach",
+      "layout": "offset",
+      "framing": "focus",
+      "focus": "wallet"
+    },
+    {
+      "id": "documents",
+      "query": "Порядок в документах",
+      "recipe": "work",
+      "objects": 2,
+      "width": 1200,
+      "height": 630,
+      "size": "S",
+      "palette": "lavender",
+      "layout": "compact",
+      "framing": "focus",
+      "focus": "folder"
+    },
+    {
+      "id": "audio",
+      "query": "Музыка и подкасты",
+      "recipe": "audio",
+      "objects": 2,
+      "width": 1920,
+      "height": 1080,
+      "size": "L",
+      "palette": "aqua",
+      "layout": "compact",
+      "framing": "focus",
+      "focus": "headphones"
+    },
+    {
+      "id": "teamwork",
+      "query": "Решаем задачи вместе",
+      "recipe": "team",
+      "objects": 2,
+      "width": 1080,
+      "height": 1350,
+      "size": "L",
+      "palette": "lavender",
+      "layout": "compact",
+      "framing": "focus",
+      "focus": "puzzle"
+    },
+    {
+      "id": "care",
+      "query": "Забота и подарки",
+      "recipe": "care",
+      "objects": 1,
+      "width": 1080,
+      "height": 1350,
+      "size": "S",
+      "palette": "peach",
+      "layout": "compact",
+      "framing": "focus",
+      "focus": "flowers"
+    },
+    {
+      "id": "study-portrait",
+      "query": "Свет знаний",
+      "recipe": "study",
+      "objects": 2,
+      "width": 1080,
+      "height": 1350,
+      "size": "L",
+      "palette": "aqua",
+      "layout": "offset",
+      "framing": "focus",
+      "focus": "book"
+    },
+    {
+      "id": "headline",
+      "query": "Обучение онлайн",
+      "recipe": "online",
+      "objects": 2,
+      "width": 1200,
+      "height": 630,
+      "size": "L",
+      "palette": "lavender",
+      "layout": "headline",
+      "framing": "focus",
+      "focus": "phone"
     }
   ],
-  "browserReview": "Unavailable: local browser control disabled; native Mac is locked."
+  "browserReview": {
+    "version": 10,
+    "widths": [
+      1365,
+      870,
+      390
+    ],
+    "surfaces": [
+      "editor"
+    ],
+    "screenshots": "qa/ui-v10/",
+    "interactions": [
+      "overview writing scene restores book/lamp/pen",
+      "book focus retained",
+      "lamp is left of book in rendered SVG",
+      "unchanged shared settings tabs"
+    ],
+    "javascriptErrors": 0,
+    "horizontalBodyOverflowAt390": false,
+    "liveMouseDragVerified": false
+  }
 }

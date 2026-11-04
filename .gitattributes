@@ -1,0 +1,13 @@
+# Preserve canonical SVG bytes and hashes across platforms.
+*.svg -text
+*.png binary
+*.zip binary
+*.js text eol=lf
+*.mjs text eol=lf
+*.cjs text eol=lf
+*.py text eol=lf
+*.html text eol=lf
+*.css text eol=lf
+*.json text eol=lf
+*.yml text eol=lf
+*.md text eol=lf
