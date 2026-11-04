@@ -1,6 +1,6 @@
 # studio-ochen-construct: GitHub и GitHub Pages
 
-Исходники, тесты и статическая сборка отправлены в [SavDen/StudioOchenConstruct](https://github.com/SavDen/StudioOchenConstruct), ветка main. Название проекта — studio-ochen-construct. Публикация Pages и собственный домен ещё не подтверждены.
+Исходники, тесты и статическая сборка отправлены в [SavDen/StudioOchenConstruct](https://github.com/SavDen/StudioOchenConstruct), ветка main. Название проекта — studio-ochen-construct. [Сайт опубликован на GitHub Pages](https://savden.github.io/StudioOchenConstruct/) и проверен с реальным запросом Gemini. Собственный домен не подключён.
 
 ## Состав публикации
 
@@ -27,7 +27,7 @@ npm run preview:pages
 
 ## Подключить GitHub
 
-Репозиторий SavDen/StudioOchenConstruct подключён как origin по SSH; main отправлена на GitHub. В Settings → Pages выберите GitHub Actions. Workflow pages.yml выполняет тесты, проверку секретов, сборку и проверку ссылок; deploy публикует только готовый статический артефакт. Pull request запускает проверки без публикации. Доступен ручной запуск через Actions.
+Репозиторий SavDen/StudioOchenConstruct подключён как origin по HTTPS; main отправлена на GitHub. В Settings → Pages выберите GitHub Actions. Workflow pages.yml выполняет тесты, проверку секретов, сборку и проверку ссылок; deploy публикует только готовый статический артефакт. Pull request запускает проверки без публикации. Доступен ручной запуск через Actions.
 
 Использованы официальные configure-pages, upload-pages-artifact и deploy-pages: [документация GitHub](https://docs.github.com/en/pages/getting-started-with-github-pages/using-custom-workflows-with-github-pages). На бесплатном плане Pages доступен для публичных репозиториев; приватные зависят от плана аккаунта.
 
@@ -39,4 +39,4 @@ Pages размещает статические файлы и не запуск�
 
 Gateway размещён отдельным контейнером studio-ochen-construct на сервере прокси. Публичный адрес — https://gemini-179-255-187-165.sslip.io/studio-api, допустимый origin — https://savden.github.io. Локальный режим по умолчанию сохраняет прежнюю проверку localhost. Публичный режим включается только явными серверными настройками и ограничен CORS, числом параллельных запросов и квотами. CORS не заменяет авторизацию произвольных HTTP-клиентов. Подробности размещения и отката — в [deployment/README.md](../deployment/README.md). Токен прокси в сайт и Git не включён.
 
-Пользовательская палитра и запись демонстрации остаются отдельными пунктами задания. Код отправлен в GitHub; успешная публикация сайта проверяется отдельно.
+Пользовательская палитра и запись демонстрации остаются отдельными пунктами задания. Код отправлен в GitHub; build и deploy прошли успешно. Публичный сайт проверен в браузере: реальная генерация Gemini, три формата и переключение вариантов.

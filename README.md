@@ -1,5 +1,7 @@
 # studio-ochen-construct
 
+[Открыть конструктор](https://savden.github.io/StudioOchenConstruct/) · [Веб-отчёт](https://savden.github.io/StudioOchenConstruct/reviews/metaphors-2026-11-04/) · [Последние проверки](https://savden.github.io/StudioOchenConstruct/reviews/metaphors-refined-2026-11-04/)
+
 Локальный редактор собирает иллюстрации из предоставленных векторных предметов. Gemini выбирает смысловые группы, три положения и окружение; приложение размещает исходные SVG и сохраняет редактируемый вектор.
 
 Десять предметов в авторских S/L, три формата холста, три варианта композиции, слои, ручное редактирование и экспорт SVG/JSON. Контуры и масштаб исходников сохраняются.
@@ -25,7 +27,7 @@ npm run preview:pages
 
 Предпросмотр: http://localhost:8001/. Сборка `_site` содержит редактор и все три галереи (234 SVG). Подбор «По словам», слои, импорт JSON и экспорт работают в браузере. Gemini подключается к отдельному HTTPS gateway, адрес которого задан в deployment/pages.json; токены остаются на сервере. Сохранённые результаты доступны из меню «Проект».
 
-Workflow `.github/workflows/pages.yml` выполняет проверки и публикует `_site` при push в main. В GitHub нужно выбрать Settings → Pages → Source: GitHub Actions. [Порядок публикации и подключение своего домена](docs/pages-delivery.md). [Репозиторий на GitHub](https://github.com/SavDen/StudioOchenConstruct). Адрес Pages добавим после подтверждённой публикации.
+Workflow `.github/workflows/pages.yml` выполняет проверки и публикует `_site` при push в main. В GitHub нужно выбрать Settings → Pages → Source: GitHub Actions. [Порядок публикации и подключение своего домена](docs/pages-delivery.md). [Репозиторий на GitHub](https://github.com/SavDen/StudioOchenConstruct). [Опубликованный сайт](https://savden.github.io/StudioOchenConstruct/) проверен с реальным запросом Gemini.
 
 ## Проверка перед отправкой
 
