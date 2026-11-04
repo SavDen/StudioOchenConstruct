@@ -276,7 +276,159 @@
         "#FFFFFF"
       ],
       "customPalette": false,
-      "displayNote": "Свежий ответ Gemini: состав, связи и размещение. Движок проверил допустимые опоры и пересечения."
+      "displayNote": "Свежий ответ Gemini: состав, связи и размещение. Движок проверил допустимые опоры и пересечения.",
+      "previewOutputs": [
+        {
+          "format": "square",
+          "variant": 1,
+          "file": "svg/01-square-v1.svg",
+          "principle": "Связная центральная группа книги и ручки с фоновой папки слева",
+          "executionNotes": [],
+          "visibility": [
+            {
+              "assetId": "folder",
+              "role": "background",
+              "fraction": 0.03608660785886127
+            },
+            {
+              "assetId": "book",
+              "role": "main",
+              "fraction": 1
+            },
+            {
+              "assetId": "pen",
+              "role": "main",
+              "fraction": 1
+            }
+          ],
+          "size": "S"
+        },
+        {
+          "format": "square",
+          "variant": 1,
+          "file": "svg/01-square-L.svg",
+          "principle": "Связная центральная группа книги и ручки с фоновой папки слева",
+          "executionNotes": [],
+          "visibility": [
+            {
+              "assetId": "folder",
+              "role": "background",
+              "fraction": 0.03608660785886127
+            },
+            {
+              "assetId": "book",
+              "role": "main",
+              "fraction": 1
+            },
+            {
+              "assetId": "pen",
+              "role": "main",
+              "fraction": 1
+            }
+          ],
+          "size": "L"
+        },
+        {
+          "format": "landscape",
+          "variant": 1,
+          "file": "svg/01-landscape-v1.svg",
+          "principle": "Горизонтальное размещение с папки слева и группой книги справа",
+          "executionNotes": [],
+          "visibility": [
+            {
+              "assetId": "folder",
+              "role": "background",
+              "fraction": 0.4667201283079391
+            },
+            {
+              "assetId": "book",
+              "role": "main",
+              "fraction": 1
+            },
+            {
+              "assetId": "pen",
+              "role": "main",
+              "fraction": 1
+            }
+          ],
+          "size": "S"
+        },
+        {
+          "format": "landscape",
+          "variant": 1,
+          "file": "svg/01-landscape-L.svg",
+          "principle": "Горизонтальное размещение с папки слева и группой книги справа",
+          "executionNotes": [],
+          "visibility": [
+            {
+              "assetId": "folder",
+              "role": "background",
+              "fraction": 0.4667201283079391
+            },
+            {
+              "assetId": "book",
+              "role": "main",
+              "fraction": 1
+            },
+            {
+              "assetId": "pen",
+              "role": "main",
+              "fraction": 1
+            }
+          ],
+          "size": "L"
+        },
+        {
+          "format": "portrait",
+          "variant": 1,
+          "file": "svg/01-portrait-v1.svg",
+          "principle": "Вертикальная компоновка с папки внизу и книгой в центре",
+          "executionNotes": [],
+          "visibility": [
+            {
+              "assetId": "folder",
+              "role": "background",
+              "fraction": 1
+            },
+            {
+              "assetId": "book",
+              "role": "main",
+              "fraction": 1
+            },
+            {
+              "assetId": "pen",
+              "role": "main",
+              "fraction": 1
+            }
+          ],
+          "size": "S"
+        },
+        {
+          "format": "portrait",
+          "variant": 1,
+          "file": "svg/01-portrait-L.svg",
+          "principle": "Вертикальная компоновка с папки внизу и книгой в центре",
+          "executionNotes": [],
+          "visibility": [
+            {
+              "assetId": "folder",
+              "role": "background",
+              "fraction": 1
+            },
+            {
+              "assetId": "book",
+              "role": "main",
+              "fraction": 1
+            },
+            {
+              "assetId": "pen",
+              "role": "main",
+              "fraction": 1
+            }
+          ],
+          "size": "L"
+        }
+      ]
     },
     {
       "id": "02",
@@ -494,7 +646,129 @@
         "#FFFFFF"
       ],
       "customPalette": false,
-      "displayNote": "Свежий ответ Gemini: состав, связи и размещение. Движок проверил допустимые опоры и пересечения."
+      "displayNote": "Свежий ответ Gemini: состав, связи и размещение. Движок проверил допустимые опоры и пересечения.",
+      "previewOutputs": [
+        {
+          "format": "square",
+          "variant": 1,
+          "file": "svg/02-square-v1.svg",
+          "principle": "Центральное размещение наушников с компактным дополнением кошелька справа внизу",
+          "executionNotes": [],
+          "visibility": [
+            {
+              "assetId": "wallet",
+              "role": "background",
+              "fraction": 0.7624918883841661
+            },
+            {
+              "assetId": "headphones",
+              "role": "main",
+              "fraction": 1
+            }
+          ],
+          "size": "S"
+        },
+        {
+          "format": "square",
+          "variant": 1,
+          "file": "svg/02-square-L.svg",
+          "principle": "Центральное размещение наушников с компактным дополнением кошелька справа внизу",
+          "executionNotes": [],
+          "visibility": [
+            {
+              "assetId": "wallet",
+              "role": "background",
+              "fraction": 0.7624918883841661
+            },
+            {
+              "assetId": "headphones",
+              "role": "main",
+              "fraction": 1
+            }
+          ],
+          "size": "L"
+        },
+        {
+          "format": "landscape",
+          "variant": 1,
+          "file": "svg/02-landscape-v1.svg",
+          "principle": "Горизонтальный баланс с акцентом наушников по центру и фоном сбоку",
+          "executionNotes": [],
+          "visibility": [
+            {
+              "assetId": "wallet",
+              "role": "background",
+              "fraction": 1
+            },
+            {
+              "assetId": "headphones",
+              "role": "main",
+              "fraction": 1
+            }
+          ],
+          "size": "S"
+        },
+        {
+          "format": "landscape",
+          "variant": 1,
+          "file": "svg/02-landscape-L.svg",
+          "principle": "Горизонтальный баланс с акцентом наушников по центру и фоном сбоку",
+          "executionNotes": [],
+          "visibility": [
+            {
+              "assetId": "wallet",
+              "role": "background",
+              "fraction": 1
+            },
+            {
+              "assetId": "headphones",
+              "role": "main",
+              "fraction": 1
+            }
+          ],
+          "size": "L"
+        },
+        {
+          "format": "portrait",
+          "variant": 1,
+          "file": "svg/02-portrait-v1.svg",
+          "principle": "Вертикальная компоновка с акцентом в верхней части кадра",
+          "executionNotes": [],
+          "visibility": [
+            {
+              "assetId": "wallet",
+              "role": "background",
+              "fraction": 1
+            },
+            {
+              "assetId": "headphones",
+              "role": "main",
+              "fraction": 1
+            }
+          ],
+          "size": "S"
+        },
+        {
+          "format": "portrait",
+          "variant": 1,
+          "file": "svg/02-portrait-L.svg",
+          "principle": "Вертикальная компоновка с акцентом в верхней части кадра",
+          "executionNotes": [],
+          "visibility": [
+            {
+              "assetId": "wallet",
+              "role": "background",
+              "fraction": 1
+            },
+            {
+              "assetId": "headphones",
+              "role": "main",
+              "fraction": 1
+            }
+          ],
+          "size": "L"
+        }
+      ]
     },
     {
       "id": "03",
@@ -763,7 +1037,159 @@
         "#FFFDF6"
       ],
       "customPalette": true,
-      "displayNote": "После генерации выбран набор L и загружена своя палитра. Расстановка выполнена движком; исходный масштаб SVG — 1:1."
+      "displayNote": "После генерации выбран набор L и загружена своя палитра. Расстановка выполнена движком; исходный масштаб SVG — 1:1.",
+      "previewOutputs": [
+        {
+          "format": "square",
+          "variant": 1,
+          "file": "svg/03-square-S.svg",
+          "principle": "Центральная сбалансированная группа с монетой рядом с кошельком и фоновой папкой.",
+          "executionNotes": [],
+          "visibility": [
+            {
+              "assetId": "folder",
+              "role": "background",
+              "fraction": 0.3905372894947875
+            },
+            {
+              "assetId": "wallet",
+              "role": "main",
+              "fraction": 1
+            },
+            {
+              "assetId": "coin",
+              "role": "main",
+              "fraction": 1
+            }
+          ],
+          "size": "S"
+        },
+        {
+          "format": "square",
+          "variant": 1,
+          "file": "svg/03-square-v1.svg",
+          "principle": "Центральная сбалансированная группа с монетой рядом с кошельком и фоновой папкой.",
+          "executionNotes": [],
+          "visibility": [
+            {
+              "assetId": "folder",
+              "role": "background",
+              "fraction": 0.3905372894947875
+            },
+            {
+              "assetId": "wallet",
+              "role": "main",
+              "fraction": 1
+            },
+            {
+              "assetId": "coin",
+              "role": "main",
+              "fraction": 1
+            }
+          ],
+          "size": "L"
+        },
+        {
+          "format": "landscape",
+          "variant": 1,
+          "file": "svg/03-landscape-S.svg",
+          "principle": "Горизонтальное распределение с акцентом на кошелёк и монету по центру.",
+          "executionNotes": [],
+          "visibility": [
+            {
+              "assetId": "folder",
+              "role": "background",
+              "fraction": 0.789093825180433
+            },
+            {
+              "assetId": "wallet",
+              "role": "main",
+              "fraction": 1
+            },
+            {
+              "assetId": "coin",
+              "role": "main",
+              "fraction": 1
+            }
+          ],
+          "size": "S"
+        },
+        {
+          "format": "landscape",
+          "variant": 1,
+          "file": "svg/03-landscape-v1.svg",
+          "principle": "Горизонтальное распределение с акцентом на кошелёк и монету по центру.",
+          "executionNotes": [],
+          "visibility": [
+            {
+              "assetId": "folder",
+              "role": "background",
+              "fraction": 0.789093825180433
+            },
+            {
+              "assetId": "wallet",
+              "role": "main",
+              "fraction": 1
+            },
+            {
+              "assetId": "coin",
+              "role": "main",
+              "fraction": 1
+            }
+          ],
+          "size": "L"
+        },
+        {
+          "format": "portrait",
+          "variant": 1,
+          "file": "svg/03-portrait-S.svg",
+          "principle": "Вертикальная композиция с монетой над кошельком.",
+          "executionNotes": [],
+          "visibility": [
+            {
+              "assetId": "folder",
+              "role": "background",
+              "fraction": 1
+            },
+            {
+              "assetId": "wallet",
+              "role": "main",
+              "fraction": 1
+            },
+            {
+              "assetId": "coin",
+              "role": "main",
+              "fraction": 1
+            }
+          ],
+          "size": "S"
+        },
+        {
+          "format": "portrait",
+          "variant": 1,
+          "file": "svg/03-portrait-v1.svg",
+          "principle": "Вертикальная композиция с монетой над кошельком.",
+          "executionNotes": [],
+          "visibility": [
+            {
+              "assetId": "folder",
+              "role": "background",
+              "fraction": 1
+            },
+            {
+              "assetId": "wallet",
+              "role": "main",
+              "fraction": 1
+            },
+            {
+              "assetId": "coin",
+              "role": "main",
+              "fraction": 1
+            }
+          ],
+          "size": "L"
+        }
+      ]
     }
   ],
   "promptSha256": "f371d17b63a568e912b9b64e0b69c992c0dba8229963a176c1f0a007c34eb0e3",
