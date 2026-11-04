@@ -1,7 +1,7 @@
 <!doctype html>
 <html lang="ru"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
 <meta name="theme-color" content="#f5f6f2"><meta name="description" content="Собирайте иллюстрации из готовых векторных предметов: ключевые слова, раскладки, исходные палитры и экспорт SVG.">
-<title>studio-ochen-construct — конструктор SVG-сцен</title><link rel="icon" href="icon.svg" type="image/svg+xml"><link rel="stylesheet" href="styles.css?v=21">
+<title>studio-ochen-construct — конструктор SVG-сцен</title><link rel="icon" href="icon.svg" type="image/svg+xml"><link rel="stylesheet" href="styles.css?v=22">
 </head><body>
 <header class="app-header">
  <a class="brand" href="./" aria-label="Конструктор — иллюстрации из SVG"><span class="brand-mark" aria-hidden="true"><i></i><i></i><i></i><i></i></span><span>Конструктор<span class="brand-subtitle">Иллюстрации из готовых SVG</span></span></a>
@@ -48,7 +48,11 @@
  <div class="settings-body">
  <div id="panel-scene" class="settings-page" role="tabpanel" aria-labelledby="tab-scene" tabindex="0">
  <section class="palette-panel"><h2>Цветовая схема</h2><div class="palette-options" id="palette-options"></div><p class="palette-note">Три исходные схемы из макетов</p>
-
+ <div class="palette-actions"><button type="button" class="button quiet" id="import-palette">Загрузить палитру</button><a href="palette-template.json" download="palette-template.json">Шаблон JSON</a></div>
+ <input id="palette-file" type="file" accept=".json,.txt,.css,.svg,.gpl" hidden>
+ <p class="palette-help">JSON, HEX/TXT, CSS, SVG или GPL. Цвета применяются к предметам и фону.</p>
+ <p id="palette-status" class="palette-status" role="status" aria-live="polite"></p>
+ <details id="custom-palette-controls" class="custom-palette-controls" hidden><summary>Настроить цвета</summary><div id="custom-palette-colors"></div><button type="button" class="text-button" id="save-palette">Скачать палитру</button><p class="palette-help">Своя схема сохраняется в проекте. У каждого варианта — своя палитра.</p></details>
  </section>
 
  <section class="canvas-background" aria-labelledby="backdrop-heading"><h2 id="backdrop-heading">Фон</h2>
@@ -92,5 +96,5 @@
 <div class="toast" id="toast" role="status" aria-live="polite" hidden></div>
 <input type="file" id="project-file" accept=".json,application/json" hidden>
 <noscript><p class="noscript">Для работы конструктора включите JavaScript в браузере.</p></noscript>
-<script src="data.js"></script><script src="interaction-registry.js?v=10"></script><script src="geometry.js?v=10"></script><script src="composition-rules.js?v=10"></script><script src="physical-layout.js?v=26"></script><script src="staging-plan.js?v=27"></script><script src="reference-layout.js?v=23"></script><script src="engine.js?v=23"></script><script src="composition-view.js?v=25"></script><script src="ai-plan.js?v=26"></script><script src="deployment.js?v=2"></script><script src="api-client.js?v=1"></script><script src="app.js?v=27"></script>
+<script src="data.js"></script><script src="interaction-registry.js?v=10"></script><script src="geometry.js?v=10"></script><script src="composition-rules.js?v=10"></script><script src="physical-layout.js?v=26"></script><script src="staging-plan.js?v=27"></script><script src="reference-layout.js?v=23"></script><script src="palette.js?v=1"></script><script src="engine.js?v=24"></script><script src="composition-view.js?v=25"></script><script src="ai-plan.js?v=26"></script><script src="deployment.js?v=2"></script><script src="api-client.js?v=1"></script><script src="app.js?v=28"></script>
 </body></html>

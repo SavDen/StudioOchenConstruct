@@ -33,8 +33,8 @@ for html in OUT.rglob("*.html"):
             errors.append(f"Broken link: {html.relative_to(OUT)} → {value}")
         checked += 1
 svg_count = 0
-for name in GALLERIES:
-    base = OUT / "reviews" / name
+for name in GALLERIES + ["examples"]:
+    base = OUT / "examples" if name == "examples" else OUT / "reviews" / name
     manifest = json.loads((base / "manifest.json").read_text())
     for case in manifest["cases"]:
         for value in ([case["project"]] if case.get("project") else []) + [o["file"] for o in case["outputs"]]:

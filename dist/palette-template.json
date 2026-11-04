@@ -1,0 +1,13 @@
+{
+  "name": "Тёплая графика",
+  "slots": {
+    "background.base": "#F2EBE0",
+    "object.primary": "#A8C5AE",
+    "object.secondary": "#DF9B82",
+    "object.tertiary": "#E8C98D",
+    "background.mid": "#D8CBB9",
+    "background.dark": "#9B826A",
+    "ink": "#242820",
+    "paper": "#FFFDF6"
+  }
+}

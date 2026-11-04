@@ -1,0 +1,771 @@
+{
+  "version": 1,
+  "size": "S",
+  "formats": [
+    "square",
+    "landscape",
+    "portrait"
+  ],
+  "variants": 3,
+  "generatedAt": "2026-11-04T10:44:13.019Z",
+  "cases": [
+    {
+      "id": "01",
+      "query": "Любит писать",
+      "status": "ready",
+      "model": "gemini-3.5-flash-lite",
+      "vision": true,
+      "explanation": [
+        "Главная группа объединяет раскрытую книгу как основу для записей и ручку как главный инструмент письма.",
+        "Папка выбрана в качестве фонового компаньона для создания аккуратного делового контекста и порядка на рабочем столе.",
+        "Композиция выстроена компактно с сохранением естественных опор и читаемости предметов."
+      ],
+      "limitations": [],
+      "cast": [
+        {
+          "assetId": "book",
+          "role": "main",
+          "zone": "auto",
+          "crop": "whole"
+        },
+        {
+          "assetId": "pen",
+          "role": "main",
+          "zone": "auto",
+          "crop": "whole"
+        },
+        {
+          "assetId": "folder",
+          "role": "background",
+          "zone": "bottom-left",
+          "crop": "fragment"
+        }
+      ],
+      "outputs": [
+        {
+          "format": "square",
+          "variant": 1,
+          "file": "svg/01-square-v1.svg",
+          "principle": "Связная центральная группа книги и ручки с фоновой папки слева",
+          "executionNotes": [],
+          "visibility": [
+            {
+              "assetId": "folder",
+              "role": "background",
+              "fraction": 0.03608660785886127
+            },
+            {
+              "assetId": "book",
+              "role": "main",
+              "fraction": 1
+            },
+            {
+              "assetId": "pen",
+              "role": "main",
+              "fraction": 1
+            }
+          ]
+        },
+        {
+          "format": "square",
+          "variant": 2,
+          "file": "svg/01-square-v2.svg",
+          "principle": "Смещение акцентов с диагональным расположением ручки на книге",
+          "executionNotes": [],
+          "visibility": [
+            {
+              "assetId": "folder",
+              "role": "background",
+              "fraction": 0.7698476343223737
+            },
+            {
+              "assetId": "book",
+              "role": "main",
+              "fraction": 1
+            },
+            {
+              "assetId": "pen",
+              "role": "main",
+              "fraction": 1
+            }
+          ]
+        },
+        {
+          "format": "square",
+          "variant": 3,
+          "file": "svg/01-square-v3.svg",
+          "principle": "Плотная композиция с упором на центральное взаимодействие",
+          "executionNotes": [
+            "Положение «Папка» уточнено по границам кадра и реестру пересечений."
+          ],
+          "visibility": [
+            {
+              "assetId": "folder",
+              "role": "background",
+              "fraction": 0.07056936647955092
+            },
+            {
+              "assetId": "book",
+              "role": "main",
+              "fraction": 1
+            },
+            {
+              "assetId": "pen",
+              "role": "main",
+              "fraction": 1
+            }
+          ]
+        },
+        {
+          "format": "landscape",
+          "variant": 1,
+          "file": "svg/01-landscape-v1.svg",
+          "principle": "Горизонтальное размещение с папки слева и группой книги справа",
+          "executionNotes": [],
+          "visibility": [
+            {
+              "assetId": "folder",
+              "role": "background",
+              "fraction": 0.4667201283079391
+            },
+            {
+              "assetId": "book",
+              "role": "main",
+              "fraction": 1
+            },
+            {
+              "assetId": "pen",
+              "role": "main",
+              "fraction": 1
+            }
+          ]
+        },
+        {
+          "format": "landscape",
+          "variant": 2,
+          "file": "svg/01-landscape-v2.svg",
+          "principle": "Смещение элементов по горизонтали для широкоформатного кадра",
+          "executionNotes": [],
+          "visibility": [
+            {
+              "assetId": "folder",
+              "role": "background",
+              "fraction": 0.3656776263031275
+            },
+            {
+              "assetId": "book",
+              "role": "main",
+              "fraction": 1
+            },
+            {
+              "assetId": "pen",
+              "role": "main",
+              "fraction": 1
+            }
+          ]
+        },
+        {
+          "format": "landscape",
+          "variant": 3,
+          "file": "svg/01-landscape-v3.svg",
+          "principle": "Сбалансированная сцена с акцентом в правой части",
+          "executionNotes": [],
+          "visibility": [
+            {
+              "assetId": "folder",
+              "role": "background",
+              "fraction": 0.49398556535685645
+            },
+            {
+              "assetId": "book",
+              "role": "main",
+              "fraction": 1
+            },
+            {
+              "assetId": "pen",
+              "role": "main",
+              "fraction": 1
+            }
+          ]
+        },
+        {
+          "format": "portrait",
+          "variant": 1,
+          "file": "svg/01-portrait-v1.svg",
+          "principle": "Вертикальная компоновка с папки внизу и книгой в центре",
+          "executionNotes": [],
+          "visibility": [
+            {
+              "assetId": "folder",
+              "role": "background",
+              "fraction": 1
+            },
+            {
+              "assetId": "book",
+              "role": "main",
+              "fraction": 1
+            },
+            {
+              "assetId": "pen",
+              "role": "main",
+              "fraction": 1
+            }
+          ]
+        },
+        {
+          "format": "portrait",
+          "variant": 2,
+          "file": "svg/01-portrait-v2.svg",
+          "principle": "Вытянутая вертикальная структура с иным углом ручки",
+          "executionNotes": [],
+          "visibility": [
+            {
+              "assetId": "folder",
+              "role": "background",
+              "fraction": 0.9847634322373697
+            },
+            {
+              "assetId": "book",
+              "role": "main",
+              "fraction": 1
+            },
+            {
+              "assetId": "pen",
+              "role": "main",
+              "fraction": 1
+            }
+          ]
+        },
+        {
+          "format": "portrait",
+          "variant": 3,
+          "file": "svg/01-portrait-v3.svg",
+          "principle": "Компактная вертикальная группа с плотным прилеганием",
+          "executionNotes": [],
+          "visibility": [
+            {
+              "assetId": "folder",
+              "role": "background",
+              "fraction": 1
+            },
+            {
+              "assetId": "book",
+              "role": "main",
+              "fraction": 1
+            },
+            {
+              "assetId": "pen",
+              "role": "main",
+              "fraction": 1
+            }
+          ]
+        }
+      ],
+      "project": "projects/01.json",
+      "palette": "peach",
+      "nativeSize": "S",
+      "paletteName": "Персиковая",
+      "paletteColors": [
+        "#FDD7B9",
+        "#FAC896",
+        "#D27532",
+        "#F9ECB0",
+        "#80DADA",
+        "#BEEBEB",
+        "#181817",
+        "#FFFFFF"
+      ],
+      "customPalette": false,
+      "displayNote": "Свежий ответ Gemini: состав, связи и размещение. Движок проверил допустимые опоры и пересечения."
+    },
+    {
+      "id": "02",
+      "query": "Личное пространство",
+      "status": "ready",
+      "model": "gemini-3.5-flash-lite",
+      "vision": true,
+      "explanation": [
+        "Наушники как главный предмет передают идею личного пространства, уединения и погружения в свой ритм.",
+        "Кошелёк выбран в качестве фонового компаньона, так как символизирует личные ценности, сохранность и принадлежность внутреннему миру.",
+        "Композиция выстроена компактно, объединяя смысловые элементы в единую сбалансированную группу."
+      ],
+      "limitations": [
+        "Используются только стандартные элементы из каталога без изменения масштаба."
+      ],
+      "cast": [
+        {
+          "assetId": "headphones",
+          "role": "main",
+          "zone": "auto",
+          "crop": "whole"
+        },
+        {
+          "assetId": "wallet",
+          "role": "background",
+          "zone": "bottom-right",
+          "crop": "whole"
+        }
+      ],
+      "outputs": [
+        {
+          "format": "square",
+          "variant": 1,
+          "file": "svg/02-square-v1.svg",
+          "principle": "Центральное размещение наушников с компактным дополнением кошелька справа внизу",
+          "executionNotes": [],
+          "visibility": [
+            {
+              "assetId": "wallet",
+              "role": "background",
+              "fraction": 0.7624918883841661
+            },
+            {
+              "assetId": "headphones",
+              "role": "main",
+              "fraction": 1
+            }
+          ]
+        },
+        {
+          "format": "square",
+          "variant": 2,
+          "file": "svg/02-square-v2.svg",
+          "principle": "Смещение главной группы чуть выше с гармоничным расположением фона",
+          "executionNotes": [],
+          "visibility": [
+            {
+              "assetId": "wallet",
+              "role": "background",
+              "fraction": 0.8020765736534717
+            },
+            {
+              "assetId": "headphones",
+              "role": "main",
+              "fraction": 1
+            }
+          ]
+        },
+        {
+          "format": "square",
+          "variant": 3,
+          "file": "svg/02-square-v3.svg",
+          "principle": "Диагональное построение для создания динамики в квадратном формате",
+          "executionNotes": [],
+          "visibility": [
+            {
+              "assetId": "wallet",
+              "role": "background",
+              "fraction": 0.9312134977287476
+            },
+            {
+              "assetId": "headphones",
+              "role": "main",
+              "fraction": 1
+            }
+          ]
+        },
+        {
+          "format": "landscape",
+          "variant": 1,
+          "file": "svg/02-landscape-v1.svg",
+          "principle": "Горизонтальный баланс с акцентом наушников по центру и фоном сбоку",
+          "executionNotes": [],
+          "visibility": [
+            {
+              "assetId": "wallet",
+              "role": "background",
+              "fraction": 1
+            },
+            {
+              "assetId": "headphones",
+              "role": "main",
+              "fraction": 1
+            }
+          ]
+        },
+        {
+          "format": "landscape",
+          "variant": 2,
+          "file": "svg/02-landscape-v2.svg",
+          "principle": "Сдвиг композиции влево с сохранением читаемости объектов",
+          "executionNotes": [],
+          "visibility": [
+            {
+              "assetId": "wallet",
+              "role": "background",
+              "fraction": 1
+            },
+            {
+              "assetId": "headphones",
+              "role": "main",
+              "fraction": 1
+            }
+          ]
+        },
+        {
+          "format": "landscape",
+          "variant": 3,
+          "file": "svg/02-landscape-v3.svg",
+          "principle": "Просторное горизонтальное размещение с мягким диагональным акцентом",
+          "executionNotes": [],
+          "visibility": [
+            {
+              "assetId": "wallet",
+              "role": "background",
+              "fraction": 0.9967553536664504
+            },
+            {
+              "assetId": "headphones",
+              "role": "main",
+              "fraction": 1
+            }
+          ]
+        },
+        {
+          "format": "portrait",
+          "variant": 1,
+          "file": "svg/02-portrait-v1.svg",
+          "principle": "Вертикальная компоновка с акцентом в верхней части кадра",
+          "executionNotes": [],
+          "visibility": [
+            {
+              "assetId": "wallet",
+              "role": "background",
+              "fraction": 1
+            },
+            {
+              "assetId": "headphones",
+              "role": "main",
+              "fraction": 1
+            }
+          ]
+        },
+        {
+          "format": "portrait",
+          "variant": 2,
+          "file": "svg/02-portrait-v2.svg",
+          "principle": "Сбалансированное вертикальное размещение объектов по центру",
+          "executionNotes": [],
+          "visibility": [
+            {
+              "assetId": "wallet",
+              "role": "background",
+              "fraction": 1
+            },
+            {
+              "assetId": "headphones",
+              "role": "main",
+              "fraction": 1
+            }
+          ]
+        },
+        {
+          "format": "portrait",
+          "variant": 3,
+          "file": "svg/02-portrait-v3.svg",
+          "principle": "Плотная вертикальная связка для вертикального формата",
+          "executionNotes": [],
+          "visibility": [
+            {
+              "assetId": "wallet",
+              "role": "background",
+              "fraction": 1
+            },
+            {
+              "assetId": "headphones",
+              "role": "main",
+              "fraction": 1
+            }
+          ]
+        }
+      ],
+      "project": "projects/02.json",
+      "palette": "aqua",
+      "nativeSize": "S",
+      "paletteName": "Бирюзовая",
+      "paletteColors": [
+        "#BEEBEB",
+        "#80DADA",
+        "#5ABEBE",
+        "#FFD4F2",
+        "#6D7BFC",
+        "#B6C6FE",
+        "#181817",
+        "#FFFFFF"
+      ],
+      "customPalette": false,
+      "displayNote": "Свежий ответ Gemini: состав, связи и размещение. Движок проверил допустимые опоры и пересечения."
+    },
+    {
+      "id": "03",
+      "query": "Сохранить самое ценное: кошелёк и монета",
+      "status": "ready",
+      "model": "gemini-3.5-flash-lite",
+      "vision": true,
+      "explanation": [
+        "Главная группа объединяет кошелёк и монету, раскрывая тему ценности, накопления и безопасности.",
+        "В качестве фонового компаньона добавлена папка для создания упорядоченного контекста.",
+        "Компактная компоновка собирает элементы в единую связанную композицию."
+      ],
+      "limitations": [],
+      "cast": [
+        {
+          "assetId": "wallet",
+          "role": "main",
+          "zone": "auto",
+          "crop": "whole"
+        },
+        {
+          "assetId": "coin",
+          "role": "main",
+          "zone": "auto",
+          "crop": "whole"
+        },
+        {
+          "assetId": "folder",
+          "role": "background",
+          "zone": "bottom-left",
+          "crop": "fragment"
+        }
+      ],
+      "outputs": [
+        {
+          "format": "square",
+          "variant": 1,
+          "file": "svg/03-square-v1.svg",
+          "principle": "Центральная сбалансированная группа с монетой рядом с кошельком и фоновой папкой.",
+          "executionNotes": [],
+          "visibility": [
+            {
+              "assetId": "folder",
+              "role": "background",
+              "fraction": 0.3905372894947875
+            },
+            {
+              "assetId": "wallet",
+              "role": "main",
+              "fraction": 1
+            },
+            {
+              "assetId": "coin",
+              "role": "main",
+              "fraction": 1
+            }
+          ]
+        },
+        {
+          "format": "square",
+          "variant": 2,
+          "file": "svg/03-square-v2.svg",
+          "principle": "Смещение элементов по диагонали для создания динамики.",
+          "executionNotes": [],
+          "visibility": [
+            {
+              "assetId": "folder",
+              "role": "background",
+              "fraction": 0.4667201283079391
+            },
+            {
+              "assetId": "wallet",
+              "role": "main",
+              "fraction": 1
+            },
+            {
+              "assetId": "coin",
+              "role": "main",
+              "fraction": 1
+            }
+          ]
+        },
+        {
+          "format": "square",
+          "variant": 3,
+          "file": "svg/03-square-v3.svg",
+          "principle": "Компактное плотное размещение главной пары с подложкой из папки.",
+          "executionNotes": [],
+          "visibility": [
+            {
+              "assetId": "folder",
+              "role": "background",
+              "fraction": 0.9847634322373697
+            },
+            {
+              "assetId": "wallet",
+              "role": "main",
+              "fraction": 1
+            },
+            {
+              "assetId": "coin",
+              "role": "main",
+              "fraction": 1
+            }
+          ]
+        },
+        {
+          "format": "landscape",
+          "variant": 1,
+          "file": "svg/03-landscape-v1.svg",
+          "principle": "Горизонтальное распределение с акцентом на кошелёк и монету по центру.",
+          "executionNotes": [],
+          "visibility": [
+            {
+              "assetId": "folder",
+              "role": "background",
+              "fraction": 0.789093825180433
+            },
+            {
+              "assetId": "wallet",
+              "role": "main",
+              "fraction": 1
+            },
+            {
+              "assetId": "coin",
+              "role": "main",
+              "fraction": 1
+            }
+          ]
+        },
+        {
+          "format": "landscape",
+          "variant": 2,
+          "file": "svg/03-landscape-v2.svg",
+          "principle": "Смещение группы влево с диагональным расположением монеты.",
+          "executionNotes": [],
+          "visibility": [
+            {
+              "assetId": "folder",
+              "role": "background",
+              "fraction": 0.5613472333600642
+            },
+            {
+              "assetId": "wallet",
+              "role": "main",
+              "fraction": 1
+            },
+            {
+              "assetId": "coin",
+              "role": "main",
+              "fraction": 1
+            }
+          ]
+        },
+        {
+          "format": "landscape",
+          "variant": 3,
+          "file": "svg/03-landscape-v3.svg",
+          "principle": "Компактный горизонтальный ряд.",
+          "executionNotes": [],
+          "visibility": [
+            {
+              "assetId": "folder",
+              "role": "background",
+              "fraction": 0.45228548516439454
+            },
+            {
+              "assetId": "wallet",
+              "role": "main",
+              "fraction": 1
+            },
+            {
+              "assetId": "coin",
+              "role": "main",
+              "fraction": 1
+            }
+          ]
+        },
+        {
+          "format": "portrait",
+          "variant": 1,
+          "file": "svg/03-portrait-v1.svg",
+          "principle": "Вертикальная композиция с монетой над кошельком.",
+          "executionNotes": [],
+          "visibility": [
+            {
+              "assetId": "folder",
+              "role": "background",
+              "fraction": 1
+            },
+            {
+              "assetId": "wallet",
+              "role": "main",
+              "fraction": 1
+            },
+            {
+              "assetId": "coin",
+              "role": "main",
+              "fraction": 1
+            }
+          ]
+        },
+        {
+          "format": "portrait",
+          "variant": 2,
+          "file": "svg/03-portrait-v2.svg",
+          "principle": "Диагональное смещение элементов в вертикальном формате.",
+          "executionNotes": [
+            "Положение «Монета» уточнено по границам кадра и реестру пересечений."
+          ],
+          "visibility": [
+            {
+              "assetId": "folder",
+              "role": "background",
+              "fraction": 0.2606255012028869
+            },
+            {
+              "assetId": "wallet",
+              "role": "main",
+              "fraction": 1
+            },
+            {
+              "assetId": "coin",
+              "role": "main",
+              "fraction": 1
+            }
+          ]
+        },
+        {
+          "format": "portrait",
+          "variant": 3,
+          "file": "svg/03-portrait-v3.svg",
+          "principle": "Плотный вертикальный блок.",
+          "executionNotes": [],
+          "visibility": [
+            {
+              "assetId": "folder",
+              "role": "background",
+              "fraction": 1
+            },
+            {
+              "assetId": "wallet",
+              "role": "main",
+              "fraction": 1
+            },
+            {
+              "assetId": "coin",
+              "role": "main",
+              "fraction": 1
+            }
+          ]
+        }
+      ],
+      "project": "projects/03.json",
+      "palette": "lavender",
+      "nativeSize": "L",
+      "paletteName": "Тёплая графика",
+      "paletteColors": [
+        "#F2EBE0",
+        "#A8C5AE",
+        "#DF9B82",
+        "#E8C98D",
+        "#D8CBB9",
+        "#9B826A",
+        "#242820",
+        "#FFFDF6"
+      ],
+      "customPalette": true,
+      "displayNote": "После генерации выбран набор L и загружена своя палитра. Расстановка выполнена движком; исходный масштаб SVG — 1:1."
+    }
+  ],
+  "promptSha256": "f371d17b63a568e912b9b64e0b69c992c0dba8229963a176c1f0a007c34eb0e3",
+  "apiBase": "https://gemini-179-255-187-165.sslip.io/studio-api"
+}

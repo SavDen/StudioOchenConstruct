@@ -1,6 +1,7 @@
 /* The editor uses the exact prepared SVGs. All state is browser-local. */
 "use strict";
 const E=CompositionEngine,V=CompositionView,DATA=STUDIO_DATA;
+const PALETTE=CompositionPalette;
 const API=CompositionAPI.create(globalThis.STUDIO_DEPLOYMENT),STATIC_DEMO=API.mode==="static";
 const $=id=>document.getElementById(id);
 const SETTINGS_TABS=["scene","object"];
@@ -30,6 +31,8 @@ const STORAGE_KEY="svg-composition-studio-v1";
 const LAYOUT_STORAGE_KEY="svg-composition-layouts-v1";
 let scene,selected=null,past=[],future=[],variation=0,showGuide=true,drag=null,rotationSession=null,numericSession=null,toastTimer=null;
 let recognition=null;
+const CUSTOM_PALETTE_KEY="svg-composition-custom-palette-v1";let importedPalette=null;
+try{const saved=localStorage.getItem(CUSTOM_PALETTE_KEY);if(saved)importedPalette=PALETTE.normalize(JSON.parse(saved))}catch{}
 let composeMode=STATIC_DEMO?"keywords":"gemini",aiConnected=false,aiController=null,aiSequence=0;
 let variantMemory=null,environmentSession=null,migratedSizing=false,sceneRevision=0;
 let savedLayouts=Object.create(null);
@@ -110,11 +113,11 @@ function constrainEdit(before,next,uid){
  if(next.sizing!=="native"||!E.layoutIssues(next,DATA).length)return next;
  try{return E.REFERENCE.PHYSICS.constrain(next,DATA,E,{movable:uid?[...E.attachedGroup(before,DATA,uid)]:null})}catch(error){notify(error.message);return E.clone(before)}
 }
-function commit(next,{message=null,select=selected,history=true,memory=undefined,variants=undefined,collection=undefined,syncPlacement=false}={}){
+function commit(next,{message=null,select=selected,history=true,memory=undefined,variants=undefined,collection=undefined,syncPlacement=false,appearanceOnly=false}={}){
  flushEnvironmentEdit();flushNumericEdit();
  try{
   next=refreshCompositionCopy(E.validateScene(next,DATA));
-  if(next.sizing==="native"&&E.layoutIssues(next,DATA).length)next=E.REFERENCE.PHYSICS.constrain(next,DATA,E,{movable:select?[...E.attachedGroup(next,DATA,select)]:null});
+  if(!appearanceOnly&&next.sizing==="native"&&E.layoutIssues(next,DATA).length)next=E.REFERENCE.PHYSICS.constrain(next,DATA,E,{movable:select?[...E.attachedGroup(next,DATA,select)]:null});
   let nextMemory=collection?V.validateMemory(collection,DATA,E):variants?V.upgradeMemory(next,DATA,E,V.createMemory(next,DATA,E,variants)):memory;
   if(nextMemory===undefined)nextMemory=variantMemory?V.remember(variantMemory,next,DATA,E):null;
   if(syncPlacement&&nextMemory&&JSON.stringify(next.items)!==JSON.stringify(scene.items))nextMemory=V.syncPlacement(nextMemory,next,DATA,E);
@@ -210,12 +213,15 @@ function renderSceneInfo(){
 }
 function renderPalette(){
  applyTheme();
- $("palette-options").innerHTML=DATA.palettes.palettes.map(p=>'<button class="palette-option" data-palette="'+p.id+'" title="'+p.name+'" aria-label="'+p.name+'" aria-pressed="'+(p.id===scene.palette)+'"><span class="palette-swatch" style="background:linear-gradient(135deg,'+p.slots["background.base"]+' 0 50%,'+p.slots["object.secondary"]+' 50% 75%,'+p.slots["object.primary"]+' 75%)"></span></button>').join("");
- const current=DATA.palettes.palettes.find(p=>p.id===scene.palette);
- document.querySelector(".palette-note").textContent=current.name+" · из исходных макетов";
+ const custom=scene.customPalette||importedPalette,palettes=[...DATA.palettes.palettes,...(custom?[custom]:[])];
+ $("palette-options").innerHTML=palettes.map(p=>'<button class="palette-option" data-palette="'+p.id+'" title="'+E.escapeXml(p.name)+'" aria-label="'+E.escapeXml(p.name)+'" aria-pressed="'+(p.id===scene.palette)+'"><span class="palette-swatch" style="background:linear-gradient(135deg,'+p.slots["background.base"]+' 0 50%,'+p.slots["object.secondary"]+' 50% 75%,'+p.slots["object.primary"]+' 75%)"></span></button>').join("");
+ const current=E.paletteFor(scene,DATA);
+ document.querySelector(".palette-note").textContent=current.name+(scene.palette==="custom"?" · своя схема":" · из исходных макетов");
+ $("custom-palette-controls").hidden=scene.palette!=="custom";
+ if(scene.palette==="custom")$("custom-palette-colors").replaceChildren(...PALETTE.ROLES.map(([id,label])=>{const row=document.createElement('label'),input=document.createElement('input'),title=document.createElement('span'),value=document.createElement('span');row.className='palette-color-row';input.type='color';input.value=current.slots[id];input.dataset.colorSlot=id;input.setAttribute('aria-label',label);title.textContent=label;value.textContent=current.slots[id];value.className='palette-hex';row.append(input,title,value);return row}));
 }
 function applyTheme(){
- const p=E.paletteFor(scene,DATA),slots=p.slots,root=document.documentElement;
+ const p=scene.palette==="custom"?DATA.palettes.palettes.find(p=>p.id==="aqua"):E.paletteFor(scene,DATA),slots=p.slots,root=document.documentElement;
  const mix=(a,b,t)=>"#"+[0,2,4].map(i=>Math.round(parseInt(a.slice(i+1,i+3),16)*(1-t)+parseInt(b.slice(i+1,i+3),16)*t).toString(16).padStart(2,"0")).join("");
  const base=slots["background.base"],dark=slots["background.dark"],ink=slots.ink;
  const tokens={ink,muted:mix(ink,base,.32),surface:mix("#FFFFFF",base,.07),chrome:mix("#FFFFFF",base,.23),line:mix("#FFFFFF",base,.78),accent:slots["object.primary"],"accent-strong":ink,hover:mix("#FFFFFF",base,.45),focus:ink,workspace:mix("#FFFFFF",base,.43),toolbar:mix("#FFFFFF",base,.16),selected:mix("#FFFFFF",base,.7),"selected-line":dark,primary:dark,"primary-text":p.id==="lavender"?"#FFFFFF":ink,"brand-accent":slots["object.secondary"],"brand-base":base};
@@ -370,7 +376,21 @@ $("library-grid").addEventListener("click",e=>{
  else commit(next,{select:item.uid,message:"Предмет добавлен. Переместите его или нажмите «Пересобрать»."});
  activateSettings("object");
 });
-$("palette-options").addEventListener("click",e=>{const b=e.target.closest("[data-palette]");if(b&&b.dataset.palette!==scene.palette)commit({...scene,palette:b.dataset.palette})});
+function applyUserPalette(value){
+ const palette=PALETTE.normalize(value);importedPalette=palette;
+ try{localStorage.setItem(CUSTOM_PALETTE_KEY,JSON.stringify(palette))}catch{}
+ stopAI();commit(E.applyCustomPalette(scene,palette,DATA),{appearanceOnly:true,message:"Палитра применена к предметам и фону."});
+}
+$("palette-options").addEventListener("click",e=>{const b=e.target.closest("[data-palette]");if(!b||b.dataset.palette===scene.palette)return;if(b.dataset.palette==="custom")applyUserPalette(scene.customPalette||importedPalette);else commit({...scene,palette:b.dataset.palette,backgroundDesign:E.backdropDesignFor(scene)},{appearanceOnly:true})});
+$("import-palette").addEventListener("click",()=>$("palette-file").click());
+$("palette-file").addEventListener("change",async()=>{
+ const file=$("palette-file").files[0];if(!file)return;
+ try{if(file.size>PALETTE.MAX_BYTES)throw Error("Файл палитры должен быть меньше 128 КБ.");const palette=PALETTE.parse(await file.text(),file.name);stopAI();applyUserPalette(palette);$("palette-status").dataset.error="false";$("palette-status").textContent="Загружена «"+palette.name+"». Все цветовые роли можно настроить ниже."}
+ catch(error){$("palette-status").dataset.error="true";$("palette-status").textContent=error.message}
+ finally{$("palette-file").value=""}
+});
+$("custom-palette-colors").addEventListener("change",event=>{const id=event.target.dataset.colorSlot;if(!id)return;const current=E.paletteFor(scene,DATA);applyUserPalette({...current,slots:{...current.slots,[id]:event.target.value}})});
+$("save-palette").addEventListener("click",()=>download(JSON.stringify(E.paletteFor(scene,DATA),null,2),"application/json","palette.json"));
 $("size-control").addEventListener("click",e=>{
  const b=e.target.closest("[data-value]");if(!b||b.dataset.value===scene.size)return;
  try{commit(V.changeSize(scene,b.dataset.value,DATA,E),{message:"Набор "+b.dataset.value+". Геометрия главной группы проверена, SVG в масштабе 1:1."})}catch(error){notify(error.message)}

@@ -1,0 +1,364 @@
+{
+  "version": 1,
+  "status": "ready",
+  "title": "Любит писать",
+  "explanation": [
+    "Главная группа объединяет раскрытую книгу как основу для записей и ручку как главный инструмент письма.",
+    "Папка выбрана в качестве фонового компаньона для создания аккуратного делового контекста и порядка на рабочем столе.",
+    "Композиция выстроена компактно с сохранением естественных опор и читаемости предметов."
+  ],
+  "limitations": [],
+  "layout": "compact",
+  "focus": "book",
+  "items": [
+    {
+      "assetId": "book",
+      "role": "main",
+      "zone": "auto",
+      "crop": "whole"
+    },
+    {
+      "assetId": "pen",
+      "role": "main",
+      "zone": "auto",
+      "crop": "whole"
+    },
+    {
+      "assetId": "folder",
+      "role": "background",
+      "zone": "bottom-left",
+      "crop": "fragment"
+    }
+  ],
+  "staging": {
+    "square": [
+      {
+        "principle": "Связная центральная группа книги и ручки с фоновой папки слева",
+        "placements": [
+          {
+            "item": 0,
+            "target": -1,
+            "relation": "canvas",
+            "x": 0.5,
+            "y": 0.5,
+            "gap": 0,
+            "rotation": 0
+          },
+          {
+            "item": 1,
+            "target": 0,
+            "relation": "on",
+            "x": 0.61,
+            "y": 0.32,
+            "gap": 0,
+            "rotation": -65
+          },
+          {
+            "item": 2,
+            "target": 0,
+            "relation": "left",
+            "x": 0.25,
+            "y": 0.7,
+            "gap": 0.1,
+            "rotation": 0
+          }
+        ]
+      },
+      {
+        "principle": "Смещение акцентов с диагональным расположением ручки на книге",
+        "placements": [
+          {
+            "item": 0,
+            "target": -1,
+            "relation": "canvas",
+            "x": 0.52,
+            "y": 0.48,
+            "gap": 0,
+            "rotation": 0
+          },
+          {
+            "item": 1,
+            "target": 0,
+            "relation": "on",
+            "x": 0.28,
+            "y": 0.62,
+            "gap": 0,
+            "rotation": -65
+          },
+          {
+            "item": 2,
+            "target": 0,
+            "relation": "below",
+            "x": 0.45,
+            "y": 0.75,
+            "gap": 0.08,
+            "rotation": 0
+          }
+        ]
+      },
+      {
+        "principle": "Плотная композиция с упором на центральное взаимодействие",
+        "placements": [
+          {
+            "item": 0,
+            "target": -1,
+            "relation": "canvas",
+            "x": 0.48,
+            "y": 0.52,
+            "gap": 0,
+            "rotation": 0
+          },
+          {
+            "item": 1,
+            "target": 0,
+            "relation": "on",
+            "x": 0.58,
+            "y": 0.37,
+            "gap": 0,
+            "rotation": -65
+          },
+          {
+            "item": 2,
+            "target": 0,
+            "relation": "left",
+            "x": 0.2,
+            "y": 0.65,
+            "gap": 0.12,
+            "rotation": 0
+          }
+        ]
+      }
+    ],
+    "landscape": [
+      {
+        "principle": "Горизонтальное размещение с папки слева и группой книги справа",
+        "placements": [
+          {
+            "item": 0,
+            "target": -1,
+            "relation": "canvas",
+            "x": 0.6,
+            "y": 0.5,
+            "gap": 0,
+            "rotation": 0
+          },
+          {
+            "item": 1,
+            "target": 0,
+            "relation": "on",
+            "x": 0.61,
+            "y": 0.32,
+            "gap": 0,
+            "rotation": -65
+          },
+          {
+            "item": 2,
+            "target": 0,
+            "relation": "left",
+            "x": 0.25,
+            "y": 0.6,
+            "gap": 0.15,
+            "rotation": 0
+          }
+        ]
+      },
+      {
+        "principle": "Смещение элементов по горизонтали для широкоформатного кадра",
+        "placements": [
+          {
+            "item": 0,
+            "target": -1,
+            "relation": "canvas",
+            "x": 0.55,
+            "y": 0.48,
+            "gap": 0,
+            "rotation": 0
+          },
+          {
+            "item": 1,
+            "target": 0,
+            "relation": "on",
+            "x": 0.28,
+            "y": 0.62,
+            "gap": 0,
+            "rotation": -65
+          },
+          {
+            "item": 2,
+            "target": 0,
+            "relation": "left",
+            "x": 0.22,
+            "y": 0.65,
+            "gap": 0.12,
+            "rotation": 0
+          }
+        ]
+      },
+      {
+        "principle": "Сбалансированная сцена с акцентом в правой части",
+        "placements": [
+          {
+            "item": 0,
+            "target": -1,
+            "relation": "canvas",
+            "x": 0.58,
+            "y": 0.52,
+            "gap": 0,
+            "rotation": 0
+          },
+          {
+            "item": 1,
+            "target": 0,
+            "relation": "on",
+            "x": 0.58,
+            "y": 0.37,
+            "gap": 0,
+            "rotation": -65
+          },
+          {
+            "item": 2,
+            "target": 0,
+            "relation": "left",
+            "x": 0.28,
+            "y": 0.55,
+            "gap": 0.1,
+            "rotation": 0
+          }
+        ]
+      }
+    ],
+    "portrait": [
+      {
+        "principle": "Вертикальная компоновка с папки внизу и книгой в центре",
+        "placements": [
+          {
+            "item": 0,
+            "target": -1,
+            "relation": "canvas",
+            "x": 0.5,
+            "y": 0.45,
+            "gap": 0,
+            "rotation": 0
+          },
+          {
+            "item": 1,
+            "target": 0,
+            "relation": "on",
+            "x": 0.61,
+            "y": 0.32,
+            "gap": 0,
+            "rotation": -65
+          },
+          {
+            "item": 2,
+            "target": 0,
+            "relation": "below",
+            "x": 0.5,
+            "y": 0.78,
+            "gap": 0.1,
+            "rotation": 0
+          }
+        ]
+      },
+      {
+        "principle": "Вытянутая вертикальная структура с иным углом ручки",
+        "placements": [
+          {
+            "item": 0,
+            "target": -1,
+            "relation": "canvas",
+            "x": 0.5,
+            "y": 0.48,
+            "gap": 0,
+            "rotation": 0
+          },
+          {
+            "item": 1,
+            "target": 0,
+            "relation": "on",
+            "x": 0.28,
+            "y": 0.62,
+            "gap": 0,
+            "rotation": -65
+          },
+          {
+            "item": 2,
+            "target": 0,
+            "relation": "below",
+            "x": 0.45,
+            "y": 0.8,
+            "gap": 0.12,
+            "rotation": 0
+          }
+        ]
+      },
+      {
+        "principle": "Компактная вертикальная группа с плотным прилеганием",
+        "placements": [
+          {
+            "item": 0,
+            "target": -1,
+            "relation": "canvas",
+            "x": 0.5,
+            "y": 0.43,
+            "gap": 0,
+            "rotation": 0
+          },
+          {
+            "item": 1,
+            "target": 0,
+            "relation": "on",
+            "x": 0.58,
+            "y": 0.37,
+            "gap": 0,
+            "rotation": -65
+          },
+          {
+            "item": 2,
+            "target": 0,
+            "relation": "below",
+            "x": 0.52,
+            "y": 0.75,
+            "gap": 0.08,
+            "rotation": 0
+          }
+        ]
+      }
+    ]
+  },
+  "backdrop": "keep",
+  "recipe": "auto",
+  "groups": [],
+  "layers": [
+    {
+      "back": 0,
+      "front": 1,
+      "reason": "Предмет лежит на допустимой опоре."
+    },
+    {
+      "back": 2,
+      "front": 0,
+      "reason": "Фоновый компаньон находится позади главной группы."
+    }
+  ],
+  "compositions": [
+    {
+      "strategy": "balanced",
+      "title": "На опоре",
+      "placement": "on-surface",
+      "principle": "Связная центральная группа книги и ручки с фоновой папки слева"
+    },
+    {
+      "strategy": "spacious",
+      "title": "Рядом",
+      "placement": "beside",
+      "principle": "Смещение акцентов с диагональным расположением ручки на книге"
+    },
+    {
+      "strategy": "diagonal",
+      "title": "Другой ракурс группы",
+      "placement": "across",
+      "principle": "Плотная композиция с упором на центральное взаимодействие"
+    }
+  ]
+}

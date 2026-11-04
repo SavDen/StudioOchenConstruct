@@ -1,5 +1,5 @@
 /* Keyword selection, template placement and vector export. No DOM or API required. */
-(function(root,factory){const local=typeof module==="object"&&module.exports;const api=factory(local?require("./composition-rules.js"):root.CompositionRules,local?require("./geometry.js"):root.SourceGeometry,local?require("./reference-layout.js"):root.ReferenceLayout);if(local)module.exports=api;else root.CompositionEngine=api})(typeof globalThis!=="undefined"?globalThis:this,function(RULES,GEOMETRY,REFERENCE){
+(function(root,factory){const local=typeof module==="object"&&module.exports;const api=factory(local?require("./composition-rules.js"):root.CompositionRules,local?require("./geometry.js"):root.SourceGeometry,local?require("./reference-layout.js"):root.ReferenceLayout,local?require("./palette.js"):root.CompositionPalette);if(local)module.exports=api;else root.CompositionEngine=api})(typeof globalThis!=="undefined"?globalThis:this,function(RULES,GEOMETRY,REFERENCE,PALETTE){
 "use strict";
 const FORMATS=[{id:"landscape",name:"Горизонтальный",width:1200,height:630},{id:"square",name:"Квадрат",width:1000,height:1000},{id:"portrait",name:"Вертикальный",width:800,height:1200},{id:"wide",name:"Широкий",width:1920,height:1080}];
 const LAYOUTS=[{id:"compact",name:"Собранно"},{id:"offset",name:"Со смещением"},{id:"headline",name:"Под заголовок"}];
@@ -498,7 +498,8 @@ function uniqueSvg(svg,prefix){
   return ' '+attr+'="'+value+'"';
  }).replace(/url\(#([^)]*)\)/g,(_,id)=>"url(#"+(ids.get(id)||id)+")"));
 }
-function paletteFor(scene,data){const p=data.palettes.palettes.find(p=>p.id===scene.palette);if(!p)throw new Error("Неизвестная палитра");return p}
+function paletteFor(scene,data){if(scene.palette==="custom")return PALETTE.normalize(scene.customPalette);const p=data.palettes.palettes.find(p=>p.id===scene.palette);if(!p)throw new Error("Неизвестная палитра");return p}
+function applyCustomPalette(scene,value,data){return validateScene({...scene,palette:'custom',customPalette:PALETTE.normalize(value),backgroundDesign:backdropDesignFor(scene)},data)}
 function objectMarkup(item,scene,data){
  const v=variant(data,item.assetId,scene.size,item.role),p=paletteFor(scene,data);
  const source=data.svgs[v.path];if(!source)throw new Error("Не загружен SVG "+v.path);
@@ -559,7 +560,8 @@ function validateScene(input,data){
  if(!["S","L"].includes(input.size))throw new Error("Неизвестная детализация");
  if(!LAYOUTS.some(l=>l.id===input.layout))throw new Error("Неизвестная раскладка");
  if(!["pattern","solid","transparent"].includes(input.background))throw new Error("Неизвестный фон");
- paletteFor(input,data);
+ const customPalette=input.customPalette===undefined?undefined:PALETTE.normalize(input.customPalette);
+ paletteFor({...input,customPalette},data);
  if(input.backgroundDesign!==undefined&&!["auto","details","table"].includes(input.backgroundDesign))throw new Error("Неизвестный рисунок фона");
  if(input.framing!==undefined&&!["overview","focus"].includes(input.framing))throw new Error("Неизвестное кадрирование");
  if(input.focus!==undefined&&input.focus!=="auto"&&!assetById(data,input.focus))throw new Error("Неизвестный акцент");
@@ -628,8 +630,8 @@ function validateScene(input,data){
  if(input.environmentExplanation!==undefined&&(!Array.isArray(input.environmentExplanation)||input.environmentExplanation.length>3||input.environmentExplanation.some(t=>typeof t!=="string"||t.length>240)))throw new Error("Некорректное объяснение окружения");
  const stagingPlans=REFERENCE.STAGING.cleanPlans(input.stagingPlans,items);
  const executionNotes=input.executionNotes===undefined?[]:input.executionNotes;if(!Array.isArray(executionNotes)||executionNotes.length>12||executionNotes.some(t=>typeof t!=="string"||t.length>320))throw Error("Invalid execution notes");
- return {version:1,sizing:native?"native":"legacy",environmentPrompt:input.environmentPrompt||"",environmentExplanation:input.environmentExplanation||[],groups:cleanGroups,formatPlans,...(stagingPlans?{stagingPlans}:{}),...(executionNotes.length?{executionNotes}:{}),...(sizeGeometryOrigin?{sizeGeometryOrigin}:{}),width:f.width,height:f.height,format:f.id,size:input.size,palette:input.palette,layout:input.layout,background:input.background,backgroundDesign:input.backgroundDesign||"auto",supporting:input.supporting!==false,showSupporting:input.showSupporting!==false,camera,composition,layerRelations:relations,recipe:input.recipe||"auto",framing:input.framing||"overview",focus,query:String(input.query||"").slice(0,600),scale:input.scale,items};
+ return {version:1,sizing:native?"native":"legacy",environmentPrompt:input.environmentPrompt||"",environmentExplanation:input.environmentExplanation||[],groups:cleanGroups,formatPlans,...(stagingPlans?{stagingPlans}:{}),...(executionNotes.length?{executionNotes}:{}),...(sizeGeometryOrigin?{sizeGeometryOrigin}:{}),width:f.width,height:f.height,format:f.id,size:input.size,palette:input.palette,...(customPalette?{customPalette}:{}),layout:input.layout,background:input.background,backgroundDesign:input.backgroundDesign||"auto",supporting:input.supporting!==false,showSupporting:input.showSupporting!==false,camera,composition,layerRelations:relations,recipe:input.recipe||"auto",framing:input.framing||"overview",focus,query:String(input.query||"").slice(0,600),scale:input.scale,items};
 }
-const API={REFERENCE,RULES,FORMATS,LAYOUTS,DIRECT,SEMANTIC,recipeFor,focusFor,layerPlan,orderLayers,placementPlan,positionIssues,contactSlot,contactSlots,nearestContact,validContact,protectedBox,visibleBox,polygonFor,polygonOverlap,objectsOverlap,attachedGroup,moveScene,sceneDescription,templateKey,captureTemplate,applyTemplate,normalize,tokenize,pick,createScene,variant,boundsFor,layoutIssues,ensureLayout,collisionFree,safeMove,arrange,generate,recolor,uniqueSvg,paletteFor,backdropDesignFor,objectMarkup,backgroundMarkup,sceneMarkup,exportSvg,validateScene,visibleItems,toggleLayerVisibility,escapeXml,uid,clone};
+const API={REFERENCE,RULES,FORMATS,LAYOUTS,DIRECT,SEMANTIC,recipeFor,focusFor,layerPlan,orderLayers,placementPlan,positionIssues,contactSlot,contactSlots,nearestContact,validContact,protectedBox,visibleBox,polygonFor,polygonOverlap,objectsOverlap,attachedGroup,moveScene,sceneDescription,templateKey,captureTemplate,applyTemplate,normalize,tokenize,pick,createScene,variant,boundsFor,layoutIssues,ensureLayout,collisionFree,safeMove,arrange,generate,recolor,uniqueSvg,paletteFor,applyCustomPalette,backdropDesignFor,objectMarkup,backgroundMarkup,sceneMarkup,exportSvg,validateScene,visibleItems,toggleLayerVisibility,escapeXml,uid,clone};
 return API;
 });

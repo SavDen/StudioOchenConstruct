@@ -7,6 +7,7 @@ from urllib.parse import urlsplit
 ROOT = Path(__file__).resolve().parents[1]
 OUT = ROOT / "_site"
 GALLERIES = ["metaphors-2026-11-04", "metaphors-directional-2026-11-04", "metaphors-refined-2026-11-04"]
+DEMONSTRATION = "demonstration-2026-11-04"
 
 
 def deployment_settings():
@@ -31,13 +32,13 @@ def build():
     for file in (ROOT / "dist").iterdir():
         if file.is_symlink():
             raise SystemExit("Unexpected symlink in dist")
-        if file.is_file() and file.suffix in {".html", ".css", ".js", ".svg"}:
+        if file.is_file() and file.suffix in {".html", ".css", ".js", ".svg", ".json"}:
             shutil.copy2(file, OUT / file.name)
     config = deployment_settings()
     (OUT / "deployment.js").write_text("globalThis.STUDIO_DEPLOYMENT = "+json.dumps(config)+";\n")
     shutil.copy2(ROOT / "prompts/composition-system.txt", OUT / "composition-prompt.txt")
     (OUT / ".nojekyll").touch()
-    links = []
+    links = ['<a href="examples/">Примеры генерации</a>']
     scenes = 0
     for name in GALLERIES:
         source = ROOT / "exports" / name
@@ -51,6 +52,14 @@ def build():
         manifest = json.loads((source / "manifest.json").read_text())
         scenes += sum(len(case["outputs"]) for case in manifest["cases"])
         links.append(f'<a href="reviews/{name}/">'+{"metaphors-2026-11-04":"Отчёт · 18 метафор", "metaphors-directional-2026-11-04":"Проверка расстановки", "metaphors-refined-2026-11-04":"Смысл и кадрирование"}[name]+"</a>")
+    source = ROOT / "exports" / DEMONSTRATION
+    target = OUT / "examples"
+    target.mkdir()
+    for name in ["index.html", "manifest.json", "palette.json", "compositions.zip", "web-report.zip"]:
+        shutil.copy2(source / name, target / name)
+    for name in ["svg", "projects"]:
+        shutil.copytree(source / name, target / name)
+    scenes += sum(len(case["outputs"]) for case in json.loads((source / "manifest.json").read_text())["cases"])
     index = OUT / "index.html"
     html = index.read_text()
     html = html.replace('<div class="project-popover">', '<div class="project-popover">'+"".join(links))

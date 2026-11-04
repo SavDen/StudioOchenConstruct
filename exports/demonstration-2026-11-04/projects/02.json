@@ -1,0 +1,3007 @@
+{
+  "type": "composition-project",
+  "version": 2,
+  "scene": {
+    "version": 1,
+    "sizing": "native",
+    "environmentPrompt": "",
+    "environmentExplanation": [
+      "Наушники как главный предмет передают идею личного пространства, уединения и погружения в свой ритм.",
+      "Кошелёк выбран в качестве фонового компаньона, так как символизирует личные ценности, сохранность и принадлежность внутреннему миру.",
+      "Композиция выстроена компактно, объединяя смысловые элементы в единую сбалансированную группу."
+    ],
+    "groups": [],
+    "formatPlans": [],
+    "stagingPlans": [
+      {
+        "format": "square",
+        "views": [
+          {
+            "principle": "Центральное размещение наушников с компактным дополнением кошелька справа внизу",
+            "placements": [
+              {
+                "uid": "imw1zp0wmmgxap1",
+                "relation": "canvas",
+                "x": 0.5,
+                "y": 0.45,
+                "gap": 0,
+                "rotation": 0
+              },
+              {
+                "uid": "imw1zp0wmt6w1yb",
+                "relation": "right",
+                "targetUid": "imw1zp0wmmgxap1",
+                "x": 0.72,
+                "y": 0.7,
+                "gap": 0.05,
+                "rotation": 0
+              }
+            ]
+          },
+          {
+            "principle": "Смещение главной группы чуть выше с гармоничным расположением фона",
+            "placements": [
+              {
+                "uid": "imw1zp0wmmgxap1",
+                "relation": "canvas",
+                "x": 0.48,
+                "y": 0.42,
+                "gap": 0,
+                "rotation": 0
+              },
+              {
+                "uid": "imw1zp0wmt6w1yb",
+                "relation": "right",
+                "targetUid": "imw1zp0wmmgxap1",
+                "x": 0.75,
+                "y": 0.68,
+                "gap": 0.06,
+                "rotation": 0
+              }
+            ]
+          },
+          {
+            "principle": "Диагональное построение для создания динамики в квадратном формате",
+            "placements": [
+              {
+                "uid": "imw1zp0wmmgxap1",
+                "relation": "canvas",
+                "x": 0.46,
+                "y": 0.48,
+                "gap": 0,
+                "rotation": 0
+              },
+              {
+                "uid": "imw1zp0wmt6w1yb",
+                "relation": "right",
+                "targetUid": "imw1zp0wmmgxap1",
+                "x": 0.7,
+                "y": 0.72,
+                "gap": 0.04,
+                "rotation": 0
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "format": "landscape",
+        "views": [
+          {
+            "principle": "Горизонтальный баланс с акцентом наушников по центру и фоном сбоку",
+            "placements": [
+              {
+                "uid": "imw1zp0wmmgxap1",
+                "relation": "canvas",
+                "x": 0.48,
+                "y": 0.5,
+                "gap": 0,
+                "rotation": 0
+              },
+              {
+                "uid": "imw1zp0wmt6w1yb",
+                "relation": "right",
+                "targetUid": "imw1zp0wmmgxap1",
+                "x": 0.75,
+                "y": 0.65,
+                "gap": 0.08,
+                "rotation": 0
+              }
+            ]
+          },
+          {
+            "principle": "Сдвиг композиции влево с сохранением читаемости объектов",
+            "placements": [
+              {
+                "uid": "imw1zp0wmmgxap1",
+                "relation": "canvas",
+                "x": 0.45,
+                "y": 0.48,
+                "gap": 0,
+                "rotation": 0
+              },
+              {
+                "uid": "imw1zp0wmt6w1yb",
+                "relation": "right",
+                "targetUid": "imw1zp0wmmgxap1",
+                "x": 0.72,
+                "y": 0.62,
+                "gap": 0.06,
+                "rotation": 0
+              }
+            ]
+          },
+          {
+            "principle": "Просторное горизонтальное размещение с мягким диагональным акцентом",
+            "placements": [
+              {
+                "uid": "imw1zp0wmmgxap1",
+                "relation": "canvas",
+                "x": 0.5,
+                "y": 0.46,
+                "gap": 0,
+                "rotation": 0
+              },
+              {
+                "uid": "imw1zp0wmt6w1yb",
+                "relation": "right",
+                "targetUid": "imw1zp0wmmgxap1",
+                "x": 0.78,
+                "y": 0.68,
+                "gap": 0.09,
+                "rotation": 0
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "format": "portrait",
+        "views": [
+          {
+            "principle": "Вертикальная компоновка с акцентом в верхней части кадра",
+            "placements": [
+              {
+                "uid": "imw1zp0wmmgxap1",
+                "relation": "canvas",
+                "x": 0.5,
+                "y": 0.42,
+                "gap": 0,
+                "rotation": 0
+              },
+              {
+                "uid": "imw1zp0wmt6w1yb",
+                "relation": "below",
+                "targetUid": "imw1zp0wmmgxap1",
+                "x": 0.55,
+                "y": 0.72,
+                "gap": 0.08,
+                "rotation": 0
+              }
+            ]
+          },
+          {
+            "principle": "Сбалансированное вертикальное размещение объектов по центру",
+            "placements": [
+              {
+                "uid": "imw1zp0wmmgxap1",
+                "relation": "canvas",
+                "x": 0.5,
+                "y": 0.45,
+                "gap": 0,
+                "rotation": 0
+              },
+              {
+                "uid": "imw1zp0wmt6w1yb",
+                "relation": "below",
+                "targetUid": "imw1zp0wmmgxap1",
+                "x": 0.52,
+                "y": 0.75,
+                "gap": 0.07,
+                "rotation": 0
+              }
+            ]
+          },
+          {
+            "principle": "Плотная вертикальная связка для вертикального формата",
+            "placements": [
+              {
+                "uid": "imw1zp0wmmgxap1",
+                "relation": "canvas",
+                "x": 0.5,
+                "y": 0.4,
+                "gap": 0,
+                "rotation": 0
+              },
+              {
+                "uid": "imw1zp0wmt6w1yb",
+                "relation": "below",
+                "targetUid": "imw1zp0wmmgxap1",
+                "x": 0.5,
+                "y": 0.7,
+                "gap": 0.06,
+                "rotation": 0
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "width": 1000,
+    "height": 1000,
+    "format": "square",
+    "size": "S",
+    "palette": "aqua",
+    "layout": "compact",
+    "background": "pattern",
+    "backgroundDesign": "auto",
+    "supporting": true,
+    "showSupporting": true,
+    "camera": null,
+    "composition": {
+      "index": 0,
+      "options": [
+        {
+          "strategy": "balanced",
+          "title": "На опоре",
+          "principle": "Центральное размещение наушников с компактным дополнением кошелька справа внизу",
+          "placement": "on-surface"
+        },
+        {
+          "strategy": "spacious",
+          "title": "Рядом",
+          "principle": "Смещение главной группы чуть выше с гармоничным расположением фона",
+          "placement": "beside"
+        },
+        {
+          "strategy": "diagonal",
+          "title": "Другой ракурс группы",
+          "principle": "Диагональное построение для создания динамики в квадратном формате",
+          "placement": "across"
+        }
+      ]
+    },
+    "layerRelations": [
+      {
+        "back": "imw1zp0wmt6w1yb",
+        "front": "imw1zp0wmmgxap1",
+        "reason": "Фоновый компаньон находится позади главной группы."
+      }
+    ],
+    "recipe": "auto",
+    "framing": "overview",
+    "focus": "headphones",
+    "query": "Личное пространство",
+    "scale": 1,
+    "items": [
+      {
+        "uid": "imw1zp0wmt6w1yb",
+        "assetId": "wallet",
+        "role": "background",
+        "x": 945.32734375,
+        "y": 713.93,
+        "rotation": 0,
+        "flipX": false,
+        "flipY": false,
+        "zone": "bottom-right",
+        "crop": "whole"
+      },
+      {
+        "uid": "imw1zp0wmmgxap1",
+        "assetId": "headphones",
+        "role": "main",
+        "x": 517.8,
+        "y": 460.38,
+        "rotation": 0,
+        "flipX": false,
+        "flipY": false,
+        "zone": "auto",
+        "crop": "whole"
+      }
+    ]
+  },
+  "memory": {
+    "version": 2,
+    "format": "square",
+    "index": 0,
+    "formats": {
+      "square": [
+        {
+          "version": 1,
+          "sizing": "native",
+          "environmentPrompt": "",
+          "environmentExplanation": [
+            "Наушники как главный предмет передают идею личного пространства, уединения и погружения в свой ритм.",
+            "Кошелёк выбран в качестве фонового компаньона, так как символизирует личные ценности, сохранность и принадлежность внутреннему миру.",
+            "Композиция выстроена компактно, объединяя смысловые элементы в единую сбалансированную группу."
+          ],
+          "groups": [],
+          "formatPlans": [],
+          "stagingPlans": [
+            {
+              "format": "square",
+              "views": [
+                {
+                  "principle": "Центральное размещение наушников с компактным дополнением кошелька справа внизу",
+                  "placements": [
+                    {
+                      "uid": "imw1zp0wmmgxap1",
+                      "relation": "canvas",
+                      "x": 0.5,
+                      "y": 0.45,
+                      "gap": 0,
+                      "rotation": 0
+                    },
+                    {
+                      "uid": "imw1zp0wmt6w1yb",
+                      "relation": "right",
+                      "targetUid": "imw1zp0wmmgxap1",
+                      "x": 0.72,
+                      "y": 0.7,
+                      "gap": 0.05,
+                      "rotation": 0
+                    }
+                  ]
+                },
+                {
+                  "principle": "Смещение главной группы чуть выше с гармоничным расположением фона",
+                  "placements": [
+                    {
+                      "uid": "imw1zp0wmmgxap1",
+                      "relation": "canvas",
+                      "x": 0.48,
+                      "y": 0.42,
+                      "gap": 0,
+                      "rotation": 0
+                    },
+                    {
+                      "uid": "imw1zp0wmt6w1yb",
+                      "relation": "right",
+                      "targetUid": "imw1zp0wmmgxap1",
+                      "x": 0.75,
+                      "y": 0.68,
+                      "gap": 0.06,
+                      "rotation": 0
+                    }
+                  ]
+                },
+                {
+                  "principle": "Диагональное построение для создания динамики в квадратном формате",
+                  "placements": [
+                    {
+                      "uid": "imw1zp0wmmgxap1",
+                      "relation": "canvas",
+                      "x": 0.46,
+                      "y": 0.48,
+                      "gap": 0,
+                      "rotation": 0
+                    },
+                    {
+                      "uid": "imw1zp0wmt6w1yb",
+                      "relation": "right",
+                      "targetUid": "imw1zp0wmmgxap1",
+                      "x": 0.7,
+                      "y": 0.72,
+                      "gap": 0.04,
+                      "rotation": 0
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "format": "landscape",
+              "views": [
+                {
+                  "principle": "Горизонтальный баланс с акцентом наушников по центру и фоном сбоку",
+                  "placements": [
+                    {
+                      "uid": "imw1zp0wmmgxap1",
+                      "relation": "canvas",
+                      "x": 0.48,
+                      "y": 0.5,
+                      "gap": 0,
+                      "rotation": 0
+                    },
+                    {
+                      "uid": "imw1zp0wmt6w1yb",
+                      "relation": "right",
+                      "targetUid": "imw1zp0wmmgxap1",
+                      "x": 0.75,
+                      "y": 0.65,
+                      "gap": 0.08,
+                      "rotation": 0
+                    }
+                  ]
+                },
+                {
+                  "principle": "Сдвиг композиции влево с сохранением читаемости объектов",
+                  "placements": [
+                    {
+                      "uid": "imw1zp0wmmgxap1",
+                      "relation": "canvas",
+                      "x": 0.45,
+                      "y": 0.48,
+                      "gap": 0,
+                      "rotation": 0
+                    },
+                    {
+                      "uid": "imw1zp0wmt6w1yb",
+                      "relation": "right",
+                      "targetUid": "imw1zp0wmmgxap1",
+                      "x": 0.72,
+                      "y": 0.62,
+                      "gap": 0.06,
+                      "rotation": 0
+                    }
+                  ]
+                },
+                {
+                  "principle": "Просторное горизонтальное размещение с мягким диагональным акцентом",
+                  "placements": [
+                    {
+                      "uid": "imw1zp0wmmgxap1",
+                      "relation": "canvas",
+                      "x": 0.5,
+                      "y": 0.46,
+                      "gap": 0,
+                      "rotation": 0
+                    },
+                    {
+                      "uid": "imw1zp0wmt6w1yb",
+                      "relation": "right",
+                      "targetUid": "imw1zp0wmmgxap1",
+                      "x": 0.78,
+                      "y": 0.68,
+                      "gap": 0.09,
+                      "rotation": 0
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "format": "portrait",
+              "views": [
+                {
+                  "principle": "Вертикальная компоновка с акцентом в верхней части кадра",
+                  "placements": [
+                    {
+                      "uid": "imw1zp0wmmgxap1",
+                      "relation": "canvas",
+                      "x": 0.5,
+                      "y": 0.42,
+                      "gap": 0,
+                      "rotation": 0
+                    },
+                    {
+                      "uid": "imw1zp0wmt6w1yb",
+                      "relation": "below",
+                      "targetUid": "imw1zp0wmmgxap1",
+                      "x": 0.55,
+                      "y": 0.72,
+                      "gap": 0.08,
+                      "rotation": 0
+                    }
+                  ]
+                },
+                {
+                  "principle": "Сбалансированное вертикальное размещение объектов по центру",
+                  "placements": [
+                    {
+                      "uid": "imw1zp0wmmgxap1",
+                      "relation": "canvas",
+                      "x": 0.5,
+                      "y": 0.45,
+                      "gap": 0,
+                      "rotation": 0
+                    },
+                    {
+                      "uid": "imw1zp0wmt6w1yb",
+                      "relation": "below",
+                      "targetUid": "imw1zp0wmmgxap1",
+                      "x": 0.52,
+                      "y": 0.75,
+                      "gap": 0.07,
+                      "rotation": 0
+                    }
+                  ]
+                },
+                {
+                  "principle": "Плотная вертикальная связка для вертикального формата",
+                  "placements": [
+                    {
+                      "uid": "imw1zp0wmmgxap1",
+                      "relation": "canvas",
+                      "x": 0.5,
+                      "y": 0.4,
+                      "gap": 0,
+                      "rotation": 0
+                    },
+                    {
+                      "uid": "imw1zp0wmt6w1yb",
+                      "relation": "below",
+                      "targetUid": "imw1zp0wmmgxap1",
+                      "x": 0.5,
+                      "y": 0.7,
+                      "gap": 0.06,
+                      "rotation": 0
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "width": 1000,
+          "height": 1000,
+          "format": "square",
+          "size": "S",
+          "palette": "aqua",
+          "layout": "compact",
+          "background": "pattern",
+          "backgroundDesign": "auto",
+          "supporting": true,
+          "showSupporting": true,
+          "camera": null,
+          "composition": {
+            "index": 0,
+            "options": [
+              {
+                "strategy": "balanced",
+                "title": "На опоре",
+                "principle": "Центральное размещение наушников с компактным дополнением кошелька справа внизу",
+                "placement": "on-surface"
+              },
+              {
+                "strategy": "spacious",
+                "title": "Рядом",
+                "principle": "Смещение главной группы чуть выше с гармоничным расположением фона",
+                "placement": "beside"
+              },
+              {
+                "strategy": "diagonal",
+                "title": "Другой ракурс группы",
+                "principle": "Диагональное построение для создания динамики в квадратном формате",
+                "placement": "across"
+              }
+            ]
+          },
+          "layerRelations": [
+            {
+              "back": "imw1zp0wmt6w1yb",
+              "front": "imw1zp0wmmgxap1",
+              "reason": "Фоновый компаньон находится позади главной группы."
+            }
+          ],
+          "recipe": "auto",
+          "framing": "overview",
+          "focus": "headphones",
+          "query": "Личное пространство",
+          "scale": 1,
+          "items": [
+            {
+              "uid": "imw1zp0wmt6w1yb",
+              "assetId": "wallet",
+              "role": "background",
+              "x": 945.32734375,
+              "y": 713.93,
+              "rotation": 0,
+              "flipX": false,
+              "flipY": false,
+              "zone": "bottom-right",
+              "crop": "whole"
+            },
+            {
+              "uid": "imw1zp0wmmgxap1",
+              "assetId": "headphones",
+              "role": "main",
+              "x": 517.8,
+              "y": 460.38,
+              "rotation": 0,
+              "flipX": false,
+              "flipY": false,
+              "zone": "auto",
+              "crop": "whole"
+            }
+          ]
+        },
+        {
+          "version": 1,
+          "sizing": "native",
+          "environmentPrompt": "",
+          "environmentExplanation": [
+            "Наушники как главный предмет передают идею личного пространства, уединения и погружения в свой ритм.",
+            "Кошелёк выбран в качестве фонового компаньона, так как символизирует личные ценности, сохранность и принадлежность внутреннему миру.",
+            "Композиция выстроена компактно, объединяя смысловые элементы в единую сбалансированную группу."
+          ],
+          "groups": [],
+          "formatPlans": [],
+          "stagingPlans": [
+            {
+              "format": "square",
+              "views": [
+                {
+                  "principle": "Центральное размещение наушников с компактным дополнением кошелька справа внизу",
+                  "placements": [
+                    {
+                      "uid": "imw1zp0wmmgxap1",
+                      "relation": "canvas",
+                      "x": 0.5,
+                      "y": 0.45,
+                      "gap": 0,
+                      "rotation": 0
+                    },
+                    {
+                      "uid": "imw1zp0wmt6w1yb",
+                      "relation": "right",
+                      "targetUid": "imw1zp0wmmgxap1",
+                      "x": 0.72,
+                      "y": 0.7,
+                      "gap": 0.05,
+                      "rotation": 0
+                    }
+                  ]
+                },
+                {
+                  "principle": "Смещение главной группы чуть выше с гармоничным расположением фона",
+                  "placements": [
+                    {
+                      "uid": "imw1zp0wmmgxap1",
+                      "relation": "canvas",
+                      "x": 0.48,
+                      "y": 0.42,
+                      "gap": 0,
+                      "rotation": 0
+                    },
+                    {
+                      "uid": "imw1zp0wmt6w1yb",
+                      "relation": "right",
+                      "targetUid": "imw1zp0wmmgxap1",
+                      "x": 0.75,
+                      "y": 0.68,
+                      "gap": 0.06,
+                      "rotation": 0
+                    }
+                  ]
+                },
+                {
+                  "principle": "Диагональное построение для создания динамики в квадратном формате",
+                  "placements": [
+                    {
+                      "uid": "imw1zp0wmmgxap1",
+                      "relation": "canvas",
+                      "x": 0.46,
+                      "y": 0.48,
+                      "gap": 0,
+                      "rotation": 0
+                    },
+                    {
+                      "uid": "imw1zp0wmt6w1yb",
+                      "relation": "right",
+                      "targetUid": "imw1zp0wmmgxap1",
+                      "x": 0.7,
+                      "y": 0.72,
+                      "gap": 0.04,
+                      "rotation": 0
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "format": "landscape",
+              "views": [
+                {
+                  "principle": "Горизонтальный баланс с акцентом наушников по центру и фоном сбоку",
+                  "placements": [
+                    {
+                      "uid": "imw1zp0wmmgxap1",
+                      "relation": "canvas",
+                      "x": 0.48,
+                      "y": 0.5,
+                      "gap": 0,
+                      "rotation": 0
+                    },
+                    {
+                      "uid": "imw1zp0wmt6w1yb",
+                      "relation": "right",
+                      "targetUid": "imw1zp0wmmgxap1",
+                      "x": 0.75,
+                      "y": 0.65,
+                      "gap": 0.08,
+                      "rotation": 0
+                    }
+                  ]
+                },
+                {
+                  "principle": "Сдвиг композиции влево с сохранением читаемости объектов",
+                  "placements": [
+                    {
+                      "uid": "imw1zp0wmmgxap1",
+                      "relation": "canvas",
+                      "x": 0.45,
+                      "y": 0.48,
+                      "gap": 0,
+                      "rotation": 0
+                    },
+                    {
+                      "uid": "imw1zp0wmt6w1yb",
+                      "relation": "right",
+                      "targetUid": "imw1zp0wmmgxap1",
+                      "x": 0.72,
+                      "y": 0.62,
+                      "gap": 0.06,
+                      "rotation": 0
+                    }
+                  ]
+                },
+                {
+                  "principle": "Просторное горизонтальное размещение с мягким диагональным акцентом",
+                  "placements": [
+                    {
+                      "uid": "imw1zp0wmmgxap1",
+                      "relation": "canvas",
+                      "x": 0.5,
+                      "y": 0.46,
+                      "gap": 0,
+                      "rotation": 0
+                    },
+                    {
+                      "uid": "imw1zp0wmt6w1yb",
+                      "relation": "right",
+                      "targetUid": "imw1zp0wmmgxap1",
+                      "x": 0.78,
+                      "y": 0.68,
+                      "gap": 0.09,
+                      "rotation": 0
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "format": "portrait",
+              "views": [
+                {
+                  "principle": "Вертикальная компоновка с акцентом в верхней части кадра",
+                  "placements": [
+                    {
+                      "uid": "imw1zp0wmmgxap1",
+                      "relation": "canvas",
+                      "x": 0.5,
+                      "y": 0.42,
+                      "gap": 0,
+                      "rotation": 0
+                    },
+                    {
+                      "uid": "imw1zp0wmt6w1yb",
+                      "relation": "below",
+                      "targetUid": "imw1zp0wmmgxap1",
+                      "x": 0.55,
+                      "y": 0.72,
+                      "gap": 0.08,
+                      "rotation": 0
+                    }
+                  ]
+                },
+                {
+                  "principle": "Сбалансированное вертикальное размещение объектов по центру",
+                  "placements": [
+                    {
+                      "uid": "imw1zp0wmmgxap1",
+                      "relation": "canvas",
+                      "x": 0.5,
+                      "y": 0.45,
+                      "gap": 0,
+                      "rotation": 0
+                    },
+                    {
+                      "uid": "imw1zp0wmt6w1yb",
+                      "relation": "below",
+                      "targetUid": "imw1zp0wmmgxap1",
+                      "x": 0.52,
+                      "y": 0.75,
+                      "gap": 0.07,
+                      "rotation": 0
+                    }
+                  ]
+                },
+                {
+                  "principle": "Плотная вертикальная связка для вертикального формата",
+                  "placements": [
+                    {
+                      "uid": "imw1zp0wmmgxap1",
+                      "relation": "canvas",
+                      "x": 0.5,
+                      "y": 0.4,
+                      "gap": 0,
+                      "rotation": 0
+                    },
+                    {
+                      "uid": "imw1zp0wmt6w1yb",
+                      "relation": "below",
+                      "targetUid": "imw1zp0wmmgxap1",
+                      "x": 0.5,
+                      "y": 0.7,
+                      "gap": 0.06,
+                      "rotation": 0
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "width": 1000,
+          "height": 1000,
+          "format": "square",
+          "size": "S",
+          "palette": "aqua",
+          "layout": "compact",
+          "background": "pattern",
+          "backgroundDesign": "auto",
+          "supporting": true,
+          "showSupporting": true,
+          "camera": null,
+          "composition": {
+            "index": 1,
+            "options": [
+              {
+                "strategy": "balanced",
+                "title": "На опоре",
+                "principle": "Центральное размещение наушников с компактным дополнением кошелька справа внизу",
+                "placement": "on-surface"
+              },
+              {
+                "strategy": "spacious",
+                "title": "Рядом",
+                "principle": "Смещение главной группы чуть выше с гармоничным расположением фона",
+                "placement": "beside"
+              },
+              {
+                "strategy": "diagonal",
+                "title": "Другой ракурс группы",
+                "principle": "Диагональное построение для создания динамики в квадратном формате",
+                "placement": "across"
+              }
+            ]
+          },
+          "layerRelations": [
+            {
+              "back": "imw1zp0wmt6w1yb",
+              "front": "imw1zp0wmmgxap1",
+              "reason": "Фоновый компаньон находится позади главной группы."
+            }
+          ],
+          "recipe": "auto",
+          "framing": "overview",
+          "focus": "headphones",
+          "query": "Личное пространство",
+          "scale": 1,
+          "items": [
+            {
+              "uid": "imw1zp0wmt6w1yb",
+              "assetId": "wallet",
+              "role": "background",
+              "x": 935.32734375,
+              "y": 693.93,
+              "rotation": 0,
+              "flipX": false,
+              "flipY": false,
+              "zone": "bottom-right",
+              "crop": "whole"
+            },
+            {
+              "uid": "imw1zp0wmmgxap1",
+              "assetId": "headphones",
+              "role": "main",
+              "x": 497.8,
+              "y": 430.38,
+              "rotation": 0,
+              "flipX": false,
+              "flipY": false,
+              "zone": "auto",
+              "crop": "whole"
+            }
+          ]
+        },
+        {
+          "version": 1,
+          "sizing": "native",
+          "environmentPrompt": "",
+          "environmentExplanation": [
+            "Наушники как главный предмет передают идею личного пространства, уединения и погружения в свой ритм.",
+            "Кошелёк выбран в качестве фонового компаньона, так как символизирует личные ценности, сохранность и принадлежность внутреннему миру.",
+            "Композиция выстроена компактно, объединяя смысловые элементы в единую сбалансированную группу."
+          ],
+          "groups": [],
+          "formatPlans": [],
+          "stagingPlans": [
+            {
+              "format": "square",
+              "views": [
+                {
+                  "principle": "Центральное размещение наушников с компактным дополнением кошелька справа внизу",
+                  "placements": [
+                    {
+                      "uid": "imw1zp0wmmgxap1",
+                      "relation": "canvas",
+                      "x": 0.5,
+                      "y": 0.45,
+                      "gap": 0,
+                      "rotation": 0
+                    },
+                    {
+                      "uid": "imw1zp0wmt6w1yb",
+                      "relation": "right",
+                      "targetUid": "imw1zp0wmmgxap1",
+                      "x": 0.72,
+                      "y": 0.7,
+                      "gap": 0.05,
+                      "rotation": 0
+                    }
+                  ]
+                },
+                {
+                  "principle": "Смещение главной группы чуть выше с гармоничным расположением фона",
+                  "placements": [
+                    {
+                      "uid": "imw1zp0wmmgxap1",
+                      "relation": "canvas",
+                      "x": 0.48,
+                      "y": 0.42,
+                      "gap": 0,
+                      "rotation": 0
+                    },
+                    {
+                      "uid": "imw1zp0wmt6w1yb",
+                      "relation": "right",
+                      "targetUid": "imw1zp0wmmgxap1",
+                      "x": 0.75,
+                      "y": 0.68,
+                      "gap": 0.06,
+                      "rotation": 0
+                    }
+                  ]
+                },
+                {
+                  "principle": "Диагональное построение для создания динамики в квадратном формате",
+                  "placements": [
+                    {
+                      "uid": "imw1zp0wmmgxap1",
+                      "relation": "canvas",
+                      "x": 0.46,
+                      "y": 0.48,
+                      "gap": 0,
+                      "rotation": 0
+                    },
+                    {
+                      "uid": "imw1zp0wmt6w1yb",
+                      "relation": "right",
+                      "targetUid": "imw1zp0wmmgxap1",
+                      "x": 0.7,
+                      "y": 0.72,
+                      "gap": 0.04,
+                      "rotation": 0
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "format": "landscape",
+              "views": [
+                {
+                  "principle": "Горизонтальный баланс с акцентом наушников по центру и фоном сбоку",
+                  "placements": [
+                    {
+                      "uid": "imw1zp0wmmgxap1",
+                      "relation": "canvas",
+                      "x": 0.48,
+                      "y": 0.5,
+                      "gap": 0,
+                      "rotation": 0
+                    },
+                    {
+                      "uid": "imw1zp0wmt6w1yb",
+                      "relation": "right",
+                      "targetUid": "imw1zp0wmmgxap1",
+                      "x": 0.75,
+                      "y": 0.65,
+                      "gap": 0.08,
+                      "rotation": 0
+                    }
+                  ]
+                },
+                {
+                  "principle": "Сдвиг композиции влево с сохранением читаемости объектов",
+                  "placements": [
+                    {
+                      "uid": "imw1zp0wmmgxap1",
+                      "relation": "canvas",
+                      "x": 0.45,
+                      "y": 0.48,
+                      "gap": 0,
+                      "rotation": 0
+                    },
+                    {
+                      "uid": "imw1zp0wmt6w1yb",
+                      "relation": "right",
+                      "targetUid": "imw1zp0wmmgxap1",
+                      "x": 0.72,
+                      "y": 0.62,
+                      "gap": 0.06,
+                      "rotation": 0
+                    }
+                  ]
+                },
+                {
+                  "principle": "Просторное горизонтальное размещение с мягким диагональным акцентом",
+                  "placements": [
+                    {
+                      "uid": "imw1zp0wmmgxap1",
+                      "relation": "canvas",
+                      "x": 0.5,
+                      "y": 0.46,
+                      "gap": 0,
+                      "rotation": 0
+                    },
+                    {
+                      "uid": "imw1zp0wmt6w1yb",
+                      "relation": "right",
+                      "targetUid": "imw1zp0wmmgxap1",
+                      "x": 0.78,
+                      "y": 0.68,
+                      "gap": 0.09,
+                      "rotation": 0
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "format": "portrait",
+              "views": [
+                {
+                  "principle": "Вертикальная компоновка с акцентом в верхней части кадра",
+                  "placements": [
+                    {
+                      "uid": "imw1zp0wmmgxap1",
+                      "relation": "canvas",
+                      "x": 0.5,
+                      "y": 0.42,
+                      "gap": 0,
+                      "rotation": 0
+                    },
+                    {
+                      "uid": "imw1zp0wmt6w1yb",
+                      "relation": "below",
+                      "targetUid": "imw1zp0wmmgxap1",
+                      "x": 0.55,
+                      "y": 0.72,
+                      "gap": 0.08,
+                      "rotation": 0
+                    }
+                  ]
+                },
+                {
+                  "principle": "Сбалансированное вертикальное размещение объектов по центру",
+                  "placements": [
+                    {
+                      "uid": "imw1zp0wmmgxap1",
+                      "relation": "canvas",
+                      "x": 0.5,
+                      "y": 0.45,
+                      "gap": 0,
+                      "rotation": 0
+                    },
+                    {
+                      "uid": "imw1zp0wmt6w1yb",
+                      "relation": "below",
+                      "targetUid": "imw1zp0wmmgxap1",
+                      "x": 0.52,
+                      "y": 0.75,
+                      "gap": 0.07,
+                      "rotation": 0
+                    }
+                  ]
+                },
+                {
+                  "principle": "Плотная вертикальная связка для вертикального формата",
+                  "placements": [
+                    {
+                      "uid": "imw1zp0wmmgxap1",
+                      "relation": "canvas",
+                      "x": 0.5,
+                      "y": 0.4,
+                      "gap": 0,
+                      "rotation": 0
+                    },
+                    {
+                      "uid": "imw1zp0wmt6w1yb",
+                      "relation": "below",
+                      "targetUid": "imw1zp0wmmgxap1",
+                      "x": 0.5,
+                      "y": 0.7,
+                      "gap": 0.06,
+                      "rotation": 0
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "width": 1000,
+          "height": 1000,
+          "format": "square",
+          "size": "S",
+          "palette": "aqua",
+          "layout": "compact",
+          "background": "pattern",
+          "backgroundDesign": "auto",
+          "supporting": true,
+          "showSupporting": true,
+          "camera": null,
+          "composition": {
+            "index": 2,
+            "options": [
+              {
+                "strategy": "balanced",
+                "title": "На опоре",
+                "principle": "Центральное размещение наушников с компактным дополнением кошелька справа внизу",
+                "placement": "on-surface"
+              },
+              {
+                "strategy": "spacious",
+                "title": "Рядом",
+                "principle": "Смещение главной группы чуть выше с гармоничным расположением фона",
+                "placement": "beside"
+              },
+              {
+                "strategy": "diagonal",
+                "title": "Другой ракурс группы",
+                "principle": "Диагональное построение для создания динамики в квадратном формате",
+                "placement": "across"
+              }
+            ]
+          },
+          "layerRelations": [
+            {
+              "back": "imw1zp0wmt6w1yb",
+              "front": "imw1zp0wmmgxap1",
+              "reason": "Фоновый компаньон находится позади главной группы."
+            }
+          ],
+          "recipe": "auto",
+          "framing": "overview",
+          "focus": "headphones",
+          "query": "Личное пространство",
+          "scale": 1,
+          "items": [
+            {
+              "uid": "imw1zp0wmt6w1yb",
+              "assetId": "wallet",
+              "role": "background",
+              "x": 895.32734375,
+              "y": 733.93,
+              "rotation": 0,
+              "flipX": false,
+              "flipY": false,
+              "zone": "bottom-right",
+              "crop": "whole"
+            },
+            {
+              "uid": "imw1zp0wmmgxap1",
+              "assetId": "headphones",
+              "role": "main",
+              "x": 477.8,
+              "y": 490.38,
+              "rotation": 0,
+              "flipX": false,
+              "flipY": false,
+              "zone": "auto",
+              "crop": "whole"
+            }
+          ]
+        }
+      ],
+      "landscape": [
+        {
+          "version": 1,
+          "sizing": "native",
+          "environmentPrompt": "",
+          "environmentExplanation": [
+            "Наушники как главный предмет передают идею личного пространства, уединения и погружения в свой ритм.",
+            "Кошелёк выбран в качестве фонового компаньона, так как символизирует личные ценности, сохранность и принадлежность внутреннему миру.",
+            "Композиция выстроена компактно, объединяя смысловые элементы в единую сбалансированную группу."
+          ],
+          "groups": [],
+          "formatPlans": [],
+          "stagingPlans": [
+            {
+              "format": "square",
+              "views": [
+                {
+                  "principle": "Центральное размещение наушников с компактным дополнением кошелька справа внизу",
+                  "placements": [
+                    {
+                      "uid": "imw1zp0wmmgxap1",
+                      "relation": "canvas",
+                      "x": 0.5,
+                      "y": 0.45,
+                      "gap": 0,
+                      "rotation": 0
+                    },
+                    {
+                      "uid": "imw1zp0wmt6w1yb",
+                      "relation": "right",
+                      "targetUid": "imw1zp0wmmgxap1",
+                      "x": 0.72,
+                      "y": 0.7,
+                      "gap": 0.05,
+                      "rotation": 0
+                    }
+                  ]
+                },
+                {
+                  "principle": "Смещение главной группы чуть выше с гармоничным расположением фона",
+                  "placements": [
+                    {
+                      "uid": "imw1zp0wmmgxap1",
+                      "relation": "canvas",
+                      "x": 0.48,
+                      "y": 0.42,
+                      "gap": 0,
+                      "rotation": 0
+                    },
+                    {
+                      "uid": "imw1zp0wmt6w1yb",
+                      "relation": "right",
+                      "targetUid": "imw1zp0wmmgxap1",
+                      "x": 0.75,
+                      "y": 0.68,
+                      "gap": 0.06,
+                      "rotation": 0
+                    }
+                  ]
+                },
+                {
+                  "principle": "Диагональное построение для создания динамики в квадратном формате",
+                  "placements": [
+                    {
+                      "uid": "imw1zp0wmmgxap1",
+                      "relation": "canvas",
+                      "x": 0.46,
+                      "y": 0.48,
+                      "gap": 0,
+                      "rotation": 0
+                    },
+                    {
+                      "uid": "imw1zp0wmt6w1yb",
+                      "relation": "right",
+                      "targetUid": "imw1zp0wmmgxap1",
+                      "x": 0.7,
+                      "y": 0.72,
+                      "gap": 0.04,
+                      "rotation": 0
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "format": "landscape",
+              "views": [
+                {
+                  "principle": "Горизонтальный баланс с акцентом наушников по центру и фоном сбоку",
+                  "placements": [
+                    {
+                      "uid": "imw1zp0wmmgxap1",
+                      "relation": "canvas",
+                      "x": 0.48,
+                      "y": 0.5,
+                      "gap": 0,
+                      "rotation": 0
+                    },
+                    {
+                      "uid": "imw1zp0wmt6w1yb",
+                      "relation": "right",
+                      "targetUid": "imw1zp0wmmgxap1",
+                      "x": 0.75,
+                      "y": 0.65,
+                      "gap": 0.08,
+                      "rotation": 0
+                    }
+                  ]
+                },
+                {
+                  "principle": "Сдвиг композиции влево с сохранением читаемости объектов",
+                  "placements": [
+                    {
+                      "uid": "imw1zp0wmmgxap1",
+                      "relation": "canvas",
+                      "x": 0.45,
+                      "y": 0.48,
+                      "gap": 0,
+                      "rotation": 0
+                    },
+                    {
+                      "uid": "imw1zp0wmt6w1yb",
+                      "relation": "right",
+                      "targetUid": "imw1zp0wmmgxap1",
+                      "x": 0.72,
+                      "y": 0.62,
+                      "gap": 0.06,
+                      "rotation": 0
+                    }
+                  ]
+                },
+                {
+                  "principle": "Просторное горизонтальное размещение с мягким диагональным акцентом",
+                  "placements": [
+                    {
+                      "uid": "imw1zp0wmmgxap1",
+                      "relation": "canvas",
+                      "x": 0.5,
+                      "y": 0.46,
+                      "gap": 0,
+                      "rotation": 0
+                    },
+                    {
+                      "uid": "imw1zp0wmt6w1yb",
+                      "relation": "right",
+                      "targetUid": "imw1zp0wmmgxap1",
+                      "x": 0.78,
+                      "y": 0.68,
+                      "gap": 0.09,
+                      "rotation": 0
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "format": "portrait",
+              "views": [
+                {
+                  "principle": "Вертикальная компоновка с акцентом в верхней части кадра",
+                  "placements": [
+                    {
+                      "uid": "imw1zp0wmmgxap1",
+                      "relation": "canvas",
+                      "x": 0.5,
+                      "y": 0.42,
+                      "gap": 0,
+                      "rotation": 0
+                    },
+                    {
+                      "uid": "imw1zp0wmt6w1yb",
+                      "relation": "below",
+                      "targetUid": "imw1zp0wmmgxap1",
+                      "x": 0.55,
+                      "y": 0.72,
+                      "gap": 0.08,
+                      "rotation": 0
+                    }
+                  ]
+                },
+                {
+                  "principle": "Сбалансированное вертикальное размещение объектов по центру",
+                  "placements": [
+                    {
+                      "uid": "imw1zp0wmmgxap1",
+                      "relation": "canvas",
+                      "x": 0.5,
+                      "y": 0.45,
+                      "gap": 0,
+                      "rotation": 0
+                    },
+                    {
+                      "uid": "imw1zp0wmt6w1yb",
+                      "relation": "below",
+                      "targetUid": "imw1zp0wmmgxap1",
+                      "x": 0.52,
+                      "y": 0.75,
+                      "gap": 0.07,
+                      "rotation": 0
+                    }
+                  ]
+                },
+                {
+                  "principle": "Плотная вертикальная связка для вертикального формата",
+                  "placements": [
+                    {
+                      "uid": "imw1zp0wmmgxap1",
+                      "relation": "canvas",
+                      "x": 0.5,
+                      "y": 0.4,
+                      "gap": 0,
+                      "rotation": 0
+                    },
+                    {
+                      "uid": "imw1zp0wmt6w1yb",
+                      "relation": "below",
+                      "targetUid": "imw1zp0wmmgxap1",
+                      "x": 0.5,
+                      "y": 0.7,
+                      "gap": 0.06,
+                      "rotation": 0
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "width": 1200,
+          "height": 630,
+          "format": "landscape",
+          "size": "S",
+          "palette": "aqua",
+          "layout": "compact",
+          "background": "pattern",
+          "backgroundDesign": "auto",
+          "supporting": true,
+          "showSupporting": true,
+          "camera": null,
+          "composition": {
+            "index": 0,
+            "options": [
+              {
+                "strategy": "balanced",
+                "title": "На опоре",
+                "principle": "Центральное размещение наушников с компактным дополнением кошелька справа внизу",
+                "placement": "on-surface"
+              },
+              {
+                "strategy": "spacious",
+                "title": "Рядом",
+                "principle": "Смещение главной группы чуть выше с гармоничным расположением фона",
+                "placement": "beside"
+              },
+              {
+                "strategy": "diagonal",
+                "title": "Другой ракурс группы",
+                "principle": "Диагональное построение для создания динамики в квадратном формате",
+                "placement": "across"
+              }
+            ]
+          },
+          "layerRelations": [
+            {
+              "back": "imw1zp0wmt6w1yb",
+              "front": "imw1zp0wmmgxap1",
+              "reason": "Фоновый компаньон находится позади главной группы."
+            }
+          ],
+          "recipe": "auto",
+          "framing": "overview",
+          "focus": "headphones",
+          "query": "Личное пространство",
+          "scale": 1,
+          "items": [
+            {
+              "uid": "imw1zp0wmt6w1yb",
+              "assetId": "wallet",
+              "role": "background",
+              "x": 1021.7273437499999,
+              "y": 423.43,
+              "rotation": 0,
+              "flipX": false,
+              "flipY": false,
+              "zone": "bottom-right",
+              "crop": "whole"
+            },
+            {
+              "uid": "imw1zp0wmmgxap1",
+              "assetId": "headphones",
+              "role": "main",
+              "x": 593.8,
+              "y": 325.38,
+              "rotation": 0,
+              "flipX": false,
+              "flipY": false,
+              "zone": "auto",
+              "crop": "whole"
+            }
+          ]
+        },
+        {
+          "version": 1,
+          "sizing": "native",
+          "environmentPrompt": "",
+          "environmentExplanation": [
+            "Наушники как главный предмет передают идею личного пространства, уединения и погружения в свой ритм.",
+            "Кошелёк выбран в качестве фонового компаньона, так как символизирует личные ценности, сохранность и принадлежность внутреннему миру.",
+            "Композиция выстроена компактно, объединяя смысловые элементы в единую сбалансированную группу."
+          ],
+          "groups": [],
+          "formatPlans": [],
+          "stagingPlans": [
+            {
+              "format": "square",
+              "views": [
+                {
+                  "principle": "Центральное размещение наушников с компактным дополнением кошелька справа внизу",
+                  "placements": [
+                    {
+                      "uid": "imw1zp0wmmgxap1",
+                      "relation": "canvas",
+                      "x": 0.5,
+                      "y": 0.45,
+                      "gap": 0,
+                      "rotation": 0
+                    },
+                    {
+                      "uid": "imw1zp0wmt6w1yb",
+                      "relation": "right",
+                      "targetUid": "imw1zp0wmmgxap1",
+                      "x": 0.72,
+                      "y": 0.7,
+                      "gap": 0.05,
+                      "rotation": 0
+                    }
+                  ]
+                },
+                {
+                  "principle": "Смещение главной группы чуть выше с гармоничным расположением фона",
+                  "placements": [
+                    {
+                      "uid": "imw1zp0wmmgxap1",
+                      "relation": "canvas",
+                      "x": 0.48,
+                      "y": 0.42,
+                      "gap": 0,
+                      "rotation": 0
+                    },
+                    {
+                      "uid": "imw1zp0wmt6w1yb",
+                      "relation": "right",
+                      "targetUid": "imw1zp0wmmgxap1",
+                      "x": 0.75,
+                      "y": 0.68,
+                      "gap": 0.06,
+                      "rotation": 0
+                    }
+                  ]
+                },
+                {
+                  "principle": "Диагональное построение для создания динамики в квадратном формате",
+                  "placements": [
+                    {
+                      "uid": "imw1zp0wmmgxap1",
+                      "relation": "canvas",
+                      "x": 0.46,
+                      "y": 0.48,
+                      "gap": 0,
+                      "rotation": 0
+                    },
+                    {
+                      "uid": "imw1zp0wmt6w1yb",
+                      "relation": "right",
+                      "targetUid": "imw1zp0wmmgxap1",
+                      "x": 0.7,
+                      "y": 0.72,
+                      "gap": 0.04,
+                      "rotation": 0
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "format": "landscape",
+              "views": [
+                {
+                  "principle": "Горизонтальный баланс с акцентом наушников по центру и фоном сбоку",
+                  "placements": [
+                    {
+                      "uid": "imw1zp0wmmgxap1",
+                      "relation": "canvas",
+                      "x": 0.48,
+                      "y": 0.5,
+                      "gap": 0,
+                      "rotation": 0
+                    },
+                    {
+                      "uid": "imw1zp0wmt6w1yb",
+                      "relation": "right",
+                      "targetUid": "imw1zp0wmmgxap1",
+                      "x": 0.75,
+                      "y": 0.65,
+                      "gap": 0.08,
+                      "rotation": 0
+                    }
+                  ]
+                },
+                {
+                  "principle": "Сдвиг композиции влево с сохранением читаемости объектов",
+                  "placements": [
+                    {
+                      "uid": "imw1zp0wmmgxap1",
+                      "relation": "canvas",
+                      "x": 0.45,
+                      "y": 0.48,
+                      "gap": 0,
+                      "rotation": 0
+                    },
+                    {
+                      "uid": "imw1zp0wmt6w1yb",
+                      "relation": "right",
+                      "targetUid": "imw1zp0wmmgxap1",
+                      "x": 0.72,
+                      "y": 0.62,
+                      "gap": 0.06,
+                      "rotation": 0
+                    }
+                  ]
+                },
+                {
+                  "principle": "Просторное горизонтальное размещение с мягким диагональным акцентом",
+                  "placements": [
+                    {
+                      "uid": "imw1zp0wmmgxap1",
+                      "relation": "canvas",
+                      "x": 0.5,
+                      "y": 0.46,
+                      "gap": 0,
+                      "rotation": 0
+                    },
+                    {
+                      "uid": "imw1zp0wmt6w1yb",
+                      "relation": "right",
+                      "targetUid": "imw1zp0wmmgxap1",
+                      "x": 0.78,
+                      "y": 0.68,
+                      "gap": 0.09,
+                      "rotation": 0
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "format": "portrait",
+              "views": [
+                {
+                  "principle": "Вертикальная компоновка с акцентом в верхней части кадра",
+                  "placements": [
+                    {
+                      "uid": "imw1zp0wmmgxap1",
+                      "relation": "canvas",
+                      "x": 0.5,
+                      "y": 0.42,
+                      "gap": 0,
+                      "rotation": 0
+                    },
+                    {
+                      "uid": "imw1zp0wmt6w1yb",
+                      "relation": "below",
+                      "targetUid": "imw1zp0wmmgxap1",
+                      "x": 0.55,
+                      "y": 0.72,
+                      "gap": 0.08,
+                      "rotation": 0
+                    }
+                  ]
+                },
+                {
+                  "principle": "Сбалансированное вертикальное размещение объектов по центру",
+                  "placements": [
+                    {
+                      "uid": "imw1zp0wmmgxap1",
+                      "relation": "canvas",
+                      "x": 0.5,
+                      "y": 0.45,
+                      "gap": 0,
+                      "rotation": 0
+                    },
+                    {
+                      "uid": "imw1zp0wmt6w1yb",
+                      "relation": "below",
+                      "targetUid": "imw1zp0wmmgxap1",
+                      "x": 0.52,
+                      "y": 0.75,
+                      "gap": 0.07,
+                      "rotation": 0
+                    }
+                  ]
+                },
+                {
+                  "principle": "Плотная вертикальная связка для вертикального формата",
+                  "placements": [
+                    {
+                      "uid": "imw1zp0wmmgxap1",
+                      "relation": "canvas",
+                      "x": 0.5,
+                      "y": 0.4,
+                      "gap": 0,
+                      "rotation": 0
+                    },
+                    {
+                      "uid": "imw1zp0wmt6w1yb",
+                      "relation": "below",
+                      "targetUid": "imw1zp0wmmgxap1",
+                      "x": 0.5,
+                      "y": 0.7,
+                      "gap": 0.06,
+                      "rotation": 0
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "width": 1200,
+          "height": 630,
+          "format": "landscape",
+          "size": "S",
+          "palette": "aqua",
+          "layout": "compact",
+          "background": "pattern",
+          "backgroundDesign": "auto",
+          "supporting": true,
+          "showSupporting": true,
+          "camera": null,
+          "composition": {
+            "index": 1,
+            "options": [
+              {
+                "strategy": "balanced",
+                "title": "На опоре",
+                "principle": "Центральное размещение наушников с компактным дополнением кошелька справа внизу",
+                "placement": "on-surface"
+              },
+              {
+                "strategy": "spacious",
+                "title": "Рядом",
+                "principle": "Смещение главной группы чуть выше с гармоничным расположением фона",
+                "placement": "beside"
+              },
+              {
+                "strategy": "diagonal",
+                "title": "Другой ракурс группы",
+                "principle": "Диагональное построение для создания динамики в квадратном формате",
+                "placement": "across"
+              }
+            ]
+          },
+          "layerRelations": [
+            {
+              "back": "imw1zp0wmt6w1yb",
+              "front": "imw1zp0wmmgxap1",
+              "reason": "Фоновый компаньон находится позади главной группы."
+            }
+          ],
+          "recipe": "auto",
+          "framing": "overview",
+          "focus": "headphones",
+          "query": "Личное пространство",
+          "scale": 1,
+          "items": [
+            {
+              "uid": "imw1zp0wmt6w1yb",
+              "assetId": "wallet",
+              "role": "background",
+              "x": 973.1273437499999,
+              "y": 404.53000000000003,
+              "rotation": 0,
+              "flipX": false,
+              "flipY": false,
+              "zone": "bottom-right",
+              "crop": "whole"
+            },
+            {
+              "uid": "imw1zp0wmmgxap1",
+              "assetId": "headphones",
+              "role": "main",
+              "x": 557.8,
+              "y": 312.78,
+              "rotation": 0,
+              "flipX": false,
+              "flipY": false,
+              "zone": "auto",
+              "crop": "whole"
+            }
+          ]
+        },
+        {
+          "version": 1,
+          "sizing": "native",
+          "environmentPrompt": "",
+          "environmentExplanation": [
+            "Наушники как главный предмет передают идею личного пространства, уединения и погружения в свой ритм.",
+            "Кошелёк выбран в качестве фонового компаньона, так как символизирует личные ценности, сохранность и принадлежность внутреннему миру.",
+            "Композиция выстроена компактно, объединяя смысловые элементы в единую сбалансированную группу."
+          ],
+          "groups": [],
+          "formatPlans": [],
+          "stagingPlans": [
+            {
+              "format": "square",
+              "views": [
+                {
+                  "principle": "Центральное размещение наушников с компактным дополнением кошелька справа внизу",
+                  "placements": [
+                    {
+                      "uid": "imw1zp0wmmgxap1",
+                      "relation": "canvas",
+                      "x": 0.5,
+                      "y": 0.45,
+                      "gap": 0,
+                      "rotation": 0
+                    },
+                    {
+                      "uid": "imw1zp0wmt6w1yb",
+                      "relation": "right",
+                      "targetUid": "imw1zp0wmmgxap1",
+                      "x": 0.72,
+                      "y": 0.7,
+                      "gap": 0.05,
+                      "rotation": 0
+                    }
+                  ]
+                },
+                {
+                  "principle": "Смещение главной группы чуть выше с гармоничным расположением фона",
+                  "placements": [
+                    {
+                      "uid": "imw1zp0wmmgxap1",
+                      "relation": "canvas",
+                      "x": 0.48,
+                      "y": 0.42,
+                      "gap": 0,
+                      "rotation": 0
+                    },
+                    {
+                      "uid": "imw1zp0wmt6w1yb",
+                      "relation": "right",
+                      "targetUid": "imw1zp0wmmgxap1",
+                      "x": 0.75,
+                      "y": 0.68,
+                      "gap": 0.06,
+                      "rotation": 0
+                    }
+                  ]
+                },
+                {
+                  "principle": "Диагональное построение для создания динамики в квадратном формате",
+                  "placements": [
+                    {
+                      "uid": "imw1zp0wmmgxap1",
+                      "relation": "canvas",
+                      "x": 0.46,
+                      "y": 0.48,
+                      "gap": 0,
+                      "rotation": 0
+                    },
+                    {
+                      "uid": "imw1zp0wmt6w1yb",
+                      "relation": "right",
+                      "targetUid": "imw1zp0wmmgxap1",
+                      "x": 0.7,
+                      "y": 0.72,
+                      "gap": 0.04,
+                      "rotation": 0
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "format": "landscape",
+              "views": [
+                {
+                  "principle": "Горизонтальный баланс с акцентом наушников по центру и фоном сбоку",
+                  "placements": [
+                    {
+                      "uid": "imw1zp0wmmgxap1",
+                      "relation": "canvas",
+                      "x": 0.48,
+                      "y": 0.5,
+                      "gap": 0,
+                      "rotation": 0
+                    },
+                    {
+                      "uid": "imw1zp0wmt6w1yb",
+                      "relation": "right",
+                      "targetUid": "imw1zp0wmmgxap1",
+                      "x": 0.75,
+                      "y": 0.65,
+                      "gap": 0.08,
+                      "rotation": 0
+                    }
+                  ]
+                },
+                {
+                  "principle": "Сдвиг композиции влево с сохранением читаемости объектов",
+                  "placements": [
+                    {
+                      "uid": "imw1zp0wmmgxap1",
+                      "relation": "canvas",
+                      "x": 0.45,
+                      "y": 0.48,
+                      "gap": 0,
+                      "rotation": 0
+                    },
+                    {
+                      "uid": "imw1zp0wmt6w1yb",
+                      "relation": "right",
+                      "targetUid": "imw1zp0wmmgxap1",
+                      "x": 0.72,
+                      "y": 0.62,
+                      "gap": 0.06,
+                      "rotation": 0
+                    }
+                  ]
+                },
+                {
+                  "principle": "Просторное горизонтальное размещение с мягким диагональным акцентом",
+                  "placements": [
+                    {
+                      "uid": "imw1zp0wmmgxap1",
+                      "relation": "canvas",
+                      "x": 0.5,
+                      "y": 0.46,
+                      "gap": 0,
+                      "rotation": 0
+                    },
+                    {
+                      "uid": "imw1zp0wmt6w1yb",
+                      "relation": "right",
+                      "targetUid": "imw1zp0wmmgxap1",
+                      "x": 0.78,
+                      "y": 0.68,
+                      "gap": 0.09,
+                      "rotation": 0
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "format": "portrait",
+              "views": [
+                {
+                  "principle": "Вертикальная компоновка с акцентом в верхней части кадра",
+                  "placements": [
+                    {
+                      "uid": "imw1zp0wmmgxap1",
+                      "relation": "canvas",
+                      "x": 0.5,
+                      "y": 0.42,
+                      "gap": 0,
+                      "rotation": 0
+                    },
+                    {
+                      "uid": "imw1zp0wmt6w1yb",
+                      "relation": "below",
+                      "targetUid": "imw1zp0wmmgxap1",
+                      "x": 0.55,
+                      "y": 0.72,
+                      "gap": 0.08,
+                      "rotation": 0
+                    }
+                  ]
+                },
+                {
+                  "principle": "Сбалансированное вертикальное размещение объектов по центру",
+                  "placements": [
+                    {
+                      "uid": "imw1zp0wmmgxap1",
+                      "relation": "canvas",
+                      "x": 0.5,
+                      "y": 0.45,
+                      "gap": 0,
+                      "rotation": 0
+                    },
+                    {
+                      "uid": "imw1zp0wmt6w1yb",
+                      "relation": "below",
+                      "targetUid": "imw1zp0wmmgxap1",
+                      "x": 0.52,
+                      "y": 0.75,
+                      "gap": 0.07,
+                      "rotation": 0
+                    }
+                  ]
+                },
+                {
+                  "principle": "Плотная вертикальная связка для вертикального формата",
+                  "placements": [
+                    {
+                      "uid": "imw1zp0wmmgxap1",
+                      "relation": "canvas",
+                      "x": 0.5,
+                      "y": 0.4,
+                      "gap": 0,
+                      "rotation": 0
+                    },
+                    {
+                      "uid": "imw1zp0wmt6w1yb",
+                      "relation": "below",
+                      "targetUid": "imw1zp0wmmgxap1",
+                      "x": 0.5,
+                      "y": 0.7,
+                      "gap": 0.06,
+                      "rotation": 0
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "width": 1200,
+          "height": 630,
+          "format": "landscape",
+          "size": "S",
+          "palette": "aqua",
+          "layout": "compact",
+          "background": "pattern",
+          "backgroundDesign": "auto",
+          "supporting": true,
+          "showSupporting": true,
+          "camera": null,
+          "composition": {
+            "index": 2,
+            "options": [
+              {
+                "strategy": "balanced",
+                "title": "На опоре",
+                "principle": "Центральное размещение наушников с компактным дополнением кошелька справа внизу",
+                "placement": "on-surface"
+              },
+              {
+                "strategy": "spacious",
+                "title": "Рядом",
+                "principle": "Смещение главной группы чуть выше с гармоничным расположением фона",
+                "placement": "beside"
+              },
+              {
+                "strategy": "diagonal",
+                "title": "Другой ракурс группы",
+                "principle": "Диагональное построение для создания динамики в квадратном формате",
+                "placement": "across"
+              }
+            ]
+          },
+          "layerRelations": [
+            {
+              "back": "imw1zp0wmt6w1yb",
+              "front": "imw1zp0wmmgxap1",
+              "reason": "Фоновый компаньон находится позади главной группы."
+            }
+          ],
+          "recipe": "auto",
+          "framing": "overview",
+          "focus": "headphones",
+          "query": "Личное пространство",
+          "scale": 1,
+          "items": [
+            {
+              "uid": "imw1zp0wmt6w1yb",
+              "assetId": "wallet",
+              "role": "background",
+              "x": 1052.02734375,
+              "y": 442.33000000000004,
+              "rotation": 0,
+              "flipX": false,
+              "flipY": false,
+              "zone": "bottom-right",
+              "crop": "whole"
+            },
+            {
+              "uid": "imw1zp0wmmgxap1",
+              "assetId": "headphones",
+              "role": "main",
+              "x": 617.8,
+              "y": 300.18,
+              "rotation": 0,
+              "flipX": false,
+              "flipY": false,
+              "zone": "auto",
+              "crop": "whole"
+            }
+          ]
+        }
+      ],
+      "portrait": [
+        {
+          "version": 1,
+          "sizing": "native",
+          "environmentPrompt": "",
+          "environmentExplanation": [
+            "Наушники как главный предмет передают идею личного пространства, уединения и погружения в свой ритм.",
+            "Кошелёк выбран в качестве фонового компаньона, так как символизирует личные ценности, сохранность и принадлежность внутреннему миру.",
+            "Композиция выстроена компактно, объединяя смысловые элементы в единую сбалансированную группу."
+          ],
+          "groups": [],
+          "formatPlans": [],
+          "stagingPlans": [
+            {
+              "format": "square",
+              "views": [
+                {
+                  "principle": "Центральное размещение наушников с компактным дополнением кошелька справа внизу",
+                  "placements": [
+                    {
+                      "uid": "imw1zp0wmmgxap1",
+                      "relation": "canvas",
+                      "x": 0.5,
+                      "y": 0.45,
+                      "gap": 0,
+                      "rotation": 0
+                    },
+                    {
+                      "uid": "imw1zp0wmt6w1yb",
+                      "relation": "right",
+                      "targetUid": "imw1zp0wmmgxap1",
+                      "x": 0.72,
+                      "y": 0.7,
+                      "gap": 0.05,
+                      "rotation": 0
+                    }
+                  ]
+                },
+                {
+                  "principle": "Смещение главной группы чуть выше с гармоничным расположением фона",
+                  "placements": [
+                    {
+                      "uid": "imw1zp0wmmgxap1",
+                      "relation": "canvas",
+                      "x": 0.48,
+                      "y": 0.42,
+                      "gap": 0,
+                      "rotation": 0
+                    },
+                    {
+                      "uid": "imw1zp0wmt6w1yb",
+                      "relation": "right",
+                      "targetUid": "imw1zp0wmmgxap1",
+                      "x": 0.75,
+                      "y": 0.68,
+                      "gap": 0.06,
+                      "rotation": 0
+                    }
+                  ]
+                },
+                {
+                  "principle": "Диагональное построение для создания динамики в квадратном формате",
+                  "placements": [
+                    {
+                      "uid": "imw1zp0wmmgxap1",
+                      "relation": "canvas",
+                      "x": 0.46,
+                      "y": 0.48,
+                      "gap": 0,
+                      "rotation": 0
+                    },
+                    {
+                      "uid": "imw1zp0wmt6w1yb",
+                      "relation": "right",
+                      "targetUid": "imw1zp0wmmgxap1",
+                      "x": 0.7,
+                      "y": 0.72,
+                      "gap": 0.04,
+                      "rotation": 0
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "format": "landscape",
+              "views": [
+                {
+                  "principle": "Горизонтальный баланс с акцентом наушников по центру и фоном сбоку",
+                  "placements": [
+                    {
+                      "uid": "imw1zp0wmmgxap1",
+                      "relation": "canvas",
+                      "x": 0.48,
+                      "y": 0.5,
+                      "gap": 0,
+                      "rotation": 0
+                    },
+                    {
+                      "uid": "imw1zp0wmt6w1yb",
+                      "relation": "right",
+                      "targetUid": "imw1zp0wmmgxap1",
+                      "x": 0.75,
+                      "y": 0.65,
+                      "gap": 0.08,
+                      "rotation": 0
+                    }
+                  ]
+                },
+                {
+                  "principle": "Сдвиг композиции влево с сохранением читаемости объектов",
+                  "placements": [
+                    {
+                      "uid": "imw1zp0wmmgxap1",
+                      "relation": "canvas",
+                      "x": 0.45,
+                      "y": 0.48,
+                      "gap": 0,
+                      "rotation": 0
+                    },
+                    {
+                      "uid": "imw1zp0wmt6w1yb",
+                      "relation": "right",
+                      "targetUid": "imw1zp0wmmgxap1",
+                      "x": 0.72,
+                      "y": 0.62,
+                      "gap": 0.06,
+                      "rotation": 0
+                    }
+                  ]
+                },
+                {
+                  "principle": "Просторное горизонтальное размещение с мягким диагональным акцентом",
+                  "placements": [
+                    {
+                      "uid": "imw1zp0wmmgxap1",
+                      "relation": "canvas",
+                      "x": 0.5,
+                      "y": 0.46,
+                      "gap": 0,
+                      "rotation": 0
+                    },
+                    {
+                      "uid": "imw1zp0wmt6w1yb",
+                      "relation": "right",
+                      "targetUid": "imw1zp0wmmgxap1",
+                      "x": 0.78,
+                      "y": 0.68,
+                      "gap": 0.09,
+                      "rotation": 0
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "format": "portrait",
+              "views": [
+                {
+                  "principle": "Вертикальная компоновка с акцентом в верхней части кадра",
+                  "placements": [
+                    {
+                      "uid": "imw1zp0wmmgxap1",
+                      "relation": "canvas",
+                      "x": 0.5,
+                      "y": 0.42,
+                      "gap": 0,
+                      "rotation": 0
+                    },
+                    {
+                      "uid": "imw1zp0wmt6w1yb",
+                      "relation": "below",
+                      "targetUid": "imw1zp0wmmgxap1",
+                      "x": 0.55,
+                      "y": 0.72,
+                      "gap": 0.08,
+                      "rotation": 0
+                    }
+                  ]
+                },
+                {
+                  "principle": "Сбалансированное вертикальное размещение объектов по центру",
+                  "placements": [
+                    {
+                      "uid": "imw1zp0wmmgxap1",
+                      "relation": "canvas",
+                      "x": 0.5,
+                      "y": 0.45,
+                      "gap": 0,
+                      "rotation": 0
+                    },
+                    {
+                      "uid": "imw1zp0wmt6w1yb",
+                      "relation": "below",
+                      "targetUid": "imw1zp0wmmgxap1",
+                      "x": 0.52,
+                      "y": 0.75,
+                      "gap": 0.07,
+                      "rotation": 0
+                    }
+                  ]
+                },
+                {
+                  "principle": "Плотная вертикальная связка для вертикального формата",
+                  "placements": [
+                    {
+                      "uid": "imw1zp0wmmgxap1",
+                      "relation": "canvas",
+                      "x": 0.5,
+                      "y": 0.4,
+                      "gap": 0,
+                      "rotation": 0
+                    },
+                    {
+                      "uid": "imw1zp0wmt6w1yb",
+                      "relation": "below",
+                      "targetUid": "imw1zp0wmmgxap1",
+                      "x": 0.5,
+                      "y": 0.7,
+                      "gap": 0.06,
+                      "rotation": 0
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "width": 800,
+          "height": 1200,
+          "format": "portrait",
+          "size": "S",
+          "palette": "aqua",
+          "layout": "compact",
+          "background": "pattern",
+          "backgroundDesign": "auto",
+          "supporting": true,
+          "showSupporting": true,
+          "camera": null,
+          "composition": {
+            "index": 0,
+            "options": [
+              {
+                "strategy": "balanced",
+                "title": "На опоре",
+                "principle": "Центральное размещение наушников с компактным дополнением кошелька справа внизу",
+                "placement": "on-surface"
+              },
+              {
+                "strategy": "spacious",
+                "title": "Рядом",
+                "principle": "Смещение главной группы чуть выше с гармоничным расположением фона",
+                "placement": "beside"
+              },
+              {
+                "strategy": "diagonal",
+                "title": "Другой ракурс группы",
+                "principle": "Диагональное построение для создания динамики в квадратном формате",
+                "placement": "across"
+              }
+            ]
+          },
+          "layerRelations": [
+            {
+              "back": "imw1zp0wmt6w1yb",
+              "front": "imw1zp0wmmgxap1",
+              "reason": "Фоновый компаньон находится позади главной группы."
+            }
+          ],
+          "recipe": "auto",
+          "framing": "overview",
+          "focus": "headphones",
+          "query": "Личное пространство",
+          "scale": 1,
+          "items": [
+            {
+              "uid": "imw1zp0wmt6w1yb",
+              "assetId": "wallet",
+              "role": "background",
+              "x": 462.12000000000006,
+              "y": 877.93,
+              "rotation": 0,
+              "flipX": false,
+              "flipY": false,
+              "zone": "bottom-right",
+              "crop": "whole"
+            },
+            {
+              "uid": "imw1zp0wmmgxap1",
+              "assetId": "headphones",
+              "role": "main",
+              "x": 417.8,
+              "y": 514.38,
+              "rotation": 0,
+              "flipX": false,
+              "flipY": false,
+              "zone": "auto",
+              "crop": "whole"
+            }
+          ]
+        },
+        {
+          "version": 1,
+          "sizing": "native",
+          "environmentPrompt": "",
+          "environmentExplanation": [
+            "Наушники как главный предмет передают идею личного пространства, уединения и погружения в свой ритм.",
+            "Кошелёк выбран в качестве фонового компаньона, так как символизирует личные ценности, сохранность и принадлежность внутреннему миру.",
+            "Композиция выстроена компактно, объединяя смысловые элементы в единую сбалансированную группу."
+          ],
+          "groups": [],
+          "formatPlans": [],
+          "stagingPlans": [
+            {
+              "format": "square",
+              "views": [
+                {
+                  "principle": "Центральное размещение наушников с компактным дополнением кошелька справа внизу",
+                  "placements": [
+                    {
+                      "uid": "imw1zp0wmmgxap1",
+                      "relation": "canvas",
+                      "x": 0.5,
+                      "y": 0.45,
+                      "gap": 0,
+                      "rotation": 0
+                    },
+                    {
+                      "uid": "imw1zp0wmt6w1yb",
+                      "relation": "right",
+                      "targetUid": "imw1zp0wmmgxap1",
+                      "x": 0.72,
+                      "y": 0.7,
+                      "gap": 0.05,
+                      "rotation": 0
+                    }
+                  ]
+                },
+                {
+                  "principle": "Смещение главной группы чуть выше с гармоничным расположением фона",
+                  "placements": [
+                    {
+                      "uid": "imw1zp0wmmgxap1",
+                      "relation": "canvas",
+                      "x": 0.48,
+                      "y": 0.42,
+                      "gap": 0,
+                      "rotation": 0
+                    },
+                    {
+                      "uid": "imw1zp0wmt6w1yb",
+                      "relation": "right",
+                      "targetUid": "imw1zp0wmmgxap1",
+                      "x": 0.75,
+                      "y": 0.68,
+                      "gap": 0.06,
+                      "rotation": 0
+                    }
+                  ]
+                },
+                {
+                  "principle": "Диагональное построение для создания динамики в квадратном формате",
+                  "placements": [
+                    {
+                      "uid": "imw1zp0wmmgxap1",
+                      "relation": "canvas",
+                      "x": 0.46,
+                      "y": 0.48,
+                      "gap": 0,
+                      "rotation": 0
+                    },
+                    {
+                      "uid": "imw1zp0wmt6w1yb",
+                      "relation": "right",
+                      "targetUid": "imw1zp0wmmgxap1",
+                      "x": 0.7,
+                      "y": 0.72,
+                      "gap": 0.04,
+                      "rotation": 0
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "format": "landscape",
+              "views": [
+                {
+                  "principle": "Горизонтальный баланс с акцентом наушников по центру и фоном сбоку",
+                  "placements": [
+                    {
+                      "uid": "imw1zp0wmmgxap1",
+                      "relation": "canvas",
+                      "x": 0.48,
+                      "y": 0.5,
+                      "gap": 0,
+                      "rotation": 0
+                    },
+                    {
+                      "uid": "imw1zp0wmt6w1yb",
+                      "relation": "right",
+                      "targetUid": "imw1zp0wmmgxap1",
+                      "x": 0.75,
+                      "y": 0.65,
+                      "gap": 0.08,
+                      "rotation": 0
+                    }
+                  ]
+                },
+                {
+                  "principle": "Сдвиг композиции влево с сохранением читаемости объектов",
+                  "placements": [
+                    {
+                      "uid": "imw1zp0wmmgxap1",
+                      "relation": "canvas",
+                      "x": 0.45,
+                      "y": 0.48,
+                      "gap": 0,
+                      "rotation": 0
+                    },
+                    {
+                      "uid": "imw1zp0wmt6w1yb",
+                      "relation": "right",
+                      "targetUid": "imw1zp0wmmgxap1",
+                      "x": 0.72,
+                      "y": 0.62,
+                      "gap": 0.06,
+                      "rotation": 0
+                    }
+                  ]
+                },
+                {
+                  "principle": "Просторное горизонтальное размещение с мягким диагональным акцентом",
+                  "placements": [
+                    {
+                      "uid": "imw1zp0wmmgxap1",
+                      "relation": "canvas",
+                      "x": 0.5,
+                      "y": 0.46,
+                      "gap": 0,
+                      "rotation": 0
+                    },
+                    {
+                      "uid": "imw1zp0wmt6w1yb",
+                      "relation": "right",
+                      "targetUid": "imw1zp0wmmgxap1",
+                      "x": 0.78,
+                      "y": 0.68,
+                      "gap": 0.09,
+                      "rotation": 0
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "format": "portrait",
+              "views": [
+                {
+                  "principle": "Вертикальная компоновка с акцентом в верхней части кадра",
+                  "placements": [
+                    {
+                      "uid": "imw1zp0wmmgxap1",
+                      "relation": "canvas",
+                      "x": 0.5,
+                      "y": 0.42,
+                      "gap": 0,
+                      "rotation": 0
+                    },
+                    {
+                      "uid": "imw1zp0wmt6w1yb",
+                      "relation": "below",
+                      "targetUid": "imw1zp0wmmgxap1",
+                      "x": 0.55,
+                      "y": 0.72,
+                      "gap": 0.08,
+                      "rotation": 0
+                    }
+                  ]
+                },
+                {
+                  "principle": "Сбалансированное вертикальное размещение объектов по центру",
+                  "placements": [
+                    {
+                      "uid": "imw1zp0wmmgxap1",
+                      "relation": "canvas",
+                      "x": 0.5,
+                      "y": 0.45,
+                      "gap": 0,
+                      "rotation": 0
+                    },
+                    {
+                      "uid": "imw1zp0wmt6w1yb",
+                      "relation": "below",
+                      "targetUid": "imw1zp0wmmgxap1",
+                      "x": 0.52,
+                      "y": 0.75,
+                      "gap": 0.07,
+                      "rotation": 0
+                    }
+                  ]
+                },
+                {
+                  "principle": "Плотная вертикальная связка для вертикального формата",
+                  "placements": [
+                    {
+                      "uid": "imw1zp0wmmgxap1",
+                      "relation": "canvas",
+                      "x": 0.5,
+                      "y": 0.4,
+                      "gap": 0,
+                      "rotation": 0
+                    },
+                    {
+                      "uid": "imw1zp0wmt6w1yb",
+                      "relation": "below",
+                      "targetUid": "imw1zp0wmmgxap1",
+                      "x": 0.5,
+                      "y": 0.7,
+                      "gap": 0.06,
+                      "rotation": 0
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "width": 800,
+          "height": 1200,
+          "format": "portrait",
+          "size": "S",
+          "palette": "aqua",
+          "layout": "compact",
+          "background": "pattern",
+          "backgroundDesign": "auto",
+          "supporting": true,
+          "showSupporting": true,
+          "camera": null,
+          "composition": {
+            "index": 1,
+            "options": [
+              {
+                "strategy": "balanced",
+                "title": "На опоре",
+                "principle": "Центральное размещение наушников с компактным дополнением кошелька справа внизу",
+                "placement": "on-surface"
+              },
+              {
+                "strategy": "spacious",
+                "title": "Рядом",
+                "principle": "Смещение главной группы чуть выше с гармоничным расположением фона",
+                "placement": "beside"
+              },
+              {
+                "strategy": "diagonal",
+                "title": "Другой ракурс группы",
+                "principle": "Диагональное построение для создания динамики в квадратном формате",
+                "placement": "across"
+              }
+            ]
+          },
+          "layerRelations": [
+            {
+              "back": "imw1zp0wmt6w1yb",
+              "front": "imw1zp0wmmgxap1",
+              "reason": "Фоновый компаньон находится позади главной группы."
+            }
+          ],
+          "recipe": "auto",
+          "framing": "overview",
+          "focus": "headphones",
+          "query": "Личное пространство",
+          "scale": 1,
+          "items": [
+            {
+              "uid": "imw1zp0wmt6w1yb",
+              "assetId": "wallet",
+              "role": "background",
+              "x": 438.12,
+              "y": 913.93,
+              "rotation": 0,
+              "flipX": false,
+              "flipY": false,
+              "zone": "bottom-right",
+              "crop": "whole"
+            },
+            {
+              "uid": "imw1zp0wmmgxap1",
+              "assetId": "headphones",
+              "role": "main",
+              "x": 417.8,
+              "y": 550.38,
+              "rotation": 0,
+              "flipX": false,
+              "flipY": false,
+              "zone": "auto",
+              "crop": "whole"
+            }
+          ]
+        },
+        {
+          "version": 1,
+          "sizing": "native",
+          "environmentPrompt": "",
+          "environmentExplanation": [
+            "Наушники как главный предмет передают идею личного пространства, уединения и погружения в свой ритм.",
+            "Кошелёк выбран в качестве фонового компаньона, так как символизирует личные ценности, сохранность и принадлежность внутреннему миру.",
+            "Композиция выстроена компактно, объединяя смысловые элементы в единую сбалансированную группу."
+          ],
+          "groups": [],
+          "formatPlans": [],
+          "stagingPlans": [
+            {
+              "format": "square",
+              "views": [
+                {
+                  "principle": "Центральное размещение наушников с компактным дополнением кошелька справа внизу",
+                  "placements": [
+                    {
+                      "uid": "imw1zp0wmmgxap1",
+                      "relation": "canvas",
+                      "x": 0.5,
+                      "y": 0.45,
+                      "gap": 0,
+                      "rotation": 0
+                    },
+                    {
+                      "uid": "imw1zp0wmt6w1yb",
+                      "relation": "right",
+                      "targetUid": "imw1zp0wmmgxap1",
+                      "x": 0.72,
+                      "y": 0.7,
+                      "gap": 0.05,
+                      "rotation": 0
+                    }
+                  ]
+                },
+                {
+                  "principle": "Смещение главной группы чуть выше с гармоничным расположением фона",
+                  "placements": [
+                    {
+                      "uid": "imw1zp0wmmgxap1",
+                      "relation": "canvas",
+                      "x": 0.48,
+                      "y": 0.42,
+                      "gap": 0,
+                      "rotation": 0
+                    },
+                    {
+                      "uid": "imw1zp0wmt6w1yb",
+                      "relation": "right",
+                      "targetUid": "imw1zp0wmmgxap1",
+                      "x": 0.75,
+                      "y": 0.68,
+                      "gap": 0.06,
+                      "rotation": 0
+                    }
+                  ]
+                },
+                {
+                  "principle": "Диагональное построение для создания динамики в квадратном формате",
+                  "placements": [
+                    {
+                      "uid": "imw1zp0wmmgxap1",
+                      "relation": "canvas",
+                      "x": 0.46,
+                      "y": 0.48,
+                      "gap": 0,
+                      "rotation": 0
+                    },
+                    {
+                      "uid": "imw1zp0wmt6w1yb",
+                      "relation": "right",
+                      "targetUid": "imw1zp0wmmgxap1",
+                      "x": 0.7,
+                      "y": 0.72,
+                      "gap": 0.04,
+                      "rotation": 0
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "format": "landscape",
+              "views": [
+                {
+                  "principle": "Горизонтальный баланс с акцентом наушников по центру и фоном сбоку",
+                  "placements": [
+                    {
+                      "uid": "imw1zp0wmmgxap1",
+                      "relation": "canvas",
+                      "x": 0.48,
+                      "y": 0.5,
+                      "gap": 0,
+                      "rotation": 0
+                    },
+                    {
+                      "uid": "imw1zp0wmt6w1yb",
+                      "relation": "right",
+                      "targetUid": "imw1zp0wmmgxap1",
+                      "x": 0.75,
+                      "y": 0.65,
+                      "gap": 0.08,
+                      "rotation": 0
+                    }
+                  ]
+                },
+                {
+                  "principle": "Сдвиг композиции влево с сохранением читаемости объектов",
+                  "placements": [
+                    {
+                      "uid": "imw1zp0wmmgxap1",
+                      "relation": "canvas",
+                      "x": 0.45,
+                      "y": 0.48,
+                      "gap": 0,
+                      "rotation": 0
+                    },
+                    {
+                      "uid": "imw1zp0wmt6w1yb",
+                      "relation": "right",
+                      "targetUid": "imw1zp0wmmgxap1",
+                      "x": 0.72,
+                      "y": 0.62,
+                      "gap": 0.06,
+                      "rotation": 0
+                    }
+                  ]
+                },
+                {
+                  "principle": "Просторное горизонтальное размещение с мягким диагональным акцентом",
+                  "placements": [
+                    {
+                      "uid": "imw1zp0wmmgxap1",
+                      "relation": "canvas",
+                      "x": 0.5,
+                      "y": 0.46,
+                      "gap": 0,
+                      "rotation": 0
+                    },
+                    {
+                      "uid": "imw1zp0wmt6w1yb",
+                      "relation": "right",
+                      "targetUid": "imw1zp0wmmgxap1",
+                      "x": 0.78,
+                      "y": 0.68,
+                      "gap": 0.09,
+                      "rotation": 0
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "format": "portrait",
+              "views": [
+                {
+                  "principle": "Вертикальная компоновка с акцентом в верхней части кадра",
+                  "placements": [
+                    {
+                      "uid": "imw1zp0wmmgxap1",
+                      "relation": "canvas",
+                      "x": 0.5,
+                      "y": 0.42,
+                      "gap": 0,
+                      "rotation": 0
+                    },
+                    {
+                      "uid": "imw1zp0wmt6w1yb",
+                      "relation": "below",
+                      "targetUid": "imw1zp0wmmgxap1",
+                      "x": 0.55,
+                      "y": 0.72,
+                      "gap": 0.08,
+                      "rotation": 0
+                    }
+                  ]
+                },
+                {
+                  "principle": "Сбалансированное вертикальное размещение объектов по центру",
+                  "placements": [
+                    {
+                      "uid": "imw1zp0wmmgxap1",
+                      "relation": "canvas",
+                      "x": 0.5,
+                      "y": 0.45,
+                      "gap": 0,
+                      "rotation": 0
+                    },
+                    {
+                      "uid": "imw1zp0wmt6w1yb",
+                      "relation": "below",
+                      "targetUid": "imw1zp0wmmgxap1",
+                      "x": 0.52,
+                      "y": 0.75,
+                      "gap": 0.07,
+                      "rotation": 0
+                    }
+                  ]
+                },
+                {
+                  "principle": "Плотная вертикальная связка для вертикального формата",
+                  "placements": [
+                    {
+                      "uid": "imw1zp0wmmgxap1",
+                      "relation": "canvas",
+                      "x": 0.5,
+                      "y": 0.4,
+                      "gap": 0,
+                      "rotation": 0
+                    },
+                    {
+                      "uid": "imw1zp0wmt6w1yb",
+                      "relation": "below",
+                      "targetUid": "imw1zp0wmmgxap1",
+                      "x": 0.5,
+                      "y": 0.7,
+                      "gap": 0.06,
+                      "rotation": 0
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "width": 800,
+          "height": 1200,
+          "format": "portrait",
+          "size": "S",
+          "palette": "aqua",
+          "layout": "compact",
+          "background": "pattern",
+          "backgroundDesign": "auto",
+          "supporting": true,
+          "showSupporting": true,
+          "camera": null,
+          "composition": {
+            "index": 2,
+            "options": [
+              {
+                "strategy": "balanced",
+                "title": "На опоре",
+                "principle": "Центральное размещение наушников с компактным дополнением кошелька справа внизу",
+                "placement": "on-surface"
+              },
+              {
+                "strategy": "spacious",
+                "title": "Рядом",
+                "principle": "Смещение главной группы чуть выше с гармоничным расположением фона",
+                "placement": "beside"
+              },
+              {
+                "strategy": "diagonal",
+                "title": "Другой ракурс группы",
+                "principle": "Диагональное построение для создания динамики в квадратном формате",
+                "placement": "across"
+              }
+            ]
+          },
+          "layerRelations": [
+            {
+              "back": "imw1zp0wmt6w1yb",
+              "front": "imw1zp0wmmgxap1",
+              "reason": "Фоновый компаньон находится позади главной группы."
+            }
+          ],
+          "recipe": "auto",
+          "framing": "overview",
+          "focus": "headphones",
+          "query": "Личное пространство",
+          "scale": 1,
+          "items": [
+            {
+              "uid": "imw1zp0wmt6w1yb",
+              "assetId": "wallet",
+              "role": "background",
+              "x": 422.12,
+              "y": 853.93,
+              "rotation": 0,
+              "flipX": false,
+              "flipY": false,
+              "zone": "bottom-right",
+              "crop": "whole"
+            },
+            {
+              "uid": "imw1zp0wmmgxap1",
+              "assetId": "headphones",
+              "role": "main",
+              "x": 417.8,
+              "y": 490.38,
+              "rotation": 0,
+              "flipX": false,
+              "flipY": false,
+              "zone": "auto",
+              "crop": "whole"
+            }
+          ]
+        }
+      ]
+    }
+  }
+}
