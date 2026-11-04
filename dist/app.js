@@ -1,7 +1,7 @@
 /* The editor uses the exact prepared SVGs. All state is browser-local. */
 "use strict";
 const E=CompositionEngine,V=CompositionView,DATA=STUDIO_DATA;
-const STATIC_DEMO=globalThis.STUDIO_DEPLOYMENT?.mode==="static";
+const API=CompositionAPI.create(globalThis.STUDIO_DEPLOYMENT),STATIC_DEMO=API.mode==="static";
 const $=id=>document.getElementById(id);
 const SETTINGS_TABS=["scene","object"];
 function activateSettings(name,{focus=false}={}){
@@ -278,7 +278,7 @@ async function compose(query,{mode="compose"}={}){
  flushEnvironmentEdit();stopAI();
  if(mode==="compose"&&composeMode==="keywords"){composeKeywords(query);return}
  query=query.trim();if(!query){notify("Введите тему для иллюстрации.");$("query").focus();return}
- if(!aiConnected){$("match-status").dataset.error="true";$("match-status").textContent=STATIC_DEMO?"В этой демоверсии доступны подбор «По словам» и ручной редактор. Результаты Gemini можно посмотреть в отчётах в меню «Проект».":"Для Gemini запустите проект командой npm start. Подбор «По словам» доступен без сервера.";return}
+ if(!aiConnected){$("match-status").dataset.error="true";$("match-status").textContent=STATIC_DEMO?"В этой демоверсии доступны подбор «По словам» и ручной редактор. Результаты Gemini можно посмотреть в отчётах в меню «Проект».":API.mode==="remote"?"Не удалось подключиться к серверу Gemini. Попробуйте позже или выберите «По словам».":"Для Gemini запустите проект командой npm start. Подбор «По словам» доступен без сервера.";return}
  flushNumericEdit();
  const revision=sceneRevision,before=JSON.stringify(scene),base={...E.clone(scene),query,environmentPrompt:$("environment-query").value},id=++aiSequence;
  const controller=new AbortController();aiController=controller;aiBusy(true);
@@ -286,7 +286,7 @@ async function compose(query,{mode="compose"}={}){
  $("ai-stage").textContent=mode==="environment"?"Gemini подбирает окружение. Главная группа зафиксирована…":"Передаём тему и изображения ассетов. Gemini составляет план расположения…";
  $("match-status").dataset.error="false";$("match-status").textContent="Подбираем сцену с Gemini. Текущая композиция остаётся на холсте.";
  try{
-  const response=await fetch("/api/compose",{method:"POST",headers:{"Content-Type":"application/json"},body:JSON.stringify({query,scene:base,mode}),signal:controller.signal});
+  const response=await API.request("/api/compose",{method:"POST",headers:{"Content-Type":"application/json"},body:JSON.stringify({query,scene:base,mode}),signal:controller.signal});
   const result=await response.json();if(id!==aiSequence)return;
   if(!response.ok)throw new Error(result.error||"Не удалось получить план Gemini.");
   CompositionAI.validatePlan(result.plan,base,DATA,E,{mode});showAIResult(result);
@@ -342,18 +342,18 @@ $("show-ai-debug").addEventListener("change",()=>{$("ai-debug").hidden=!$("show-
 $("compose-mode").addEventListener("click",event=>{
  const button=event.target.closest("[data-mode]");if(!button)return;stopAI();composeMode=button.dataset.mode;
  $("compose-mode").querySelectorAll("button").forEach(b=>b.setAttribute("aria-pressed",String(b.dataset.mode===composeMode)));
- $("ai-connection").textContent=composeMode==="keywords"?"Без ИИ":aiConnected?"Gemini подключён":STATIC_DEMO?"Демоверсия":"Нужен npm start";aiBusy(false);
+ $("ai-connection").textContent=composeMode==="keywords"?"Без ИИ":aiConnected?"Gemini подключён":STATIC_DEMO?"Демоверсия":API.mode==="remote"?"Сервер недоступен":"Нужен npm start";aiBusy(false);
 });
 $("ai-prompt-details").addEventListener("toggle",async()=>{
  if(!$("ai-prompt-details").open||$("ai-prompt").dataset.loaded)return;
  if(STATIC_DEMO){$("ai-prompt").textContent=await(await fetch("composition-prompt.txt")).text();$("ai-prompt").dataset.loaded="true";return}
- try{const response=await fetch("/api/ai-prompt");if(!response.ok)throw new Error();const p=await response.json();$("ai-prompt").textContent=p.system+"\n\nФОРМАТ ОТВЕТА\n"+JSON.stringify(p.responseSchema,null,2)+"\n\nБИБЛИОТЕКА И ПРАВИЛА\n"+JSON.stringify(p.context,null,2);$("ai-prompt").dataset.loaded="true"}
+ try{const response=await API.request("/api/ai-prompt");if(!response.ok)throw new Error();const p=await response.json();$("ai-prompt").textContent=p.system+"\n\nФОРМАТ ОТВЕТА\n"+JSON.stringify(p.responseSchema,null,2)+"\n\nБИБЛИОТЕКА И ПРАВИЛА\n"+JSON.stringify(p.context,null,2);$("ai-prompt").dataset.loaded="true"}
  catch{$("ai-prompt").textContent="Промпт находится в prompts/composition-system.txt. Для просмотра здесь запустите npm start."}
 });
 async function checkAIConnection(){
  if(STATIC_DEMO){$("ai-connection").textContent="Без ИИ";$("compose-mode").querySelectorAll("button").forEach(b=>b.setAttribute("aria-pressed",String(b.dataset.mode===composeMode)));aiBusy(false);return}
- try{const response=await fetch("/api/ai-status");const status=await response.json();aiConnected=response.ok&&status.configured===true}catch{aiConnected=false}
- $("ai-connection").textContent=composeMode==="keywords"?"Без ИИ":aiConnected?"Gemini подключён":"Нужен npm start";
+ try{const response=await API.request("/api/ai-status");const status=await response.json();aiConnected=response.ok&&status.configured===true}catch{aiConnected=false}
+ $("ai-connection").textContent=composeMode==="keywords"?"Без ИИ":aiConnected?"Gemini подключён":API.mode==="remote"?"Сервер недоступен":"Нужен npm start";
 }
 checkAIConnection().then(renderSceneInfo);
 $("format").innerHTML=E.FORMATS.map(f=>'<option value="'+f.id+'">'+f.name+' · '+f.width+' × '+f.height+'</option>').join("")+'<option value="custom">Свой размер</option>';

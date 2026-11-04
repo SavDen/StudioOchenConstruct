@@ -5,6 +5,7 @@ import path from 'node:path';
 import { fileURLToPath } from 'node:url';
 import { createRequire } from 'node:module';
 import {readVisualCatalog} from './visual_catalog.mjs';
+import {createGatewayPolicy} from './gateway-policy.mjs';
 const require=createRequire(import.meta.url);
 const E=require('../dist/engine.js'),AI=require('../dist/ai-plan.js'),V=require('../dist/composition-view.js');
 export const ROOT=path.resolve(path.dirname(fileURLToPath(import.meta.url)),'..');
@@ -18,16 +19,16 @@ export async function readConfig(){
  return {...config,...process.env};
 }
 export function createStudioServer({config={},fetchImpl=fetch,visualCatalog=null}={}){
- let busy=0;const requests=[];
+ let busy=0;const requests=[],policy=createGatewayPolicy(config);
  return http.createServer({maxHeaderSize:16384,requestTimeout:30000,headersTimeout:15000},async(req,res)=>{
   const json=(status,body)=>{if(!res.destroyed){res.writeHead(status,{'Content-Type':'application/json; charset=utf-8','Cache-Control':'no-store','X-Content-Type-Options':'nosniff'});res.end(JSON.stringify(body))}};
   const controller=new AbortController();res.on('close',()=>{if(!res.writableFinished)controller.abort()});let timer,entered=false;
   try{
    const url=new URL(req.url,'http://localhost');
    if(url.pathname.startsWith('/api/')){
-    const hostname=(req.headers.host||'').replace(/:\d+$/,'');
-    if(!['localhost','127.0.0.1','[::1]'].includes(hostname))return json(403,{error:'Доступ к API разрешён только с локального адреса.'});
-    if(req.headers.origin&&req.headers.origin!=='http://'+req.headers.host)return json(403,{error:'Запрос с другого сайта запрещён.'});
+    const access=policy.authorize(req,res);
+    if(!access.ok)return json(403,{error:'Запрос с этого адреса запрещён.'});
+    if(access.preflight){res.writeHead(204);res.end();return}
     const configured=Boolean(config.GEMINI_PROXY_URL&&config.GEMINI_PROXY_TOKEN);
     if(req.method==='GET'&&url.pathname==='/api/ai-status')return json(200,{configured,vision:!!visualCatalog,model:config.GEMINI_MODEL||'gemini-flash-lite-latest'});
     if(req.method==='GET'&&url.pathname==='/api/ai-prompt')return json(200,{system,responseSchema:AI.responseSchema(data,E,E.createScene(),{staging:!!visualCatalog}),context:AI.brief('Ваш запрос',E.createScene(),data,E),visualCatalog:visualCatalog?{sourceHash:visualCatalog.sourceHash,sheetsPerSize:2}:null});
@@ -46,6 +47,7 @@ export function createStudioServer({config={},fetchImpl=fetch,visualCatalog=null
     const mode=input.mode||"compose";
     if(!["compose","environment"].includes(mode))return json(400,{error:"Неизвестный режим сборки."});
     if(mode==="environment"&&!base.items.some(i=>i.role==="main"))return json(400,{error:"Сначала добавьте главные предметы."});
+    if(access.public){const limit=policy.consume(req);if(!limit.ok){res.setHeader('Retry-After',String(limit.retryAfter));return json(429,{error:'Достигнут лимит демонстрационного API. Подождите и повторите запрос.'})}}
     while(requests.length&&requests[0]<Date.now()-60000)requests.shift();
     if(busy>=2||requests.length>=12)return json(429,{error:'Слишком много запросов. Подождите минуту и повторите.'});
     busy++;requests.push(Date.now());entered=true;timer=setTimeout(()=>controller.abort(),125000);
@@ -77,6 +79,7 @@ export function createStudioServer({config={},fetchImpl=fetch,visualCatalog=null
     let plan,result,variants,collection=null;try{let decoded=JSON.parse(raw.text);if(vision)decoded=AI.hydrateVisualPlan(decoded,base,E,{mode,data});if(vision&&decoded.status==='ready'&&!(mode==='environment'?decoded.environmentLayout:decoded.staging))throw Error('План Gemini не принят: отсутствует план размещения');plan=AI.validatePlan(decoded,base,data,E,{mode});if(mode==="environment"){result=AI.applyEnvironment(plan,base,data,E);variants=null}else if(base.sizing==="native"){collection=AI.buildCollection(plan,base,data,E);variants=collection?V.scenesFor(collection):[];result=collection?V.current(collection):null}else{variants=AI.buildVariants(plan,base,data,E);result=variants[0]||null}}catch(error){return json(502,{error:/^(План Gemini|Не удалось|Главная группа|После коррекции|Внешний предмет|Предметы на одной опоре)/.test(error.message)?error.message:'Gemini вернул некорректный план. Сцена сохранена. Повторите запрос.'})}
     return json(200,{mode,plan,scene:result,variants,collection,vision,model:raw.model,usage:raw.usage,elapsedMs:Date.now()-started});
    }
+   if(config.AI_API_ONLY==='1')return json(404,{error:'Метод не найден.'});
    if(!['GET','HEAD'].includes(req.method))return json(405,{error:'Метод не поддерживается.'});
    const pathname=decodeURIComponent(url.pathname),review=pathname.startsWith('/reviews/'),baseDir=review?path.join(ROOT,'exports'):DIST,relative=review?pathname.slice('/reviews'.length):pathname,normalized=relative.endsWith('/')?relative+'index.html':relative,file=path.resolve(baseDir,'.'+normalized);
    if(!file.startsWith(baseDir+path.sep)||pathname.split('/').some(p=>p.startsWith('.')))return json(404,{error:'Файл не найден.'});
@@ -89,5 +92,5 @@ export function createStudioServer({config={},fetchImpl=fetch,visualCatalog=null
 }
 if(process.argv[1]===fileURLToPath(import.meta.url)){
  const config=await readConfig(),visualCatalog=await readVisualCatalog(),server=createStudioServer({config,visualCatalog}),port=Number(process.env.PORT||8000);
- server.listen(port,'127.0.0.1',()=>console.log(`Конструктор: http://localhost:${port}/ · Gemini ${config.GEMINI_PROXY_TOKEN?'подключён':'не настроен'}`));
+ server.listen(port,config.HOST||'127.0.0.1',()=>console.log(`Конструктор: http://localhost:${port}/ · Gemini ${config.GEMINI_PROXY_TOKEN?'подключён':'не настроен'}`));
 }

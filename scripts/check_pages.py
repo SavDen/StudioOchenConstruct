@@ -4,7 +4,7 @@ from html.parser import HTMLParser
 from urllib.parse import urlsplit, unquote
 import json
 import zipfile
-from build_pages import OUT, GALLERIES
+from build_pages import OUT, GALLERIES, deployment_settings
 
 
 class Links(HTMLParser):
@@ -49,7 +49,8 @@ for name in GALLERIES:
 for path in OUT.rglob("*"):
     if any(part in {".git", ".env", "node_modules", "responses", "upstream", "before"} for part in path.relative_to(OUT).parts):
         errors.append(f"Unexpected artifact: {path.relative_to(OUT)}")
-if "mode: 'static'" not in (OUT / "deployment.js").read_text():
-    errors.append("Static deployment configuration missing")
+settings = (OUT / "deployment.js").read_text().removeprefix("globalThis.STUDIO_DEPLOYMENT = ").strip().removesuffix(";")
+if json.loads(settings) != deployment_settings():
+    errors.append("Deployment configuration mismatch")
 print(json.dumps({"checkedLinks":checked,"svgCount":svg_count,"errors":errors}, ensure_ascii=False))
 raise SystemExit(bool(errors))

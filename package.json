@@ -10,7 +10,7 @@
     "check:pages": "python3 scripts/check_pages.py",
     "check:secrets": "python3 scripts/check_secrets.py",
     "preview:pages": "python3 -m http.server 8001 --bind 127.0.0.1 --directory _site",
-    "test": "node --test tests/engine.test.cjs tests/view.test.cjs tests/ai.test.mjs tests/native.test.cjs tests/formats.test.cjs tests/physical.test.cjs tests/backdrop.test.cjs tests/companions.test.cjs tests/staging.test.cjs",
+    "test": "node --test tests/engine.test.cjs tests/view.test.cjs tests/ai.test.mjs tests/native.test.cjs tests/formats.test.cjs tests/physical.test.cjs tests/backdrop.test.cjs tests/companions.test.cjs tests/staging.test.cjs tests/gateway.test.mjs",
     "build:vision": "node scripts/build_visual_catalog.mjs",
     "start": "node scripts/serve.mjs",
     "start:static": "python3 -m http.server 8000 --directory dist"

@@ -1,0 +1,16 @@
+**
+!dist/
+!dist/**
+!library/
+!library/manifest.json
+!library/palettes.json
+!library/vision/
+!library/vision/**
+!prompts/
+!prompts/**
+!scripts/
+!scripts/serve.mjs
+!scripts/visual_catalog.mjs
+!scripts/gateway-policy.mjs
+!deployment/
+!deployment/Dockerfile

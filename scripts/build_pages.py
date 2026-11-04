@@ -2,10 +2,24 @@
 from pathlib import Path
 import json
 import shutil
+from urllib.parse import urlsplit
 
 ROOT = Path(__file__).resolve().parents[1]
 OUT = ROOT / "_site"
 GALLERIES = ["metaphors-2026-11-04", "metaphors-directional-2026-11-04", "metaphors-refined-2026-11-04"]
+
+
+def deployment_settings():
+    file = ROOT / "deployment/pages.json"
+    config = json.loads(file.read_text()) if file.exists() else {"mode":"static"}
+    if config == {"mode":"static"}:
+        return config
+    if set(config) != {"mode", "apiBase"} or config["mode"] != "remote":
+        raise SystemExit("Invalid public Pages configuration")
+    url = urlsplit(config["apiBase"])
+    if url.scheme != "https" or not url.hostname or url.username or url.password or url.query or url.fragment:
+        raise SystemExit("Pages API requires a public HTTPS address without credentials")
+    return config
 
 
 def build():
@@ -19,7 +33,8 @@ def build():
             raise SystemExit("Unexpected symlink in dist")
         if file.is_file() and file.suffix in {".html", ".css", ".js", ".svg"}:
             shutil.copy2(file, OUT / file.name)
-    (OUT / "deployment.js").write_text("globalThis.STUDIO_DEPLOYMENT = {mode: 'static'};\n")
+    config = deployment_settings()
+    (OUT / "deployment.js").write_text("globalThis.STUDIO_DEPLOYMENT = "+json.dumps(config)+";\n")
     shutil.copy2(ROOT / "prompts/composition-system.txt", OUT / "composition-prompt.txt")
     (OUT / ".nojekyll").touch()
     links = []
@@ -40,7 +55,7 @@ def build():
     html = index.read_text()
     html = html.replace('<div class="project-popover">', '<div class="project-popover">'+"".join(links))
     index.write_text(html)
-    (OUT / "build-info.json").write_text(json.dumps({"mode":"static", "galleries":GALLERIES, "svgCount":scenes}, indent=2))
+    (OUT / "build-info.json").write_text(json.dumps({"mode":config["mode"], "galleries":GALLERIES, "svgCount":scenes}, indent=2))
     print(json.dumps({"directory":str(OUT), "galleries":len(GALLERIES), "svgCount":scenes}))
 
 
