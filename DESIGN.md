@@ -149,3 +149,7 @@ V13 verification:65 automated tests passed. A real Gemini response supplied thre
 
 ## Automatic main-object succession
 Hiding the only visible main object promotes the first visible object below it in the displayed layer list. Hidden layers and globally hidden background objects are skipped. If there is no visible lower layer, the nearest visible upper layer is used. Promotion changes role and focus without rearranging item coordinates, transforms or layer order. Focus framing follows the new main object through the camera only. The visibility change and promotion are one undo action. If another main object remains visible, no promotion occurs; if nothing remains visible, no hidden layer is revealed. Restoring a hidden main object retains its stored role.
+
+
+## Inspector simplification · 4 November 2026
+The requested Arrangement, Environment, semantic-focus and framing blocks are removed from the Composition inspector. Palette import, backdrop, format/S/L, layers and object editing retain the incumbent visual tokens and behavior. This supersedes older descriptions of those removed controls; the composition engine and independent demonstration page are unchanged.

@@ -29,12 +29,12 @@ const ICONS={"grid":"<rect x=\"3\" y=\"3\" width=\"7\" height=\"7\" rx=\"1.5\"/>
 const icon=name=>'<svg class="icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">'+ICONS[name]+'</svg>';
 const STORAGE_KEY="svg-composition-studio-v1";
 const LAYOUT_STORAGE_KEY="svg-composition-layouts-v1";
-let scene,selected=null,past=[],future=[],variation=0,showGuide=true,drag=null,rotationSession=null,numericSession=null,toastTimer=null;
+let scene,selected=null,past=[],future=[],showGuide=true,drag=null,rotationSession=null,numericSession=null,toastTimer=null;
 let recognition=null;
 const CUSTOM_PALETTE_KEY="svg-composition-custom-palette-v1";let importedPalette=null;
 try{const saved=localStorage.getItem(CUSTOM_PALETTE_KEY);if(saved)importedPalette=PALETTE.normalize(JSON.parse(saved))}catch{}
 let composeMode=STATIC_DEMO?"keywords":"gemini",aiConnected=false,aiController=null,aiSequence=0;
-let variantMemory=null,environmentSession=null,migratedSizing=false,sceneRevision=0;
+let variantMemory=null,migratedSizing=false,sceneRevision=0;
 let savedLayouts=Object.create(null);
 try{const stored=JSON.parse(localStorage.getItem(LAYOUT_STORAGE_KEY)||"{}");if(stored&&typeof stored==="object"&&!Array.isArray(stored)&&Object.keys(stored).length<=24)savedLayouts=Object.assign(Object.create(null),stored)}catch{}
 function nativeScene(input){
@@ -93,18 +93,7 @@ function useSavedLayout(next){
  if(!template||next.sizing==="native"&&template.sizing!=="native")return next;
  try{const applied=E.applyTemplate(next,template,DATA);if(template.rulesVersion!==E.RULES.version||template.key!==key){savedLayouts[key]=E.captureTemplate(applied,DATA);delete savedLayouts[legacyKey];persistLayouts()}return applied}catch{delete savedLayouts[key];persistLayouts();notify("Сохранённая раскладка повреждена. Использованы опорные позиции.");return next}
 }
-function arrangeScene(next,options={}){const index=scene.composition?.index||0;return useSavedLayout(E.arrange(next,DATA,{variation:index,placement:scene.composition?.options[index]?.placement,...options}))}
-function deselect(){flushEnvironmentEdit();flushNumericEdit();selected=null;activateSettings("scene");renderCanvas();renderLayers();renderSelection()}
-function nextVariant(){
- flushEnvironmentEdit(); if(!scene.items.length&&!variantMemory)return;
- flushNumericEdit();
- try{
-  const memory=variantMemory||V.createCollection(scene,DATA,E);
-  const index=(memory.index+1)%3,nextMemory=V.selectVariant(memory,scene,index,DATA,E);
-  const next=V.current(nextMemory);
-  commit(next,{memory:nextMemory,select:null,message:"Вариант "+(index+1)+" из 3. Его правки восстановлены."});
- }catch(error){notify(error.message)}
-}
+function deselect(){flushNumericEdit();selected=null;activateSettings("scene");renderCanvas();renderLayers();renderSelection()}
 function record(before){
  const memory=variantMemory?V.remember(variantMemory,before,DATA,E):null;
  past.push({scene:E.clone(before),memory});if(past.length>60)past.shift();future=[];
@@ -114,7 +103,7 @@ function constrainEdit(before,next,uid){
  try{return E.REFERENCE.PHYSICS.constrain(next,DATA,E,{movable:uid?[...E.attachedGroup(before,DATA,uid)]:null})}catch(error){notify(error.message);return E.clone(before)}
 }
 function commit(next,{message=null,select=selected,history=true,memory=undefined,variants=undefined,collection=undefined,syncPlacement=false,appearanceOnly=false}={}){
- flushEnvironmentEdit();flushNumericEdit();
+ flushNumericEdit();
  try{
   next=refreshCompositionCopy(E.validateScene(next,DATA));
   if(!appearanceOnly&&next.sizing==="native"&&E.layoutIssues(next,DATA).length)next=E.REFERENCE.PHYSICS.constrain(next,DATA,E,{movable:select?[...E.attachedGroup(next,DATA,select)]:null});
@@ -191,19 +180,10 @@ function renderSelection(){
  }
 }
 function renderSceneInfo(){
- const composition=scene.composition||{index:0,options:V.DEFAULTS},current=composition.options[composition.index];
- $("variant-counter").textContent=(composition.index+1)+" / 3";$("arrange-label").textContent="Пересобрать · "+(composition.index+1)+" / 3";$("arrange").disabled=!scene.items.length&&!variantMemory;
- $("variant-title").textContent=current.title;$("variant-principle").textContent=E.REFERENCE.STAGING.viewFor(scene,composition.index)?.principle||current.principle;
- $("execution-notes").hidden=!(scene.executionNotes||[]).length;$("execution-notes").textContent=(scene.executionNotes||[]).join(' ');
  $("format-principle").textContent=E.REFERENCE.planFor(scene).principle;
  $("format-options").querySelectorAll("[data-format]").forEach(b=>b.setAttribute("aria-pressed",String(b.dataset.format===scene.format)));
  $("native-canvas").textContent="Холст под набор "+scene.size+" · "+(scene.size==="S"?500:1000)+" × "+(scene.size==="S"?500:1000);
- $("compose-environment").disabled=!!aiController||!aiConnected||!scene.items.some(i=>i.role==="main");
- $("environment-explanation").replaceChildren(...(scene.environmentExplanation||[]).map(text=>{const li=document.createElement("li");li.textContent=text;return li}));
  const description=E.sceneDescription(scene,DATA),hasSaved=Boolean(savedLayouts[E.templateKey(scene)]);
- const automatic=E.focusFor({...scene,focus:"auto"}),ids=[...new Set(scene.items.map(i=>i.assetId))];
- $("focus").innerHTML='<option value="auto">Авто'+(automatic?' · '+E.escapeXml(asset(automatic.assetId).name):'')+'</option>'+ids.map(id=>'<option value="'+id+'">'+E.escapeXml(asset(id).name)+'</option>').join("");
- $("focus").value=scene.focus;$("focus").disabled=!ids.length;$("framing").value=scene.framing;
  $("scene-context").textContent=scene.items.length?description.name:"Новая композиция";
  $("scene-context").dataset.recipe=E.recipeFor(scene).id;
  $("scene-reason").textContent=scene.items.length?description.text:"Выберите предметы или введите тему. Их положение можно будет настроить и запомнить.";
@@ -238,9 +218,8 @@ function renderBackdrop(){
 }
 function renderAll(){
  if(document.activeElement!==$("query"))$("query").value=scene.query;
- $("supporting").checked=scene.showSupporting;$("format").value=scene.format;$("layout").value=scene.layout;$("background").value=scene.background;
+ $("format").value=scene.format;$("background").value=scene.background;
  $("size-control").querySelectorAll("button").forEach(b=>b.setAttribute("aria-pressed",String(b.dataset.value===scene.size)));
- if(document.activeElement!==$("environment-query"))$("environment-query").value=scene.environmentPrompt||"";
  if(document.activeElement!==$("canvas-width"))$("canvas-width").value=scene.width;
  if(document.activeElement!==$("canvas-height"))$("canvas-height").value=scene.height;
  $("undo").disabled=!past.length;$("redo").disabled=!future.length;
@@ -255,8 +234,8 @@ function renderAll(){
 function composeKeywords(query){
  $("ai-stage").textContent="Подбор по словам: Gemini не вызывался.";$("ai-stage").dataset.error="false";$("ai-result").hidden=true;$("ai-json-details").hidden=true;
  try{
- const before={...scene,supporting:true,environmentPrompt:$("environment-query").value};
- const result=E.generate(query,before,DATA,{variation:0});recognition=result.result;variation=0;
+ const before={...scene,supporting:true};
+ const result=E.generate(query,before,DATA,{variation:0});recognition=result.result;
  if(!result.scene){renderAll();$("query").value=query;notify("Нет совпадений. Попробуйте «книга», «лампа» или «финансы».");return}
  const initial=result.scene;initial.composition={index:0,options:V.DEFAULTS.map(i=>({...i}))};commit(useSavedLayout(initial),{select:null,collection:V.createCollection(initial,DATA,E)});
  }catch(error){
@@ -264,8 +243,6 @@ function composeKeywords(query){
  }
 }
 function aiBusy(busy){
- $("compose-environment").disabled=busy||!aiConnected||!scene.items.some(i=>i.role==="main");
- $("compose-environment").textContent=busy?"Gemini подбирает…":"Обновить окружение";
  $("compose-submit").disabled=busy;$("compose-form").setAttribute("aria-busy",String(busy));$("ai-cancel").hidden=!busy;
  $("compose-label").textContent=busy?"Gemini подбирает…":composeMode==="gemini"?"Собрать с Gemini":"Собрать по словам";
  $("ai-debug").dataset.busy=String(busy);
@@ -280,16 +257,16 @@ function showAIResult(result){
  $("ai-meta").textContent=[result.model,result.vision?'Визуальный каталог и план размещения':null,typeof result.elapsedMs==="number"?(result.elapsedMs/1000).toLocaleString("ru",{maximumFractionDigits:1})+" с":null,result.usage?.totalTokenCount?result.usage.totalTokenCount+" токенов":null].filter(Boolean).join(" · ");
  $("ai-json-details").hidden=false;$("ai-json").textContent=JSON.stringify(p,null,2);
 }
-async function compose(query,{mode="compose"}={}){
- flushEnvironmentEdit();stopAI();
- if(mode==="compose"&&composeMode==="keywords"){composeKeywords(query);return}
+async function compose(query){
+ stopAI();
+ if(composeMode==="keywords"){composeKeywords(query);return}
  query=query.trim();if(!query){notify("Введите тему для иллюстрации.");$("query").focus();return}
  if(!aiConnected){$("match-status").dataset.error="true";$("match-status").textContent=STATIC_DEMO?"В этой демоверсии доступны подбор «По словам» и ручной редактор. Результаты Gemini можно посмотреть в отчётах в меню «Проект».":API.mode==="remote"?"Не удалось подключиться к серверу Gemini. Попробуйте позже или выберите «По словам».":"Для Gemini запустите проект командой npm start. Подбор «По словам» доступен без сервера.";return}
  flushNumericEdit();
- const revision=sceneRevision,before=JSON.stringify(scene),base={...E.clone(scene),query,environmentPrompt:$("environment-query").value},id=++aiSequence;
+ const mode="compose",revision=sceneRevision,before=JSON.stringify(scene),base={...E.clone(scene),query},id=++aiSequence;
  const controller=new AbortController();aiController=controller;aiBusy(true);
  $("ai-result").hidden=true;$("ai-json-details").hidden=true;$("ai-stage").dataset.error="false";
- $("ai-stage").textContent=mode==="environment"?"Gemini подбирает окружение. Главная группа зафиксирована…":"Передаём тему и изображения ассетов. Gemini составляет план расположения…";
+ $("ai-stage").textContent="Передаём тему и изображения ассетов. Gemini составляет план расположения…";
  $("match-status").dataset.error="false";$("match-status").textContent="Подбираем сцену с Gemini. Текущая композиция остаётся на холсте.";
  try{
   const response=await API.request("/api/compose",{method:"POST",headers:{"Content-Type":"application/json"},body:JSON.stringify({query,scene:base,mode}),signal:controller.signal});
@@ -300,35 +277,19 @@ async function compose(query,{mode="compose"}={}){
    $("ai-stage").textContent="В библиотеке недостаточно подходящих предметов. Текущая сцена сохранена.";
    $("match-status").dataset.error="true";$("match-status").textContent=result.plan.limitations.join(" ")||result.plan.title;return;
   }
-  if(sceneRevision!==revision||JSON.stringify(scene)!==before||(mode==="compose"&&$("query").value.trim()!==query)||$("environment-query").value!==base.environmentPrompt){
+  if(sceneRevision!==revision||JSON.stringify(scene)!==before||$("query").value.trim()!==query){
    $("ai-stage").textContent="План готов, но сцена уже изменилась. Нажмите «Собрать с Gemini», чтобы применить новый запрос.";return;
   }
   const next=E.validateScene(result.scene,DATA);if(next.query!==query)throw new Error("Получен ответ для другого запроса.");
-  recognition={items:result.plan.items,source:"gemini"};variation=0;
-  if(mode==="environment")commit(next,{message:"Окружение обновлено только в этом варианте. Главная группа сохранена."});
-  else commit(useSavedLayout(next),{select:null,collection:result.collection,variants:result.collection?undefined:result.variants});
-  $("ai-stage").textContent=mode==="environment"?"Окружение обновлено. Главные предметы остались на своих местах.":"Готовы три формата, по три варианта в каждом. Переключение без новых запросов к ИИ.";
+  recognition={items:result.plan.items,source:"gemini"};
+  commit(useSavedLayout(next),{select:null,collection:result.collection,variants:result.collection?undefined:result.variants});
+  $("ai-stage").textContent="Композиция готова. Три формата доступны без новых запросов к ИИ.";
  }catch(error){
   if(id!==aiSequence||error.name==="AbortError")return;
   $("ai-stage").dataset.error="true";$("ai-stage").textContent=error.message;
   $("match-status").dataset.error="true";$("match-status").textContent=error.message+" Текущая сцена сохранена.";
  }finally{if(id===aiSequence){aiController=null;aiBusy(false)}}
 }
-function flushEnvironmentEdit(){
- if(!environmentSession)return;const before=environmentSession;environmentSession=null;
- if(before.environmentPrompt!==scene.environmentPrompt){record(before);saveLocal();$("undo").disabled=!past.length;$("redo").disabled=!future.length}
-}
-$("environment-query").addEventListener("input",()=>{
- stopAI("Пожелания к окружению изменены. Предыдущий запрос остановлен.");
- if(!environmentSession)environmentSession=E.clone(scene);
- scene.environmentPrompt=$("environment-query").value;saveLocal();
-});
-$("environment-query").addEventListener("blur",flushEnvironmentEdit);
-$("compose-environment").addEventListener("click",()=>{
- if(!scene.items.some(i=>i.role==="main")){notify("Сначала добавьте главные предметы.");return}
- const query=scene.query||"Композиция: "+scene.items.filter(i=>i.role==="main").map(i=>asset(i.assetId).name).join(", ");
- compose(query,{mode:"environment"});
-});
 $("canvas-size-form").addEventListener("submit",event=>{
  event.preventDefault();const width=Number($("canvas-width").value),height=Number($("canvas-height").value);
  if(![width,height].every(n=>Number.isInteger(n)&&n>=256&&n<=4096)){notify("Ширина и высота — целые числа от 256 до 4096.");return}
@@ -339,7 +300,7 @@ $("native-canvas").addEventListener("click",()=>{
  resizeCanvas(side,side,"Холст под набор "+scene.size+". Положение предметов и кадр сохранены.");
 });
 function resizeCanvas(width,height,message){
- flushEnvironmentEdit();flushNumericEdit();
+ flushNumericEdit();
  try{commit(V.resizeCanvas(scene,width,height,DATA,E),{message})}catch(error){notify(error.message)}
 }
 $("ai-cancel").addEventListener("click",()=>{stopAI();$("match-status").textContent="Запрос остановлен. Можно изменить тему и повторить."});
@@ -363,7 +324,6 @@ async function checkAIConnection(){
 }
 checkAIConnection().then(renderSceneInfo);
 $("format").innerHTML=E.FORMATS.map(f=>'<option value="'+f.id+'">'+f.name+' · '+f.width+' × '+f.height+'</option>').join("")+'<option value="custom">Свой размер</option>';
-$("layout").innerHTML=E.LAYOUTS.map(l=>'<option value="'+l.id+'">'+l.name+'</option>').join("");
 $("compose-form").addEventListener("submit",e=>{e.preventDefault();compose($("query").value)});
 document.querySelector(".examples").addEventListener("click",e=>{const b=e.target.closest("[data-example]");if(!b)return;$("query").value=b.dataset.example;compose(b.dataset.example)});
 $("library-search").addEventListener("input",renderLibrary);
@@ -373,7 +333,7 @@ $("library-grid").addEventListener("click",e=>{
  const item={uid:E.uid(),assetId:b.dataset.add,role:"main",x:scene.width*.5,y:scene.height*.5,rotation:0};
  const next=E.clone(scene);next.items.push(item);
  if(next.items.length===1){const arranged=E.arrange(next,DATA);commit(arranged,{select:item.uid})}
- else commit(next,{select:item.uid,message:"Предмет добавлен. Переместите его или нажмите «Пересобрать»."});
+ else commit(next,{select:item.uid,message:"Предмет добавлен. Переместите его на холсте."});
  activateSettings("object");
 });
 function applyUserPalette(value){
@@ -396,19 +356,13 @@ $("size-control").addEventListener("click",e=>{
  try{commit(V.changeSize(scene,b.dataset.value,DATA,E),{message:"Набор "+b.dataset.value+". Геометрия главной группы проверена, SVG в масштабе 1:1."})}catch(error){notify(error.message)}
 });
 function switchFormat(format){
- flushEnvironmentEdit();flushNumericEdit();if(format===scene.format)return;
+ flushNumericEdit();if(format===scene.format)return;
  try{const memory=V.selectFormat(variantMemory,scene,format,DATA,E);commit(V.current(memory),{memory,select:null,message:"Формат восстановлен вместе с его правками. Gemini не вызывался."})}catch(error){notify(error.message)}
 }
 $("format-options").addEventListener("click",event=>{const b=event.target.closest("[data-format]");if(b)switchFormat(b.dataset.format)});
 $("format").addEventListener("change",()=>{
  if($("format").value==="custom"){$("canvas-width").focus();return}switchFormat($("format").value);
 });
-$("layout").addEventListener("change",()=>{variation=0;commit(arrangeScene({...scene,layout:$("layout").value}))});
-$("framing").addEventListener("change",()=>commit(V.reframe(scene,DATA,E,{framing:$("framing").value}),{message:"Изменён только кадр. Положение предметов сохранено."}));
-$("focus").addEventListener("change",()=>{
- commit(V.reframe(scene,DATA,E,{focus:$("focus").value,framing:"focus"}),{message:"Кадр перемещён к акценту без увеличения. Размеры предметов сохранены."});
-});
-$("arrange").addEventListener("click",nextVariant);
 $("remember-layout").addEventListener("click",()=>{
  if(!scene.items.length)return;
  flushNumericEdit();const template=E.captureTemplate(scene,DATA);savedLayouts[template.key]=template;
@@ -420,7 +374,6 @@ $("forget-layout").addEventListener("click",()=>{
 });
 $("background").addEventListener("change",()=>commit({...scene,background:$("background").value}));
 $("backdrop-options").addEventListener("click",event=>{const button=event.target.closest("[data-backdrop]");if(button)commit({...scene,background:"pattern",backgroundDesign:button.dataset.backdrop})});
-$("supporting").addEventListener("change",()=>commit({...scene,showSupporting:$("supporting").checked},{select:!$("supporting").checked&&selectedItem()?.role==="background"?null:selected,message:$("supporting").checked?"Фоновые предметы показаны.":"Фоновые предметы скрыты. Их можно вернуть этой же галочкой."}));
 $("toggle-guide").addEventListener("click",()=>{showGuide=!showGuide;renderCanvas()});
 $("layer-list").addEventListener("click",e=>{
  const eye=e.target.closest("[data-visibility]"),order=e.target.closest("[data-order]");
@@ -494,8 +447,8 @@ function layer(direction){
 }
 $("layer-up").addEventListener("click",()=>layer(1));$("layer-down").addEventListener("click",()=>layer(-1));
 function restoreSnapshot(snapshot){scene=E.clone(snapshot.scene);variantMemory=snapshot.memory?V.validateMemory(snapshot.memory,DATA,E):null;selected=null;recognition=null;saveLocal();renderAll()}
-function undo(){flushEnvironmentEdit();flushNumericEdit();if(!past.length)return;future.push(projectSnapshot());restoreSnapshot(past.pop())}
-function redo(){flushEnvironmentEdit();flushNumericEdit();if(!future.length)return;past.push(projectSnapshot());restoreSnapshot(future.pop())}
+function undo(){flushNumericEdit();if(!past.length)return;future.push(projectSnapshot());restoreSnapshot(past.pop())}
+function redo(){flushNumericEdit();if(!future.length)return;past.push(projectSnapshot());restoreSnapshot(future.pop())}
 $("undo").addEventListener("click",undo);$("redo").addEventListener("click",redo);
 function point(event){
  const m=$("artboard").getScreenCTM();if(!m)return null;
