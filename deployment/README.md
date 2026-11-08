@@ -28,3 +28,13 @@ AI_PUBLIC_HOST и AI_ALLOWED_ORIGINS задаются явно. Без них с
 Обновление 4 ноября 2026: релиз palette-f81f2f2ff618 добавляет серверную валидацию пользовательской палитры. Активный контейнер studio-ochen-palette-f81f2f2ff618 запущен с теми же ограничениями; Caddy переключён после healthcheck и проверки цветовых ролей. Конфигурация прокси и VPN сохранена, их ID и время запуска не изменились. Исходники релиза: /opt/studio-ochen-construct/releases/palette-f81f2f2ff618. Секреты остаются в серверном runtime.env.
 
 Для отката этого обновления запустите прежний контейнер studio-ochen-construct, дождитесь healthy, восстановите содержимое /opt/studio-ochen-construct/Caddyfile.before-palette-f81f2f2ff618 в существующий Caddyfile и выполните validate/reload. Прежний образ и контейнер сохранены. Затем восстановите соответствующую клиентскую версию: она должна поддерживать ту же схему палитры, что и backend.
+
+## Новый сервер — 8 ноября 2026
+
+Текущий публичный API: `https://gemini-186-243-168-143.sslip.io/studio-api`. Модель — `gemini-3.1-flash-lite`. На сервере работают `gemini-api`, `studio-ochen-construct` и `gemini-api-https`; исходный контейнер VPN сохранён без перезапуска.
+
+Исходники backend находятся в `/opt/studio-ochen-construct/releases/server-20261108`, конфигурация HTTPS и исходники прокси — в `/opt/gemini-proxy`. Ключ Google и токен прокси хранятся только в серверных файлах `proxy.env` и `runtime.env` с правами 600. Состояние существовавших контейнеров перед размещением сохранено в `/opt/studio-ochen-construct/baseline.json`.
+
+Внешние TCP-порты 80/443 принадлежат Caddy. Порты Node.js доступны только в отдельной сети Docker. Разрешённый браузерный origin остаётся `https://savden.github.io`; лимиты API и проверка исходных SVG сохранены.
+
+Проверка HTTPS, `/health` и `/studio-api/api/ai-status` проходит. При реальном обращении Google отвечает `User location is not supported for the API use.` с обоими проверенными ключами. Для генерации требуется доступный маршрут к Google из поддерживаемого региона; успешный healthcheck сам по себе этого не подтверждает.
