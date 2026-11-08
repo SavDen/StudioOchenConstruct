@@ -31,12 +31,10 @@ AI_PUBLIC_HOST и AI_ALLOWED_ORIGINS задаются явно. Без них с
 
 ## Новый сервер — 9 ноября 2026
 
-Текущий публичный API: `https://gemini-179-255-184-93.sslip.io/studio-api`. Модель — `gemini-3.1-flash-lite`. На новом сервере работают `gemini-api`, `studio-ochen-construct` и `gemini-api-https`; до размещения других контейнеров не было.
+Текущий публичный API: `https://gemini-66-248-207-90.sslip.io/studio-api`. Модель — `gemini-3.1-flash-lite`. На сервере работают `gemini-api`, `studio-ochen-construct` и `gemini-api-https`. Существующий контейнер `amnezia-awg2` сохранён с прежними ID, временем запуска и счётчиком перезапусков; VPN использует отдельный UDP-порт 40907.
 
-Исходники backend находятся в `/opt/studio-ochen-construct/releases/server-20261108`, конфигурация HTTPS и исходники прокси — в `/opt/gemini-proxy`. Ключ Google и токен прокси хранятся только в серверных файлах `proxy.env` и `runtime.env` с правами 600. Инвентаризация перед размещением сохранена в `/opt/studio-ochen-construct/baseline.json`.
+Исходники backend находятся в `/opt/studio-ochen-construct/releases/server-20261109`, конфигурация HTTPS и исходники прокси — в `/opt/gemini-proxy`. Ключ Google и токен прокси хранятся только в серверных файлах `proxy.env` и `runtime.env` с правами 600. Инвентаризация перед размещением сохранена в `/opt/studio-ochen-construct/baseline.json`.
 
-Внешние TCP-порты 80/443 обслуживает HAProxy. На 443 доступны одновременно SSH для управления сервером из AmneziaVPN и HTTPS Gemini: SSH направляется в существующий sshd на 22, TLS — в Caddy на `127.0.0.1:8443`. HTTP на 80 направляется в Caddy на `127.0.0.1:8080`. Caddy принимает исходный IP клиента через PROXY protocol только от шлюза своей сети Docker; лимиты API сохраняют работу по IP. Временный SSH на 2222 закрыт. Порты Node.js доступны только в отдельной сети Docker. Разрешённый браузерный origin — `https://savden.github.io`; проверка исходных SVG сохранена.
+Внешние TCP-порты 80/443 принадлежат Caddy, SSH доступен на 22. Порты Node.js доступны только в отдельной сети Docker. Разрешённый браузерный origin — `https://savden.github.io`; лимиты API и проверка исходных SVG сохранены.
 
-Проверены HTTPS, `/health`, `/studio-api/api/ai-status` и реальная генерация через публичный адрес: HTTP 200, девять сцен, ошибок геометрии нет. Контейнеры backend и прокси имеют статус healthy. Предыдущий сервер `186.243.168.143` больше не используется.
-
-Конфигурация общего порта — `/etc/haproxy/haproxy.cfg`; служба `haproxy` включена в автозапуск. Перед переключением проверены оба протокола на локальном порту 1443, затем внешний SSH-вход с паролем, HTTPS и реальная генерация. Резервная конфигурация и сценарий отката сохранены в `/opt/gemini-proxy/before-shared443-20261109`; прежний Caddy-контейнер остановлен и сохранён как `gemini-api-https-before-shared443-20261109`.
+Проверены HTTPS, `/health`, `/studio-api/api/ai-status`, обязательная авторизация прокси, запрет постороннего origin и реальная генерация через публичный адрес: HTTP 200, девять сцен, ошибок геометрии нет. Контейнеры backend и прокси имеют статус healthy. Предыдущий адрес `gemini-179-255-184-93.sslip.io` исключён из новой конфигурации Pages.
