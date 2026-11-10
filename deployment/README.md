@@ -29,12 +29,16 @@ AI_PUBLIC_HOST и AI_ALLOWED_ORIGINS задаются явно. Без них с
 
 Для отката этого обновления запустите прежний контейнер studio-ochen-construct, дождитесь healthy, восстановите содержимое /opt/studio-ochen-construct/Caddyfile.before-palette-f81f2f2ff618 в существующий Caddyfile и выполните validate/reload. Прежний образ и контейнер сохранены. Затем восстановите соответствующую клиентскую версию: она должна поддерживать ту же схему палитры, что и backend.
 
-## Новый сервер — 9 ноября 2026
+## Основной сервер — 10 ноября 2026
 
-Текущий публичный API: `https://gemini-66-248-207-90.sslip.io/studio-api`. Модель — `gemini-3.1-flash-lite`. На сервере работают `gemini-api`, `studio-ochen-construct` и `gemini-api-https`. Существующий контейнер `amnezia-awg2` сохранён с прежними ID, временем запуска и счётчиком перезапусков; VPN использует отдельный UDP-порт 40907.
+Текущий публичный API: `https://gemini-78-17-66-13.sslip.io/studio-api`. Модель — `gemini-3.1-flash-lite`. Для сервиса созданы отдельные контейнеры `gemini-api`, `studio-ochen-construct`, `gemini-api-https` и сеть `gemini-api-net` с лимитами CPU/RAM.
 
-Исходники backend находятся в `/opt/studio-ochen-construct/releases/server-20261109`, конфигурация HTTPS и исходники прокси — в `/opt/gemini-proxy`. Ключ Google и токен прокси хранятся только в серверных файлах `proxy.env` и `runtime.env` с правами 600. Инвентаризация перед размещением сохранена в `/opt/studio-ochen-construct/baseline.json`.
+Apache обслуживает существующие проекты на TCP 80, Caddy публикует только TCP 443. Сертификат выпускается и продлевается через TLS-ALPN-01 на 443: в Caddyfile отключены HTTP challenge и автоматические HTTP-редиректы. Настройки Apache, его виртуальные хосты и backend-порты 8000/8765 сохранены. SSH остаётся доступен через `ssh ascserver`, порт 2222.
 
-Внешние TCP-порты 80/443 принадлежат Caddy, SSH доступен на 22. Порты Node.js доступны только в отдельной сети Docker. Разрешённый браузерный origin — `https://savden.github.io`; лимиты API и проверка исходных SVG сохранены.
+Исходники backend находятся в `/opt/studio-ochen-construct/releases/server-20261110`, конфигурация HTTPS и исходники прокси — в `/opt/gemini-proxy`. Ключ Google и токен прокси хранятся только в серверных файлах `proxy.env` и `runtime.env` с правами 600. Порты Node.js доступны только в сети Docker; разрешённый браузерный origin — `https://savden.github.io`.
 
-Проверены HTTPS, `/health`, `/studio-api/api/ai-status`, обязательная авторизация прокси, запрет постороннего origin и реальная генерация через публичный адрес: HTTP 200, девять сцен, ошибок геометрии нет. Контейнеры backend и прокси имеют статус healthy. Предыдущий адрес `gemini-179-255-184-93.sslip.io` исключён из новой конфигурации Pages.
+До и после размещения сравнены PID и время запуска `apache2`, `asc-tool`, `ipa-scope`, `antiai-newsbot`, `mariadb`, `php8.1-fpm`, хеши конфигураций Apache, HTTP-ответы действующих сайтов и backend. Изменений нет. Существующий VPN-контейнер `amnezia-awg2` сохранил ID, PID, время запуска и число перезапусков. Снимок сервисов сохранён в `/opt/studio-ochen-construct/existing-services-before.json`, контейнеров — в `/opt/studio-ochen-construct/baseline.json`.
+
+Проверены HTTPS, `/health`, `/studio-api/api/ai-status`, обязательная авторизация прокси, запрет постороннего origin и реальная генерация: HTTP 200, девять сцен, ошибок геометрии нет. Контейнеры backend и прокси имеют статус healthy.
+
+Предыдущий адрес `https://gemini-66-248-207-90.sslip.io/studio-api` сохранён для отката. Чтобы вернуть его в Pages, обновите `pages.json`, увеличьте версию `deployment.js` в `dist/index.html` и пересоберите сайт. Размещение Gemini на основном сервере можно остановить отдельно, не затрагивая Apache и существующие проекты.
