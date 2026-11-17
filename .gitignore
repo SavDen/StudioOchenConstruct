@@ -19,3 +19,6 @@ qa/*
 # Generated standalone browser editors (npm run build:interactive).
 dist/interactive-shell.js
 exports/demonstration-2026-11-04/interactive-*.svg
+
+# Rebuilt browser document for the curated delivery.
+exports/curated-2026-11-17/composition-browser.svg

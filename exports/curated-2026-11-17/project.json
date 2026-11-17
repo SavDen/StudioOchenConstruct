@@ -1,0 +1,1549 @@
+{
+  "type": "composition-project",
+  "version": 2,
+  "scene": {
+    "version": 1,
+    "sizing": "native",
+    "environmentPrompt": "",
+    "environmentExplanation": [
+      "Книга и ручка образуют главный акцент.",
+      "Лампа слева задаёт спокойный вертикальный ритм.",
+      "Наушники поддерживают тему сосредоточенной работы."
+    ],
+    "groups": [
+      {
+        "kind": "writing",
+        "members": [
+          "i-curated-book",
+          "i-curated-pen"
+        ],
+        "reason": "Ручка лежит на странице: мысль становится записью."
+      }
+    ],
+    "formatPlans": [],
+    "width": 1440,
+    "height": 1000,
+    "format": "custom",
+    "size": "S",
+    "palette": "custom",
+    "customPalette": {
+      "id": "custom",
+      "name": "Шалфей и абрикос",
+      "slots": {
+        "background.base": "#F3EEE4",
+        "object.primary": "#E9C38C",
+        "object.secondary": "#DF9578",
+        "object.tertiary": "#F3D3AD",
+        "background.mid": "#D4DED0",
+        "background.dark": "#8FA58E",
+        "ink": "#293B32",
+        "paper": "#FFFCF5"
+      }
+    },
+    "layout": "compact",
+    "background": "solid",
+    "backgroundDesign": "details",
+    "supporting": true,
+    "showSupporting": true,
+    "camera": null,
+    "composition": {
+      "index": 0,
+      "options": [
+        {
+          "strategy": "balanced",
+          "title": "В своём ритме",
+          "principle": "Книга и ручка — главный акцент. Наушники и силуэт лампы образуют спокойное рабочее окружение.",
+          "placement": "on-surface"
+        },
+        {
+          "strategy": "spacious",
+          "title": "Больше воздуха",
+          "principle": "Предметы сохраняют исходный размер; между смысловыми группами остаётся больше свободного места.",
+          "placement": "beside"
+        },
+        {
+          "strategy": "diagonal",
+          "title": "Диагональный ритм",
+          "principle": "Книга и ручка собирают главную диагональ; окружение поддерживает её у краёв кадра.",
+          "placement": "across"
+        }
+      ]
+    },
+    "layerRelations": [],
+    "recipe": "auto",
+    "framing": "overview",
+    "focus": "auto",
+    "query": "В своём ритме",
+    "scale": 1,
+    "items": [
+      {
+        "uid": "i-curated-lamp",
+        "assetId": "lamp",
+        "role": "background",
+        "x": 280,
+        "y": 420,
+        "rotation": 0,
+        "flipX": false,
+        "flipY": false
+      },
+      {
+        "uid": "i-curated-headphones",
+        "assetId": "headphones",
+        "role": "main",
+        "x": 1160,
+        "y": 300,
+        "rotation": 0,
+        "flipX": false,
+        "flipY": false
+      },
+      {
+        "uid": "i-curated-book",
+        "assetId": "book",
+        "role": "main",
+        "x": 780,
+        "y": 660,
+        "rotation": 0,
+        "flipX": false,
+        "flipY": false
+      },
+      {
+        "uid": "i-curated-pen",
+        "assetId": "pen",
+        "role": "main",
+        "x": 859.53,
+        "y": 571.98,
+        "rotation": -65,
+        "flipX": false,
+        "flipY": false,
+        "supportUid": "i-curated-book"
+      }
+    ]
+  },
+  "memory": {
+    "version": 2,
+    "format": "custom",
+    "index": 0,
+    "formats": {
+      "square": [
+        {
+          "version": 1,
+          "sizing": "native",
+          "environmentPrompt": "",
+          "environmentExplanation": [
+            "Книга и ручка образуют главный акцент.",
+            "Лампа слева задаёт спокойный вертикальный ритм.",
+            "Наушники поддерживают тему сосредоточенной работы."
+          ],
+          "groups": [
+            {
+              "kind": "writing",
+              "members": [
+                "i-curated-book",
+                "i-curated-pen"
+              ],
+              "reason": "Ручка лежит на странице: мысль становится записью."
+            }
+          ],
+          "formatPlans": [],
+          "width": 1000,
+          "height": 1000,
+          "format": "square",
+          "size": "S",
+          "palette": "custom",
+          "customPalette": {
+            "id": "custom",
+            "name": "Шалфей и абрикос",
+            "slots": {
+              "background.base": "#F3EEE4",
+              "object.primary": "#E9C38C",
+              "object.secondary": "#DF9578",
+              "object.tertiary": "#F3D3AD",
+              "background.mid": "#D4DED0",
+              "background.dark": "#8FA58E",
+              "ink": "#293B32",
+              "paper": "#FFFCF5"
+            }
+          },
+          "layout": "compact",
+          "background": "solid",
+          "backgroundDesign": "details",
+          "supporting": true,
+          "showSupporting": true,
+          "camera": null,
+          "composition": {
+            "index": 0,
+            "options": [
+              {
+                "strategy": "balanced",
+                "title": "В своём ритме",
+                "principle": "Книга и ручка — главный акцент. Наушники и силуэт лампы образуют спокойное рабочее окружение.",
+                "placement": "on-surface"
+              },
+              {
+                "strategy": "spacious",
+                "title": "Больше воздуха",
+                "principle": "Предметы сохраняют исходный размер; между смысловыми группами остаётся больше свободного места.",
+                "placement": "beside"
+              },
+              {
+                "strategy": "diagonal",
+                "title": "Диагональный ритм",
+                "principle": "Книга и ручка собирают главную диагональ; окружение поддерживает её у краёв кадра.",
+                "placement": "across"
+              }
+            ]
+          },
+          "layerRelations": [],
+          "recipe": "auto",
+          "framing": "overview",
+          "focus": "auto",
+          "query": "В своём ритме",
+          "scale": 1,
+          "items": [
+            {
+              "uid": "i-curated-lamp",
+              "assetId": "lamp",
+              "role": "background",
+              "x": 400,
+              "y": 37.400000000000006,
+              "rotation": 0,
+              "flipX": false,
+              "flipY": false
+            },
+            {
+              "uid": "i-curated-book",
+              "assetId": "book",
+              "role": "main",
+              "x": 540,
+              "y": 262.0058620689656,
+              "rotation": 0,
+              "flipX": false,
+              "flipY": false
+            },
+            {
+              "uid": "i-curated-headphones",
+              "assetId": "headphones",
+              "role": "main",
+              "x": 610,
+              "y": 640,
+              "rotation": 0,
+              "flipX": false,
+              "flipY": false
+            },
+            {
+              "uid": "i-curated-pen",
+              "assetId": "pen",
+              "role": "main",
+              "x": 467.7,
+              "y": 301.1258620689656,
+              "rotation": -65,
+              "flipX": false,
+              "flipY": false,
+              "supportUid": "i-curated-book"
+            }
+          ]
+        },
+        {
+          "version": 1,
+          "sizing": "native",
+          "environmentPrompt": "",
+          "environmentExplanation": [
+            "Книга и ручка образуют главный акцент.",
+            "Лампа слева задаёт спокойный вертикальный ритм.",
+            "Наушники поддерживают тему сосредоточенной работы."
+          ],
+          "groups": [
+            {
+              "kind": "writing",
+              "members": [
+                "i-curated-book",
+                "i-curated-pen"
+              ],
+              "reason": "Ручка лежит на странице: мысль становится записью."
+            }
+          ],
+          "formatPlans": [],
+          "width": 1000,
+          "height": 1000,
+          "format": "square",
+          "size": "S",
+          "palette": "custom",
+          "customPalette": {
+            "id": "custom",
+            "name": "Шалфей и абрикос",
+            "slots": {
+              "background.base": "#F3EEE4",
+              "object.primary": "#E9C38C",
+              "object.secondary": "#DF9578",
+              "object.tertiary": "#F3D3AD",
+              "background.mid": "#D4DED0",
+              "background.dark": "#8FA58E",
+              "ink": "#293B32",
+              "paper": "#FFFCF5"
+            }
+          },
+          "layout": "compact",
+          "background": "solid",
+          "backgroundDesign": "details",
+          "supporting": true,
+          "showSupporting": true,
+          "camera": null,
+          "composition": {
+            "index": 1,
+            "options": [
+              {
+                "strategy": "balanced",
+                "title": "В своём ритме",
+                "principle": "Книга и ручка — главный акцент. Наушники и силуэт лампы образуют спокойное рабочее окружение.",
+                "placement": "on-surface"
+              },
+              {
+                "strategy": "spacious",
+                "title": "Больше воздуха",
+                "principle": "Предметы сохраняют исходный размер; между смысловыми группами остаётся больше свободного места.",
+                "placement": "beside"
+              },
+              {
+                "strategy": "diagonal",
+                "title": "Диагональный ритм",
+                "principle": "Книга и ручка собирают главную диагональ; окружение поддерживает её у краёв кадра.",
+                "placement": "across"
+              }
+            ]
+          },
+          "layerRelations": [],
+          "recipe": "auto",
+          "framing": "overview",
+          "focus": "auto",
+          "query": "В своём ритме",
+          "scale": 1,
+          "items": [
+            {
+              "uid": "i-curated-lamp",
+              "assetId": "lamp",
+              "role": "background",
+              "x": 400,
+              "y": 37.400000000000006,
+              "rotation": 0,
+              "flipX": false,
+              "flipY": false
+            },
+            {
+              "uid": "i-curated-book",
+              "assetId": "book",
+              "role": "main",
+              "x": 515,
+              "y": 262.0058620689656,
+              "rotation": 0,
+              "flipX": false,
+              "flipY": false
+            },
+            {
+              "uid": "i-curated-headphones",
+              "assetId": "headphones",
+              "role": "main",
+              "x": 585,
+              "y": 640,
+              "rotation": 0,
+              "flipX": false,
+              "flipY": false
+            },
+            {
+              "uid": "i-curated-pen",
+              "assetId": "pen",
+              "role": "main",
+              "x": 324.99999999999994,
+              "y": 810,
+              "rotation": -65,
+              "flipX": false,
+              "flipY": false
+            }
+          ]
+        },
+        {
+          "version": 1,
+          "sizing": "native",
+          "environmentPrompt": "",
+          "environmentExplanation": [
+            "Книга и ручка образуют главный акцент.",
+            "Лампа слева задаёт спокойный вертикальный ритм.",
+            "Наушники поддерживают тему сосредоточенной работы."
+          ],
+          "groups": [
+            {
+              "kind": "writing",
+              "members": [
+                "i-curated-book",
+                "i-curated-pen"
+              ],
+              "reason": "Ручка лежит на странице: мысль становится записью."
+            }
+          ],
+          "formatPlans": [],
+          "width": 1000,
+          "height": 1000,
+          "format": "square",
+          "size": "S",
+          "palette": "custom",
+          "customPalette": {
+            "id": "custom",
+            "name": "Шалфей и абрикос",
+            "slots": {
+              "background.base": "#F3EEE4",
+              "object.primary": "#E9C38C",
+              "object.secondary": "#DF9578",
+              "object.tertiary": "#F3D3AD",
+              "background.mid": "#D4DED0",
+              "background.dark": "#8FA58E",
+              "ink": "#293B32",
+              "paper": "#FFFCF5"
+            }
+          },
+          "layout": "compact",
+          "background": "solid",
+          "backgroundDesign": "details",
+          "supporting": true,
+          "showSupporting": true,
+          "camera": null,
+          "composition": {
+            "index": 2,
+            "options": [
+              {
+                "strategy": "balanced",
+                "title": "В своём ритме",
+                "principle": "Книга и ручка — главный акцент. Наушники и силуэт лампы образуют спокойное рабочее окружение.",
+                "placement": "on-surface"
+              },
+              {
+                "strategy": "spacious",
+                "title": "Больше воздуха",
+                "principle": "Предметы сохраняют исходный размер; между смысловыми группами остаётся больше свободного места.",
+                "placement": "beside"
+              },
+              {
+                "strategy": "diagonal",
+                "title": "Диагональный ритм",
+                "principle": "Книга и ручка собирают главную диагональ; окружение поддерживает её у краёв кадра.",
+                "placement": "across"
+              }
+            ]
+          },
+          "layerRelations": [],
+          "recipe": "auto",
+          "framing": "overview",
+          "focus": "auto",
+          "query": "В своём ритме",
+          "scale": 1,
+          "items": [
+            {
+              "uid": "i-curated-lamp",
+              "assetId": "lamp",
+              "role": "background",
+              "x": 400,
+              "y": 37.400000000000006,
+              "rotation": 0,
+              "flipX": false,
+              "flipY": false
+            },
+            {
+              "uid": "i-curated-book",
+              "assetId": "book",
+              "role": "main",
+              "x": 640,
+              "y": 280,
+              "rotation": 0,
+              "flipX": false,
+              "flipY": false
+            },
+            {
+              "uid": "i-curated-headphones",
+              "assetId": "headphones",
+              "role": "main",
+              "x": 635,
+              "y": 640,
+              "rotation": 0,
+              "flipX": false,
+              "flipY": false
+            },
+            {
+              "uid": "i-curated-pen",
+              "assetId": "pen",
+              "role": "main",
+              "x": 668.92,
+              "y": 270.22,
+              "rotation": -65,
+              "flipX": false,
+              "flipY": false,
+              "supportUid": "i-curated-book"
+            }
+          ]
+        }
+      ],
+      "landscape": [
+        {
+          "version": 1,
+          "sizing": "native",
+          "environmentPrompt": "",
+          "environmentExplanation": [
+            "Книга и ручка образуют главный акцент.",
+            "Лампа слева задаёт спокойный вертикальный ритм.",
+            "Наушники поддерживают тему сосредоточенной работы."
+          ],
+          "groups": [
+            {
+              "kind": "writing",
+              "members": [
+                "i-curated-book",
+                "i-curated-pen"
+              ],
+              "reason": "Ручка лежит на странице: мысль становится записью."
+            }
+          ],
+          "formatPlans": [],
+          "width": 1200,
+          "height": 630,
+          "format": "landscape",
+          "size": "S",
+          "palette": "custom",
+          "customPalette": {
+            "id": "custom",
+            "name": "Шалфей и абрикос",
+            "slots": {
+              "background.base": "#F3EEE4",
+              "object.primary": "#E9C38C",
+              "object.secondary": "#DF9578",
+              "object.tertiary": "#F3D3AD",
+              "background.mid": "#D4DED0",
+              "background.dark": "#8FA58E",
+              "ink": "#293B32",
+              "paper": "#FFFCF5"
+            }
+          },
+          "layout": "compact",
+          "background": "solid",
+          "backgroundDesign": "details",
+          "supporting": true,
+          "showSupporting": true,
+          "camera": null,
+          "composition": {
+            "index": 0,
+            "options": [
+              {
+                "strategy": "balanced",
+                "title": "В своём ритме",
+                "principle": "Книга и ручка — главный акцент. Наушники и силуэт лампы образуют спокойное рабочее окружение.",
+                "placement": "on-surface"
+              },
+              {
+                "strategy": "spacious",
+                "title": "Больше воздуха",
+                "principle": "Предметы сохраняют исходный размер; между смысловыми группами остаётся больше свободного места.",
+                "placement": "beside"
+              },
+              {
+                "strategy": "diagonal",
+                "title": "Диагональный ритм",
+                "principle": "Книга и ручка собирают главную диагональ; окружение поддерживает её у краёв кадра.",
+                "placement": "across"
+              }
+            ]
+          },
+          "layerRelations": [],
+          "recipe": "auto",
+          "framing": "overview",
+          "focus": "auto",
+          "query": "В своём ритме",
+          "scale": 1,
+          "items": [
+            {
+              "uid": "i-curated-lamp",
+              "assetId": "lamp",
+              "role": "background",
+              "x": 336.00000000000006,
+              "y": 186.45,
+              "rotation": 0,
+              "flipX": false,
+              "flipY": false
+            },
+            {
+              "uid": "i-curated-book",
+              "assetId": "book",
+              "role": "main",
+              "x": 336.00000000000006,
+              "y": 252,
+              "rotation": 0,
+              "flipX": false,
+              "flipY": false
+            },
+            {
+              "uid": "i-curated-headphones",
+              "assetId": "headphones",
+              "role": "main",
+              "x": 768,
+              "y": 403.2,
+              "rotation": 0,
+              "flipX": false,
+              "flipY": false
+            },
+            {
+              "uid": "i-curated-pen",
+              "assetId": "pen",
+              "role": "main",
+              "x": 263.70000000000005,
+              "y": 291.12,
+              "rotation": -65,
+              "flipX": false,
+              "flipY": false,
+              "supportUid": "i-curated-book"
+            }
+          ]
+        },
+        {
+          "version": 1,
+          "sizing": "native",
+          "environmentPrompt": "",
+          "environmentExplanation": [
+            "Книга и ручка образуют главный акцент.",
+            "Лампа слева задаёт спокойный вертикальный ритм.",
+            "Наушники поддерживают тему сосредоточенной работы."
+          ],
+          "groups": [
+            {
+              "kind": "writing",
+              "members": [
+                "i-curated-book",
+                "i-curated-pen"
+              ],
+              "reason": "Ручка лежит на странице: мысль становится записью."
+            }
+          ],
+          "formatPlans": [],
+          "width": 1200,
+          "height": 630,
+          "format": "landscape",
+          "size": "S",
+          "palette": "custom",
+          "customPalette": {
+            "id": "custom",
+            "name": "Шалфей и абрикос",
+            "slots": {
+              "background.base": "#F3EEE4",
+              "object.primary": "#E9C38C",
+              "object.secondary": "#DF9578",
+              "object.tertiary": "#F3D3AD",
+              "background.mid": "#D4DED0",
+              "background.dark": "#8FA58E",
+              "ink": "#293B32",
+              "paper": "#FFFCF5"
+            }
+          },
+          "layout": "compact",
+          "background": "solid",
+          "backgroundDesign": "details",
+          "supporting": true,
+          "showSupporting": true,
+          "camera": null,
+          "composition": {
+            "index": 1,
+            "options": [
+              {
+                "strategy": "balanced",
+                "title": "В своём ритме",
+                "principle": "Книга и ручка — главный акцент. Наушники и силуэт лампы образуют спокойное рабочее окружение.",
+                "placement": "on-surface"
+              },
+              {
+                "strategy": "spacious",
+                "title": "Больше воздуха",
+                "principle": "Предметы сохраняют исходный размер; между смысловыми группами остаётся больше свободного места.",
+                "placement": "beside"
+              },
+              {
+                "strategy": "diagonal",
+                "title": "Диагональный ритм",
+                "principle": "Книга и ручка собирают главную диагональ; окружение поддерживает её у краёв кадра.",
+                "placement": "across"
+              }
+            ]
+          },
+          "layerRelations": [],
+          "recipe": "auto",
+          "framing": "overview",
+          "focus": "auto",
+          "query": "В своём ритме",
+          "scale": 1,
+          "items": [
+            {
+              "uid": "i-curated-lamp",
+              "assetId": "lamp",
+              "role": "background",
+              "x": 336.00000000000006,
+              "y": 186.45,
+              "rotation": 0,
+              "flipX": false,
+              "flipY": false
+            },
+            {
+              "uid": "i-curated-book",
+              "assetId": "book",
+              "role": "main",
+              "x": 336.00000000000006,
+              "y": 252,
+              "rotation": 0,
+              "flipX": false,
+              "flipY": false
+            },
+            {
+              "uid": "i-curated-headphones",
+              "assetId": "headphones",
+              "role": "main",
+              "x": 738,
+              "y": 403.2,
+              "rotation": 0,
+              "flipX": false,
+              "flipY": false
+            },
+            {
+              "uid": "i-curated-pen",
+              "assetId": "pen",
+              "role": "main",
+              "x": 389.99999999999994,
+              "y": 528.0408409855388,
+              "rotation": -65,
+              "flipX": false,
+              "flipY": false
+            }
+          ]
+        },
+        {
+          "version": 1,
+          "sizing": "native",
+          "environmentPrompt": "",
+          "environmentExplanation": [
+            "Книга и ручка образуют главный акцент.",
+            "Лампа слева задаёт спокойный вертикальный ритм.",
+            "Наушники поддерживают тему сосредоточенной работы."
+          ],
+          "groups": [
+            {
+              "kind": "writing",
+              "members": [
+                "i-curated-book",
+                "i-curated-pen"
+              ],
+              "reason": "Ручка лежит на странице: мысль становится записью."
+            }
+          ],
+          "formatPlans": [],
+          "width": 1200,
+          "height": 630,
+          "format": "landscape",
+          "size": "S",
+          "palette": "custom",
+          "customPalette": {
+            "id": "custom",
+            "name": "Шалфей и абрикос",
+            "slots": {
+              "background.base": "#F3EEE4",
+              "object.primary": "#E9C38C",
+              "object.secondary": "#DF9578",
+              "object.tertiary": "#F3D3AD",
+              "background.mid": "#D4DED0",
+              "background.dark": "#8FA58E",
+              "ink": "#293B32",
+              "paper": "#FFFCF5"
+            }
+          },
+          "layout": "compact",
+          "background": "solid",
+          "backgroundDesign": "details",
+          "supporting": true,
+          "showSupporting": true,
+          "camera": null,
+          "composition": {
+            "index": 2,
+            "options": [
+              {
+                "strategy": "balanced",
+                "title": "В своём ритме",
+                "principle": "Книга и ручка — главный акцент. Наушники и силуэт лампы образуют спокойное рабочее окружение.",
+                "placement": "on-surface"
+              },
+              {
+                "strategy": "spacious",
+                "title": "Больше воздуха",
+                "principle": "Предметы сохраняют исходный размер; между смысловыми группами остаётся больше свободного места.",
+                "placement": "beside"
+              },
+              {
+                "strategy": "diagonal",
+                "title": "Диагональный ритм",
+                "principle": "Книга и ручка собирают главную диагональ; окружение поддерживает её у краёв кадра.",
+                "placement": "across"
+              }
+            ]
+          },
+          "layerRelations": [],
+          "recipe": "auto",
+          "framing": "overview",
+          "focus": "auto",
+          "query": "В своём ритме",
+          "scale": 1,
+          "items": [
+            {
+              "uid": "i-curated-lamp",
+              "assetId": "lamp",
+              "role": "background",
+              "x": 336.00000000000006,
+              "y": 90.39999999999999,
+              "rotation": 0,
+              "flipX": false,
+              "flipY": false
+            },
+            {
+              "uid": "i-curated-book",
+              "assetId": "book",
+              "role": "main",
+              "x": 336.00000000000006,
+              "y": 252,
+              "rotation": 0,
+              "flipX": false,
+              "flipY": false
+            },
+            {
+              "uid": "i-curated-headphones",
+              "assetId": "headphones",
+              "role": "main",
+              "x": 798,
+              "y": 403.2,
+              "rotation": 0,
+              "flipX": false,
+              "flipY": false
+            },
+            {
+              "uid": "i-curated-pen",
+              "assetId": "pen",
+              "role": "main",
+              "x": 364.92,
+              "y": 242.22000000000003,
+              "rotation": -65,
+              "flipX": false,
+              "flipY": false,
+              "supportUid": "i-curated-book"
+            }
+          ]
+        }
+      ],
+      "portrait": [
+        {
+          "version": 1,
+          "sizing": "native",
+          "environmentPrompt": "",
+          "environmentExplanation": [
+            "Книга и ручка образуют главный акцент.",
+            "Лампа слева задаёт спокойный вертикальный ритм.",
+            "Наушники поддерживают тему сосредоточенной работы."
+          ],
+          "groups": [
+            {
+              "kind": "writing",
+              "members": [
+                "i-curated-book",
+                "i-curated-pen"
+              ],
+              "reason": "Ручка лежит на странице: мысль становится записью."
+            }
+          ],
+          "formatPlans": [],
+          "width": 800,
+          "height": 1200,
+          "format": "portrait",
+          "size": "S",
+          "palette": "custom",
+          "customPalette": {
+            "id": "custom",
+            "name": "Шалфей и абрикос",
+            "slots": {
+              "background.base": "#F3EEE4",
+              "object.primary": "#E9C38C",
+              "object.secondary": "#DF9578",
+              "object.tertiary": "#F3D3AD",
+              "background.mid": "#D4DED0",
+              "background.dark": "#8FA58E",
+              "ink": "#293B32",
+              "paper": "#FFFCF5"
+            }
+          },
+          "layout": "compact",
+          "background": "solid",
+          "backgroundDesign": "details",
+          "supporting": true,
+          "showSupporting": true,
+          "camera": null,
+          "composition": {
+            "index": 0,
+            "options": [
+              {
+                "strategy": "balanced",
+                "title": "В своём ритме",
+                "principle": "Книга и ручка — главный акцент. Наушники и силуэт лампы образуют спокойное рабочее окружение.",
+                "placement": "on-surface"
+              },
+              {
+                "strategy": "spacious",
+                "title": "Больше воздуха",
+                "principle": "Предметы сохраняют исходный размер; между смысловыми группами остаётся больше свободного места.",
+                "placement": "beside"
+              },
+              {
+                "strategy": "diagonal",
+                "title": "Диагональный ритм",
+                "principle": "Книга и ручка собирают главную диагональ; окружение поддерживает её у краёв кадра.",
+                "placement": "across"
+              }
+            ]
+          },
+          "layerRelations": [],
+          "recipe": "auto",
+          "framing": "overview",
+          "focus": "auto",
+          "query": "В своём ритме",
+          "scale": 1,
+          "items": [
+            {
+              "uid": "i-curated-lamp",
+              "assetId": "lamp",
+              "role": "background",
+              "x": 320,
+              "y": 49.400000000000006,
+              "rotation": 0,
+              "flipX": false,
+              "flipY": false
+            },
+            {
+              "uid": "i-curated-book",
+              "assetId": "book",
+              "role": "main",
+              "x": 432,
+              "y": 498.0058620689656,
+              "rotation": 0,
+              "flipX": false,
+              "flipY": false
+            },
+            {
+              "uid": "i-curated-headphones",
+              "assetId": "headphones",
+              "role": "main",
+              "x": 488,
+              "y": 876,
+              "rotation": 0,
+              "flipX": false,
+              "flipY": false
+            },
+            {
+              "uid": "i-curated-pen",
+              "assetId": "pen",
+              "role": "main",
+              "x": 359.7,
+              "y": 537.1258620689656,
+              "rotation": -65,
+              "flipX": false,
+              "flipY": false,
+              "supportUid": "i-curated-book"
+            }
+          ]
+        },
+        {
+          "version": 1,
+          "sizing": "native",
+          "environmentPrompt": "",
+          "environmentExplanation": [
+            "Книга и ручка образуют главный акцент.",
+            "Лампа слева задаёт спокойный вертикальный ритм.",
+            "Наушники поддерживают тему сосредоточенной работы."
+          ],
+          "groups": [
+            {
+              "kind": "writing",
+              "members": [
+                "i-curated-book",
+                "i-curated-pen"
+              ],
+              "reason": "Ручка лежит на странице: мысль становится записью."
+            }
+          ],
+          "formatPlans": [],
+          "width": 800,
+          "height": 1200,
+          "format": "portrait",
+          "size": "S",
+          "palette": "custom",
+          "customPalette": {
+            "id": "custom",
+            "name": "Шалфей и абрикос",
+            "slots": {
+              "background.base": "#F3EEE4",
+              "object.primary": "#E9C38C",
+              "object.secondary": "#DF9578",
+              "object.tertiary": "#F3D3AD",
+              "background.mid": "#D4DED0",
+              "background.dark": "#8FA58E",
+              "ink": "#293B32",
+              "paper": "#FFFCF5"
+            }
+          },
+          "layout": "compact",
+          "background": "solid",
+          "backgroundDesign": "details",
+          "supporting": true,
+          "showSupporting": true,
+          "camera": null,
+          "composition": {
+            "index": 1,
+            "options": [
+              {
+                "strategy": "balanced",
+                "title": "В своём ритме",
+                "principle": "Книга и ручка — главный акцент. Наушники и силуэт лампы образуют спокойное рабочее окружение.",
+                "placement": "on-surface"
+              },
+              {
+                "strategy": "spacious",
+                "title": "Больше воздуха",
+                "principle": "Предметы сохраняют исходный размер; между смысловыми группами остаётся больше свободного места.",
+                "placement": "beside"
+              },
+              {
+                "strategy": "diagonal",
+                "title": "Диагональный ритм",
+                "principle": "Книга и ручка собирают главную диагональ; окружение поддерживает её у краёв кадра.",
+                "placement": "across"
+              }
+            ]
+          },
+          "layerRelations": [],
+          "recipe": "auto",
+          "framing": "overview",
+          "focus": "auto",
+          "query": "В своём ритме",
+          "scale": 1,
+          "items": [
+            {
+              "uid": "i-curated-lamp",
+              "assetId": "lamp",
+              "role": "background",
+              "x": 320,
+              "y": 49.400000000000006,
+              "rotation": 0,
+              "flipX": false,
+              "flipY": false
+            },
+            {
+              "uid": "i-curated-book",
+              "assetId": "book",
+              "role": "main",
+              "x": 412,
+              "y": 498.0058620689656,
+              "rotation": 0,
+              "flipX": false,
+              "flipY": false
+            },
+            {
+              "uid": "i-curated-headphones",
+              "assetId": "headphones",
+              "role": "main",
+              "x": 468,
+              "y": 876,
+              "rotation": 0,
+              "flipX": false,
+              "flipY": false
+            },
+            {
+              "uid": "i-curated-pen",
+              "assetId": "pen",
+              "role": "main",
+              "x": 320,
+              "y": 972.0000000000001,
+              "rotation": -65,
+              "flipX": false,
+              "flipY": false
+            }
+          ]
+        },
+        {
+          "version": 1,
+          "sizing": "native",
+          "environmentPrompt": "",
+          "environmentExplanation": [
+            "Книга и ручка образуют главный акцент.",
+            "Лампа слева задаёт спокойный вертикальный ритм.",
+            "Наушники поддерживают тему сосредоточенной работы."
+          ],
+          "groups": [
+            {
+              "kind": "writing",
+              "members": [
+                "i-curated-book",
+                "i-curated-pen"
+              ],
+              "reason": "Ручка лежит на странице: мысль становится записью."
+            }
+          ],
+          "formatPlans": [],
+          "width": 800,
+          "height": 1200,
+          "format": "portrait",
+          "size": "S",
+          "palette": "custom",
+          "customPalette": {
+            "id": "custom",
+            "name": "Шалфей и абрикос",
+            "slots": {
+              "background.base": "#F3EEE4",
+              "object.primary": "#E9C38C",
+              "object.secondary": "#DF9578",
+              "object.tertiary": "#F3D3AD",
+              "background.mid": "#D4DED0",
+              "background.dark": "#8FA58E",
+              "ink": "#293B32",
+              "paper": "#FFFCF5"
+            }
+          },
+          "layout": "compact",
+          "background": "solid",
+          "backgroundDesign": "details",
+          "supporting": true,
+          "showSupporting": true,
+          "camera": null,
+          "composition": {
+            "index": 2,
+            "options": [
+              {
+                "strategy": "balanced",
+                "title": "В своём ритме",
+                "principle": "Книга и ручка — главный акцент. Наушники и силуэт лампы образуют спокойное рабочее окружение.",
+                "placement": "on-surface"
+              },
+              {
+                "strategy": "spacious",
+                "title": "Больше воздуха",
+                "principle": "Предметы сохраняют исходный размер; между смысловыми группами остаётся больше свободного места.",
+                "placement": "beside"
+              },
+              {
+                "strategy": "diagonal",
+                "title": "Диагональный ритм",
+                "principle": "Книга и ручка собирают главную диагональ; окружение поддерживает её у краёв кадра.",
+                "placement": "across"
+              }
+            ]
+          },
+          "layerRelations": [],
+          "recipe": "auto",
+          "framing": "overview",
+          "focus": "auto",
+          "query": "В своём ритме",
+          "scale": 1,
+          "items": [
+            {
+              "uid": "i-curated-lamp",
+              "assetId": "lamp",
+              "role": "background",
+              "x": 320,
+              "y": 49.400000000000006,
+              "rotation": 0,
+              "flipX": false,
+              "flipY": false
+            },
+            {
+              "uid": "i-curated-book",
+              "assetId": "book",
+              "role": "main",
+              "x": 452.00000000000006,
+              "y": 498.0058620689656,
+              "rotation": 0,
+              "flipX": false,
+              "flipY": false
+            },
+            {
+              "uid": "i-curated-headphones",
+              "assetId": "headphones",
+              "role": "main",
+              "x": 508,
+              "y": 876,
+              "rotation": 0,
+              "flipX": false,
+              "flipY": false
+            },
+            {
+              "uid": "i-curated-pen",
+              "assetId": "pen",
+              "role": "main",
+              "x": 480.9200000000001,
+              "y": 488.2258620689656,
+              "rotation": -65,
+              "flipX": false,
+              "flipY": false,
+              "supportUid": "i-curated-book"
+            }
+          ]
+        }
+      ],
+      "custom": [
+        {
+          "version": 1,
+          "sizing": "native",
+          "environmentPrompt": "",
+          "environmentExplanation": [
+            "Книга и ручка образуют главный акцент.",
+            "Лампа слева задаёт спокойный вертикальный ритм.",
+            "Наушники поддерживают тему сосредоточенной работы."
+          ],
+          "groups": [
+            {
+              "kind": "writing",
+              "members": [
+                "i-curated-book",
+                "i-curated-pen"
+              ],
+              "reason": "Ручка лежит на странице: мысль становится записью."
+            }
+          ],
+          "formatPlans": [],
+          "width": 1440,
+          "height": 1000,
+          "format": "custom",
+          "size": "S",
+          "palette": "custom",
+          "customPalette": {
+            "id": "custom",
+            "name": "Шалфей и абрикос",
+            "slots": {
+              "background.base": "#F3EEE4",
+              "object.primary": "#E9C38C",
+              "object.secondary": "#DF9578",
+              "object.tertiary": "#F3D3AD",
+              "background.mid": "#D4DED0",
+              "background.dark": "#8FA58E",
+              "ink": "#293B32",
+              "paper": "#FFFCF5"
+            }
+          },
+          "layout": "compact",
+          "background": "solid",
+          "backgroundDesign": "details",
+          "supporting": true,
+          "showSupporting": true,
+          "camera": null,
+          "composition": {
+            "index": 0,
+            "options": [
+              {
+                "strategy": "balanced",
+                "title": "В своём ритме",
+                "principle": "Книга и ручка — главный акцент. Наушники и силуэт лампы образуют спокойное рабочее окружение.",
+                "placement": "on-surface"
+              },
+              {
+                "strategy": "spacious",
+                "title": "Больше воздуха",
+                "principle": "Предметы сохраняют исходный размер; между смысловыми группами остаётся больше свободного места.",
+                "placement": "beside"
+              },
+              {
+                "strategy": "diagonal",
+                "title": "Диагональный ритм",
+                "principle": "Книга и ручка собирают главную диагональ; окружение поддерживает её у краёв кадра.",
+                "placement": "across"
+              }
+            ]
+          },
+          "layerRelations": [],
+          "recipe": "auto",
+          "framing": "overview",
+          "focus": "auto",
+          "query": "В своём ритме",
+          "scale": 1,
+          "items": [
+            {
+              "uid": "i-curated-lamp",
+              "assetId": "lamp",
+              "role": "background",
+              "x": 280,
+              "y": 420,
+              "rotation": 0,
+              "flipX": false,
+              "flipY": false
+            },
+            {
+              "uid": "i-curated-headphones",
+              "assetId": "headphones",
+              "role": "main",
+              "x": 1160,
+              "y": 300,
+              "rotation": 0,
+              "flipX": false,
+              "flipY": false
+            },
+            {
+              "uid": "i-curated-book",
+              "assetId": "book",
+              "role": "main",
+              "x": 780,
+              "y": 660,
+              "rotation": 0,
+              "flipX": false,
+              "flipY": false
+            },
+            {
+              "uid": "i-curated-pen",
+              "assetId": "pen",
+              "role": "main",
+              "x": 859.53,
+              "y": 571.98,
+              "rotation": -65,
+              "flipX": false,
+              "flipY": false,
+              "supportUid": "i-curated-book"
+            }
+          ]
+        },
+        {
+          "version": 1,
+          "sizing": "native",
+          "environmentPrompt": "",
+          "environmentExplanation": [
+            "Книга и ручка образуют главный акцент.",
+            "Лампа слева задаёт спокойный вертикальный ритм.",
+            "Наушники поддерживают тему сосредоточенной работы."
+          ],
+          "groups": [
+            {
+              "kind": "writing",
+              "members": [
+                "i-curated-book",
+                "i-curated-pen"
+              ],
+              "reason": "Ручка лежит на странице: мысль становится записью."
+            }
+          ],
+          "formatPlans": [],
+          "width": 1440,
+          "height": 1000,
+          "format": "custom",
+          "size": "S",
+          "palette": "custom",
+          "customPalette": {
+            "id": "custom",
+            "name": "Шалфей и абрикос",
+            "slots": {
+              "background.base": "#F3EEE4",
+              "object.primary": "#E9C38C",
+              "object.secondary": "#DF9578",
+              "object.tertiary": "#F3D3AD",
+              "background.mid": "#D4DED0",
+              "background.dark": "#8FA58E",
+              "ink": "#293B32",
+              "paper": "#FFFCF5"
+            }
+          },
+          "layout": "compact",
+          "background": "solid",
+          "backgroundDesign": "details",
+          "supporting": true,
+          "showSupporting": true,
+          "camera": null,
+          "composition": {
+            "index": 1,
+            "options": [
+              {
+                "strategy": "balanced",
+                "title": "В своём ритме",
+                "principle": "Книга и ручка — главный акцент. Наушники и силуэт лампы образуют спокойное рабочее окружение.",
+                "placement": "on-surface"
+              },
+              {
+                "strategy": "spacious",
+                "title": "Больше воздуха",
+                "principle": "Предметы сохраняют исходный размер; между смысловыми группами остаётся больше свободного места.",
+                "placement": "beside"
+              },
+              {
+                "strategy": "diagonal",
+                "title": "Диагональный ритм",
+                "principle": "Книга и ручка собирают главную диагональ; окружение поддерживает её у краёв кадра.",
+                "placement": "across"
+              }
+            ]
+          },
+          "layerRelations": [],
+          "recipe": "auto",
+          "framing": "overview",
+          "focus": "auto",
+          "query": "В своём ритме",
+          "scale": 1,
+          "items": [
+            {
+              "uid": "i-curated-lamp",
+              "assetId": "lamp",
+              "role": "background",
+              "x": 576,
+              "y": 37.400000000000006,
+              "rotation": 0,
+              "flipX": false,
+              "flipY": false
+            },
+            {
+              "uid": "i-curated-book",
+              "assetId": "book",
+              "role": "main",
+              "x": 741.6,
+              "y": 262.0058620689656,
+              "rotation": 0,
+              "flipX": false,
+              "flipY": false
+            },
+            {
+              "uid": "i-curated-headphones",
+              "assetId": "headphones",
+              "role": "main",
+              "x": 885.6,
+              "y": 640,
+              "rotation": 0,
+              "flipX": false,
+              "flipY": false
+            },
+            {
+              "uid": "i-curated-pen",
+              "assetId": "pen",
+              "role": "main",
+              "x": 467.99999999999994,
+              "y": 810,
+              "rotation": -65,
+              "flipX": false,
+              "flipY": false
+            }
+          ]
+        },
+        {
+          "version": 1,
+          "sizing": "native",
+          "environmentPrompt": "",
+          "environmentExplanation": [
+            "Книга и ручка образуют главный акцент.",
+            "Лампа слева задаёт спокойный вертикальный ритм.",
+            "Наушники поддерживают тему сосредоточенной работы."
+          ],
+          "groups": [
+            {
+              "kind": "writing",
+              "members": [
+                "i-curated-book",
+                "i-curated-pen"
+              ],
+              "reason": "Ручка лежит на странице: мысль становится записью."
+            }
+          ],
+          "formatPlans": [],
+          "width": 1440,
+          "height": 1000,
+          "format": "custom",
+          "size": "S",
+          "palette": "custom",
+          "customPalette": {
+            "id": "custom",
+            "name": "Шалфей и абрикос",
+            "slots": {
+              "background.base": "#F3EEE4",
+              "object.primary": "#E9C38C",
+              "object.secondary": "#DF9578",
+              "object.tertiary": "#F3D3AD",
+              "background.mid": "#D4DED0",
+              "background.dark": "#8FA58E",
+              "ink": "#293B32",
+              "paper": "#FFFCF5"
+            }
+          },
+          "layout": "compact",
+          "background": "solid",
+          "backgroundDesign": "details",
+          "supporting": true,
+          "showSupporting": true,
+          "camera": null,
+          "composition": {
+            "index": 2,
+            "options": [
+              {
+                "strategy": "balanced",
+                "title": "В своём ритме",
+                "principle": "Книга и ручка — главный акцент. Наушники и силуэт лампы образуют спокойное рабочее окружение.",
+                "placement": "on-surface"
+              },
+              {
+                "strategy": "spacious",
+                "title": "Больше воздуха",
+                "principle": "Предметы сохраняют исходный размер; между смысловыми группами остаётся больше свободного места.",
+                "placement": "beside"
+              },
+              {
+                "strategy": "diagonal",
+                "title": "Диагональный ритм",
+                "principle": "Книга и ручка собирают главную диагональ; окружение поддерживает её у краёв кадра.",
+                "placement": "across"
+              }
+            ]
+          },
+          "layerRelations": [],
+          "recipe": "auto",
+          "framing": "overview",
+          "focus": "auto",
+          "query": "В своём ритме",
+          "scale": 1,
+          "items": [
+            {
+              "uid": "i-curated-lamp",
+              "assetId": "lamp",
+              "role": "background",
+              "x": 576,
+              "y": 37.400000000000006,
+              "rotation": 0,
+              "flipX": false,
+              "flipY": false
+            },
+            {
+              "uid": "i-curated-book",
+              "assetId": "book",
+              "role": "main",
+              "x": 727.2,
+              "y": 280,
+              "rotation": 0,
+              "flipX": false,
+              "flipY": false
+            },
+            {
+              "uid": "i-curated-headphones",
+              "assetId": "headphones",
+              "role": "main",
+              "x": 957.6,
+              "y": 640,
+              "rotation": 0,
+              "flipX": false,
+              "flipY": false
+            },
+            {
+              "uid": "i-curated-pen",
+              "assetId": "pen",
+              "role": "main",
+              "x": 756.12,
+              "y": 270.22,
+              "rotation": -65,
+              "flipX": false,
+              "flipY": false,
+              "supportUid": "i-curated-book"
+            }
+          ]
+        }
+      ]
+    }
+  }
+}

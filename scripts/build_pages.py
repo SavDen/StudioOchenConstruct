@@ -62,6 +62,11 @@ def build():
     for name in ["svg", "projects"]:
         shutil.copytree(source / name, target / name)
     scenes += sum(len(case["outputs"]) for case in json.loads((source / "manifest.json").read_text())["cases"])
+    curated = ROOT / "exports/curated-2026-11-17"
+    target = OUT / "featured"
+    target.mkdir()
+    for name in ["composition-figma.svg", "composition-browser.svg", "svg-for-review.zip", "README.txt"]:
+        shutil.copy2(curated / name, target / name)
     index = OUT / "index.html"
     html = index.read_text()
     html = html.replace('<div class="project-popover">', '<div class="project-popover">'+"".join(links))

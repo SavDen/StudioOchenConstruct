@@ -22,3 +22,8 @@ with zipfile.ZipFile(source/'svg-for-review.zip','w',zipfile.ZIP_DEFLATED) as z:
  z.write(source/'composition-figma.svg','composition-figma.svg')
  z.write(source/('interactive-'+first['id']+'.svg'),'composition-browser.svg')
  z.writestr('README.txt','composition-figma.svg — чистая векторная композиция для импорта и редактирования в Figma.\ncomposition-browser.svg — интерактивный редактор: откройте файл отдельно в браузере (проверено в Chrome). Работает без интернета. Для сохранения правок скачайте новый «Интерактивный SVG». В Figma интерактивность не переносится.\nОба SVG показывают одну исходную композицию.\n')
+
+curated=root/'exports/curated-2026-11-17'
+with zipfile.ZipFile(curated/'svg-for-review.zip','w',zipfile.ZIP_DEFLATED) as z:
+ for name in ['composition-figma.svg','composition-browser.svg','README.txt']:
+  z.write(curated/name,name)
