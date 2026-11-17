@@ -57,7 +57,7 @@ def build():
     target.mkdir()
     examples = json.loads((source / "manifest.json").read_text())["cases"]
     standalone = ["interactive-" + case["id"] + ".svg" for case in examples]
-    for name in ["index.html", "manifest.json", "palette.json", "compositions.zip", "web-report.zip"] + standalone:
+    for name in ["index.html", "manifest.json", "palette.json", "compositions.zip", "web-report.zip", "composition-figma.svg", "svg-for-review.zip"] + standalone:
         shutil.copy2(source / name, target / name)
     for name in ["svg", "projects"]:
         shutil.copytree(source / name, target / name)

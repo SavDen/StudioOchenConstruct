@@ -40,5 +40,6 @@ for(const item of manifest.cases){
  // The same saved nine-scene project as the public demonstration; no model request.
  const svg=Export.create(project,D,E,shell);
  await fs.writeFile(path.join(demoRoot,'interactive-'+item.id+'.svg'),svg);
+ if(item===manifest.cases[0])await fs.writeFile(path.join(demoRoot,'composition-figma.svg'),E.exportSvg(project.scene,D));
 }
 console.log(JSON.stringify({shellBytes:Buffer.byteLength(html),examples:manifest.cases.length}));
