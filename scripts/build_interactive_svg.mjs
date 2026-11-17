@@ -42,8 +42,5 @@ for(const item of manifest.cases){
  await fs.writeFile(path.join(demoRoot,'interactive-'+item.id+'.svg'),svg);
  if(item===manifest.cases[0])await fs.writeFile(path.join(demoRoot,'composition-figma.svg'),E.exportSvg(project.scene,D));
 }
-const curatedDir=path.join(root,'exports/curated-2026-11-17');
-const curatedProject=JSON.parse(await fs.readFile(path.join(curatedDir,'project.json'),'utf8'));
-await fs.writeFile(path.join(curatedDir,'composition-figma.svg'),E.exportSvg(curatedProject.scene,D));
-await fs.writeFile(path.join(curatedDir,'composition-browser.svg'),Export.create(curatedProject,D,E,shell));
+// Featured delivery uses the supplied SVG files verbatim; do not regenerate them.
 console.log(JSON.stringify({shellBytes:Buffer.byteLength(html),examples:manifest.cases.length}));

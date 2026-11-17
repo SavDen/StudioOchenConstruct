@@ -1,6 +1,6 @@
-В своём ритме — композиция из исходной векторной библиотеки, 1440 × 1000.
+Финансы под контролем
+1000 x 1000, L.
 
-composition-figma.svg — чистый векторный файл для Figma: предметы сохранены отдельными группами.
-composition-browser.svg — тот же рисунок с автономным редактором внутри. Откройте отдельным файлом в браузере (проверено в Chrome). Можно двигать, поворачивать и отражать предметы, менять палитру, фон, S/L, размеры холста и слои. Для сохранения скачайте новый «Интерактивный SVG». В Figma интерактивность не переносится.
-
-Оба файла содержат одну и ту же исходную композицию.
+composition-figma.svg: original supplied clean vector file for Figma.
+composition-browser.svg: original supplied interactive file for opening directly in a browser.
+Both SVGs are published without modifications and contain the same vector artwork.
