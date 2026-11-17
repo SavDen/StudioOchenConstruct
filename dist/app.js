@@ -27,6 +27,7 @@ for(const name of SETTINGS_TABS){
 
 const ICONS={"grid":"<rect x=\"3\" y=\"3\" width=\"7\" height=\"7\" rx=\"1.5\"/><rect x=\"14\" y=\"3\" width=\"7\" height=\"7\" rx=\"1.5\"/><rect x=\"3\" y=\"14\" width=\"7\" height=\"7\" rx=\"1.5\"/><rect x=\"14\" y=\"14\" width=\"7\" height=\"7\" rx=\"1.5\"/>","download":"<path d=\"M12 3v12m-4-4 4 4 4-4\"/><path d=\"M4 16v4h16v-4\"/>","undo":"<path d=\"m8 4-5 5 5 5\"/><path d=\"M3 9h10a7 7 0 0 1 0 14\"/>","redo":"<path d=\"m16 4 5 5-5 5\"/><path d=\"M21 9H11a7 7 0 0 0 0 14\"/>","plus":"<path d=\"M12 5v14M5 12h14\"/>","copy":"<rect x=\"8\" y=\"8\" width=\"12\" height=\"13\" rx=\"2\"/><path d=\"M16 8V3H3v13h5\"/>","trash":"<path d=\"M3 6h18M9 6V3h6v3M6 6l1 15h10l1-15M10 10v7M14 10v7\"/>","up":"<path d=\"m6 14 6-6 6 6\"/>","down":"<path d=\"m6 10 6 6 6-6\"/>","rotate":"<path d=\"M3 10a9 9 0 1 1 2 9M3 3v7h7\"/>","search":"<circle cx=\"10.5\" cy=\"10.5\" r=\"6.5\"/><path d=\"m16 16 5 5\"/>","layers":"<path d=\"m12 3 10 6-10 6L2 9 12 3Zm-9 11 9 5 9-5m-18 5 9 5 9-5\"/>","file":"<path d=\"M14 2H5v20h14V7l-5-5Zm0 0v6h5M8 12h8M8 16h6\"/>","upload":"<path d=\"M12 17V3m-4 4 4-4 4 4M4 16v5h16v-5\"/>","close":"<path d=\"m6 6 12 12M6 18 18 6\"/>","arrow":"<path d=\"M4 12h16m-6-6 6 6-6 6\"/>","check":"<path d=\"m5 12 4 4L19 6\"/>"};
 const icon=name=>'<svg class="icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">'+ICONS[name]+'</svg>';
+const STANDALONE=Boolean(globalThis.STUDIO_INITIAL_PROJECT);
 const STORAGE_KEY="svg-composition-studio-v1";
 const LAYOUT_STORAGE_KEY="svg-composition-layouts-v1";
 let scene,selected=null,past=[],future=[],showGuide=true,drag=null,rotationSession=null,numericSession=null,toastTimer=null;
@@ -47,7 +48,7 @@ function nativeMemory(input){
  const memory=V.validateMemory(migrated,DATA,E);return V.upgradeMemory(V.current(memory),DATA,E,memory);
 }
 try{
- const saved=localStorage.getItem(STORAGE_KEY);
+ const saved=STANDALONE?JSON.stringify(globalThis.STUDIO_INITIAL_PROJECT):localStorage.getItem(STORAGE_KEY);
  if(saved){
   const stored=JSON.parse(saved);
   if(stored.type==="composition-project"){
@@ -83,7 +84,7 @@ function saveLocal({syncPlacement=false}={}){
  sceneRevision++;
  if(syncPlacement&&variantMemory)variantMemory=V.syncPlacement(variantMemory,scene,DATA,E);
  if(variantMemory){variantMemory=V.remember(variantMemory,scene,DATA,E);scene=E.clone(V.current(variantMemory))}
- try{localStorage.setItem(STORAGE_KEY,JSON.stringify(projectSnapshot()))}catch{}
+ if(!STANDALONE)try{localStorage.setItem(STORAGE_KEY,JSON.stringify(projectSnapshot()))}catch{}
 }
 function persistLayouts(){
  try{localStorage.setItem(LAYOUT_STORAGE_KEY,JSON.stringify(savedLayouts));return true}catch{return false}
@@ -313,7 +314,7 @@ $("compose-mode").addEventListener("click",event=>{
 });
 $("ai-prompt-details").addEventListener("toggle",async()=>{
  if(!$("ai-prompt-details").open||$("ai-prompt").dataset.loaded)return;
- if(STATIC_DEMO){$("ai-prompt").textContent=await(await fetch("composition-prompt.txt")).text();$("ai-prompt").dataset.loaded="true";return}
+ if(STATIC_DEMO){$("ai-prompt").textContent=globalThis.STUDIO_OFFLINE_PROMPT||await(await fetch("composition-prompt.txt")).text();$("ai-prompt").dataset.loaded="true";return}
  try{const response=await API.request("/api/ai-prompt");if(!response.ok)throw new Error();const p=await response.json();$("ai-prompt").textContent=p.system+"\n\nФОРМАТ ОТВЕТА\n"+JSON.stringify(p.responseSchema,null,2)+"\n\nБИБЛИОТЕКА И ПРАВИЛА\n"+JSON.stringify(p.context,null,2);$("ai-prompt").dataset.loaded="true"}
  catch{$("ai-prompt").textContent="Промпт находится в prompts/composition-system.txt. Для просмотра здесь запустите npm start."}
 });
@@ -485,8 +486,28 @@ function download(text,type,name){
  a.href=url;a.download=name;document.body.append(a);a.click();a.remove();setTimeout(()=>URL.revokeObjectURL(url),10000);
 }
 $("export").addEventListener("click",()=>{
+ flushNumericEdit();
  try{download(E.exportSvg(scene,DATA),"image/svg+xml;charset=utf-8","composition-"+scene.size+"-"+scene.width+"x"+scene.height+".svg");notify("SVG готов. Предметы сохранены отдельными векторными группами.")}
  catch(error){notify("Не удалось экспортировать: "+error.message)}
+});
+let interactiveShellRequest;
+async function loadInteractiveShell(){
+ if(globalThis.STUDIO_SVG_SHELL)return globalThis.STUDIO_SVG_SHELL;
+ if(!interactiveShellRequest)interactiveShellRequest=new Promise((resolve,reject)=>{
+  const script=document.createElement("script");script.src="interactive-shell.js?v=1";
+  script.onload=()=>globalThis.STUDIO_SVG_SHELL?resolve(globalThis.STUDIO_SVG_SHELL):reject(Error("Редактор не загрузился"));
+  script.onerror=()=>reject(Error("Не удалось загрузить редактор. Проверьте соединение и повторите."));document.head.append(script);
+ }).catch(error=>{interactiveShellRequest=null;throw error});
+ return interactiveShellRequest;
+}
+$("export-interactive").addEventListener("click",async()=>{
+ flushNumericEdit();const button=$("export-interactive"),snapshot=projectSnapshot();button.disabled=true;button.setAttribute("aria-busy","true");
+ try{
+  const shell=await loadInteractiveShell();
+  download(StudioInteractive.create(snapshot,DATA,E,shell),"image/svg+xml;charset=utf-8","composition-interactive-"+snapshot.scene.size+"-"+snapshot.scene.width+"x"+snapshot.scene.height+".svg");
+  notify("Интерактивный SVG сохранён. Откройте файл в браузере — редактор работает без интернета.");
+ }catch(error){notify("Не удалось сохранить: "+error.message)}
+ finally{button.disabled=false;button.removeAttribute("aria-busy")}
 });
 $("save-project").addEventListener("click",()=>{flushNumericEdit();download(JSON.stringify(projectSnapshot(),null,2),"application/json","composition-project.json");document.querySelector(".project-menu").open=false;notify("Проект и правки всех вариантов сохранены.")});
 $("load-project").addEventListener("click",()=>{$("project-file").click();document.querySelector(".project-menu").open=false});

@@ -6,14 +6,17 @@
     "check:baseline": "node scripts/check_generation_baseline.mjs",
     "report": "node scripts/build_submission_report.mjs",
     "build": "python3 scripts/build_data.py",
-    "build:pages": "python3 scripts/build_pages.py",
+    "build:pages": "node scripts/build_interactive_svg.mjs && python3 scripts/package_demonstration.py && python3 scripts/build_pages.py",
     "check:pages": "python3 scripts/check_pages.py",
     "check:secrets": "python3 scripts/check_secrets.py",
     "preview:pages": "python3 -m http.server 8001 --bind 127.0.0.1 --directory _site",
-    "test": "node --test tests/engine.test.cjs tests/view.test.cjs tests/ai.test.mjs tests/native.test.cjs tests/formats.test.cjs tests/physical.test.cjs tests/backdrop.test.cjs tests/companions.test.cjs tests/staging.test.cjs tests/gateway.test.mjs tests/palette.test.mjs",
+    "test": "node --test tests/engine.test.cjs tests/view.test.cjs tests/ai.test.mjs tests/native.test.cjs tests/formats.test.cjs tests/physical.test.cjs tests/backdrop.test.cjs tests/companions.test.cjs tests/staging.test.cjs tests/gateway.test.mjs tests/palette.test.mjs tests/standalone.test.cjs",
     "build:vision": "node scripts/build_visual_catalog.mjs",
     "start": "node scripts/serve.mjs",
-    "start:static": "python3 -m http.server 8000 --directory dist"
+    "start:static": "python3 -m http.server 8000 --directory dist",
+    "build:interactive": "node scripts/build_interactive_svg.mjs",
+    "prestart": "npm run build:interactive",
+    "prestart:static": "npm run build:interactive"
   },
   "devDependencies": {
     "sharp": "0.35.5"
